@@ -1,0 +1,19 @@
+{
+  "name": "vue-component-strap",
+  "version": "1.0.0",
+  "description": "vue-strap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moensun/vue-component-strap.git"
+  },
+  "author": "Bane.Shi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moensun/vue-component-strap/issues"
+  },
+  "homepage": "https://github.com/moensun/vue-component-strap#readme"
+}
