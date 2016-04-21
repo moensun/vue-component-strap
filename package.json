@@ -1,8 +1,8 @@
 {
   "name": "moensun-vue-component-strap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue-strap",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
