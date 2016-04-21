@@ -39,7 +39,6 @@ Time: 16:13-->
                 let me = this;
                 if(typeof me.item.isDisabled === 'function'){
                     let disabled = me.item.isDisabled(me.store,me.record);
-                    debugger;
                     if(disabled){
                         Vue.util.addClass(me.$el,"ms-grid-action-item-disabled");
                     }else {

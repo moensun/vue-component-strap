@@ -106,7 +106,10 @@ Time: 15:54-->
             },
             "dayItemClick":function () {
                 let me = this;
-                me.calendarShow = false;
+                if(!(me.multiple=="true")){
+                    me.calendarShow = false;
+                }
+
             },
             "onClose":function () {
                 let me = this;

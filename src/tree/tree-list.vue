@@ -7,7 +7,7 @@ Time: 23:40-->
 <template>
     <ul :class="{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }" >
         <li v-for="(index,item) in items">
-            <a :class="{'ms-open':item[expanded]}" v-link="{path:item[link]}" @click="toggle(index,item)">
+            <a :class="{'ms-open':item[expanded]}" v-link="item[router]" @click="toggle(index,item)">
                 {{item[text]}}
                 <i v-if="item[children]" class="glyphicon" :class="{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }"></i>
             </a>
@@ -39,10 +39,10 @@ Time: 23:40-->
                     return "children";
                 }
             },
-            link:{
+            router:{
                 type:String,
                 default:function(){
-                    return "link";
+                    return "path";
                 }
             },
             expanded:{

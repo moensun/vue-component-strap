@@ -9,9 +9,11 @@
 import "./css/style.css";
 import treeCombox from "./form/field/tree-combox.vue";
 import msDateField from "./form/field/date-field.vue";
+import msUeditorField from "./form/field/ueditor-field.vue";
 
 import msTreeList from "./tree/tree-list.vue";
 import treeView from "./tree/tree-view.vue";
+import msTreePanel from "./tree/panel.vue";
 
 import msGridPanel from "./grid/panel.vue";
 
@@ -23,8 +25,10 @@ import msConfirm from "./window/MessageBox/confirm.vue";
 module.exports = {
 	treeCombox,
 	msDateField,
+	msUeditorField,
 	msTreeList,
 	treeView,
+	msTreePanel,
 	msGridPanel,
 	msAlert,
 	msConfirm
