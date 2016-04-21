@@ -40,52 +40,52 @@ Time: 10:51-->
         <div class="ms-mouth" v-show="(viewType=='mouth')">
             <table>
                 <thead>
-                    <tr>
-                        <th>
-                            <button class="btn btn-sm btn-default" @click="previousYear()"><span class="glyphicon glyphicon-chevron-left"></span></button>
-                        </th>
-                        <th>
-                            <button class="btn btn-sm btn-default" @click="showYearView()">{{currentYear}}</button>
-                        </th>
-                        <th>
-                            <button class="btn btn-sm btn-default" @click="nextYear()"><span class="glyphicon glyphicon-chevron-right"></span></button>
-                        </th>
-                    </tr>
+                <tr>
+                    <th>
+                        <button class="btn btn-sm btn-default" @click="previousYear()"><span class="glyphicon glyphicon-chevron-left"></span></button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-default" @click="showYearView()">{{currentYear}}</button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-default" @click="nextYear()"><span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="(mouthIndex,mouthRow) in mouthArr">
-                        <td v-for="(mouthCellIndex,mouthCell) in mouthRow">
-                            <button type="button" class="btn btn-sm btn-default" @click="selectMouth(mouthIndex,mouthCellIndex)" :class="{'current-mouth':isCurrentMouth(mouthIndex,mouthCellIndex)}">
-                                <span>{{mouthCell}}</span>
-                            </button>
-                        </td>
-                    </tr>
+                <tr v-for="(mouthIndex,mouthRow) in mouthArr">
+                    <td v-for="(mouthCellIndex,mouthCell) in mouthRow">
+                        <button type="button" class="btn btn-sm btn-default" @click="selectMouth(mouthIndex,mouthCellIndex)" :class="{'current-mouth':isCurrentMouth(mouthIndex,mouthCellIndex)}">
+                            <span>{{mouthCell}}</span>
+                        </button>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
         <div class="ms-year" v-show="(viewType=='year')">
             <table>
                 <thead>
-                    <tr>
-                        <th>
-                            <button class="btn btn-sm btn-default" @click="previousYearScope()"><span class="glyphicon glyphicon-chevron-left"></span></button>
-                        </th>
-                        <th colspan="3">
-                            <button class="btn btn-sm btn-default" disabled>{{yearScope.start}}-{{yearScope.end}}</button>
-                        </th>
-                        <th>
-                            <button class="btn btn-sm btn-default" @click="nextYearScope()"><span class="glyphicon glyphicon-chevron-right"></span></button>
-                        </th>
-                    </tr>
+                <tr>
+                    <th>
+                        <button class="btn btn-sm btn-default" @click="previousYearScope()"><span class="glyphicon glyphicon-chevron-left"></span></button>
+                    </th>
+                    <th colspan="3">
+                        <button class="btn btn-sm btn-default" disabled>{{yearScope.start}}-{{yearScope.end}}</button>
+                    </th>
+                    <th>
+                        <button class="btn btn-sm btn-default" @click="nextYearScope()"><span class="glyphicon glyphicon-chevron-right"></span></button>
+                    </th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="(yearRowIndex,yearRow) in yearArr">
-                        <td v-for="(yearCellIndex,yearCell) in yearRow ">
-                            <button type="button" class="btn btn-sm btn-default" :class="{'current-year':(yearCell==currentYear)}" @click="selectYear(yearCell)">
-                                <span>{{yearCell}}</span>
-                            </button>
-                        </td>
-                    </tr>
+                <tr v-for="(yearRowIndex,yearRow) in yearArr">
+                    <td v-for="(yearCellIndex,yearCell) in yearRow ">
+                        <button type="button" class="btn btn-sm btn-default" :class="{'current-year':(yearCell==currentYear)}" @click="selectYear(yearCell)">
+                            <span>{{yearCell}}</span>
+                        </button>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
@@ -180,25 +180,26 @@ Time: 10:51-->
             "selectedDates":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                   // if(JSON.stringify(newValue) != JSON.stringify(oldValue) ){
-                        if(me.multiple === "true"){
-                            let dates = [];
-                            if(me.selectedDates && _.isArray(me.selectedDates) ){
-                                _.forEach(me.selectedDates,function (vItem) {
-                                    dates.push(moment(vItem).format(me.dateFormat));
-                                });
-                            }
-                            debugger;
-                            me.value = dates;
-                        }else {
-                            if(newValue){
-                                me.value = moment(newValue).format(me.dateFormat);
-                            }else {
-                                me.value = "";
-                            }
-
+                    // if(JSON.stringify(newValue) != JSON.stringify(oldValue) ){
+                    if(me.multiple === "true"){
+                        let dates = [];
+                        if(me.selectedDates && _.isArray(me.selectedDates) ){
+                            _.forEach(me.selectedDates,function (vItem) {
+                                dates.push(moment(vItem).format(me.dateFormat));
+                            });
                         }
-                   // }
+                        if( JSON.stringify(me.value) != JSON.stringify(dates) ){
+                            me.value = dates;
+                        }
+                    }else {
+                        if(newValue){
+                            me.value = moment(newValue).format(me.dateFormat);
+                        }else {
+                            me.value = "";
+                        }
+
+                    }
+                    // }
 
                 }
             },
@@ -208,12 +209,17 @@ Time: 10:51-->
                     if( JSON.stringify(newValue) != JSON.stringify(oldValue) ){
                         if(me.multiple === "true"){
                             let dates = [];
-                            if(me.selectedDates){
-                                for(var i =0 ;i<me.selectedDates.length;i++){
-                                    dates.push(new Date(me.dateAdapter(me.selectedDates[i])));
+                            if(!_.isArray(newValue)){
+                                newValue = newValue.split(',');
+                            }
+                            if(newValue){
+                                for(var i =0 ;i<newValue.length;i++){
+                                    dates.push(new Date(me.dateAdapter(newValue[i])));
                                 }
                             }
-                            me.selectedDates = dates;
+                            if(JSON.stringify(me.selectedDates) != JSON.stringify(dates) ){
+                                me.selectedDates = dates;
+                            }
                         }else {
                             if(newValue){
                                 me.selectedDates = new Date(me.dateAdapter(newValue));
@@ -276,7 +282,7 @@ Time: 10:51-->
                 me.refreshView();
             },
             "getDates":function (startDate,n) {
-                
+
                 var dates = new Array(n), current = new Date(startDate), i = 0, date;
                 while (i < n) {
                     date = new Date(current);
@@ -355,6 +361,7 @@ Time: 10:51-->
             "multipleSelect":function (dayItem) {
                 let me = this;
                 let index = -1 ;
+                let dates = _.cloneDeep(me.selectedDates);
                 if(me.selectedDates && me.selectedDates.length ){
                     for(var i=0;i<me.selectedDates.length;i++){
                         if(dayItem.getFullYear()===me.selectedDates[i].getFullYear() &&
