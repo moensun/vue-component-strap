@@ -35,6 +35,7 @@
     </div>
 </template>
 <script>
+    import _ from "lodash";
     import gridHeader from "./header/header.vue";
     import textColumn from "./column/text.vue";
     import actionColumn from "./column/action.vue";
@@ -56,33 +57,39 @@
         },
         data(){
             return {
-                "surplusWidth":0,
-                "flexCount":0
+                "clientWidth":0
             }
         },
         ready(){
             let me = this;
-            me.initStyle();
+            me.clientWidth = me.$el.clientWidth;
         },
-        methods:{
-            initStyle:function () {
+        computed:{
+            "flexCount":function () {
                 let me = this;
-                let clientWidth = me.$el.clientWidth;
-                me.surplusWidth = 0;
-                me.flexCount = 0;
-                let widthCount = 0;
-                me.columns.forEach(function (column) {
+                let flexCount = 0;
+                _.forEach(me.columns,function (column) {
                     if(column.flex && !column.width ){
-                        me.flexCount += column.flex;
+                        flexCount += column.flex;
                     }
+                });
+                return flexCount;
+            },
+            "surplusWidth":function () {
+                let me = this;
+                me.clientWidth = me.$el.clientWidth;
+                debugger;
+                let widthCount = 0;
+                _.forEach(me.columns,function (column) {
                     if(column.width && !column.flex){
                         widthCount += column.width;
                     }
-
                 });
-                me.surplusWidth = clientWidth-widthCount;
-
+                return me.clientWidth-widthCount;
             }
+        },
+        methods:{
+
         },
         components:{
             gridHeader,

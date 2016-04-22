@@ -5,7 +5,7 @@ User: Bane.Shi
 Date: 16/4/9
 Time: 16:05-->
 <template>
-    <td v-show="!setting.hidden" :style="[style]">
+    <td v-show="hidden" :style="[style,columnWidthStyle]">
         <div>
             <action-item v-for="(index,item) in setting.items"
                          :item="item"

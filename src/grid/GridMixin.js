@@ -25,20 +25,38 @@ export default{
     },
     ready(){
         let me = this;
-        me.initStyle();
+       // me.initStyle();
+    },
+    computed:{
+        "columnWidthStyle":function () {
+            let me = this;
+            let columnWidth = {};
+            if(me.setting.width){
+                columnWidth = Object.assign(columnWidth,{"width":me.setting.width+"px"});
+            }else if(me.setting.flex){
+                columnWidth = Object.assign(columnWidth,{"width":( (me.setting.flex/me.flexCount)*me.surplusWidth )+"px"});
+            }else {
+                
+            }
+            return columnWidth;
+        },
+        "hidden":function () {
+            let me = this;
+            return !me.setting.hidden;
+        }
     },
     watch:{
         'flexCount':function () {
             let me = this;
-            me.initStyle();
+           // me.initStyle();
         },
         'surplusWidth':function () {
             let me = this;
-            me.initStyle();
+           // me.initStyle();
         }
     },
     methods:{
-        initStyle:function () {
+/*        initStyle:function () {
             let me = this;
             if(me.setting.width){
                 me.style = Object.assign({},me.style,{"width":me.setting.width+"px"});
@@ -49,6 +67,6 @@ export default{
             if(me.setting.flex){
                 me.style = Object.assign({},me.style,{"width":( (me.setting.flex/me.flexCount)*me.surplusWidth )+"px"});
             }
-        },
+        },*/
     }
 }

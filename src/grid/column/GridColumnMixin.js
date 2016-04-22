@@ -17,14 +17,22 @@ export default{
     },
     data(){
         return {
-            "style":{}
+
         }
     },
     ready(){
         
     },
-    methods:{
-        renderer:function () {
+    computed:{
+        "style":function () {
+            let me = this;
+            let style = {};
+            if(me.setting.align){
+                style = Object.assign(style,{"textAlign":me.setting.align});
+            }
+            return style;
+        },
+        "renderer":function () {
             let me = this;
             if(typeof me.setting.renderer == "function"){
                 return me.setting.renderer(me.$get("record."+me.setting.dataIndex),me.record,me.rowIndex);
@@ -32,5 +40,8 @@ export default{
                 return me.$get("record."+me.setting.dataIndex);
             }
         }
+    },
+    methods:{
+
     }
 }

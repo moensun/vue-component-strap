@@ -22,6 +22,10 @@ module.exports = {
         name:'ms-date-range-field',
         component:require("../component/ms-date-range-field.vue")
     },
+    "ms-grid-panel":{
+        name:'ms-grid-panel',
+        component:require("../component/ms-grid.vue")
+    },
     '*':{
         component:require("../component/main.vue")
     }

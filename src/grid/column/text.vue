@@ -1,6 +1,6 @@
 <template>
-    <td v-show="!setting.hidden" :style="[style]">
-        <div>{{{ renderer() }}}</div>
+    <td v-show="hidden" :style="[style,columnWidthStyle]">
+        <div>{{{ renderer }}}</div>
     </td>
 </template>
 <script>

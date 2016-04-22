@@ -5,8 +5,8 @@ User: Bane.Shi
 Date: 16/4/9
 Time: 10:12-->
 <template>
-    <th v-show="!setting.hidden" :style="[style]" >
-        <div>{{{renderer()}}}</div>
+    <th v-show="hidden" :style="[columnWidthStyle]" >
+        <div>{{{ renderer }}}</div>
     </th>
 </template>
 <script>
@@ -32,18 +32,21 @@ Time: 10:12-->
         },
         data(){
             return {
-                "style":{}
+
             }
         },
         ready(){
             let me = this;
 
         },
-        methods:{
-            renderer:function () {
+        computed:{
+            "renderer":function () {
                 let me = this;
                 return me.setting.text;
             }
+        },
+        methods:{
+
         },
         components:{
         }
