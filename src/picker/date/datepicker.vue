@@ -206,7 +206,7 @@ Time: 10:51-->
             "value":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    if( JSON.stringify(newValue) != JSON.stringify(oldValue) ){
+                    if( newValue && JSON.stringify(newValue) != JSON.stringify(oldValue) ){
                         if(me.multiple === "true"){
                             let dates = [];
                             if(!_.isArray(newValue)){
