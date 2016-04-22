@@ -14,7 +14,13 @@ Time: 12:11-->
                 <div class="col-md-4">
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <a v-link="{name:'ms-datepicker'}">ms-datepicker</a>
+                        </li>
+                        <li class="list-group-item">
                             <a v-link="{name:'ms-date-field'}">ms-date-field</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a v-link="{name:'ms-date-range-field'}">ms-date-range-field</a>
                         </li>
                     </ul>
                 </div>

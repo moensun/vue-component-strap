@@ -6,6 +6,7 @@ Date: 16/4/22
 Time: 12:42-->
 <template>
 <div>
+
     <div>
         <ms-date-field></ms-date-field>
     </div>
@@ -20,9 +21,11 @@ Time: 12:42-->
 </div>
 </template>
 <script>
+
     import {msDateField} from "../../src/index";
     export default{
         components:{
+
             msDateField
         }
     }

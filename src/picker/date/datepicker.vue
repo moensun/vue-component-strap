@@ -37,7 +37,7 @@ Time: 10:51-->
                 </tbody>
             </table>
         </div>
-        <div class="ms-mouth" v-show="(viewType=='mouth')">
+        <div class="ms-month" v-show="(viewType=='mouth')">
             <table>
                 <thead>
                 <tr>
@@ -99,20 +99,11 @@ Time: 10:51-->
     import _ from "lodash";
     import moment from "moment";
     import Vue from "vue";
+    import datepickerMixin from "./datepickerMixin";
     export default{
+        name:'datepicker',
+        mixins:[datepickerMixin],
         props:{
-            "weekDays":{
-                type:Array,
-                default:function () {
-                    return ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-                }
-            },
-            "mouths":{
-                type:Array,
-                default:function () {
-                    return ["January","February","March","April","May","June","July","August","September","October","November","December"];
-                }
-            },
             "selectedDates":{
                 twoWay:true
             },
@@ -125,12 +116,6 @@ Time: 10:51-->
                     return "true";
                 }
             },
-            "dateFormat":{
-                type:String,
-                default:function () {
-                    return "YYYY-MM-DD";
-                }
-            },
             "dayItemClick":{
                 type:Function
             }
@@ -141,7 +126,7 @@ Time: 10:51-->
                 "mouthArr":[],
                 "yearArr":[],
                 "currentDay":null,
-                "mouthStartDay":null,
+                "monthStartDay":null,
                 "currentMouth":null,
                 "currentYear":null,
                 "yearScope":{
@@ -149,14 +134,13 @@ Time: 10:51-->
                     "end":null
                 },
                 "viewType":"day",
-                "DAYS_IN_MONTH":[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
             }
         },
         computed:{
             "currentMouthText":function(){
                 let me = this;
                 if(me.currentMouth != null){
-                    return me.mouths[me.currentMouth];
+                    return me.months[me.currentMouth];
                 }
             }
         },
@@ -164,17 +148,8 @@ Time: 10:51-->
             let me = this;
             me.initData();
             me.initDays();
-            me.getMouths();
+            me.getMonths();
             me.initYearScope();
-        },
-        filters:{
-            "dayFormat":function (date) {
-                if(date<10){
-                    return "0"+date;
-                }else {
-                    return date;
-                }
-            }
         },
         watch:{
             "selectedDates":{
@@ -233,14 +208,7 @@ Time: 10:51-->
             }
         },
         methods:{
-            "dateAdapter":function (date) {
-                if(typeof date === 'object'){
-                    return date;
-                }else {
-                    return date.replace(/-/g,'/');
-                }
 
-            },
             "initData":function () {
                 let me = this;
 
@@ -250,16 +218,21 @@ Time: 10:51-->
                 me.currentDay = new Date();
                 me.currentMouth = me.currentDay.getMonth();
                 me.currentYear = me.currentDay.getFullYear();
-                me.mouthStartDay = new Date(me.currentDay.getFullYear(),me.currentDay.getMonth(),1);
+                me.monthStartDay = new Date(me.currentDay.getFullYear(),me.currentDay.getMonth(),1);
                 me.refreshView();
             },
             "refreshView":function () {
                 let me = this;
-                me.mouthStartDay = new Date(me.currentYear,me.currentMouth,1);
-                let weekDay = me.mouthStartDay.getDay();
-                me.mouthStartDay.setDate(me.mouthStartDay.getDate()-weekDay);
-                let days = me.getDates(me.mouthStartDay,42);
+                me.monthStartDay = new Date(me.currentYear,me.currentMouth,1);
+                let weekDay = me.monthStartDay.getDay();
+                me.monthStartDay.setDate(me.monthStartDay.getDate()-weekDay);
+                let days = me.getDates(me.monthStartDay,42);
                 me.dayArr = me.split(days,7);
+            },
+            "getMonths":function () {
+                let me = this;
+                me.mouthArr = me.split(_.clone(me.months),3);
+
             },
             "previousMouth":function () {
                 let me = this;
@@ -280,28 +253,6 @@ Time: 10:51-->
                     me.currentYear = me.currentYear+1;
                 }
                 me.refreshView();
-            },
-            "getDates":function (startDate,n) {
-
-                var dates = new Array(n), current = new Date(startDate), i = 0, date;
-                while (i < n) {
-                    date = new Date(current);
-                    dates[i++] = date;
-                    current.setDate(current.getDate() + 1);
-                }
-                return dates;
-            },
-            "getMouths":function () {
-                let me = this;
-                me.mouthArr = me.split(_.clone(me.mouths),3);
-
-            },
-            "split":function (arr, size) {
-                let arrays = [];
-                while (arr.length > 0) {
-                    arrays.push(arr.splice(0, size));
-                }
-                return arrays;
             },
             "isToday":function (dayItem) {
                 let day = new Date(dayItem);
@@ -447,7 +398,8 @@ Time: 10:51-->
             "showYearView":function () {
                 let me = this;
                 me.viewType = 'year';
-            }
+            },
+
         },
         components:{
 
@@ -500,7 +452,7 @@ Time: 10:51-->
             }
         }
 
-        .ms-mouth{
+        .ms-month{
             button{width: 100%;}
             table{
                 tbody{

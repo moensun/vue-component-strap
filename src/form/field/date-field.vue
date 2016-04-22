@@ -9,7 +9,9 @@ Time: 15:54-->
         <div class="ms-picker" v-show="calendarShow">
             <div v-el:date-picker class="ms-picker-box ms-picker-box-down" >
                 <datepicker :value.sync="value"
-                            :multiple="multiple" :day-item-click="dayItemClick">
+                            :multiple="multiple"
+                            :is-disabled="isDisabled"
+                            :day-item-click="dayItemClick">
                 </datepicker>
                 <div>
                     <span>
@@ -66,6 +68,9 @@ Time: 15:54-->
                 default:function () {
                     return "YYYY-MM-DD";
                 }
+            },
+            "isDisabled":{
+                type:Function
             }
         },
         data(){
