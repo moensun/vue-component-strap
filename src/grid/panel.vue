@@ -30,13 +30,14 @@
             </table>
         </div>
         <div class="grid-footer">
-
+            <paging></paging>
         </div>
     </div>
 </template>
 <script>
     import _ from "lodash";
     import gridHeader from "./header/header.vue";
+    import paging from "../toolbar/paging.vue";
     import textColumn from "./column/text.vue";
     import actionColumn from "./column/action.vue";
     export default{
@@ -78,7 +79,6 @@
             "surplusWidth":function () {
                 let me = this;
                 me.clientWidth = me.$el.clientWidth;
-                debugger;
                 let widthCount = 0;
                 _.forEach(me.columns,function (column) {
                     if(column.width && !column.flex){
@@ -93,6 +93,7 @@
         },
         components:{
             gridHeader,
+            paging,
             textColumn,
             actionColumn
         }
