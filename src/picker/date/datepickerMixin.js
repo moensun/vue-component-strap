@@ -56,6 +56,11 @@ export default {
             }
 
         },
+        "getDaysInMonth":function (year,month) {
+            let me = this;
+            return month === 1 && year % 4 === 0 &&
+            (year % 100 !== 0 || year % 400 === 0) ? 29 : me.DAYS_IN_MONTH[month];
+        },
         "getDates":function (startDate,n) {
 
             var dates = new Array(n), current = new Date(startDate), i = 0, date;
@@ -79,8 +84,10 @@ export default {
                 return me.isDisabled(dayItem);
             }
         },
-        "isThisMouth":function (day,) {
-            
+        "isSameDay":function (d1,d2) {
+            return (d1.getFullYear()==d2.getFullYear()
+            && d1.getMonth()==d2.getMonth()
+            && d1.getDate()==d2.getDate() );
         }
     }
 }

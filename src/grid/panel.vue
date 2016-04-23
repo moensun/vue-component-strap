@@ -14,6 +14,7 @@
                 </thead>
             </table>
         </div>
+        <div class="grid-header-line"></div>
         <div class="grid-body">
             <table class="table">
                 <tbody>
@@ -104,10 +105,25 @@
         width: 100%;
         position: relative;
         .grid-header{
-            .table{margin-bottom: 0px;}
+            .table{
+                margin-bottom: 0px;
+                thead{
+                    tr{
+                        th{
+                            border-bottom: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .grid-header-line{
+            border-bottom: 2px solid #ddd;
         }
         .grid-body{
             overflow-y: auto;
+            .table{
+                margin-bottom: 0px;
+            }
         }
         .grid-footer{
 
