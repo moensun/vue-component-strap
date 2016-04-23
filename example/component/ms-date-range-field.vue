@@ -25,7 +25,9 @@ Time: 14:32-->
     export default{
         data(){
             return {
-                "selectedDates":[]
+                "selectedDates":[
+                        "2016/4/25","2016/4/26"
+                ]
             }
         },
         components:{

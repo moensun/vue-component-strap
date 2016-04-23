@@ -58,8 +58,9 @@ Time: 14:26-->
             "endDay":{},
             "selectedDates":{
                 type:Array,
+                twoWay:true,
                 default:function () {
-                    return [];
+                    return ["2016-4-27"];
                 }
             },
             "dateFormat":{
@@ -151,6 +152,7 @@ Time: 14:26-->
             },
             "selectedDatesObj":{
                 handler:function (newValue,oldValue) {
+                    debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
@@ -165,6 +167,7 @@ Time: 14:26-->
             "selectedDates":{
                 handler:function (newValue,oldValue) {
                     let me = this;
+                    debugger;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
                         _.forEach(newValue,function (date) {

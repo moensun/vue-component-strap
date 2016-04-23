@@ -7,7 +7,8 @@ Time: 17:11-->
 <template>
     <button type="button" class="btn btn-sm btn-default" v-show="isCurrentMonth"
             :class="{'ms-today':(isToday && !isSelected),'ms-select-day':isSelected}"
-            @click="selectDay()" @keyup.enter="sss()">
+            @click="selectDay()"
+            @contextmenu.prevent="cancelDay()">
         <span>{{dayItem | dayFormat}}</span>
     </button>
 </template>
@@ -84,8 +85,21 @@ Time: 17:11-->
                 }
                 //me.setSelectedDates();
             },
-            "sss":function () {
-               console.log("dd");
+            "cancelDay":function () {
+               let me = this;
+                let dates = _.cloneDeep(me.selectedDates);
+                let index = -1;
+                _.forEach(dates,function (date,itemIndex) {
+                    if(me.dayItem.getFullYear() == date.getFullYear()
+                            && me.dayItem.getMonth()==date.getMonth()
+                            && me.dayItem.getDate()==date.getDate()){
+                        index=itemIndex;
+                    }
+                });
+                if(index >=0 ){
+                    dates.splice(index,1);
+                }
+                me.selectedDates = dates;
             }
         },
         components:{

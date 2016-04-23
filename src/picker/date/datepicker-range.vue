@@ -104,14 +104,14 @@ Time: 14:41-->
                     let me = this;
                     me.setSelectedDates();
                 },
-                immediate:true
+                //immediate:true
             },
             "endDay":{
                 handler:function (newValue,oldValue) {
                     let me = this;
                     me.setSelectedDates();
                 },
-                immediate:true
+                //immediate:true
             }
         },
         methods:{
