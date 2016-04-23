@@ -16,7 +16,7 @@ Time: 23:55-->
             <span class="tbspacer"></span>
             <span class="tbseparator"></span>
             <span>{{pageText}}</span>
-            <input type="text" class="ms-paging-num" v-model="showNum">
+            <input type="text" class="ms-paging-num" v-model="showNum" number>
             <span>of&nbsp;{{pageCount}}</span>
             <span class="tbseparator"></span>
             <span class="tbspacer"></span>

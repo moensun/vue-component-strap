@@ -6,7 +6,8 @@ Date: 16/4/22
 Time: 17:11-->
 <template>
     <button type="button" class="btn btn-sm btn-default" v-show="isCurrentMonth"
-            :class="{'select-day':isSelected}" @click="selectDay()">
+            :class="{'ms-today':(isToday && !isSelected),'ms-select-day':isSelected}"
+            @click="selectDay()" @keyup.enter="sss()">
         <span>{{dayItem | dayFormat}}</span>
     </button>
 </template>
@@ -49,6 +50,12 @@ Time: 17:11-->
                     }
                 });
                 return result;
+            },
+            "isToday":function () {
+                let me = this;
+                let day = me.dayItem;
+                let today = new Date();
+                return (day.getFullYear()===today.getFullYear() && day.getMonth()===today.getMonth() && day.getDate()===today.getDate());
             }
         },
         filters:{
@@ -76,6 +83,9 @@ Time: 17:11-->
                     }
                 }
                 //me.setSelectedDates();
+            },
+            "sss":function () {
+               console.log("dd");
             }
         },
         components:{
@@ -83,7 +93,8 @@ Time: 17:11-->
     }
 </script>
 <style lang="less" scoped>
-    .select-day{
+    .ms-today{color: #00b3ee;}
+    .ms-select-day{
         color: #fff;
         background-color: #31b0d5;
         border-color: #269abc;

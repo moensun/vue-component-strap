@@ -10,7 +10,9 @@ Time: 14:41-->
             <thead>
                 <tr>
                     <th colspan="7">
-                        <button class="btn btn-sm btn-default ms-center" @click="selectCurrentMonth()">{{currentMouthText}}&nbsp;{{currentYear}}</button>
+                        <button class="btn btn-sm btn-default ms-center" @click="selectCurrentMonth()">
+                            {{currentMouthText}}&nbsp;{{currentYear}}
+                        </button>
                     </th>
                 </tr>
                 <tr class="ms-weekday-line">
@@ -58,14 +60,14 @@ Time: 14:41-->
                 type:Date,
                 twoWay:true,
                 default:function () {
-                    return new Date();
+                   // return new Date();
                 }
             },
             "endDay":{
                 type:Date,
                 twoWay:true,
                 default:function () {
-                    return new Date();
+                   // return new Date();
                 }
             }
         },
@@ -125,10 +127,16 @@ Time: 14:41-->
             },
             "setSelectedDates":function () {
                 let me = this;
+                if(typeof me.startDay != 'object'){
+                    me.startDay = new Date(me.startDay);
+                }
+                if(typeof me.endDay != 'object'){
+                    me.endDay = new Date(me.endDay);
+                }
                 if(me.startDay && me.endDay){
                     let dates = [];
-                    let startDay =  new Date(me.startDay);
-                    let endDay = new Date(me.endDay);
+                    let startDay =  new Date(me.startDay.getFullYear(),me.startDay.getMonth(),me.startDay.getDate());
+                    let endDay = new Date(me.endDay.getFullYear(),me.endDay.getMonth(),me.endDay.getDate());
                     while (true){
 /*                        if( startDay.getFullYear()<= endDay.getFullYear()
                                 || startDay.getMonth()<=endDay.getMonth()
@@ -174,6 +182,7 @@ Time: 14:41-->
                 }
             }
         }
+        button{outline: none;}
         .ms-weekday-line{
             th{
                 text-align: center;

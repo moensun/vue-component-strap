@@ -10,7 +10,12 @@ Time: 14:32-->
         <ms-datepicker-range></ms-datepicker-range>
     </div>
     <div>
-        <ms-date-range-field></ms-date-range-field>
+        <ms-date-range-field :selected-dates.sync="selectedDates"></ms-date-range-field>
+    </div>
+    <div>
+        <div style="max-height: 100px;overflow-y: auto">
+            <div v-for="(dateIndex,date) in selectedDates">{{date}}</div>
+        </div>
     </div>
 </div>
 </template>
@@ -18,6 +23,11 @@ Time: 14:32-->
     import {msDateRangeField} from "../../src/index";
     import {msDatepickerRange} from "../../src/index";
     export default{
+        data(){
+            return {
+                "selectedDates":[]
+            }
+        },
         components:{
             msDateRangeField,
             msDatepickerRange
