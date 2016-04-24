@@ -14,6 +14,7 @@ import msUeditorField from "./form/field/ueditor-field.vue";
 
 import msDatepicker from "./picker/date/datepicker.vue";
 import msDatepickerRange from "./picker/date/datepicker-range.vue";
+import msDatepickerRangeSingle from "./picker/date/datepicker-range-single.vue";
 
 import msTreeList from "./tree/tree-list.vue";
 import treeView from "./tree/tree-view.vue";
@@ -29,6 +30,7 @@ import msConfirm from "./window/MessageBox/confirm.vue";
 module.exports = {
 	msDatepicker,
 	msDatepickerRange,
+	msDatepickerRangeSingle,
 	treeCombox,
 	msDateField,
 	msDateRangeField,

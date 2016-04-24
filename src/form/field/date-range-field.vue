@@ -54,13 +54,19 @@ Time: 14:26-->
     import datepickerRange from "../../picker/date/datepicker-range.vue";
     export default{
         props:{
-            "startDay":{},
-            "endDay":{},
+            "startDay":{
+                type:String,
+                twoWay:true
+            },
+            "endDay":{
+                type:String,
+                twoWay:true
+            },
             "selectedDates":{
                 type:Array,
                 twoWay:true,
                 default:function () {
-                    return ["2016-4-27"];
+                    return [];
                 }
             },
             "dateFormat":{
@@ -118,7 +124,7 @@ Time: 14:26-->
                        // me.startDayObj = new Date();
                     }
                 },
-                immediate:true
+                //immediate:true
             },
             "endDay":{
                 handler:function (newValue,oldValue) {
@@ -130,7 +136,7 @@ Time: 14:26-->
                        // me.endDayObj = new Date();
                     }
                 },
-                immediate:true
+                //immediate:true
             },
             "startDayObj":{
                 handler:function (newValue,oldValue) {
@@ -139,7 +145,7 @@ Time: 14:26-->
                         me.startDay = moment(newValue).format(me.dateFormat);
                     }
                 },
-                immediate:true
+                //immediate:true
             },
             "endDayObj":{
                 handler:function (newValue,oldValue) {
@@ -148,11 +154,11 @@ Time: 14:26-->
                         me.endDay = moment(newValue).format(me.dateFormat);
                     }
                 },
-                immediate:true
+                //immediate:true
             },
             "selectedDatesObj":{
                 handler:function (newValue,oldValue) {
-                    debugger;
+                   // debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
@@ -161,13 +167,11 @@ Time: 14:26-->
                         });
                         me.selectedDates = dates;
                     }
-                },
-                immediate:true
+                }
             },
             "selectedDates":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    debugger;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
                         _.forEach(newValue,function (date) {
@@ -196,7 +200,7 @@ Time: 14:26-->
                 if(typeof date === 'object'){
                     return date;
                 }else {
-                    return date.replace(/-/g,'/');
+                    return String(date).replace(/-/g,'/');
                 }
 
             },

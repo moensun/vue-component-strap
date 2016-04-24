@@ -16,7 +16,7 @@
         </div>
         <div class="grid-header-line"></div>
         <div class="grid-body">
-            <table class="table">
+            <table class="table table-striped">
                 <tbody>
                     <tr v-for="(rowIndex,record) in store">
                         <td v-for="(colIndex,column) in columns"

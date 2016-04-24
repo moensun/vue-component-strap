@@ -75,7 +75,7 @@ Time: 14:41-->
             return {
                 "currentYear":null,
                 "currentMonth":null,
-                "mouthStartDay":null
+                "monthStartDay":null
             }
         },
         ready(){
@@ -91,10 +91,10 @@ Time: 14:41-->
                 let me = this;
                 me.currentYear = me.currentDate.getFullYear();
                 me.currentMonth = me.currentDate.getMonth();
-                me.mouthStartDay = new Date(me.currentDate.getFullYear(),me.currentDate.getMonth(),1);
-                let weekDay = me.mouthStartDay.getDay();
-                me.mouthStartDay.setDate(me.mouthStartDay.getDate()-weekDay);
-                let days = me.getDates(me.mouthStartDay,42);
+                me.monthStartDay = new Date(me.currentDate.getFullYear(),me.currentDate.getMonth(),1);
+                let weekDay = me.monthStartDay.getDay();
+                me.monthStartDay.setDate(me.monthStartDay.getDate()-weekDay);
+                let days = me.getDates(me.monthStartDay,42);
                 return me.split(days,7);
             }
         },
