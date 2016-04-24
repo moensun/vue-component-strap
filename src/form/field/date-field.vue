@@ -15,11 +15,11 @@ Time: 15:54-->
                 </datepicker>
                 <div>
                     <span>
-                        <button type="button" class="btn btn-info btn-sm" @click="onToday()">今天</button>
-                        <button type="button" class="btn btn-danger btn-sm" @click="onClean()">清空</button>
+                        <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClean()">{{cleanText}}</button>
                     </span>
                     <span class="ms-span-right">
-                        <button type="button" class="btn btn-danger btn-sm" @click="onClose()">关闭</button>
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClose()">{{closeText}}</button>
                     </span>
                 </div>
             </div>
@@ -37,9 +37,11 @@ Time: 15:54-->
     import Vue from "vue";
     import _ from "lodash";
     import moment from "moment";
+    import dateFieldMixin from "./mixin/dateFieldMixin";
     import datepicker from "../../picker/date/datepicker.vue";
     export default{
         name:'dateField',
+        mixins:[dateFieldMixin],
         replace:false,
         props:{
             "placeholder":{

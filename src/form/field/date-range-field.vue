@@ -31,11 +31,11 @@ Time: 14:26-->
                 </div>
                 <div>
                         <span>
-                            <button type="button" class="btn btn-info btn-sm" @click="onToday()">今天</button>
-                            <button type="button" class="btn btn-danger btn-sm" @click="onClear()">清空</button>
+                            <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
+                            <button type="button" class="btn btn-danger btn-sm" @click="onClean()">{{cleanText}}</button>
                         </span>
                         <span class="ms-span-right">
-                            <button type="button" class="btn btn-danger btn-sm" @click="onClose()">关闭</button>
+                            <button type="button" class="btn btn-danger btn-sm" @click="onClose()">{{closeText}}</button>
                         </span>
                 </div>
             </div>
@@ -51,8 +51,12 @@ Time: 14:26-->
 <script>
     import Vue from "vue";
     import moment from "moment";
+    import dateFieldMixin from "./mixin/dateFieldMixin";
     import datepickerRange from "../../picker/date/datepicker-range.vue";
     export default{
+        name:'dateRangeField',
+        mixins:[dateFieldMixin],
+        replace:false,
         props:{
             "startDay":{
                 type:String,
@@ -224,7 +228,7 @@ Time: 14:26-->
                 let me = this;
                 me.calendarShow = false;
             },
-            "onClear":function () {
+            "onClean":function () {
                 let me = this;
                 me.startDayObj = null;
                 me.endDayObj = null;

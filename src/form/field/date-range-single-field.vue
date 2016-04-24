@@ -15,11 +15,11 @@ Time: 17:08-->
                 </datepicker-range-single>
                 <div>
                     <span>
-                        <button type="button" class="btn btn-info btn-sm" @click="onToday()">今天</button>
-                        <button type="button" class="btn btn-danger btn-sm" @click="onClean()">清空</button>
+                        <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClean()">{{cleanText}}</button>
                     </span>
                     <span class="ms-span-right">
-                        <button type="button" class="btn btn-danger btn-sm" @click="onClose()">关闭</button>
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClose()">{{closeText}}</button>
                     </span>
                 </div>
             </div>
@@ -36,8 +36,12 @@ Time: 17:08-->
     import Vue from "vue";
     import MSUtil from "../../util/index";
     import moment from "moment";
+    import dateFieldMixin from "./mixin/dateFieldMixin";
     import datepickerRangeSingle from "../../picker/date/datepicker-range-single.vue";
     export default{
+        name:'dateRangeSingleField',
+        mixins:[dateFieldMixin],
+        replace:false,
         props:{
             "startDay":{
                 type:String,
