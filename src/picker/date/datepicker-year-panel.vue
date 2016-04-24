@@ -94,6 +94,7 @@ Time: 15:45-->
 </script>
 <style lang="less" scoped>
     .ms-datepicker-year-panel{
+        display: inline-block;
         button{width: 100%;}
     }
 </style>

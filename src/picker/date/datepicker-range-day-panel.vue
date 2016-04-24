@@ -106,7 +106,6 @@ Time: 13:52-->
         },
         computed:{
             "dayArr":function () {
-                debugger;
                 let me = this;
                 me.currentYear = me.currentDate.getFullYear();
                 me.currentMonth = me.currentDate.getMonth();
@@ -166,6 +165,9 @@ Time: 13:52-->
 </script>
 <style lang="less" scoped>
 .ms-datepicker-range-day-panel{
-    button{width: 100%;}
+    display: inline-block;
+    button{
+        width: 100%;
+    }
 }
 </style>

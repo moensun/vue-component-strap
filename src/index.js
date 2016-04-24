@@ -10,6 +10,7 @@ import "./css/style.css";
 import treeCombox from "./form/field/tree-combox.vue";
 import msDateField from "./form/field/date-field.vue";
 import msDateRangeField from "./form/field/date-range-field.vue";
+import msDateRangeSingleField from "./form/field/date-range-single-field.vue";
 import msUeditorField from "./form/field/ueditor-field.vue";
 
 import msDatepicker from "./picker/date/datepicker.vue";
@@ -34,6 +35,7 @@ module.exports = {
 	treeCombox,
 	msDateField,
 	msDateRangeField,
+	msDateRangeSingleField,
 	msUeditorField,
 	msTreeList,
 	treeView,

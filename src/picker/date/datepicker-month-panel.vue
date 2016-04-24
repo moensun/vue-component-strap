@@ -83,6 +83,7 @@ Time: 13:02-->
 </script>
 <style lang="less" scoped>
     .ms-datepicker-month-panel{
+        display: inline-block;
         button{width: 100%;}
     }
 </style>
