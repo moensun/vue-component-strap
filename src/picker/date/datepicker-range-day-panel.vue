@@ -15,7 +15,7 @@ Time: 13:52-->
                         </button>
                     </th>
                     <th colspan="5">
-                        <button class="btn btn-sm btn-default">
+                        <button class="btn btn-sm btn-default" @click="showMonthView()">
                             {{currentMonthText}}&nbsp;{{currentYear}}
                         </button>
                     </th>
@@ -64,8 +64,15 @@ Time: 13:52-->
             "selectedDates":{
                 twoWay:true
             },
-            "startDay":{},
-            "endDay":{}
+            "startDay":{
+                twoWay:true
+            },
+            "endDay":{
+                twoWay:true
+            },
+            "viewType":{
+                twoWay:true
+            }
         },
         data(){
             return {
@@ -123,6 +130,7 @@ Time: 13:52-->
         methods:{
             "setSelectedDates":function () {
                 let me = this;
+                debugger;
                 if(typeof me.startDay != 'object'){
                     me.startDay = new Date(me.startDay);
                 }
@@ -156,6 +164,10 @@ Time: 13:52-->
                 let date = _.cloneDeep(me.currentDate);
                 date.setMonth(date.getMonth()+1);
                 me.currentDate = date;
+            },
+            "showMonthView":function () {
+                let me = this;
+                me.viewType = "month";
             }
         },
         components:{

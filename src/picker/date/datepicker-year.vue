@@ -16,6 +16,9 @@ Time: 15:44-->
         name:'datepickerYear',
         props:{
             "yearItem":{},
+            "viewType":{
+                twoWay:true,
+            },
             "currentYear":{
                 twoWay:true,
                 default:function () {
@@ -33,6 +36,7 @@ Time: 15:44-->
             "selectYear":function () {
                 let me = this;
                 me.currentYear = me.yearItem;
+                me.viewType = "day";
             }
         },
         components:{

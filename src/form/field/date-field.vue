@@ -16,7 +16,7 @@ Time: 15:54-->
                 <div>
                     <span>
                         <button type="button" class="btn btn-info btn-sm" @click="onToday()">今天</button>
-                        <button type="button" class="btn btn-danger btn-sm" @click="onClear()">清空</button>
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClean()">清空</button>
                     </span>
                     <span class="ms-span-right">
                         <button type="button" class="btn btn-danger btn-sm" @click="onClose()">关闭</button>
@@ -120,7 +120,7 @@ Time: 15:54-->
                 let me = this;
                 me.calendarShow = false;
             },
-            "onClear":function () {
+            "onClean":function () {
                 let me = this;
                 if(me.multiple === "true"){
                     me.value = [];

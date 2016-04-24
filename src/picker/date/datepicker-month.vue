@@ -24,7 +24,10 @@ Time: 12:40-->
                 default:function () {
                     return (new Date()).getMonth();
                 }
-            }
+            },
+            "viewType":{
+                twoWay:true,
+            },
         },
         computed:{
             "isCurrentMonth":function () {
@@ -36,6 +39,7 @@ Time: 12:40-->
             "selectMouth":function () {
                 let me = this;
                 me.currentMonth = me.rowIndex*3+me.cellIndex;
+                me.viewType = "day";
             }
         },
         components:{

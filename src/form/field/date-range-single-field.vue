@@ -5,11 +5,24 @@ User: Bane.Shi
 Date: 16/4/24
 Time: 17:08-->
 <template>
-    <div class="ms-date-range-single-field">
-        <div>
-            <datepicker-range-single :start-day.sync="startDayObj"
-                                     :end-day.sync="endDayObj">
-            </datepicker-range-single>
+    <div class="ms-date-range-single-field" @click.stop="">
+        <div class="ms-picker" v-show="calendarShow">
+            <div v-el:date-picker class="ms-picker-box ms-picker-box-down" >
+                <datepicker-range-single :start-day.sync="startDayObj"
+                                         :end-day.sync="endDayObj"
+                                         :selected-dates.sync="selectedDatesObj"
+                                         :date-format="dateFormat">
+                </datepicker-range-single>
+                <div>
+                    <span>
+                        <button type="button" class="btn btn-info btn-sm" @click="onToday()">今天</button>
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClean()">清空</button>
+                    </span>
+                    <span class="ms-span-right">
+                        <button type="button" class="btn btn-danger btn-sm" @click="onClose()">关闭</button>
+                    </span>
+                </div>
+            </div>
         </div>
         <div class="input-group">
             <input v-el:date-field type="text" class="form-control" v-model="dateRange" placeholder="{{placeholder}}">
@@ -20,6 +33,7 @@ Time: 17:08-->
     </div>
 </template>
 <script>
+    import Vue from "vue";
     import MSUtil from "../../util/index";
     import moment from "moment";
     import datepickerRangeSingle from "../../picker/date/datepicker-range-single.vue";
@@ -54,6 +68,12 @@ Time: 17:08-->
                 "endDayObj":null,
                 "selectedDatesObj":[],
             }
+        },
+        ready(){
+            let me = this;
+            $(document).on('click',function (e) {
+                me.calendarShow = false;
+            });
         },
         computed:{
             "dateRange":function(){
@@ -104,7 +124,7 @@ Time: 17:08-->
             },
             "selectedDatesObj":{
                 handler:function (newValue,oldValue) {
-                    // debugger;
+                     debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
@@ -117,16 +137,49 @@ Time: 17:08-->
             },
             "selectedDates":{
                 handler:function (newValue,oldValue) {
+                    debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
                         _.forEach(newValue,function (date) {
-                            dates.push(new Date(me.dateAdapter(date)));
+                            dates.push(new Date(MSUtil.MSDate.dateAdapter(date)));
                         });
                         me.selectedDatesObj = dates;
                     }
                 },
                 immediate:true
+            }
+        },
+        methods:{
+            "showCalendar":function (e) {
+                let me = this;
+                me.calendarShow = !me.calendarShow;
+                me.$els.dateField.focus();
+                if(e.clientY < (document.documentElement.clientHeight/2)){
+                    Vue.util.addClass(me.$els.datePicker,"ms-picker-box-down");
+                    Vue.util.removeClass(me.$els.datePicker,"ms-picker-box-up");
+                }else {
+                    Vue.util.addClass(me.$els.datePicker,"ms-picker-box-up");
+                    Vue.util.removeClass(me.$els.datePicker,"ms-picker-box-down");
+                }
+            },
+            "onClose":function () {
+                let me = this;
+                me.calendarShow = false;
+            },
+            "onClean":function () {
+                let me = this;
+                me.startDayObj = null;
+                me.endDayObj = null;
+                me.startDay = "";
+                me.endDay = "";
+                me.selectedDatesObj = [];
+                me.selectedDates = [];
+            },
+            "onToday":function () {
+                let me = this;
+                me.startDayObj = new Date();
+                me.endDayObj = new Date();
             }
         },
         components:{
@@ -135,5 +188,33 @@ Time: 17:08-->
     }
 </script>
 <style lang="less" scoped>
+.ms-date-range-single-field{
+    .ms-calendar{
+        cursor: pointer;
+    }
+    .ms-picker{
+        position:relative;
+        .ms-picker-box{
+            position: absolute;
+            display: inline-block;
+            padding: 9px;
+            background-color: #f5f5f5;
+            border: 1px solid #e3e3e3;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+            z-index: 200;
 
+            .ms-span-right{
+                float: right;
+            }
+        }
+        .ms-picker-box-up{
+            bottom: 0px;
+        }
+        .ms-picker-box-down{
+            top:34px;
+        }
+    }
+}
 </style>

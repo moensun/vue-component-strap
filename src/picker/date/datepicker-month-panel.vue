@@ -30,7 +30,8 @@ Time: 13:02-->
                         <datepicker-month :month-item="monthCell"
                                           :row-index="monthRowIndex"
                                           :cell-index="monthCellIndex"
-                                          :current-month.sync="currentMonth">
+                                          :current-month.sync="currentMonth"
+                                          :view-type.sync="viewType">
                         </datepicker-month>
                     </td>
                 </tr>
@@ -57,6 +58,9 @@ Time: 13:02-->
                 default:function () {
                     return (new Date()).getMonth();
                 }
+            },
+            "viewType":{
+                twoWay:true
             }
         },
         computed:{
@@ -74,6 +78,10 @@ Time: 13:02-->
             "nextYear":function () {
                 let me = this;
                 me.currentYear = me.currentYear+1;
+            },
+            "showYearView":function () {
+                let me = this;
+                me.viewType = "year";
             }
         },
         components:{

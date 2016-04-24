@@ -9,13 +9,25 @@ Time: 12:50-->
         <ms-datepicker-range-single></ms-datepicker-range-single>
     </div>
     <div>
-        <ms-date-range-single-field></ms-date-range-single-field>
+        <div style="max-height: 100px;overflow-y: auto">
+            <div v-for="(dateIndex,date) in selectedDates">{{date}}</div>
+        </div>
+    </div>
+    <div>
+        <ms-date-range-single-field :selected-dates.sync="selectedDates"></ms-date-range-single-field>
     </div>
 </template>
 <script>
     import {msDatepickerRangeSingle} from "../../src/index";
     import {msDateRangeSingleField} from "../../src/index";
     export default{
+        data(){
+            return {
+                "selectedDates":[
+                        "2016-4-1"
+                ]
+            }
+        },
         components:{
             msDatepickerRangeSingle,
             msDateRangeSingleField

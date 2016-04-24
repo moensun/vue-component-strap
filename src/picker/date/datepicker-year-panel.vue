@@ -29,7 +29,10 @@ Time: 15:45-->
             <tbody>
                 <tr v-for="(yearRowIndex,yearRow) in yearArr">
                     <td v-for="(yearCellIndex,yearCell) in  yearRow">
-                        <datepicker-year :year-item="yearCell" :current-year.sync="currentYear"></datepicker-year>
+                        <datepicker-year :year-item="yearCell"
+                                         :current-year.sync="currentYear"
+                                         :view-type.sync="viewType">
+                        </datepicker-year>
                     </td>
                 </tr>
             </tbody>
@@ -46,6 +49,9 @@ Time: 15:45-->
         mixins:[datepickerMixin],
         props:{
             "currentYear":{
+                twoWay:true
+            },
+            "viewType":{
                 twoWay:true
             }
         },

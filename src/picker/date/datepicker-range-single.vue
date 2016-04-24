@@ -6,21 +6,24 @@ Date: 16/4/24
 Time: 12:47-->
 <template>
     <div class="ms-datepicker-range-single">
-        <div class="ms-day-panel">
+        <div class="ms-day-panel" v-show="(viewType=='day')">
             <datepicker-range-day-panel :current-month.sync="currentMonth"
                                         :current-year.sync="currentYear"
-                                        :start-day="startDay"
-                                        :end-day.sync="endDay">
+                                        :start-day.sync="startDay"
+                                        :end-day.sync="endDay"
+                                        :selected-dates.sync="selectedDates"
+                                        :view-type.sync="viewType">
             </datepicker-range-day-panel>
         </div>
-        <div class="ms-month-panel">
+        <div class="ms-month-panel" v-show="(viewType=='month')">
             <datepicker-month-panel :current-month.sync="currentMonth"
-                                    :current-year.sync="currentYear">
+                                    :current-year.sync="currentYear"
+                                    :view-type.sync="viewType">
             </datepicker-month-panel>
         </div>
-        <div class="ms-year-panel">
-            <datepicker-year-panel :current-year.sync="currentYear">
-
+        <div class="ms-year-panel" v-show="(viewType=='year')">
+            <datepicker-year-panel :current-year.sync="currentYear"
+                                   :view-type.sync="viewType">
             </datepicker-year-panel>
         </div>
     </div>
@@ -32,6 +35,8 @@ Time: 12:47-->
     export default{
         props:{
             "selectedDates":{
+                type:Array,
+                twoWay:true,
                 default:function () {
                     return [];
                 }
@@ -52,7 +57,8 @@ Time: 12:47-->
         data(){
             return {
                 "currentMonth":{},
-                "currentYear":{}
+                "currentYear":{},
+                "viewType":"day"
             }
         },
         components:{
