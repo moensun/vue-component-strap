@@ -30,7 +30,10 @@ Time: 13:52-->
                 <tr v-for="(dayRowIndex,dayRow) in dayArr">
                     <td v-for="(dayCellIndex,dayCell) in dayRow">
                         <datepicker-range-day :day-item="dayCell"
-                                              :current-month="currentMonth">
+                                              :current-month.sync="currentMonth"
+                                              :start-day.sync="startDay"
+                                              :end-day.sync="endDay"
+                                              :selected-dates.sync="selectedDates">
                         </datepicker-range-day>
                     </td>
                 </tr>
@@ -39,6 +42,7 @@ Time: 13:52-->
     </div>
 </template>
 <script>
+    import _ from "lodash";
     import datepickerRangeDay from "./datepicker-range-day.vue";
     import datepickerMixin from "./datepickerMixin";
     export default{
@@ -46,6 +50,7 @@ Time: 13:52-->
         mixins:[datepickerMixin],
         props:{
             "currentDate":{
+                twoWay:true,
                 default:function () {
                     return new Date();
                 }
@@ -55,7 +60,12 @@ Time: 13:52-->
             },
             "currentYear":{
                 twoWay:true
-            }
+            },
+            "selectedDates":{
+                twoWay:true
+            },
+            "startDay":{},
+            "endDay":{}
         },
         data(){
             return {
@@ -78,10 +88,25 @@ Time: 13:52-->
                         me.currentDate = new Date(newValue,me.currentMonth);
                     }
                 }
+            },
+            "startDay":{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    me.setSelectedDates();
+                },
+                //immediate:true
+            },
+            "endDay":{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    me.setSelectedDates();
+                },
+                //immediate:true
             }
         },
         computed:{
             "dayArr":function () {
+                debugger;
                 let me = this;
                 me.currentYear = me.currentDate.getFullYear();
                 me.currentMonth = me.currentDate.getMonth();
@@ -94,6 +119,44 @@ Time: 13:52-->
             "currentMonthText":function () {
                 let me = this;
                 return me.months[me.currentMonth];
+            }
+        },
+        methods:{
+            "setSelectedDates":function () {
+                let me = this;
+                if(typeof me.startDay != 'object'){
+                    me.startDay = new Date(me.startDay);
+                }
+                if(typeof me.endDay != 'object'){
+                    me.endDay = new Date(me.endDay);
+                }
+                if(me.startDay && me.endDay){
+                    let dates = [];
+                    let startDay =  new Date(me.startDay.getFullYear(),me.startDay.getMonth(),me.startDay.getDate());
+                    let endDay = new Date(me.endDay.getFullYear(),me.endDay.getMonth(),me.endDay.getDate());
+                    while (true){
+                        if(startDay <= endDay ){
+                            dates.push(_.cloneDeep(startDay));
+                            startDay.setDate(startDay.getDate()+1);
+                        }else {
+                            break;
+                        }
+                    }
+                    me.selectedDates = dates;
+                }
+
+            },
+            "previousMouth":function () {
+                let me = this;
+                let date = _.cloneDeep(me.currentDate);
+                date.setMonth(date.getMonth()-1);
+                me.currentDate = date;
+            },
+            "nextMouth":function () {
+                let me = this;
+                let date = _.cloneDeep(me.currentDate);
+                date.setMonth(date.getMonth()+1);
+                me.currentDate = date;
             }
         },
         components:{
