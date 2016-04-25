@@ -134,7 +134,6 @@ module.exports = {
         },
         toggle:function(index,record){
             let me = this;
-            debugger;
             if(record.expanded){
                 record.expanded = !record.expanded;
                 me.close(index,record);

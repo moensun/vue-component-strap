@@ -8,10 +8,10 @@ Time: 15:54-->
     <div class="ms-date-field">
         <div class="ms-picker" v-show="calendarShow">
             <div v-el:date-picker class="ms-picker-box ms-picker-box-down" >
-                <datepicker :value.sync="value"
-                            :multiple="multiple"
+                <datepicker :multiple="multiple"
                             :is-disabled="isDisabled"
-                            :day-item-click="dayItemClick">
+                            :day-item-click="dayItemClick"
+                            :selected-dates.sync="selectedDates">
                 </datepicker>
                 <div>
                     <span>
@@ -25,7 +25,7 @@ Time: 15:54-->
             </div>
         </div>
         <div class="input-group">
-            <input v-el:date-field type="text" class="form-control" v-model="value" placeholder="{{placeholder}}">
+            <input v-el:date-field type="text" class="form-control" v-model="showDate" placeholder="{{placeholder}}">
             <div class="input-group-addon">
                 <span class="glyphicon glyphicon-calendar ms-calendar" @click="showCalendar($event)"></span>
             </div>
@@ -37,6 +37,7 @@ Time: 15:54-->
     import Vue from "vue";
     import _ from "lodash";
     import moment from "moment";
+    import MSUtil from "../../util/index";
     import dateFieldMixin from "./mixin/dateFieldMixin";
     import datepicker from "../../picker/date/datepicker.vue";
     export default{
@@ -78,7 +79,8 @@ Time: 15:54-->
         data(){
             let me = this;
             return{
-                "calendarShow":false
+                "calendarShow":false,
+                "selectedDates":[]
             }
         },
         ready(){
@@ -92,7 +94,43 @@ Time: 15:54-->
             });
         },
         watch:{
-
+            "value":{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
+                        if(me.multiple == "true" && _.isArray(newValue)){
+                            me.selectedDates = MSUtil.MSDate.stringArrayToDateArray(newValue);
+                        }else {
+                            let dates  = [];
+                            dates.push(new Date(MSUtil.MSDate.dateAdapter(newValue)));
+                            me.selectedDates = dates;
+                        }
+                    }
+                },
+                immediate:true
+            },
+            "selectedDates":{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
+                        if(me.multiple == "true"){
+                            me.value = MSUtil.MSDate.dateArrayToStringArray(newValue,me.dateFormat);
+                        }else{
+                            if(newValue[0]){
+                                me.value = moment(newValue[0]).format(me.dateFormat);
+                            }else {
+                                me.value = "";
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        computed:{
+            "showDate":function () {
+                let me = this;
+                return me.value;
+            }
         },
         methods:{
             "initComponent":function () {
@@ -136,12 +174,8 @@ Time: 15:54-->
             },
             "onToday":function () {
                 let me = this;
-                if(me.multiple === "true"){
-                    me.value = [];
-                    me.value.push(new Date());
-                }else {
-                    me.value = new Date();
-                }
+                me.value = [];
+                me.value.push(new Date());
             }
         },
         components:{

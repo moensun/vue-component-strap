@@ -137,7 +137,6 @@ Time: 17:08-->
             },
             "selectedDatesObj":{
                 handler:function (newValue,oldValue) {
-                     debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
@@ -150,7 +149,6 @@ Time: 17:08-->
             },
             "selectedDates":{
                 handler:function (newValue,oldValue) {
-                    debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
