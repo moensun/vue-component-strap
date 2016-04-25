@@ -60,7 +60,6 @@ Time: 17:11-->
             },
             "itemDisabled":function () {
                 let me = this;
-                debugger;
                 if(typeof me.isDisabled == 'function'){
                     return me.isDisabled(me.dayItem);
                 }

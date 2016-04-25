@@ -19,7 +19,8 @@ Time: 14:26-->
                             <datepicker-range :current-date="month"
                                               :start-day.sync="startDayObj"
                                               :end-day.sync="endDayObj"
-                                              :selected-dates.sync="selectedDatesObj">
+                                              :selected-dates.sync="selectedDatesObj"
+                                              :is-disabled="isDisabled">
                             </datepicker-range>
                         </div>
                         <div class="ms-datepicker-td ms-btn-next">

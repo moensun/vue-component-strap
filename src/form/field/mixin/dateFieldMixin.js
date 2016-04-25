@@ -26,6 +26,9 @@ export default {
             default:function () {
                 return "关闭";
             }
+        },
+        "isDisabled":{
+            type:Function
         }
     },
     data(){
