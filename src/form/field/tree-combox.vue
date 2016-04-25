@@ -65,7 +65,6 @@ Time: 22:21-->
         ready:function(){
             let me = this;
             let o = $(me.$el);
-            debugger;
         },
         data:function(){
             return {
@@ -106,7 +105,6 @@ Time: 22:21-->
                 console.log(this.text);
                 let me = this;
                 if(!me.listShow){
-                    debugger;
                     let el = me.$el;
                     me.listWidth = el.clientWidth+"px";
                     me.listBoxStyle.maxWidth = el.clientWidth+"px";
@@ -123,9 +121,6 @@ Time: 22:21-->
                 me.listShow = !me.listShow;
                 me.$els.treeComboxText.focus();
 
-
-
-                debugger;
             },
             select:function(){
                 alert("ss");

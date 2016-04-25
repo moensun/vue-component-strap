@@ -55,6 +55,12 @@
                 default:function () {
                     return [];
                 }
+            },
+            "autoScroll":{
+                type:String,
+                default:function () {
+                    return "false";
+                }
             }
         },
         data(){
@@ -65,6 +71,7 @@
         ready(){
             let me = this;
             me.clientWidth = me.$el.clientWidth;
+
         },
         computed:{
             "flexCount":function () {

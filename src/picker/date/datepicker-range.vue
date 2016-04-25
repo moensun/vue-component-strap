@@ -26,6 +26,7 @@ Time: 14:41-->
                                               :start-day.sync="startDay"
                                               :end-day.sync="endDay"
                                               :current-month="currentMonth"
+                                              :is-disabled="isDisabled"
                                               :selected-dates.sync="selectedDates">
                         </datepicker-range-day>
                     </td>
@@ -147,7 +148,13 @@ Time: 14:41-->
                             break;
                         }*/
                         if(startDay <= endDay ){
-                            dates.push(_.cloneDeep(startDay));
+                            if(typeof me.isDisabled == 'function'){
+                                if(!me.isDisabled(startDay)){
+                                    dates.push(_.cloneDeep(startDay));
+                                }
+                            }else {
+                                dates.push(_.cloneDeep(startDay));
+                            }
                             startDay.setDate(startDay.getDate()+1);
                         }else {
                             break;

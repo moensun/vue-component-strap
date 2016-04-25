@@ -78,12 +78,6 @@ export default {
             }
             return arrays;
         },
-        "disabled":function (dayItem) {
-            let me = this;
-            if(typeof me.isDisabled === 'function'){
-                return me.isDisabled(dayItem);
-            }
-        },
         "isSameDay":function (d1,d2) {
             return (d1.getFullYear()==d2.getFullYear()
             && d1.getMonth()==d2.getMonth()
