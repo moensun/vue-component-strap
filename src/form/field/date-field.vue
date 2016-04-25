@@ -5,7 +5,7 @@ User: Bane.Shi
 Date: 16/4/16
 Time: 15:54-->
 <template>
-    <div class="ms-date-field" @click.stop="">
+    <div class="ms-date-field">
         <div class="ms-picker" v-show="calendarShow">
             <div v-el:date-picker class="ms-picker-box ms-picker-box-down" >
                 <datepicker :value.sync="value"
@@ -83,8 +83,12 @@ Time: 15:54-->
         },
         ready(){
             let me = this;
-            $(document).on('click',function (e) {
-                me.calendarShow = false;
+            me.eventNamespace = _.uniqueId(".date_field_click_");
+            $(document).on('click'+me.eventNamespace,function (e) {
+                let el = me.$el;
+                if(!el.contains(e.target)){
+                    me.calendarShow = false;
+                }
             });
         },
         watch:{
@@ -142,9 +146,6 @@ Time: 15:54-->
         },
         components:{
             datepicker
-        },
-        beforeDestroy() {
-            $(document).off('click');
         }
     }
 </script>

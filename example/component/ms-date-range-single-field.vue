@@ -14,7 +14,9 @@ Time: 12:50-->
         </div>
     </div>
     <div>
-        <ms-date-range-single-field :selected-dates.sync="selectedDates"></ms-date-range-single-field>
+        <ms-date-range-single-field :selected-dates.sync="selectedDates"
+                                    :is-disabled="isDisabled">
+        </ms-date-range-single-field>
     </div>
 </template>
 <script>
@@ -25,7 +27,12 @@ Time: 12:50-->
             return {
                 "selectedDates":[
                         "2016-4-1"
-                ]
+                ],
+                "isDisabled":function (day) {
+                    if(day.getDay()==4){
+                        return true;
+                    }
+                }
             }
         },
         components:{

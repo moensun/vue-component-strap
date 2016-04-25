@@ -5,7 +5,7 @@ User: Bane.Shi
 Date: 16/4/22
 Time: 14:26-->
 <template>
-    <div class="ms-date-range-field" @click.stop="">
+    <div class="ms-date-range-field">
         <div class="ms-picker" v-show="calendarShow">
             <div v-el:date-picker class="ms-picker-box ms-picker-box-down">
                 <div class="ms-datepicker-table">
@@ -100,8 +100,13 @@ Time: 14:26-->
                 month2.setMonth(month2.getMonth()+1);
                 me.showMonths = [month1,month2];
             }
-            $(document).on('click',function (e) {
-                me.calendarShow = false;
+
+            me.eventNamespace = _.uniqueId(".date_field_click_");
+            $(document).on('click'+me.eventNamespace,function (e) {
+                let el = me.$el;
+                if(!el.contains(e.target)){
+                    me.calendarShow = false;
+                }
             });
         },
         computed:{

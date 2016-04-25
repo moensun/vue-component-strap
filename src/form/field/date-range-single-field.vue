@@ -5,12 +5,13 @@ User: Bane.Shi
 Date: 16/4/24
 Time: 17:08-->
 <template>
-    <div class="ms-date-range-single-field" @click.stop="">
+    <div class="ms-date-range-single-field" >
         <div class="ms-picker" v-show="calendarShow">
             <div v-el:date-picker class="ms-picker-box ms-picker-box-down" >
                 <datepicker-range-single :start-day.sync="startDayObj"
                                          :end-day.sync="endDayObj"
                                          :selected-dates.sync="selectedDatesObj"
+                                         :is-disabled="isDisabled"
                                          :date-format="dateFormat">
                 </datepicker-range-single>
                 <div>
@@ -64,6 +65,9 @@ Time: 17:08-->
                     return "YYYY-MM-DD";
                 }
             },
+            "isDisabled":{
+                type:Function
+            }
         },
         data(){
             return {
@@ -75,8 +79,13 @@ Time: 17:08-->
         },
         ready(){
             let me = this;
-            $(document).on('click',function (e) {
-                me.calendarShow = false;
+
+            me.eventNamespace = _.uniqueId(".date_field_click_");
+            $(document).on('click'+me.eventNamespace,function (e) {
+                let el = me.$el;
+                if(!el.contains(e.target)){
+                    me.calendarShow = false;
+                }
             });
         },
         computed:{

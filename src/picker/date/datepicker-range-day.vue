@@ -6,7 +6,7 @@ Date: 16/4/22
 Time: 17:11-->
 <template>
     <button type="button" class="btn btn-sm btn-default" v-show="isCurrentMonth"
-            :class="{'ms-today':(isToday && !isSelected),'ms-select-day':isSelected}"
+            :class="{'ms-today':(isToday && !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}"
             @click="selectDay()"
             @contextmenu.prevent="cancelDay()">
         <span>{{dayItem | dayFormat}}</span>
@@ -57,6 +57,12 @@ Time: 17:11-->
                 let day = me.dayItem;
                 let today = new Date();
                 return (day.getFullYear()===today.getFullYear() && day.getMonth()===today.getMonth() && day.getDate()===today.getDate());
+            },
+            "itemDisabled":function () {
+                let me = this;
+                if(typeof me.isDisabled == 'function'){
+                    return me.isDisabled(me.dayItem);
+                }
             }
         },
         filters:{

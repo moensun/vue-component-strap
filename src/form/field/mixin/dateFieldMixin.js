@@ -6,6 +6,7 @@
  * Time: 22:03
  */
 'use strict';
+import _ from "lodash";
 export default {
     props:{
         "todayText":{
@@ -26,5 +27,18 @@ export default {
                 return "关闭";
             }
         }
+    },
+    data(){
+        return {
+            "eventNamespace":null
+        }
+    },
+    ready(){
+        let me = this;
+        me.$el.id= _.uniqueId("date_field_");
+    },
+    beforeDestroy() {
+        let me = this;
+        $(document).off('click'+me.eventNamespace);
     }
 }

@@ -12,7 +12,8 @@ Time: 12:47-->
                                         :start-day.sync="startDay"
                                         :end-day.sync="endDay"
                                         :selected-dates.sync="selectedDates"
-                                        :view-type.sync="viewType">
+                                        :view-type.sync="viewType"
+                                        :is-disabled="isDisabled">
             </datepicker-range-day-panel>
         </div>
         <div class="ms-month-panel" v-show="(viewType=='month')">
@@ -32,7 +33,10 @@ Time: 12:47-->
     import datepickerRangeDayPanel from "./datepicker-range-day-panel.vue";
     import datepickerMonthPanel from "./datepicker-month-panel.vue";
     import datepickerYearPanel from "./datepicker-year-panel.vue";
+    import datepickerMixin from "./datepickerMixin";
     export default{
+        name:'datepickerRangeSingle',
+        mixins:[datepickerMixin],
         props:{
             "selectedDates":{
                 type:Array,
