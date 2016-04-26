@@ -52,20 +52,23 @@ Time: 23:55-->
             },
             "currentPage":{
                 type:Number,
+                twoWay:true,
                 default:function () {
                     return 0;
                 }
             },
             "limit":{
                 type:Number,
+                twoWay:true,
                 default:function () {
                     return 20;
                 }
             },
             "total":{
                 type:Number,
+                twoWay:true,
                 default:function () {
-                    return 123;
+                    return 0;
                 }
             }
         },
@@ -93,7 +96,11 @@ Time: 23:55-->
                 if(me.currentPage<me.pageCount){
                     return me.startRow + me.limit;
                 }else {
-                    return me.startRow + (me.total-(me.pageCount-1)*me.limit);
+                    if(me.total>me.limit){
+                        return me.startRow + (me.total-(me.pageCount-1)*me.limit);
+                    }else {
+                        return me.total;
+                    }
                 }
             },
             "isFirstPage":function () {
@@ -136,14 +143,18 @@ Time: 23:55-->
             "refresh":function () {
                 let me = this;
                 let num = parseInt(me.showNum);
-                if(!isNaN(num)){
-                    if(num<1){
+                if(me.total>0){
+                    if(!isNaN(num)){
+                        if(num<1){
+                            num = 1;
+                        }else if (num > me.pageCount){
+                            num = me.pageCount;
+                        }
+                    }else {
                         num = 1;
-                    }else if (num > me.pageCount){
-                        num = me.pageCount;
                     }
                 }else {
-                    num = 1;
+                    num = 0;
                 }
                 me.currentPage = num;
                 me.showNum  = num;

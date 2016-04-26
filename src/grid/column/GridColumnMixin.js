@@ -42,6 +42,11 @@ export default{
         }
     },
     methods:{
-
+        "click":function () {
+            let me = this;
+            if(me.setting.listeners && me.setting.listeners.click && (typeof me.setting.listeners.click == 'function')){
+                me.setting.listeners.click(me.$get("record."+me.setting.dataIndex),me.record);
+            }
+        }
     }
 }

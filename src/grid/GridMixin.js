@@ -36,7 +36,7 @@ export default{
             }else if(me.setting.flex){
                 columnWidth = Object.assign(columnWidth,{"width":( (me.setting.flex/me.flexCount)*me.surplusWidth )+"px"});
             }else {
-                
+                columnWidth = Object.assign(columnWidth,{"width":( (1/me.flexCount)*me.surplusWidth )+"px"});
             }
             return columnWidth;
         },

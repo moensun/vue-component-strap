@@ -1,6 +1,6 @@
 <template>
     <div class="grid-panel">
-        <div class="grid-header">
+        <div v-el:grid-header class="grid-header" :style="[headerPaddingRight]">
             <table class="table">
                 <thead>
                     <tr>
@@ -14,13 +14,14 @@
                 </thead>
             </table>
         </div>
-        <div class="grid-header-line"></div>
-        <div class="grid-body">
+        <div v-el:grid-header-line class="grid-header-line"></div>
+        <div v-el:grid-body class="grid-body" :style="[bodyHeight]">
             <table class="table table-striped">
                 <tbody>
                     <tr v-for="(rowIndex,record) in store">
                         <td v-for="(colIndex,column) in columns"
                             :is="(column.type?column.type:'text-column' )"
+                            :store="store"
                             :record="record"
                             :flex-count="flexCount"
                             :surplus-width="surplusWidth"
@@ -29,13 +30,21 @@
                     </tr>
                 </tbody>
             </table>
+            <div v-if="isEmpty">{{{emptyText}}}</div>
         </div>
-        <div class="grid-footer">
-            <paging></paging>
+        <div v-el:grid-footer class="grid-footer">
+            <component v-if="paging" :is="(paging.theme?paging.theme:'paging')"
+                       :page-text="paging.pageText"
+                       :show-text="paging.showText"
+                       :current-page.sync="currentPage"
+                       :limit.sync="limit"
+                       :total.sync="total" >
+            </component>
         </div>
     </div>
 </template>
 <script>
+    import Vue from "vue";
     import _ from "lodash";
     import gridHeader from "./header/header.vue";
     import paging from "../toolbar/paging.vue";
@@ -44,6 +53,15 @@
     export default{
         name:'gridPanel',
         props:{
+            "width":{
+                type:Number
+            },
+            "height":{
+                type:Number
+            },
+            "emptyText":{
+                type:String
+            },
             "store":{
                 type:Array,
                 default:function () {
@@ -61,25 +79,56 @@
                 default:function () {
                     return "false";
                 }
+            },
+            "paging":{
+                type:Object,
+            },
+            "currentPage":{
+                type:Number,
+                twoWay:true,
+                default:function () {
+                    return 0;
+                }
+            },
+            "limit":{
+                type:Number,
+                twoWay:true,
+                default:function () {
+                    return 20;
+                }
+            },
+            "total":{
+                type:Number,
+                twoWay:true,
+                default:function () {
+                    return 0;
+                }
             }
         },
         data(){
             return {
-                "clientWidth":0
+                "clientWidth":0,
+                "bodyHeight":{},
+                "headerPaddingRight":{}
             }
         },
         ready(){
             let me = this;
             me.clientWidth = me.$el.clientWidth;
-
+            me.$emit('computeBodyHeight');
+        },
+        watch:{
+            "height":function () {
+                this.$emit('computeBodyHeight');
+            }
         },
         computed:{
             "flexCount":function () {
                 let me = this;
                 let flexCount = 0;
                 _.forEach(me.columns,function (column) {
-                    if(column.flex && !column.width ){
-                        flexCount += column.flex;
+                    if(!column.width ){
+                        flexCount += (column.flex?column.flex:1);
                     }
                 });
                 return flexCount;
@@ -94,10 +143,43 @@
                     }
                 });
                 return me.clientWidth-widthCount;
+            },
+            "isEmpty":function () {
+                let me = this;
+                return (!me.store  || me.store.length == 0 );
             }
         },
         methods:{
 
+        },
+        events:{
+            /**
+             * 计算body部分的高度
+             */
+            "computeBodyHeight":function () {
+                let me = this;
+                if(me.height){
+                    let bodyHeight = me.height - (me.$els.gridHeader.clientHeight + me.$els.gridFooter.clientHeight + me.$els.gridHeaderLine.clientHeight);
+                    me.bodyHeight = {"height":bodyHeight+'px'};
+                }else {
+                    me.bodyHeight = {};
+                }
+                Vue.nextTick(function () {
+                    me.$emit("judgeShowScroll");
+                });
+            },
+            /**
+             * 计算是否头部要适配滚动条
+             */
+            "judgeShowScroll":function () {
+                let me = this;
+                let gridBody = me.$els.gridBody;
+                if(gridBody.clientHeight < gridBody.scrollHeight ){
+                    me.headerPaddingRight = {"paddingRight":"14px"};
+                }else {
+                    me.headerPaddingRight = {};
+                }
+            }
         },
         components:{
             gridHeader,
@@ -112,6 +194,9 @@
         width: 100%;
         position: relative;
         .grid-header{
+            &.scroll-show{
+                 padding-right: 14px;
+             }
             .table{
                 margin-bottom: 0px;
                 thead{

@@ -5,17 +5,23 @@ User: Bane.Shi
 Date: 16/4/9
 Time: 16:13-->
 <template>
-    <div role="button" class="ms-grid-action-item" :class="item.cls" @click="handler"></div>
+    <div role="button" class="ms-grid-action-item"
+         :class="[cls,{'ms-grid-action-item-disabled':actionDisabled}]"
+         @click="handler()">
+    </div>
 </template>
 <script>
     import Vue from "vue";
+    import _ from "lodash";
     export default{
         props:{
             "store":{},
             "item":{
                 type:Object,
                 default:function () {
-                    return {};
+                    return {
+                        "cls":null
+                    };
                 }
             },
             "record":{
@@ -32,21 +38,30 @@ Time: 16:13-->
         },
         ready(){
             let me = this;
-            me.isDisabled();
         },
-        methods:{
-            isDisabled:function () {
+        computed:{
+            "cls":function () {
+                let me = this;
+                let cls = {};
+                if(me.item.cls && me.item.cls.replace(/\s/g,"")){
+                    let clss = me.item.cls.split(" ");
+                    _.forEach(clss,function (clsItem) {
+                        clsItem = clsItem.replace(/\s/g,"");
+                        if(clsItem){
+                            cls[clsItem] = clsItem;
+                        }
+                    });
+                }
+                return cls;
+            },
+            "actionDisabled":function () {
                 let me = this;
                 if(typeof me.item.isDisabled === 'function'){
-                    let disabled = me.item.isDisabled(me.store,me.record);
-                    if(disabled){
-                        Vue.util.addClass(me.$el,"ms-grid-action-item-disabled");
-                    }else {
-                        Vue.util.removeClass(me.$el,"ms-grid-action-item-disabled");
-                    }
+                    return me.item.isDisabled(me.record,me.store);
                 }
-
-            },
+            }
+        },
+        methods:{
             handler:function () {
                 let me = this;
                 if(me.item.handler && (typeof me.item.handler == "function") ){
