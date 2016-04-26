@@ -132,7 +132,6 @@
         computed:{
             "showRowLines":function () {
                 let me = this;
-                debugger;
                 if(me.rowLines == "true"){
                     return true;
                 }
