@@ -1,7 +1,8 @@
 <template>
     <div class="grid-panel">
-        <div v-el:grid-header class="grid-header" :style="[headerPaddingRight]">
-            <table class="table">
+        <div v-el:grid-header class="grid-header table-responsive"
+             :style="[headerLineStyle]">
+            <table class="table" :class="{'table-bordered':showRowLines}">
                 <thead>
                     <tr>
                         <th v-for="(colIndex,column) in columns"
@@ -15,8 +16,8 @@
             </table>
         </div>
         <div v-el:grid-header-line class="grid-header-line"></div>
-        <div v-el:grid-body class="grid-body" :style="[bodyHeight]">
-            <table class="table table-striped">
+        <div v-el:grid-body class="grid-body table-responsive" :style="[bodyHeight]">
+            <table class="table table-striped" :class="{'table-bordered':showRowLines}">
                 <tbody>
                     <tr v-for="(rowIndex,record) in store">
                         <td v-for="(colIndex,column) in columns"
@@ -61,6 +62,12 @@
             },
             "emptyText":{
                 type:String
+            },
+            "rowLines":{
+                type:String,
+                default:function () {
+                    return "false";
+                }
             },
             "store":{
                 type:Array,
@@ -109,7 +116,7 @@
             return {
                 "clientWidth":0,
                 "bodyHeight":{},
-                "headerPaddingRight":{}
+                "isBodyScrollShow":false,
             }
         },
         ready(){
@@ -123,6 +130,27 @@
             }
         },
         computed:{
+            "showRowLines":function () {
+                let me = this;
+                debugger;
+                if(me.rowLines == "true"){
+                    return true;
+                }
+            },
+            "headerLineStyle":function (){
+                let me = this;
+                let headerStyle = {};
+                if(me.showRowLines){
+                    headerStyle = {"borderTop":"1px solid #ddd"};
+                }
+                if(me.isBodyScrollShow){
+                    headerStyle = Object.assign(headerStyle,{"paddingRight":"14px"});
+                    if(me.showRowLines){
+                        headerStyle = Object.assign(headerStyle,{"borderRight":"1px solid #ddd"});
+                    }
+                }
+                return headerStyle;
+            },
             "flexCount":function () {
                 let me = this;
                 let flexCount = 0;
@@ -175,9 +203,9 @@
                 let me = this;
                 let gridBody = me.$els.gridBody;
                 if(gridBody.clientHeight < gridBody.scrollHeight ){
-                    me.headerPaddingRight = {"paddingRight":"14px"};
+                    me.isBodyScrollShow = true;
                 }else {
-                    me.headerPaddingRight = {};
+                    me.isBodyScrollShow = false;
                 }
             }
         },
@@ -197,6 +225,7 @@
             &.scroll-show{
                  padding-right: 14px;
              }
+            .table-bordered{border: 0px;}
             .table{
                 margin-bottom: 0px;
                 thead{

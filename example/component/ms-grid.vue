@@ -12,23 +12,29 @@ Time: 22:15-->
     </div>
     <div>
         <div>
-            <ms-grid-panel :store="store" :columns="columns" :height="height" :paging="paging"></ms-grid-panel>
+            <ms-grid-panel :store="store"
+                           :columns="columns"
+                           :height="height"
+                           row-lines="true"
+                           :paging="paging"></ms-grid-panel>
         </div>
     </div>
     <hr>
-    <div>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>参数</th>
-                <th>类型</th>
-                <th>释义</th>
-                <th>是否双向绑定</th>
-                <th>默认值</th>
-                <th>补充说明</th>
-            </tr>
-            </thead>
-            <tbody>
+    <div class="panel panel-default">
+        <div class="panel-heading">参数说明</div>
+        <div class="panel-body">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>参数</th>
+                    <th>类型</th>
+                    <th>释义</th>
+                    <th>是否双向绑定</th>
+                    <th>默认值</th>
+                    <th>补充说明</th>
+                </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>height</td>
                     <td>Number</td>
@@ -97,8 +103,54 @@ Time: 22:15-->
                         <p>showText: </p>
                     </td>
                 </tr>
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">代码示例</div>
+        <div class="panel-body">
+            <pre>
+                "columns":[
+                    {
+                        type:'text-column',
+                        text:'文本',
+                        dataIndex:'text',
+                        flex:1,
+                        listeners:{
+                            click:function (val,record) {
+                                alert(val);
+                            }
+                        }
+                    },
+                    {
+                        type:'text-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        flex:2
+                    },
+                    {
+                        type:'action-column',
+                        text:'',
+                        dataIndex:'id',
+                        width:100,
+                        items:[
+                            {
+                                "cls":"glyphicon glyphicon-pencil",
+                                handler:function (record) {
+                                    alert(record);
+                                },
+                                isDisabled:function (record) {
+                                    if(record.id==4){
+                                        return true;
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            </pre>
+        </div>
     </div>
 </template>
 <script>
