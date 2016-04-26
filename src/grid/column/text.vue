@@ -1,5 +1,5 @@
 <template>
-    <td v-show="hidden" :style="[style,columnWidthStyle]">
+    <td v-show="hidden" :style="[style,columnWidthStyle]" @click="click()">
         <div>{{{ renderer }}}</div>
     </td>
 </template>
