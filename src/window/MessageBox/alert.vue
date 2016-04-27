@@ -15,7 +15,7 @@ Time: 10:44-->
                         <h4 class="modal-title" id="mySmallModalLabel">{{title}}</h4>
                     </div>
                     <div class="modal-body">
-                        {{message}}
+                        {{{message}}}
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-dismiss="modal" @click="sure()">{{sureText}}</button>
@@ -33,6 +33,15 @@ Time: 10:44-->
         mixins:[MessageBoxMixin],
         props:{
 
+        },
+        watch:{
+            "isShow":function (newValue,oldValue) {
+                let me = this;
+                if(newValue === false){
+                    me.title = "";
+                    me.message = "";
+                }
+            }
         },
         methods:{
             sure:function () {

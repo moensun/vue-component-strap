@@ -10,6 +10,14 @@ module.exports = {
     'main':{
         component:require("../component/main.vue")
     },
+    "ms-alert":{
+        name:"ms-alert",
+        component:require("../component/ms-alert.vue")
+    },
+    "ms-confirm":{
+        name:"ms-confirm",
+        component:require("../component/ms-confirm.vue")
+    },
     "ms-datepicker":{
         name:"ms-datepicker",
         component:require("../component/ms-datepicker.vue")
