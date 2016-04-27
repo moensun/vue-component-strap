@@ -25,7 +25,7 @@ webpackJsonp([0],[
 	
 	var _router2 = _interopRequireDefault(_router);
 	
-	var _app = __webpack_require__(264);
+	var _app = __webpack_require__(320);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
@@ -12813,25 +12813,33 @@ webpackJsonp([0],[
 	    'main': {
 	        component: __webpack_require__(16)
 	    },
+	    "ms-alert": {
+	        name: "ms-alert",
+	        component: __webpack_require__(20)
+	    },
+	    "ms-confirm": {
+	        name: "ms-confirm",
+	        component: __webpack_require__(335)
+	    },
 	    "ms-datepicker": {
 	        name: "ms-datepicker",
-	        component: __webpack_require__(20)
+	        component: __webpack_require__(300)
 	    },
 	    "ms-date-field": {
 	        name: 'ms-date-field',
-	        component: __webpack_require__(256)
+	        component: __webpack_require__(304)
 	    },
 	    "ms-date-range-field": {
 	        name: 'ms-date-range-field',
-	        component: __webpack_require__(260)
+	        component: __webpack_require__(308)
 	    },
 	    "ms-date-range-single-field": {
 	        name: 'ms-date-range-single-field',
-	        component: __webpack_require__(298)
+	        component: __webpack_require__(312)
 	    },
 	    "ms-grid-panel": {
 	        name: 'ms-grid-panel',
-	        component: __webpack_require__(279)
+	        component: __webpack_require__(316)
 	    },
 	    '*': {
 	        component: __webpack_require__(16)
@@ -12902,8 +12910,8 @@ webpackJsonp([0],[
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] example/component/ms-datepicker.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(255)
+	  console.warn("[vue-loader] example/component/ms-alert.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(299)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12913,7 +12921,7 @@ webpackJsonp([0],[
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-datepicker.vue"
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-alert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12940,8 +12948,32 @@ webpackJsonp([0],[
 	var _index = __webpack_require__(23);
 	
 	exports.default = {
+	    data: function data() {
+	        return {
+	            "alertConfig": {
+	                "show": false,
+	                "message": "",
+	                "title": ""
+	            }
+	        };
+	    },
+	
+	    methods: {
+	        "alert1": function alert1() {
+	            var me = this;
+	            me.alertConfig.title = "Alert";
+	            me.alertConfig.show = true;
+	            me.alertConfig.message = "ALERT1";
+	        },
+	        "alert2": function alert2() {
+	            var me = this;
+	
+	            me.alertConfig.show = true;
+	            me.alertConfig.message = "ALERT2";
+	        }
+	    },
 	    components: {
-	        msDatepicker: _index.msDatepicker
+	        msAlert: _index.msAlert
 	    }
 	};
 
@@ -12968,31 +13000,31 @@ webpackJsonp([0],[
 	
 	var _dateField2 = _interopRequireDefault(_dateField);
 	
-	var _dateRangeField = __webpack_require__(192);
+	var _dateRangeField = __webpack_require__(193);
 	
 	var _dateRangeField2 = _interopRequireDefault(_dateRangeField);
 	
-	var _dateRangeSingleField = __webpack_require__(331);
+	var _dateRangeSingleField = __webpack_require__(208);
 	
 	var _dateRangeSingleField2 = _interopRequireDefault(_dateRangeSingleField);
 	
-	var _ueditorField = __webpack_require__(196);
+	var _ueditorField = __webpack_require__(245);
 	
 	var _ueditorField2 = _interopRequireDefault(_ueditorField);
 	
-	var _datepicker = __webpack_require__(161);
+	var _datepicker = __webpack_require__(162);
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
-	var _datepickerRange = __webpack_require__(200);
+	var _datepickerRange = __webpack_require__(197);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
-	var _datepickerRangeSingle = __webpack_require__(293);
+	var _datepickerRangeSingle = __webpack_require__(214);
 	
 	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
 	
-	var _treeList = __webpack_require__(210);
+	var _treeList = __webpack_require__(249);
 	
 	var _treeList2 = _interopRequireDefault(_treeList);
 	
@@ -13000,19 +13032,19 @@ webpackJsonp([0],[
 	
 	var _treeView2 = _interopRequireDefault(_treeView);
 	
-	var _panel = __webpack_require__(215);
+	var _panel = __webpack_require__(254);
 	
 	var _panel2 = _interopRequireDefault(_panel);
 	
-	var _panel3 = __webpack_require__(220);
+	var _panel3 = __webpack_require__(259);
 	
 	var _panel4 = _interopRequireDefault(_panel3);
 	
-	var _alert = __webpack_require__(244);
+	var _alert = __webpack_require__(288);
 	
 	var _alert2 = _interopRequireDefault(_alert);
 	
-	var _confirm = __webpack_require__(250);
+	var _confirm = __webpack_require__(294);
 	
 	var _confirm2 = _interopRequireDefault(_confirm);
 	
@@ -13145,7 +13177,6 @@ webpackJsonp([0],[
 	    ready: function ready() {
 	        var me = this;
 	        var o = $(me.$el);
-	        debugger;
 	    },
 	    data: function data() {
 	        return {
@@ -13185,7 +13216,6 @@ webpackJsonp([0],[
 	            console.log(this.text);
 	            var me = this;
 	            if (!me.listShow) {
-	                debugger;
 	                var el = me.$el;
 	                me.listWidth = el.clientWidth + "px";
 	                me.listBoxStyle.maxWidth = el.clientWidth + "px";
@@ -13201,8 +13231,6 @@ webpackJsonp([0],[
 	            }
 	            me.listShow = !me.listShow;
 	            me.$els.treeComboxText.focus();
-	
-	            debugger;
 	        },
 	        select: function select() {
 	            alert("ss");
@@ -13449,7 +13477,6 @@ webpackJsonp([0],[
 	        },
 	        toggle: function toggle(index, record) {
 	            var me = this;
-	            debugger;
 	            if (record.expanded) {
 	                record.expanded = !record.expanded;
 	                me.close(index, record);
@@ -13803,7 +13830,7 @@ webpackJsonp([0],[
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/form/field/date-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(191)
+	__vue_template__ = __webpack_require__(192)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -13838,6 +13865,10 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
+	var _stringify = __webpack_require__(188);
+	
+	var _stringify2 = _interopRequireDefault(_stringify);
+	
 	var _vue = __webpack_require__(10);
 	
 	var _vue2 = _interopRequireDefault(_vue);
@@ -13850,11 +13881,15 @@ webpackJsonp([0],[
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _dateFieldMixin = __webpack_require__(339);
+	var _index = __webpack_require__(212);
+	
+	var _index2 = _interopRequireDefault(_index);
+	
+	var _dateFieldMixin = __webpack_require__(161);
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepicker = __webpack_require__(161);
+	var _datepicker = __webpack_require__(162);
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
@@ -13899,17 +13934,60 @@ webpackJsonp([0],[
 	    data: function data() {
 	        var me = this;
 	        return {
-	            "calendarShow": false
+	            "calendarShow": false,
+	            "selectedDates": []
 	        };
 	    },
 	    ready: function ready() {
 	        var me = this;
-	        $(document).on('click', function (e) {
-	            me.calendarShow = false;
+	        me.eventNamespace = _lodash2.default.uniqueId(".date_field_click_");
+	        $(document).on('click' + me.eventNamespace, function (e) {
+	            var el = me.$el;
+	            if (!el.contains(e.target)) {
+	                me.calendarShow = false;
+	            }
 	        });
 	    },
 	
-	    watch: {},
+	    watch: {
+	        "value": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
+	                    if (me.multiple == "true" && _lodash2.default.isArray(newValue)) {
+	                        me.selectedDates = _index2.default.MSDate.stringArrayToDateArray(newValue);
+	                    } else {
+	                        var dates = [];
+	                        dates.push(new Date(_index2.default.MSDate.dateAdapter(newValue)));
+	                        me.selectedDates = dates;
+	                    }
+	                }
+	            },
+	            immediate: true
+	        },
+	        "selectedDates": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
+	                    if (me.multiple == "true") {
+	                        me.value = _index2.default.MSDate.dateArrayToStringArray(newValue, me.dateFormat);
+	                    } else {
+	                        if (newValue[0]) {
+	                            me.value = (0, _moment2.default)(newValue[0]).format(me.dateFormat);
+	                        } else {
+	                            me.value = "";
+	                        }
+	                    }
+	                }
+	            }
+	        }
+	    },
+	    computed: {
+	        "showDate": function showDate() {
+	            var me = this;
+	            return me.value;
+	        }
+	    },
 	    methods: {
 	        "initComponent": function initComponent() {
 	            var me = this;
@@ -13951,19 +14029,12 @@ webpackJsonp([0],[
 	        },
 	        "onToday": function onToday() {
 	            var me = this;
-	            if (me.multiple === "true") {
-	                me.value = [];
-	                me.value.push(new Date());
-	            } else {
-	                me.value = new Date();
-	            }
+	            me.value = [];
+	            me.value.push(new Date());
 	        }
 	    },
 	    components: {
 	        datepicker: _datepicker2.default
-	    },
-	    beforeDestroy: function beforeDestroy() {
-	        $(document).off('click');
 	    }
 	};
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
@@ -27749,14 +27820,77 @@ webpackJsonp([0],[
 /* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/* WEBPACK VAR INJECTION */(function($) {/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/24
+	 * Time: 22:03
+	 */
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _lodash = __webpack_require__(36);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "todayText": {
+	            type: String,
+	            default: function _default() {
+	                return "今天";
+	            }
+	        },
+	        "cleanText": {
+	            type: String,
+	            default: function _default() {
+	                return "清空";
+	            }
+	        },
+	        "closeText": {
+	            type: String,
+	            default: function _default() {
+	                return "关闭";
+	            }
+	        },
+	        "isDisabled": {
+	            type: Function
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "eventNamespace": null
+	        };
+	    },
+	    ready: function ready() {
+	        var me = this;
+	        me.$el.id = _lodash2.default.uniqueId("date_field_");
+	    },
+	    beforeDestroy: function beforeDestroy() {
+	        var me = this;
+	        $(document).off('click' + me.eventNamespace);
+	    }
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+
+/***/ },
+/* 162 */
+/***/ function(module, exports, __webpack_require__) {
+
 	var __vue_script__, __vue_template__
-	__webpack_require__(162)
-	__vue_script__ = __webpack_require__(164)
+	__webpack_require__(163)
+	__vue_script__ = __webpack_require__(165)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(190)
+	__vue_template__ = __webpack_require__(191)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -27775,14 +27909,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 162 */
+/* 163 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 163 */,
-/* 164 */
+/* 164 */,
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27791,46 +27925,33 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(165);
+	var _datepickerDayPanel = __webpack_require__(339);
 	
-	var _typeof3 = _interopRequireDefault(_typeof2);
+	var _datepickerDayPanel2 = _interopRequireDefault(_datepickerDayPanel);
 	
-	var _stringify = __webpack_require__(187);
+	var _datepickerMonthPanel = __webpack_require__(223);
 	
-	var _stringify2 = _interopRequireDefault(_stringify);
+	var _datepickerMonthPanel2 = _interopRequireDefault(_datepickerMonthPanel);
 	
-	var _lodash = __webpack_require__(36);
+	var _datepickerYearPanel = __webpack_require__(233);
 	
-	var _lodash2 = _interopRequireDefault(_lodash);
-	
-	var _moment = __webpack_require__(59);
-	
-	var _moment2 = _interopRequireDefault(_moment);
-	
-	var _vue = __webpack_require__(10);
-	
-	var _vue2 = _interopRequireDefault(_vue);
-	
-	var _datepickerMixin = __webpack_require__(189);
-	
-	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
+	var _datepickerYearPanel2 = _interopRequireDefault(_datepickerYearPanel);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
-	    name: 'datepicker',
-	    mixins: [_datepickerMixin2.default],
 	    props: {
 	        "selectedDates": {
-	            twoWay: true
-	        },
-	        "value": {
-	            twoWay: true
+	            type: Array,
+	            twoWay: true,
+	            default: function _default() {
+	                return [];
+	            }
 	        },
 	        "multiple": {
 	            type: String,
 	            default: function _default() {
-	                return "true";
+	                return "false";
 	            }
 	        },
 	        "dayItemClick": {
@@ -27839,286 +27960,26 @@ webpackJsonp([0],[
 	    },
 	    data: function data() {
 	        return {
-	            "dayArr": [],
-	            "mouthArr": [],
-	            "yearArr": [],
-	            "currentDay": null,
-	            "monthStartDay": null,
-	            "currentMouth": null,
-	            "currentYear": null,
-	            "yearScope": {
-	                "start": null,
-	                "end": null
-	            },
+	            "currentMonth": {},
+	            "currentYear": {},
 	            "viewType": "day"
 	        };
 	    },
 	
-	    computed: {
-	        "currentMouthText": function currentMouthText() {
-	            var me = this;
-	            if (me.currentMouth != null) {
-	                return me.months[me.currentMouth];
-	            }
-	        }
-	    },
-	    ready: function ready() {
-	        var me = this;
-	        me.initData();
-	        me.initDays();
-	        me.getMonths();
-	        me.initYearScope();
-	    },
-	
-	    watch: {
-	        "selectedDates": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	
-	                if (me.multiple === "true") {
-	                    (function () {
-	                        var dates = [];
-	                        if (me.selectedDates && _lodash2.default.isArray(me.selectedDates)) {
-	                            _lodash2.default.forEach(me.selectedDates, function (vItem) {
-	                                dates.push((0, _moment2.default)(vItem).format(me.dateFormat));
-	                            });
-	                        }
-	                        if ((0, _stringify2.default)(me.value) != (0, _stringify2.default)(dates)) {
-	                            me.value = dates;
-	                        }
-	                    })();
-	                } else {
-	                    if (newValue) {
-	                        me.value = (0, _moment2.default)(newValue).format(me.dateFormat);
-	                    } else {
-	                        me.value = "";
-	                    }
-	                }
-	            }
-	        },
-	        "value": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
-	                    if (me.multiple === "true") {
-	                        var dates = [];
-	                        if (!_lodash2.default.isArray(newValue)) {
-	                            newValue = newValue.split(',');
-	                        }
-	                        if (newValue) {
-	                            for (var i = 0; i < newValue.length; i++) {
-	                                dates.push(new Date(me.dateAdapter(newValue[i])));
-	                            }
-	                        }
-	                        if ((0, _stringify2.default)(me.selectedDates) != (0, _stringify2.default)(dates)) {
-	                            me.selectedDates = dates;
-	                        }
-	                    } else {
-	                        if (newValue) {
-	                            me.selectedDates = new Date(me.dateAdapter(newValue));
-	                        } else {
-	                            me.selectedDates = "";
-	                        }
-	                    }
-	                }
-	            },
-	            immediate: true
-	        }
-	    },
-	    methods: {
-	
-	        "initData": function initData() {
-	            var me = this;
-	        },
-	        "initDays": function initDays() {
-	            var me = this;
-	            me.currentDay = new Date();
-	            me.currentMouth = me.currentDay.getMonth();
-	            me.currentYear = me.currentDay.getFullYear();
-	            me.monthStartDay = new Date(me.currentDay.getFullYear(), me.currentDay.getMonth(), 1);
-	            me.refreshView();
-	        },
-	        "refreshView": function refreshView() {
-	            var me = this;
-	            me.monthStartDay = new Date(me.currentYear, me.currentMouth, 1);
-	            var weekDay = me.monthStartDay.getDay();
-	            me.monthStartDay.setDate(me.monthStartDay.getDate() - weekDay);
-	            var days = me.getDates(me.monthStartDay, 42);
-	            me.dayArr = me.split(days, 7);
-	        },
-	        "getMonths": function getMonths() {
-	            var me = this;
-	            me.mouthArr = me.split(_lodash2.default.clone(me.months), 3);
-	        },
-	        "previousMouth": function previousMouth() {
-	            var me = this;
-	            if (me.currentMouth > 0) {
-	                me.currentMouth = me.currentMouth - 1;
-	            } else {
-	                me.currentMouth = 11;
-	                me.currentYear = me.currentYear - 1;
-	            }
-	            me.refreshView();
-	        },
-	        "nextMouth": function nextMouth() {
-	            var me = this;
-	            if (me.currentMouth < 11) {
-	                me.currentMouth = me.currentMouth + 1;
-	            } else {
-	                me.currentMouth = 0;
-	                me.currentYear = me.currentYear + 1;
-	            }
-	            me.refreshView();
-	        },
-	        "isToday": function isToday(dayItem) {
-	            var day = new Date(dayItem);
-	            var today = new Date();
-	            return day.getFullYear() === today.getFullYear() && day.getMonth() === today.getMonth() && day.getDate() === today.getDate();
-	        },
-	        "isOtherMouth": function isOtherMouth(dayItem) {
-	            var day = new Date(dayItem);
-	            return day.getMonth() != this.currentMouth;
-	        },
-	        "isSelectDay": function isSelectDay(dayItem) {
-	            var me = this;
-	            var day = new Date(dayItem);
-	            if (me.multiple === "true") {
-	                var isSelect = false;
-	                if (me.selectedDates && me.selectedDates.length) {
-	                    _lodash2.default.forEach(me.selectedDates, function (selectDay) {
-	                        if ((typeof selectDay === "undefined" ? "undefined" : (0, _typeof3.default)(selectDay)) === 'object') {
-	                            if (day.getFullYear() === selectDay.getFullYear() && day.getMonth() === selectDay.getMonth() && day.getDate() === selectDay.getDate()) {
-	                                isSelect = true;
-	                            }
-	                        }
-	                    });
-	                }
-	                return isSelect;
-	            } else {
-	                var selectDay = new Date(me.selectedDates);
-	                return day.getFullYear() === selectDay.getFullYear() && day.getMonth() === selectDay.getMonth() && day.getDate() === selectDay.getDate();
-	            }
-	        },
-	        "selectDay": function selectDay(dayItem) {
-	            var me = this;
-	            var day = new Date(dayItem);
-	            if (day.getMonth() != me.currentMouth) {
-	                me.currentMouth = day.getMonth();
-	                me.currentYear = day.getFullYear();
-	                me.refreshView();
-	            }
-	            if (me.multiple === "true") {
-	                me.multipleSelect(day);
-	            } else {
-	                me.singleSelect(day);
-	            }
-	            if (typeof me.dayItemClick === 'function') {
-	                me.dayItemClick();
-	            }
-	        },
-	        "singleSelect": function singleSelect(dayItem) {
-	            var me = this;
-	            me.selectedDates = dayItem;
-	        },
-	        "multipleSelect": function multipleSelect(dayItem) {
-	            var me = this;
-	            var index = -1;
-	            var dates = _lodash2.default.cloneDeep(me.selectedDates);
-	            if (me.selectedDates && me.selectedDates.length) {
-	                for (var i = 0; i < me.selectedDates.length; i++) {
-	                    if (dayItem.getFullYear() === me.selectedDates[i].getFullYear() && dayItem.getMonth() === me.selectedDates[i].getMonth() && dayItem.getDate() === me.selectedDates[i].getDate()) {
-	                        index = i;
-	                    }
-	                }
-	            } else {
-	                me.selectedDates = [];
-	            }
-	
-	            if (index >= 0) {
-	                me.selectedDates.splice(index, 1);
-	            } else {
-	                me.selectedDates.push(dayItem);
-	            }
-	        },
-	        "selectMouth": function selectMouth(rowIndex, cellIndex) {
-	            var me = this;
-	            me.currentMouth = rowIndex * 3 + cellIndex;
-	            me.refreshView();
-	            me.viewType = 'day';
-	        },
-	        "isCurrentMouth": function isCurrentMouth(rowIndex, cellIndex) {
-	            var me = this;
-	            return me.currentMouth == rowIndex * 3 + cellIndex;
-	        },
-	        "previousYear": function previousYear() {
-	            var me = this;
-	            me.currentYear = me.currentYear - 1;
-	            me.refreshView();
-	            if (me.currentYear < me.yearScope.start) {
-	                me.previousYearScope();
-	            }
-	        },
-	        "nextYear": function nextYear() {
-	            var me = this;
-	            me.currentYear = me.currentYear + 1;
-	            me.refreshView();
-	            if (me.currentYear > me.yearScope.end) {
-	                me.nextYearScope();
-	            }
-	        },
-	        "initYearScope": function initYearScope() {
-	            var me = this;
-	            var remainder = me.currentYear % 20;
-	            me.yearScope.start = me.currentYear - remainder + 1;
-	            me.yearScope.end = me.currentYear + (20 - remainder);
-	            me.getYears();
-	        },
-	        "getYears": function getYears() {
-	            var me = this;
-	            var years = [];
-	            for (var i = me.yearScope.start; i <= me.yearScope.end; i++) {
-	                years.push(i);
-	            }
-	            me.yearArr = me.split(years, 5);
-	        },
-	        "previousYearScope": function previousYearScope() {
-	            var me = this;
-	            me.yearScope.start = me.yearScope.start - 20;
-	            me.yearScope.end = me.yearScope.end - 20;
-	            me.getYears();
-	        },
-	        "nextYearScope": function nextYearScope() {
-	            var me = this;
-	            me.yearScope.start = me.yearScope.start + 20;
-	            me.yearScope.end = me.yearScope.end + 20;
-	            me.getYears();
-	        },
-	        "selectYear": function selectYear(year) {
-	            var me = this;
-	            me.currentYear = year;
-	            me.refreshView();
-	            me.viewType = 'mouth';
-	        },
-	        "showMouthView": function showMouthView() {
-	            var me = this;
-	            me.viewType = 'mouth';
-	        },
-	        "showYearView": function showYearView() {
-	            var me = this;
-	            me.viewType = 'year';
-	        }
-	
-	    },
-	    components: {}
+	    components: {
+	        datepickerDayPanel: _datepickerDayPanel2.default,
+	        datepickerMonthPanel: _datepickerMonthPanel2.default,
+	        datepickerYearPanel: _datepickerYearPanel2.default
+	    }
 	};
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _Symbol = __webpack_require__(166)["default"];
+	var _Symbol = __webpack_require__(167)["default"];
 	
 	exports["default"] = function (obj) {
 	  return obj && obj.constructor === _Symbol ? "symbol" : typeof obj;
@@ -28127,43 +27988,43 @@ webpackJsonp([0],[
 	exports.__esModule = true;
 
 /***/ },
-/* 166 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(167), __esModule: true };
-
-/***/ },
 /* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(168);
-	__webpack_require__(186);
-	module.exports = __webpack_require__(43).Symbol;
+	module.exports = { "default": __webpack_require__(168), __esModule: true };
 
 /***/ },
 /* 168 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(169);
+	__webpack_require__(187);
+	module.exports = __webpack_require__(43).Symbol;
+
+/***/ },
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// ECMAScript 6 symbols shim
 	var $              = __webpack_require__(47)
 	  , global         = __webpack_require__(42)
-	  , has            = __webpack_require__(169)
-	  , DESCRIPTORS    = __webpack_require__(170)
+	  , has            = __webpack_require__(170)
+	  , DESCRIPTORS    = __webpack_require__(171)
 	  , $export        = __webpack_require__(41)
-	  , redefine       = __webpack_require__(171)
+	  , redefine       = __webpack_require__(172)
 	  , $fails         = __webpack_require__(52)
-	  , shared         = __webpack_require__(174)
-	  , setToStringTag = __webpack_require__(175)
-	  , uid            = __webpack_require__(177)
-	  , wks            = __webpack_require__(176)
-	  , keyOf          = __webpack_require__(178)
-	  , $names         = __webpack_require__(180)
-	  , enumKeys       = __webpack_require__(181)
-	  , isArray        = __webpack_require__(182)
-	  , anObject       = __webpack_require__(183)
-	  , toIObject      = __webpack_require__(179)
-	  , createDesc     = __webpack_require__(173)
+	  , shared         = __webpack_require__(175)
+	  , setToStringTag = __webpack_require__(176)
+	  , uid            = __webpack_require__(178)
+	  , wks            = __webpack_require__(177)
+	  , keyOf          = __webpack_require__(179)
+	  , $names         = __webpack_require__(181)
+	  , enumKeys       = __webpack_require__(182)
+	  , isArray        = __webpack_require__(183)
+	  , anObject       = __webpack_require__(184)
+	  , toIObject      = __webpack_require__(180)
+	  , createDesc     = __webpack_require__(174)
 	  , getDesc        = $.getDesc
 	  , setDesc        = $.setDesc
 	  , _create        = $.create
@@ -28303,7 +28164,7 @@ webpackJsonp([0],[
 	  $.getNames   = $names.get = $getOwnPropertyNames;
 	  $.getSymbols = $getOwnPropertySymbols;
 	
-	  if(DESCRIPTORS && !__webpack_require__(185)){
+	  if(DESCRIPTORS && !__webpack_require__(186)){
 	    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
 	  }
 	}
@@ -28373,7 +28234,7 @@ webpackJsonp([0],[
 	setToStringTag(global.JSON, 'JSON', true);
 
 /***/ },
-/* 169 */
+/* 170 */
 /***/ function(module, exports) {
 
 	var hasOwnProperty = {}.hasOwnProperty;
@@ -28382,7 +28243,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 170 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Thank's IE8 for his funny defineProperty
@@ -28391,18 +28252,18 @@ webpackJsonp([0],[
 	});
 
 /***/ },
-/* 171 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(172);
-
-/***/ },
 /* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__(173);
+
+/***/ },
+/* 173 */
+/***/ function(module, exports, __webpack_require__) {
+
 	var $          = __webpack_require__(47)
-	  , createDesc = __webpack_require__(173);
-	module.exports = __webpack_require__(170) ? function(object, key, value){
+	  , createDesc = __webpack_require__(174);
+	module.exports = __webpack_require__(171) ? function(object, key, value){
 	  return $.setDesc(object, key, createDesc(1, value));
 	} : function(object, key, value){
 	  object[key] = value;
@@ -28410,7 +28271,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports) {
 
 	module.exports = function(bitmap, value){
@@ -28423,7 +28284,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var global = __webpack_require__(42)
@@ -28434,23 +28295,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 175 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var def = __webpack_require__(47).setDesc
-	  , has = __webpack_require__(169)
-	  , TAG = __webpack_require__(176)('toStringTag');
+	  , has = __webpack_require__(170)
+	  , TAG = __webpack_require__(177)('toStringTag');
 	
 	module.exports = function(it, tag, stat){
 	  if(it && !has(it = stat ? it : it.prototype, TAG))def(it, TAG, {configurable: true, value: tag});
 	};
 
 /***/ },
-/* 176 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var store  = __webpack_require__(174)('wks')
-	  , uid    = __webpack_require__(177)
+	var store  = __webpack_require__(175)('wks')
+	  , uid    = __webpack_require__(178)
 	  , Symbol = __webpack_require__(42).Symbol;
 	module.exports = function(name){
 	  return store[name] || (store[name] =
@@ -28458,7 +28319,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports) {
 
 	var id = 0
@@ -28468,11 +28329,11 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 178 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $         = __webpack_require__(47)
-	  , toIObject = __webpack_require__(179);
+	  , toIObject = __webpack_require__(180);
 	module.exports = function(object, el){
 	  var O      = toIObject(object)
 	    , keys   = $.getKeys(O)
@@ -28483,7 +28344,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 179 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// to indexed object, toObject with fallback for non-array-like ES3 strings
@@ -28494,11 +28355,11 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 180 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
-	var toIObject = __webpack_require__(179)
+	var toIObject = __webpack_require__(180)
 	  , getNames  = __webpack_require__(47).getNames
 	  , toString  = {}.toString;
 	
@@ -28519,7 +28380,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 181 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// all enumerable object keys, includes symbols
@@ -28538,7 +28399,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 182 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.2.2 IsArray(argument)
@@ -28548,17 +28409,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 183 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(184);
+	var isObject = __webpack_require__(185);
 	module.exports = function(it){
 	  if(!isObject(it))throw TypeError(it + ' is not an object!');
 	  return it;
 	};
 
 /***/ },
-/* 184 */
+/* 185 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -28566,25 +28427,25 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 185 */
+/* 186 */
 /***/ function(module, exports) {
 
 	module.exports = true;
 
 /***/ },
-/* 186 */
+/* 187 */
 /***/ function(module, exports) {
 
 
 
 /***/ },
-/* 187 */
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(188), __esModule: true };
+	module.exports = { "default": __webpack_require__(189), __esModule: true };
 
 /***/ },
-/* 188 */
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var core = __webpack_require__(43);
@@ -28593,7 +28454,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 189 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -28609,7 +28470,7 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(165);
+	var _typeof2 = __webpack_require__(166);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -28698,12 +28559,6 @@ webpackJsonp([0],[
 	            }
 	            return arrays;
 	        },
-	        "disabled": function disabled(dayItem) {
-	            var me = this;
-	            if (typeof me.isDisabled === 'function') {
-	                return me.isDisabled(dayItem);
-	            }
-	        },
 	        "isSameDay": function isSameDay(d1, d2) {
 	            return d1.getFullYear() == d2.getFullYear() && d1.getMonth() == d2.getMonth() && d1.getDate() == d2.getDate();
 	        }
@@ -28711,29 +28566,29 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 190 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"ms-datepicker\" _v-4d1fdbe6=\"\">\n    <div class=\"ms-day\" v-show=\"(viewType=='day')\" _v-4d1fdbe6=\"\">\n        <table _v-4d1fdbe6=\"\">\n            <thead _v-4d1fdbe6=\"\">\n            <tr class=\"ms-datepicker-operate\" _v-4d1fdbe6=\"\">\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-4d1fdbe6=\"\"><span class=\"glyphicon glyphicon-chevron-left\" _v-4d1fdbe6=\"\"></span></button>\n                </th>\n                <th colspan=\"6\" _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"showMouthView()\" _v-4d1fdbe6=\"\">{{currentMouthText}}&nbsp;{{currentYear}}</button>\n                </th>\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-4d1fdbe6=\"\"><span class=\"glyphicon glyphicon-chevron-right\" _v-4d1fdbe6=\"\"></span></button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-4d1fdbe6=\"\">\n                <th _v-4d1fdbe6=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-4d1fdbe6=\"\">{{weekDay}}</th>\n            </tr>\n            </thead>\n            <tbody _v-4d1fdbe6=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-4d1fdbe6=\"\">\n                <td _v-4d1fdbe6=\"\"></td>\n                <td v-for=\"(cellIndex,cell) in row\" _v-4d1fdbe6=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':isToday(cell),'other-mouth':isOtherMouth(cell),'select-day':isSelectDay(cell) }\" @click=\"selectDay(cell)\" _v-4d1fdbe6=\"\">\n                        <span _v-4d1fdbe6=\"\">{{(new Date(cell)).getDate() | dayFormat}}</span>\n                    </button>\n                </td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n    <div class=\"ms-month\" v-show=\"(viewType=='mouth')\" _v-4d1fdbe6=\"\">\n        <table _v-4d1fdbe6=\"\">\n            <thead _v-4d1fdbe6=\"\">\n            <tr _v-4d1fdbe6=\"\">\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-4d1fdbe6=\"\"><span class=\"glyphicon glyphicon-chevron-left\" _v-4d1fdbe6=\"\"></span></button>\n                </th>\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-4d1fdbe6=\"\">{{currentYear}}</button>\n                </th>\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-4d1fdbe6=\"\"><span class=\"glyphicon glyphicon-chevron-right\" _v-4d1fdbe6=\"\"></span></button>\n                </th>\n            </tr>\n            </thead>\n            <tbody _v-4d1fdbe6=\"\">\n            <tr v-for=\"(mouthIndex,mouthRow) in mouthArr\" _v-4d1fdbe6=\"\">\n                <td v-for=\"(mouthCellIndex,mouthCell) in mouthRow\" _v-4d1fdbe6=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth(mouthIndex,mouthCellIndex)\" :class=\"{'current-mouth':isCurrentMouth(mouthIndex,mouthCellIndex)}\" _v-4d1fdbe6=\"\">\n                        <span _v-4d1fdbe6=\"\">{{mouthCell}}</span>\n                    </button>\n                </td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n    <div class=\"ms-year\" v-show=\"(viewType=='year')\" _v-4d1fdbe6=\"\">\n        <table _v-4d1fdbe6=\"\">\n            <thead _v-4d1fdbe6=\"\">\n            <tr _v-4d1fdbe6=\"\">\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-4d1fdbe6=\"\"><span class=\"glyphicon glyphicon-chevron-left\" _v-4d1fdbe6=\"\"></span></button>\n                </th>\n                <th colspan=\"3\" _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-4d1fdbe6=\"\">{{yearScope.start}}-{{yearScope.end}}</button>\n                </th>\n                <th _v-4d1fdbe6=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-4d1fdbe6=\"\"><span class=\"glyphicon glyphicon-chevron-right\" _v-4d1fdbe6=\"\"></span></button>\n                </th>\n            </tr>\n            </thead>\n            <tbody _v-4d1fdbe6=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-4d1fdbe6=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in yearRow \" _v-4d1fdbe6=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'current-year':(yearCell==currentYear)}\" @click=\"selectYear(yearCell)\" _v-4d1fdbe6=\"\">\n                        <span _v-4d1fdbe6=\"\">{{yearCell}}</span>\n                    </button>\n                </td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n    <div _v-4d1fdbe6=\"\">\n\n    </div>\n</div>\n\n";
-
-/***/ },
 /* 191 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-field\" @click.stop=\"\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :value.sync=\"value\" :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" _v-2d0813fa=\"\">\n            </datepicker>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"value\" placeholder=\"{{placeholder}}\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker\" _v-4d1fdbe6=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-4d1fdbe6=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-4d1fdbe6=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-4d1fdbe6=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-4d1fdbe6=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
 
 /***/ },
 /* 192 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-date-field\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-2d0813fa=\"\">\n            </datepicker>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+
+/***/ },
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(290)
-	__vue_script__ = __webpack_require__(194)
+	__webpack_require__(194)
+	__vue_script__ = __webpack_require__(196)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/form/field/date-range-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(292)
+	__vue_template__ = __webpack_require__(207)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -28752,8 +28607,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 193 */,
 /* 194 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 195 */,
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_, $) {"use strict";
@@ -28762,11 +28623,11 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(165);
+	var _typeof2 = __webpack_require__(166);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
-	var _stringify = __webpack_require__(187);
+	var _stringify = __webpack_require__(188);
 	
 	var _stringify2 = _interopRequireDefault(_stringify);
 	
@@ -28778,11 +28639,11 @@ webpackJsonp([0],[
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _dateFieldMixin = __webpack_require__(339);
+	var _dateFieldMixin = __webpack_require__(161);
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepickerRange = __webpack_require__(200);
+	var _datepickerRange = __webpack_require__(197);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
@@ -28832,8 +28693,13 @@ webpackJsonp([0],[
 	            month2.setMonth(month2.getMonth() + 1);
 	            me.showMonths = [month1, month2];
 	        }
-	        $(document).on('click', function (e) {
-	            me.calendarShow = false;
+	
+	        me.eventNamespace = _.uniqueId(".date_field_click_");
+	        $(document).on('click' + me.eventNamespace, function (e) {
+	            var el = me.$el;
+	            if (!el.contains(e.target)) {
+	                me.calendarShow = false;
+	            }
 	        });
 	    },
 	
@@ -28975,116 +28841,17 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36), __webpack_require__(12)))
 
 /***/ },
-/* 195 */,
-/* 196 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(197)
-	__vue_script__ = __webpack_require__(198)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/ueditor-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(199)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/ueditor-field.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
 /* 197 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 198 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "id": {
-	            type: String,
-	            default: function _default() {
-	                return "container";
-	            }
-	        },
-	        "value": {
-	            twoWay: true,
-	            type: String,
-	            default: function _default() {
-	                return "";
-	            }
-	        }
-	    },
-	    data: function data() {
-	        return {
-	            "editor": null
-	        };
-	    },
-	    ready: function ready() {
-	        var me = this;
-	        me.editor = UE.getEditor(me.id);
-	        me.editor.ready(function () {
-	            me.editor.addListener('contentChange', function () {
-	                me.value = me.editor.getContent();
-	            });
-	        });
-	    },
-	
-	    watch: {
-	        "value": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue != me.editor.getContent()) {
-	                    me.editor.setContent(newValue);
-	                }
-	            }
-	        }
-	    },
-	    destroyed: function destroyed() {
-	        var me = this;
-	        me.editor.destroy();
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 199 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<textarea id=\"{{id}}\"></textarea>\n";
-
-/***/ },
-/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(201)
-	__vue_script__ = __webpack_require__(203)
+	__webpack_require__(198)
+	__vue_script__ = __webpack_require__(200)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(209)
+	__vue_template__ = __webpack_require__(206)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -29103,14 +28870,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 201 */
+/* 198 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 202 */,
-/* 203 */
+/* 199 */,
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29119,7 +28886,7 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(165);
+	var _typeof2 = __webpack_require__(166);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -29135,11 +28902,11 @@ webpackJsonp([0],[
 	
 	var _vue2 = _interopRequireDefault(_vue);
 	
-	var _datepickerMixin = __webpack_require__(189);
+	var _datepickerMixin = __webpack_require__(190);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerRangeDay = __webpack_require__(204);
+	var _datepickerRangeDay = __webpack_require__(201);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
@@ -29236,7 +29003,13 @@ webpackJsonp([0],[
 	                var endDay = new Date(me.endDay.getFullYear(), me.endDay.getMonth(), me.endDay.getDate());
 	                while (true) {
 	                    if (startDay <= endDay) {
-	                        dates.push(_lodash2.default.cloneDeep(startDay));
+	                        if (typeof me.isDisabled == 'function') {
+	                            if (!me.isDisabled(startDay)) {
+	                                dates.push(_lodash2.default.cloneDeep(startDay));
+	                            }
+	                        } else {
+	                            dates.push(_lodash2.default.cloneDeep(startDay));
+	                        }
 	                        startDay.setDate(startDay.getDate() + 1);
 	                    } else {
 	                        break;
@@ -29253,17 +29026,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 204 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(205)
-	__vue_script__ = __webpack_require__(207)
+	__webpack_require__(202)
+	__vue_script__ = __webpack_require__(204)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range-day.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(208)
+	__vue_template__ = __webpack_require__(205)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -29282,14 +29055,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 205 */
+/* 202 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 206 */,
-/* 207 */
+/* 203 */,
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -29298,7 +29071,7 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _datepickerMixin = __webpack_require__(189);
+	var _datepickerMixin = __webpack_require__(190);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -29345,6 +29118,12 @@ webpackJsonp([0],[
 	            var day = me.dayItem;
 	            var today = new Date();
 	            return day.getFullYear() === today.getFullYear() && day.getMonth() === today.getMonth() && day.getDate() === today.getDate();
+	        },
+	        "itemDisabled": function itemDisabled() {
+	            var me = this;
+	            if (typeof me.isDisabled == 'function') {
+	                return me.isDisabled(me.dayItem);
+	            }
 	        }
 	    },
 	    filters: {
@@ -29392,1529 +29171,366 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
 
 /***/ },
-/* 208 */
+/* 205 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-4d974c68=\"\">\n    <span _v-4d974c68=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-4d974c68=\"\">\n    <span _v-4d974c68=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
+
+/***/ },
+/* 206 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+
+/***/ },
+/* 207 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-date-range-field\" _v-b52a4d2c=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-b52a4d2c=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-b52a4d2c=\"\">\n            <div class=\"ms-datepicker-table\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-b52a4d2c=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-b52a4d2c=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div _v-b52a4d2c=\"\">\n                    <span _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-b52a4d2c=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-b52a4d2c=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-b52a4d2c=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-b52a4d2c=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-b52a4d2c=\"\">\n        <div class=\"input-group-addon\" _v-b52a4d2c=\"\">\n            <span class=\"glyphicon glyphicon-calendar ms-calendar\" @click=\"showCalendar($event)\" _v-b52a4d2c=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+
+/***/ },
+/* 208 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(209)
+	__vue_script__ = __webpack_require__(211)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/form/field/date-range-single-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(244)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/date-range-single-field.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
 
 /***/ },
 /* 209 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 210 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(211)
-	__vue_script__ = __webpack_require__(213)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/tree/tree-list.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(214)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/tree-list.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
+/* 210 */,
 /* 211 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 212 */,
-/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	/* WEBPACK VAR INJECTION */(function(_, $) {"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
+	
+	var _stringify = __webpack_require__(188);
+	
+	var _stringify2 = _interopRequireDefault(_stringify);
 	
 	var _vue = __webpack_require__(10);
 	
 	var _vue2 = _interopRequireDefault(_vue);
 	
+	var _index = __webpack_require__(212);
+	
+	var _index2 = _interopRequireDefault(_index);
+	
+	var _moment = __webpack_require__(59);
+	
+	var _moment2 = _interopRequireDefault(_moment);
+	
+	var _dateFieldMixin = __webpack_require__(161);
+	
+	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
+	
+	var _datepickerRangeSingle = __webpack_require__(214);
+	
+	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
-	    name: 'treeList',
+	    name: 'dateRangeSingleField',
+	    mixins: [_dateFieldMixin2.default],
+	    replace: false,
 	    props: {
-	        items: {
-	            type: Array,
-	            default: function _default() {
-	                return [];
-	            }
-	        },
-	        text: {
+	        "startDay": {
 	            type: String,
-	            default: function _default() {
-	                return "text";
-	            }
+	            twoWay: true
 	        },
-	        children: {
+	        "endDay": {
 	            type: String,
-	            default: function _default() {
-	                return "children";
-	            }
+	            twoWay: true
 	        },
-	        router: {
-	            type: String,
-	            default: function _default() {
-	                return "path";
-	            }
-	        },
-	        expanded: {
-	            type: String,
-	            default: function _default() {
-	                return "expanded";
-	            }
-	        },
-	        level: {
-	            coerce: function coerce(val) {
-	                return parseInt(val ? val : 1);
-	            },
-	            default: function _default() {
-	                return 1;
-	            }
-	        }
-	    },
-	    data: function data() {
-	        return {};
-	    },
-	
-	    methods: {
-	        toggle: function toggle(index, item) {
-	            var me = this;
-	            if (item[me.children] && item[me.children].length > 0) {
-	                if (typeof item[me.expanded] == "undefined") {
-	                    _vue2.default.set(this.items[index], 'expanded', true);
-	                } else {
-	                    item[me.expanded] = !item[me.expanded];
-	                }
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 214 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-5e866fe6=\"\">\n    <li v-for=\"(index,item) in items\" _v-5e866fe6=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-5e866fe6=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-5e866fe6=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-5e866fe6=\"\"></tree-list>\n    </li>\n\n</ul>\n";
-
-/***/ },
-/* 215 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(216)
-	__vue_script__ = __webpack_require__(218)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/tree/panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(219)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/panel.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 216 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 217 */,
-/* 218 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    name: 'treePanel',
-	    props: {
-	        "id": {
-	            type: String,
-	            default: function _default() {
-	                return "id";
-	            }
-	        },
-	        "text": {
-	            type: String,
-	            default: function _default() {
-	                return 'text';
-	            }
-	        },
-	        "level": {
-	            type: String,
-	            default: function _default() {
-	                return "1";
-	            }
-	        },
-	        "selType": {
-	            type: String
-	        },
-	        "store": {
-	            type: Array,
-	            default: function _default() {
-	                return [];
-	            }
-	        },
-	        "value": {
+	        "selectedDates": {
 	            type: Array,
 	            twoWay: true,
 	            default: function _default() {
 	                return [];
 	            }
-	        }
-	    },
-	    computed: {
-	        "showCheckbox": function showCheckbox() {
-	            var me = this;
-	            return me.selType == "checkboxmodel";
-	        }
-	    },
-	    data: function data() {
-	        return {};
-	    },
-	
-	    components: {}
-	};
-
-/***/ },
-/* 219 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" value=\"{{item[id]}}\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
-
-/***/ },
-/* 220 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(221)
-	__vue_script__ = __webpack_require__(223)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(243)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/panel.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 221 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 222 */,
-/* 223 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _lodash = __webpack_require__(36);
-	
-	var _lodash2 = _interopRequireDefault(_lodash);
-	
-	var _header = __webpack_require__(224);
-	
-	var _header2 = _interopRequireDefault(_header);
-	
-	var _paging = __webpack_require__(283);
-	
-	var _paging2 = _interopRequireDefault(_paging);
-	
-	var _text = __webpack_require__(229);
-	
-	var _text2 = _interopRequireDefault(_text);
-	
-	var _action = __webpack_require__(234);
-	
-	var _action2 = _interopRequireDefault(_action);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: 'gridPanel',
-	    props: {
-	        "store": {
-	            type: Array,
-	            default: function _default() {
-	                return [];
-	            }
 	        },
-	        "columns": {
-	            type: Array,
-	            default: function _default() {
-	                return [];
-	            }
-	        }
-	    },
-	    data: function data() {
-	        return {
-	            "clientWidth": 0
-	        };
-	    },
-	    ready: function ready() {
-	        var me = this;
-	        me.clientWidth = me.$el.clientWidth;
-	    },
-	
-	    computed: {
-	        "flexCount": function flexCount() {
-	            var me = this;
-	            var flexCount = 0;
-	            _lodash2.default.forEach(me.columns, function (column) {
-	                if (column.flex && !column.width) {
-	                    flexCount += column.flex;
-	                }
-	            });
-	            return flexCount;
-	        },
-	        "surplusWidth": function surplusWidth() {
-	            var me = this;
-	            me.clientWidth = me.$el.clientWidth;
-	            var widthCount = 0;
-	            _lodash2.default.forEach(me.columns, function (column) {
-	                if (column.width && !column.flex) {
-	                    widthCount += column.width;
-	                }
-	            });
-	            return me.clientWidth - widthCount;
-	        }
-	    },
-	    methods: {},
-	    components: {
-	        gridHeader: _header2.default,
-	        paging: _paging2.default,
-	        textColumn: _text2.default,
-	        actionColumn: _action2.default
-	    }
-	};
-
-/***/ },
-/* 224 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(225)
-	__vue_script__ = __webpack_require__(226)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/header/header.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(228)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/header/header.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 225 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 226 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _GridMixin = __webpack_require__(227);
-	
-	var _GridMixin2 = _interopRequireDefault(_GridMixin);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: "grid-header",
-	    mixins: [_GridMixin2.default],
-	    props: {
-	        "rowIndex": {},
-	        "colIndex": {},
-	        "flexCount": {},
-	        "surplusWidth": {},
-	        "setting": {
-	            type: Object,
-	            default: function _default() {
-	                return {
-	                    "width": 10,
-	                    "align": "center",
-	                    "hidden": false
-	                };
-	            }
-	        }
-	    },
-	    data: function data() {
-	        return {};
-	    },
-	    ready: function ready() {
-	        var me = this;
-	    },
-	
-	    computed: {
-	        "renderer": function renderer() {
-	            var me = this;
-	            return me.setting.text;
-	        }
-	    },
-	    methods: {},
-	    components: {}
-	};
-
-/***/ },
-/* 227 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/12
-	 * Time: 22:50
-	 */
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _assign = __webpack_require__(38);
-	
-	var _assign2 = _interopRequireDefault(_assign);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    props: {
-	        "rowIndex": {},
-	        "colIndex": {},
-	        "flexCount": {},
-	        "surplusWidth": {},
-	        "setting": {
-	            type: Object,
-	            default: function _default() {
-	                return {
-	                    "width": 10,
-	                    "align": "center",
-	                    "hidden": false
-	                };
-	            }
-	        }
-	    },
-	    ready: function ready() {
-	        var me = this;
-	        // me.initStyle();
-	    },
-	
-	    computed: {
-	        "columnWidthStyle": function columnWidthStyle() {
-	            var me = this;
-	            var columnWidth = {};
-	            if (me.setting.width) {
-	                columnWidth = (0, _assign2.default)(columnWidth, { "width": me.setting.width + "px" });
-	            } else if (me.setting.flex) {
-	                columnWidth = (0, _assign2.default)(columnWidth, { "width": me.setting.flex / me.flexCount * me.surplusWidth + "px" });
-	            } else {}
-	            return columnWidth;
-	        },
-	        "hidden": function hidden() {
-	            var me = this;
-	            return !me.setting.hidden;
-	        }
-	    },
-	    watch: {
-	        'flexCount': function flexCount() {
-	            var me = this;
-	            // me.initStyle();
-	        },
-	        'surplusWidth': function surplusWidth() {
-	            var me = this;
-	            // me.initStyle();
-	        }
-	    },
-	    methods: {
-	        /*        initStyle:function () {
-	                    let me = this;
-	                    if(me.setting.width){
-	                        me.style = Object.assign({},me.style,{"width":me.setting.width+"px"});
-	                    }
-	                    if(me.setting.align){
-	                        me.style = Object.assign({},me.style,{"textAlign":me.setting.align});
-	                    }
-	                    if(me.setting.flex){
-	                        me.style = Object.assign({},me.style,{"width":( (me.setting.flex/me.flexCount)*me.surplusWidth )+"px"});
-	                    }
-	                },*/
-	    }
-	};
-
-/***/ },
-/* 228 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<th v-show=\"hidden\" :style=\"[columnWidthStyle]\" >\n    <div>{{{ renderer }}}</div>\n</th>\n";
-
-/***/ },
-/* 229 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(230)
-	__vue_script__ = __webpack_require__(231)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/text.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(233)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/text.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 230 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 231 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _GridMixin = __webpack_require__(227);
-	
-	var _GridMixin2 = _interopRequireDefault(_GridMixin);
-	
-	var _GridColumnMixin = __webpack_require__(232);
-	
-	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: 'textColumn',
-	
-	    mixins: [_GridColumnMixin2.default, _GridMixin2.default],
-	    methods: {},
-	    components: {}
-	};
-
-/***/ },
-/* 232 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/9
-	 * Time: 08:22
-	 */
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _assign = __webpack_require__(38);
-	
-	var _assign2 = _interopRequireDefault(_assign);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    props: {
-	        "store": {
-	            type: Array
-	        },
-	        "record": {
-	            type: Object
-	        }
-	    },
-	    data: function data() {
-	        return {};
-	    },
-	    ready: function ready() {},
-	
-	    computed: {
-	        "style": function style() {
-	            var me = this;
-	            var style = {};
-	            if (me.setting.align) {
-	                style = (0, _assign2.default)(style, { "textAlign": me.setting.align });
-	            }
-	            return style;
-	        },
-	        "renderer": function renderer() {
-	            var me = this;
-	            if (typeof me.setting.renderer == "function") {
-	                return me.setting.renderer(me.$get("record." + me.setting.dataIndex), me.record, me.rowIndex);
-	            } else {
-	                return me.$get("record." + me.setting.dataIndex);
-	            }
-	        }
-	    },
-	    methods: {}
-	};
-
-/***/ },
-/* 233 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>{{{ renderer }}}</div>\n</td>\n";
-
-/***/ },
-/* 234 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(235)
-	__vue_script__ = __webpack_require__(236)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/action.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(242)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/action.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 235 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 236 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _GridMixin = __webpack_require__(227);
-	
-	var _GridMixin2 = _interopRequireDefault(_GridMixin);
-	
-	var _GridColumnMixin = __webpack_require__(232);
-	
-	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
-	
-	var _item = __webpack_require__(237);
-	
-	var _item2 = _interopRequireDefault(_item);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: "actionColumn",
-	    mixins: [_GridColumnMixin2.default, _GridMixin2.default],
-	    props: {},
-	    data: function data() {
-	        return {};
-	    },
-	
-	    components: {
-	        actionItem: _item2.default
-	    }
-	};
-
-/***/ },
-/* 237 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(238)
-	__vue_script__ = __webpack_require__(240)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/action/item.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(241)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/action/item.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 238 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 239 */,
-/* 240 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _vue = __webpack_require__(10);
-	
-	var _vue2 = _interopRequireDefault(_vue);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    props: {
-	        "store": {},
-	        "item": {
-	            type: Object,
-	            default: function _default() {
-	                return {};
-	            }
-	        },
-	        "record": {
-	            type: Object
-	        },
-	        "class": {}
-	    },
-	    data: function data() {
-	        return {};
-	    },
-	    ready: function ready() {
-	        var me = this;
-	        me.isDisabled();
-	    },
-	
-	    methods: {
-	        isDisabled: function isDisabled() {
-	            var me = this;
-	            if (typeof me.item.isDisabled === 'function') {
-	                var disabled = me.item.isDisabled(me.store, me.record);
-	                if (disabled) {
-	                    _vue2.default.util.addClass(me.$el, "ms-grid-action-item-disabled");
-	                } else {
-	                    _vue2.default.util.removeClass(me.$el, "ms-grid-action-item-disabled");
-	                }
-	            }
-	        },
-	        handler: function handler() {
-	            var me = this;
-	            if (me.item.handler && typeof me.item.handler == "function") {
-	                me.item.handler(me.record);
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 241 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div role=\"button\" class=\"ms-grid-action-item\" :class=\"item.cls\" @click=\"handler\" _v-173590fb=\"\"></div>\n";
-
-/***/ },
-/* 242 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>\n        <action-item v-for=\"(index,item) in setting.items\"\n                     :item=\"item\"\n                     :store=\"store\"\n                     :record=\"record\">\n\n        </action-item>\n    </div>\n</td>\n";
-
-/***/ },
-/* 243 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"grid-panel\" _v-70cc3268=\"\">\n    <div class=\"grid-header\" _v-70cc3268=\"\">\n        <table class=\"table\" _v-70cc3268=\"\">\n            <thead _v-70cc3268=\"\">\n                <tr _v-70cc3268=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div class=\"grid-header-line\" _v-70cc3268=\"\"></div>\n    <div class=\"grid-body\" _v-70cc3268=\"\">\n        <table class=\"table table-striped\" _v-70cc3268=\"\">\n            <tbody _v-70cc3268=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-70cc3268=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :record=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n    <div class=\"grid-footer\" _v-70cc3268=\"\">\n        <paging _v-70cc3268=\"\"></paging>\n    </div>\n</div>\n";
-
-/***/ },
-/* 244 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(245)
-	__vue_script__ = __webpack_require__(247)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/window/MessageBox/alert.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(249)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/MessageBox/alert.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 245 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 246 */,
-/* 247 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _MessageBoxMixin = __webpack_require__(248);
-	
-	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: "alert",
-	    mixins: [_MessageBoxMixin2.default],
-	    props: {},
-	    methods: {
-	        sure: function sure() {
-	            this.isShow = false;
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 248 */
-/***/ function(module, exports) {
-
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/9
-	 * Time: 11:19
-	 */
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        backdrop: {
+	        "dateFormat": {
 	            type: String,
 	            default: function _default() {
-	                return "true";
+	                return "YYYY-MM-DD";
 	            }
 	        },
-	        title: {
-	            type: String,
-	            default: function _default() {
-	                return "";
-	            }
-	        },
-	        isShow: {
-	            type: Boolean,
-	            twoWay: true,
-	            default: function _default() {
-	                return false;
-	            }
-	        },
-	        message: {
-	            type: String,
-	            default: function _default() {
-	                return "";
-	            }
-	        },
-	        sureText: {
-	            type: String,
-	            default: function _default() {
-	                return "确定";
-	            }
-	        },
-	        cancelText: {
-	            type: String,
-	            default: function _default() {
-	                return "取消";
-	            }
-	        }
-	    },
-	    methods: {
-	        close: function close() {
-	            this.isShow = false;
-	        }
-	    }
-	};
-
-/***/ },
-/* 249 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div v-if=\"isShow\" class=\"ms-alert\" _v-2eaa1baf=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-2eaa1baf=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-2eaa1baf=\"\">\n            <div class=\"modal-content\" _v-2eaa1baf=\"\">\n\n                <div class=\"modal-header\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-2eaa1baf=\"\"><span aria-hidden=\"true\" _v-2eaa1baf=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-2eaa1baf=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-2eaa1baf=\"\">\n                    {{message}}\n                </div>\n                <div class=\"modal-footer\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-2eaa1baf=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-2eaa1baf=\"\"></div>\n</div>\n";
-
-/***/ },
-/* 250 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(251)
-	__vue_script__ = __webpack_require__(253)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/window/MessageBox/confirm.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(254)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/MessageBox/confirm.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 251 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 252 */,
-/* 253 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _MessageBoxMixin = __webpack_require__(248);
-	
-	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: "confirm",
-	    mixins: [_MessageBoxMixin2.default],
-	    props: {
-	        title: {
-	            type: String,
-	            default: function _default() {
-	                return "确认";
-	            }
-	        },
-	        action: {
+	        "isDisabled": {
 	            type: Function
 	        }
 	    },
-	    methods: {
-	        sure: function sure() {
-	            var me = this;
-	            me.isShow = false;
-	            if (typeof me.action === 'function') {
-	                me.action("yes");
-	            }
-	        },
-	        cancel: function cancel() {
-	            var me = this;
-	            me.isShow = false;
-	            if (typeof me.action === 'function') {
-	                me.action("cancel");
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 254 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-8ed0b75a=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-8ed0b75a=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-8ed0b75a=\"\">\n            <div class=\"modal-content\" _v-8ed0b75a=\"\">\n\n                <div class=\"modal-header\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-8ed0b75a=\"\"><span aria-hidden=\"true\" _v-8ed0b75a=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-8ed0b75a=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-8ed0b75a=\"\">\n                    {{message}}\n                </div>\n                <div class=\"modal-footer\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-8ed0b75a=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-8ed0b75a=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-8ed0b75a=\"\"></div>\n</div>\n";
-
-/***/ },
-/* 255 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div>\n    <div>\n        <ms-datepicker></ms-datepicker>\n    </div>\n</div>\n";
-
-/***/ },
-/* 256 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(257)
-	__vue_script__ = __webpack_require__(258)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] example/component/ms-date-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(259)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-date-field.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 257 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 258 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _index = __webpack_require__(23);
-	
-	exports.default = {
-	    components: {
-	
-	        msDateField: _index.msDateField
-	    }
-	};
-
-/***/ },
-/* 259 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div>\n\n    <div>\n        <ms-date-field></ms-date-field>\n    </div>\n    <div>\n        <code>\n\n        </code>\n    </div>\n    <div>\n        <ms-date-field multiple=\"true\"></ms-date-field>\n    </div>\n</div>\n";
-
-/***/ },
-/* 260 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(261)
-	__vue_script__ = __webpack_require__(262)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] example/component/ms-date-range-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(263)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-date-range-field.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 261 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 262 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _index = __webpack_require__(23);
-	
-	exports.default = {
 	    data: function data() {
 	        return {
-	            "startDay": "2016-4-6",
-	            "endDay": "2016-4-10",
-	            "selectedDates": []
+	            "calendarShow": false,
+	            "startDayObj": null,
+	            "endDayObj": null,
+	            "selectedDatesObj": []
 	        };
 	    },
+	    ready: function ready() {
+	        var me = this;
 	
-	    components: {
-	        msDateRangeField: _index.msDateRangeField,
-	        msDatepickerRange: _index.msDatepickerRange
-	    }
-	};
-
-/***/ },
-/* 263 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div>\n    <div>\n        <ms-datepicker-range></ms-datepicker-range>\n    </div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-date-range-field :selected-dates.sync=\"selectedDates\"\n                             :start-day.sync=\"startDay\"\n                             :end-day.sync=\"endDay\">\n        </ms-date-range-field>\n    </div>\n    <div>\n        <table class=\"table table-bordered\">\n            <thead>\n                <tr>\n                    <th>参数</th>\n                    <th>类型</th>\n                    <th>释义</th>\n                    <th>是否双向绑定</th>\n                    <th>默认值</th>\n                    <th>补充说明</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>startDay</td>\n                    <td>String</td>\n                    <td>开始时间</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>startDay 和 endDay 需要同时设置</td>\n                </tr>\n                <tr>\n                    <td>endDay</td>\n                    <td>String</td>\n                    <td>结束时间</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>startDay 和 endDay 需要同时设置</td>\n                </tr>\n                <tr>\n                    <td>selectedDates</td>\n                    <td>Array</td>\n                    <td>选中日期</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>数组型的字符串日期</td>\n                </tr>\n                <tr>\n                    <td>dateFormat</td>\n                    <td>String</td>\n                    <td>日期格式</td>\n                    <td>否</td>\n                    <td>YYYY-MM-DD</td>\n                    <td>遵循moment的时间格式化</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n";
-
-/***/ },
-/* 264 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__vue_template__ = __webpack_require__(265)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/app.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 265 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<section>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-8\">\n                <router-view></router-view>\n            </div>\n            <div class=\"col-md-4\">\n                <ul class=\"list-group\">\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-datepicker'}\">ms-datepicker</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-field'}\">ms-date-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-field'}\">ms-date-range-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-single-field'}\">ms-date-range-single-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-grid-panel'}\">ms-grid-panel</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n</section>\n";
-
-/***/ },
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */,
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */,
-/* 279 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(280)
-	__vue_script__ = __webpack_require__(281)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] example/component/ms-grid.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(282)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-grid.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 280 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 281 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _index = __webpack_require__(23);
-	
-	exports.default = {
-	    data: function data() {
-	        return {
-	            "store": [{ "id": "1", "text": "第一行", "name": "name1" }, { "id": "2", "text": "第一行", "name": "name1" }, { "id": "3", "text": "第一行", "name": "name1" }, { "id": "4", "text": "第一行", "name": "name1" }, { "id": "5", "text": "第一行", "name": "name1" }, { "id": "6", "text": "第一行", "name": "name1" }, { "id": "7", "text": "第一行", "name": "name1" }, { "id": "8", "text": "第一行", "name": "name1" }, { "id": "9", "text": "第一行", "name": "name1" }, { "id": "10", "text": "第一行", "name": "name1" }, { "id": "11", "text": "第一行", "name": "name1" }, { "id": "12", "text": "第一行", "name": "name1" }, { "id": "13", "text": "第一行", "name": "name1" }, { "id": "14", "text": "第一行", "name": "name1" }, { "id": "15", "text": "第一行", "name": "name1" }, { "id": "16", "text": "第一行", "name": "name1" }],
-	            "columns": [{
-	                type: 'text-column',
-	                text: '文本',
-	                dataIndex: 'text',
-	                flex: 1
-	            }, {
-	                type: 'text-column',
-	                text: '名称',
-	                dataIndex: 'name',
-	                flex: 2
-	            }]
-	        };
-	    },
-	
-	    components: {
-	        msGridPanel: _index.msGridPanel
-	    }
-	};
-
-/***/ },
-/* 282 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div>\n    <div>\n        <ms-grid-panel :store=\"store\" :columns=\"columns\"></ms-grid-panel>\n    </div>\n</div>\n";
-
-/***/ },
-/* 283 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(287)
-	__vue_script__ = __webpack_require__(285)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/toolbar/paging.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(289)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/toolbar/paging.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 284 */,
-/* 285 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    name: 'paging',
-	    props: {
-	        "pageText": {
-	            type: String,
-	            default: function _default() {
-	                return "Page";
+	        me.eventNamespace = _.uniqueId(".date_field_click_");
+	        $(document).on('click' + me.eventNamespace, function (e) {
+	            var el = me.$el;
+	            if (!el.contains(e.target)) {
+	                me.calendarShow = false;
 	            }
-	        },
-	        "showText": {
-	            type: String,
-	            default: function _default() {
-	                return "Displaying";
-	            }
-	        },
-	        "currentPage": {
-	            type: Number,
-	            default: function _default() {
-	                return 0;
-	            }
-	        },
-	        "limit": {
-	            type: Number,
-	            default: function _default() {
-	                return 20;
-	            }
-	        },
-	        "total": {
-	            type: Number,
-	            default: function _default() {
-	                return 123;
-	            }
-	        }
-	    },
-	    data: function data() {
-	        return {
-	            "showNum": 0
-	        };
+	        });
 	    },
 	
 	    computed: {
-	        "pageCount": function pageCount() {
+	        "dateRange": function dateRange() {
 	            var me = this;
-	            var page = me.total / me.limit;
-	            return Math.ceil(page);
-	        },
-	        "startRow": function startRow() {
-	            var me = this;
-	            if (me.currentPage < 1) {
-	                return 0;
+	            if (me.startDay && me.endDay) {
+	                return me.startDay + "~" + me.endDay;
 	            } else {
-	                return (me.currentPage - 1) * me.limit;
+	                return "";
 	            }
-	        },
-	        "endRow": function endRow() {
-	            var me = this;
-	            if (me.currentPage < me.pageCount) {
-	                return me.startRow + me.limit;
-	            } else {
-	                return me.startRow + (me.total - (me.pageCount - 1) * me.limit);
-	            }
-	        },
-	        "isFirstPage": function isFirstPage() {
-	            var me = this;
-	            return me.currentPage <= 1;
-	        },
-	        "isLastPage": function isLastPage() {
-	            var me = this;
-	            return me.currentPage >= me.pageCount;
 	        }
 	    },
 	    watch: {
-	        "currentPage": {
+	        "startDay": {
 	            handler: function handler(newValue, oldValue) {
 	                var me = this;
-	                me.showNum = newValue;
+	                if (newValue && newValue != oldValue) {
+	                    me.startDayObj = new Date(_index2.default.MSDate.dateAdapter(newValue));
+	                }
+	            }
+	        },
+	        "endDay": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && newValue != oldValue) {
+	                    me.endDayObj = new Date(_index2.default.MSDate.dateAdapter(newValue));
+	                }
+	            }
+	        },
+	        "startDayObj": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
+	                    me.startDay = (0, _moment2.default)(newValue).format(me.dateFormat);
+	                }
+	            }
+	        },
+	        "endDayObj": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
+	                    me.endDay = (0, _moment2.default)(newValue).format(me.dateFormat);
+	                }
+	            }
+	        },
+	        "selectedDatesObj": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
+	                    (function () {
+	                        var dates = [];
+	                        _.forEach(newValue, function (date) {
+	                            dates.push((0, _moment2.default)(date).format(me.dateFormat));
+	                        });
+	                        me.selectedDates = dates;
+	                    })();
+	                }
+	            }
+	        },
+	        "selectedDates": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
+	                    (function () {
+	                        var dates = [];
+	                        _.forEach(newValue, function (date) {
+	                            dates.push(new Date(_index2.default.MSDate.dateAdapter(date)));
+	                        });
+	                        me.selectedDatesObj = dates;
+	                    })();
+	                }
 	            },
 	            immediate: true
 	        }
 	    },
 	    methods: {
-	        "firstPage": function firstPage() {
-	            this.currentPage = 1;
-	        },
-	        "lastPage": function lastPage() {
-	            this.currentPage = this.pageCount;
-	        },
-	        "previousPage": function previousPage() {
+	        "showCalendar": function showCalendar(e) {
 	            var me = this;
-	            if (me.currentPage > 1) {
-	                me.currentPage = me.currentPage - 1;
-	            }
-	        },
-	        "nextPage": function nextPage() {
-	            var me = this;
-	            if (me.currentPage < me.pageCount) {
-	                me.currentPage = me.currentPage + 1;
-	            }
-	        },
-	        "refresh": function refresh() {
-	            var me = this;
-	            var num = parseInt(me.showNum);
-	            if (!isNaN(num)) {
-	                if (num < 1) {
-	                    num = 1;
-	                } else if (num > me.pageCount) {
-	                    num = me.pageCount;
-	                }
+	            me.calendarShow = !me.calendarShow;
+	            me.$els.dateField.focus();
+	            if (e.clientY < document.documentElement.clientHeight / 2) {
+	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-down");
+	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-up");
 	            } else {
-	                num = 1;
+	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-up");
+	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
 	            }
-	            me.currentPage = num;
-	            me.showNum = num;
+	        },
+	        "onClose": function onClose() {
+	            var me = this;
+	            me.calendarShow = false;
+	        },
+	        "onClean": function onClean() {
+	            var me = this;
+	            me.startDayObj = null;
+	            me.endDayObj = null;
+	            me.startDay = "";
+	            me.endDay = "";
+	            me.selectedDatesObj = [];
+	            me.selectedDates = [];
+	        },
+	        "onToday": function onToday() {
+	            var me = this;
+	            me.startDayObj = new Date();
+	            me.endDayObj = new Date();
 	        }
 	    },
-	    components: {}
+	    components: {
+	        datepickerRangeSingle: _datepickerRangeSingle2.default
+	    }
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36), __webpack_require__(12)))
+
+/***/ },
+/* 212 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/24
+	 * Time: 19:11
+	 */
+	'use strict';
+	
+	module.exports = {
+	  MSDate: __webpack_require__(213)
 	};
 
 /***/ },
-/* 286 */,
-/* 287 */
-/***/ function(module, exports) {
+/* 213 */
+/***/ function(module, exports, __webpack_require__) {
 
-	// removed by extract-text-webpack-plugin
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/24
+	 * Time: 19:08
+	 */
+	'use strict';
+	
+	var _typeof2 = __webpack_require__(166);
+	
+	var _typeof3 = _interopRequireDefault(_typeof2);
+	
+	var _lodash = __webpack_require__(36);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	var _moment = __webpack_require__(59);
+	
+	var _moment2 = _interopRequireDefault(_moment);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function MSDate(date) {
+	    if (!(this instanceof MSDate)) {
+	        return new MSDate(date);
+	    }
+	}
+	MSDate.dateAdapter = function (date) {
+	    if ((typeof date === "undefined" ? "undefined" : (0, _typeof3.default)(date)) === 'object') {
+	        return date;
+	    } else {
+	        return String(date).replace(/-/g, '/');
+	    }
+	};
+	MSDate.isSameDay = function (d1, d2) {
+	    return d1.getFullYear() == d2.getFullYear() && d1.getMonth() == d2.getMonth() && d1.getDate() == d2.getDate();
+	};
+	
+	MSDate.isSameMonth = function (d1, d2) {
+	    return d1.getFullYear() == d2.getFullYear() && d1.getMonth() == d2.getMonth();
+	};
+	
+	MSDate.dayInArray = function (day, array) {
+	    var result = false;
+	    if (_lodash2.default.isArray(array) && array.length > 0) {
+	        _lodash2.default.forEach(array, function (date) {
+	            if (MSDate.isSameDay(day, date)) {
+	                return true;
+	            }
+	        });
+	    }
+	    return result;
+	};
+	
+	MSDate.stringArrayToDateArray = function (array) {
+	    var dates = [];
+	    if (_lodash2.default.isArray(array) && array.length > 0) {
+	        _lodash2.default.forEach(array, function (date) {
+	            dates.push(new Date(MSDate.dateAdapter(date)));
+	        });
+	    }
+	    return dates;
+	};
+	
+	MSDate.dateArrayToStringArray = function (array, format) {
+	    var dates = [];
+	    if (_lodash2.default.isArray(array) && array.length > 0) {
+	        _lodash2.default.forEach(array, function (date) {
+	            dates.push((0, _moment2.default)(date).format(format));
+	        });
+	    }
+	    return dates;
+	};
+	
+	module.exports = MSDate;
 
 /***/ },
-/* 288 */,
-/* 289 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"ms-paging\" _v-d9da531e=\"\">\n    <div class=\"ms-paging-left\" _v-d9da531e=\"\">\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span _v-d9da531e=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-d9da531e=\"\">\n        <span _v-d9da531e=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-d9da531e=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-d9da531e=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
-
-/***/ },
-/* 290 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 291 */,
-/* 292 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"ms-date-range-field\" @click.stop=\"\" _v-b52a4d2c=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-b52a4d2c=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-b52a4d2c=\"\">\n            <div class=\"ms-datepicker-table\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-b52a4d2c=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" _v-b52a4d2c=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div _v-b52a4d2c=\"\">\n                    <span _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-b52a4d2c=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-b52a4d2c=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-b52a4d2c=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-b52a4d2c=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-b52a4d2c=\"\">\n        <div class=\"input-group-addon\" _v-b52a4d2c=\"\">\n            <span class=\"glyphicon glyphicon-calendar ms-calendar\" @click=\"showCalendar($event)\" _v-b52a4d2c=\"\"></span>\n        </div>\n    </div>\n</div>\n";
-
-/***/ },
-/* 293 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(294)
-	__vue_script__ = __webpack_require__(296)
+	__webpack_require__(215)
+	__vue_script__ = __webpack_require__(217)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range-single.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(297)
+	__vue_template__ = __webpack_require__(243)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -30933,14 +29549,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 294 */
+/* 215 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 295 */,
-/* 296 */
+/* 216 */,
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30949,21 +29565,27 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _datepickerRangeDayPanel = __webpack_require__(312);
+	var _datepickerRangeDayPanel = __webpack_require__(218);
 	
 	var _datepickerRangeDayPanel2 = _interopRequireDefault(_datepickerRangeDayPanel);
 	
-	var _datepickerMonthPanel = __webpack_require__(302);
+	var _datepickerMonthPanel = __webpack_require__(223);
 	
 	var _datepickerMonthPanel2 = _interopRequireDefault(_datepickerMonthPanel);
 	
-	var _datepickerYearPanel = __webpack_require__(317);
+	var _datepickerYearPanel = __webpack_require__(233);
 	
 	var _datepickerYearPanel2 = _interopRequireDefault(_datepickerYearPanel);
+	
+	var _datepickerMixin = __webpack_require__(190);
+	
+	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
+	    name: 'datepickerRangeSingle',
+	    mixins: [_datepickerMixin2.default],
 	    props: {
 	        "selectedDates": {
 	            type: Array,
@@ -30999,285 +29621,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 297 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"ms-datepicker-range-single\" _v-f7c80b70=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-f7c80b70=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-f7c80b70=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-f7c80b70=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
-
-/***/ },
-/* 298 */
+/* 218 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(299)
-	__vue_script__ = __webpack_require__(300)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] example/component/ms-date-range-single-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(301)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-date-range-single-field.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 299 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 300 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _index = __webpack_require__(23);
-	
-	exports.default = {
-	    data: function data() {
-	        return {
-	            "selectedDates": ["2016-4-1"]
-	        };
-	    },
-	
-	    components: {
-	        msDatepickerRangeSingle: _index.msDatepickerRangeSingle,
-	        msDateRangeSingleField: _index.msDateRangeSingleField
-	    }
-	};
-
-/***/ },
-/* 301 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div>\n    <ms-datepicker-range-single></ms-datepicker-range-single>\n</div>\n<div>\n    <div style=\"max-height: 100px;overflow-y: auto\">\n        <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n    </div>\n</div>\n<div>\n    <ms-date-range-single-field :selected-dates.sync=\"selectedDates\"></ms-date-range-single-field>\n</div>\n";
-
-/***/ },
-/* 302 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(303)
-	__vue_script__ = __webpack_require__(305)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-month-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(306)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-month-panel.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 303 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 304 */,
-/* 305 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _lodash = __webpack_require__(36);
-	
-	var _lodash2 = _interopRequireDefault(_lodash);
-	
-	var _datepickerMonth = __webpack_require__(307);
-	
-	var _datepickerMonth2 = _interopRequireDefault(_datepickerMonth);
-	
-	var _datepickerMixin = __webpack_require__(189);
-	
-	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    name: 'datepickerMonthPanel',
-	    mixins: [_datepickerMixin2.default],
-	    props: {
-	        "currentYear": {
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getFullYear();
-	            }
-	        },
-	        "currentMonth": {
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getMonth();
-	            }
-	        },
-	        "viewType": {
-	            twoWay: true
-	        }
-	    },
-	    computed: {
-	        "monthArr": function monthArr() {
-	            var me = this;
-	            var months = _lodash2.default.cloneDeep(me.months);
-	            return me.split(months, 3);
-	        }
-	    },
-	    methods: {
-	        "previousYear": function previousYear() {
-	            var me = this;
-	            me.currentYear = me.currentYear - 1;
-	        },
-	        "nextYear": function nextYear() {
-	            var me = this;
-	            me.currentYear = me.currentYear + 1;
-	        },
-	        "showYearView": function showYearView() {
-	            var me = this;
-	            me.viewType = "year";
-	        }
-	    },
-	    components: {
-	        datepickerMonth: _datepickerMonth2.default
-	    }
-	};
-
-/***/ },
-/* 306 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"ms-datepicker-month-panel\" _v-238ed7b7=\"\">\n    <table _v-238ed7b7=\"\">\n        <thead _v-238ed7b7=\"\">\n            <tr _v-238ed7b7=\"\">\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-238ed7b7=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-238ed7b7=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-238ed7b7=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-238ed7b7=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-238ed7b7=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
-
-/***/ },
-/* 307 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(308)
-	__vue_script__ = __webpack_require__(310)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-month.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(311)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
-	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-month.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 308 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 309 */,
-/* 310 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "monthItem": {},
-	        "rowIndex": {
-	            type: Number
-	        },
-	        "cellIndex": { type: Number },
-	        "currentMonth": {
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getMonth();
-	            }
-	        },
-	        "viewType": {
-	            twoWay: true
-	        }
-	    },
-	    computed: {
-	        "isCurrentMonth": function isCurrentMonth() {
-	            var me = this;
-	            return me.currentMonth == me.rowIndex * 3 + me.cellIndex;
-	        }
-	    },
-	    methods: {
-	        "selectMouth": function selectMouth() {
-	            var me = this;
-	            me.currentMonth = me.rowIndex * 3 + me.cellIndex;
-	            me.viewType = "day";
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 311 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-19a4a980=\"\">\n    <span _v-19a4a980=\"\">{{monthItem}}</span>\n</button>\n";
-
-/***/ },
-/* 312 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(313)
-	__vue_script__ = __webpack_require__(315)
+	__webpack_require__(219)
+	__vue_script__ = __webpack_require__(221)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range-day-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(316)
+	__vue_template__ = __webpack_require__(222)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -31296,14 +29650,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 313 */
+/* 219 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 314 */,
-/* 315 */
+/* 220 */,
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -31312,7 +29666,7 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(165);
+	var _typeof2 = __webpack_require__(166);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -31320,11 +29674,11 @@ webpackJsonp([0],[
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _datepickerRangeDay = __webpack_require__(204);
+	var _datepickerRangeDay = __webpack_require__(201);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
-	var _datepickerMixin = __webpack_require__(189);
+	var _datepickerMixin = __webpack_require__(190);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -31414,7 +29768,6 @@ webpackJsonp([0],[
 	    methods: {
 	        "setSelectedDates": function setSelectedDates() {
 	            var me = this;
-	            debugger;
 	            if ((0, _typeof3.default)(me.startDay) != 'object') {
 	                me.startDay = new Date(me.startDay);
 	            }
@@ -31427,7 +29780,13 @@ webpackJsonp([0],[
 	                var endDay = new Date(me.endDay.getFullYear(), me.endDay.getMonth(), me.endDay.getDate());
 	                while (true) {
 	                    if (startDay <= endDay) {
-	                        dates.push(_lodash2.default.cloneDeep(startDay));
+	                        if (typeof me.isDisabled == 'function') {
+	                            if (!me.isDisabled(startDay)) {
+	                                dates.push(_lodash2.default.cloneDeep(startDay));
+	                            }
+	                        } else {
+	                            dates.push(_lodash2.default.cloneDeep(startDay));
+	                        }
 	                        startDay.setDate(startDay.getDate() + 1);
 	                    } else {
 	                        break;
@@ -31459,23 +29818,219 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 316 */
+/* 222 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-range-day-panel\" _v-57436d43=\"\">\n    <table _v-57436d43=\"\">\n        <thead _v-57436d43=\"\">\n            <tr _v-57436d43=\"\">\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-57436d43=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-57436d43=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-57436d43=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-57436d43=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" _v-57436d43=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-range-day-panel\" _v-57436d43=\"\">\n    <table _v-57436d43=\"\">\n        <thead _v-57436d43=\"\">\n            <tr _v-57436d43=\"\">\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-57436d43=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-57436d43=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-57436d43=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-57436d43=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-57436d43=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-57436d43=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-57436d43=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
-/* 317 */
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(325)
-	__vue_script__ = __webpack_require__(319)
+	__webpack_require__(224)
+	__vue_script__ = __webpack_require__(226)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-month-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(232)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-month-panel.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 224 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 225 */,
+/* 226 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _lodash = __webpack_require__(36);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	var _datepickerMonth = __webpack_require__(227);
+	
+	var _datepickerMonth2 = _interopRequireDefault(_datepickerMonth);
+	
+	var _datepickerMixin = __webpack_require__(190);
+	
+	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: 'datepickerMonthPanel',
+	    mixins: [_datepickerMixin2.default],
+	    props: {
+	        "currentYear": {
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getFullYear();
+	            }
+	        },
+	        "currentMonth": {
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getMonth();
+	            }
+	        },
+	        "viewType": {
+	            twoWay: true
+	        }
+	    },
+	    computed: {
+	        "monthArr": function monthArr() {
+	            var me = this;
+	            var months = _lodash2.default.cloneDeep(me.months);
+	            return me.split(months, 3);
+	        }
+	    },
+	    methods: {
+	        "previousYear": function previousYear() {
+	            var me = this;
+	            me.currentYear = me.currentYear - 1;
+	        },
+	        "nextYear": function nextYear() {
+	            var me = this;
+	            me.currentYear = me.currentYear + 1;
+	        },
+	        "showYearView": function showYearView() {
+	            var me = this;
+	            me.viewType = "year";
+	        }
+	    },
+	    components: {
+	        datepickerMonth: _datepickerMonth2.default
+	    }
+	};
+
+/***/ },
+/* 227 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(228)
+	__vue_script__ = __webpack_require__(230)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-month.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(231)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-month.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 228 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 229 */,
+/* 230 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "monthItem": {},
+	        "rowIndex": {
+	            type: Number
+	        },
+	        "cellIndex": { type: Number },
+	        "currentMonth": {
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getMonth();
+	            }
+	        },
+	        "viewType": {
+	            twoWay: true
+	        }
+	    },
+	    computed: {
+	        "isCurrentMonth": function isCurrentMonth() {
+	            var me = this;
+	            return me.currentMonth == me.rowIndex * 3 + me.cellIndex;
+	        }
+	    },
+	    methods: {
+	        "selectMouth": function selectMouth() {
+	            var me = this;
+	            me.currentMonth = me.rowIndex * 3 + me.cellIndex;
+	            me.viewType = "day";
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 231 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-19a4a980=\"\">\n    <span _v-19a4a980=\"\">{{monthItem}}</span>\n</button>\n";
+
+/***/ },
+/* 232 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-datepicker-month-panel\" _v-238ed7b7=\"\">\n    <table _v-238ed7b7=\"\">\n        <thead _v-238ed7b7=\"\">\n            <tr _v-238ed7b7=\"\">\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-238ed7b7=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-238ed7b7=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-238ed7b7=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-238ed7b7=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-238ed7b7=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+
+/***/ },
+/* 233 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(234)
+	__vue_script__ = __webpack_require__(236)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-year-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(327)
+	__vue_template__ = __webpack_require__(242)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -31494,8 +30049,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 318 */,
-/* 319 */
+/* 234 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 235 */,
+/* 236 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -31504,11 +30065,11 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _datepickerMixin = __webpack_require__(189);
+	var _datepickerMixin = __webpack_require__(190);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerYear = __webpack_require__(321);
+	var _datepickerYear = __webpack_require__(237);
 	
 	var _datepickerYear2 = _interopRequireDefault(_datepickerYear);
 	
@@ -31570,18 +30131,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 320 */,
-/* 321 */
+/* 237 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(328)
-	__vue_script__ = __webpack_require__(323)
+	__webpack_require__(238)
+	__vue_script__ = __webpack_require__(240)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-year.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(330)
+	__vue_template__ = __webpack_require__(241)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -31600,8 +30160,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 322 */,
-/* 323 */
+/* 238 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 239 */,
+/* 240 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -31640,44 +30206,41 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 324 */,
-/* 325 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 326 */,
-/* 327 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"ms-datepicker-year-panel\" _v-2560c038=\"\">\n    <table _v-2560c038=\"\">\n        <thead _v-2560c038=\"\">\n            <tr _v-2560c038=\"\">\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-2560c038=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-2560c038=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-2560c038=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-2560c038=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-2560c038=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
-
-/***/ },
-/* 328 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 329 */,
-/* 330 */
+/* 241 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-a3014da6=\"\">\n    <span _v-a3014da6=\"\">{{yearItem}}</span>\n</button>\n";
 
 /***/ },
-/* 331 */
+/* 242 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-datepicker-year-panel\" _v-2560c038=\"\">\n    <table _v-2560c038=\"\">\n        <thead _v-2560c038=\"\">\n            <tr _v-2560c038=\"\">\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-2560c038=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-2560c038=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-2560c038=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-2560c038=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-2560c038=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+
+/***/ },
+/* 243 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-datepicker-range-single\" _v-f7c80b70=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-f7c80b70=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-f7c80b70=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-f7c80b70=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-f7c80b70=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+
+/***/ },
+/* 244 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-date-range-single-field\" _v-0c39fd75=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-0c39fd75=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-0c39fd75=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-0c39fd75=\"\">\n            </datepicker-range-single>\n            <div _v-0c39fd75=\"\">\n                <span _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-0c39fd75=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-0c39fd75=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-0c39fd75=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-0c39fd75=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-0c39fd75=\"\">\n        <div class=\"input-group-addon\" _v-0c39fd75=\"\">\n            <span class=\"glyphicon glyphicon-calendar ms-calendar\" @click=\"showCalendar($event)\" _v-0c39fd75=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+
+/***/ },
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(332)
-	__vue_script__ = __webpack_require__(334)
+	__webpack_require__(246)
+	__vue_script__ = __webpack_require__(247)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/date-range-single-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(335)
+	  console.warn("[vue-loader] src/form/field/ueditor-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(248)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -31687,7 +30250,7 @@ webpackJsonp([0],[
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/date-range-single-field.vue"
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/ueditor-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -31696,61 +30259,2190 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 332 */
+/* 246 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 333 */,
-/* 334 */
+/* 247 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "id": {
+	            type: String,
+	            default: function _default() {
+	                return "container";
+	            }
+	        },
+	        "value": {
+	            twoWay: true,
+	            type: String,
+	            default: function _default() {
+	                return "";
+	            }
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "editor": null
+	        };
+	    },
+	    ready: function ready() {
+	        var me = this;
+	        me.editor = UE.getEditor(me.id);
+	        me.editor.ready(function () {
+	            me.editor.addListener('contentChange', function () {
+	                me.value = me.editor.getContent();
+	            });
+	        });
+	    },
+	
+	    watch: {
+	        "value": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue != me.editor.getContent()) {
+	                    me.editor.setContent(newValue);
+	                }
+	            }
+	        }
+	    },
+	    destroyed: function destroyed() {
+	        var me = this;
+	        me.editor.destroy();
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 248 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<textarea id=\"{{id}}\"></textarea>\n";
+
+/***/ },
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function($, _) {"use strict";
+	var __vue_script__, __vue_template__
+	__webpack_require__(250)
+	__vue_script__ = __webpack_require__(252)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/tree/tree-list.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(253)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/tree-list.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 250 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 251 */,
+/* 252 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
 	
-	var _stringify = __webpack_require__(187);
+	var _vue = __webpack_require__(10);
 	
-	var _stringify2 = _interopRequireDefault(_stringify);
+	var _vue2 = _interopRequireDefault(_vue);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: 'treeList',
+	    props: {
+	        items: {
+	            type: Array,
+	            default: function _default() {
+	                return [];
+	            }
+	        },
+	        text: {
+	            type: String,
+	            default: function _default() {
+	                return "text";
+	            }
+	        },
+	        children: {
+	            type: String,
+	            default: function _default() {
+	                return "children";
+	            }
+	        },
+	        router: {
+	            type: String,
+	            default: function _default() {
+	                return "path";
+	            }
+	        },
+	        expanded: {
+	            type: String,
+	            default: function _default() {
+	                return "expanded";
+	            }
+	        },
+	        level: {
+	            coerce: function coerce(val) {
+	                return parseInt(val ? val : 1);
+	            },
+	            default: function _default() {
+	                return 1;
+	            }
+	        }
+	    },
+	    data: function data() {
+	        return {};
+	    },
+	
+	    methods: {
+	        toggle: function toggle(index, item) {
+	            var me = this;
+	            if (item[me.children] && item[me.children].length > 0) {
+	                if (typeof item[me.expanded] == "undefined") {
+	                    _vue2.default.set(this.items[index], 'expanded', true);
+	                } else {
+	                    item[me.expanded] = !item[me.expanded];
+	                }
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 253 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-5e866fe6=\"\">\n    <li v-for=\"(index,item) in items\" _v-5e866fe6=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-5e866fe6=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-5e866fe6=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-5e866fe6=\"\"></tree-list>\n    </li>\n\n</ul>\n";
+
+/***/ },
+/* 254 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(255)
+	__vue_script__ = __webpack_require__(257)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/tree/panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(258)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/panel.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 255 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 256 */,
+/* 257 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    name: 'treePanel',
+	    props: {
+	        "id": {
+	            type: String,
+	            default: function _default() {
+	                return "id";
+	            }
+	        },
+	        "text": {
+	            type: String,
+	            default: function _default() {
+	                return 'text';
+	            }
+	        },
+	        "level": {
+	            type: String,
+	            default: function _default() {
+	                return "1";
+	            }
+	        },
+	        "selType": {
+	            type: String
+	        },
+	        "store": {
+	            type: Array,
+	            default: function _default() {
+	                return [];
+	            }
+	        },
+	        "value": {
+	            type: Array,
+	            twoWay: true,
+	            default: function _default() {
+	                return [];
+	            }
+	        }
+	    },
+	    computed: {
+	        "showCheckbox": function showCheckbox() {
+	            var me = this;
+	            return me.selType == "checkboxmodel";
+	        }
+	    },
+	    data: function data() {
+	        return {};
+	    },
+	
+	    components: {}
+	};
+
+/***/ },
+/* 258 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" value=\"{{item[id]}}\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
+
+/***/ },
+/* 259 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(260)
+	__vue_script__ = __webpack_require__(262)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/grid/panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(287)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/panel.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 260 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 261 */,
+/* 262 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _assign = __webpack_require__(38);
+	
+	var _assign2 = _interopRequireDefault(_assign);
 	
 	var _vue = __webpack_require__(10);
 	
 	var _vue2 = _interopRequireDefault(_vue);
 	
-	var _index = __webpack_require__(336);
+	var _lodash = __webpack_require__(36);
 	
-	var _index2 = _interopRequireDefault(_index);
+	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _moment = __webpack_require__(59);
+	var _header = __webpack_require__(263);
 	
-	var _moment2 = _interopRequireDefault(_moment);
+	var _header2 = _interopRequireDefault(_header);
 	
-	var _dateFieldMixin = __webpack_require__(339);
+	var _paging = __webpack_require__(268);
 	
-	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
+	var _paging2 = _interopRequireDefault(_paging);
 	
-	var _datepickerRangeSingle = __webpack_require__(293);
+	var _text = __webpack_require__(273);
 	
-	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
+	var _text2 = _interopRequireDefault(_text);
+	
+	var _action = __webpack_require__(278);
+	
+	var _action2 = _interopRequireDefault(_action);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
-	    name: 'dateRangeSingleField',
-	    mixins: [_dateFieldMixin2.default],
-	    replace: false,
+	    name: 'gridPanel',
 	    props: {
-	        "startDay": {
+	        "width": {
+	            type: Number
+	        },
+	        "height": {
+	            type: Number
+	        },
+	        "emptyText": {
+	            type: String
+	        },
+	        "rowLines": {
 	            type: String,
+	            default: function _default() {
+	                return "false";
+	            }
+	        },
+	        "store": {
+	            type: Array,
+	            default: function _default() {
+	                return [];
+	            }
+	        },
+	        "columns": {
+	            type: Array,
+	            default: function _default() {
+	                return [];
+	            }
+	        },
+	        "autoScroll": {
+	            type: String,
+	            default: function _default() {
+	                return "false";
+	            }
+	        },
+	        "paging": {
+	            type: Object
+	        },
+	        "currentPage": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return 0;
+	            }
+	        },
+	        "limit": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return 20;
+	            }
+	        },
+	        "total": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return 0;
+	            }
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "clientWidth": 0,
+	            "bodyHeight": {},
+	            "isBodyScrollShow": false
+	        };
+	    },
+	    ready: function ready() {
+	        var me = this;
+	        me.clientWidth = me.$el.clientWidth;
+	        me.$emit('computeBodyHeight');
+	    },
+	
+	    watch: {
+	        "height": function height() {
+	            this.$emit('computeBodyHeight');
+	        }
+	    },
+	    computed: {
+	        "showRowLines": function showRowLines() {
+	            var me = this;
+	            if (me.rowLines == "true") {
+	                return true;
+	            }
+	        },
+	        "headerLineStyle": function headerLineStyle() {
+	            var me = this;
+	            var headerStyle = {};
+	            if (me.showRowLines) {
+	                headerStyle = { "borderTop": "1px solid #ddd" };
+	            }
+	            if (me.isBodyScrollShow) {
+	                headerStyle = (0, _assign2.default)(headerStyle, { "paddingRight": "14px" });
+	                if (me.showRowLines) {
+	                    headerStyle = (0, _assign2.default)(headerStyle, { "borderRight": "1px solid #ddd" });
+	                }
+	            }
+	            return headerStyle;
+	        },
+	        "flexCount": function flexCount() {
+	            var me = this;
+	            var flexCount = 0;
+	            _lodash2.default.forEach(me.columns, function (column) {
+	                if (!column.width) {
+	                    flexCount += column.flex ? column.flex : 1;
+	                }
+	            });
+	            return flexCount;
+	        },
+	        "surplusWidth": function surplusWidth() {
+	            var me = this;
+	            me.clientWidth = me.$el.clientWidth;
+	            var widthCount = 0;
+	            _lodash2.default.forEach(me.columns, function (column) {
+	                if (column.width && !column.flex) {
+	                    widthCount += column.width;
+	                }
+	            });
+	            return me.clientWidth - widthCount;
+	        },
+	        "isEmpty": function isEmpty() {
+	            var me = this;
+	            return !me.store || me.store.length == 0;
+	        }
+	    },
+	    methods: {},
+	    events: {
+	        "computeBodyHeight": function computeBodyHeight() {
+	            var me = this;
+	            if (me.height) {
+	                var bodyHeight = me.height - (me.$els.gridHeader.clientHeight + me.$els.gridFooter.clientHeight + me.$els.gridHeaderLine.clientHeight);
+	                me.bodyHeight = { "height": bodyHeight + 'px' };
+	            } else {
+	                me.bodyHeight = {};
+	            }
+	            _vue2.default.nextTick(function () {
+	                me.$emit("judgeShowScroll");
+	            });
+	        },
+	
+	        "judgeShowScroll": function judgeShowScroll() {
+	            var me = this;
+	            var gridBody = me.$els.gridBody;
+	            if (gridBody.clientHeight < gridBody.scrollHeight) {
+	                me.isBodyScrollShow = true;
+	            } else {
+	                me.isBodyScrollShow = false;
+	            }
+	        }
+	    },
+	    components: {
+	        gridHeader: _header2.default,
+	        paging: _paging2.default,
+	        textColumn: _text2.default,
+	        actionColumn: _action2.default
+	    }
+	};
+
+/***/ },
+/* 263 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(264)
+	__vue_script__ = __webpack_require__(265)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/grid/header/header.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(267)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/header/header.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 264 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 265 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _GridMixin = __webpack_require__(266);
+	
+	var _GridMixin2 = _interopRequireDefault(_GridMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: "grid-header",
+	    mixins: [_GridMixin2.default],
+	    props: {
+	        "rowIndex": {},
+	        "colIndex": {},
+	        "flexCount": {},
+	        "surplusWidth": {},
+	        "setting": {
+	            type: Object,
+	            default: function _default() {
+	                return {
+	                    "width": 10,
+	                    "align": "center",
+	                    "hidden": false
+	                };
+	            }
+	        }
+	    },
+	    data: function data() {
+	        return {};
+	    },
+	    ready: function ready() {
+	        var me = this;
+	    },
+	
+	    computed: {
+	        "renderer": function renderer() {
+	            var me = this;
+	            return me.setting.text;
+	        }
+	    },
+	    methods: {},
+	    components: {}
+	};
+
+/***/ },
+/* 266 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/12
+	 * Time: 22:50
+	 */
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _assign = __webpack_require__(38);
+	
+	var _assign2 = _interopRequireDefault(_assign);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "rowIndex": {},
+	        "colIndex": {},
+	        "flexCount": {},
+	        "surplusWidth": {},
+	        "setting": {
+	            type: Object,
+	            default: function _default() {
+	                return {
+	                    "width": 10,
+	                    "align": "center",
+	                    "hidden": false
+	                };
+	            }
+	        }
+	    },
+	    ready: function ready() {
+	        var me = this;
+	        // me.initStyle();
+	    },
+	
+	    computed: {
+	        "columnWidthStyle": function columnWidthStyle() {
+	            var me = this;
+	            var columnWidth = {};
+	            if (me.setting.width) {
+	                columnWidth = (0, _assign2.default)(columnWidth, { "width": me.setting.width + "px" });
+	            } else if (me.setting.flex) {
+	                columnWidth = (0, _assign2.default)(columnWidth, { "width": me.setting.flex / me.flexCount * me.surplusWidth + "px" });
+	            } else {
+	                columnWidth = (0, _assign2.default)(columnWidth, { "width": 1 / me.flexCount * me.surplusWidth + "px" });
+	            }
+	            return columnWidth;
+	        },
+	        "hidden": function hidden() {
+	            var me = this;
+	            return !me.setting.hidden;
+	        }
+	    },
+	    watch: {
+	        'flexCount': function flexCount() {
+	            var me = this;
+	            // me.initStyle();
+	        },
+	        'surplusWidth': function surplusWidth() {
+	            var me = this;
+	            // me.initStyle();
+	        }
+	    },
+	    methods: {
+	        /*        initStyle:function () {
+	                    let me = this;
+	                    if(me.setting.width){
+	                        me.style = Object.assign({},me.style,{"width":me.setting.width+"px"});
+	                    }
+	                    if(me.setting.align){
+	                        me.style = Object.assign({},me.style,{"textAlign":me.setting.align});
+	                    }
+	                    if(me.setting.flex){
+	                        me.style = Object.assign({},me.style,{"width":( (me.setting.flex/me.flexCount)*me.surplusWidth )+"px"});
+	                    }
+	                },*/
+	    }
+	};
+
+/***/ },
+/* 267 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<th v-show=\"hidden\" :style=\"[columnWidthStyle]\" >\n    <div>{{{ renderer }}}</div>\n</th>\n";
+
+/***/ },
+/* 268 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(269)
+	__vue_script__ = __webpack_require__(271)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/toolbar/paging.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(272)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/toolbar/paging.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 269 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 270 */,
+/* 271 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    name: 'paging',
+	    props: {
+	        "pageText": {
+	            type: String,
+	            default: function _default() {
+	                return "Page";
+	            }
+	        },
+	        "showText": {
+	            type: String,
+	            default: function _default() {
+	                return "Displaying";
+	            }
+	        },
+	        "currentPage": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return 0;
+	            }
+	        },
+	        "limit": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return 20;
+	            }
+	        },
+	        "total": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return 0;
+	            }
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "showNum": 0
+	        };
+	    },
+	
+	    computed: {
+	        "pageCount": function pageCount() {
+	            var me = this;
+	            var page = me.total / me.limit;
+	            return Math.ceil(page);
+	        },
+	        "startRow": function startRow() {
+	            var me = this;
+	            if (me.currentPage < 1) {
+	                return 0;
+	            } else {
+	                return (me.currentPage - 1) * me.limit;
+	            }
+	        },
+	        "endRow": function endRow() {
+	            var me = this;
+	            if (me.currentPage < me.pageCount) {
+	                return me.startRow + me.limit;
+	            } else {
+	                if (me.total > me.limit) {
+	                    return me.startRow + (me.total - (me.pageCount - 1) * me.limit);
+	                } else {
+	                    return me.total;
+	                }
+	            }
+	        },
+	        "isFirstPage": function isFirstPage() {
+	            var me = this;
+	            return me.currentPage <= 1;
+	        },
+	        "isLastPage": function isLastPage() {
+	            var me = this;
+	            return me.currentPage >= me.pageCount;
+	        }
+	    },
+	    watch: {
+	        "currentPage": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                me.showNum = newValue;
+	            },
+	            immediate: true
+	        }
+	    },
+	    methods: {
+	        "firstPage": function firstPage() {
+	            this.currentPage = 1;
+	        },
+	        "lastPage": function lastPage() {
+	            this.currentPage = this.pageCount;
+	        },
+	        "previousPage": function previousPage() {
+	            var me = this;
+	            if (me.currentPage > 1) {
+	                me.currentPage = me.currentPage - 1;
+	            }
+	        },
+	        "nextPage": function nextPage() {
+	            var me = this;
+	            if (me.currentPage < me.pageCount) {
+	                me.currentPage = me.currentPage + 1;
+	            }
+	        },
+	        "refresh": function refresh() {
+	            var me = this;
+	            var num = parseInt(me.showNum);
+	            if (me.total > 0) {
+	                if (!isNaN(num)) {
+	                    if (num < 1) {
+	                        num = 1;
+	                    } else if (num > me.pageCount) {
+	                        num = me.pageCount;
+	                    }
+	                } else {
+	                    num = 1;
+	                }
+	            } else {
+	                num = 0;
+	            }
+	            me.currentPage = num;
+	            me.showNum = num;
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 272 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"ms-paging\" _v-d9da531e=\"\">\n    <div class=\"ms-paging-left\" _v-d9da531e=\"\">\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span _v-d9da531e=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-d9da531e=\"\">\n        <span _v-d9da531e=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-d9da531e=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-d9da531e=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
+
+/***/ },
+/* 273 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(274)
+	__vue_script__ = __webpack_require__(275)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/grid/column/text.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(277)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/text.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 274 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 275 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _GridMixin = __webpack_require__(266);
+	
+	var _GridMixin2 = _interopRequireDefault(_GridMixin);
+	
+	var _GridColumnMixin = __webpack_require__(276);
+	
+	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: 'textColumn',
+	
+	    mixins: [_GridColumnMixin2.default, _GridMixin2.default],
+	    methods: {},
+	    components: {}
+	};
+
+/***/ },
+/* 276 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/9
+	 * Time: 08:22
+	 */
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _assign = __webpack_require__(38);
+	
+	var _assign2 = _interopRequireDefault(_assign);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "store": {
+	            type: Array
+	        },
+	        "record": {
+	            type: Object
+	        }
+	    },
+	    data: function data() {
+	        return {};
+	    },
+	    ready: function ready() {},
+	
+	    computed: {
+	        "style": function style() {
+	            var me = this;
+	            var style = {};
+	            if (me.setting.align) {
+	                style = (0, _assign2.default)(style, { "textAlign": me.setting.align });
+	            }
+	            return style;
+	        },
+	        "renderer": function renderer() {
+	            var me = this;
+	            if (typeof me.setting.renderer == "function") {
+	                return me.setting.renderer(me.$get("record." + me.setting.dataIndex), me.record, me.rowIndex);
+	            } else {
+	                return me.$get("record." + me.setting.dataIndex);
+	            }
+	        }
+	    },
+	    methods: {
+	        "click": function click() {
+	            var me = this;
+	            if (me.setting.listeners && me.setting.listeners.click && typeof me.setting.listeners.click == 'function') {
+	                me.setting.listeners.click(me.$get("record." + me.setting.dataIndex), me.record);
+	            }
+	        }
+	    }
+	};
+
+/***/ },
+/* 277 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\" @click=\"click()\">\n    <div>{{{ renderer }}}</div>\n</td>\n";
+
+/***/ },
+/* 278 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(279)
+	__vue_script__ = __webpack_require__(280)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/grid/column/action.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(286)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/action.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 279 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 280 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _GridMixin = __webpack_require__(266);
+	
+	var _GridMixin2 = _interopRequireDefault(_GridMixin);
+	
+	var _GridColumnMixin = __webpack_require__(276);
+	
+	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
+	
+	var _item = __webpack_require__(281);
+	
+	var _item2 = _interopRequireDefault(_item);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: "actionColumn",
+	    mixins: [_GridColumnMixin2.default, _GridMixin2.default],
+	    props: {},
+	    data: function data() {
+	        return {};
+	    },
+	
+	    components: {
+	        actionItem: _item2.default
+	    }
+	};
+
+/***/ },
+/* 281 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(282)
+	__vue_script__ = __webpack_require__(284)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/grid/column/action/item.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(285)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/action/item.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 282 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 283 */,
+/* 284 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _vue = __webpack_require__(10);
+	
+	var _vue2 = _interopRequireDefault(_vue);
+	
+	var _lodash = __webpack_require__(36);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "store": {},
+	        "item": {
+	            type: Object,
+	            default: function _default() {
+	                return {
+	                    "cls": null
+	                };
+	            }
+	        },
+	        "record": {
+	            type: Object
+	        },
+	        "class": {}
+	    },
+	    data: function data() {
+	        return {};
+	    },
+	    ready: function ready() {
+	        var me = this;
+	    },
+	
+	    computed: {
+	        "cls": function cls() {
+	            var me = this;
+	            var cls = {};
+	            if (me.item.cls && me.item.cls.replace(/\s/g, "")) {
+	                var clss = me.item.cls.split(" ");
+	                _lodash2.default.forEach(clss, function (clsItem) {
+	                    clsItem = clsItem.replace(/\s/g, "");
+	                    if (clsItem) {
+	                        cls[clsItem] = clsItem;
+	                    }
+	                });
+	            }
+	            return cls;
+	        },
+	        "actionDisabled": function actionDisabled() {
+	            var me = this;
+	            if (typeof me.item.isDisabled === 'function') {
+	                return me.item.isDisabled(me.record, me.store);
+	            }
+	        }
+	    },
+	    methods: {
+	        handler: function handler() {
+	            var me = this;
+	            if (me.item.handler && typeof me.item.handler == "function") {
+	                me.item.handler(me.record);
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 285 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div role=\"button\" class=\"ms-grid-action-item\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" _v-173590fb=\"\">\n</div>\n";
+
+/***/ },
+/* 286 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>\n        <action-item v-for=\"(index,item) in setting.items\"\n                     :item=\"item\"\n                     :store=\"store\"\n                     :record=\"record\">\n        </action-item>\n    </div>\n</td>\n";
+
+/***/ },
+/* 287 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"grid-panel\" _v-70cc3268=\"\">\n    <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-70cc3268=\"\">\n        <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n            <thead _v-70cc3268=\"\">\n                <tr _v-70cc3268=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-70cc3268=\"\"></div>\n    <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight]\" _v-70cc3268=\"\">\n        <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n            <tbody _v-70cc3268=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-70cc3268=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store=\"store\" :record=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></td>\n                </tr>\n            </tbody>\n        </table>\n        <div v-if=\"isEmpty\" _v-70cc3268=\"\">{{{emptyText}}}</div>\n    </div>\n    <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-70cc3268=\"\">\n        <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-70cc3268=\"\">\n        </component>\n    </div>\n</div>\n";
+
+/***/ },
+/* 288 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(289)
+	__vue_script__ = __webpack_require__(291)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/window/MessageBox/alert.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(293)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/MessageBox/alert.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 289 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 290 */,
+/* 291 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _MessageBoxMixin = __webpack_require__(292);
+	
+	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: "alert",
+	    mixins: [_MessageBoxMixin2.default],
+	    props: {},
+	    watch: {
+	        "isShow": function isShow(newValue, oldValue) {
+	            var me = this;
+	            if (newValue === false) {
+	                me.title = "";
+	                me.message = "";
+	            }
+	        }
+	    },
+	    methods: {
+	        sure: function sure() {
+	            this.isShow = false;
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 292 */
+/***/ function(module, exports) {
+
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/9
+	 * Time: 11:19
+	 */
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        backdrop: {
+	            type: String,
+	            default: function _default() {
+	                return "true";
+	            }
+	        },
+	        title: {
+	            type: String,
+	            twoWay: true,
+	            default: function _default() {
+	                return "";
+	            }
+	        },
+	        isShow: {
+	            type: Boolean,
+	            twoWay: true,
+	            default: function _default() {
+	                return false;
+	            }
+	        },
+	        message: {
+	            type: String,
+	            twoWay: true,
+	            default: function _default() {
+	                return "";
+	            }
+	        },
+	        sureText: {
+	            type: String,
+	            default: function _default() {
+	                return "确定";
+	            }
+	        },
+	        cancelText: {
+	            type: String,
+	            default: function _default() {
+	                return "取消";
+	            }
+	        }
+	    },
+	    methods: {
+	        close: function close() {
+	            this.isShow = false;
+	        }
+	    }
+	};
+
+/***/ },
+/* 293 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div v-if=\"isShow\" class=\"ms-alert\" _v-2eaa1baf=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-2eaa1baf=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-2eaa1baf=\"\">\n            <div class=\"modal-content\" _v-2eaa1baf=\"\">\n\n                <div class=\"modal-header\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-2eaa1baf=\"\"><span aria-hidden=\"true\" _v-2eaa1baf=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-2eaa1baf=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-2eaa1baf=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-2eaa1baf=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-2eaa1baf=\"\"></div>\n</div>\n";
+
+/***/ },
+/* 294 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(295)
+	__vue_script__ = __webpack_require__(297)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/window/MessageBox/confirm.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(298)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/MessageBox/confirm.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 295 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 296 */,
+/* 297 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _MessageBoxMixin = __webpack_require__(292);
+	
+	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: "confirm",
+	    mixins: [_MessageBoxMixin2.default],
+	    props: {
+	        action: {
+	            type: Function,
+	            twoWay: true
+	        }
+	    },
+	    watch: {
+	        "isShow": function isShow(newValue, oldValue) {
+	            var me = this;
+	            if (newValue === false) {
+	                me.title = "";
+	                me.message = "";
+	                me.action = null;
+	            }
+	        }
+	    },
+	    methods: {
+	        sure: function sure() {
+	            var me = this;
+	            me.isShow = false;
+	            if (typeof me.action === 'function') {
+	                me.action("yes");
+	            }
+	        },
+	        cancel: function cancel() {
+	            var me = this;
+	            me.isShow = false;
+	            if (typeof me.action === 'function') {
+	                me.action("cancel");
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 298 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-8ed0b75a=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-8ed0b75a=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-8ed0b75a=\"\">\n            <div class=\"modal-content\" _v-8ed0b75a=\"\">\n\n                <div class=\"modal-header\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-8ed0b75a=\"\"><span aria-hidden=\"true\" _v-8ed0b75a=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-8ed0b75a=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-8ed0b75a=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-8ed0b75a=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-8ed0b75a=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-8ed0b75a=\"\"></div>\n</div>\n";
+
+/***/ },
+/* 299 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div>\n    <div class=\"panel panel-default\">\n        <div class=\"panel-heading\">ms-alert</div>\n        <div class=\"panel-body\">\n            <div>\n                <button @click=\"alert1()\" class=\"btn btn-default btn-sm\">alert1</button>\n                <button @click=\"alert2()\" class=\"btn btn-default btn-sm\">alert2</button>\n            </div>\n\n\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\">参数说明</div>\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table class=\"table table-bordered\">\n                            <thead>\n                            <tr>\n                                <th>参数</th>\n                                <th>类型</th>\n                                <th>释义</th>\n                                <th>是否双向绑定</th>\n                                <th>默认值</th>\n                                <th>补充说明</th>\n                            </tr>\n                            </thead>\n                            <tbody>\n                            <tr>\n                                <td>isShow</td>\n                                <td>Boolean</td>\n                                <td>是否显示</td>\n                                <td>是</td>\n                                <td>false</td>\n                                <td></td>\n                            </tr>\n                            <tr>\n                                <td>message</td>\n                                <td>String</td>\n                                <td>信息文本</td>\n                                <td>是</td>\n                                <td></td>\n                                <td></td>\n                            </tr>\n                            <tr>\n                                <td>title</td>\n                                <td>String</td>\n                                <td>标题</td>\n                                <td>是</td>\n                                <td></td>\n                                <td></td>\n                            </tr>\n                            </tbody>\n                        </table>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\">代码示例</div>\n                <div class=\"panel-body\">\n                    <pre>\n\nexport default{\n    data(){\n        return {\n            \"alertConfig\":{\n                \"show\":false,\n                \"message\":\"\",\n                \"title\":\"\"\n            }\n        }\n    },\n    methods:{\n        \"alert1\":function () {\n            let me = this;\n            me.alertConfig.title = \"Alert\";\n            me.alertConfig.show = true;\n            me.alertConfig.message = \"ALERT1\";\n        },\n        \"alert2\":function () {\n            let me = this;\n            // me.alertConfig.title = \"Alert\";\n            me.alertConfig.show = true;\n            me.alertConfig.message = \"ALERT2\";\n        }\n    },\n    components:{\n        msAlert\n    }\n}\n                    </pre>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <ms-alert :is-show.sync=\"alertConfig.show\"\n                  :message.sync=\"alertConfig.message\"\n                  :title.sync=\"alertConfig.title\">\n        </ms-alert>\n\n    </div>\n</div>\n";
+
+/***/ },
+/* 300 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(301)
+	__vue_script__ = __webpack_require__(302)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-datepicker.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(303)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-datepicker.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 301 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 302 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "selectedDates": []
+	        };
+	    },
+	
+	    components: {
+	        msDatepicker: _index.msDatepicker
+	    }
+	};
+
+/***/ },
+/* 303 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-datepicker :selected-dates.sync=\"selectedDates\"></ms-datepicker>\n    </div>\n</div>\n";
+
+/***/ },
+/* 304 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(305)
+	__vue_script__ = __webpack_require__(306)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-date-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(307)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-date-field.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 305 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 306 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "value1": "",
+	            "value2": []
+	        };
+	    },
+	
+	    components: {
+	
+	        msDateField: _index.msDateField
+	    }
+	};
+
+/***/ },
+/* 307 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div>\n    <div>{{value1}}</div>\n    <div>\n        <ms-date-field :value.sync=\"value1\"></ms-date-field>\n    </div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in value2\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-date-field multiple=\"true\" :value.sync=\"value2\"></ms-date-field>\n    </div>\n</div>\n";
+
+/***/ },
+/* 308 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(309)
+	__vue_script__ = __webpack_require__(310)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-date-range-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(311)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-date-range-field.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 309 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 310 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "startDay": "2016-4-6",
+	            "endDay": "2016-4-10",
+	            "selectedDates": [],
+	            "isDisabled": function isDisabled(day) {
+	                if (day.getDay() == 3) {
+	                    return true;
+	                }
+	            }
+	        };
+	    },
+	
+	    components: {
+	        msDateRangeField: _index.msDateRangeField,
+	        msDatepickerRange: _index.msDatepickerRange
+	    }
+	};
+
+/***/ },
+/* 311 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div>\n    <div>\n        <ms-datepicker-range></ms-datepicker-range>\n    </div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-date-range-field :selected-dates.sync=\"selectedDates\"\n                             :start-day.sync=\"startDay\"\n                             :end-day.sync=\"endDay\"\n                             :is-disabled=\"isDisabled\">\n        </ms-date-range-field>\n    </div>\n    <div>\n        <table class=\"table table-bordered\">\n            <thead>\n                <tr>\n                    <th>参数</th>\n                    <th>类型</th>\n                    <th>释义</th>\n                    <th>是否双向绑定</th>\n                    <th>默认值</th>\n                    <th>补充说明</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>startDay</td>\n                    <td>String</td>\n                    <td>开始时间</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>startDay 和 endDay 需要同时设置</td>\n                </tr>\n                <tr>\n                    <td>endDay</td>\n                    <td>String</td>\n                    <td>结束时间</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>startDay 和 endDay 需要同时设置</td>\n                </tr>\n                <tr>\n                    <td>selectedDates</td>\n                    <td>Array</td>\n                    <td>选中日期</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>数组型的字符串日期</td>\n                </tr>\n                <tr>\n                    <td>dateFormat</td>\n                    <td>String</td>\n                    <td>日期格式</td>\n                    <td>否</td>\n                    <td>YYYY-MM-DD</td>\n                    <td>遵循moment的时间格式化</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n";
+
+/***/ },
+/* 312 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(313)
+	__vue_script__ = __webpack_require__(314)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-date-range-single-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(315)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-date-range-single-field.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 313 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 314 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "selectedDates": ["2016-4-1"],
+	            "isDisabled": function isDisabled(day) {
+	                if (day.getDay() == 4) {
+	                    return true;
+	                }
+	            }
+	        };
+	    },
+	
+	    components: {
+	        msDatepickerRangeSingle: _index.msDatepickerRangeSingle,
+	        msDateRangeSingleField: _index.msDateRangeSingleField
+	    }
+	};
+
+/***/ },
+/* 315 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div>\n    <ms-datepicker-range-single></ms-datepicker-range-single>\n</div>\n<div>\n    <div style=\"max-height: 100px;overflow-y: auto\">\n        <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n    </div>\n</div>\n<div>\n    <ms-date-range-single-field :selected-dates.sync=\"selectedDates\"\n                                :is-disabled=\"isDisabled\">\n    </ms-date-range-single-field>\n</div>\n";
+
+/***/ },
+/* 316 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(317)
+	__vue_script__ = __webpack_require__(318)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-grid.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(319)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-grid.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 317 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 318 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "store": [{ "id": "1", "text": "第一行", "name": "name1" }, { "id": "2", "text": "第一行", "name": "name1" }, { "id": "3", "text": "第一行", "name": "name1" }, { "id": "4", "text": "第一行", "name": "name1" }, { "id": "5", "text": "第一行", "name": "name1" }, { "id": "6", "text": "第一行", "name": "name1" }, { "id": "7", "text": "第一行", "name": "name1" }, { "id": "8", "text": "第一行", "name": "name1" }, { "id": "9", "text": "第一行", "name": "name1" }, { "id": "10", "text": "第一行", "name": "name1" }, { "id": "11", "text": "第一行", "name": "name1" }, { "id": "12", "text": "第一行", "name": "name1" }, { "id": "13", "text": "第一行", "name": "name1" }, { "id": "14", "text": "第一行", "name": "name1" }, { "id": "15", "text": "第一行", "name": "name1" }, { "id": "16", "text": "第一行", "name": "name1" }],
+	            "columns": [{
+	                type: 'text-column',
+	                text: '文本',
+	                dataIndex: 'text',
+	                flex: 1,
+	                listeners: {
+	                    click: function click(val, record) {
+	                        alert(val);
+	                    }
+	                }
+	            }, {
+	                type: 'text-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                flex: 2
+	            }, {
+	                type: 'action-column',
+	                text: '',
+	                dataIndex: 'id',
+	                width: 100,
+	                items: [{
+	                    "cls": "glyphicon glyphicon-pencil",
+	                    handler: function handler(record) {
+	                        alert(record);
+	                    },
+	                    isDisabled: function isDisabled(record) {
+	                        if (record.id == 4) {
+	                            return true;
+	                        }
+	                    }
+	                }]
+	            }],
+	            "height": 200,
+	            "paging": null
+	        };
+	    },
+	
+	    methods: {
+	        "setHeight": function setHeight() {
+	            this.height = 200;
+	        },
+	        "cancelHeight": function cancelHeight() {
+	            this.height = null;
+	        },
+	        "showPaging": function showPaging() {
+	            this.paging = {};
+	        }
+	    },
+	    components: {
+	        msGridPanel: _index.msGridPanel
+	    }
+	};
+
+/***/ },
+/* 319 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div>\n    <button class=\"btn btn-default btn-sm\" @click=\"setHeight()\">设置表格高度</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"cancelHeight()\">取消表格高度</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"showPaging()\">显示分页</button>\n</div>\n<div>\n    <div>\n        <ms-grid-panel :store=\"store\"\n                       :columns=\"columns\"\n                       :height=\"height\"\n                       row-lines=\"true\"\n                       :paging=\"paging\"></ms-grid-panel>\n    </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n    <div class=\"panel-heading\">参数说明</div>\n    <div class=\"panel-body\">\n        <table class=\"table table-bordered\">\n            <thead>\n            <tr>\n                <th>参数</th>\n                <th>类型</th>\n                <th>释义</th>\n                <th>是否双向绑定</th>\n                <th>默认值</th>\n                <th>补充说明</th>\n            </tr>\n            </thead>\n            <tbody>\n            <tr>\n                <td>height</td>\n                <td>Number</td>\n                <td>整个列表面版的高度</td>\n                <td>否</td>\n                <td>无</td>\n                <td>如果设置的面板高度,就会去自动计算出中间列表的高度,超出会显示滚动条</td>\n            </tr>\n            <tr>\n                <td>store</td>\n                <td>Array</td>\n                <td>数据</td>\n                <td>否</td>\n                <td>无</td>\n                <td>返回的数据列表</td>\n            </tr>\n            <tr>\n                <td>columns</td>\n                <td>Array</td>\n                <td>列配置</td>\n                <td>否</td>\n                <td>无</td>\n                <td>是对每一列的配置</td>\n            </tr>\n            <tr>\n                <td>currentPage</td>\n                <td>Number</td>\n                <td>当前页码</td>\n                <td>是</td>\n                <td>0</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>limit</td>\n                <td>Number</td>\n                <td>每页显示条数</td>\n                <td>是</td>\n                <td>20</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>total</td>\n                <td>Number</td>\n                <td>数据总条数</td>\n                <td>是</td>\n                <td>0</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>emptyText</td>\n                <td>String</td>\n                <td>空数据文本</td>\n                <td>否</td>\n                <td></td>\n                <td>当数据为空的时候显示的文本</td>\n            </tr>\n            <tr>\n                <td>paging</td>\n                <td>Object</td>\n                <td>分页控件配置</td>\n                <td>否</td>\n                <td></td>\n                <td>\n                    <p>theme:分页控件模板,当前没有其他可用</p>\n                    <p>pageText: </p>\n                    <p>showText: </p>\n                </td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"panel panel-default\">\n    <div class=\"panel-heading\">代码示例</div>\n    <div class=\"panel-body\">\n        <pre>\n            \"columns\":[\n                {\n                    type:'text-column',\n                    text:'文本',\n                    dataIndex:'text',\n                    flex:1,\n                    listeners:{\n                        click:function (val,record) {\n                            alert(val);\n                        }\n                    }\n                },\n                {\n                    type:'text-column',\n                    text:'名称',\n                    dataIndex:'name',\n                    flex:2\n                },\n                {\n                    type:'action-column',\n                    text:'',\n                    dataIndex:'id',\n                    width:100,\n                    items:[\n                        {\n                            \"cls\":\"glyphicon glyphicon-pencil\",\n                            handler:function (record) {\n                                alert(record);\n                            },\n                            isDisabled:function (record) {\n                                if(record.id==4){\n                                    return true;\n                                }\n                            }\n                        }\n                    ]\n                }\n            ]\n        </pre>\n    </div>\n</div>\n";
+
+/***/ },
+/* 320 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__vue_template__ = __webpack_require__(321)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/app.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 321 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<section>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-8\">\n                <router-view></router-view>\n            </div>\n            <div class=\"col-md-4\">\n                <ul class=\"list-group\">\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-alert'}\">ms-alert</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-confirm'}\">ms-confirm</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-datepicker'}\">ms-datepicker</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-field'}\">ms-date-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-field'}\">ms-date-range-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-single-field'}\">ms-date-range-single-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-grid-panel'}\">ms-grid-panel</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n</section>\n";
+
+/***/ },
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */,
+/* 327 */,
+/* 328 */,
+/* 329 */,
+/* 330 */,
+/* 331 */,
+/* 332 */,
+/* 333 */,
+/* 334 */,
+/* 335 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(336)
+	__vue_script__ = __webpack_require__(337)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-confirm.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(338)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/example/component/ms-confirm.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 336 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 337 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "confirmConfig": {
+	                "show": false,
+	                "message": "",
+	                "title": "",
+	                "action": null
+	            }
+	        };
+	    },
+	
+	    methods: {
+	        "showConfirm": function showConfirm() {
+	            var me = this;
+	            me.confirmConfig.show = true;
+	            me.confirmConfig.title = "确定";
+	            me.confirmConfig.message = "确定执行该操作么?";
+	            me.confirmConfig.action = function (res) {
+	                if (res === 'yes') {
+	                    alert("执行了");
+	                }
+	            };
+	        }
+	    },
+	    components: {
+	        msConfirm: _index.msConfirm
+	    }
+	};
+
+/***/ },
+/* 338 */
+/***/ function(module, exports) {
+
+	module.exports = "\n   <div>\n       <div class=\"panel panel-default\">\n           <div class=\"panel-heading\">ms-confirm</div>\n           <div class=\"panel-body\">\n               <div>\n                   <button @click=\"showConfirm()\" class=\"btn btn-default btn-sm\">确认</button>\n               </div>\n               <div class=\"panel panel-default\">\n                   <div class=\"panel-heading\">参数说明</div>\n                   <div class=\"panel-body\">\n                       <div class=\"table-responsive\">\n                           <table class=\"table table-bordered\">\n                               <thead>\n                               <tr>\n                                   <th>参数</th>\n                                   <th>类型</th>\n                                   <th>释义</th>\n                                   <th>是否双向绑定</th>\n                                   <th>默认值</th>\n                                   <th>补充说明</th>\n                               </tr>\n                               </thead>\n                               <tbody>\n                               <tr>\n                                   <td>isShow</td>\n                                   <td>Boolean</td>\n                                   <td>是否显示</td>\n                                   <td>是</td>\n                                   <td>false</td>\n                                   <td></td>\n                               </tr>\n                               <tr>\n                                   <td>message</td>\n                                   <td>String</td>\n                                   <td>信息文本</td>\n                                   <td>是</td>\n                                   <td></td>\n                                   <td></td>\n                               </tr>\n                               <tr>\n                                   <td>title</td>\n                                   <td>String</td>\n                                   <td>标题</td>\n                                   <td>是</td>\n                                   <td></td>\n                                   <td></td>\n                               </tr>\n                               <tr>\n                                   <td>action</td>\n                                   <td>Function</td>\n                                   <td>回调函数</td>\n                                   <td>是</td>\n                                   <td></td>\n                                   <td></td>\n                               </tr>\n                               </tbody>\n                           </table>\n                       </div>\n                   </div>\n               </div>\n               <div class=\"panel panel-default\">\n                   <div class=\"panel-heading\">代码示例</div>\n                   <div class=\"panel-body\">\n                       <pre>\nexport default{\n       data(){\n           return {\n               \"confirmConfig\":{\n                   \"show\":false,\n                   \"message\":\"\",\n                   \"title\":\"\",\n                   \"action\":null\n               }\n           }\n       },\n       methods:{\n           \"showConfirm\":function () {\n               let me = this;\n               me.confirmConfig.show = true;\n               me.confirmConfig.title = \"确定\";\n               me.confirmConfig.message = \"确定执行该操作么?\";\n               me.confirmConfig.action = function (res) {\n                   if(res === 'yes'){\n                       alert(\"执行了\");\n                   }\n               }\n           }\n       },\n       components:{\n           msConfirm\n       }\n   }\n                       </pre>\n                   </div>\n               </div>\n           </div>\n       </div>\n       <div>\n           <ms-confirm :is-show.sync=\"confirmConfig.show\"\n                       :title.sync=\"confirmConfig.title\"\n                       :message.sync=\"confirmConfig.message\"\n                       :action.sync=\"confirmConfig.action\">\n           </ms-confirm>\n       </div>\n   </div>\n";
+
+/***/ },
+/* 339 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(340)
+	__vue_script__ = __webpack_require__(342)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-day-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(348)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-day-panel.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 340 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 341 */,
+/* 342 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _datepickerMixin = __webpack_require__(190);
+	
+	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
+	
+	var _datepickerDay = __webpack_require__(343);
+	
+	var _datepickerDay2 = _interopRequireDefault(_datepickerDay);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    mixins: [_datepickerMixin2.default],
+	    props: {
+	        "currentDate": {
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date();
+	            }
+	        },
+	        "currentMonth": {
+	            twoWay: true
+	        },
+	        "currentYear": {
+	            twoWay: true
+	        },
+	        "selectedDates": {
+	            twoWay: true
+	        },
+	        "multiple": {
+	            type: String,
+	            default: function _default() {
+	                return "false";
+	            }
+	        },
+	        "dayItemClick": {
+	            type: Function
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "panelStartDay": null
+	        };
+	    },
+	
+	    computed: {
+	        "dayArr": function dayArr() {
+	            var me = this;
+	            me.currentYear = me.currentDate.getFullYear();
+	            me.currentMonth = me.currentDate.getMonth();
+	            me.panelStartDay = new Date(me.currentDate.getFullYear(), me.currentDate.getMonth(), 1);
+	            var weekDay = me.panelStartDay.getDay();
+	            me.panelStartDay.setDate(me.panelStartDay.getDate() - weekDay);
+	            var days = me.getDates(me.panelStartDay, 42);
+	            return me.split(days, 7);
+	        },
+	        "currentMonthText": function currentMonthText() {
+	            var me = this;
+	            return me.months[me.currentMonth];
+	        }
+	    },
+	    methods: {
+	        "setSelectedDates": function setSelectedDates() {},
+	        "previousMouth": function previousMouth() {
+	            var me = this;
+	            var date = _.cloneDeep(me.currentDate);
+	            date.setMonth(date.getMonth() - 1);
+	            me.currentDate = date;
+	        },
+	        "nextMouth": function nextMouth() {
+	            var me = this;
+	            var date = _.cloneDeep(me.currentDate);
+	            date.setMonth(date.getMonth() + 1);
+	            me.currentDate = date;
+	        },
+	        "showMonthView": function showMonthView() {
+	            var me = this;
+	            me.viewType = "month";
+	        }
+	    },
+	    components: {
+	        datepickerDay: _datepickerDay2.default
+	    }
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
+
+/***/ },
+/* 343 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(344)
+	__vue_script__ = __webpack_require__(346)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-day.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(347)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-day.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 344 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 345 */,
+/* 346 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(212);
+	
+	var _index2 = _interopRequireDefault(_index);
+	
+	var _datepickerMixin = __webpack_require__(190);
+	
+	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: "datepickerRangeDay",
+	    mixins: [_datepickerMixin2.default],
+	    props: {
+	        "currentDate": {
+	            type: Date,
+	            twoWay: true
+	        },
+	        "dayItem": {},
+	        "startDay": {
+	            type: Date,
 	            twoWay: true
 	        },
 	        "endDay": {
-	            type: String,
+	            type: Date,
 	            twoWay: true
 	        },
+	        "currentMonth": {},
 	        "selectedDates": {
 	            type: Array,
 	            twoWay: true,
@@ -31758,237 +32450,108 @@ webpackJsonp([0],[
 	                return [];
 	            }
 	        },
-	        "dateFormat": {
+	        "multiple": {
 	            type: String,
 	            default: function _default() {
-	                return "YYYY-MM-DD";
+	                return "false";
 	            }
+	        },
+	        "dayItemClick": {
+	            type: Function
 	        }
 	    },
-	    data: function data() {
-	        return {
-	            "calendarShow": false,
-	            "startDayObj": null,
-	            "endDayObj": null,
-	            "selectedDatesObj": []
-	        };
-	    },
-	    ready: function ready() {
-	        var me = this;
-	        $(document).on('click', function (e) {
-	            me.calendarShow = false;
-	        });
-	    },
-	
 	    computed: {
-	        "dateRange": function dateRange() {
+	        "isCurrentMonth": function isCurrentMonth() {
+	            return this.dayItem.getMonth() == this.currentMonth;
+	        },
+	        "isSelected": function isSelected() {
 	            var me = this;
-	            if (me.startDay && me.endDay) {
-	                return me.startDay + "~" + me.endDay;
+	            if (me.multiple == "true" && _.isArray(me.selectedDates)) {
+	                var result = false;
+	                _.forEach(me.selectedDates, function (selectedDate) {
+	                    if (selectedDate.getFullYear() == me.dayItem.getFullYear() && selectedDate.getMonth() == me.dayItem.getMonth() && selectedDate.getDate() == me.dayItem.getDate()) {
+	                        result = true;
+	                    }
+	                });
+	                return result;
 	            } else {
-	                return "";
+	                if (me.selectedDates && _.isArray(me.selectedDates) && me.selectedDates.length == 1) {
+	                    return _index2.default.MSDate.isSameDay(me.selectedDates[0], me.dayItem);
+	                }
+	            }
+	        },
+	        "isToday": function isToday() {
+	            var me = this;
+	            var day = me.dayItem;
+	            var today = new Date();
+	            return _index2.default.MSDate.isSameDay(day, today);
+	        },
+	        "itemDisabled": function itemDisabled() {
+	            var me = this;
+	            if (typeof me.isDisabled == 'function') {
+	                return me.isDisabled(me.dayItem);
 	            }
 	        }
 	    },
-	    watch: {
-	        "startDay": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue && newValue != oldValue) {
-	                    me.startDayObj = new Date(_index2.default.MSDate.dateAdapter(newValue));
-	                }
+	    filters: {
+	        "dayFormat": function dayFormat(date) {
+	            date = new Date(date);
+	            var day = date.getDate();
+	            if (day < 10) {
+	                return "0" + day;
+	            } else {
+	                return day;
 	            }
-	        },
-	        "endDay": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue && newValue != oldValue) {
-	                    me.endDayObj = new Date(_index2.default.MSDate.dateAdapter(newValue));
-	                }
-	            }
-	        },
-	        "startDayObj": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
-	                    me.startDay = (0, _moment2.default)(newValue).format(me.dateFormat);
-	                }
-	            }
-	        },
-	        "endDayObj": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
-	                    me.endDay = (0, _moment2.default)(newValue).format(me.dateFormat);
-	                }
-	            }
-	        },
-	        "selectedDatesObj": {
-	            handler: function handler(newValue, oldValue) {
-	                debugger;
-	                var me = this;
-	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
-	                    (function () {
-	                        var dates = [];
-	                        _.forEach(newValue, function (date) {
-	                            dates.push((0, _moment2.default)(date).format(me.dateFormat));
-	                        });
-	                        me.selectedDates = dates;
-	                    })();
-	                }
-	            }
-	        },
-	        "selectedDates": {
-	            handler: function handler(newValue, oldValue) {
-	                debugger;
-	                var me = this;
-	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
-	                    (function () {
-	                        var dates = [];
-	                        _.forEach(newValue, function (date) {
-	                            dates.push(new Date(_index2.default.MSDate.dateAdapter(date)));
-	                        });
-	                        me.selectedDatesObj = dates;
-	                    })();
-	                }
-	            },
-	            immediate: true
 	        }
 	    },
 	    methods: {
-	        "showCalendar": function showCalendar(e) {
+	        "selectDay": function selectDay() {
 	            var me = this;
-	            me.calendarShow = !me.calendarShow;
-	            me.$els.dateField.focus();
-	            if (e.clientY < document.documentElement.clientHeight / 2) {
-	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-down");
-	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-up");
-	            } else {
-	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-up");
-	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
+	            if (!_index2.default.MSDate.isSameMonth(me.currentDate, me.dayItem)) {
+	                me.currentDate = me.dayItem;
 	            }
-	        },
-	        "onClose": function onClose() {
-	            var me = this;
-	            me.calendarShow = false;
-	        },
-	        "onClean": function onClean() {
-	            var me = this;
-	            me.startDayObj = null;
-	            me.endDayObj = null;
-	            me.startDay = "";
-	            me.endDay = "";
-	            me.selectedDatesObj = [];
-	            me.selectedDates = [];
-	        },
-	        "onToday": function onToday() {
-	            var me = this;
-	            me.startDayObj = new Date();
-	            me.endDayObj = new Date();
+	            if (me.multiple == "true") {
+	                var dates = _.cloneDeep(me.selectedDates);
+	                if (!_.isArray(me.selectedDates)) {
+	                    dates = [];
+	                }
+	                var dateIndex = -1;
+	                _.forEach(dates, function (date, index) {
+	                    if (_index2.default.MSDate.isSameDay(me.dayItem, date)) {
+	                        dateIndex = index;
+	                    }
+	                });
+	                if (dateIndex > -1) {
+	                    dates.splice(dateIndex, 1);
+	                } else {
+	                    dates.push(me.dayItem);
+	                }
+	                me.selectedDates = dates;
+	            } else {
+	                var _dates = [];
+	                _dates.push(me.dayItem);
+	                me.selectedDates = _dates;
+	            }
+	            if (typeof me.dayItemClick == 'function') {
+	                me.dayItemClick();
+	            }
 	        }
 	    },
-	    components: {
-	        datepickerRangeSingle: _datepickerRangeSingle2.default
-	    }
+	    components: {}
 	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(36)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
 
 /***/ },
-/* 335 */
+/* 347 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-range-single-field\" @click.stop=\"\" _v-0c39fd75=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-0c39fd75=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-0c39fd75=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :date-format=\"dateFormat\" _v-0c39fd75=\"\">\n            </datepicker-range-single>\n            <div _v-0c39fd75=\"\">\n                <span _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-0c39fd75=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-0c39fd75=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-0c39fd75=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-0c39fd75=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-0c39fd75=\"\">\n        <div class=\"input-group-addon\" _v-0c39fd75=\"\">\n            <span class=\"glyphicon glyphicon-calendar ms-calendar\" @click=\"showCalendar($event)\" _v-0c39fd75=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-5ecc885c=\"\">\n    <span _v-5ecc885c=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
-/* 336 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/24
-	 * Time: 19:11
-	 */
-	'use strict';
-	
-	module.exports = {
-	  MSDate: __webpack_require__(337)
-	};
-
-/***/ },
-/* 337 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/24
-	 * Time: 19:08
-	 */
-	'use strict';
-	
-	var _typeof2 = __webpack_require__(165);
-	
-	var _typeof3 = _interopRequireDefault(_typeof2);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function MSDate(date) {
-	    if (!(this instanceof MSDate)) {
-	        return new MSDate(date);
-	    }
-	}
-	MSDate.dateAdapter = function (date) {
-	    if ((typeof date === 'undefined' ? 'undefined' : (0, _typeof3.default)(date)) === 'object') {
-	        return date;
-	    } else {
-	        return String(date).replace(/-/g, '/');
-	    }
-	};
-	
-	module.exports = MSDate;
-
-/***/ },
-/* 338 */,
-/* 339 */
+/* 348 */
 /***/ function(module, exports) {
 
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/24
-	 * Time: 22:03
-	 */
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "todayText": {
-	            type: String,
-	            default: function _default() {
-	                return "今天";
-	            }
-	        },
-	        "cleanText": {
-	            type: String,
-	            default: function _default() {
-	                return "清空";
-	            }
-	        },
-	        "closeText": {
-	            type: String,
-	            default: function _default() {
-	                return "关闭";
-	            }
-	        }
-	    }
-	};
+	module.exports = "\n<div class=\"ms-datepicker-day-panel\" _v-6b026fd3=\"\">\n    <table _v-6b026fd3=\"\">\n        <thead _v-6b026fd3=\"\">\n            <tr _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-6b026fd3=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-6b026fd3=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-6b026fd3=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-6b026fd3=\"\">\n                <td _v-6b026fd3=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-6b026fd3=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-6b026fd3=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ }
 ]);
