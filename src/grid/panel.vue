@@ -187,7 +187,7 @@
             },
             "minHeight":function () {
                 let me = this;
-                if(me.height){
+                if(!me.height){
                     return {"minHeight":"100px"};
                 }else {
                     return {};
