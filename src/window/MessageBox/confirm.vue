@@ -15,7 +15,7 @@ Time: 11:17-->
                         <h4 class="modal-title" id="mySmallModalLabel">{{title}}</h4>
                     </div>
                     <div class="modal-body">
-                        {{message}}
+                        {{{message}}}
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-success" data-dismiss="modal" @click="sure()">{{sureText}}</button>
@@ -33,14 +33,19 @@ Time: 11:17-->
         name:"confirm",
         mixins:[MessageBoxMixin],
         props:{
-            title:{
-                type:String,
-                default:function () {
-                    return "确认";
-                }
-            },
             action:{
-                type:Function
+                type:Function,
+                twoWay:true,
+            }
+        },
+        watch:{
+            "isShow":function (newValue,oldValue) {
+                let me = this;
+                if(newValue === false){
+                    me.title = "";
+                    me.message = "";
+                    me.action = null;
+                }
             }
         },
         methods:{

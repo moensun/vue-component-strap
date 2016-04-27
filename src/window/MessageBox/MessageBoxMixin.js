@@ -16,6 +16,7 @@ export default{
         },
         title:{
             type:String,
+            twoWay:true,
             default:function () {
                 return "";
             }
@@ -29,6 +30,7 @@ export default{
         },
         message:{
             type:String,
+            twoWay:true,
             default:function () {
                 return "";
             }
