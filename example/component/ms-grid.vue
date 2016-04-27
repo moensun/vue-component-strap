@@ -202,6 +202,7 @@ Time: 22:15-->
                         items:[
                             {
                                 "cls":"glyphicon glyphicon-pencil",
+                                "tooltip":"编辑",
                                 handler:function (record) {
                                     alert(record);
                                 },

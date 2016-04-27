@@ -5,9 +5,16 @@ User: Bane.Shi
 Date: 16/4/9
 Time: 16:13-->
 <template>
-    <div role="button" class="ms-grid-action-item"
-         :class="[cls,{'ms-grid-action-item-disabled':actionDisabled}]"
-         @click="handler()">
+    <div class="ms-grid-action-item">
+        <div role="button"
+             :class="[cls,{'ms-grid-action-item-disabled':actionDisabled}]"
+             @click="handler()" @mouseover="showTooltip($event)" @mouseout="hideTooltip()">
+        </div>
+        <div class="ms-grid-action-item-tooltip-box" v-if="tooltipShowCompute">
+            <div class="ms-grid-action-item-tooltip" :style="[tooltipPosition]">
+                    {{item.tooltip}}
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -33,7 +40,8 @@ Time: 16:13-->
         },
         data(){
             return{
-
+                "tooltipShow":false,
+                "tooltipPosition":{}
             }
         },
         ready(){
@@ -54,6 +62,12 @@ Time: 16:13-->
                 }
                 return cls;
             },
+            "tooltipShowCompute":function () {
+                let me = this;
+                if(me.item.tooltip && me.tooltipShow==true){
+                    return true;
+                }
+            },
             "actionDisabled":function () {
                 let me = this;
                 if(typeof me.item.isDisabled === 'function'){
@@ -67,6 +81,15 @@ Time: 16:13-->
                 if(me.item.handler && (typeof me.item.handler == "function") ){
                     me.item.handler(me.record);
                 }
+            },
+            "showTooltip":function (e) {
+                let me = this;
+                me.tooltipPosition = {"top":(e.y+15)+"px","left":(e.x+25)+"px"};
+                me.tooltipShow = true;
+            },
+            "hideTooltip":function () {
+                let me = this;
+                me.tooltipShow = false;
             }
         },
         components:{
@@ -76,12 +99,26 @@ Time: 16:13-->
 </script>
 <style lang="less" scoped>
     .ms-grid-action-item{
+        display: inline-block;
         margin: 3px;
         cursor: pointer;
+        .ms-grid-action-item-tooltip-box{
+            position: relative;
+            .ms-grid-action-item-tooltip{
+                position:fixed;
+                border: 1px rgba(0, 0, 0, 0.3) solid;
+                border-radius: 4px;
+                padding: 5px;
+                background: #868686;
+                z-index: 1;
+                color: white;
+            }
+        }
+        .ms-grid-action-item-disabled{
+            opacity: 0.3;
+            cursor: default;
+            pointer-events: none;
+        }
     }
-    .ms-grid-action-item-disabled{
-        opacity: 0.3;
-        cursor: default;
-        pointer-events: none;
-    }
+
 </style>
