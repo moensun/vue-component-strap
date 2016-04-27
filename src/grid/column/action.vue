@@ -11,7 +11,6 @@ Time: 16:05-->
                          :item="item"
                          :store="store"
                          :record="record">
-
             </action-item>
         </div>
     </td>

@@ -17,7 +17,8 @@ Time: 14:32-->
     <div>
         <ms-date-range-field :selected-dates.sync="selectedDates"
                              :start-day.sync="startDay"
-                             :end-day.sync="endDay">
+                             :end-day.sync="endDay"
+                             :is-disabled="isDisabled">
         </ms-date-range-field>
     </div>
     <div>
@@ -78,7 +79,12 @@ Time: 14:32-->
             return {
                 "startDay":"2016-4-6",
                 "endDay":"2016-4-10",
-                "selectedDates":[]
+                "selectedDates":[],
+                "isDisabled":function (day) {
+                    if(day.getDay() == 3){
+                        return true;
+                    }
+                }
             }
         },
         components:{

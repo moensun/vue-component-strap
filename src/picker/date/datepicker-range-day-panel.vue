@@ -25,6 +25,9 @@ Time: 13:52-->
                         </button>
                     </th>
                 </tr>
+                <tr class="ms-weekday-line">
+                    <th v-for="(weekDayIndex,weekDay) in weekDays">{{weekDay}}</th>
+                </tr>
             </thead>
             <tbody>
                 <tr v-for="(dayRowIndex,dayRow) in dayArr">
@@ -33,7 +36,8 @@ Time: 13:52-->
                                               :current-month.sync="currentMonth"
                                               :start-day.sync="startDay"
                                               :end-day.sync="endDay"
-                                              :selected-dates.sync="selectedDates">
+                                              :selected-dates.sync="selectedDates"
+                                              :is-disabled="isDisabled">
                         </datepicker-range-day>
                     </td>
                 </tr>
@@ -130,7 +134,6 @@ Time: 13:52-->
         methods:{
             "setSelectedDates":function () {
                 let me = this;
-                debugger;
                 if(typeof me.startDay != 'object'){
                     me.startDay = new Date(me.startDay);
                 }
@@ -143,7 +146,13 @@ Time: 13:52-->
                     let endDay = new Date(me.endDay.getFullYear(),me.endDay.getMonth(),me.endDay.getDate());
                     while (true){
                         if(startDay <= endDay ){
-                            dates.push(_.cloneDeep(startDay));
+                            if(typeof me.isDisabled == 'function'){
+                                if(!me.isDisabled(startDay)){
+                                    dates.push(_.cloneDeep(startDay));
+                                }
+                            }else {
+                                dates.push(_.cloneDeep(startDay));
+                            }
                             startDay.setDate(startDay.getDate()+1);
                         }else {
                             break;
@@ -180,6 +189,11 @@ Time: 13:52-->
     display: inline-block;
     button{
         width: 100%;
+    }
+    .ms-weekday-line{
+        th{
+            text-align: center;
+        }
     }
 }
 </style>

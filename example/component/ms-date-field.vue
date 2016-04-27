@@ -6,17 +6,17 @@ Date: 16/4/22
 Time: 12:42-->
 <template>
 <div>
-
+    <div>{{value1}}</div>
     <div>
-        <ms-date-field></ms-date-field>
+        <ms-date-field :value.sync="value1"></ms-date-field>
     </div>
     <div>
-        <code>
-
-        </code>
+        <div style="max-height: 100px;overflow-y: auto">
+            <div v-for="(dateIndex,date) in value2">{{date}}</div>
+        </div>
     </div>
     <div>
-        <ms-date-field multiple="true"></ms-date-field>
+        <ms-date-field multiple="true" :value.sync="value2"></ms-date-field>
     </div>
 </div>
 </template>
@@ -24,6 +24,12 @@ Time: 12:42-->
 
     import {msDateField} from "../../src/index";
     export default{
+        data(){
+            return {
+                "value1":"",
+                "value2":[]
+            }
+        },
         components:{
 
             msDateField
