@@ -41,7 +41,7 @@ let config = {
                 },
             },
             {test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader") },
-            {test: /\.(png|jpg)$/,loader: "url?limit=2500" },
+            {test: /\.(png|jpg|gif)$/,loader: "url?limit=2500" },
             {test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff"},
             {test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff2"},
             {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream"},

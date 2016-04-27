@@ -16,9 +16,10 @@
             </table>
         </div>
         <div v-el:grid-header-line class="grid-header-line"></div>
-        <div v-el:grid-body class="grid-body table-responsive" :style="[bodyHeight]">
-            <table class="table table-striped" :class="{'table-bordered':showRowLines}">
-                <tbody>
+        <div class="grid-body-box">
+            <div v-el:grid-body class="grid-body table-responsive" :style="[bodyHeight,minHeight]">
+                <table class="table table-striped" :class="{'table-bordered':showRowLines}">
+                    <tbody>
                     <tr v-for="(rowIndex,record) in store">
                         <td v-for="(colIndex,column) in columns"
                             :is="(column.type?column.type:'text-column' )"
@@ -29,9 +30,11 @@
                             :setting="column"
                         ></td>
                     </tr>
-                </tbody>
-            </table>
-            <div v-if="isEmpty">{{{emptyText}}}</div>
+                    </tbody>
+                </table>
+                <div v-if="isEmpty">{{{emptyText}}}</div>
+            </div>
+            <div class="ms-grid-loading" v-if="isLoading"></div>
         </div>
         <div v-el:grid-footer class="grid-footer">
             <component v-if="paging" :is="(paging.theme?paging.theme:'paging')"
@@ -62,6 +65,13 @@
             },
             "emptyText":{
                 type:String
+            },
+            "isLoading":{
+                type:Boolean,
+                twoWay:true,
+                default:function () {
+                    return false;
+                }
             },
             "rowLines":{
                 type:String,
@@ -174,6 +184,14 @@
             "isEmpty":function () {
                 let me = this;
                 return (!me.store  || me.store.length == 0 );
+            },
+            "minHeight":function () {
+                let me = this;
+                if(me.height){
+                    return {"minHeight":"100px"};
+                }else {
+                    return {};
+                }
             }
         },
         methods:{
@@ -239,12 +257,25 @@
         .grid-header-line{
             border-bottom: 2px solid #ddd;
         }
-        .grid-body{
-            overflow-y: auto;
-            .table{
-                margin-bottom: 0px;
+        .grid-body-box{
+            position: relative;
+            .ms-grid-loading{
+                position: absolute;
+                background: rgba(0, 0, 0, 0.3) url("../images/loading-64.gif") no-repeat center;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+            }
+            .grid-body{
+                position: relative;
+                overflow-y: auto;
+                .table{
+                    margin-bottom: 0px;
+                }
             }
         }
+
         .grid-footer{
 
         }

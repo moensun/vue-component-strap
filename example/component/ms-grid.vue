@@ -9,6 +9,8 @@ Time: 22:15-->
         <button class="btn btn-default btn-sm" @click="setHeight()">设置表格高度</button>
         <button class="btn btn-default btn-sm" @click="cancelHeight()">取消表格高度</button>
         <button class="btn btn-default btn-sm" @click="showPaging()">显示分页</button>
+        <button class="btn btn-default btn-sm" @click="showLoading()">显示加载</button>
+        <button class="btn btn-default btn-sm" @click="hideLoading()">隐藏加载</button>
     </div>
     <div>
         <div>
@@ -16,7 +18,8 @@ Time: 22:15-->
                            :columns="columns"
                            :height="height"
                            row-lines="true"
-                           :paging="paging"></ms-grid-panel>
+                           :paging="paging"
+                           :is-loading="isLoading"></ms-grid-panel>
         </div>
     </div>
     <hr>
@@ -216,7 +219,8 @@ Time: 22:15-->
                     }
                 ],
                 "height":200,
-                "paging":null
+                "paging":null,
+                "isLoading":false
             }
         },
         methods:{
@@ -228,6 +232,12 @@ Time: 22:15-->
             },
             "showPaging":function () {
                 this.paging = {}
+            },
+            "showLoading":function () {
+                this.isLoading = true;
+            },
+            "hideLoading":function () {
+                this.isLoading = false;
             }
         },
         components:{
