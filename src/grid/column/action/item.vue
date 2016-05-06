@@ -32,8 +32,7 @@ Time: 16:13-->
                     return {
                         "cls":null,
                         "text":null,
-                        "tooltip":null,
-                        "showTooltip":false
+                        "tooltip":null
                     };
                 }
             },
@@ -99,8 +98,10 @@ Time: 16:13-->
             },
             "showTooltip":function (e) {
                 let me = this;
-                me.tooltipPosition = {"top":(e.y+15)+"px","left":(e.x+25)+"px"};
-                me.tooltipShow = true;
+                if(me.item.tooltip){
+                    me.tooltipPosition = {"top":(e.y+15)+"px","left":(e.x+25)+"px"};
+                    me.tooltipShow = true;
+                }
             },
             "hideTooltip":function () {
                 let me = this;
