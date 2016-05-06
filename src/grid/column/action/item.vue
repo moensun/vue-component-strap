@@ -5,10 +5,11 @@ User: Bane.Shi
 Date: 16/4/9
 Time: 16:13-->
 <template>
-    <div class="ms-grid-action-item">
+    <div v-if="!hidden" class="ms-grid-action-item">
         <div role="button"
              :class="[cls,{'ms-grid-action-item-disabled':actionDisabled}]"
              @click="handler()" @mouseover="showTooltip($event)" @mouseout="hideTooltip()">
+            {{item.text}}
         </div>
         <div class="ms-grid-action-item-tooltip-box" v-if="tooltipShowCompute">
             <div class="ms-grid-action-item-tooltip" :style="[tooltipPosition]">
@@ -22,16 +23,22 @@ Time: 16:13-->
     import _ from "lodash";
     export default{
         props:{
-            "store":{},
+            "store":{
+                twoWay:true,
+            },
             "item":{
                 type:Object,
                 default:function () {
                     return {
-                        "cls":null
+                        "cls":null,
+                        "text":null,
+                        "tooltip":null,
+                        "showTooltip":false
                     };
                 }
             },
             "record":{
+                twoWay:true,
                 type:Object
             },
             "class":{
@@ -72,6 +79,14 @@ Time: 16:13-->
                 let me = this;
                 if(typeof me.item.isDisabled === 'function'){
                     return me.item.isDisabled(me.record,me.store);
+                }
+            },
+            "hidden":function () {
+                let me = this;
+                if(typeof me.item.hidden === 'function'){
+                    return me.item.hidden(me.record,me.store);
+                }else {
+                    return false;
                 }
             }
         },

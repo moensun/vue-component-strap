@@ -9,8 +9,8 @@ Time: 16:05-->
         <div>
             <action-item v-for="(index,item) in setting.items"
                          :item="item"
-                         :store="store"
-                         :record="record">
+                         :store.sync="store"
+                         :record.sync="record">
             </action-item>
         </div>
     </td>

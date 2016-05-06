@@ -23,8 +23,8 @@
                     <tr v-for="(rowIndex,record) in store">
                         <td v-for="(colIndex,column) in columns"
                             :is="(column.type?column.type:'text-column' )"
-                            :store="store"
-                            :record="record"
+                            :store.sync="store"
+                            :record.sync="record"
                             :flex-count="flexCount"
                             :surplus-width="surplusWidth"
                             :setting="column"

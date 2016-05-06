@@ -214,6 +214,15 @@ Time: 22:15-->
                                         return true;
                                     }
                                 }
+                            },
+                            {
+                                "cls":"btn btn-link btn-sm",
+                                "text":"测试",
+                                "hidden":function (record) {
+                                    if(record.id==5){
+                                        return true;
+                                    }
+                                }
                             }
                         ]
                     }

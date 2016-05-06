@@ -9,9 +9,11 @@
 export default{
     props:{
         "store":{
+            twoWay:true,
             type:Array
         },
         "record":{
+            twoWay:true,
             type:Object
         },
     },
