@@ -248,6 +248,7 @@
                 thead{
                     tr{
                         th{
+                            min-height: 47px;
                             border-bottom: 0px;
                         }
                     }
