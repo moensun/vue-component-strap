@@ -19,7 +19,7 @@ Time: 22:15-->
                            :height="height"
                            row-lines="true"
                            :paging="paging"
-                           :is-loading="isLoading"></ms-grid-panel>
+                           :is-loading.sync="isLoading"></ms-grid-panel>
         </div>
     </div>
     <hr>
@@ -196,6 +196,24 @@ Time: 22:15-->
                         text:'名称',
                         dataIndex:'name',
                         flex:2
+                    },
+                    {
+                        type:'link-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        flex:2,
+                        href:function (val,record,index) {
+                            return "http://www.baidu.com";
+                        }
+                    },
+                    {
+                        type:'link-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        flex:2,
+                        link:function (val,record,index) {
+                            return {"name":'main'};
+                        }
                     },
                     {
                         type:'action-column',

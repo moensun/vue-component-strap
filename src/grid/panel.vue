@@ -53,6 +53,7 @@
     import gridHeader from "./header/header.vue";
     import paging from "../toolbar/paging.vue";
     import textColumn from "./column/text.vue";
+    import linkColumn from "./column/link.vue";
     import actionColumn from "./column/action.vue";
     export default{
         name:'gridPanel',
@@ -230,6 +231,7 @@
             gridHeader,
             paging,
             textColumn,
+            linkColumn,
             actionColumn
         }
     }
@@ -273,6 +275,7 @@
                 overflow-y: auto;
                 .table{
                     margin-bottom: 0px;
+                    tr{min-height: 47px;}
                 }
             }
         }

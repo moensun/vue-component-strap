@@ -8,6 +8,7 @@
 'use strict';
 module.exports = {
     'main':{
+        name:'main',
         component:require("../component/main.vue")
     },
     "ms-alert":{
