@@ -11,6 +11,10 @@ module.exports = {
         name:'main',
         component:require("../component/main.vue")
     },
+    "ms-modal":{
+        name:"ms-modal",
+        component:require("../component/ms-modal.vue")
+    },
     "ms-alert":{
         name:"ms-alert",
         component:require("../component/ms-alert.vue")

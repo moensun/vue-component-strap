@@ -14,6 +14,9 @@ Time: 12:11-->
                 <div class="col-md-4">
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <a v-link="{name:'ms-modal'}">ms-modal</a>
+                        </li>
+                        <li class="list-group-item">
                             <a v-link="{name:'ms-alert'}">ms-alert</a>
                         </li>
                         <li class="list-group-item">

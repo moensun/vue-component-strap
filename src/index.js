@@ -25,6 +25,7 @@ import msGridPanel from "./grid/panel.vue";
 
 import msAlert from "./window/MessageBox/alert.vue";
 import msConfirm from "./window/MessageBox/confirm.vue";
+import msModal from "./window/modal.vue";
 
 //import "./export";
 
@@ -42,6 +43,7 @@ module.exports = {
 	msTreePanel,
 	msGridPanel,
 	msAlert,
-	msConfirm
+	msConfirm,
+	msModal
 }
 
