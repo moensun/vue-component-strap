@@ -37,6 +37,9 @@ Time: 12:11-->
                         <li class="list-group-item">
                             <a v-link="{name:'ms-grid-panel'}">ms-grid-panel</a>
                         </li>
+                        <li class="list-group-item">
+                            <a v-link="{name:'ms-video'}">ms-video</a>
+                        </li>
                     </ul>
                 </div>
             </div>

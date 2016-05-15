@@ -43,6 +43,10 @@ module.exports = {
         name:'ms-grid-panel',
         component:require("../component/ms-grid.vue")
     },
+    "ms-video":{
+        name:'ms-video',
+        component:require("../component/ms-video.vue")
+    },
     '*':{
         component:require("../component/main.vue")
     }
