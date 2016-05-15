@@ -27,6 +27,7 @@ import msAlert from "./window/MessageBox/alert.vue";
 import msConfirm from "./window/MessageBox/confirm.vue";
 import msModal from "./window/modal.vue";
 
+import msVideo from "./player/video.vue";
 //import "./export";
 
 module.exports = {
@@ -44,6 +45,7 @@ module.exports = {
 	msGridPanel,
 	msAlert,
 	msConfirm,
-	msModal
+	msModal,
+	msVideo
 }
 

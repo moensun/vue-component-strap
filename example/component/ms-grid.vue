@@ -17,7 +17,7 @@ Time: 22:15-->
             <ms-grid-panel :store="store"
                            :columns="columns"
                            :height="height"
-                           row-lines="true"
+                           :row-lines=true
                            :paging="paging"
                            :is-loading.sync="isLoading"></ms-grid-panel>
         </div>

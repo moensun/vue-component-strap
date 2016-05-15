@@ -43,9 +43,9 @@ Time: 13:19-->
                 }
             },
             "multiple":{
-                type:String,
+                type:Boolean,
                 default:function () {
-                    return "false";
+                    return false;
                 }
             },
             "dayItemClick":{

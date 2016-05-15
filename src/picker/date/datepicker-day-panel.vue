@@ -69,9 +69,9 @@ Time: 12:04-->
                 twoWay:true
             },
             "multiple":{
-                type:String,
+                type:Boolean,
                 default:function () {
-                    return "false";
+                    return false;
                 }
             },
             "dayItemClick":{

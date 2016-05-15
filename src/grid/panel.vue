@@ -75,9 +75,9 @@
                 }
             },
             "rowLines":{
-                type:String,
+                type:Boolean,
                 default:function () {
-                    return "false";
+                    return false;
                 }
             },
             "store":{
@@ -143,7 +143,7 @@
         computed:{
             "showRowLines":function () {
                 let me = this;
-                if(me.rowLines == "true"){
+                if(me.rowLines){
                     return true;
                 }
             },

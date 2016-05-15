@@ -12,11 +12,11 @@ Time: 12:42-->
     </div>
     <div>
         <div style="max-height: 100px;overflow-y: auto">
-            <div v-for="(dateIndex,date) in value2">{{date}}</div>
+            <div v-for="(dateIndex,date) in value2" track-by="$index">{{date}}</div>
         </div>
     </div>
     <div>
-        <ms-date-field multiple="true" :value.sync="value2"></ms-date-field>
+        <ms-date-field :multiple=true :value.sync="value2"></ms-date-field>
     </div>
 </div>
 </template>

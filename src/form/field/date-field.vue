@@ -58,9 +58,9 @@ Time: 15:54-->
                 }
             },
             "multiple":{
-                type:String,
+                type:Boolean,
                 default:function () {
-                    return "false";
+                    return false;
                 }
             },
             "value":{
@@ -98,7 +98,7 @@ Time: 15:54-->
                 handler:function (newValue,oldValue) {
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
-                        if(me.multiple == "true" && _.isArray(newValue)){
+                        if(me.multiple && _.isArray(newValue)){
                             me.selectedDates = MSUtil.MSDate.stringArrayToDateArray(newValue);
                         }else {
                             let dates  = [];
@@ -112,8 +112,8 @@ Time: 15:54-->
             "selectedDates":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
-                        if(me.multiple == "true"){
+                    if(newValue && JSON.stringify(newValue) != JSON.stringify(oldValue)){
+                        if(me.multiple){
                             me.value = MSUtil.MSDate.dateArrayToStringArray(newValue,me.dateFormat);
                         }else{
                             if(newValue[0]){

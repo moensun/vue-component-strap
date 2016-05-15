@@ -40,9 +40,9 @@ Time: 12:00-->
                 }
             },
             "multiple":{
-                type:String,
+                type:Boolean,
                 default:function () {
-                    return "false";
+                    return false;
                 }
             },
             "dayItemClick":{
@@ -55,7 +55,7 @@ Time: 12:00-->
             },
             "isSelected":function () {
                 let me = this;
-                if(me.multiple == "true" && _.isArray(me.selectedDates)){
+                if(me.multiple && _.isArray(me.selectedDates)){
                     let result = false;
                     _.forEach(me.selectedDates,function (selectedDate) {
                         if(selectedDate.getFullYear()== me.dayItem.getFullYear()
@@ -103,7 +103,7 @@ Time: 12:00-->
                 if(! MSUtil.MSDate.isSameMonth(me.currentDate,me.dayItem)){
                     me.currentDate = me.dayItem;
                 }
-                if(me.multiple == "true"){
+                if(me.multiple){
                     let dates = _.cloneDeep(me.selectedDates);
                     if(!_.isArray(me.selectedDates)){
                         dates = [];
