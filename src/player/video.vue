@@ -17,9 +17,9 @@ Time: 17:47-->
     </div>
 </template>
 <script>
-    import "video.js/dist/video-js.min.css";
-    import "video.js/dist/ie8/videojs-ie8.min";
-    import "video.js/dist/video.min";
+    import "video.js/dist/video-js.css";
+    import "video.js/dist/ie8/videojs-ie8";
+    import "video.js";
     export default{
         props:{
             "preload":{

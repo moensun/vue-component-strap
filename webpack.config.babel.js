@@ -65,7 +65,7 @@ let config = {
         new webpack.ProvidePlugin({
             _ : 'lodash',
             $ : 'jquery',
-            jQuery : 'jquery',
+            jQuery : 'jquery'
         }),
         new ExtractTextPlugin('[name].bundle.css'),
         new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
