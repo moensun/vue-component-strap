@@ -6,7 +6,7 @@ Date: 16/5/15
 Time: 17:47-->
 <template>
     <div class="ms-video" :style="[sizeStyle]">
-        <video id="my-video" class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
+        <video class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
                :poster="poster" data-setup="{}">
             <source :src="src" :type="type">
             <p class="vjs-no-js">
