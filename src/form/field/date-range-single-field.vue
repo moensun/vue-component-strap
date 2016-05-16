@@ -27,8 +27,8 @@ Time: 17:08-->
         </div>
         <div class="input-group">
             <input v-el:date-field type="text" class="form-control" v-model="dateRange" placeholder="{{placeholder}}">
-            <div class="input-group-addon">
-                <span class="glyphicon glyphicon-calendar ms-calendar" @click="showCalendar($event)"></span>
+            <div class="input-group-addon ms-calendar" @click="showCalendar($event)">
+                <span class="glyphicon glyphicon-calendar" ></span>
             </div>
         </div>
     </div>

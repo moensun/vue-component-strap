@@ -39,6 +39,10 @@ module.exports = {
         name:'ms-date-range-single-field',
         component:require("../component/ms-date-range-single-field.vue")
     },
+    "ms-time":{
+        name:'ms-time',
+        component:require("../component/ms-time.vue")
+    },
     "ms-grid-panel":{
         name:'ms-grid-panel',
         component:require("../component/ms-grid.vue")

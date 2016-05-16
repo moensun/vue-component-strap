@@ -30,6 +30,17 @@ Time: 14:26-->
                         </div>
                     </div>
                 </div>
+                <div class="ms-datepicker-table" style="width: 100%" v-if="withTime">
+                    <div class="ms-datepicker-tr">
+                        <div class="ms-datepicker-td">
+                            <datepicker-time-panel :title="startTimeText" :date.sync="startDayObj"></datepicker-time-panel>
+                        </div>
+                        <div class="ms-datepicker-td">
+                            <datepicker-time-panel :title="endTimeText" :date.sync="endDayObj"></datepicker-time-panel>
+                        </div>
+
+                    </div>
+                </div>
                 <div>
                         <span>
                             <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
@@ -43,8 +54,8 @@ Time: 14:26-->
         </div>
         <div class="input-group">
             <input v-el:date-field type="text" class="form-control" v-model="dateRange" placeholder="{{placeholder}}">
-            <div class="input-group-addon">
-                <span class="glyphicon glyphicon-calendar ms-calendar" @click="showCalendar($event)"></span>
+            <div class="input-group-addon ms-calendar" @click="showCalendar($event)">
+                <span class="glyphicon glyphicon-calendar" ></span>
             </div>
         </div>
     </div>
@@ -52,20 +63,37 @@ Time: 14:26-->
 <script>
     import Vue from "vue";
     import moment from "moment";
+    import MSUtil from "../../util/date";
     import dateFieldMixin from "./mixin/dateFieldMixin";
     import datepickerRange from "../../picker/date/datepicker-range.vue";
+    import datepickerTimePanel from "../../picker/date/datepicker-time-panel.vue";
     export default{
         name:'dateRangeField',
         mixins:[dateFieldMixin],
         replace:false,
         props:{
-            "startDay":{
+            "startDate":{
                 type:String,
                 twoWay:true
             },
-            "endDay":{
+            "endDate":{
                 type:String,
                 twoWay:true
+            },
+            "startTimeText":{
+                type:String,
+                default:function () {
+                    return "开始:";
+                }
+            },
+            "startTime":{
+                "hour":null
+            },
+            "endTimeText":{
+                type:String,
+                default:function () {
+                    return "结束:";
+                }
             },
             "selectedDates":{
                 type:Array,
@@ -77,9 +105,21 @@ Time: 14:26-->
             "dateFormat":{
                 type:String,
                 default:function () {
+                    return "YYYY-MM-DD HH:mm:ss";
+                }
+            },
+            "dateItemsFormat":{
+                type:String,
+                default:function () {
                     return "YYYY-MM-DD";
                 }
             },
+            "withTime":{
+                type:Boolean,
+                default:function () {
+                    return false;
+                }
+            }
         },
         data(){
             return {
@@ -116,15 +156,15 @@ Time: 14:26-->
             },
             "dateRange":function(){
                 let me = this;
-                if(me.startDay && me.endDay){
-                    return me.startDay+"~"+me.endDay;
+                if(me.startDate && me.endDate){
+                    return me.startDate+"~"+me.endDate;
                 }else {
                     return "";
                 }
             }
         },
         watch:{
-            "startDay":{
+            "startDate":{
                 handler:function (newValue,oldValue) {
                     let me = this;
                     if(newValue && newValue!=oldValue){
@@ -134,9 +174,9 @@ Time: 14:26-->
                        // me.startDayObj = new Date();
                     }
                 },
-                //immediate:true
+                immediate:true
             },
-            "endDay":{
+            "endDate":{
                 handler:function (newValue,oldValue) {
                     let me = this;
                     if(newValue && newValue!=oldValue){
@@ -146,22 +186,23 @@ Time: 14:26-->
                        // me.endDayObj = new Date();
                     }
                 },
-                //immediate:true
+                immediate:true
             },
             "startDayObj":{
                 handler:function (newValue,oldValue) {
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
-                        me.startDay = moment(newValue).format(me.dateFormat);
+                        me.startDate = moment(newValue).format(me.dateFormat);
                     }
                 },
+                deep: true
                 //immediate:true
             },
             "endDayObj":{
                 handler:function (newValue,oldValue) {
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
-                        me.endDay = moment(newValue).format(me.dateFormat);
+                        me.endDate = moment(newValue).format(me.dateFormat);
                     }
                 },
                 //immediate:true
@@ -173,7 +214,7 @@ Time: 14:26-->
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
                         _.forEach(newValue,function (date) {
-                            dates.push(moment(date).format(me.dateFormat));
+                            dates.push(moment(date).format(me.dateItemsFormat));
                         });
                         me.selectedDates = dates;
                     }
@@ -250,7 +291,8 @@ Time: 14:26-->
             }
         },
         components:{
-            datepickerRange
+            datepickerRange,
+            datepickerTimePanel
         }
     }
 </script>
