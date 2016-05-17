@@ -49,9 +49,13 @@ Time: 15:45-->
         mixins:[datepickerMixin],
         props:{
             "currentYear":{
-                twoWay:true
+                twoWay:true,
+                default:function () {
+                    return (new Date()).getFullYear();
+                }
             },
             "viewType":{
+                type:String,
                 twoWay:true
             }
         },

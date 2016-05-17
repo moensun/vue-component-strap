@@ -89,6 +89,7 @@ Time: 15:54-->
             $(document).on('click'+me.eventNamespace,function (e) {
                 let el = me.$el;
                 if(!el.contains(e.target)){
+                   debugger;
                     me.calendarShow = false;
                 }
             });
@@ -155,7 +156,7 @@ Time: 15:54-->
             },
             "dayItemClick":function () {
                 let me = this;
-                if(!(me.multiple=="true")){
+                if(!(me.multiple)){
                     me.calendarShow = false;
                 }
 
@@ -166,7 +167,7 @@ Time: 15:54-->
             },
             "onClean":function () {
                 let me = this;
-                if(me.multiple === "true"){
+                if(me.multiple){
                     me.value = [];
                 }else {
                     me.value = "";

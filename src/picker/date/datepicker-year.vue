@@ -15,8 +15,11 @@ Time: 15:44-->
     export default{
         name:'datepickerYear',
         props:{
-            "yearItem":{},
+            "yearItem":{
+                type:Number
+            },
             "viewType":{
+                type:String,
                 twoWay:true,
             },
             "currentYear":{

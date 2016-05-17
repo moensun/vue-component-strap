@@ -6,7 +6,7 @@ Date: 16/4/25
 Time: 13:19-->
 <template>
 <div class="ms-datepicker">
-    <div class="ms-day-panel" v-show="(viewType=='day')">
+    <div class="ms-day-panel" v-show="(viewType =='day')">
         <datepicker-day-panel :multiple="multiple"
                               :day-item-click="dayItemClick"
                               :current-month.sync="currentMonth"
@@ -16,13 +16,13 @@ Time: 13:19-->
                               :is-disabled="isDisabled">
         </datepicker-day-panel>
     </div>
-    <div class="ms-month-panel" v-show="(viewType=='month')">
+    <div class="ms-month-panel" v-show="(viewType == 'month')">
         <datepicker-month-panel :current-month.sync="currentMonth"
                                 :current-year.sync="currentYear"
                                 :view-type.sync="viewType">
         </datepicker-month-panel>
     </div>
-    <div class="ms-year-panel" v-show="(viewType=='year')">
+    <div class="ms-year-panel" v-show="(viewType == 'year')">
         <datepicker-year-panel :current-year.sync="currentYear"
                                :view-type.sync="viewType">
         </datepicker-year-panel>
