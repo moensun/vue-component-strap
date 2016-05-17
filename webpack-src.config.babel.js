@@ -31,7 +31,6 @@ let config = {
             {
                 test: /\.js$/,
                 exclude: function (path) {
-                    if(/moensun/.test(path)){return false}
                     if(/node_modules/.test(path)){return true}
                     return false;
                 },
