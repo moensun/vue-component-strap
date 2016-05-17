@@ -1,5 +1,6 @@
 /.idea
 /node_modules
-/dist
+/html
 /example
 /webpack.config.babel.js
+/webpack-src.config.babel.js
