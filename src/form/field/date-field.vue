@@ -175,8 +175,13 @@ Time: 15:54-->
             },
             "onToday":function () {
                 let me = this;
-                me.value = [];
-                me.value.push(new Date());
+                if(me.multiple){
+                    me.value = [];
+                    me.value.push(moment(new Date()).format(me.dateFormat));
+                }else {
+                    me.value = moment(new Date()).format(me.dateFormat);
+                }
+
             }
         },
         components:{
