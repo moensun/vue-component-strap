@@ -2,7 +2,7 @@
   "name": "moensun-vue-component-strap",
   "version": "1.0.4",
   "description": "vue-strap",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "webpack --watch --progress",
     "src":"webpack --config webpack-src.config.babel.js --watch --progress",
