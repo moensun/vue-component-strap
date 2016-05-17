@@ -76,6 +76,10 @@ Time: 12:04-->
             },
             "dayItemClick":{
                 type:Function
+            },
+            "viewType":{
+                type:String,
+                twoWay:true
             }
         },
         data(){
