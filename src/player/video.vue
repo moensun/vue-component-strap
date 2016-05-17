@@ -21,6 +21,7 @@ Time: 17:47-->
     import "video.js/dist/ie8/videojs-ie8";
     import "video.js";
     export default{
+        name:'msVideo',
         props:{
             "preload":{
                 type:String,

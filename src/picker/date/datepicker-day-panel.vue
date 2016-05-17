@@ -51,6 +51,7 @@ Time: 12:04-->
     import datepickerMixin from "./datepickerMixin";
     import datepickerDay from "./datepicker-day.vue";
     export default{
+        name:'datepickerDayPanel',
         mixins:[datepickerMixin],
         props:{
             "currentDate":{

@@ -21,7 +21,9 @@ let config = {
     output:{
         path: './dist',
         filename:'[name].js',
-        publicPath: ''
+        publicPath: '',
+        library: 'MoenSunComponentStrap',
+        libraryTarget: 'umd'
     },
     module:{
         loaders:[
@@ -45,8 +47,7 @@ let config = {
             {test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff2"},
             {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream"},
             {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file"},
-            {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml"},
-            {test: require.resolve('jquery'), loader: 'expose?$'},
+            {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml"}
         ]
     },
     plugins:[

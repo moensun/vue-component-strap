@@ -5,7 +5,6 @@
  * Date: 2016/3/31
  * Time: 22:02
  */
-'use strict';
 import "./css/style.css";
 import treeCombox from "./form/field/tree-combox.vue";
 import msDateField from "./form/field/date-field.vue";
@@ -30,9 +29,10 @@ import msConfirm from "./window/MessageBox/confirm.vue";
 import msModal from "./window/modal.vue";
 
 import msVideo from "./player/video.vue";
+
 //import "./export";
 
-module.exports = {
+const MoenSunStrap = {
 	msDatepicker,
 	msDatepickerRange,
 	msDatepickerRangeSingle,
@@ -52,3 +52,4 @@ module.exports = {
 	msVideo
 }
 
+module.exports = MoenSunStrap;

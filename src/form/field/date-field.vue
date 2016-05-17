@@ -89,7 +89,6 @@ Time: 15:54-->
             $(document).on('click'+me.eventNamespace,function (e) {
                 let el = me.$el;
                 if(!el.contains(e.target)){
-                   debugger;
                     me.calendarShow = false;
                 }
             });

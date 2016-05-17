@@ -34,6 +34,7 @@ Time: 13:19-->
     import datepickerMonthPanel from "./datepicker-month-panel.vue";
     import datepickerYearPanel from "./datepicker-year-panel.vue";
     export default{
+        name:'datepicker',
         props:{
             "selectedDates":{
                 type:Array,

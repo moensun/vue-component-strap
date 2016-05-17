@@ -10,7 +10,8 @@ Time: 16:18-->
 </div>
 </template>
 <script>
-    import {msVideo} from "../../src/index";
+    //import {msVideo} from "../../src/index";
+    import {msVideo} from "../../dist/main";
     export default{
         data(){
             return {
