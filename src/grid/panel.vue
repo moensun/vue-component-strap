@@ -34,7 +34,7 @@
                 </table>
                 <div v-if="isEmpty">{{{emptyText}}}</div>
             </div>
-            <div class="ms-grid-loading" v-if="isLoading"></div>
+            <div class="ms-grid-loading" v-if="isLoading" :style="[loadingBackground]"></div>
         </div>
         <div v-el:grid-footer class="grid-footer">
             <component v-if="paging" :is="(paging.theme?paging.theme:'paging')"
@@ -55,6 +55,7 @@
     import textColumn from "./column/text.vue";
     import linkColumn from "./column/link.vue";
     import actionColumn from "./column/action.vue";
+    import images from "../images/index";
     export default{
         name:'gridPanel',
         props:{
@@ -128,6 +129,9 @@
                 "clientWidth":0,
                 "bodyHeight":{},
                 "isBodyScrollShow":false,
+                "loadingBackground":{
+                    "background":"url("+images.loading64+") rgba(0, 0, 0, 0.3) no-repeat center"
+                }
             }
         },
         ready(){
@@ -264,7 +268,6 @@
             position: relative;
             .ms-grid-loading{
                 position: absolute;
-                background: rgba(0, 0, 0, 0.3) url("../images/loading-64.gif") no-repeat center;
                 top: 0px;
                 bottom: 0px;
                 left: 0px;
