@@ -5,9 +5,9 @@ User: Bane.Shi
 Date: 16/5/15
 Time: 17:47-->
 <template>
-    <div class="ms-video" :style="[sizeStyle]">
-        <video class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
-               :poster="poster" data-setup="{}">
+    <div  class="ms-video" :style="[sizeStyle]">
+        <video v-el:video-el class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
+               :poster="poster" :dataSetup="options" :src="src">
             <source :src="src" :type="type">
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -19,7 +19,7 @@ Time: 17:47-->
 <script>
     import "video.js/dist/video-js.css";
     import "video.js/dist/ie8/videojs-ie8";
-    import "video.js";
+    import videojs from "video.js";
     export default{
         name:'msVideo',
         props:{
@@ -40,6 +40,12 @@ Time: 17:47-->
             },
             "type":{
                 type:String
+            },
+            "options":{
+                type:Object,
+                default:function () {
+                    return {};
+                }
             },
             "width":{
                 type:Number
@@ -64,6 +70,12 @@ Time: 17:47-->
                 }
                 return style;
             }
+        },
+        ready(){
+            let me = this;
+            videojs(me.$els.videoEl, me.options, function() {
+                // This is functionally the same as the previous example.
+            });
         },
         components:{
         }

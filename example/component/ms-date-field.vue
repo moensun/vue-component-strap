@@ -22,8 +22,8 @@ Time: 12:42-->
 </template>
 <script>
 
-   // import {msDateField} from "../../src/index";
-    import {msDateField} from "../../dist/main";
+    import {msDateField} from "../../src/index";
+   // import {msDateField} from "../../dist/main";
     export default{
         data(){
             return {
