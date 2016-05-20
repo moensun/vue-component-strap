@@ -17,6 +17,7 @@ Time: 17:47-->
     </div>
 </template>
 <script>
+    import images from "../images/index";
     import "video.js/dist/video-js.css";
     import "video.js/dist/ie8/videojs-ie8";
     import videojs from "video.js";
@@ -32,7 +33,7 @@ Time: 17:47-->
             "poster":{
                 type:String,
                 default:function () {
-                    return "";
+                    return images.videoDefault;
                 }
             },
             "src":{
