@@ -31,10 +31,7 @@ Time: 17:47-->
                 }
             },
             "poster":{
-                type:String,
-                default:function () {
-                    return images.videoDefault;
-                }
+                type:String
             },
             "src":{
                 type:String

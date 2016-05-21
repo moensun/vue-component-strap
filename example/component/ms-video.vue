@@ -18,7 +18,8 @@ Time: 16:18-->
     export default{
         data(){
             return {
-                "poster":"http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/ueditor/php/upload/image/20160504/1462380286242516.jpg",
+                //"poster":"http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/ueditor/php/upload/image/20160504/1462380286242516.jpg",
+                "poster":null,
                 "src":"http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/ueditor/php/upload/video/20160515/1463292225470615.mp4"
             }
         },
