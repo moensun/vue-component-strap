@@ -28,10 +28,12 @@ Time: 16:18-->
         },
         methods:{
             "set":function () {
+                this.poster = "";
                 this.src = "http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/2494-%E8%94%A1%E7%90%B4-%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%9C%5B68mtv.com%5D.mp4";
             },
             "set2":function () {
-                this.src="http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/ueditor/php/upload/video/20160515/1463292225470615.mp4"
+                this.poster = "http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/ueditor/php/upload/image/20160504/1462380286242516.jpg",
+                        this.src="http://moensun.oss-cn-qingdao.aliyuncs.com/webtest/ueditor/php/upload/video/20160515/1463292225470615.mp4"
             }
         },
         components:{
