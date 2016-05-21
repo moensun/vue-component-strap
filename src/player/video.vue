@@ -72,11 +72,25 @@ Time: 17:47-->
                 return style;
             }
         },
+        watch:{
+            'src':{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    me.initialize();
+                }
+            }
+        },
         ready(){
             let me = this;
-            videojs(me.$els.videoEl, me.options, function() {
-                // This is functionally the same as the previous example.
-            });
+            me.initialize();
+        },
+        methods:{
+            "initialize":function () {
+                let me = this;
+                videojs(me.$els.videoEl, me.options, function() {
+                    // This is functionally the same as the previous example.
+                });
+            }
         },
         components:{
         }
