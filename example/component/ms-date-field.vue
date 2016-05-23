@@ -16,7 +16,7 @@ Time: 12:42-->
         </div>
     </div>
     <div>
-        <ms-date-field :multiple=true :value.sync="value2"></ms-date-field>
+        <ms-date-field :multiple=true :is-focus=true :value.sync="value2"></ms-date-field>
     </div>
 </div>
 </template>
