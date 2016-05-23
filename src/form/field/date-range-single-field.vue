@@ -26,7 +26,7 @@ Time: 17:08-->
             </div>
         </div>
         <div class="input-group">
-            <input v-el:date-field type="text" class="form-control" v-model="dateRange" placeholder="{{placeholder}}">
+            <input v-el:date-field type="text" class="form-control" v-model="dateRange" placeholder="{{placeholder}}" @click="showCalendarInput($event)">
             <div class="input-group-addon ms-calendar" @click="showCalendar($event)">
                 <span class="glyphicon glyphicon-calendar" ></span>
             </div>
@@ -67,6 +67,12 @@ Time: 17:08-->
             },
             "isDisabled":{
                 type:Function
+            },
+            "isFocus":{
+                type:Boolean,
+                default:function(){
+                    return false;
+                }
             }
         },
         data(){
@@ -172,6 +178,11 @@ Time: 17:08-->
                 }else {
                     Vue.util.addClass(me.$els.datePicker,"ms-picker-box-up");
                     Vue.util.removeClass(me.$els.datePicker,"ms-picker-box-down");
+                }
+            },
+            "showCalendarInput":function(e){
+                if(this.isFocus){
+                    this.showCalendar(e);
                 }
             },
             "onClose":function () {
