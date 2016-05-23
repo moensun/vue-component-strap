@@ -256,6 +256,7 @@
                         th{
                             min-height: 47px;
                             border-bottom: 0px;
+                            vertical-align: middle;
                         }
                     }
                 }
@@ -278,7 +279,12 @@
                 overflow-y: auto;
                 .table{
                     margin-bottom: 0px;
-                    tr{min-height: 47px;}
+                    tr{
+                        min-height: 47px;
+                        td{
+                            vertical-align: middle;
+                        }
+                    }
                 }
             }
         }
