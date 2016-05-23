@@ -17,7 +17,8 @@ Time: 14:32-->
     <div>
         <ms-date-range-field :selected-dates.sync="selectedDates"
                              :start-date.sync="startDate"
-                             :end-date.sync="endDate" :with-time=true
+                             :end-date.sync="endDate" :with-time=true 
+                             :is-focus=true
                              :is-disabled="isDisabled">
         </ms-date-range-field>
     </div>

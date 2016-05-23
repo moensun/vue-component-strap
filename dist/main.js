@@ -529,7 +529,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/tree-combox.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/tree-combox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -553,8 +553,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0d82582c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0d82582c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-ff192e44&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-ff192e44&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -572,7 +572,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-tree-combox .ms-combox-text[_v-0d82582c] {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly][_v-0d82582c] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon[_v-0d82582c] {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i[_v-0d82582c] {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list[_v-0d82582c] {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner[_v-0d82582c] {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n", "", {"version":3,"sources":["/./src/form/field/tree-combox.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,sCAAsC;EACtC,yCAAyC;CAC1C;AACD;EACE,kBAAkB;CACnB;AACD;EACE,kBAAkB;EAClB,iBAAiB;CAClB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;CACxB;AACD;EACE,kBAAkB;EAClB,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;EACnB,0BAA0B;CAC3B","file":"tree-combox.vue","sourcesContent":[".ms-tree-combox .ms-combox-text {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-tree-combox .ms-combox-text[_v-ff192e44] {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly][_v-ff192e44] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon[_v-ff192e44] {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i[_v-ff192e44] {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list[_v-ff192e44] {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner[_v-ff192e44] {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n", "", {"version":3,"sources":["/./src/form/field/tree-combox.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,sCAAsC;EACtC,yCAAyC;CAC1C;AACD;EACE,kBAAkB;CACnB;AACD;EACE,kBAAkB;EAClB,iBAAiB;CAClB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;CACxB;AACD;EACE,kBAAkB;EAClB,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;EACnB,0BAA0B;CAC3B","file":"tree-combox.vue","sourcesContent":[".ms-tree-combox .ms-combox-text {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -938,7 +938,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	 * jQuery JavaScript Library v2.2.3
+	 * jQuery JavaScript Library v2.2.4
 	 * http://jquery.com/
 	 *
 	 * Includes Sizzle.js
@@ -948,7 +948,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * Released under the MIT license
 	 * http://jquery.org/license
 	 *
-	 * Date: 2016-04-05T19:26Z
+	 * Date: 2016-05-20T17:23Z
 	 */
 	
 	(function( global, factory ) {
@@ -1004,7 +1004,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	var
-		version = "2.2.3",
+		version = "2.2.4",
 	
 		// Define a local copy of jQuery
 		jQuery = function( selector, context ) {
@@ -5945,13 +5945,14 @@ return /******/ (function(modules) { // webpackBootstrap
 		isDefaultPrevented: returnFalse,
 		isPropagationStopped: returnFalse,
 		isImmediatePropagationStopped: returnFalse,
+		isSimulated: false,
 	
 		preventDefault: function() {
 			var e = this.originalEvent;
 	
 			this.isDefaultPrevented = returnTrue;
 	
-			if ( e ) {
+			if ( e && !this.isSimulated ) {
 				e.preventDefault();
 			}
 		},
@@ -5960,7 +5961,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 			this.isPropagationStopped = returnTrue;
 	
-			if ( e ) {
+			if ( e && !this.isSimulated ) {
 				e.stopPropagation();
 			}
 		},
@@ -5969,7 +5970,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 			this.isImmediatePropagationStopped = returnTrue;
 	
-			if ( e ) {
+			if ( e && !this.isSimulated ) {
 				e.stopImmediatePropagation();
 			}
 	
@@ -6899,19 +6900,6 @@ return /******/ (function(modules) { // webpackBootstrap
 			val = name === "width" ? elem.offsetWidth : elem.offsetHeight,
 			styles = getStyles( elem ),
 			isBorderBox = jQuery.css( elem, "boxSizing", false, styles ) === "border-box";
-	
-		// Support: IE11 only
-		// In IE 11 fullscreen elements inside of an iframe have
-		// 100x too small dimensions (gh-1764).
-		if ( document.msFullscreenElement && window.top !== window ) {
-	
-			// Support: IE11 only
-			// Running getBoundingClientRect on a disconnected node
-			// in IE throws an error.
-			if ( elem.getClientRects().length ) {
-				val = Math.round( elem.getBoundingClientRect()[ name ] * 100 );
-			}
-		}
 	
 		// Some non-html elements return undefined for offsetWidth, so check for null/undefined
 		// svg - https://bugzilla.mozilla.org/show_bug.cgi?id=649285
@@ -8803,6 +8791,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		},
 	
 		// Piggyback on a donor event to simulate a different one
+		// Used only for `focus(in | out)` events
 		simulate: function( type, elem, event ) {
 			var e = jQuery.extend(
 				new jQuery.Event(),
@@ -8810,27 +8799,10 @@ return /******/ (function(modules) { // webpackBootstrap
 				{
 					type: type,
 					isSimulated: true
-	
-					// Previously, `originalEvent: {}` was set here, so stopPropagation call
-					// would not be triggered on donor event, since in our own
-					// jQuery.event.stopPropagation function we had a check for existence of
-					// originalEvent.stopPropagation method, so, consequently it would be a noop.
-					//
-					// But now, this "simulate" function is used only for events
-					// for which stopPropagation() is noop, so there is no need for that anymore.
-					//
-					// For the 1.x branch though, guard for "click" and "submit"
-					// events is still used, but was moved to jQuery.event.stopPropagation function
-					// because `originalEvent` should point to the original event for the constancy
-					// with other events and for more focused logic
 				}
 			);
 	
 			jQuery.event.trigger( e, null, elem );
-	
-			if ( e.isDefaultPrevented() ) {
-				event.preventDefault();
-			}
 		}
 	
 	} );
@@ -20938,7 +20910,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/tree-view.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/tree/tree-view.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -20962,8 +20934,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-706212d8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-706212d8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2ddc80f0&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2ddc80f0&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -20981,7 +20953,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-tree-view ul[_v-706212d8] {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li[_v-706212d8] {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li[_v-706212d8]:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active[_v-706212d8] {\n  background: rgba(136, 200, 255, 0.5);\n}\n", "", {"version":3,"sources":["/./src/tree/tree-view.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,qCAAqC;CACtC;AACD;EACE,qCAAqC;CACtC","file":"tree-view.vue","sourcesContent":[".ms-tree-view ul {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active {\n  background: rgba(136, 200, 255, 0.5);\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-tree-view ul[_v-2ddc80f0] {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li[_v-2ddc80f0] {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li[_v-2ddc80f0]:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active[_v-2ddc80f0] {\n  background: rgba(136, 200, 255, 0.5);\n}\n", "", {"version":3,"sources":["/./src/tree/tree-view.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,qCAAqC;CACtC;AACD;EACE,qCAAqC;CACtC","file":"tree-view.vue","sourcesContent":[".ms-tree-view ul {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active {\n  background: rgba(136, 200, 255, 0.5);\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -21295,7 +21267,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var undefined;
 	
 	  /** Used as the semantic version number. */
-	  var VERSION = '4.12.0';
+	  var VERSION = '4.13.0';
 	
 	  /** Used as the size to enable large array optimizations. */
 	  var LARGE_ARRAY_SIZE = 200;
@@ -21399,7 +21371,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /** Used to match property names within property paths. */
 	  var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
 	      reIsPlainProp = /^\w*$/,
-	      rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]/g;
+	      rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(\.|\[\])(?:\4|$))/g;
 	
 	  /**
 	   * Used to match `RegExp`
@@ -21532,7 +21504,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    'Function', 'Int8Array', 'Int16Array', 'Int32Array', 'Map', 'Math', 'Object',
 	    'Promise', 'Reflect', 'RegExp', 'Set', 'String', 'Symbol', 'TypeError',
 	    'Uint8Array', 'Uint8ClampedArray', 'Uint16Array', 'Uint32Array', 'WeakMap',
-	    '_', 'clearTimeout', 'isFinite', 'parseInt', 'setTimeout'
+	    '_', 'isFinite', 'parseInt', 'setTimeout'
 	  ];
 	
 	  /** Used to make template sourceURLs easier to identify. */
@@ -21611,12 +21583,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    '&#96;': '`'
 	  };
 	
-	  /** Used to determine if values are of the language type `Object`. */
-	  var objectTypes = {
-	    'function': true,
-	    'object': true
-	  };
-	
 	  /** Used to escape characters for inclusion in compiled string literals. */
 	  var stringEscapes = {
 	    '\\': '\\',
@@ -21632,41 +21598,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	      freeParseInt = parseInt;
 	
 	  /** Detect free variable `exports`. */
-	  var freeExports = (objectTypes[typeof exports] && exports && !exports.nodeType)
-	    ? exports
-	    : undefined;
+	  var freeExports = typeof exports == 'object' && exports;
 	
 	  /** Detect free variable `module`. */
-	  var freeModule = (objectTypes[typeof module] && module && !module.nodeType)
-	    ? module
-	    : undefined;
+	  var freeModule = freeExports && typeof module == 'object' && module;
 	
 	  /** Detect the popular CommonJS extension `module.exports`. */
-	  var moduleExports = (freeModule && freeModule.exports === freeExports)
-	    ? freeExports
-	    : undefined;
+	  var moduleExports = freeModule && freeModule.exports === freeExports;
 	
 	  /** Detect free variable `global` from Node.js. */
-	  var freeGlobal = checkGlobal(freeExports && freeModule && typeof global == 'object' && global);
+	  var freeGlobal = checkGlobal(typeof global == 'object' && global);
 	
 	  /** Detect free variable `self`. */
-	  var freeSelf = checkGlobal(objectTypes[typeof self] && self);
-	
-	  /** Detect free variable `window`. */
-	  var freeWindow = checkGlobal(objectTypes[typeof window] && window);
+	  var freeSelf = checkGlobal(typeof self == 'object' && self);
 	
 	  /** Detect `this` as the global object. */
-	  var thisGlobal = checkGlobal(objectTypes[typeof this] && this);
+	  var thisGlobal = checkGlobal(typeof this == 'object' && this);
 	
-	  /**
-	   * Used as a reference to the global object.
-	   *
-	   * The `this` value is used if it's the global object to avoid Greasemonkey's
-	   * restricted `window` object, otherwise the `window` object is used.
-	   */
-	  var root = freeGlobal ||
-	    ((freeWindow !== (thisGlobal && thisGlobal.window)) && freeWindow) ||
-	      freeSelf || thisGlobal || Function('return this')();
+	  /** Used as a reference to the global object. */
+	  var root = freeGlobal || freeSelf || thisGlobal || Function('return this')();
 	
 	  /*--------------------------------------------------------------------------*/
 	
@@ -21722,7 +21672,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * A specialized version of `baseAggregator` for arrays.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} setter The function to set `accumulator` values.
 	   * @param {Function} iteratee The iteratee to transform keys.
 	   * @param {Object} accumulator The initial aggregated object.
@@ -21730,7 +21680,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   */
 	  function arrayAggregator(array, setter, iteratee, accumulator) {
 	    var index = -1,
-	        length = array.length;
+	        length = array ? array.length : 0;
 	
 	    while (++index < length) {
 	      var value = array[index];
@@ -21744,13 +21694,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * iteratee shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} iteratee The function invoked per iteration.
 	   * @returns {Array} Returns `array`.
 	   */
 	  function arrayEach(array, iteratee) {
 	    var index = -1,
-	        length = array.length;
+	        length = array ? array.length : 0;
 	
 	    while (++index < length) {
 	      if (iteratee(array[index], index, array) === false) {
@@ -21765,12 +21715,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * iteratee shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} iteratee The function invoked per iteration.
 	   * @returns {Array} Returns `array`.
 	   */
 	  function arrayEachRight(array, iteratee) {
-	    var length = array.length;
+	    var length = array ? array.length : 0;
 	
 	    while (length--) {
 	      if (iteratee(array[length], length, array) === false) {
@@ -21785,14 +21735,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * iteratee shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} predicate The function invoked per iteration.
 	   * @returns {boolean} Returns `true` if all elements pass the predicate check,
 	   *  else `false`.
 	   */
 	  function arrayEvery(array, predicate) {
 	    var index = -1,
-	        length = array.length;
+	        length = array ? array.length : 0;
 	
 	    while (++index < length) {
 	      if (!predicate(array[index], index, array)) {
@@ -21807,13 +21757,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * iteratee shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} predicate The function invoked per iteration.
 	   * @returns {Array} Returns the new filtered array.
 	   */
 	  function arrayFilter(array, predicate) {
 	    var index = -1,
-	        length = array.length,
+	        length = array ? array.length : 0,
 	        resIndex = 0,
 	        result = [];
 	
@@ -21831,26 +21781,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * specifying an index to search from.
 	   *
 	   * @private
-	   * @param {Array} array The array to search.
+	   * @param {Array} [array] The array to search.
 	   * @param {*} target The value to search for.
 	   * @returns {boolean} Returns `true` if `target` is found, else `false`.
 	   */
 	  function arrayIncludes(array, value) {
-	    return !!array.length && baseIndexOf(array, value, 0) > -1;
+	    var length = array ? array.length : 0;
+	    return !!length && baseIndexOf(array, value, 0) > -1;
 	  }
 	
 	  /**
 	   * This function is like `arrayIncludes` except that it accepts a comparator.
 	   *
 	   * @private
-	   * @param {Array} array The array to search.
+	   * @param {Array} [array] The array to search.
 	   * @param {*} target The value to search for.
 	   * @param {Function} comparator The comparator invoked per element.
 	   * @returns {boolean} Returns `true` if `target` is found, else `false`.
 	   */
 	  function arrayIncludesWith(array, value, comparator) {
 	    var index = -1,
-	        length = array.length;
+	        length = array ? array.length : 0;
 	
 	    while (++index < length) {
 	      if (comparator(value, array[index])) {
@@ -21865,13 +21816,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} iteratee The function invoked per iteration.
 	   * @returns {Array} Returns the new mapped array.
 	   */
 	  function arrayMap(array, iteratee) {
 	    var index = -1,
-	        length = array.length,
+	        length = array ? array.length : 0,
 	        result = Array(length);
 	
 	    while (++index < length) {
@@ -21904,7 +21855,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * iteratee shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} iteratee The function invoked per iteration.
 	   * @param {*} [accumulator] The initial value.
 	   * @param {boolean} [initAccum] Specify using the first element of `array` as
@@ -21913,7 +21864,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   */
 	  function arrayReduce(array, iteratee, accumulator, initAccum) {
 	    var index = -1,
-	        length = array.length;
+	        length = array ? array.length : 0;
 	
 	    if (initAccum && length) {
 	      accumulator = array[++index];
@@ -21929,7 +21880,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * iteratee shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} iteratee The function invoked per iteration.
 	   * @param {*} [accumulator] The initial value.
 	   * @param {boolean} [initAccum] Specify using the last element of `array` as
@@ -21937,7 +21888,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * @returns {*} Returns the accumulated value.
 	   */
 	  function arrayReduceRight(array, iteratee, accumulator, initAccum) {
-	    var length = array.length;
+	    var length = array ? array.length : 0;
 	    if (initAccum && length) {
 	      accumulator = array[--length];
 	    }
@@ -21952,14 +21903,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * shorthands.
 	   *
 	   * @private
-	   * @param {Array} array The array to iterate over.
+	   * @param {Array} [array] The array to iterate over.
 	   * @param {Function} predicate The function invoked per iteration.
 	   * @returns {boolean} Returns `true` if any element passes the predicate check,
 	   *  else `false`.
 	   */
 	  function arraySome(array, predicate) {
 	    var index = -1,
-	        length = array.length;
+	        length = array ? array.length : 0;
 	
 	    while (++index < length) {
 	      if (predicate(array[index], index, array)) {
@@ -21970,23 +21921,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	
 	  /**
-	   * The base implementation of methods like `_.find` and `_.findKey`, without
-	   * support for iteratee shorthands, which iterates over `collection` using
-	   * `eachFunc`.
+	   * The base implementation of methods like `_.findKey` and `_.findLastKey`,
+	   * without support for iteratee shorthands, which iterates over `collection`
+	   * using `eachFunc`.
 	   *
 	   * @private
 	   * @param {Array|Object} collection The collection to search.
 	   * @param {Function} predicate The function invoked per iteration.
 	   * @param {Function} eachFunc The function to iterate over `collection`.
-	   * @param {boolean} [retKey] Specify returning the key of the found element
-	   *  instead of the element itself.
 	   * @returns {*} Returns the found element or its key, else `undefined`.
 	   */
-	  function baseFind(collection, predicate, eachFunc, retKey) {
+	  function baseFindKey(collection, predicate, eachFunc) {
 	    var result;
 	    eachFunc(collection, function(value, key, collection) {
 	      if (predicate(value, key, collection)) {
-	        result = retKey ? key : value;
+	        result = key;
 	        return false;
 	      }
 	    });
@@ -22000,12 +21949,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * @private
 	   * @param {Array} array The array to search.
 	   * @param {Function} predicate The function invoked per iteration.
+	   * @param {number} fromIndex The index to search from.
 	   * @param {boolean} [fromRight] Specify iterating from right to left.
 	   * @returns {number} Returns the index of the matched value, else `-1`.
 	   */
-	  function baseFindIndex(array, predicate, fromRight) {
+	  function baseFindIndex(array, predicate, fromIndex, fromRight) {
 	    var length = array.length,
-	        index = fromRight ? length : -1;
+	        index = fromIndex + (fromRight ? 1 : -1);
 	
 	    while ((fromRight ? index-- : ++index < length)) {
 	      if (predicate(array[index], index, array)) {
@@ -22313,6 +22263,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	
 	  /**
+	   * Gets the value at `key` of `object`.
+	   *
+	   * @private
+	   * @param {Object} [object] The object to query.
+	   * @param {string} key The key of the property to get.
+	   * @returns {*} Returns the property value.
+	   */
+	  function getValue(object, key) {
+	    return object == null ? undefined : object[key];
+	  }
+	
+	  /**
 	   * Gets the index at which the first occurrence of `NaN` is found in `array`.
 	   *
 	   * @private
@@ -22323,7 +22285,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   */
 	  function indexOfNaN(array, fromIndex, fromRight) {
 	    var length = array.length,
-	        index = fromIndex + (fromRight ? 0 : -1);
+	        index = fromIndex + (fromRight ? 1 : -1);
 	
 	    while ((fromRight ? index-- : ++index < length)) {
 	      var other = array[index];
@@ -22514,10 +22476,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * lodash.isFunction(lodash.bar);
 	   * // => true
 	   *
-	   * // Use `context` to mock `Date#getTime` use in `_.now`.
-	   * var mock = _.runInContext({
+	   * // Use `context` to stub `Date#getTime` use in `_.now`.
+	   * var stubbed = _.runInContext({
 	   *   'Date': function() {
-	   *     return { 'getTime': getTimeMock };
+	   *     return { 'getTime': stubGetTime };
 	   *   }
 	   * });
 	   *
@@ -22538,6 +22500,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var arrayProto = context.Array.prototype,
 	        objectProto = context.Object.prototype,
 	        stringProto = context.String.prototype;
+	
+	    /** Used to detect overreaching core-js shims. */
+	    var coreJsData = context['__core-js_shared__'];
+	
+	    /** Used to detect methods masquerading as native. */
+	    var maskSrcKey = (function() {
+	      var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
+	      return uid ? ('Symbol(src)_1.' + uid) : '';
+	    }());
 	
 	    /** Used to resolve the decompiled source of functions. */
 	    var funcToString = context.Function.prototype.toString;
@@ -22572,14 +22543,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	        Reflect = context.Reflect,
 	        Symbol = context.Symbol,
 	        Uint8Array = context.Uint8Array,
-	        clearTimeout = context.clearTimeout,
 	        enumerate = Reflect ? Reflect.enumerate : undefined,
 	        getOwnPropertySymbols = Object.getOwnPropertySymbols,
 	        iteratorSymbol = typeof (iteratorSymbol = Symbol && Symbol.iterator) == 'symbol' ? iteratorSymbol : undefined,
 	        objectCreate = Object.create,
 	        propertyIsEnumerable = objectProto.propertyIsEnumerable,
-	        setTimeout = context.setTimeout,
 	        splice = arrayProto.splice;
+	
+	    /** Built-in method references that are mockable. */
+	    var setTimeout = function(func, wait) { return context.setTimeout.call(root, func, wait); };
 	
 	    /* Built-in method references for those with the same name as other `lodash` methods. */
 	    var nativeCeil = Math.ceil,
@@ -22702,19 +22674,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * `isArrayBuffer`, `isArrayLike`, `isArrayLikeObject`, `isBoolean`,
 	     * `isBuffer`, `isDate`, `isElement`, `isEmpty`, `isEqual`, `isEqualWith`,
 	     * `isError`, `isFinite`, `isFunction`, `isInteger`, `isLength`, `isMap`,
-	     * `isMatch`, `isMatchWith`, `isNaN`, `isNative`, `isNil`, `isNull`, `isNumber`,
-	     * `isObject`, `isObjectLike`, `isPlainObject`, `isRegExp`, `isSafeInteger`,
-	     * `isSet`, `isString`, `isUndefined`, `isTypedArray`, `isWeakMap`, `isWeakSet`,
-	     * `join`, `kebabCase`, `last`, `lastIndexOf`, `lowerCase`, `lowerFirst`,
-	     * `lt`, `lte`, `max`, `maxBy`, `mean`, `meanBy`, `min`, `minBy`, `multiply`,
-	     * `noConflict`, `noop`, `now`, `nth`, `pad`, `padEnd`, `padStart`, `parseInt`,
-	     * `pop`, `random`, `reduce`, `reduceRight`, `repeat`, `result`, `round`,
-	     * `runInContext`, `sample`, `shift`, `size`, `snakeCase`, `some`, `sortedIndex`,
-	     * `sortedIndexBy`, `sortedLastIndex`, `sortedLastIndexBy`, `startCase`,
-	     * `startsWith`, `subtract`, `sum`, `sumBy`, `template`, `times`, `toFinite`,
-	     * `toInteger`, `toJSON`, `toLength`, `toLower`, `toNumber`, `toSafeInteger`,
-	     * `toString`, `toUpper`, `trim`, `trimEnd`, `trimStart`, `truncate`, `unescape`,
-	     * `uniqueId`, `upperCase`, `upperFirst`, `value`, and `words`
+	     * `isMatch`, `isMatchWith`, `isNaN`, `isNative`, `isNil`, `isNull`,
+	     * `isNumber`, `isObject`, `isObjectLike`, `isPlainObject`, `isRegExp`,
+	     * `isSafeInteger`, `isSet`, `isString`, `isUndefined`, `isTypedArray`,
+	     * `isWeakMap`, `isWeakSet`, `join`, `kebabCase`, `last`, `lastIndexOf`,
+	     * `lowerCase`, `lowerFirst`, `lt`, `lte`, `max`, `maxBy`, `mean`, `meanBy`,
+	     * `min`, `minBy`, `multiply`, `noConflict`, `noop`, `now`, `nth`, `pad`,
+	     * `padEnd`, `padStart`, `parseInt`, `pop`, `random`, `reduce`, `reduceRight`,
+	     * `repeat`, `result`, `round`, `runInContext`, `sample`, `shift`, `size`,
+	     * `snakeCase`, `some`, `sortedIndex`, `sortedIndexBy`, `sortedLastIndex`,
+	     * `sortedLastIndexBy`, `startCase`, `startsWith`, `stubArray`, `stubFalse`,
+	     * `stubObject`, `stubString`, `stubTrue`, `subtract`, `sum`, `sumBy`,
+	     * `template`, `times`, `toFinite`, `toInteger`, `toJSON`, `toLength`,
+	     * `toLower`, `toNumber`, `toSafeInteger`, `toString`, `toUpper`, `trim`,
+	     * `trimEnd`, `trimStart`, `truncate`, `unescape`, `uniqueId`, `upperCase`,
+	     * `upperFirst`, `value`, and `words`
 	     *
 	     * @name _
 	     * @constructor
@@ -24015,7 +23989,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * The base implementation of `_.has` without support for deep paths.
 	     *
 	     * @private
-	     * @param {Object} object The object to query.
+	     * @param {Object} [object] The object to query.
 	     * @param {Array|string} key The key to check.
 	     * @returns {boolean} Returns `true` if `key` exists, else `false`.
 	     */
@@ -24023,20 +23997,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	      // Avoid a bug in IE 10-11 where objects with a [[Prototype]] of `null`,
 	      // that are composed entirely of index properties, return `false` for
 	      // `hasOwnProperty` checks of them.
-	      return hasOwnProperty.call(object, key) ||
-	        (typeof object == 'object' && key in object && getPrototype(object) === null);
+	      return object != null &&
+	        (hasOwnProperty.call(object, key) ||
+	          (typeof object == 'object' && key in object && getPrototype(object) === null));
 	    }
 	
 	    /**
 	     * The base implementation of `_.hasIn` without support for deep paths.
 	     *
 	     * @private
-	     * @param {Object} object The object to query.
+	     * @param {Object} [object] The object to query.
 	     * @param {Array|string} key The key to check.
 	     * @returns {boolean} Returns `true` if `key` exists, else `false`.
 	     */
 	    function baseHasIn(object, key) {
-	      return key in Object(object);
+	      return object != null && key in Object(object);
 	    }
 	
 	    /**
@@ -24288,6 +24263,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	      }
 	      return true;
+	    }
+	
+	    /**
+	     * The base implementation of `_.isNative` without bad shim checks.
+	     *
+	     * @private
+	     * @param {*} value The value to check.
+	     * @returns {boolean} Returns `true` if `value` is a native function,
+	     *  else `false`.
+	     */
+	    function baseIsNative(value) {
+	      if (!isObject(value) || isMasked(value)) {
+	        return false;
+	      }
+	      var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
+	      return pattern.test(toSource(value));
 	    }
 	
 	    /**
@@ -24658,6 +24649,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	          length = values.length,
 	          seen = array;
 	
+	      if (array === values) {
+	        values = copyArray(values);
+	      }
 	      if (iteratee) {
 	        seen = arrayMap(array, baseUnary(iteratee));
 	      }
@@ -26173,7 +26167,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var func = Math[methodName];
 	      return function(number, precision) {
 	        number = toNumber(number);
-	        precision = toInteger(precision);
+	        precision = nativeMin(toInteger(precision), 292);
 	        if (precision) {
 	          // Shift with exponential notation to avoid floating-point issues.
 	          // See [MDN](https://mdn.io/round#Examples) for more details.
@@ -26654,11 +26648,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the match data of `object`.
 	     */
 	    function getMatchData(object) {
-	      var result = toPairs(object),
+	      var result = keys(object),
 	          length = result.length;
 	
 	      while (length--) {
-	        result[length][2] = isStrictComparable(result[length][1]);
+	        var key = result[length],
+	            value = object[key];
+	
+	        result[length] = [key, value, isStrictComparable(value)];
 	      }
 	      return result;
 	    }
@@ -26672,8 +26669,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {*} Returns the function if it's native, else `undefined`.
 	     */
 	    function getNative(object, key) {
-	      var value = object[key];
-	      return isNative(value) ? value : undefined;
+	      var value = getValue(object, key);
+	      return baseIsNative(value) ? value : undefined;
 	    }
 	
 	    /**
@@ -26702,9 +26699,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    // Fallback for IE < 11.
 	    if (!getOwnPropertySymbols) {
-	      getSymbols = function() {
-	        return [];
-	      };
+	      getSymbols = stubArray;
 	    }
 	
 	    /**
@@ -27035,6 +27030,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var data = getData(other);
 	      return !!data && func === data[0];
 	    }
+	
+	    /**
+	     * Checks if `func` has its source masked.
+	     *
+	     * @private
+	     * @param {Function} func The function to check.
+	     * @returns {boolean} Returns `true` if `func` is masked, else `false`.
+	     */
+	    function isMasked(func) {
+	      return !!maskSrcKey && (maskSrcKey in func);
+	    }
+	
+	    /**
+	     * Checks if `func` is capable of being masked.
+	     *
+	     * @private
+	     * @param {*} value The value to check.
+	     * @returns {boolean} Returns `true` if `func` is maskable, else `false`.
+	     */
+	    var isMaskable = !coreJsData ? stubFalse : isFunction;
 	
 	    /**
 	     * Checks if `value` is likely a prototype object.
@@ -27432,8 +27447,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @see _.without, _.xor
 	     * @example
 	     *
-	     * _.difference([3, 2, 1], [4, 2]);
-	     * // => [3, 1]
+	     * _.difference([2, 1], [2, 3]);
+	     * // => [1]
 	     */
 	    var difference = rest(function(array, values) {
 	      return isArrayLikeObject(array)
@@ -27458,8 +27473,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of filtered values.
 	     * @example
 	     *
-	     * _.differenceBy([3.1, 2.2, 1.3], [4.4, 2.5], Math.floor);
-	     * // => [3.1, 1.3]
+	     * _.differenceBy([2.1, 1.2], [2.3, 3.4], Math.floor);
+	     * // => [1.2]
 	     *
 	     * // The `_.property` iteratee shorthand.
 	     * _.differenceBy([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], 'x');
@@ -27711,6 +27726,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param {Array} array The array to search.
 	     * @param {Array|Function|Object|string} [predicate=_.identity]
 	     *  The function invoked per iteration.
+	     * @param {number} [fromIndex=0] The index to search from.
 	     * @returns {number} Returns the index of the found element, else `-1`.
 	     * @example
 	     *
@@ -27735,10 +27751,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.findIndex(users, 'active');
 	     * // => 2
 	     */
-	    function findIndex(array, predicate) {
-	      return (array && array.length)
-	        ? baseFindIndex(array, getIteratee(predicate, 3))
-	        : -1;
+	    function findIndex(array, predicate, fromIndex) {
+	      var length = array ? array.length : 0;
+	      if (!length) {
+	        return -1;
+	      }
+	      var index = fromIndex == null ? 0 : toInteger(fromIndex);
+	      if (index < 0) {
+	        index = nativeMax(length + index, 0);
+	      }
+	      return baseFindIndex(array, getIteratee(predicate, 3), index);
 	    }
 	
 	    /**
@@ -27752,6 +27774,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param {Array} array The array to search.
 	     * @param {Array|Function|Object|string} [predicate=_.identity]
 	     *  The function invoked per iteration.
+	     * @param {number} [fromIndex=array.length-1] The index to search from.
 	     * @returns {number} Returns the index of the found element, else `-1`.
 	     * @example
 	     *
@@ -27776,10 +27799,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.findLastIndex(users, 'active');
 	     * // => 0
 	     */
-	    function findLastIndex(array, predicate) {
-	      return (array && array.length)
-	        ? baseFindIndex(array, getIteratee(predicate, 3), true)
-	        : -1;
+	    function findLastIndex(array, predicate, fromIndex) {
+	      var length = array ? array.length : 0;
+	      if (!length) {
+	        return -1;
+	      }
+	      var index = length - 1;
+	      if (fromIndex !== undefined) {
+	        index = toInteger(fromIndex);
+	        index = fromIndex < 0
+	          ? nativeMax(length + index, 0)
+	          : nativeMin(index, length - 1);
+	      }
+	      return baseFindIndex(array, getIteratee(predicate, 3), index, true);
 	    }
 	
 	    /**
@@ -27926,11 +27958,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (!length) {
 	        return -1;
 	      }
-	      fromIndex = toInteger(fromIndex);
-	      if (fromIndex < 0) {
-	        fromIndex = nativeMax(length + fromIndex, 0);
+	      var index = fromIndex == null ? 0 : toInteger(fromIndex);
+	      if (index < 0) {
+	        index = nativeMax(length + index, 0);
 	      }
-	      return baseIndexOf(array, value, fromIndex);
+	      return baseIndexOf(array, value, index);
 	    }
 	
 	    /**
@@ -27965,7 +27997,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of intersecting values.
 	     * @example
 	     *
-	     * _.intersection([2, 1], [4, 2], [1, 2]);
+	     * _.intersection([2, 1], [2, 3]);
 	     * // => [2]
 	     */
 	    var intersection = rest(function(arrays) {
@@ -27991,7 +28023,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of intersecting values.
 	     * @example
 	     *
-	     * _.intersectionBy([2.1, 1.2], [4.3, 2.4], Math.floor);
+	     * _.intersectionBy([2.1, 1.2], [2.3, 3.4], Math.floor);
 	     * // => [2.1]
 	     *
 	     * // The `_.property` iteratee shorthand.
@@ -28121,7 +28153,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ) + 1;
 	      }
 	      if (value !== value) {
-	        return indexOfNaN(array, index, true);
+	        return indexOfNaN(array, index - 1, true);
 	      }
 	      while (index--) {
 	        if (array[index] === value) {
@@ -28132,7 +28164,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    /**
-	     * Gets the element at `n` index of `array`. If `n` is negative, the nth
+	     * Gets the element at index `n` of `array`. If `n` is negative, the nth
 	     * element from the end is returned.
 	     *
 	     * @static
@@ -28173,11 +28205,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns `array`.
 	     * @example
 	     *
-	     * var array = [1, 2, 3, 1, 2, 3];
+	     * var array = ['a', 'b', 'c', 'a', 'b', 'c'];
 	     *
-	     * _.pull(array, 2, 3);
+	     * _.pull(array, 'a', 'c');
 	     * console.log(array);
-	     * // => [1, 1]
+	     * // => ['b', 'b']
 	     */
 	    var pull = rest(pullAll);
 	
@@ -28195,11 +28227,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns `array`.
 	     * @example
 	     *
-	     * var array = [1, 2, 3, 1, 2, 3];
+	     * var array = ['a', 'b', 'c', 'a', 'b', 'c'];
 	     *
-	     * _.pullAll(array, [2, 3]);
+	     * _.pullAll(array, ['a', 'c']);
 	     * console.log(array);
-	     * // => [1, 1]
+	     * // => ['b', 'b']
 	     */
 	    function pullAll(array, values) {
 	      return (array && array.length && values && values.length)
@@ -28281,14 +28313,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of removed elements.
 	     * @example
 	     *
-	     * var array = [5, 10, 15, 20];
-	     * var evens = _.pullAt(array, 1, 3);
+	     * var array = ['a', 'b', 'c', 'd'];
+	     * var pulled = _.pullAt(array, [1, 3]);
 	     *
 	     * console.log(array);
-	     * // => [5, 15]
+	     * // => ['a', 'c']
 	     *
-	     * console.log(evens);
-	     * // => [10, 20]
+	     * console.log(pulled);
+	     * // => ['b', 'd']
 	     */
 	    var pullAt = rest(function(array, indexes) {
 	      indexes = baseFlatten(indexes, 1);
@@ -28428,9 +28460,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * _.sortedIndex([30, 50], 40);
 	     * // => 1
-	     *
-	     * _.sortedIndex([4, 5], 4);
-	     * // => 0
 	     */
 	    function sortedIndex(array, value) {
 	      return baseSortedIndex(array, value);
@@ -28453,13 +28482,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *  into `array`.
 	     * @example
 	     *
-	     * var dict = { 'thirty': 30, 'forty': 40, 'fifty': 50 };
+	     * var objects = [{ 'x': 4 }, { 'x': 5 }];
 	     *
-	     * _.sortedIndexBy(['thirty', 'fifty'], 'forty', _.propertyOf(dict));
-	     * // => 1
+	     * _.sortedIndexBy(objects, { 'x': 4 }, function(o) { return o.x; });
+	     * // => 0
 	     *
 	     * // The `_.property` iteratee shorthand.
-	     * _.sortedIndexBy([{ 'x': 4 }, { 'x': 5 }], { 'x': 4 }, 'x');
+	     * _.sortedIndexBy(objects, { 'x': 4 }, 'x');
 	     * // => 0
 	     */
 	    function sortedIndexBy(array, value, iteratee) {
@@ -28479,8 +28508,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {number} Returns the index of the matched value, else `-1`.
 	     * @example
 	     *
-	     * _.sortedIndexOf([1, 1, 2, 2], 2);
-	     * // => 2
+	     * _.sortedIndexOf([4, 5, 5, 5, 6], 5);
+	     * // => 1
 	     */
 	    function sortedIndexOf(array, value) {
 	      var length = array ? array.length : 0;
@@ -28508,8 +28537,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *  into `array`.
 	     * @example
 	     *
-	     * _.sortedLastIndex([4, 5], 4);
-	     * // => 1
+	     * _.sortedLastIndex([4, 5, 5, 5, 6], 5);
+	     * // => 4
 	     */
 	    function sortedLastIndex(array, value) {
 	      return baseSortedIndex(array, value, true);
@@ -28532,8 +28561,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *  into `array`.
 	     * @example
 	     *
+	     * var objects = [{ 'x': 4 }, { 'x': 5 }];
+	     *
+	     * _.sortedLastIndexBy(objects, { 'x': 4 }, function(o) { return o.x; });
+	     * // => 1
+	     *
 	     * // The `_.property` iteratee shorthand.
-	     * _.sortedLastIndexBy([{ 'x': 4 }, { 'x': 5 }], { 'x': 4 }, 'x');
+	     * _.sortedLastIndexBy(objects, { 'x': 4 }, 'x');
 	     * // => 1
 	     */
 	    function sortedLastIndexBy(array, value, iteratee) {
@@ -28553,7 +28587,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {number} Returns the index of the matched value, else `-1`.
 	     * @example
 	     *
-	     * _.sortedLastIndexOf([1, 1, 2, 2], 2);
+	     * _.sortedLastIndexOf([4, 5, 5, 5, 6], 5);
 	     * // => 3
 	     */
 	    function sortedLastIndexOf(array, value) {
@@ -28793,8 +28827,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of combined values.
 	     * @example
 	     *
-	     * _.union([2, 1], [4, 2], [1, 2]);
-	     * // => [2, 1, 4]
+	     * _.union([2], [1, 2]);
+	     * // => [2, 1]
 	     */
 	    var union = rest(function(arrays) {
 	      return baseUniq(baseFlatten(arrays, 1, isArrayLikeObject, true));
@@ -28816,8 +28850,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of combined values.
 	     * @example
 	     *
-	     * _.unionBy([2.1, 1.2], [4.3, 2.4], Math.floor);
-	     * // => [2.1, 1.2, 4.3]
+	     * _.unionBy([2.1], [1.2, 2.3], Math.floor);
+	     * // => [2.1, 1.2]
 	     *
 	     * // The `_.property` iteratee shorthand.
 	     * _.unionBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
@@ -28924,7 +28958,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new duplicate free array.
 	     * @example
 	     *
-	     * var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 },  { 'x': 1, 'y': 2 }];
+	     * var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }, { 'x': 1, 'y': 2 }];
 	     *
 	     * _.uniqWith(objects, _.isEqual);
 	     * // => [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }]
@@ -29019,7 +29053,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @see _.difference, _.xor
 	     * @example
 	     *
-	     * _.without([1, 2, 1, 3], 1, 2);
+	     * _.without([2, 1, 2, 3], 1, 2);
 	     * // => [3]
 	     */
 	    var without = rest(function(array, values) {
@@ -29043,8 +29077,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @see _.difference, _.without
 	     * @example
 	     *
-	     * _.xor([2, 1], [4, 2]);
-	     * // => [1, 4]
+	     * _.xor([2, 1], [2, 3]);
+	     * // => [1, 3]
 	     */
 	    var xor = rest(function(arrays) {
 	      return baseXor(arrayFilter(arrays, isArrayLikeObject));
@@ -29066,8 +29100,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Array} Returns the new array of filtered values.
 	     * @example
 	     *
-	     * _.xorBy([2.1, 1.2], [4.3, 2.4], Math.floor);
-	     * // => [1.2, 4.3]
+	     * _.xorBy([2.1, 1.2], [2.3, 3.4], Math.floor);
+	     * // => [1.2, 3.4]
 	     *
 	     * // The `_.property` iteratee shorthand.
 	     * _.xorBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
@@ -29300,9 +29334,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * _(object).at(['a[0].b.c', 'a[1]']).value();
 	     * // => [3, 4]
-	     *
-	     * _(['a', 'b', 'c']).at(0, 2).value();
-	     * // => ['a', 'c']
 	     */
 	    var wrapperAt = rest(function(paths) {
 	      paths = baseFlatten(paths, 1);
@@ -29565,6 +29596,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.countBy([6.1, 4.2, 6.3], Math.floor);
 	     * // => { '4': 1, '6': 2 }
 	     *
+	     * // The `_.property` iteratee shorthand.
 	     * _.countBy(['one', 'two', 'three'], 'length');
 	     * // => { '3': 2, '5': 1 }
 	     */
@@ -29670,6 +29702,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param {Array|Object} collection The collection to search.
 	     * @param {Array|Function|Object|string} [predicate=_.identity]
 	     *  The function invoked per iteration.
+	     * @param {number} [fromIndex=0] The index to search from.
 	     * @returns {*} Returns the matched element, else `undefined`.
 	     * @example
 	     *
@@ -29694,13 +29727,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.find(users, 'active');
 	     * // => object for 'barney'
 	     */
-	    function find(collection, predicate) {
-	      predicate = getIteratee(predicate, 3);
-	      if (isArray(collection)) {
-	        var index = baseFindIndex(collection, predicate);
-	        return index > -1 ? collection[index] : undefined;
-	      }
-	      return baseFind(collection, predicate, baseEach);
+	    function find(collection, predicate, fromIndex) {
+	      collection = isArrayLike(collection) ? collection : values(collection);
+	      var index = findIndex(collection, predicate, fromIndex);
+	      return index > -1 ? collection[index] : undefined;
 	    }
 	
 	    /**
@@ -29714,6 +29744,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param {Array|Object} collection The collection to search.
 	     * @param {Array|Function|Object|string} [predicate=_.identity]
 	     *  The function invoked per iteration.
+	     * @param {number} [fromIndex=collection.length-1] The index to search from.
 	     * @returns {*} Returns the matched element, else `undefined`.
 	     * @example
 	     *
@@ -29722,13 +29753,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * });
 	     * // => 3
 	     */
-	    function findLast(collection, predicate) {
-	      predicate = getIteratee(predicate, 3);
-	      if (isArray(collection)) {
-	        var index = baseFindIndex(collection, predicate, true);
-	        return index > -1 ? collection[index] : undefined;
-	      }
-	      return baseFind(collection, predicate, baseEachRight);
+	    function findLast(collection, predicate, fromIndex) {
+	      collection = isArrayLike(collection) ? collection : values(collection);
+	      var index = findLastIndex(collection, predicate, fromIndex);
+	      return index > -1 ? collection[index] : undefined;
 	    }
 	
 	    /**
@@ -30486,7 +30514,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @static
 	     * @memberOf _
 	     * @since 2.4.0
-	     * @type {Function}
 	     * @category Date
 	     * @returns {number} Returns the timestamp.
 	     * @example
@@ -30494,9 +30521,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.defer(function(stamp) {
 	     *   console.log(_.now() - stamp);
 	     * }, _.now());
-	     * // => Logs the number of milliseconds it took for the deferred function to be invoked.
+	     * // => Logs the number of milliseconds it took for the deferred invocation.
 	     */
-	    var now = Date.now;
+	    function now() {
+	      return Date.now();
+	    }
 	
 	    /*------------------------------------------------------------------------*/
 	
@@ -30600,7 +30629,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * The `_.bind.placeholder` value, which defaults to `_` in monolithic builds,
 	     * may be used as a placeholder for partially applied arguments.
 	     *
-	     * **Note:** Unlike native `Function#bind` this method doesn't set the "length"
+	     * **Note:** Unlike native `Function#bind`, this method doesn't set the "length"
 	     * property of bound functions.
 	     *
 	     * @static
@@ -30840,7 +30869,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          maxWait,
 	          result,
 	          timerId,
-	          lastCallTime = 0,
+	          lastCallTime,
 	          lastInvokeTime = 0,
 	          leading = false,
 	          maxing = false,
@@ -30891,7 +30920,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // Either this is the first call, activity has stopped and we're at the
 	        // trailing edge, the system time has gone backwards and we're treating
 	        // it as the trailing edge, or we've hit the `maxWait` limit.
-	        return (!lastCallTime || (timeSinceLastCall >= wait) ||
+	        return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
 	          (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
 	      }
 	
@@ -30905,7 +30934,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      function trailingEdge(time) {
-	        clearTimeout(timerId);
 	        timerId = undefined;
 	
 	        // Only invoke if we have `lastArgs` which means `func` has been
@@ -30918,11 +30946,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      function cancel() {
-	        if (timerId !== undefined) {
-	          clearTimeout(timerId);
-	        }
-	        lastCallTime = lastInvokeTime = 0;
-	        lastArgs = lastThis = timerId = undefined;
+	        lastInvokeTime = 0;
+	        lastArgs = lastCallTime = lastThis = timerId = undefined;
 	      }
 	
 	      function flush() {
@@ -30943,7 +30968,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	          if (maxing) {
 	            // Handle invocations in a tight loop.
-	            clearTimeout(timerId);
 	            timerId = setTimeout(timerExpired, wait);
 	            return invokeFunc(lastCallTime);
 	          }
@@ -31167,7 +31191,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * var func = _.overArgs(function(x, y) {
 	     *   return [x, y];
-	     * }, square, doubled);
+	     * }, [square, doubled]);
 	     *
 	     * func(9, 3);
 	     * // => [81, 6]
@@ -31284,7 +31308,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * var rearged = _.rearg(function(a, b, c) {
 	     *   return [a, b, c];
-	     * }, 2, 0, 1);
+	     * }, [2, 0, 1]);
 	     *
 	     * rearged('b', 'c', 'a')
 	     * // => ['a', 'b', 'c']
@@ -31923,7 +31947,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.isBuffer(new Uint8Array(2));
 	     * // => false
 	     */
-	    var isBuffer = !Buffer ? constant(false) : function(value) {
+	    var isBuffer = !Buffer ? stubFalse : function(value) {
 	      return value instanceof Buffer;
 	    };
 	
@@ -32423,7 +32447,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    /**
-	     * Checks if `value` is a native function.
+	     * Checks if `value` is a pristine native function.
+	     *
+	     * **Note:** This method can't reliably detect native functions in the
+	     * presence of the `core-js` package because `core-js` circumvents this kind
+	     * of detection. Despite multiple requests, the `core-js` maintainer has made
+	     * it clear: any attempt to fix the detection will be obstructed. As a result,
+	     * we're left with little choice but to throw an error. Unfortunately, this
+	     * also affects packages, like [babel-polyfill](https://www.npmjs.com/package/babel-polyfill),
+	     * which rely on `core-js`.
 	     *
 	     * @static
 	     * @memberOf _
@@ -32441,11 +32473,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * // => false
 	     */
 	    function isNative(value) {
-	      if (!isObject(value)) {
-	        return false;
+	      if (isMaskable(value)) {
+	        throw new Error('This method is not supported with `core-js`. Try https://github.com/es-shims.');
 	      }
-	      var pattern = (isFunction(value) || isHostObject(value)) ? reIsNative : reIsHostCtor;
-	      return pattern.test(toSource(value));
+	      return baseIsNative(value);
 	    }
 	
 	    /**
@@ -32907,7 +32938,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    /**
 	     * Converts `value` to an integer.
 	     *
-	     * **Note:** This function is loosely based on
+	     * **Note:** This method is loosely based on
 	     * [`ToInteger`](http://www.ecma-international.org/ecma-262/6.0/#sec-tointeger).
 	     *
 	     * @static
@@ -33261,9 +33292,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * _.at(object, ['a[0].b.c', 'a[1]']);
 	     * // => [3, 4]
-	     *
-	     * _.at(['a', 'b', 'c'], 0, 2);
-	     * // => ['a', 'c']
 	     */
 	    var at = rest(function(object, paths) {
 	      return baseAt(object, baseFlatten(paths, 1));
@@ -33396,7 +33424,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * // => 'barney'
 	     */
 	    function findKey(object, predicate) {
-	      return baseFind(object, getIteratee(predicate, 3), baseForOwn, true);
+	      return baseFindKey(object, getIteratee(predicate, 3), baseForOwn);
 	    }
 	
 	    /**
@@ -33436,7 +33464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * // => 'pebbles'
 	     */
 	    function findLastKey(object, predicate) {
-	      return baseFind(object, getIteratee(predicate, 3), baseForOwnRight, true);
+	      return baseFindKey(object, getIteratee(predicate, 3), baseForOwnRight);
 	    }
 	
 	    /**
@@ -34295,15 +34323,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * An alternative to `_.reduce`; this method transforms `object` to a new
 	     * `accumulator` object which is the result of running each of its own
 	     * enumerable string keyed properties thru `iteratee`, with each invocation
-	     * potentially mutating the `accumulator` object. The iteratee is invoked
-	     * with four arguments: (accumulator, value, key, object). Iteratee functions
-	     * may exit iteration early by explicitly returning `false`.
+	     * potentially mutating the `accumulator` object. If `accumulator` is not
+	     * provided, a new object with the same `[[Prototype]]` will be used. The
+	     * iteratee is invoked with four arguments: (accumulator, value, key, object).
+	     * Iteratee functions may exit iteration early by explicitly returning `false`.
 	     *
 	     * @static
 	     * @memberOf _
 	     * @since 1.3.0
 	     * @category Object
-	     * @param {Array|Object} object The object to iterate over.
+	     * @param {Object} object The object to iterate over.
 	     * @param {Function} [iteratee=_.identity] The function invoked per iteration.
 	     * @param {*} [accumulator] The custom accumulator value.
 	     * @returns {*} Returns the accumulated value.
@@ -34725,7 +34754,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @category String
 	     * @param {string} [string=''] The string to search.
 	     * @param {string} [target] The string to search for.
-	     * @param {number} [position=string.length] The position to search from.
+	     * @param {number} [position=string.length] The position to search up to.
 	     * @returns {boolean} Returns `true` if `string` ends with `target`,
 	     *  else `false`.
 	     * @example
@@ -35810,7 +35839,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *   }
 	     * };
 	     *
-	     * _.bindAll(view, 'onClick');
+	     * _.bindAll(view, ['onClick']);
 	     * jQuery(element).on('click', view.onClick);
 	     * // => Logs 'clicked docs' when clicked.
 	     */
@@ -35891,7 +35920,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *   { 'user': 'fred',   'age': 40 }
 	     * ];
 	     *
-	     * _.filter(users, _.conforms({ 'age': _.partial(_.gt, _, 38) }));
+	     * _.filter(users, _.conforms({ 'age': function(n) { return n > 38; } }));
 	     * // => [{ 'user': 'fred', 'age': 40 }]
 	     */
 	    function conforms(source) {
@@ -35909,10 +35938,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Function} Returns the new constant function.
 	     * @example
 	     *
-	     * var object = { 'user': 'fred' };
-	     * var getter = _.constant(object);
+	     * var objects = _.times(2, _.constant({ 'a': 1 }));
 	     *
-	     * getter() === object;
+	     * console.log(objects);
+	     * // => [{ 'a': 1 }, { 'a': 1 }]
+	     *
+	     * console.log(objects[0] === objects[1]);
 	     * // => true
 	     */
 	    function constant(value) {
@@ -35939,7 +35970,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *   return n * n;
 	     * }
 	     *
-	     * var addSquare = _.flow(_.add, square);
+	     * var addSquare = _.flow([_.add, square]);
 	     * addSquare(1, 2);
 	     * // => 9
 	     */
@@ -35962,7 +35993,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *   return n * n;
 	     * }
 	     *
-	     * var addSquare = _.flowRight(square, _.add);
+	     * var addSquare = _.flowRight([square, _.add]);
 	     * addSquare(1, 2);
 	     * // => 9
 	     */
@@ -35981,7 +36012,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * var object = { 'user': 'fred' };
 	     *
-	     * _.identity(object) === object;
+	     * console.log(_.identity(object) === object);
 	     * // => true
 	     */
 	    function identity(value) {
@@ -36242,8 +36273,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    /**
-	     * A no-operation function that returns `undefined` regardless of the
-	     * arguments it receives.
+	     * A method that returns `undefined`.
 	     *
 	     * @static
 	     * @memberOf _
@@ -36251,17 +36281,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @category Util
 	     * @example
 	     *
-	     * var object = { 'user': 'fred' };
-	     *
-	     * _.noop(object) === undefined;
-	     * // => true
+	     * _.times(2, _.noop);
+	     * // => [undefined, undefined]
 	     */
 	    function noop() {
 	      // No operation performed.
 	    }
 	
 	    /**
-	     * Creates a function that gets the argument at `n` index. If `n` is negative,
+	     * Creates a function that gets the argument at index `n`. If `n` is negative,
 	     * the nth argument from the end is returned.
 	     *
 	     * @static
@@ -36300,7 +36328,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Function} Returns the new function.
 	     * @example
 	     *
-	     * var func = _.over(Math.max, Math.min);
+	     * var func = _.over([Math.max, Math.min]);
 	     *
 	     * func(1, 2, 3, 4);
 	     * // => [4, 1]
@@ -36320,7 +36348,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Function} Returns the new function.
 	     * @example
 	     *
-	     * var func = _.overEvery(Boolean, isFinite);
+	     * var func = _.overEvery([Boolean, isFinite]);
 	     *
 	     * func('1');
 	     * // => true
@@ -36346,7 +36374,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @returns {Function} Returns the new function.
 	     * @example
 	     *
-	     * var func = _.overSome(Boolean, isFinite);
+	     * var func = _.overSome([Boolean, isFinite]);
 	     *
 	     * func('1');
 	     * // => true
@@ -36494,6 +36522,101 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var rangeRight = createRange(true);
 	
 	    /**
+	     * A method that returns a new empty array.
+	     *
+	     * @static
+	     * @memberOf _
+	     * @since 4.13.0
+	     * @category Util
+	     * @returns {Array} Returns the new empty array.
+	     * @example
+	     *
+	     * var arrays = _.times(2, _.stubArray);
+	     *
+	     * console.log(arrays);
+	     * // => [[], []]
+	     *
+	     * console.log(arrays[0] === arrays[1]);
+	     * // => false
+	     */
+	    function stubArray() {
+	      return [];
+	    }
+	
+	    /**
+	     * A method that returns `false`.
+	     *
+	     * @static
+	     * @memberOf _
+	     * @since 4.13.0
+	     * @category Util
+	     * @returns {boolean} Returns `false`.
+	     * @example
+	     *
+	     * _.times(2, _.stubFalse);
+	     * // => [false, false]
+	     */
+	    function stubFalse() {
+	      return false;
+	    }
+	
+	    /**
+	     * A method that returns a new empty object.
+	     *
+	     * @static
+	     * @memberOf _
+	     * @since 4.13.0
+	     * @category Util
+	     * @returns {Object} Returns the new empty object.
+	     * @example
+	     *
+	     * var objects = _.times(2, _.stubObject);
+	     *
+	     * console.log(objects);
+	     * // => [{}, {}]
+	     *
+	     * console.log(objects[0] === objects[1]);
+	     * // => false
+	     */
+	    function stubObject() {
+	      return {};
+	    }
+	
+	    /**
+	     * A method that returns an empty string.
+	     *
+	     * @static
+	     * @memberOf _
+	     * @since 4.13.0
+	     * @category Util
+	     * @returns {string} Returns the empty string.
+	     * @example
+	     *
+	     * _.times(2, _.stubString);
+	     * // => ['', '']
+	     */
+	    function stubString() {
+	      return '';
+	    }
+	
+	    /**
+	     * A method that returns `true`.
+	     *
+	     * @static
+	     * @memberOf _
+	     * @since 4.13.0
+	     * @category Util
+	     * @returns {boolean} Returns `true`.
+	     * @example
+	     *
+	     * _.times(2, _.stubTrue);
+	     * // => [true, true]
+	     */
+	    function stubTrue() {
+	      return true;
+	    }
+	
+	    /**
 	     * Invokes the iteratee `n` times, returning an array of the results of
 	     * each invocation. The iteratee is invoked with one argument; (index).
 	     *
@@ -36509,8 +36632,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.times(3, String);
 	     * // => ['0', '1', '2']
 	     *
-	     *  _.times(4, _.constant(true));
-	     * // => [true, true, true, true]
+	     *  _.times(4, _.constant(0));
+	     * // => [0, 0, 0, 0]
 	     */
 	    function times(n, iteratee) {
 	      n = toInteger(n);
@@ -36546,15 +36669,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *
 	     * _.toPath('a[0].b.c');
 	     * // => ['a', '0', 'b', 'c']
-	     *
-	     * var path = ['a', 'b', 'c'],
-	     *     newPath = _.toPath(path);
-	     *
-	     * console.log(newPath);
-	     * // => ['a', 'b', 'c']
-	     *
-	     * console.log(path === newPath);
-	     * // => false
 	     */
 	    function toPath(value) {
 	      if (isArray(value)) {
@@ -37193,6 +37307,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    lodash.meanBy = meanBy;
 	    lodash.min = min;
 	    lodash.minBy = minBy;
+	    lodash.stubArray = stubArray;
+	    lodash.stubFalse = stubFalse;
+	    lodash.stubObject = stubObject;
+	    lodash.stubString = stubString;
+	    lodash.stubTrue = stubTrue;
 	    lodash.multiply = multiply;
 	    lodash.nth = nth;
 	    lodash.noConflict = noConflict;
@@ -37499,7 +37618,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // also prevents errors in cases where Lodash is loaded by a script tag in the
 	  // presence of an AMD loader. See http://requirejs.org/docs/errors.html#mismatch
 	  // for more details. Use `_.noConflict` to remove Lodash from the global object.
-	  (freeWindow || freeSelf || {})._ = _;
+	  (freeSelf || {})._ = _;
 	
 	  // Some AMD build optimizers like r.js check for condition patterns like the following:
 	  if (true) {
@@ -37510,11 +37629,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	  }
 	  // Check for `exports` after `define` in case a build optimizer adds an `exports` object.
-	  else if (freeExports && freeModule) {
+	  else if (freeModule) {
 	    // Export for Node.js.
-	    if (moduleExports) {
-	      (freeModule.exports = _)._ = _;
-	    }
+	    (freeModule.exports = _)._ = _;
 	    // Export for CommonJS support.
 	    freeExports._ = _;
 	  }
@@ -38051,13 +38168,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 57 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-tree-view\" _v-706212d8=\"\">\n    <button @click=\"test\" type=\"button\" _v-706212d8=\"\">ceshi </button>\n    <ul _v-706212d8=\"\">\n        <li v-for=\"(index,record) in data\" v-show=\"show(record)\" @click.prevent=\"selectValue(index,record,$event)\" :class=\"{'active':( record == selectRecord )}\" _v-706212d8=\"\">\n            {{{record.spaceHtml}}}\n            <i v-if=\"isLeaf(record)\" class=\"ms-tree-space\" _v-706212d8=\"\"></i>\n            <i v-else=\"\" class=\"glyphicon ms-tree-grid-action\" :class=\"{'glyphicon-plus':!record.expanded,'glyphicon-minus':record.expanded }\" @click.stop=\"toggle(index,record)\" _v-706212d8=\"\"></i>\n            {{record[displayField]}}\n        </li>\n    </ul>\n</div>\n";
+	module.exports = "\n<div class=\"ms-tree-view\" _v-2ddc80f0=\"\">\n    <button @click=\"test\" type=\"button\" _v-2ddc80f0=\"\">ceshi </button>\n    <ul _v-2ddc80f0=\"\">\n        <li v-for=\"(index,record) in data\" v-show=\"show(record)\" @click.prevent=\"selectValue(index,record,$event)\" :class=\"{'active':( record == selectRecord )}\" _v-2ddc80f0=\"\">\n            {{{record.spaceHtml}}}\n            <i v-if=\"isLeaf(record)\" class=\"ms-tree-space\" _v-2ddc80f0=\"\"></i>\n            <i v-else=\"\" class=\"glyphicon ms-tree-grid-action\" :class=\"{'glyphicon-plus':!record.expanded,'glyphicon-minus':record.expanded }\" @click.stop=\"toggle(index,record)\" _v-2ddc80f0=\"\"></i>\n            {{record[displayField]}}\n        </li>\n    </ul>\n</div>\n";
 
 /***/ },
 /* 58 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<section class=\"ms-tree-combox\" _v-0d82582c=\"\">\n    <div class=\"input-group\" tabindex=\"1\" _v-0d82582c=\"\">\n        <input type=\"hidden\" v-model=\"value\" _v-0d82582c=\"\">\n        <input v-el:tree-combox-text=\"\" type=\"text\" class=\"form-control ms-combox-text\" placeholder=\"{{placeholder}}\" @blur=\"hide\" v-model=\"text\" readonly=\"\" _v-0d82582c=\"\">\n        <div class=\"input-group-addon ms-combox-icon\" _v-0d82582c=\"\"><i class=\"glyphicon glyphicon-triangle-bottom\" @click.prevent=\"toggleDropdown($event)\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-0d82582c=\"\"></i></div>\n    </div>\n    <div v-show=\"listShow\" class=\"ms-tree-list\" :style=\"[listBoxStyle]\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-0d82582c=\"\">\n        <div class=\"ms-tree-list-inner\" :style=\"{ width:listWidth}\" _v-0d82582c=\"\">\n            <tree-view :box-show.sync=\"listShow\" :data=\"data\" :value.sync=\"value\" :text.sync=\"text\" :select-type=\"selectType\" :value-field=\"valueField\" :display-field=\"displayField\" v-ref:tree-view=\"\" _v-0d82582c=\"\"></tree-view>\n        </div>\n    </div>\n</section>\n";
+	module.exports = "\n<section class=\"ms-tree-combox\" _v-ff192e44=\"\">\n    <div class=\"input-group\" tabindex=\"1\" _v-ff192e44=\"\">\n        <input type=\"hidden\" v-model=\"value\" _v-ff192e44=\"\">\n        <input v-el:tree-combox-text=\"\" type=\"text\" class=\"form-control ms-combox-text\" placeholder=\"{{placeholder}}\" @blur=\"hide\" v-model=\"text\" readonly=\"\" _v-ff192e44=\"\">\n        <div class=\"input-group-addon ms-combox-icon\" _v-ff192e44=\"\"><i class=\"glyphicon glyphicon-triangle-bottom\" @click.prevent=\"toggleDropdown($event)\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-ff192e44=\"\"></i></div>\n    </div>\n    <div v-show=\"listShow\" class=\"ms-tree-list\" :style=\"[listBoxStyle]\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-ff192e44=\"\">\n        <div class=\"ms-tree-list-inner\" :style=\"{ width:listWidth}\" _v-ff192e44=\"\">\n            <tree-view :box-show.sync=\"listShow\" :data=\"data\" :value.sync=\"value\" :text.sync=\"text\" :select-type=\"selectType\" :value-field=\"valueField\" :display-field=\"displayField\" v-ref:tree-view=\"\" _v-ff192e44=\"\"></tree-view>\n        </div>\n    </div>\n</section>\n";
 
 /***/ },
 /* 59 */
@@ -38080,7 +38197,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/date-field.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/date-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -38104,8 +38221,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2d0813fa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2d0813fa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6b331086&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6b331086&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -38123,7 +38240,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-date-field .ms-calendar[_v-2d0813fa] {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker[_v-2d0813fa] {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box[_v-2d0813fa] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right[_v-2d0813fa] {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up[_v-2d0813fa] {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down[_v-2d0813fa] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-field.vue","sourcesContent":[".ms-date-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-date-field .ms-calendar[_v-6b331086] {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker[_v-6b331086] {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box[_v-6b331086] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right[_v-6b331086] {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up[_v-6b331086] {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down[_v-6b331086] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-field.vue","sourcesContent":[".ms-date-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -38202,6 +38319,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        "isDisabled": {
 	            type: Function
+	        },
+	        "isFocus": {
+	            type: Boolean,
+	            default: function _default() {
+	                return false;
+	            }
 	        }
 	    },
 	    data: function data() {
@@ -38280,6 +38403,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            } else {
 	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-up");
 	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
+	            }
+	        },
+	        "showCalendarInput": function showCalendarInput(e) {
+	            if (this.isFocus) {
+	                this.showCalendar(e);
 	            }
 	        },
 	        "dayItemClick": function dayItemClick() {
@@ -53127,7 +53255,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53151,8 +53279,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d1fdbe6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d1fdbe6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-60a4a701&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-60a4a701&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53170,7 +53298,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker .ms-day-panel[_v-4d1fdbe6] {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel[_v-4d1fdbe6] {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel[_v-4d1fdbe6] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker.vue","sourcesContent":[".ms-datepicker .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker .ms-day-panel[_v-60a4a701] {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel[_v-60a4a701] {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel[_v-60a4a701] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker.vue","sourcesContent":[".ms-datepicker .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -53255,7 +53383,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-day-panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-day-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53279,8 +53407,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6b026fd3&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6b026fd3&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-baef3872&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-baef3872&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53298,7 +53426,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-day-panel[_v-6b026fd3] {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button[_v-6b026fd3] {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th[_v-6b026fd3] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-day-panel.vue","sourcesContent":[".ms-datepicker-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-day-panel[_v-baef3872] {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button[_v-baef3872] {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th[_v-baef3872] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-day-panel.vue","sourcesContent":[".ms-datepicker-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -53536,7 +53664,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-day.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-day.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53560,8 +53688,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5ecc885c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5ecc885c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5f058350&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5f058350&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53579,7 +53707,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-today[_v-5ecc885c] {\n  color: #00b3ee;\n}\n.other-mouth[_v-5ecc885c] {\n  color: #777;\n}\n.ms-select-day[_v-5ecc885c] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-5ecc885c] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.other-mouth {\n  color: #777;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-today[_v-5f058350] {\n  color: #00b3ee;\n}\n.other-mouth[_v-5f058350] {\n  color: #777;\n}\n.ms-select-day[_v-5f058350] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-5f058350] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.other-mouth {\n  color: #777;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -53724,13 +53852,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 218 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-5ecc885c=\"\">\n    <span _v-5ecc885c=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-5f058350=\"\">\n    <span _v-5f058350=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
 /* 219 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-day-panel\" _v-6b026fd3=\"\">\n    <table _v-6b026fd3=\"\">\n        <thead _v-6b026fd3=\"\">\n            <tr _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-6b026fd3=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-6b026fd3=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-6b026fd3=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-6b026fd3=\"\">\n                <td _v-6b026fd3=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-6b026fd3=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-6b026fd3=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-day-panel\" _v-baef3872=\"\">\n    <table _v-baef3872=\"\">\n        <thead _v-baef3872=\"\">\n            <tr _v-baef3872=\"\">\n                <th _v-baef3872=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-baef3872=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-baef3872=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-baef3872=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-baef3872=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-baef3872=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-baef3872=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-baef3872=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-baef3872=\"\">\n                <th _v-baef3872=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-baef3872=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-baef3872=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-baef3872=\"\">\n                <td _v-baef3872=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-baef3872=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-baef3872=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 220 */
@@ -53753,7 +53881,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-month-panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-month-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53777,8 +53905,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-238ed7b7&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-238ed7b7&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-dd30c2aa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-dd30c2aa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53796,7 +53924,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-month-panel[_v-238ed7b7] {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button[_v-238ed7b7] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-month-panel.vue","sourcesContent":[".ms-datepicker-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-month-panel[_v-dd30c2aa] {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button[_v-dd30c2aa] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-month-panel.vue","sourcesContent":[".ms-datepicker-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -53892,7 +54020,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-month.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-month.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53916,8 +54044,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-19a4a980&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-19a4a980&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6dd88d98&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6dd88d98&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53935,7 +54063,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".is-current-month[_v-19a4a980] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-month.vue","sourcesContent":[".is-current-month {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".is-current-month[_v-6dd88d98] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-month.vue","sourcesContent":[".is-current-month {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -53986,13 +54114,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 228 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-19a4a980=\"\">\n    <span _v-19a4a980=\"\">{{monthItem}}</span>\n</button>\n";
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-6dd88d98=\"\">\n    <span _v-6dd88d98=\"\">{{monthItem}}</span>\n</button>\n";
 
 /***/ },
 /* 229 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-month-panel\" _v-238ed7b7=\"\">\n    <table _v-238ed7b7=\"\">\n        <thead _v-238ed7b7=\"\">\n            <tr _v-238ed7b7=\"\">\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-238ed7b7=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-238ed7b7=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-238ed7b7=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-238ed7b7=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-238ed7b7=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-month-panel\" _v-dd30c2aa=\"\">\n    <table _v-dd30c2aa=\"\">\n        <thead _v-dd30c2aa=\"\">\n            <tr _v-dd30c2aa=\"\">\n                <td _v-dd30c2aa=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-dd30c2aa=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-dd30c2aa=\"\"></span>\n                    </button>\n                </td>\n                <td _v-dd30c2aa=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-dd30c2aa=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-dd30c2aa=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-dd30c2aa=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-dd30c2aa=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-dd30c2aa=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-dd30c2aa=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-dd30c2aa=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-dd30c2aa=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 230 */
@@ -54015,7 +54143,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-year-panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-year-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54039,8 +54167,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2560c038&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2560c038&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b2efab20&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b2efab20&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54058,7 +54186,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-year-panel[_v-2560c038] {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button[_v-2560c038] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-year-panel.vue","sourcesContent":[".ms-datepicker-year-panel {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-year-panel[_v-b2efab20] {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button[_v-b2efab20] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-year-panel.vue","sourcesContent":[".ms-datepicker-year-panel {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -54163,7 +54291,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-year.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-year.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54187,8 +54315,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a3014da6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a3014da6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-9534868e&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-9534868e&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54206,7 +54334,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".is-current-year[_v-a3014da6] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-year.vue","sourcesContent":[".is-current-year {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".is-current-year[_v-9534868e] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-year.vue","sourcesContent":[".is-current-year {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -54257,25 +54385,25 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 238 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-a3014da6=\"\">\n    <span _v-a3014da6=\"\">{{yearItem}}</span>\n</button>\n";
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-9534868e=\"\">\n    <span _v-9534868e=\"\">{{yearItem}}</span>\n</button>\n";
 
 /***/ },
 /* 239 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-year-panel\" _v-2560c038=\"\">\n    <table _v-2560c038=\"\">\n        <thead _v-2560c038=\"\">\n            <tr _v-2560c038=\"\">\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-2560c038=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-2560c038=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-2560c038=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-2560c038=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-2560c038=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-year-panel\" _v-b2efab20=\"\">\n    <table _v-b2efab20=\"\">\n        <thead _v-b2efab20=\"\">\n            <tr _v-b2efab20=\"\">\n                <th _v-b2efab20=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-b2efab20=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-b2efab20=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-b2efab20=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-b2efab20=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-b2efab20=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-b2efab20=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-b2efab20=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-b2efab20=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-b2efab20=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-b2efab20=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-b2efab20=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 240 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker\" _v-4d1fdbe6=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType =='day')\" _v-4d1fdbe6=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-4d1fdbe6=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType == 'month')\" _v-4d1fdbe6=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType == 'year')\" _v-4d1fdbe6=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker\" _v-60a4a701=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType =='day')\" _v-60a4a701=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-60a4a701=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType == 'month')\" _v-60a4a701=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-60a4a701=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType == 'year')\" _v-60a4a701=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-60a4a701=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
 
 /***/ },
 /* 241 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-field\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-2d0813fa=\"\">\n            </datepicker>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+	module.exports = "\n<div class=\"ms-date-field\" _v-6b331086=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-6b331086=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-6b331086=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-6b331086=\"\">\n            </datepicker>\n            <div _v-6b331086=\"\">\n                <span _v-6b331086=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-6b331086=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-6b331086=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-6b331086=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-6b331086=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-6b331086=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-6b331086=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-6b331086=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-6b331086=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
 
 /***/ },
 /* 242 */
@@ -54298,7 +54426,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/date-range-field.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/date-range-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54322,8 +54450,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b52a4d2c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b52a4d2c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a75d8614&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a75d8614&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54341,7 +54469,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-date-range-field .ms-calendar[_v-b52a4d2c] {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker[_v-b52a4d2c] {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button[_v-b52a4d2c] {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box[_v-b52a4d2c] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table[_v-b52a4d2c] {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr[_v-b52a4d2c] {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td[_v-b52a4d2c] {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous[_v-b52a4d2c] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button[_v-b52a4d2c] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next[_v-b52a4d2c] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button[_v-b52a4d2c] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right[_v-b52a4d2c] {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up[_v-b52a4d2c] {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down[_v-b52a4d2c] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EACnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,oBAAoB;EACpB,oBAAoB;CACrB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-field.vue","sourcesContent":[".ms-date-range-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-date-range-field .ms-calendar[_v-a75d8614] {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker[_v-a75d8614] {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button[_v-a75d8614] {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box[_v-a75d8614] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table[_v-a75d8614] {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr[_v-a75d8614] {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td[_v-a75d8614] {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous[_v-a75d8614] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button[_v-a75d8614] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next[_v-a75d8614] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button[_v-a75d8614] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right[_v-a75d8614] {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up[_v-a75d8614] {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down[_v-a75d8614] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EACnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,oBAAoB;EACpB,oBAAoB;CACrB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-field.vue","sourcesContent":[".ms-date-range-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -54438,6 +54566,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	        },
 	        "withTime": {
+	            type: Boolean,
+	            default: function _default() {
+	                return false;
+	            }
+	        },
+	        "isFocus": {
 	            type: Boolean,
 	            default: function _default() {
 	                return false;
@@ -54563,6 +54697,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
 	            }
 	        },
+	        "showCalendarInput": function showCalendarInput(e) {
+	            if (this.isFocus) {
+	                this.showCalendar(e);
+	            }
+	        },
 	        "dateAdapter": function dateAdapter(date) {
 	            if ((typeof date === "undefined" ? "undefined" : (0, _typeof3.default)(date)) === 'object') {
 	                return date;
@@ -54633,7 +54772,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-range.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54657,8 +54796,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-13da1b7d&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-13da1b7d&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2c7fad1e&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2c7fad1e&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54676,7 +54815,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-range[_v-13da1b7d] {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today[_v-13da1b7d] {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth[_v-13da1b7d] {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day[_v-13da1b7d] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button[_v-13da1b7d] {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th[_v-13da1b7d] {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center[_v-13da1b7d] {\n  text-align: center;\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,YAAY;CACb","file":"datepicker-range.vue","sourcesContent":[".ms-datepicker-range {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center {\n  text-align: center;\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-range[_v-2c7fad1e] {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today[_v-2c7fad1e] {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth[_v-2c7fad1e] {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day[_v-2c7fad1e] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button[_v-2c7fad1e] {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th[_v-2c7fad1e] {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center[_v-2c7fad1e] {\n  text-align: center;\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,YAAY;CACb","file":"datepicker-range.vue","sourcesContent":[".ms-datepicker-range {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center {\n  text-align: center;\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -54851,7 +54990,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-range-day.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range-day.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54875,8 +55014,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d974c68&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d974c68&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-10ba4dc0&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-10ba4dc0&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54894,7 +55033,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-today[_v-4d974c68] {\n  color: #00b3ee;\n}\n.ms-select-day[_v-4d974c68] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-4d974c68] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-range-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-today[_v-10ba4dc0] {\n  color: #00b3ee;\n}\n.ms-select-day[_v-10ba4dc0] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-10ba4dc0] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-range-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -55012,13 +55151,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 254 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-4d974c68=\"\">\n    <span _v-4d974c68=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
+	module.exports = "\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-10ba4dc0=\"\">\n    <span _v-10ba4dc0=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
 /* 255 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-range\" _v-2c7fad1e=\"\">\n    <table _v-2c7fad1e=\"\">\n        <thead _v-2c7fad1e=\"\">\n            <tr _v-2c7fad1e=\"\">\n                <th colspan=\"7\" _v-2c7fad1e=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-2c7fad1e=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-2c7fad1e=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-2c7fad1e=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-2c7fad1e=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-2c7fad1e=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-2c7fad1e=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-2c7fad1e=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 256 */
@@ -55041,7 +55180,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-time-panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-time-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55065,8 +55204,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7813fe00&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7813fe00&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55084,7 +55223,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-time-panel[_v-0abd7674] {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell[_v-0abd7674] {\n  display: table-cell;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-time-panel.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,oBAAoB;CACrB","file":"datepicker-time-panel.vue","sourcesContent":[".ms-time-panel {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell {\n  display: table-cell;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-time-panel[_v-7813fe00] {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell[_v-7813fe00] {\n  display: table-cell;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-time-panel.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,oBAAoB;CACrB","file":"datepicker-time-panel.vue","sourcesContent":[".ms-time-panel {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell {\n  display: table-cell;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -55211,7 +55350,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-hour.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-hour.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55235,8 +55374,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0290fee0&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0290fee0&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55309,7 +55448,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 264 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"form-inline\" _v-08aac958=\"\">\n    <div class=\"form-group\" _v-08aac958=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-08aac958=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-08aac958=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-08aac958=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"form-inline\" _v-0290fee0=\"\">\n    <div class=\"form-group\" _v-0290fee0=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-0290fee0=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-0290fee0=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-0290fee0=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
 
 /***/ },
 /* 265 */
@@ -55332,7 +55471,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-minute.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-minute.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55356,8 +55495,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2c0f8e10&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2c0f8e10&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55430,7 +55569,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 269 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"form-inline\" _v-4533dd84=\"\">\n    <div class=\"form-group\" _v-4533dd84=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-4533dd84=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-4533dd84=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-4533dd84=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"form-inline\" _v-2c0f8e10=\"\">\n    <div class=\"form-group\" _v-2c0f8e10=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-2c0f8e10=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-2c0f8e10=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-2c0f8e10=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
 
 /***/ },
 /* 270 */
@@ -55453,7 +55592,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-second.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-second.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55477,8 +55616,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-534e0720&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-534e0720&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55551,19 +55690,19 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 274 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"form-inline\" _v-21056838=\"\">\n    <div class=\"form-group\" _v-21056838=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-21056838=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-21056838=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-21056838=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"form-inline\" _v-534e0720=\"\">\n    <div class=\"form-group\" _v-534e0720=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-534e0720=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-534e0720=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-534e0720=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
 
 /***/ },
 /* 275 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-time-panel\" _v-0abd7674=\"\">\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-0abd7674=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-0abd7674=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-0abd7674=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-time-panel\" _v-7813fe00=\"\">\n    <div class=\"ms-time-cell\" _v-7813fe00=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-7813fe00=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-7813fe00=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-7813fe00=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-7813fe00=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-7813fe00=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-7813fe00=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
 
 /***/ },
 /* 276 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-range-field\" _v-b52a4d2c=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-b52a4d2c=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-b52a4d2c=\"\">\n            <div class=\"ms-datepicker-table\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-b52a4d2c=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-b52a4d2c=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td\" _v-b52a4d2c=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-b52a4d2c=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-b52a4d2c=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-b52a4d2c=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-b52a4d2c=\"\">\n                    <span _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-b52a4d2c=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-b52a4d2c=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-b52a4d2c=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-b52a4d2c=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-b52a4d2c=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-b52a4d2c=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-b52a4d2c=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-date-range-field\" _v-a75d8614=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-a75d8614=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-a75d8614=\"\">\n            <div class=\"ms-datepicker-table\" _v-a75d8614=\"\">\n                <div class=\"ms-datepicker-tr\" _v-a75d8614=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-a75d8614=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-a75d8614=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-a75d8614=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-a75d8614=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-a75d8614=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-a75d8614=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-a75d8614=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-a75d8614=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-a75d8614=\"\">\n                <div class=\"ms-datepicker-tr\" _v-a75d8614=\"\">\n                    <div class=\"ms-datepicker-td\" _v-a75d8614=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-a75d8614=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-a75d8614=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-a75d8614=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-a75d8614=\"\">\n                    <span _v-a75d8614=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-a75d8614=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-a75d8614=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-a75d8614=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-a75d8614=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-a75d8614=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendar($event)\" _v-a75d8614=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-a75d8614=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-a75d8614=\"\"></span>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 277 */
@@ -55586,7 +55725,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/date-range-single-field.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/date-range-single-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55610,8 +55749,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0c39fd75&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0c39fd75&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7a12c469&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7a12c469&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55629,7 +55768,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-date-range-single-field .ms-calendar[_v-0c39fd75] {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker[_v-0c39fd75] {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box[_v-0c39fd75] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right[_v-0c39fd75] {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up[_v-0c39fd75] {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down[_v-0c39fd75] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-single-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-single-field.vue","sourcesContent":[".ms-date-range-single-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-date-range-single-field .ms-calendar[_v-7a12c469] {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker[_v-7a12c469] {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box[_v-7a12c469] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right[_v-7a12c469] {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up[_v-7a12c469] {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down[_v-7a12c469] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-single-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-single-field.vue","sourcesContent":[".ms-date-range-single-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -55698,6 +55837,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        "isDisabled": {
 	            type: Function
+	        },
+	        "isFocus": {
+	            type: Boolean,
+	            default: function _default() {
+	                return false;
+	            }
 	        }
 	    },
 	    data: function data() {
@@ -55806,6 +55951,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
 	            }
 	        },
+	        "showCalendarInput": function showCalendarInput(e) {
+	            if (this.isFocus) {
+	                this.showCalendar(e);
+	            }
+	        },
 	        "onClose": function onClose() {
 	            var me = this;
 	            me.calendarShow = false;
@@ -55852,7 +56002,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-range-single.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range-single.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55876,8 +56026,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f7c80b70&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f7c80b70&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5d47dc58&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5d47dc58&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55895,7 +56045,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-range-single .ms-day-panel[_v-f7c80b70] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel[_v-f7c80b70] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel[_v-f7c80b70] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-single.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker-range-single.vue","sourcesContent":[".ms-datepicker-range-single .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-range-single .ms-day-panel[_v-5d47dc58] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel[_v-5d47dc58] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel[_v-5d47dc58] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-single.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker-range-single.vue","sourcesContent":[".ms-datepicker-range-single .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -55986,7 +56136,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/picker/date/datepicker-range-day-panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range-day-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56010,8 +56160,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-57436d43&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-57436d43&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0cb79a37&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0cb79a37&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56029,7 +56179,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-range-day-panel[_v-57436d43] {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button[_v-57436d43] {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th[_v-57436d43] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-range-day-panel.vue","sourcesContent":[".ms-datepicker-range-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-range-day-panel[_v-0cb79a37] {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button[_v-0cb79a37] {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th[_v-0cb79a37] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-range-day-panel.vue","sourcesContent":[".ms-datepicker-range-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56199,19 +56349,19 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 289 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-range-day-panel\" _v-57436d43=\"\">\n    <table _v-57436d43=\"\">\n        <thead _v-57436d43=\"\">\n            <tr _v-57436d43=\"\">\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-57436d43=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-57436d43=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-57436d43=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-57436d43=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-57436d43=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-57436d43=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-57436d43=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-range-day-panel\" _v-0cb79a37=\"\">\n    <table _v-0cb79a37=\"\">\n        <thead _v-0cb79a37=\"\">\n            <tr _v-0cb79a37=\"\">\n                <th _v-0cb79a37=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-0cb79a37=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-0cb79a37=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-0cb79a37=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-0cb79a37=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-0cb79a37=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-0cb79a37=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-0cb79a37=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-0cb79a37=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-0cb79a37=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-0cb79a37=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-0cb79a37=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-0cb79a37=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-0cb79a37=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 290 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-datepicker-range-single\" _v-f7c80b70=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-f7c80b70=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-f7c80b70=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-f7c80b70=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-f7c80b70=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-datepicker-range-single\" _v-5d47dc58=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-5d47dc58=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-5d47dc58=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-5d47dc58=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-5d47dc58=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-5d47dc58=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-5d47dc58=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
 
 /***/ },
 /* 291 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-range-single-field\" _v-0c39fd75=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-0c39fd75=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-0c39fd75=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-0c39fd75=\"\">\n            </datepicker-range-single>\n            <div _v-0c39fd75=\"\">\n                <span _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-0c39fd75=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-0c39fd75=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-0c39fd75=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-0c39fd75=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-0c39fd75=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-0c39fd75=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-0c39fd75=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-date-range-single-field\" _v-7a12c469=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-7a12c469=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-7a12c469=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-7a12c469=\"\">\n            </datepicker-range-single>\n            <div _v-7a12c469=\"\">\n                <span _v-7a12c469=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-7a12c469=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-7a12c469=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-7a12c469=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-7a12c469=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-7a12c469=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-7a12c469=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-7a12c469=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-7a12c469=\"\"></span>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 292 */
@@ -56234,7 +56384,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/form/field/ueditor-field.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/ueditor-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56366,7 +56516,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/tree-list.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/tree/tree-list.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56390,8 +56540,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5e866fe6&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5e866fe6&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1c00ddfe&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1c00ddfe&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56409,7 +56559,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "ul.ms-tree-list[_v-5e866fe6] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li[_v-5e866fe6] {\n  position: relative;\n}\nul.ms-tree-list > li > a[_v-5e866fe6] {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a[_v-5e866fe6]:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open[_v-5e866fe6] {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i[_v-5e866fe6] {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu[_v-5e866fe6] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li[_v-5e866fe6] {\n  position: relative;\n}\nul.ms-tree-menu > li > a[_v-5e866fe6] {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a[_v-5e866fe6]:hover {\n  color: white;\n}\n", "", {"version":3,"sources":["/./src/tree/tree-list.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;CACX;AACD;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;EACZ,oBAAoB;CACrB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,aAAa;CACd","file":"tree-list.vue","sourcesContent":["ul.ms-tree-list {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li {\n  position: relative;\n}\nul.ms-tree-list > li > a {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li {\n  position: relative;\n}\nul.ms-tree-menu > li > a {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a:hover {\n  color: white;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "ul.ms-tree-list[_v-1c00ddfe] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li[_v-1c00ddfe] {\n  position: relative;\n}\nul.ms-tree-list > li > a[_v-1c00ddfe] {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a[_v-1c00ddfe]:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open[_v-1c00ddfe] {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i[_v-1c00ddfe] {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu[_v-1c00ddfe] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li[_v-1c00ddfe] {\n  position: relative;\n}\nul.ms-tree-menu > li > a[_v-1c00ddfe] {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a[_v-1c00ddfe]:hover {\n  color: white;\n}\n", "", {"version":3,"sources":["/./src/tree/tree-list.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;CACX;AACD;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;EACZ,oBAAoB;CACrB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,aAAa;CACd","file":"tree-list.vue","sourcesContent":["ul.ms-tree-list {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li {\n  position: relative;\n}\nul.ms-tree-list > li > a {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li {\n  position: relative;\n}\nul.ms-tree-menu > li > a {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a:hover {\n  color: white;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56495,7 +56645,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 301 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-5e866fe6=\"\">\n    <li v-for=\"(index,item) in items\" _v-5e866fe6=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-5e866fe6=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-5e866fe6=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-5e866fe6=\"\"></tree-list>\n    </li>\n\n</ul>\n";
+	module.exports = "\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-1c00ddfe=\"\">\n    <li v-for=\"(index,item) in items\" _v-1c00ddfe=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-1c00ddfe=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-1c00ddfe=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-1c00ddfe=\"\"></tree-list>\n    </li>\n\n</ul>\n";
 
 /***/ },
 /* 302 */
@@ -56518,7 +56668,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/tree/panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/tree/panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56542,8 +56692,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-94097db8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-94097db8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1750a418&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1750a418&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56561,7 +56711,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "ul[_v-94097db8] {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel[_v-94097db8] {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox[_v-94097db8] {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label[_v-94097db8] {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox][_v-94097db8] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/tree/panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,WAAW;EACX,kBAAkB;EAClB,sBAAsB;CACvB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,0BAA0B;EAC1B,6BAA6B;EAC7B,2BAA2B;CAC5B;AACD;EACE,gBAAgB;EAChB,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;CACxB","file":"panel.vue","sourcesContent":["ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "ul[_v-1750a418] {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel[_v-1750a418] {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox[_v-1750a418] {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label[_v-1750a418] {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox][_v-1750a418] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/tree/panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,WAAW;EACX,kBAAkB;EAClB,sBAAsB;CACvB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,0BAA0B;EAC1B,6BAA6B;EAC7B,2BAA2B;CAC5B;AACD;EACE,gBAAgB;EAChB,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;CACxB","file":"panel.vue","sourcesContent":["ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56630,7 +56780,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 306 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" value=\"{{item[id]}}\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
+	module.exports = "\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-1750a418=\"\">\n    <li v-for=\"(index,item) in store\" _v-1750a418=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-1750a418=\"\">\n            <label _v-1750a418=\"\">\n                <input type=\"checkbox\" v-model=\"value\" value=\"{{item[id]}}\" v-if=\"showCheckbox\" _v-1750a418=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-1750a418=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
 
 /***/ },
 /* 307 */
@@ -56653,7 +56803,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/panel.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56677,8 +56827,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-70cc3268&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-70cc3268&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-28ef49c0&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-28ef49c0&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56696,7 +56846,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".grid-panel[_v-70cc3268] {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show[_v-70cc3268] {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered[_v-70cc3268] {\n  border: 0px;\n}\n.grid-panel .grid-header .table[_v-70cc3268] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th[_v-70cc3268] {\n  min-height: 47px;\n  border-bottom: 0px;\n}\n.grid-panel .grid-header-line[_v-70cc3268] {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box[_v-70cc3268] {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading[_v-70cc3268] {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body[_v-70cc3268] {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table[_v-70cc3268] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr[_v-70cc3268] {\n  min-height: 47px;\n}\n", "", {"version":3,"sources":["/./src/grid/panel.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,mBAAmB;CACpB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;EACjB,mBAAmB;CACpB;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,UAAU;EACV,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;CAClB","file":"panel.vue","sourcesContent":[".grid-panel {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered {\n  border: 0px;\n}\n.grid-panel .grid-header .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th {\n  min-height: 47px;\n  border-bottom: 0px;\n}\n.grid-panel .grid-header-line {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr {\n  min-height: 47px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".grid-panel[_v-28ef49c0] {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show[_v-28ef49c0] {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered[_v-28ef49c0] {\n  border: 0px;\n}\n.grid-panel .grid-header .table[_v-28ef49c0] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th[_v-28ef49c0] {\n  min-height: 47px;\n  border-bottom: 0px;\n}\n.grid-panel .grid-header-line[_v-28ef49c0] {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box[_v-28ef49c0] {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading[_v-28ef49c0] {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body[_v-28ef49c0] {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table[_v-28ef49c0] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr[_v-28ef49c0] {\n  min-height: 47px;\n}\n", "", {"version":3,"sources":["/./src/grid/panel.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,mBAAmB;CACpB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;EACjB,mBAAmB;CACpB;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,UAAU;EACV,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;CAClB","file":"panel.vue","sourcesContent":[".grid-panel {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered {\n  border: 0px;\n}\n.grid-panel .grid-header .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th {\n  min-height: 47px;\n  border-bottom: 0px;\n}\n.grid-panel .grid-header-line {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr {\n  min-height: 47px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56948,7 +57098,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/header/header.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/header/header.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57164,7 +57314,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/toolbar/paging.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/toolbar/paging.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57188,8 +57338,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-d9da531e&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-d9da531e&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-9754c136&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-9754c136&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -57207,7 +57357,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-paging[_v-d9da531e] {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon[_v-d9da531e] {\n  cursor: pointer;\n}\n.ms-paging .tbspacer[_v-d9da531e] {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator[_v-d9da531e] {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num[_v-d9da531e] {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left[_v-d9da531e] {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right[_v-d9da531e] {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled[_v-d9da531e] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/toolbar/paging.vue"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;CACnB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,+BAA+B;EAC/B,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,cAAc;CACf;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,oBAAoB;CACrB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"paging.vue","sourcesContent":[".ms-paging {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon {\n  cursor: pointer;\n}\n.ms-paging .tbspacer {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-paging[_v-9754c136] {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon[_v-9754c136] {\n  cursor: pointer;\n}\n.ms-paging .tbspacer[_v-9754c136] {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator[_v-9754c136] {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num[_v-9754c136] {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left[_v-9754c136] {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right[_v-9754c136] {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled[_v-9754c136] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/toolbar/paging.vue"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;CACnB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,+BAA+B;EAC/B,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,cAAc;CACf;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,oBAAoB;CACrB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"paging.vue","sourcesContent":[".ms-paging {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon {\n  cursor: pointer;\n}\n.ms-paging .tbspacer {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -57354,7 +57504,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 321 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-paging\" _v-d9da531e=\"\">\n    <div class=\"ms-paging-left\" _v-d9da531e=\"\">\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span _v-d9da531e=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-d9da531e=\"\">\n        <span _v-d9da531e=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-d9da531e=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-d9da531e=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-paging\" _v-9754c136=\"\">\n    <div class=\"ms-paging-left\" _v-9754c136=\"\">\n        <span class=\"tbspacer\" _v-9754c136=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-9754c136=\"\"></span>\n        <span class=\"tbspacer\" _v-9754c136=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-9754c136=\"\"></span>\n        <span class=\"tbspacer\" _v-9754c136=\"\"></span>\n        <span class=\"tbseparator\" _v-9754c136=\"\"></span>\n        <span _v-9754c136=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-9754c136=\"\">\n        <span _v-9754c136=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-9754c136=\"\"></span>\n        <span class=\"tbspacer\" _v-9754c136=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-9754c136=\"\"></span>\n        <span class=\"tbspacer\" _v-9754c136=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-9754c136=\"\"></span>\n        <span class=\"tbspacer\" _v-9754c136=\"\"></span>\n        <span class=\"tbseparator\" _v-9754c136=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-9754c136=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-9754c136=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
 
 /***/ },
 /* 322 */
@@ -57377,7 +57527,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/text.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/text.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57547,7 +57697,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/link.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/link.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57664,7 +57814,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/action.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/action.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57770,7 +57920,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/grid/column/action/item.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/action/item.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57794,8 +57944,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-173590fb&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue", function() {
-				var newContent = require("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-173590fb&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue");
+			module.hot.accept("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-76939a87&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue", function() {
+				var newContent = require("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-76939a87&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -57813,7 +57963,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-grid-action-item[_v-173590fb] {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box[_v-173590fb] {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip[_v-173590fb] {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled[_v-173590fb] {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/grid/column/action/item.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,gBAAgB;EAChB,qCAAqC;EACrC,mBAAmB;EACnB,aAAa;EACb,oBAAoB;EACpB,WAAW;EACX,aAAa;CACd;AACD;EACE,aAAa;EACb,gBAAgB;EAChB,qBAAqB;CACtB","file":"item.vue","sourcesContent":[".ms-grid-action-item {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-grid-action-item[_v-76939a87] {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box[_v-76939a87] {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip[_v-76939a87] {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled[_v-76939a87] {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/grid/column/action/item.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,gBAAgB;EAChB,qCAAqC;EACrC,mBAAmB;EACnB,aAAa;EACb,oBAAoB;EACpB,WAAW;EACX,aAAa;CACd;AACD;EACE,aAAa;EACb,gBAAgB;EAChB,qBAAqB;CACtB","file":"item.vue","sourcesContent":[".ms-grid-action-item {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -57931,7 +58081,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 341 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div v-if=\"!hidden\" class=\"ms-grid-action-item\" _v-173590fb=\"\">\n    <div role=\"button\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" @mouseover=\"showTooltip($event)\" @mouseout=\"hideTooltip()\" _v-173590fb=\"\">\n        {{item.text}}\n    </div>\n    <div class=\"ms-grid-action-item-tooltip-box\" v-if=\"tooltipShowCompute\" _v-173590fb=\"\">\n        <div class=\"ms-grid-action-item-tooltip\" :style=\"[tooltipPosition]\" _v-173590fb=\"\">\n                {{item.tooltip}}\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div v-if=\"!hidden\" class=\"ms-grid-action-item\" _v-76939a87=\"\">\n    <div role=\"button\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" @mouseover=\"showTooltip($event)\" @mouseout=\"hideTooltip()\" _v-76939a87=\"\">\n        {{item.text}}\n    </div>\n    <div class=\"ms-grid-action-item-tooltip-box\" v-if=\"tooltipShowCompute\" _v-76939a87=\"\">\n        <div class=\"ms-grid-action-item-tooltip\" :style=\"[tooltipPosition]\" _v-76939a87=\"\">\n                {{item.tooltip}}\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 342 */
@@ -57961,7 +58111,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 344 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"grid-panel\" _v-70cc3268=\"\">\n    <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-70cc3268=\"\">\n        <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n            <thead _v-70cc3268=\"\">\n                <tr _v-70cc3268=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-70cc3268=\"\"></div>\n    <div class=\"grid-body-box\" _v-70cc3268=\"\">\n        <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight,minHeight]\" _v-70cc3268=\"\">\n            <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n                <tbody _v-70cc3268=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-70cc3268=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store.sync=\"store\" :record.sync=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></td>\n                </tr>\n                </tbody>\n            </table>\n            <div v-if=\"isEmpty\" _v-70cc3268=\"\">{{{emptyText}}}</div>\n        </div>\n        <div class=\"ms-grid-loading\" v-if=\"isLoading\" :style=\"[loadingBackground]\" _v-70cc3268=\"\"></div>\n    </div>\n    <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-70cc3268=\"\">\n        <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-70cc3268=\"\">\n        </component>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"grid-panel\" _v-28ef49c0=\"\">\n    <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-28ef49c0=\"\">\n        <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-28ef49c0=\"\">\n            <thead _v-28ef49c0=\"\">\n                <tr _v-28ef49c0=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-28ef49c0=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-28ef49c0=\"\"></div>\n    <div class=\"grid-body-box\" _v-28ef49c0=\"\">\n        <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight,minHeight]\" _v-28ef49c0=\"\">\n            <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-28ef49c0=\"\">\n                <tbody _v-28ef49c0=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-28ef49c0=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store.sync=\"store\" :record.sync=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-28ef49c0=\"\"></td>\n                </tr>\n                </tbody>\n            </table>\n            <div v-if=\"isEmpty\" _v-28ef49c0=\"\">{{{emptyText}}}</div>\n        </div>\n        <div class=\"ms-grid-loading\" v-if=\"isLoading\" :style=\"[loadingBackground]\" _v-28ef49c0=\"\"></div>\n    </div>\n    <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-28ef49c0=\"\">\n        <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-28ef49c0=\"\">\n        </component>\n    </div>\n</div>\n";
 
 /***/ },
 /* 345 */
@@ -57984,7 +58134,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/MessageBox/alert.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/window/MessageBox/alert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58008,8 +58158,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2eaa1baf&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2eaa1baf&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-e3efb58a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-e3efb58a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58027,7 +58177,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-alert .modal-footer[_v-2eaa1baf] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/alert.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"alert.vue","sourcesContent":[".ms-alert .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-alert .modal-footer[_v-e3efb58a] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/alert.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"alert.vue","sourcesContent":[".ms-alert .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -58138,7 +58288,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 350 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div v-if=\"isShow\" class=\"ms-alert\" _v-2eaa1baf=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-2eaa1baf=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-2eaa1baf=\"\">\n            <div class=\"modal-content\" _v-2eaa1baf=\"\">\n\n                <div class=\"modal-header\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-2eaa1baf=\"\"><span aria-hidden=\"true\" _v-2eaa1baf=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-2eaa1baf=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-2eaa1baf=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-2eaa1baf=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-2eaa1baf=\"\"></div>\n</div>\n";
+	module.exports = "\n<div v-if=\"isShow\" class=\"ms-alert\" _v-e3efb58a=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-e3efb58a=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-e3efb58a=\"\">\n            <div class=\"modal-content\" _v-e3efb58a=\"\">\n\n                <div class=\"modal-header\" _v-e3efb58a=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-e3efb58a=\"\"><span aria-hidden=\"true\" _v-e3efb58a=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-e3efb58a=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-e3efb58a=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-e3efb58a=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-e3efb58a=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-e3efb58a=\"\"></div>\n</div>\n";
 
 /***/ },
 /* 351 */
@@ -58161,7 +58311,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/MessageBox/confirm.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/window/MessageBox/confirm.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58185,8 +58335,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-8ed0b75a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-8ed0b75a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-8ecd0a42&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-8ecd0a42&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58204,7 +58354,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-confirm .modal-footer[_v-8ed0b75a] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/confirm.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"confirm.vue","sourcesContent":[".ms-confirm .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-confirm .modal-footer[_v-8ecd0a42] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/confirm.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"confirm.vue","sourcesContent":[".ms-confirm .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -58267,7 +58417,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 355 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-8ed0b75a=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-8ed0b75a=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-8ed0b75a=\"\">\n            <div class=\"modal-content\" _v-8ed0b75a=\"\">\n\n                <div class=\"modal-header\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-8ed0b75a=\"\"><span aria-hidden=\"true\" _v-8ed0b75a=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-8ed0b75a=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-8ed0b75a=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-8ed0b75a=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-8ed0b75a=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-8ed0b75a=\"\"></div>\n</div>\n";
+	module.exports = "\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-8ecd0a42=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-8ecd0a42=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-8ecd0a42=\"\">\n            <div class=\"modal-content\" _v-8ecd0a42=\"\">\n\n                <div class=\"modal-header\" _v-8ecd0a42=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-8ecd0a42=\"\"><span aria-hidden=\"true\" _v-8ecd0a42=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-8ecd0a42=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-8ecd0a42=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-8ecd0a42=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-8ecd0a42=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-8ecd0a42=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-8ecd0a42=\"\"></div>\n</div>\n";
 
 /***/ },
 /* 356 */
@@ -58290,7 +58440,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/window/modal.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/window/modal.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58398,7 +58548,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/fengxiaotx/Develop/workspace/nodejs/npm/vue-component-strap/src/player/video.vue"
+	  var id = "/Users/apple/data/github/vue-component-strap/src/player/video.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58422,8 +58572,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-af7d4544&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-af7d4544&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-09c9d352&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-09c9d352&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58441,7 +58591,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-video[_v-af7d4544] {\n  position: relative;\n}\n", "", {"version":3,"sources":["/./src/player/video.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;CACpB","file":"video.vue","sourcesContent":[".ms-video {\n  position: relative;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-video[_v-09c9d352] {\n  position: relative;\n}\n", "", {"version":3,"sources":["/./src/player/video.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;CACpB","file":"video.vue","sourcesContent":[".ms-video {\n  position: relative;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -85492,7 +85642,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 370 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-video\" :style=\"[sizeStyle]\" _v-af7d4544=\"\">\n    <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-af7d4544=\"\">\n        <source :src=\"src\" :type=\"type\" _v-af7d4544=\"\">\n        <p class=\"vjs-no-js\" _v-af7d4544=\"\">\n            To view this video please enable JavaScript, and consider upgrading to a web browser that\n            <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\" _v-af7d4544=\"\">supports HTML5 video</a>\n        </p>\n    </video>\n</div>\n";
+	module.exports = "\n<div class=\"ms-video\" :style=\"[sizeStyle]\" _v-09c9d352=\"\">\n    <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-09c9d352=\"\">\n        <source :src=\"src\" :type=\"type\" _v-09c9d352=\"\">\n        <p class=\"vjs-no-js\" _v-09c9d352=\"\">\n            To view this video please enable JavaScript, and consider upgrading to a web browser that\n            <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\" _v-09c9d352=\"\">supports HTML5 video</a>\n        </p>\n    </video>\n</div>\n";
 
 /***/ }
 /******/ ])
