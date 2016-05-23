@@ -38319,12 +38319,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        "isDisabled": {
 	            type: Function
-	        },
-	        "isFocus": {
-	            type: Boolean,
-	            default: function _default() {
-	                return false;
-	            }
 	        }
 	    },
 	    data: function data() {
@@ -38403,11 +38397,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            } else {
 	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-up");
 	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
-	            }
-	        },
-	        "showCalendarInput": function showCalendarInput(e) {
-	            if (this.isFocus) {
-	                this.showCalendar(e);
 	            }
 	        },
 	        "dayItemClick": function dayItemClick() {
@@ -54403,7 +54392,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 241 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-field\" _v-6b331086=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-6b331086=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-6b331086=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-6b331086=\"\">\n            </datepicker>\n            <div _v-6b331086=\"\">\n                <span _v-6b331086=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-6b331086=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-6b331086=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-6b331086=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-6b331086=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-6b331086=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-6b331086=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-6b331086=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-6b331086=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+	module.exports = "\n<div class=\"ms-date-field\" _v-6b331086=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-6b331086=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-6b331086=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-6b331086=\"\">\n            </datepicker>\n            <div _v-6b331086=\"\">\n                <span _v-6b331086=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-6b331086=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-6b331086=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-6b331086=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-6b331086=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-6b331086=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" _v-6b331086=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-6b331086=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-6b331086=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
 
 /***/ },
 /* 242 */
@@ -54570,12 +54559,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            default: function _default() {
 	                return false;
 	            }
-	        },
-	        "isFocus": {
-	            type: Boolean,
-	            default: function _default() {
-	                return false;
-	            }
 	        }
 	    },
 	    data: function data() {
@@ -54695,11 +54678,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            } else {
 	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-up");
 	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
-	            }
-	        },
-	        "showCalendarInput": function showCalendarInput(e) {
-	            if (this.isFocus) {
-	                this.showCalendar(e);
 	            }
 	        },
 	        "dateAdapter": function dateAdapter(date) {
@@ -55702,7 +55680,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 276 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-range-field\" _v-a75d8614=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-a75d8614=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-a75d8614=\"\">\n            <div class=\"ms-datepicker-table\" _v-a75d8614=\"\">\n                <div class=\"ms-datepicker-tr\" _v-a75d8614=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-a75d8614=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-a75d8614=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-a75d8614=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-a75d8614=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-a75d8614=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-a75d8614=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-a75d8614=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-a75d8614=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-a75d8614=\"\">\n                <div class=\"ms-datepicker-tr\" _v-a75d8614=\"\">\n                    <div class=\"ms-datepicker-td\" _v-a75d8614=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-a75d8614=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-a75d8614=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-a75d8614=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-a75d8614=\"\">\n                    <span _v-a75d8614=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-a75d8614=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-a75d8614=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-a75d8614=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-a75d8614=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-a75d8614=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendar($event)\" _v-a75d8614=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-a75d8614=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-a75d8614=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-date-range-field\" _v-a75d8614=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-a75d8614=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-a75d8614=\"\">\n            <div class=\"ms-datepicker-table\" _v-a75d8614=\"\">\n                <div class=\"ms-datepicker-tr\" _v-a75d8614=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-a75d8614=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-a75d8614=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-a75d8614=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-a75d8614=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-a75d8614=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-a75d8614=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-a75d8614=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-a75d8614=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-a75d8614=\"\">\n                <div class=\"ms-datepicker-tr\" _v-a75d8614=\"\">\n                    <div class=\"ms-datepicker-td\" _v-a75d8614=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-a75d8614=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-a75d8614=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-a75d8614=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-a75d8614=\"\">\n                    <span _v-a75d8614=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-a75d8614=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-a75d8614=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-a75d8614=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-a75d8614=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-a75d8614=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-a75d8614=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-a75d8614=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-a75d8614=\"\"></span>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 277 */
@@ -55837,12 +55815,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        "isDisabled": {
 	            type: Function
-	        },
-	        "isFocus": {
-	            type: Boolean,
-	            default: function _default() {
-	                return false;
-	            }
 	        }
 	    },
 	    data: function data() {
@@ -55949,11 +55921,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	            } else {
 	                _vue2.default.util.addClass(me.$els.datePicker, "ms-picker-box-up");
 	                _vue2.default.util.removeClass(me.$els.datePicker, "ms-picker-box-down");
-	            }
-	        },
-	        "showCalendarInput": function showCalendarInput(e) {
-	            if (this.isFocus) {
-	                this.showCalendar(e);
 	            }
 	        },
 	        "onClose": function onClose() {
@@ -56361,7 +56328,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 291 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"ms-date-range-single-field\" _v-7a12c469=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-7a12c469=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-7a12c469=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-7a12c469=\"\">\n            </datepicker-range-single>\n            <div _v-7a12c469=\"\">\n                <span _v-7a12c469=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-7a12c469=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-7a12c469=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-7a12c469=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-7a12c469=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-7a12c469=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-7a12c469=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-7a12c469=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-7a12c469=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"ms-date-range-single-field\" _v-7a12c469=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-7a12c469=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-7a12c469=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-7a12c469=\"\">\n            </datepicker-range-single>\n            <div _v-7a12c469=\"\">\n                <span _v-7a12c469=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-7a12c469=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-7a12c469=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-7a12c469=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-7a12c469=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-7a12c469=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" _v-7a12c469=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-7a12c469=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-7a12c469=\"\"></span>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 292 */
