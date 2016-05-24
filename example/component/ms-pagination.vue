@@ -7,12 +7,11 @@ Time: 20:51-->
 <template>
     <div>
         <!-- <ms-alert :is-show.sync="alertConfig.show" :message.sync="alertConfig.meaage"></ma-alert> -->
-        <ms-paginations :current-page="currentPage"></ms-paginations>
+        <ms-pagination :current-page="currentPage" :total="total"></ms-pagination>
     </div>
 </template>
 <script>
-    import {msAlert} from "../../src/index";
-    import msPaginations from "../../src/toolbar/pagination.vue";
+    import {msAlert,msPagination} from "../../src/index";
     export default{
         data(){
             return {
@@ -20,11 +19,12 @@ Time: 20:51-->
                     "show":true,
                     "message":"sdsd"
                 },
-                "currentPage":2
+                "currentPage":2,
+                "total":20
             }
         },
         components:{
-             msPaginations,
+             msPagination,
             msAlert
         }
     }

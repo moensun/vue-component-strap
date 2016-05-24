@@ -6,6 +6,9 @@
         props:{
             "currentPage":{
                 
+            },
+            "total":{
+
             }
         }
     }
