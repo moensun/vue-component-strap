@@ -126,18 +126,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _video2 = _interopRequireDefault(_video);
 	
+	var _pagination = __webpack_require__(371);
+	
+	var _pagination2 = _interopRequireDefault(_pagination);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	//import "./export";
 	
-	/*datepicker*/
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 2016/3/31
-	 * Time: 22:02
-	 */
 	var MoenSunStrap = {
 		msDatepicker: _datepicker2.default,
 		msDatepickerRange: _datepickerRange2.default,
@@ -155,8 +151,19 @@ return /******/ (function(modules) { // webpackBootstrap
 		msAlert: _alert2.default,
 		msConfirm: _confirm2.default,
 		msModal: _modal2.default,
-		msVideo: _video2.default
+		msVideo: _video2.default,
+		msPagination: _pagination2.default
 	};
+	
+	/*datepicker*/
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 2016/3/31
+	 * Time: 22:02
+	 */
+	
 	
 	module.exports = MoenSunStrap;
 
@@ -85643,6 +85650,195 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ms-video\" :style=\"[sizeStyle]\" _v-09c9d352=\"\">\n    <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-09c9d352=\"\">\n        <source :src=\"src\" :type=\"type\" _v-09c9d352=\"\">\n        <p class=\"vjs-no-js\" _v-09c9d352=\"\">\n            To view this video please enable JavaScript, and consider upgrading to a web browser that\n            <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\" _v-09c9d352=\"\">supports HTML5 video</a>\n        </p>\n    </video>\n</div>\n";
+
+/***/ },
+/* 371 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(372)
+	__vue_script__ = __webpack_require__(374)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/toolbar/pagination.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(375)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/apple/data/github/vue-component-strap/src/toolbar/pagination.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 372 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(373);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7c9c7ff3&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./pagination.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7c9c7ff3&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./pagination.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 373 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "div.dataTables_paginate[_v-7c9c7ff3] {\n  float: right;\n  margin: 0;\n}\n.pagination[_v-7c9c7ff3] {\n  margin: 20px 0;\n}\n.pagination ul[_v-7c9c7ff3] {\n  display: inline-block;\n  margin-bottom: 0;\n  margin-left: 0;\n  border-radius: 4px;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  padding: 0px;\n}\n.pagination ul > li[_v-7c9c7ff3] {\n  display: inline;\n}\n.pagination ul > li > a[_v-7c9c7ff3],\n.pagination ul > li > span[_v-7c9c7ff3] {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:first-child > a[_v-7c9c7ff3],\n.pagination ul > li:first-child > span[_v-7c9c7ff3] {\n  border-left-width: 1px;\n  border-bottom-left-radius: 4px;\n  border-top-left-radius: 4px;\n  -moz-border-radius-bottomleft: 4px;\n  -moz-border-radius-topleft: 4px;\n}\n.pagination ul > li[_v-7c9c7ff3] {\n  display: inline;\n}\n.pagination ul > .active > a[_v-7c9c7ff3],\n.pagination ul > .active > span[_v-7c9c7ff3] {\n  color: #999;\n  cursor: default;\n}\n.pagination ul > li > a[_v-7c9c7ff3]:hover,\n.pagination ul > li > a[_v-7c9c7ff3]:focus,\n.pagination ul > .active > a[_v-7c9c7ff3],\n.pagination ul > .active > span[_v-7c9c7ff3] {\n  background-color: #f5f5f5;\n}\n.pagination ul > li > a[_v-7c9c7ff3],\n.pagination ul > li > span[_v-7c9c7ff3] {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:last-child > a[_v-7c9c7ff3],\n.pagination ul > li:last-child > span[_v-7c9c7ff3] {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  -moz-border-radius-topright: 4px;\n  -moz-border-radius-bottomright: 4px;\n}\n.pagination ul > .disabled > span[_v-7c9c7ff3],\n.pagination ul > .disabled > a[_v-7c9c7ff3],\n.pagination ul > .disabled > a[_v-7c9c7ff3]:hover,\n.pagination ul > .disabled > a[_v-7c9c7ff3]:focus {\n  color: #999;\n  cursor: default;\n  background-color: transparent;\n}\n.pagination ul > li > a[_v-7c9c7ff3],\n.pagination ul > li > span[_v-7c9c7ff3] {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n  cursor: pointer;\n}\n", "", {"version":3,"sources":["/./src/toolbar/pagination.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,UAAU;CACX;AACD;EACE,eAAe;CAChB;AACD;EACE,sBAAsB;EACtB,iBAAiB;EACjB,eAAe;EACf,mBAAmB;EACnB,0CAA0C;EAC1C,aAAa;CACd;AACD;EACE,gBAAgB;CACjB;AACD;;EAEE,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,sBAAsB;EACtB,uBAAuB;EACvB,uBAAuB;EACvB,qBAAqB;CACtB;AACD;;EAEE,uBAAuB;EACvB,+BAA+B;EAC/B,4BAA4B;EAC5B,mCAAmC;EACnC,gCAAgC;CACjC;AACD;EACE,gBAAgB;CACjB;AACD;;EAEE,YAAY;EACZ,gBAAgB;CACjB;AACD;;;;EAIE,0BAA0B;CAC3B;AACD;;EAEE,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,sBAAsB;EACtB,uBAAuB;EACvB,uBAAuB;EACvB,qBAAqB;CACtB;AACD;;EAEE,6BAA6B;EAC7B,gCAAgC;EAChC,iCAAiC;EACjC,oCAAoC;CACrC;AACD;;;;EAIE,YAAY;EACZ,gBAAgB;EAChB,8BAA8B;CAC/B;AACD;;EAEE,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,sBAAsB;EACtB,uBAAuB;EACvB,uBAAuB;EACvB,qBAAqB;EACrB,gBAAgB;CACjB","file":"pagination.vue","sourcesContent":["div.dataTables_paginate {\n  float: right;\n  margin: 0;\n}\n.pagination {\n  margin: 20px 0;\n}\n.pagination ul {\n  display: inline-block;\n  margin-bottom: 0;\n  margin-left: 0;\n  border-radius: 4px;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  padding: 0px;\n}\n.pagination ul > li {\n  display: inline;\n}\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:first-child > a,\n.pagination ul > li:first-child > span {\n  border-left-width: 1px;\n  border-bottom-left-radius: 4px;\n  border-top-left-radius: 4px;\n  -moz-border-radius-bottomleft: 4px;\n  -moz-border-radius-topleft: 4px;\n}\n.pagination ul > li {\n  display: inline;\n}\n.pagination ul > .active > a,\n.pagination ul > .active > span {\n  color: #999;\n  cursor: default;\n}\n.pagination ul > li > a:hover,\n.pagination ul > li > a:focus,\n.pagination ul > .active > a,\n.pagination ul > .active > span {\n  background-color: #f5f5f5;\n}\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:last-child > a,\n.pagination ul > li:last-child > span {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  -moz-border-radius-topright: 4px;\n  -moz-border-radius-bottomright: 4px;\n}\n.pagination ul > .disabled > span,\n.pagination ul > .disabled > a,\n.pagination ul > .disabled > a:hover,\n.pagination ul > .disabled > a:focus {\n  color: #999;\n  cursor: default;\n  background-color: transparent;\n}\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n  cursor: pointer;\n}\n"],"sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 374 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        currentPage: {
+	            type: Number,
+	            default: function _default() {
+	                return 0;
+	            },
+	            twoway: true
+	        },
+	        listCount: {
+	            type: Number,
+	            default: function _default() {
+	                return 0;
+	            },
+	            twoway: true
+	        },
+	        setLimit: {
+	            type: Array,
+	            default: function _default() {
+	                return [10, 20, 30];
+	            },
+	            twoway: true
+	        }
+	
+	    },
+	    data: function data() {
+	        return {
+	            leftpage: [],
+	            middlepage: [],
+	            rightpage: [],
+	            limit: "",
+	            startlist: "",
+	            endlist: ""
+	        };
+	    },
+	
+	    computed: {
+	        allpage: function allpage() {
+	            return Math.ceil(this.listCount / this.currentPage);
+	        },
+	        pageDistribute: function pageDistribute() {
+	            console.log(this.allpage);
+	        }
+	    },
+	    watch: {},
+	    methods: {
+	        pageComput: function pageComput(cur, all) {
+	            var leftpage = [];
+	            var middlepage = [];
+	            var rightpage = [];
+	            if (all <= 10) {
+	                for (var i = 1; i <= all; i++) {
+	                    leftpage.push(i);
+	                }
+	            } else if (cur <= 4) {
+	                for (var i = 1; i <= cur + 3; i++) {
+	                    leftpage.push(i);
+	                }
+	                rightpage.push(all);
+	            } else if (cur > 4 && cur < all - 3) {
+	                leftpage.push(1);
+	                for (var i = cur - 2; i <= cur + 2; i++) {
+	                    middlepage.push(i);
+	                }
+	                rightpage.push(all);
+	            } else if (cur >= all - 3) {
+	                leftpage.push(1);
+	                for (var i = cur - 3; i <= all; i++) {
+	                    rightpage.push(i);
+	                }
+	            }
+	            var pageResult = {
+	                leftpage: leftpage,
+	                middlepage: middlepage,
+	                rightpage: rightpage
+	            };
+	
+	            return pageResult;
+	        },
+	        currentShowPage: function currentShowPage(currentpage, listCount, limit) {
+	            var allpage = Math.ceil(listCount / limit);
+	            var startList = (currentpage - 1) * limit + 1;
+	            var endList;
+	            var flag = true;
+	            if (listCount == 0) {
+	                startList = 0;
+	                endList = 0;
+	                flag = false;
+	            }
+	            if (currentpage != allpage && flag) {
+	                endList = currentpage * limit;
+	            } else if (currentpage == allpage) {
+	                endList = listCount;
+	            }
+	
+	            var currentshowPage = {
+	                startlist: startList,
+	                endlist: endList
+	            };
+	            return currentshowPage;
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 375 */
+/***/ function(module, exports) {
+
+	module.exports = "\n <div class=\"row\" _v-7c9c7ff3=\"\">\n    <div class=\"col-xs-4\" _v-7c9c7ff3=\"\">\n        显示 {{startlist}} 到 {{endlist}}  共 {{listCount}} 条\n        <select v-model=\"limit\" _v-7c9c7ff3=\"\">\n            <option v-for=\"limit in setLimit\" _v-7c9c7ff3=\"\">{{limit}}</option>\n        </select>\n    </div>\n    <div class=\"col-xs-8\" _v-7c9c7ff3=\"\">\n        <div class=\"dataTables_paginate paging_bootstrap pagination trade-page\" _v-7c9c7ff3=\"\">\n            <ul _v-7c9c7ff3=\"\">\n                <li class=\"prev\" :class=\"{'disabled':currentPage == 1}\" @click=\"pagePrev\" v-if=\"currentPage != 0\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">\n                        ← <span class=\"hidden-480\" _v-7c9c7ff3=\"\">Previous</span>\n                    </a>\n                </li>\n                <li v-for=\"n in leftpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">{{n}}</a>\n                </li>\n                <!--1...567-->\n                <li v-show=\"middlepage[0] == '' || leftpage.length != 0 &amp;&amp; middlepage.length != 0 &amp;&amp; rightpage.length != 0\" _v-7c9c7ff3=\"\"><a _v-7c9c7ff3=\"\">...</a></li>\n                <li v-for=\"n in middlepage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">{{n}}</a>\n                </li>\n                <li v-show=\"allpage > 10\" _v-7c9c7ff3=\"\"><a _v-7c9c7ff3=\"\">...</a></li>\n                <li v-for=\"n in rightpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">{{n}}</a>\n                </li>\n                <li class=\"next\" :class=\"{'disabled':currentPage == allpage}\" @click=\"pageNext\" v-if=\"currentPage != 0\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">\n                        <span class=\"hidden-480\" _v-7c9c7ff3=\"\">Next</span> → \n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n";
 
 /***/ }
 /******/ ])
