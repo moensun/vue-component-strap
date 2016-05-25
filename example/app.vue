@@ -43,6 +43,9 @@ Time: 12:11-->
                         <li class="list-group-item">
                             <a v-link="{name:'ms-video'}">ms-video</a>
                         </li>
+                        <li class="list-group-item">
+                            <a v-link="{name:'ms-pagination'}">ms-pagination</a>
+                        </li>
                     </ul>
                 </div>
             </div>

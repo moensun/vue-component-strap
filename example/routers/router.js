@@ -51,6 +51,10 @@ module.exports = {
         name:'ms-video',
         component:require("../component/ms-video.vue")
     },
+    "ms-pagination":{
+        name:'ms-pagination',
+        component:require("../component/ms-pagination.vue")
+    },
     '*':{
         component:require("../component/main.vue")
     }

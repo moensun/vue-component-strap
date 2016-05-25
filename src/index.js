@@ -30,6 +30,8 @@ import msModal from "./window/modal.vue";
 
 import msVideo from "./player/video.vue";
 
+import msPagination from "./toolbar/pagination.vue"
+
 //import "./export";
 
 const MoenSunStrap = {
@@ -49,7 +51,8 @@ const MoenSunStrap = {
 	msAlert,
 	msConfirm,
 	msModal,
-	msVideo
+	msVideo,
+	msPagination
 }
 
 module.exports = MoenSunStrap;
