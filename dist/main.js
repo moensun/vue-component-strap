@@ -85696,8 +85696,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7c9c7ff3&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./pagination.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7c9c7ff3&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./pagination.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./pagination.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./pagination.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -85715,7 +85715,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "div.dataTables_paginate[_v-7c9c7ff3] {\n  float: right;\n  margin: 0;\n}\n.pagination[_v-7c9c7ff3] {\n  margin: 20px 0;\n}\n.pagination ul[_v-7c9c7ff3] {\n  display: inline-block;\n  margin-bottom: 0;\n  margin-left: 0;\n  border-radius: 4px;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  padding: 0px;\n}\n.pagination ul > li[_v-7c9c7ff3] {\n  display: inline;\n}\n.pagination ul > li > a[_v-7c9c7ff3],\n.pagination ul > li > span[_v-7c9c7ff3] {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:first-child > a[_v-7c9c7ff3],\n.pagination ul > li:first-child > span[_v-7c9c7ff3] {\n  border-left-width: 1px;\n  border-bottom-left-radius: 4px;\n  border-top-left-radius: 4px;\n  -moz-border-radius-bottomleft: 4px;\n  -moz-border-radius-topleft: 4px;\n}\n.pagination ul > li[_v-7c9c7ff3] {\n  display: inline;\n}\n.pagination ul > .active > a[_v-7c9c7ff3],\n.pagination ul > .active > span[_v-7c9c7ff3] {\n  color: #999;\n  cursor: default;\n}\n.pagination ul > li > a[_v-7c9c7ff3]:hover,\n.pagination ul > li > a[_v-7c9c7ff3]:focus,\n.pagination ul > .active > a[_v-7c9c7ff3],\n.pagination ul > .active > span[_v-7c9c7ff3] {\n  background-color: #f5f5f5;\n}\n.pagination ul > li > a[_v-7c9c7ff3],\n.pagination ul > li > span[_v-7c9c7ff3] {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:last-child > a[_v-7c9c7ff3],\n.pagination ul > li:last-child > span[_v-7c9c7ff3] {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  -moz-border-radius-topright: 4px;\n  -moz-border-radius-bottomright: 4px;\n}\n.pagination ul > .disabled > span[_v-7c9c7ff3],\n.pagination ul > .disabled > a[_v-7c9c7ff3],\n.pagination ul > .disabled > a[_v-7c9c7ff3]:hover,\n.pagination ul > .disabled > a[_v-7c9c7ff3]:focus {\n  color: #999;\n  cursor: default;\n  background-color: transparent;\n}\n.pagination ul > li > a[_v-7c9c7ff3],\n.pagination ul > li > span[_v-7c9c7ff3] {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n  cursor: pointer;\n}\n", "", {"version":3,"sources":["/./src/toolbar/pagination.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,UAAU;CACX;AACD;EACE,eAAe;CAChB;AACD;EACE,sBAAsB;EACtB,iBAAiB;EACjB,eAAe;EACf,mBAAmB;EACnB,0CAA0C;EAC1C,aAAa;CACd;AACD;EACE,gBAAgB;CACjB;AACD;;EAEE,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,sBAAsB;EACtB,uBAAuB;EACvB,uBAAuB;EACvB,qBAAqB;CACtB;AACD;;EAEE,uBAAuB;EACvB,+BAA+B;EAC/B,4BAA4B;EAC5B,mCAAmC;EACnC,gCAAgC;CACjC;AACD;EACE,gBAAgB;CACjB;AACD;;EAEE,YAAY;EACZ,gBAAgB;CACjB;AACD;;;;EAIE,0BAA0B;CAC3B;AACD;;EAEE,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,sBAAsB;EACtB,uBAAuB;EACvB,uBAAuB;EACvB,qBAAqB;CACtB;AACD;;EAEE,6BAA6B;EAC7B,gCAAgC;EAChC,iCAAiC;EACjC,oCAAoC;CACrC;AACD;;;;EAIE,YAAY;EACZ,gBAAgB;EAChB,8BAA8B;CAC/B;AACD;;EAEE,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,sBAAsB;EACtB,uBAAuB;EACvB,uBAAuB;EACvB,qBAAqB;EACrB,gBAAgB;CACjB","file":"pagination.vue","sourcesContent":["div.dataTables_paginate {\n  float: right;\n  margin: 0;\n}\n.pagination {\n  margin: 20px 0;\n}\n.pagination ul {\n  display: inline-block;\n  margin-bottom: 0;\n  margin-left: 0;\n  border-radius: 4px;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  padding: 0px;\n}\n.pagination ul > li {\n  display: inline;\n}\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:first-child > a,\n.pagination ul > li:first-child > span {\n  border-left-width: 1px;\n  border-bottom-left-radius: 4px;\n  border-top-left-radius: 4px;\n  -moz-border-radius-bottomleft: 4px;\n  -moz-border-radius-topleft: 4px;\n}\n.pagination ul > li {\n  display: inline;\n}\n.pagination ul > .active > a,\n.pagination ul > .active > span {\n  color: #999;\n  cursor: default;\n}\n.pagination ul > li > a:hover,\n.pagination ul > li > a:focus,\n.pagination ul > .active > a,\n.pagination ul > .active > span {\n  background-color: #f5f5f5;\n}\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n}\n.pagination ul > li:last-child > a,\n.pagination ul > li:last-child > span {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  -moz-border-radius-topright: 4px;\n  -moz-border-radius-bottomright: 4px;\n}\n.pagination ul > .disabled > span,\n.pagination ul > .disabled > a,\n.pagination ul > .disabled > a:hover,\n.pagination ul > .disabled > a:focus {\n  color: #999;\n  cursor: default;\n  background-color: transparent;\n}\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 20px;\n  text-decoration: none;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  border-left-width: 0;\n  cursor: pointer;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\ndiv.dataTables_paginate {\n    float: right;\n    margin: 0;\n}\ndiv.set-middle{\n    margin-top:5px;\n}\n.pagination {\n    margin: 20px 0;\n}\n\n.pagination ul {\n    display: inline-block;\n    margin-bottom: 0;\n    margin-left: 0;\n    border-radius: 4px;\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n    padding: 0px;\n}\n\n.pagination ul > li {\n    display: inline;\n}\n\n.pagination ul > li > a, .pagination ul > li > span {\n    float: left;\n    padding: 4px 12px;\n    line-height: 20px;\n    text-decoration: none;\n    background-color: #fff;\n    border: 1px solid #ddd;\n    border-left-width: 0;\n}\n\n.pagination ul > li:first-child > a, .pagination ul > li:first-child > span {\n    border-left-width: 1px;\n    border-bottom-left-radius: 4px;\n    border-top-left-radius: 4px;\n    -moz-border-radius-bottomleft: 4px;\n    -moz-border-radius-topleft: 4px;\n}\n\n.pagination ul > li {\n    display: inline;\n}\n\n.pagination ul > .active > a, .pagination ul > .active > span {\n    color: #999;\n    cursor: default;\n}\n\n.pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {\n    background-color: #f5f5f5;\n}\n\n.pagination ul > li > a, .pagination ul > li > span {\n    float: left;\n    padding: 4px 12px;\n    line-height: 20px;\n    text-decoration: none;\n    background-color: #fff;\n    border: 1px solid #ddd;\n    border-left-width: 0;\n}\n\n.pagination ul > li:last-child > a, .pagination ul > li:last-child > span {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    -moz-border-radius-topright: 4px;\n    -moz-border-radius-bottomright: 4px;\n}\n\n.pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover, .pagination ul > .disabled > a:focus {\n    color: #999;\n    cursor: default;\n    background-color: transparent;\n}\n\n.pagination ul > li > a, .pagination ul > li > span {\n    float: left;\n    padding: 4px 12px;\n    line-height: 20px;\n    text-decoration: none;\n    background-color: #fff;\n    border: 1px solid #ddd;\n    border-left-width: 0;\n    cursor: pointer;\n}\n", "", {"version":3,"sources":["/./src/toolbar/pagination.vue?ff3a0862"],"names":[],"mappings":";AAyLA;IACA,aAAA;IACA,UAAA;CACA;AACA;IACA,eAAA;CACA;AACA;IACA,eAAA;CACA;;AAEA;IACA,sBAAA;IACA,iBAAA;IACA,eAAA;IACA,mBAAA;IACA,0CAAA;IACA,aAAA;CACA;;AAEA;IACA,gBAAA;CACA;;AAEA;IACA,YAAA;IACA,kBAAA;IACA,kBAAA;IACA,sBAAA;IACA,uBAAA;IACA,uBAAA;IACA,qBAAA;CACA;;AAEA;IACA,uBAAA;IACA,+BAAA;IACA,4BAAA;IACA,mCAAA;IACA,gCAAA;CACA;;AAEA;IACA,gBAAA;CACA;;AAEA;IACA,YAAA;IACA,gBAAA;CACA;;AAEA;IACA,0BAAA;CACA;;AAEA;IACA,YAAA;IACA,kBAAA;IACA,kBAAA;IACA,sBAAA;IACA,uBAAA;IACA,uBAAA;IACA,qBAAA;CACA;;AAEA;IACA,6BAAA;IACA,gCAAA;IACA,iCAAA;IACA,oCAAA;CACA;;AAEA;IACA,YAAA;IACA,gBAAA;IACA,8BAAA;CACA;;AAEA;IACA,YAAA;IACA,kBAAA;IACA,kBAAA;IACA,sBAAA;IACA,uBAAA;IACA,uBAAA;IACA,qBAAA;IACA,gBAAA;CACA","file":"pagination.vue","sourcesContent":["<template>\n    <div class=\"row\">\n        <div class=\"col-xs-4 set-middle\">\n            显示 {{showObj.startlist}} 到 {{showObj.endlist}} 共 {{listCount}} 条\n            <select v-model=\"limitNum\">\n                <option v-for=\"limit in limitArr\">{{limit}}</option>\n            </select>\n        </div>\n        <div class=\"col-xs-8\">\n            <div class=\"dataTables_paginate paging_bootstrap pagination trade-page\">\n                <ul>\n                    <li class=\"prev\" :class=\"{'disabled':currentPage == 1}\" @click=\"pagePrev\" v-if=\"currentPage != 0\">\n                        <a>\n                            ← <span class=\"hidden-480\">Previous</span>\n                        </a>\n                    </li>\n                    <li v-for=\"n in pageObj.leftpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                        <a>{{n}}</a>\n                    </li>\n                    <!--1...567-->\n                    <li v-show=\"frontshow\">\n                        <a>...</a>\n                    </li>\n                    <li v-for=\"n in pageObj.middlepage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                        <a>{{n}}</a>\n                    </li>\n                    <li v-show=\"allpage > 10\"><a>...</a></li>\n                    <li v-for=\"n in pageObj.rightpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                        <a>{{n}}</a>\n                    </li>\n                    <li class=\"next\" :class=\"{'disabled':currentPage == allpage}\" @click=\"pageNext\"\n                        v-if=\"currentPage != 0\">\n                        <a>\n                            <span class=\"hidden-480\">Next</span> →\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</template>\n<script>\n    export default{\n        ready(){\n            this.pageObj = this.pageComput(this.currentPage,this.allpage);\n            this.showObj = this.currentShowPage(this.currentPage,this.listCound,this.limitNum);\n        },\n        props: {\n            \"currentPage\": {\n                type: Number,\n                default: 0,\n                twoway: true\n            },\n            \"listCount\": {\n                type: Number,\n                default: 0,\n            },\n            \"limitArr\": {\n                type: Array,\n                default: [5, 10, 15],\n            }\n        },\n        data(){\n            return {\n                limitNum:this.limitArr[0],//获取当前用户选择的一页展示数\n                pageObj:{\n                    type:Object,\n                    default:function(){\n                        return {\n                            'leftpage':[],\n                            'middlepage':[],\n                            'rightpage':[]\n                        }\n                    }\n                },\n                showObj:{\n                    type:Object,\n                    default:function(){\n                        return {\n                            'startlist':'',\n                            'endlist':''\n                        }\n                    }\n                }\n            }\n        },\n        computed:{\n            allpage:function(){\n                return Math.ceil(this.listCount / this.limitNum)\n            },\n            frontshow:function(){\n                var pageObj = this.pageObj;\n                if(pageObj.leftpage && pageObj.middlepage && pageObj.rightpage){\n                    console.log(pageObj.leftpage.length != 0 && pageObj.middlepage.length != 0 && pageObj.rightpage.length != 0)\n                    return pageObj.leftpage.length != 0 && pageObj.middlepage.length != 0 && pageObj.rightpage.length != 0;\n                }else{\n                    return false\n                }\n            }\n        },\n        methods:{\n            changePg(page){//切换页码\n                this.currentPage = page;\n                this.pageObj = this.pageComput(page,this.allpage);\n                this.showObj = this.currentShowPage(this.currentPage,this.listCound,this.limitNum);\n            },\n            pagePrev(){\n                if(this.currentPage == 1) return;\n                this.currentPage--;\n                this.pageObj = this.pageComput(this.currentPage,this.allpage);\n            },\n            pageNext(){\n                if(this.currentPage == this.allpage) return;\n                this.currentPage++;\n                this.pageObj = this.pageComput(this.currentPage,this.allpage);\n            },\n            pageComput(cur,all){ //计算页码\n                var leftpage = [];\n                var middlepage = [];\n                var rightpage = [];\n                if(all <= 10){//小于十页时 不做缩减处理\n                    for(var i=1;i<=all;i++){\n                        leftpage.push(i);\n                    }\n                }else if(cur <=4){//超过十页时 当前页在4页以前 1234567...20=>缩减7以后\n                    for(var i=1;i<=(cur+2);i++){\n                        leftpage.push(i);\n                    }\n                    rightpage.push(all);\n                }else if(cur > 4 && cur < (all-3)){//超过十页 当前页不是最后4页 做两边缩减\n                    leftpage.push(1);\n                    for(var i=(cur-2);i<=(cur+2);i++){\n                        middlepage.push(i);\n                    }\n                    rightpage.push(all);\n                }else if(cur >= (all - 3)){//超过十页 当前页在最后3页 将这页居中 1...14 15 16 17 18 19 20\n                    leftpage.push(1);\n                    for(var i = (cur-3);i<=all;i++){\n                        rightpage.push(i)\n                    }\n                }\n                var pageResult = {\n                    leftpage:leftpage,\n                    middlepage:middlepage,\n                    rightpage:rightpage\n                }\n\n                return pageResult;\n            },\n            currentShowPage(currentpage,listCount,limit){//计算显示当前显示的列表 开始 到 结束\n                var allpage = this.allpage;\n                var startList = (currentpage - 1) * limit + 1;\n                var endList;\n                var flag = true;\n                if(listCount == 0){\n                    startList = 0;\n                    endList = 0;\n                    flag = false;\n                }\n                if(currentpage != allpage && flag){\n                    endList = currentpage * limit;\n                }else if(currentpage == allpage){\n                    endList  = listCount;\n                }\n\n                var currentshowPage = {\n                    startlist:startList,\n                    endlist:endList\n                }\n                return currentshowPage;\n            },\n        },\n        watch:{\n            \"limitNum\":{\n                handler:function(val,oldval){\n                    this.currentPage = 1;\n                    this.pageObj = this.pageComput(this.currentPage,this.allpage);\n                    this.showObj = this.currentShowPage(this.currentPage,this.listCound,this.limitNum);\n                },\n                deep:true\n            }\n        }\n    }\n</script>\n<style>\n    div.dataTables_paginate {\n        float: right;\n        margin: 0;\n    }\n    div.set-middle{\n        margin-top:5px;\n    }\n    .pagination {\n        margin: 20px 0;\n    }\n\n    .pagination ul {\n        display: inline-block;\n        margin-bottom: 0;\n        margin-left: 0;\n        border-radius: 4px;\n        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n        padding: 0px;\n    }\n\n    .pagination ul > li {\n        display: inline;\n    }\n\n    .pagination ul > li > a, .pagination ul > li > span {\n        float: left;\n        padding: 4px 12px;\n        line-height: 20px;\n        text-decoration: none;\n        background-color: #fff;\n        border: 1px solid #ddd;\n        border-left-width: 0;\n    }\n\n    .pagination ul > li:first-child > a, .pagination ul > li:first-child > span {\n        border-left-width: 1px;\n        border-bottom-left-radius: 4px;\n        border-top-left-radius: 4px;\n        -moz-border-radius-bottomleft: 4px;\n        -moz-border-radius-topleft: 4px;\n    }\n\n    .pagination ul > li {\n        display: inline;\n    }\n\n    .pagination ul > .active > a, .pagination ul > .active > span {\n        color: #999;\n        cursor: default;\n    }\n\n    .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {\n        background-color: #f5f5f5;\n    }\n\n    .pagination ul > li > a, .pagination ul > li > span {\n        float: left;\n        padding: 4px 12px;\n        line-height: 20px;\n        text-decoration: none;\n        background-color: #fff;\n        border: 1px solid #ddd;\n        border-left-width: 0;\n    }\n\n    .pagination ul > li:last-child > a, .pagination ul > li:last-child > span {\n        border-top-right-radius: 4px;\n        border-bottom-right-radius: 4px;\n        -moz-border-radius-topright: 4px;\n        -moz-border-radius-bottomright: 4px;\n    }\n\n    .pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover, .pagination ul > .disabled > a:focus {\n        color: #999;\n        cursor: default;\n        background-color: transparent;\n    }\n\n    .pagination ul > li > a, .pagination ul > li > span {\n        float: left;\n        padding: 4px 12px;\n        line-height: 20px;\n        text-decoration: none;\n        background-color: #fff;\n        border: 1px solid #ddd;\n        border-left-width: 0;\n        cursor: pointer;\n    }\n</style>"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -85730,51 +85730,81 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	exports.default = {
-	    props: {
-	        currentPage: {
-	            type: Number,
-	            default: function _default() {
-	                return 0;
-	            },
-	            twoway: true
-	        },
-	        listCount: {
-	            type: Number,
-	            default: function _default() {
-	                return 0;
-	            },
-	            twoway: true
-	        },
-	        setLimit: {
-	            type: Array,
-	            default: function _default() {
-	                return [10, 20, 30];
-	            },
-	            twoway: true
-	        }
+	    ready: function ready() {
+	        this.pageObj = this.pageComput(this.currentPage, this.allpage);
+	        this.showObj = this.currentShowPage(this.currentPage, this.listCound, this.limitNum);
+	    },
 	
+	    props: {
+	        "currentPage": {
+	            type: Number,
+	            default: 0,
+	            twoway: true
+	        },
+	        "listCount": {
+	            type: Number,
+	            default: 0
+	        },
+	        "limitArr": {
+	            type: Array,
+	            default: [5, 10, 15]
+	        }
 	    },
 	    data: function data() {
 	        return {
-	            leftpage: [],
-	            middlepage: [],
-	            rightpage: [],
-	            limit: "",
-	            startlist: "",
-	            endlist: ""
+	            limitNum: this.limitArr[0],
+	            pageObj: {
+	                type: Object,
+	                default: function _default() {
+	                    return {
+	                        'leftpage': [],
+	                        'middlepage': [],
+	                        'rightpage': []
+	                    };
+	                }
+	            },
+	            showObj: {
+	                type: Object,
+	                default: function _default() {
+	                    return {
+	                        'startlist': '',
+	                        'endlist': ''
+	                    };
+	                }
+	            }
 	        };
 	    },
 	
 	    computed: {
 	        allpage: function allpage() {
-	            return Math.ceil(this.listCount / this.currentPage);
+	            return Math.ceil(this.listCount / this.limitNum);
 	        },
-	        pageDistribute: function pageDistribute() {
-	            console.log(this.allpage);
+	        frontshow: function frontshow() {
+	            var pageObj = this.pageObj;
+	            if (pageObj.leftpage && pageObj.middlepage && pageObj.rightpage) {
+	                console.log(pageObj.leftpage.length != 0 && pageObj.middlepage.length != 0 && pageObj.rightpage.length != 0);
+	                return pageObj.leftpage.length != 0 && pageObj.middlepage.length != 0 && pageObj.rightpage.length != 0;
+	            } else {
+	                return false;
+	            }
 	        }
 	    },
-	    watch: {},
 	    methods: {
+	        changePg: function changePg(page) {
+	            this.currentPage = page;
+	            this.pageObj = this.pageComput(page, this.allpage);
+	            this.showObj = this.currentShowPage(this.currentPage, this.listCound, this.limitNum);
+	        },
+	        pagePrev: function pagePrev() {
+	            if (this.currentPage == 1) return;
+	            this.currentPage--;
+	            this.pageObj = this.pageComput(this.currentPage, this.allpage);
+	        },
+	        pageNext: function pageNext() {
+	            if (this.currentPage == this.allpage) return;
+	            this.currentPage++;
+	            this.pageObj = this.pageComput(this.currentPage, this.allpage);
+	        },
 	        pageComput: function pageComput(cur, all) {
 	            var leftpage = [];
 	            var middlepage = [];
@@ -85784,7 +85814,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    leftpage.push(i);
 	                }
 	            } else if (cur <= 4) {
-	                for (var i = 1; i <= cur + 3; i++) {
+	                for (var i = 1; i <= cur + 2; i++) {
 	                    leftpage.push(i);
 	                }
 	                rightpage.push(all);
@@ -85809,7 +85839,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return pageResult;
 	        },
 	        currentShowPage: function currentShowPage(currentpage, listCount, limit) {
-	            var allpage = Math.ceil(listCount / limit);
+	            var allpage = this.allpage;
 	            var startList = (currentpage - 1) * limit + 1;
 	            var endList;
 	            var flag = true;
@@ -85831,14 +85861,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return currentshowPage;
 	        }
 	    },
-	    components: {}
+	    watch: {
+	        "limitNum": {
+	            handler: function handler(val, oldval) {
+	                this.currentPage = 1;
+	                this.pageObj = this.pageComput(this.currentPage, this.allpage);
+	                this.showObj = this.currentShowPage(this.currentPage, this.listCound, this.limitNum);
+	            },
+	            deep: true
+	        }
+	    }
 	};
 
 /***/ },
 /* 375 */
 /***/ function(module, exports) {
 
-	module.exports = "\n <div class=\"row\" _v-7c9c7ff3=\"\">\n    <div class=\"col-xs-4\" _v-7c9c7ff3=\"\">\n        显示 {{startlist}} 到 {{endlist}}  共 {{listCount}} 条\n        <select v-model=\"limit\" _v-7c9c7ff3=\"\">\n            <option v-for=\"limit in setLimit\" _v-7c9c7ff3=\"\">{{limit}}</option>\n        </select>\n    </div>\n    <div class=\"col-xs-8\" _v-7c9c7ff3=\"\">\n        <div class=\"dataTables_paginate paging_bootstrap pagination trade-page\" _v-7c9c7ff3=\"\">\n            <ul _v-7c9c7ff3=\"\">\n                <li class=\"prev\" :class=\"{'disabled':currentPage == 1}\" @click=\"pagePrev\" v-if=\"currentPage != 0\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">\n                        ← <span class=\"hidden-480\" _v-7c9c7ff3=\"\">Previous</span>\n                    </a>\n                </li>\n                <li v-for=\"n in leftpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">{{n}}</a>\n                </li>\n                <!--1...567-->\n                <li v-show=\"middlepage[0] == '' || leftpage.length != 0 &amp;&amp; middlepage.length != 0 &amp;&amp; rightpage.length != 0\" _v-7c9c7ff3=\"\"><a _v-7c9c7ff3=\"\">...</a></li>\n                <li v-for=\"n in middlepage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">{{n}}</a>\n                </li>\n                <li v-show=\"allpage > 10\" _v-7c9c7ff3=\"\"><a _v-7c9c7ff3=\"\">...</a></li>\n                <li v-for=\"n in rightpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">{{n}}</a>\n                </li>\n                <li class=\"next\" :class=\"{'disabled':currentPage == allpage}\" @click=\"pageNext\" v-if=\"currentPage != 0\" _v-7c9c7ff3=\"\">\n                    <a _v-7c9c7ff3=\"\">\n                        <span class=\"hidden-480\" _v-7c9c7ff3=\"\">Next</span> → \n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"row\">\n    <div class=\"col-xs-4 set-middle\">\n        显示 {{showObj.startlist}} 到 {{showObj.endlist}} 共 {{listCount}} 条\n        <select v-model=\"limitNum\">\n            <option v-for=\"limit in limitArr\">{{limit}}</option>\n        </select>\n    </div>\n    <div class=\"col-xs-8\">\n        <div class=\"dataTables_paginate paging_bootstrap pagination trade-page\">\n            <ul>\n                <li class=\"prev\" :class=\"{'disabled':currentPage == 1}\" @click=\"pagePrev\" v-if=\"currentPage != 0\">\n                    <a>\n                        ← <span class=\"hidden-480\">Previous</span>\n                    </a>\n                </li>\n                <li v-for=\"n in pageObj.leftpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <!--1...567-->\n                <li v-show=\"frontshow\">\n                    <a>...</a>\n                </li>\n                <li v-for=\"n in pageObj.middlepage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <li v-show=\"allpage > 10\"><a>...</a></li>\n                <li v-for=\"n in pageObj.rightpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <li class=\"next\" :class=\"{'disabled':currentPage == allpage}\" @click=\"pageNext\"\n                    v-if=\"currentPage != 0\">\n                    <a>\n                        <span class=\"hidden-480\">Next</span> →\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n";
 
 /***/ }
 /******/ ])
