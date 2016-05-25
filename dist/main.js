@@ -534,7 +534,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/tree-combox.vue"
 	  if (!module.hot.data) {
@@ -20915,7 +20915,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/tree/tree-view.vue"
 	  if (!module.hot.data) {
@@ -21274,7 +21274,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var undefined;
 	
 	  /** Used as the semantic version number. */
-	  var VERSION = '4.13.0';
+	  var VERSION = '4.13.1';
 	
 	  /** Used as the size to enable large array optimizations. */
 	  var LARGE_ARRAY_SIZE = 200;
@@ -25812,6 +25812,31 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    /**
+	     * Creates a `_.find` or `_.findLast` function.
+	     *
+	     * @private
+	     * @param {Function} findIndexFunc The function to find the collection index.
+	     * @returns {Function} Returns the new find function.
+	     */
+	    function createFind(findIndexFunc) {
+	      return function(collection, predicate, fromIndex) {
+	        var iterable = Object(collection);
+	        predicate = getIteratee(predicate, 3);
+	        if (!isArrayLike(collection)) {
+	          var props = keys(collection);
+	        }
+	        var index = findIndexFunc(props || collection, function(value, key) {
+	          if (props) {
+	            key = value;
+	            value = iterable[key];
+	          }
+	          return predicate(value, key, iterable);
+	        }, fromIndex);
+	        return index > -1 ? collection[props ? props[index] : index] : undefined;
+	      };
+	    }
+	
+	    /**
 	     * Creates a `_.flow` or `_.flowRight` function.
 	     *
 	     * @private
@@ -27056,7 +27081,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * @param {*} value The value to check.
 	     * @returns {boolean} Returns `true` if `func` is maskable, else `false`.
 	     */
-	    var isMaskable = !coreJsData ? stubFalse : isFunction;
+	    var isMaskable = coreJsData ? isFunction : stubFalse;
 	
 	    /**
 	     * Checks if `value` is likely a prototype object.
@@ -29734,11 +29759,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * _.find(users, 'active');
 	     * // => object for 'barney'
 	     */
-	    function find(collection, predicate, fromIndex) {
-	      collection = isArrayLike(collection) ? collection : values(collection);
-	      var index = findIndex(collection, predicate, fromIndex);
-	      return index > -1 ? collection[index] : undefined;
-	    }
+	    var find = createFind(findIndex);
 	
 	    /**
 	     * This method is like `_.find` except that it iterates over elements of
@@ -29760,11 +29781,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * });
 	     * // => 3
 	     */
-	    function findLast(collection, predicate, fromIndex) {
-	      collection = isArrayLike(collection) ? collection : values(collection);
-	      var index = findLastIndex(collection, predicate, fromIndex);
-	      return index > -1 ? collection[index] : undefined;
-	    }
+	    var findLast = createFind(findLastIndex);
 	
 	    /**
 	     * Creates a flattened array of values by running each element in `collection`
@@ -38202,7 +38219,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/date-field.vue"
 	  if (!module.hot.data) {
@@ -53260,7 +53277,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker.vue"
 	  if (!module.hot.data) {
@@ -53388,7 +53405,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-day-panel.vue"
 	  if (!module.hot.data) {
@@ -53669,7 +53686,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-day.vue"
 	  if (!module.hot.data) {
@@ -53886,7 +53903,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-month-panel.vue"
 	  if (!module.hot.data) {
@@ -54025,7 +54042,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-month.vue"
 	  if (!module.hot.data) {
@@ -54148,7 +54165,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-year-panel.vue"
 	  if (!module.hot.data) {
@@ -54296,7 +54313,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-year.vue"
 	  if (!module.hot.data) {
@@ -54431,7 +54448,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/date-range-field.vue"
 	  if (!module.hot.data) {
@@ -54777,7 +54794,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range.vue"
 	  if (!module.hot.data) {
@@ -54995,7 +55012,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range-day.vue"
 	  if (!module.hot.data) {
@@ -55185,7 +55202,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-time-panel.vue"
 	  if (!module.hot.data) {
@@ -55355,7 +55372,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-hour.vue"
 	  if (!module.hot.data) {
@@ -55476,7 +55493,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-minute.vue"
 	  if (!module.hot.data) {
@@ -55597,7 +55614,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-second.vue"
 	  if (!module.hot.data) {
@@ -55730,7 +55747,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/date-range-single-field.vue"
 	  if (!module.hot.data) {
@@ -56007,7 +56024,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range-single.vue"
 	  if (!module.hot.data) {
@@ -56141,7 +56158,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/picker/date/datepicker-range-day-panel.vue"
 	  if (!module.hot.data) {
@@ -56389,7 +56406,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/form/field/ueditor-field.vue"
 	  if (!module.hot.data) {
@@ -56521,7 +56538,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/tree/tree-list.vue"
 	  if (!module.hot.data) {
@@ -56673,7 +56690,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/tree/panel.vue"
 	  if (!module.hot.data) {
@@ -56808,7 +56825,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/panel.vue"
 	  if (!module.hot.data) {
@@ -56853,7 +56870,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".grid-panel[_v-28ef49c0] {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show[_v-28ef49c0] {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered[_v-28ef49c0] {\n  border: 0px;\n}\n.grid-panel .grid-header .table[_v-28ef49c0] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th[_v-28ef49c0] {\n  min-height: 47px;\n  border-bottom: 0px;\n}\n.grid-panel .grid-header-line[_v-28ef49c0] {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box[_v-28ef49c0] {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading[_v-28ef49c0] {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body[_v-28ef49c0] {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table[_v-28ef49c0] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr[_v-28ef49c0] {\n  min-height: 47px;\n}\n", "", {"version":3,"sources":["/./src/grid/panel.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,mBAAmB;CACpB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;EACjB,mBAAmB;CACpB;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,UAAU;EACV,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;CAClB","file":"panel.vue","sourcesContent":[".grid-panel {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered {\n  border: 0px;\n}\n.grid-panel .grid-header .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th {\n  min-height: 47px;\n  border-bottom: 0px;\n}\n.grid-panel .grid-header-line {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr {\n  min-height: 47px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".grid-panel[_v-28ef49c0] {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show[_v-28ef49c0] {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered[_v-28ef49c0] {\n  border: 0px;\n}\n.grid-panel .grid-header .table[_v-28ef49c0] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th[_v-28ef49c0] {\n  min-height: 47px;\n  border-bottom: 0px;\n  vertical-align: middle;\n}\n.grid-panel .grid-header-line[_v-28ef49c0] {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box[_v-28ef49c0] {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading[_v-28ef49c0] {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body[_v-28ef49c0] {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table[_v-28ef49c0] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr[_v-28ef49c0] {\n  min-height: 47px;\n}\n.grid-panel .grid-body-box .grid-body .table tr td[_v-28ef49c0] {\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/grid/panel.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,mBAAmB;CACpB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,uBAAuB;CACxB;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,UAAU;EACV,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,uBAAuB;CACxB","file":"panel.vue","sourcesContent":[".grid-panel {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered {\n  border: 0px;\n}\n.grid-panel .grid-header .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th {\n  min-height: 47px;\n  border-bottom: 0px;\n  vertical-align: middle;\n}\n.grid-panel .grid-header-line {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr {\n  min-height: 47px;\n}\n.grid-panel .grid-body-box .grid-body .table tr td {\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -57103,7 +57120,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/header/header.vue"
 	  if (!module.hot.data) {
@@ -57319,7 +57336,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/toolbar/paging.vue"
 	  if (!module.hot.data) {
@@ -57532,7 +57549,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/text.vue"
 	  if (!module.hot.data) {
@@ -57702,7 +57719,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/link.vue"
 	  if (!module.hot.data) {
@@ -57819,7 +57836,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/action.vue"
 	  if (!module.hot.data) {
@@ -57925,7 +57942,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/grid/column/action/item.vue"
 	  if (!module.hot.data) {
@@ -58139,7 +58156,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/window/MessageBox/alert.vue"
 	  if (!module.hot.data) {
@@ -58316,7 +58333,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/window/MessageBox/confirm.vue"
 	  if (!module.hot.data) {
@@ -58445,7 +58462,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/window/modal.vue"
 	  if (!module.hot.data) {
@@ -58553,7 +58570,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/player/video.vue"
 	  if (!module.hot.data) {
@@ -85670,7 +85687,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
 	  var id = "/Users/apple/data/github/vue-component-strap/src/toolbar/pagination.vue"
 	  if (!module.hot.data) {
