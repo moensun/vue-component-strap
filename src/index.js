@@ -30,7 +30,11 @@ import msModal from "./window/modal.vue";
 
 import msVideo from "./player/video.vue";
 
-import msPagination from "./toolbar/pagination.vue"
+import msPagination from "./toolbar/pagination.vue";
+//pickerpopup
+import pickerPopup from "./picker-popup/popup-picker/index.vue";
+import group from "./picker-popup/group/index.vue";
+import dateTime from "./picker-popup/datetime/index.vue";
 
 //import "./export";
 
@@ -52,7 +56,10 @@ const MoenSunStrap = {
 	msConfirm,
 	msModal,
 	msVideo,
-	msPagination
+	msPagination,
+	pickerPopup,
+	group,
+	dateTime
 }
 
 module.exports = MoenSunStrap;

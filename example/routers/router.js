@@ -55,6 +55,10 @@ module.exports = {
         name:'ms-pagination',
         component:require("../component/ms-pagination.vue")
     },
+    "ms-picker-popup":{
+        name:'ms-picker-popup',
+        component:require("../component/ms-picker-popup.vue")
+    },
     '*':{
         component:require("../component/main.vue")
     }

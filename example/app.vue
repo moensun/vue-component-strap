@@ -11,7 +11,7 @@ Time: 12:11-->
                 <div class="col-md-8">
                     <router-view></router-view>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 add-m">
                     <ul class="list-group">
                         <li class="list-group-item">
                             <a v-link="{name:'ms-modal'}">ms-modal</a>
@@ -46,6 +46,9 @@ Time: 12:11-->
                         <li class="list-group-item">
                             <a v-link="{name:'ms-pagination'}">ms-pagination</a>
                         </li>
+                        <li class="list-group-item">
+                            <a v-link="{name:'ms-picker-popup'}">ms-picker-popup</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -53,3 +56,6 @@ Time: 12:11-->
 
     </section>
 </template>
+<style>
+    .add-m{margin-top:10px;}
+</style>
