@@ -48,7 +48,7 @@ export default {
     },
     confirmText: {
       type: String,
-      default: '确认'
+      default: '完成'
     },
     cancelText: {
       type: String,
@@ -251,7 +251,7 @@ export default {
 a.weui_cell{
   color:#333;
 }
-a.weui_cell:focus{
+a.weui_cell:hover,a.weui_cell:focus{
   text-decoration: none;
 }
 </style>
