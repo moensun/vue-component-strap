@@ -86,17 +86,15 @@ Time: 15:54-->
             let me = this;
             return{
                 "calendarShow":false,
-                "selectedDates":[]
+                "selectedDates":[],
+                "isInnerElement":false
             }
         },
         ready(){
             let me = this;
-            me.eventNamespace = _.uniqueId(".date_field_click_");
-            $(document).on('click'+me.eventNamespace,function (e) {
-                let el = me.$el;
-                if(!el.contains(e.target)){
-                    me.calendarShow = false;
-                }
+            me.clickOn();
+            me.$on('datepicker-inner-dom',function () {
+                me.isInnerElement = true;
             });
         },
         watch:{
@@ -139,6 +137,21 @@ Time: 15:54-->
             }
         },
         methods:{
+            "clickOn":function () {
+                let me = this;
+                me.eventNamespace = _.uniqueId(".date_field_click_");
+                $(document).on('click'+me.eventNamespace,function (e) {
+                     let el = me.$el;
+                     if(!el.contains(e.target)  && !me.isInnerElement ){
+                        me.calendarShow = false;
+                     }
+                    me.isInnerElement = false;
+                });
+            },
+            "clickOff":function () {
+                let me = this;
+                $(document).off('click'+me.eventNamespace);
+            },
             "initComponent":function () {
                 let me = this;
                 if(me.readonly === "true"){
@@ -169,7 +182,6 @@ Time: 15:54-->
                 if(!(me.multiple)){
                     me.calendarShow = false;
                 }
-
             },
             "onClose":function () {
                 let me = this;
@@ -193,6 +205,10 @@ Time: 15:54-->
                 }
 
             }
+        },
+        beforeDestroy(){
+            let me = this;
+            me.clickOff();
         },
         components:{
             datepicker

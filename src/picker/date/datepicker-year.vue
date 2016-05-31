@@ -12,6 +12,7 @@ Time: 15:44-->
     </button>
 </template>
 <script>
+    import Vue from "vue";
     export default{
         name:'datepickerYear',
         props:{
@@ -40,6 +41,7 @@ Time: 15:44-->
                 let me = this;
                 me.currentYear = me.yearItem;
                 me.viewType = "day";
+                me.$dispatch("datepicker-inner-dom");
             }
         },
         components:{

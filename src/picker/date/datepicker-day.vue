@@ -20,7 +20,10 @@ Time: 12:00-->
         props:{
             "currentDate":{
                 type:Date,
-                twoWay:true
+                twoWay:true,
+                default:function () {
+                    return new Date();
+                }
             },
             "dayItem":{},
             "startDay":{
@@ -31,7 +34,12 @@ Time: 12:00-->
                 type:Date,
                 twoWay:true
             },
-            "currentMonth":{},
+            "currentMonth":{
+                twoWay:true,
+                default:function () {
+                    return (new Date()).getYear();
+                }
+            },
             "selectedDates":{
                 type:Array,
                 twoWay:true,
@@ -128,6 +136,8 @@ Time: 12:00-->
                 if(typeof me.dayItemClick == 'function'){
                     me.dayItemClick();
                 }
+
+                me.$dispatch("datepicker-inner-dom");
             }
         },
         components:{

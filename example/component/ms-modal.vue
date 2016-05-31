@@ -12,14 +12,14 @@ Time: 13:47-->
                 <div class="modal-content">
 
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" @click="close()"><span aria-hidden="true">×</span></button>
                         <h4 class="modal-title" id="mySmallModalLabel"></h4>
                     </div>
                     <div class="modal-body">
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal" @click="sure()">确定</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" @click="close()">确定</button>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
@@ -37,6 +37,9 @@ Time: 13:47-->
         methods:{
             "showModal":function () {
                 this.show = true;
+            },
+            "close":function () {
+                this.show = false;
             }
         },
         components: {

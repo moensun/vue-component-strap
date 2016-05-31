@@ -67,6 +67,9 @@ Time: 15:45-->
                 }
             }
         },
+        ready(){
+            let me = this;
+        },
         computed:{
             "yearArr":function () {
                 let me = this;

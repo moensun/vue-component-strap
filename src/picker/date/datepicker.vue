@@ -55,8 +55,8 @@ Time: 13:19-->
         },
         data(){
             return {
-                "currentMonth":{},
-                "currentYear":{},
+                "currentMonth":(new Date()).getMonth(),
+                "currentYear":(new Date()).getFullYear(),
                 "viewType":"day"
             }
         },

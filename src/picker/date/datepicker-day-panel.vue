@@ -61,10 +61,16 @@ Time: 12:04-->
                 }
             },
             "currentMonth":{
-                twoWay:true
+                twoWay:true,
+                default:function () {
+                    return (new Date()).getMonth();
+                }
             },
             "currentYear":{
-                twoWay:true
+                twoWay:true,
+                default:function () {
+                    return (new Date()).getFullYear();
+                }
             },
             "selectedDates":{
                 twoWay:true
@@ -91,9 +97,9 @@ Time: 12:04-->
         computed:{
             "dayArr":function () {
                 let me = this;
-                me.currentYear = me.currentDate.getFullYear();
-                me.currentMonth = me.currentDate.getMonth();
-                me.panelStartDay = new Date(me.currentDate.getFullYear(),me.currentDate.getMonth(),1);
+/*                me.currentYear =  me.currentDate.getFullYear();
+                me.currentMonth =  me.currentDate.getMonth();*/
+                me.panelStartDay = new Date(me.currentYear,me.currentMonth,1);
                 let weekDay = me.panelStartDay.getDay();
                 me.panelStartDay.setDate(me.panelStartDay.getDate()-weekDay);
                 let days = me.getDates(me.panelStartDay,42);
@@ -113,12 +119,16 @@ Time: 12:04-->
                 let date = _.cloneDeep(me.currentDate);
                 date.setMonth(date.getMonth()-1);
                 me.currentDate = date;
+                me.currentYear = me.currentDate.getFullYear();
+                me.currentMonth = me.currentDate.getMonth();
             },
             "nextMouth":function () {
                 let me = this;
                 let date = _.cloneDeep(me.currentDate);
                 date.setMonth(date.getMonth()+1);
                 me.currentDate = date;
+                me.currentYear = me.currentDate.getFullYear();
+                me.currentMonth = me.currentDate.getMonth();
             },
             "showMonthView":function () {
                 let me = this;
