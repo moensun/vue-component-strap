@@ -13,6 +13,7 @@ Time: 15:54-->
                             :day-item-click="dayItemClick"
                             :selected-dates.sync="selectedDates">
                 </datepicker>
+                <datepicker-time-panel v-if="showTime" :date.sync="dateTime"></datepicker-time-panel>
                 <div>
                     <span>
                         <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
@@ -40,6 +41,7 @@ Time: 15:54-->
     import MSUtil from "../../util/index";
     import dateFieldMixin from "./mixin/dateFieldMixin";
     import datepicker from "../../picker/date/datepicker.vue";
+    import datepickerTimePanel from "../../picker/date/datepicker-time-panel.vue";
     export default{
         name:'dateField',
         mixins:[dateFieldMixin],
@@ -67,9 +69,12 @@ Time: 15:54-->
                 twoWay:true
             },
             "dateFormat":{
-                type:String,
+                type:String
+            },
+            "withTime":{
+                type:Boolean,
                 default:function () {
-                    return "YYYY-MM-DD";
+                    return false;
                 }
             },
             "isDisabled":{
@@ -87,7 +92,29 @@ Time: 15:54-->
             return{
                 "calendarShow":false,
                 "selectedDates":[],
-                "isInnerElement":false
+                "isInnerElement":false,
+                "dateTime":null
+            }
+        },
+        computed:{
+            "showDate":function () {
+                let me = this;
+                return me.value;
+            },
+            "showTime":function () {
+                return (!this.multiple && this.withTime  );
+            },
+            "dateTimeFormat":function () {
+                let me  = this;
+                if(me.dateFormat){
+                    return me.dateFormat;
+                }else {
+                    if(me.withTime && !me.multiple){
+                        return "YYYY-MM-DD HH:mm:ss";
+                    }else {
+                        return "YYYY-MM-DD";
+                    }
+                }
             }
         },
         ready(){
@@ -116,24 +143,35 @@ Time: 15:54-->
             "selectedDates":{
                 handler:function (newValue,oldValue) {
                     let me = this;
+                    debugger;
                     if(newValue && JSON.stringify(newValue) != JSON.stringify(oldValue)){
                         if(me.multiple){
-                            me.value = MSUtil.MSDate.dateArrayToStringArray(newValue,me.dateFormat);
+                            me.value = MSUtil.MSDate.dateArrayToStringArray(newValue,me.dateTimeFormat);
                         }else{
                             if(newValue[0]){
-                                me.value = moment(newValue[0]).format(me.dateFormat);
+                                if(me.dateTime){
+                                    newValue[0].setHours(me.dateTime.getHours());
+                                    newValue[0].setMinutes(me.dateTime.getMinutes());
+                                    newValue[0].setSeconds(me.dateTime.getSeconds());
+                                }
+                                me.value = moment(newValue[0]).format(me.dateTimeFormat);
                             }else {
                                 me.value = "";
                             }
                         }
                     }
                 }
-            }
-        },
-        computed:{
-            "showDate":function () {
-                let me = this;
-                return me.value;
+            },
+            "dateTime":{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    if(me.selectedDates && me.selectedDates.length>0){
+                        let dates = _.cloneDeep(me.selectedDates);
+                        dates[0] = newValue;
+                        me.selectedDates = dates;
+                    }
+
+                }
             }
         },
         methods:{
@@ -211,7 +249,8 @@ Time: 15:54-->
             me.clickOff();
         },
         components:{
-            datepicker
+            datepicker,
+            datepickerTimePanel
         }
     }
 </script>

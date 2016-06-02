@@ -66,7 +66,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _dateField2 = _interopRequireDefault(_dateField);
 	
-	var _dateRangeField = __webpack_require__(242);
+	var _dateRangeField = __webpack_require__(262);
 	
 	var _dateRangeField2 = _interopRequireDefault(_dateRangeField);
 	
@@ -82,7 +82,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
-	var _datepickerRange = __webpack_require__(246);
+	var _datepickerRange = __webpack_require__(266);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
@@ -90,7 +90,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
 	
-	var _datepickerTimePanel = __webpack_require__(256);
+	var _datepickerTimePanel = __webpack_require__(241);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
@@ -38226,7 +38226,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/form/field/date-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(241)
+	__vue_template__ = __webpack_require__(261)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -38322,6 +38322,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
+	var _datepickerTimePanel = __webpack_require__(241);
+	
+	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
@@ -38351,9 +38355,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	            twoWay: true
 	        },
 	        "dateFormat": {
-	            type: String,
+	            type: String
+	        },
+	        "withTime": {
+	            type: Boolean,
 	            default: function _default() {
-	                return "YYYY-MM-DD";
+	                return false;
 	            }
 	        },
 	        "isDisabled": {
@@ -38371,8 +38378,31 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return {
 	            "calendarShow": false,
 	            "selectedDates": [],
-	            "isInnerElement": false
+	            "isInnerElement": false,
+	            "dateTime": null
 	        };
+	    },
+	
+	    computed: {
+	        "showDate": function showDate() {
+	            var me = this;
+	            return me.value;
+	        },
+	        "showTime": function showTime() {
+	            return !this.multiple && this.withTime;
+	        },
+	        "dateTimeFormat": function dateTimeFormat() {
+	            var me = this;
+	            if (me.dateFormat) {
+	                return me.dateFormat;
+	            } else {
+	                if (me.withTime && !me.multiple) {
+	                    return "YYYY-MM-DD HH:mm:ss";
+	                } else {
+	                    return "YYYY-MM-DD";
+	                }
+	            }
+	        }
 	    },
 	    ready: function ready() {
 	        var me = this;
@@ -38401,24 +38431,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	        "selectedDates": {
 	            handler: function handler(newValue, oldValue) {
 	                var me = this;
+	                debugger;
 	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
 	                    if (me.multiple) {
-	                        me.value = _index2.default.MSDate.dateArrayToStringArray(newValue, me.dateFormat);
+	                        me.value = _index2.default.MSDate.dateArrayToStringArray(newValue, me.dateTimeFormat);
 	                    } else {
 	                        if (newValue[0]) {
-	                            me.value = (0, _moment2.default)(newValue[0]).format(me.dateFormat);
+	                            if (me.dateTime) {
+	                                newValue[0].setHours(me.dateTime.getHours());
+	                                newValue[0].setMinutes(me.dateTime.getMinutes());
+	                                newValue[0].setSeconds(me.dateTime.getSeconds());
+	                            }
+	                            me.value = (0, _moment2.default)(newValue[0]).format(me.dateTimeFormat);
 	                        } else {
 	                            me.value = "";
 	                        }
 	                    }
 	                }
 	            }
-	        }
-	    },
-	    computed: {
-	        "showDate": function showDate() {
-	            var me = this;
-	            return me.value;
+	        },
+	        "dateTime": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (me.selectedDates && me.selectedDates.length > 0) {
+	                    var dates = _lodash2.default.cloneDeep(me.selectedDates);
+	                    dates[0] = newValue;
+	                    me.selectedDates = dates;
+	                }
+	            }
 	        }
 	    },
 	    methods: {
@@ -38496,7 +38536,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	
 	    components: {
-	        datepicker: _datepicker2.default
+	        datepicker: _datepicker2.default,
+	        datepickerTimePanel: _datepickerTimePanel2.default
 	    }
 	};
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
@@ -54488,17 +54529,556 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 241 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-field\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-2d0813fa=\"\">\n            </datepicker>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+	var __vue_script__, __vue_template__
+	__webpack_require__(242)
+	__vue_script__ = __webpack_require__(244)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-time-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(260)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-time-panel.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
 
 /***/ },
 /* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(243);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 243 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".ms-time-panel[_v-0abd7674] {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell[_v-0abd7674] {\n  display: table-cell;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-time-panel.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,oBAAoB;CACrB","file":"datepicker-time-panel.vue","sourcesContent":[".ms-time-panel {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell {\n  display: table-cell;\n}\n"],"sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 244 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _datepickerHour = __webpack_require__(245);
+	
+	var _datepickerHour2 = _interopRequireDefault(_datepickerHour);
+	
+	var _datepickerMinute = __webpack_require__(250);
+	
+	var _datepickerMinute2 = _interopRequireDefault(_datepickerMinute);
+	
+	var _datepickerSecond = __webpack_require__(255);
+	
+	var _datepickerSecond2 = _interopRequireDefault(_datepickerSecond);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "title": {
+	            type: String
+	        },
+	        "date": {
+	            type: Date,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date();
+	            }
+	        },
+	        "hourText": {
+	            type: String
+	        },
+	        "minuteText": {
+	            type: Number
+	        },
+	        "secondText": {
+	            type: String
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "hour": null,
+	            "minute": null,
+	            "second": null
+	        };
+	    },
+	
+	    watch: {
+	        "date": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue) {
+	                    me.hour = newValue.getHours();
+	                    me.minute = newValue.getMinutes();
+	                    me.second = newValue.getSeconds();
+	                } else {
+	                    me.date = new Date();
+	                }
+	            },
+	            immediate: true
+	        },
+	        "hour": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                var date = _.cloneDeep(me.date);
+	                date.setHours(newValue);
+	                me.date = date;
+	            }
+	        },
+	        "minute": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                var date = _.cloneDeep(me.date);
+	                date.setMinutes(newValue);
+	                me.date = date;
+	            }
+	        },
+	        "second": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                var date = _.cloneDeep(me.date);
+	                date.setSeconds(newValue);
+	                me.date = date;
+	            }
+	        }
+	    },
+	    components: {
+	        datepickerHour: _datepickerHour2.default,
+	        datepickerMinute: _datepickerMinute2.default,
+	        datepickerSecond: _datepickerSecond2.default
+	    }
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
+
+/***/ },
+/* 245 */
+/***/ function(module, exports, __webpack_require__) {
+
 	var __vue_script__, __vue_template__
-	__webpack_require__(243)
-	__vue_script__ = __webpack_require__(245)
+	__webpack_require__(246)
+	__vue_script__ = __webpack_require__(248)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-hour.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(249)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-hour.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 246 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(247);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 247 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"datepicker-hour.vue","sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 248 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "hour": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getHours();
+	            }
+	        },
+	        "hourText": {
+	            type: String,
+	            default: function _default() {
+	                return "时";
+	            }
+	        }
+	    },
+	    computed: {
+	        "hours": function hours() {
+	            var hours = new Array(24);
+	            for (var i = 0; i < 24; i++) {
+	                hours[i] = i;
+	            }
+	            return hours;
+	        }
+	    },
+	    filters: {
+	        "hourFormat": function hourFormat(hour) {
+	            if (parseInt(hour) < 10) {
+	                return '0' + hour;
+	            } else {
+	                return hour;
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 249 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-08aac958=\"\">\n    <div class=\"form-group\" _v-08aac958=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-08aac958=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-08aac958=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-08aac958=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
+
+/***/ },
+/* 250 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(251)
+	__vue_script__ = __webpack_require__(253)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-minute.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(254)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-minute.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 251 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(252);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 252 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"datepicker-minute.vue","sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 253 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "minute": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getMinutes();
+	            }
+	        },
+	        "minuteText": {
+	            type: String,
+	            default: function _default() {
+	                return "分";
+	            }
+	        }
+	    },
+	    computed: {
+	        "minutes": function minutes() {
+	            var minutes = new Array(60);
+	            for (var i = 0; i < 60; i++) {
+	                minutes[i] = i;
+	            }
+	            return minutes;
+	        }
+	    },
+	    filters: {
+	        "minuteFormat": function minuteFormat(hour) {
+	            if (parseInt(hour) < 10) {
+	                return '0' + hour;
+	            } else {
+	                return hour;
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 254 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-4533dd84=\"\">\n    <div class=\"form-group\" _v-4533dd84=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-4533dd84=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-4533dd84=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-4533dd84=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
+
+/***/ },
+/* 255 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(256)
+	__vue_script__ = __webpack_require__(258)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-second.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(259)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-second.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 256 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(257);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 257 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"datepicker-second.vue","sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 258 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "second": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getSeconds();
+	            }
+	        },
+	        "secondText": {
+	            type: String,
+	            default: function _default() {
+	                return "秒";
+	            }
+	        }
+	    },
+	    computed: {
+	        "seconds": function seconds() {
+	            var seconds = new Array(60);
+	            for (var i = 0; i < 60; i++) {
+	                seconds[i] = i;
+	            }
+	            return seconds;
+	        }
+	    },
+	    filters: {
+	        "secondFormat": function secondFormat(hour) {
+	            if (parseInt(hour) < 10) {
+	                return '0' + hour;
+	            } else {
+	                return hour;
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 259 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-21056838=\"\">\n    <div class=\"form-group\" _v-21056838=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-21056838=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-21056838=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-21056838=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
+
+/***/ },
+/* 260 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-time-panel\" _v-0abd7674=\"\">\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-0abd7674=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-0abd7674=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-0abd7674=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
+
+/***/ },
+/* 261 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-field\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-2d0813fa=\"\">\n            </datepicker>\n            <datepicker-time-panel v-if=\"showTime\" :date.sync=\"dateTime\" _v-2d0813fa=\"\"></datepicker-time-panel>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+
+/***/ },
+/* 262 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(263)
+	__vue_script__ = __webpack_require__(265)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
@@ -54522,13 +55102,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 243 */
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(244);
+	var content = __webpack_require__(264);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54548,7 +55128,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 244 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54562,7 +55142,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 245 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_, $) {"use strict";
@@ -54595,11 +55175,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepickerRange = __webpack_require__(246);
+	var _datepickerRange = __webpack_require__(266);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
-	var _datepickerTimePanel = __webpack_require__(256);
+	var _datepickerTimePanel = __webpack_require__(241);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
@@ -54839,17 +55419,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18), __webpack_require__(10)))
 
 /***/ },
-/* 246 */
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(247)
-	__vue_script__ = __webpack_require__(249)
+	__webpack_require__(267)
+	__vue_script__ = __webpack_require__(269)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(255)
+	__vue_template__ = __webpack_require__(275)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54868,13 +55448,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 247 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(248);
+	var content = __webpack_require__(268);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54894,7 +55474,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 248 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54908,7 +55488,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 249 */
+/* 269 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -54937,7 +55517,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerRangeDay = __webpack_require__(250);
+	var _datepickerRangeDay = __webpack_require__(270);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
@@ -55057,17 +55637,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 250 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(251)
-	__vue_script__ = __webpack_require__(253)
+	__webpack_require__(271)
+	__vue_script__ = __webpack_require__(273)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range-day.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(254)
+	__vue_template__ = __webpack_require__(274)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -55086,13 +55666,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 251 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(252);
+	var content = __webpack_require__(272);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -55112,7 +55692,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 252 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -55126,7 +55706,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 253 */
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -55235,555 +55815,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 254 */
+/* 274 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-4d974c68=\"\">\n    <span _v-4d974c68=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
-/* 255 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
-
-/***/ },
-/* 256 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(257)
-	__vue_script__ = __webpack_require__(259)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-time-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(275)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-time-panel.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 257 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-	
-	// load the styles
-	var content = __webpack_require__(258);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 258 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(3)();
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".ms-time-panel[_v-0abd7674] {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell[_v-0abd7674] {\n  display: table-cell;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-time-panel.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,oBAAoB;CACrB","file":"datepicker-time-panel.vue","sourcesContent":[".ms-time-panel {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell {\n  display: table-cell;\n}\n"],"sourceRoot":"webpack://"}]);
-	
-	// exports
-
-
-/***/ },
-/* 259 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _datepickerHour = __webpack_require__(260);
-	
-	var _datepickerHour2 = _interopRequireDefault(_datepickerHour);
-	
-	var _datepickerMinute = __webpack_require__(265);
-	
-	var _datepickerMinute2 = _interopRequireDefault(_datepickerMinute);
-	
-	var _datepickerSecond = __webpack_require__(270);
-	
-	var _datepickerSecond2 = _interopRequireDefault(_datepickerSecond);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    props: {
-	        "title": {
-	            type: String
-	        },
-	        "date": {
-	            type: Date,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date();
-	            }
-	        },
-	        "hourText": {
-	            type: String
-	        },
-	        "minuteText": {
-	            type: Number
-	        },
-	        "secondText": {
-	            type: String
-	        }
-	    },
-	    data: function data() {
-	        return {
-	            "hour": null,
-	            "minute": null,
-	            "second": null
-	        };
-	    },
-	
-	    watch: {
-	        "date": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue) {
-	                    me.hour = newValue.getHours();
-	                    me.minute = newValue.getMinutes();
-	                    me.second = newValue.getSeconds();
-	                } else {
-	                    me.date = new Date();
-	                }
-	            },
-	            immediate: true
-	        },
-	        "hour": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                var date = _.cloneDeep(me.date);
-	                date.setHours(newValue);
-	                me.date = date;
-	            }
-	        },
-	        "minute": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                var date = _.cloneDeep(me.date);
-	                date.setMinutes(newValue);
-	                me.date = date;
-	            }
-	        },
-	        "second": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                var date = _.cloneDeep(me.date);
-	                date.setSeconds(newValue);
-	                me.date = date;
-	            }
-	        }
-	    },
-	    components: {
-	        datepickerHour: _datepickerHour2.default,
-	        datepickerMinute: _datepickerMinute2.default,
-	        datepickerSecond: _datepickerSecond2.default
-	    }
-	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
-
-/***/ },
-/* 260 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(261)
-	__vue_script__ = __webpack_require__(263)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-hour.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(264)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-hour.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 261 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-	
-	// load the styles
-	var content = __webpack_require__(262);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 262 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(3)();
-	// imports
-	
-	
-	// module
-	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"datepicker-hour.vue","sourceRoot":"webpack://"}]);
-	
-	// exports
-
-
-/***/ },
-/* 263 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "hour": {
-	            type: Number,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getHours();
-	            }
-	        },
-	        "hourText": {
-	            type: String,
-	            default: function _default() {
-	                return "时";
-	            }
-	        }
-	    },
-	    computed: {
-	        "hours": function hours() {
-	            var hours = new Array(24);
-	            for (var i = 0; i < 24; i++) {
-	                hours[i] = i;
-	            }
-	            return hours;
-	        }
-	    },
-	    filters: {
-	        "hourFormat": function hourFormat(hour) {
-	            if (parseInt(hour) < 10) {
-	                return '0' + hour;
-	            } else {
-	                return hour;
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 264 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-08aac958=\"\">\n    <div class=\"form-group\" _v-08aac958=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-08aac958=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-08aac958=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-08aac958=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
-
-/***/ },
-/* 265 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(266)
-	__vue_script__ = __webpack_require__(268)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-minute.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(269)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-minute.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 266 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-	
-	// load the styles
-	var content = __webpack_require__(267);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 267 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(3)();
-	// imports
-	
-	
-	// module
-	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"datepicker-minute.vue","sourceRoot":"webpack://"}]);
-	
-	// exports
-
-
-/***/ },
-/* 268 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "minute": {
-	            type: Number,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getMinutes();
-	            }
-	        },
-	        "minuteText": {
-	            type: String,
-	            default: function _default() {
-	                return "分";
-	            }
-	        }
-	    },
-	    computed: {
-	        "minutes": function minutes() {
-	            var minutes = new Array(60);
-	            for (var i = 0; i < 60; i++) {
-	                minutes[i] = i;
-	            }
-	            return minutes;
-	        }
-	    },
-	    filters: {
-	        "minuteFormat": function minuteFormat(hour) {
-	            if (parseInt(hour) < 10) {
-	                return '0' + hour;
-	            } else {
-	                return hour;
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 269 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-4533dd84=\"\">\n    <div class=\"form-group\" _v-4533dd84=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-4533dd84=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-4533dd84=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-4533dd84=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
-
-/***/ },
-/* 270 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(271)
-	__vue_script__ = __webpack_require__(273)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-second.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(274)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-second.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 271 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-	
-	// load the styles
-	var content = __webpack_require__(272);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 272 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(3)();
-	// imports
-	
-	
-	// module
-	exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"datepicker-second.vue","sourceRoot":"webpack://"}]);
-	
-	// exports
-
-
-/***/ },
-/* 273 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "second": {
-	            type: Number,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getSeconds();
-	            }
-	        },
-	        "secondText": {
-	            type: String,
-	            default: function _default() {
-	                return "秒";
-	            }
-	        }
-	    },
-	    computed: {
-	        "seconds": function seconds() {
-	            var seconds = new Array(60);
-	            for (var i = 0; i < 60; i++) {
-	                seconds[i] = i;
-	            }
-	            return seconds;
-	        }
-	    },
-	    filters: {
-	        "secondFormat": function secondFormat(hour) {
-	            if (parseInt(hour) < 10) {
-	                return '0' + hour;
-	            } else {
-	                return hour;
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 274 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-21056838=\"\">\n    <div class=\"form-group\" _v-21056838=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-21056838=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-21056838=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-21056838=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
-
-/***/ },
 /* 275 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-time-panel\" _v-0abd7674=\"\">\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-0abd7674=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-0abd7674=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-0abd7674=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 276 */
@@ -56289,7 +56330,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _datepickerRangeDay = __webpack_require__(250);
+	var _datepickerRangeDay = __webpack_require__(270);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	

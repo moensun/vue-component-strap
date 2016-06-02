@@ -18,6 +18,9 @@ Time: 12:42-->
     <div>
         <ms-date-field :multiple=true :is-focus=true :value.sync="value2"></ms-date-field>
     </div>
+    <div>
+        <ms-date-field :multiple=false :is-focus=true :value.sync="value3" :with-time=true></ms-date-field>
+    </div>
 </div>
 </template>
 <script>
@@ -28,6 +31,7 @@ Time: 12:42-->
         data(){
             return {
                 "value1":"",
+                "value3":"",
                 "value2":[]
             }
         },
