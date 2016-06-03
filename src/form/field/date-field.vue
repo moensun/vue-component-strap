@@ -16,7 +16,7 @@ Time: 15:54-->
                 <datepicker-time-panel v-if="showTime" :date.sync="dateTime"></datepicker-time-panel>
                 <div>
                     <span>
-                        <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
+                        <!--<button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>-->
                         <button type="button" class="btn btn-danger btn-sm" @click="onClean()">{{cleanText}}</button>
                     </span>
                     <span class="ms-span-right">
