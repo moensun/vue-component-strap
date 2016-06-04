@@ -26,6 +26,7 @@ import msGridPanel from "./grid/panel.vue";
 
 import msAlert from "./window/MessageBox/alert.vue";
 import msConfirm from "./window/MessageBox/confirm.vue";
+import msProgress from "./window/MessageBox/progress.vue";
 import msModal from "./window/modal.vue";
 
 import msVideo from "./player/video.vue";
@@ -54,6 +55,7 @@ const MoenSunStrap = {
 	msGridPanel,
 	msAlert,
 	msConfirm,
+	msProgress,
 	msModal,
 	msVideo,
 	msPagination,

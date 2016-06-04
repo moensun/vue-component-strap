@@ -23,6 +23,10 @@ module.exports = {
         name:"ms-confirm",
         component:require("../component/ms-confirm.vue")
     },
+    "ms-progress":{
+        name:"ms-progress",
+        component:require("../component/ms-progress.vue")
+    },
     "ms-datepicker":{
         name:"ms-datepicker",
         component:require("../component/ms-datepicker.vue")

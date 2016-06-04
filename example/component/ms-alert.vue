@@ -114,7 +114,9 @@ export default{
         data(){
             return {
                 "alertConfig":{
+                    "useProgress":false,
                     "show":false,
+                    "progress":false,
                     "message":"",
                     "title":""
                 }

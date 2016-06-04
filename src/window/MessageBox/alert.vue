@@ -34,6 +34,14 @@ Time: 10:44-->
         props:{
 
         },
+        computed:{
+            "modelShow":function () {
+                return this.progress || this.isShow;
+            },
+            "dialogShow":function () {
+                return !this.progress && this.isShow;
+            }
+        },
         watch:{
             "isShow":function (newValue,oldValue) {
                 let me = this;

@@ -23,6 +23,9 @@ Time: 12:11-->
                             <a v-link="{name:'ms-confirm'}">ms-confirm</a>
                         </li>
                         <li class="list-group-item">
+                            <a v-link="{name:'ms-progress'}">ms-progress</a>
+                        </li>
+                        <li class="list-group-item">
                             <a v-link="{name:'ms-datepicker'}">ms-datepicker</a>
                         </li>
                         <li class="list-group-item">

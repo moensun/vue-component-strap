@@ -237,9 +237,9 @@ Time: 15:54-->
                 let me = this;
                 if(me.multiple){
                     me.value = [];
-                    me.value.push(moment(new Date()).format(me.dateFormat));
+                    me.value.push(moment(new Date()).format(me.dateTimeFormat));
                 }else {
-                    me.value = moment(new Date()).format(me.dateFormat);
+                    me.value = moment(new Date()).format(me.dateTimeFormat);
                 }
 
             }
