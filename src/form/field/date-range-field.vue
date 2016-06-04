@@ -43,7 +43,7 @@ Time: 14:26-->
                 </div>
                 <div>
                         <span>
-                            <button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>
+                            <!--<button type="button" class="btn btn-info btn-sm" @click="onToday()">{{todayText}}</button>-->
                             <button type="button" class="btn btn-danger btn-sm" @click="onClean()">{{cleanText}}</button>
                         </span>
                         <span class="ms-span-right">
