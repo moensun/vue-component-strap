@@ -11,7 +11,7 @@ Time: 19:36-->
                 <label>
                     <input type="checkbox"
                            v-model="value"
-                           value="{{item[id]}}"
+                           :value="item[id]"
                            v-if="showCheckbox">
                     {{item[text]}}
                 </label>

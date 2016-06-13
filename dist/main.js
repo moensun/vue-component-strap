@@ -56915,7 +56915,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 306 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" value=\"{{item[id]}}\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
+	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" :value=\"item[id]\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
 
 /***/ },
 /* 307 */
