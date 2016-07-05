@@ -6,13 +6,17 @@ Date: 16/5/15
 Time: 17:47-->
 <template>
     <div  class="ms-video" :style="[sizeStyle]">
-        <video v-el:video-el class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
+<!--        <video v-el:video-el class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
                :poster="poster" :dataSetup="options" :src="src">
             <source :src="src" :type="type">
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a web browser that
                 <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
             </p>
+        </video>-->
+        <video v-el:video-el class="video-js" controls :preload="preload"  style="width: 100%;height: 100%"
+               :poster="poster" :dataSetup="options" :src="src">
+
         </video>
     </div>
 </template>
@@ -52,6 +56,11 @@ Time: 17:47-->
                 type:Number
             }
         },
+        data(){
+            return {
+                "player":null
+            }
+        },
         computed:{
             "sizeStyle":function () {
                 let me = this;
@@ -73,8 +82,12 @@ Time: 17:47-->
             'src':{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    me.initialize();
+                    me.player.src(newValue);
                 }
+            },
+            "preload":function (newValue,oldValue) {
+                let me = this;
+                me.player.poster(newValue);
             }
         },
         ready(){
@@ -84,7 +97,7 @@ Time: 17:47-->
         methods:{
             "initialize":function () {
                 let me = this;
-                videojs(me.$els.videoEl, me.options, function() {
+                me.player = videojs(me.$els.videoEl, me.options, function() {
                     // This is functionally the same as the previous example.
                 });
             }

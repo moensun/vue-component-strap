@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "webpack --watch --progress",
-    "src":"webpack --config webpack-src.config.babel.js --watch --progress",
+    "src": "webpack --config webpack-src.config.babel.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -49,5 +49,8 @@
     "vue-router": "^0.7.13",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.13"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
   }
 }

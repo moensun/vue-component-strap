@@ -66,35 +66,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _dateField2 = _interopRequireDefault(_dateField);
 	
-	var _dateRangeField = __webpack_require__(262);
+	var _dateRangeField = __webpack_require__(263);
 	
 	var _dateRangeField2 = _interopRequireDefault(_dateRangeField);
 	
-	var _dateRangeSingleField = __webpack_require__(277);
+	var _dateRangeSingleField = __webpack_require__(278);
 	
 	var _dateRangeSingleField2 = _interopRequireDefault(_dateRangeSingleField);
 	
-	var _ueditorField = __webpack_require__(292);
+	var _ueditorField = __webpack_require__(293);
 	
 	var _ueditorField2 = _interopRequireDefault(_ueditorField);
 	
-	var _datepicker = __webpack_require__(205);
+	var _datepicker = __webpack_require__(206);
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
-	var _datepickerRange = __webpack_require__(266);
+	var _datepickerRange = __webpack_require__(267);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
-	var _datepickerRangeSingle = __webpack_require__(281);
+	var _datepickerRangeSingle = __webpack_require__(282);
 	
 	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
 	
-	var _datepickerTimePanel = __webpack_require__(241);
+	var _datepickerTimePanel = __webpack_require__(242);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
-	var _treeList = __webpack_require__(297);
+	var _treeList = __webpack_require__(298);
 	
 	var _treeList2 = _interopRequireDefault(_treeList);
 	
@@ -102,47 +102,47 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _treeView2 = _interopRequireDefault(_treeView);
 	
-	var _panel = __webpack_require__(302);
+	var _panel = __webpack_require__(303);
 	
 	var _panel2 = _interopRequireDefault(_panel);
 	
-	var _panel3 = __webpack_require__(307);
+	var _panel3 = __webpack_require__(308);
 	
 	var _panel4 = _interopRequireDefault(_panel3);
 	
-	var _alert = __webpack_require__(345);
+	var _alert = __webpack_require__(346);
 	
 	var _alert2 = _interopRequireDefault(_alert);
 	
-	var _confirm = __webpack_require__(351);
+	var _confirm = __webpack_require__(352);
 	
 	var _confirm2 = _interopRequireDefault(_confirm);
 	
-	var _progress = __webpack_require__(356);
+	var _progress = __webpack_require__(357);
 	
 	var _progress2 = _interopRequireDefault(_progress);
 	
-	var _modal = __webpack_require__(361);
+	var _modal = __webpack_require__(362);
 	
 	var _modal2 = _interopRequireDefault(_modal);
 	
-	var _video = __webpack_require__(366);
+	var _video = __webpack_require__(367);
 	
 	var _video2 = _interopRequireDefault(_video);
 	
-	var _pagination = __webpack_require__(376);
+	var _pagination = __webpack_require__(377);
 	
 	var _pagination2 = _interopRequireDefault(_pagination);
 	
-	var _index = __webpack_require__(381);
+	var _index = __webpack_require__(382);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(434);
+	var _index3 = __webpack_require__(435);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(439);
+	var _index5 = __webpack_require__(440);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
@@ -547,7 +547,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/tree-combox.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src\\form\\field\\tree-combox.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(58)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -558,7 +558,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./tree-combox.vue"
+	  var id = "_v-4ec1435a/tree-combox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -582,8 +582,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0d82582c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0d82582c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4ec1435a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4ec1435a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-combox.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -601,7 +601,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-tree-combox .ms-combox-text[_v-0d82582c] {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly][_v-0d82582c] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon[_v-0d82582c] {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i[_v-0d82582c] {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list[_v-0d82582c] {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner[_v-0d82582c] {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n", "", {"version":3,"sources":["/./src/form/field/tree-combox.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,sCAAsC;EACtC,yCAAyC;CAC1C;AACD;EACE,kBAAkB;CACnB;AACD;EACE,kBAAkB;EAClB,iBAAiB;CAClB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;CACxB;AACD;EACE,kBAAkB;EAClB,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;EACnB,0BAA0B;CAC3B","file":"tree-combox.vue","sourcesContent":[".ms-tree-combox .ms-combox-text {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-tree-combox .ms-combox-text[_v-4ec1435a] {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly][_v-4ec1435a] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon[_v-4ec1435a] {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i[_v-4ec1435a] {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list[_v-4ec1435a] {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner[_v-4ec1435a] {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n", "", {"version":3,"sources":["/./src/form/field/tree-combox.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,sCAAsC;EACtC,yCAAyC;CAC1C;AACD;EACE,kBAAkB;CACnB;AACD;EACE,kBAAkB;EAClB,iBAAiB;CAClB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;CACxB;AACD;EACE,kBAAkB;EAClB,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;EACnB,0BAA0B;CAC3B","file":"tree-combox.vue","sourcesContent":[".ms-tree-combox .ms-combox-text {\n  border-right: 0px;\n  border-top-left-radius: 4px!important;\n  border-bottom-left-radius: 4px!important;\n}\n.ms-tree-combox .ms-combox-text[readonly] {\n  background: white;\n}\n.ms-tree-combox .ms-combox-icon {\n  background: white;\n  border-left: 0px;\n}\n.ms-tree-combox .ms-combox-icon i {\n  cursor: pointer;\n}\n.ms-tree-combox .ms-tree-list {\n  position: absolute;\n  z-index: 100;\n  box-sizing: border-box;\n}\n.ms-tree-combox .ms-tree-list .ms-tree-list-inner {\n  background: white;\n  max-height: 300px;\n  overflow-y: auto;\n  overflow-x: hidden;\n  border: 1px #C7C7C7 solid;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -10787,7 +10787,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process, jQuery) {/*!
-	 * Vue.js v1.0.24
+	 * Vue.js v1.0.26
 	 * (c) 2016 Evan You
 	 * Released under the MIT License.
 	 */
@@ -11186,10 +11186,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	// UA sniffing for working around browser-specific quirks
 	var UA = inBrowser && window.navigator.userAgent.toLowerCase();
+	var isIE = UA && UA.indexOf('trident') > 0;
 	var isIE9 = UA && UA.indexOf('msie 9.0') > 0;
 	var isAndroid = UA && UA.indexOf('android') > 0;
 	var isIos = UA && /(iphone|ipad|ipod|ios)/i.test(UA);
-	var isWechat = UA && UA.indexOf('micromessenger') > 0;
+	var iosVersionMatch = isIos && UA.match(/os ([\d_]+)/);
+	var iosVersion = iosVersionMatch && iosVersionMatch[1].split('_');
+	
+	// detecting iOS UIWebView by indexedDB
+	var hasMutationObserverBug = iosVersion && Number(iosVersion[0]) >= 9 && Number(iosVersion[1]) >= 3 && !window.indexedDB;
 	
 	var transitionProp = undefined;
 	var transitionEndEvent = undefined;
@@ -11230,7 +11235,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	
 	  /* istanbul ignore if */
-	  if (typeof MutationObserver !== 'undefined' && !(isWechat && isIos)) {
+	  if (typeof MutationObserver !== 'undefined' && !hasMutationObserverBug) {
 	    var counter = 1;
 	    var observer = new MutationObserver(nextTickHandler);
 	    var textNode = document.createTextNode(counter);
@@ -11302,12 +11307,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	p.put = function (key, value) {
 	  var removed;
-	  if (this.size === this.limit) {
-	    removed = this.shift();
-	  }
 	
 	  var entry = this.get(key, true);
 	  if (!entry) {
+	    if (this.size === this.limit) {
+	      removed = this.shift();
+	    }
 	    entry = {
 	      key: key
 	    };
@@ -11552,7 +11557,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var unsafeOpen = escapeRegex(config.unsafeDelimiters[0]);
 	  var unsafeClose = escapeRegex(config.unsafeDelimiters[1]);
 	  tagRE = new RegExp(unsafeOpen + '((?:.|\\n)+?)' + unsafeClose + '|' + open + '((?:.|\\n)+?)' + close, 'g');
-	  htmlRE = new RegExp('^' + unsafeOpen + '.*' + unsafeClose + '$');
+	  htmlRE = new RegExp('^' + unsafeOpen + '((?:.|\\n)+?)' + unsafeClose + '$');
 	  // reset cache
 	  cache = new Cache(1000);
 	}
@@ -12339,7 +12344,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return (/HTMLUnknownElement/.test(el.toString()) &&
 	        // Chrome returns unknown for several HTML5 elements.
 	        // https://code.google.com/p/chromium/issues/detail?id=540526
-	        !/^(data|time|rtc|rb)$/.test(tag)
+	        // Firefox returns unknown for some "Interactive elements."
+	        !/^(data|time|rtc|rb|details|dialog|summary)$/.test(tag)
 	      );
 	    }
 	  };
@@ -12675,7 +12681,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	  if (child.mixins) {
 	    for (var i = 0, l = child.mixins.length; i < l; i++) {
-	      parent = mergeOptions(parent, child.mixins[i], vm);
+	      var mixin = child.mixins[i];
+	      var mixinOptions = mixin.prototype instanceof Vue ? mixin.options : mixin;
+	      parent = mergeOptions(parent, mixinOptions, vm);
 	    }
 	  }
 	  for (key in parent) {
@@ -13103,10 +13111,13 @@ return /******/ (function(modules) { // webpackBootstrap
 		hasProto: hasProto,
 		inBrowser: inBrowser,
 		devtools: devtools,
+		isIE: isIE,
 		isIE9: isIE9,
 		isAndroid: isAndroid,
 		isIos: isIos,
-		isWechat: isWechat,
+		iosVersionMatch: iosVersionMatch,
+		iosVersion: iosVersion,
+		hasMutationObserverBug: hasMutationObserverBug,
 		get transitionProp () { return transitionProp; },
 		get transitionEndEvent () { return transitionEndEvent; },
 		get animationProp () { return animationProp; },
@@ -13594,7 +13605,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	var restoreRE = /"(\d+)"/g;
 	var pathTestRE = /^[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*|\['.*?'\]|\[".*?"\]|\[\d+\]|\[[A-Za-z_$][\w$]*\])*$/;
 	var identRE = /[^\w$\.](?:[A-Za-z_$][\w$]*)/g;
-	var booleanLiteralRE = /^(?:true|false)$/;
+	var literalValueRE$1 = /^(?:true|false|null|undefined|Infinity|NaN)$/;
+	
+	function noop() {}
 	
 	/**
 	 * Save / Rewrite / Restore
@@ -13676,7 +13689,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // save strings and object literal keys
 	  var body = exp.replace(saveRE, save).replace(wsRE, '');
 	  // rewrite all paths
-	  // pad 1 space here becaue the regex matches 1 extra char
+	  // pad 1 space here because the regex matches 1 extra char
 	  body = (' ' + body).replace(identRE, rewrite).replace(restoreRE, restore);
 	  return makeGetterFn(body);
 	}
@@ -13697,7 +13710,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return new Function('scope', 'return ' + body + ';');
 	    /* eslint-enable no-new-func */
 	  } catch (e) {
-	    process.env.NODE_ENV !== 'production' && warn('Invalid expression. ' + 'Generated function body: ' + body);
+	    if (process.env.NODE_ENV !== 'production') {
+	      /* istanbul ignore if */
+	      if (e.toString().match(/unsafe-eval|CSP/)) {
+	        warn('It seems you are using the default build of Vue.js in an environment ' + 'with Content Security Policy that prohibits unsafe-eval. ' + 'Use the CSP-compliant build instead: ' + 'http://vuejs.org/guide/installation.html#CSP-compliant-build');
+	      } else {
+	        warn('Invalid expression. ' + 'Generated function body: ' + body);
+	      }
+	    }
+	    return noop;
 	  }
 	}
 	
@@ -13759,8 +13780,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function isSimplePath(exp) {
 	  return pathTestRE.test(exp) &&
-	  // don't treat true/false as paths
-	  !booleanLiteralRE.test(exp) &&
+	  // don't treat literal values as paths
+	  !literalValueRE$1.test(exp) &&
 	  // Math constants e.g. Math.PI, Math.E etc.
 	  exp.slice(0, 5) !== 'Math.';
 	}
@@ -14176,7 +14197,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	  var isA = isArray(val);
 	  var isO = isObject(val);
-	  if (isA || isO) {
+	  if ((isA || isO) && Object.isExtensible(val)) {
 	    if (val.__ob__) {
 	      var depId = val.__ob__.dep.id;
 	      if (seen.has(depId)) {
@@ -14239,6 +14260,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var tagRE$1 = /<([\w:-]+)/;
 	var entityRE = /&#?\w+?;/;
+	var commentRE = /<!--/;
 	
 	/**
 	 * Convert a string template to a DocumentFragment.
@@ -14261,8 +14283,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var frag = document.createDocumentFragment();
 	  var tagMatch = templateString.match(tagRE$1);
 	  var entityMatch = entityRE.test(templateString);
+	  var commentMatch = commentRE.test(templateString);
 	
-	  if (!tagMatch && !entityMatch) {
+	  if (!tagMatch && !entityMatch && !commentMatch) {
 	    // text only, return a single text node.
 	    frag.appendChild(document.createTextNode(templateString));
 	  } else {
@@ -15229,7 +15252,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * the filters. This is passed to and called by the watcher.
 	   *
 	   * It is necessary for this to be called during the
-	   * wathcer's dependency collection phase because we want
+	   * watcher's dependency collection phase because we want
 	   * the v-for to update when the source Object is mutated.
 	   */
 	
@@ -15572,7 +15595,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	
 	  update: function update(value) {
-	    this.el.value = _toString(value);
+	    // #3029 only update when the value changes. This prevent
+	    // browsers from overwriting values like selectionStart
+	    value = _toString(value);
+	    if (value !== this.el.value) this.el.value = value;
 	  },
 	
 	  unbind: function unbind() {
@@ -15621,6 +15647,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	var select = {
 	
 	  bind: function bind() {
+	    var _this = this;
+	
 	    var self = this;
 	    var el = this.el;
 	
@@ -15652,7 +15680,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // selectedIndex with value -1 to 0 when the element
 	    // is appended to a new parent, therefore we have to
 	    // force a DOM update whenever that happens...
-	    this.vm.$on('hook:attached', this.forceUpdate);
+	    this.vm.$on('hook:attached', function () {
+	      nextTick(_this.forceUpdate);
+	    });
+	    if (!inDoc(el)) {
+	      nextTick(this.forceUpdate);
+	    }
 	  },
 	
 	  update: function update(value) {
@@ -16922,7 +16955,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (value === undefined) {
 	    value = getPropDefaultValue(vm, prop);
 	  }
-	  value = coerceProp(prop, value);
+	  value = coerceProp(prop, value, vm);
 	  var coerced = value !== rawValue;
 	  if (!assertProp(prop, value, vm)) {
 	    value = undefined;
@@ -17041,13 +17074,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {*}
 	 */
 	
-	function coerceProp(prop, value) {
+	function coerceProp(prop, value, vm) {
 	  var coerce = prop.options.coerce;
 	  if (!coerce) {
 	    return value;
 	  }
-	  // coerce is a function
-	  return coerce(value);
+	  if (typeof coerce === 'function') {
+	    return coerce(value);
+	  } else {
+	    process.env.NODE_ENV !== 'production' && warn('Invalid coerce for prop "' + prop.name + '": expected function, got ' + typeof coerce + '.', vm);
+	    return value;
+	  }
 	}
 	
 	/**
@@ -17579,10 +17616,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // resolve on owner vm
 	    var hooks = resolveAsset(this.vm.$options, 'transitions', id);
 	    id = id || 'v';
+	    oldId = oldId || 'v';
 	    el.__v_trans = new Transition(el, id, hooks, this.vm);
-	    if (oldId) {
-	      removeClass(el, oldId + '-transition');
-	    }
+	    removeClass(el, oldId + '-transition');
 	    addClass(el, id + '-transition');
 	  }
 	};
@@ -18007,7 +18043,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          if (token.html) {
 	            replace(node, parseTemplate(value, true));
 	          } else {
-	            node.data = value;
+	            node.data = _toString(value);
 	          }
 	        } else {
 	          vm._bindDir(token.descriptor, node, host, scope);
@@ -18991,7 +19027,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	}
 	
-	function noop() {}
+	function noop$1() {}
 	
 	/**
 	 * A directive links a DOM element with a piece of data,
@@ -19090,7 +19126,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	      };
 	    } else {
-	      this._update = noop;
+	      this._update = noop$1;
 	    }
 	    var preProcess = this._preProcess ? bind(this._preProcess, this) : null;
 	    var postProcess = this._postProcess ? bind(this._postProcess, this) : null;
@@ -20528,7 +20564,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  json: {
 	    read: function read(value, indent) {
-	      return typeof value === 'string' ? value : JSON.stringify(value, null, Number(indent) || 2);
+	      return typeof value === 'string' ? value : JSON.stringify(value, null, arguments.length > 1 ? indent : 2);
 	    },
 	    write: function write(value) {
 	      try {
@@ -20601,7 +20637,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  pluralize: function pluralize(value) {
 	    var args = toArray(arguments, 1);
-	    return args.length > 1 ? args[value % 10 - 1] || args[args.length - 1] : args[0] + (value === 1 ? '' : 's');
+	    var length = args.length;
+	    if (length > 1) {
+	      var index = value % 10 - 1;
+	      return index in args ? args[index] : args[length - 1];
+	    } else {
+	      return args[0] + (value === 1 ? '' : 's');
+	    }
 	  },
 	
 	  /**
@@ -20786,7 +20828,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	          }
 	        }
 	        if (type === 'component' && isPlainObject(definition)) {
-	          definition.name = id;
+	          if (!definition.name) {
+	            definition.name = id;
+	          }
 	          definition = Vue.extend(definition);
 	        }
 	        this.options[type + 's'][id] = definition;
@@ -20801,7 +20845,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	installGlobalAPI(Vue);
 	
-	Vue.version = '1.0.24';
+	Vue.version = '1.0.26';
 	
 	// devtools global hook
 	/* istanbul ignore next */
@@ -20825,6 +20869,31 @@ return /******/ (function(modules) { // webpackBootstrap
 	// shim for using process in browser
 	
 	var process = module.exports = {};
+	
+	// cached from whatever global is present so that test runners that stub it
+	// don't break things.  But we need to wrap it in a try catch in case it is
+	// wrapped in strict mode code which doesn't define any globals.  It's inside a
+	// function because try/catches deoptimize in certain engines.
+	
+	var cachedSetTimeout;
+	var cachedClearTimeout;
+	
+	(function () {
+	  try {
+	    cachedSetTimeout = setTimeout;
+	  } catch (e) {
+	    cachedSetTimeout = function () {
+	      throw new Error('setTimeout is not defined');
+	    }
+	  }
+	  try {
+	    cachedClearTimeout = clearTimeout;
+	  } catch (e) {
+	    cachedClearTimeout = function () {
+	      throw new Error('clearTimeout is not defined');
+	    }
+	  }
+	} ())
 	var queue = [];
 	var draining = false;
 	var currentQueue;
@@ -20849,7 +20918,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    if (draining) {
 	        return;
 	    }
-	    var timeout = setTimeout(cleanUpNextTick);
+	    var timeout = cachedSetTimeout(cleanUpNextTick);
 	    draining = true;
 	
 	    var len = queue.length;
@@ -20866,7 +20935,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    currentQueue = null;
 	    draining = false;
-	    clearTimeout(timeout);
+	    cachedClearTimeout(timeout);
 	}
 	
 	process.nextTick = function (fun) {
@@ -20878,7 +20947,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    queue.push(new Item(fun, args));
 	    if (queue.length === 1 && !draining) {
-	        setTimeout(drainQueue, 0);
+	        cachedSetTimeout(drainQueue, 0);
 	    }
 	};
 	
@@ -20928,7 +20997,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/tree/tree-view.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src\\tree\\tree-view.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(57)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -20939,7 +21008,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./tree-view.vue"
+	  var id = "_v-401af2d1/tree-view.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -20963,8 +21032,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-706212d8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-706212d8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-401af2d1&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-401af2d1&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-view.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -20982,7 +21051,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-tree-view ul[_v-706212d8] {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li[_v-706212d8] {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li[_v-706212d8]:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active[_v-706212d8] {\n  background: rgba(136, 200, 255, 0.5);\n}\n", "", {"version":3,"sources":["/./src/tree/tree-view.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,qCAAqC;CACtC;AACD;EACE,qCAAqC;CACtC","file":"tree-view.vue","sourcesContent":[".ms-tree-view ul {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active {\n  background: rgba(136, 200, 255, 0.5);\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-tree-view ul[_v-401af2d1] {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li[_v-401af2d1] {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li[_v-401af2d1]:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active[_v-401af2d1] {\n  background: rgba(136, 200, 255, 0.5);\n}\n", "", {"version":3,"sources":["/./src/tree/tree-view.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,kBAAkB;EAClB,gBAAgB;CACjB;AACD;EACE,qCAAqC;CACtC;AACD;EACE,qCAAqC;CACtC","file":"tree-view.vue","sourcesContent":[".ms-tree-view ul {\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\n.ms-tree-view ul li {\n  line-height: 22px;\n  cursor: pointer;\n}\n.ms-tree-view ul li:hover {\n  background: rgba(136, 200, 255, 0.5);\n}\n.ms-tree-view ul li.active {\n  background: rgba(136, 200, 255, 0.5);\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -38214,13 +38283,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 57 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-tree-view\" _v-706212d8=\"\">\n    <button @click=\"test\" type=\"button\" _v-706212d8=\"\">ceshi </button>\n    <ul _v-706212d8=\"\">\n        <li v-for=\"(index,record) in data\" v-show=\"show(record)\" @click.prevent=\"selectValue(index,record,$event)\" :class=\"{'active':( record == selectRecord )}\" _v-706212d8=\"\">\n            {{{record.spaceHtml}}}\n            <i v-if=\"isLeaf(record)\" class=\"ms-tree-space\" _v-706212d8=\"\"></i>\n            <i v-else=\"\" class=\"glyphicon ms-tree-grid-action\" :class=\"{'glyphicon-plus':!record.expanded,'glyphicon-minus':record.expanded }\" @click.stop=\"toggle(index,record)\" _v-706212d8=\"\"></i>\n            {{record[displayField]}}\n        </li>\n    </ul>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-tree-view\" _v-401af2d1=\"\">\n    <button @click=\"test\" type=\"button\" _v-401af2d1=\"\">ceshi </button>\n    <ul _v-401af2d1=\"\">\n        <li v-for=\"(index,record) in data\" v-show=\"show(record)\" @click.prevent=\"selectValue(index,record,$event)\" :class=\"{'active':( record == selectRecord )}\" _v-401af2d1=\"\">\n            {{{record.spaceHtml}}}\n            <i v-if=\"isLeaf(record)\" class=\"ms-tree-space\" _v-401af2d1=\"\"></i>\n            <i v-else=\"\" class=\"glyphicon ms-tree-grid-action\" :class=\"{'glyphicon-plus':!record.expanded,'glyphicon-minus':record.expanded }\" @click.stop=\"toggle(index,record)\" _v-401af2d1=\"\"></i>\n            {{record[displayField]}}\n        </li>\n    </ul>\n</div>\n";
 
 /***/ },
 /* 58 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<section class=\"ms-tree-combox\" _v-0d82582c=\"\">\n    <div class=\"input-group\" tabindex=\"1\" _v-0d82582c=\"\">\n        <input type=\"hidden\" v-model=\"value\" _v-0d82582c=\"\">\n        <input v-el:tree-combox-text=\"\" type=\"text\" class=\"form-control ms-combox-text\" placeholder=\"{{placeholder}}\" @blur=\"hide\" v-model=\"text\" readonly=\"\" _v-0d82582c=\"\">\n        <div class=\"input-group-addon ms-combox-icon\" _v-0d82582c=\"\"><i class=\"glyphicon glyphicon-triangle-bottom\" @click.prevent=\"toggleDropdown($event)\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-0d82582c=\"\"></i></div>\n    </div>\n    <div v-show=\"listShow\" class=\"ms-tree-list\" :style=\"[listBoxStyle]\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-0d82582c=\"\">\n        <div class=\"ms-tree-list-inner\" :style=\"{ width:listWidth}\" _v-0d82582c=\"\">\n            <tree-view :box-show.sync=\"listShow\" :data=\"data\" :value.sync=\"value\" :text.sync=\"text\" :select-type=\"selectType\" :value-field=\"valueField\" :display-field=\"displayField\" v-ref:tree-view=\"\" _v-0d82582c=\"\"></tree-view>\n        </div>\n    </div>\n</section>\n";
+	module.exports = "\n\n\n\n\n\n\n<section class=\"ms-tree-combox\" _v-4ec1435a=\"\">\n    <div class=\"input-group\" tabindex=\"1\" _v-4ec1435a=\"\">\n        <input type=\"hidden\" v-model=\"value\" _v-4ec1435a=\"\">\n        <input v-el:tree-combox-text=\"\" type=\"text\" class=\"form-control ms-combox-text\" placeholder=\"{{placeholder}}\" @blur=\"hide\" v-model=\"text\" readonly=\"\" _v-4ec1435a=\"\">\n        <div class=\"input-group-addon ms-combox-icon\" _v-4ec1435a=\"\"><i class=\"glyphicon glyphicon-triangle-bottom\" @click.prevent=\"toggleDropdown($event)\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-4ec1435a=\"\"></i></div>\n    </div>\n    <div v-show=\"listShow\" class=\"ms-tree-list\" :style=\"[listBoxStyle]\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-4ec1435a=\"\">\n        <div class=\"ms-tree-list-inner\" :style=\"{ width:listWidth}\" _v-4ec1435a=\"\">\n            <tree-view :box-show.sync=\"listShow\" :data=\"data\" :value.sync=\"value\" :text.sync=\"text\" :select-type=\"selectType\" :value-field=\"valueField\" :display-field=\"displayField\" v-ref:tree-view=\"\" _v-4ec1435a=\"\"></tree-view>\n        </div>\n    </div>\n</section>\n";
 
 /***/ },
 /* 59 */
@@ -38232,8 +38301,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/date-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(261)
+	  console.warn("[vue-loader] src\\form\\field\\date-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(262)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -38243,7 +38312,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./date-field.vue"
+	  var id = "_v-0ec1f68a/date-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -38267,8 +38336,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2d0813fa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2d0813fa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0ec1f68a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0ec1f68a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-field.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -38286,7 +38355,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-date-field .ms-calendar[_v-2d0813fa] {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker[_v-2d0813fa] {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box[_v-2d0813fa] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right[_v-2d0813fa] {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up[_v-2d0813fa] {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down[_v-2d0813fa] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-field.vue","sourcesContent":[".ms-date-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-date-field .ms-calendar[_v-0ec1f68a] {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker[_v-0ec1f68a] {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box[_v-0ec1f68a] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right[_v-0ec1f68a] {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up[_v-0ec1f68a] {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down[_v-0ec1f68a] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-field.vue","sourcesContent":[".ms-date-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-field .ms-picker {\n  position: relative;\n}\n.ms-date-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -38317,19 +38386,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _index = __webpack_require__(167);
+	var _index = __webpack_require__(168);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _dateFieldMixin = __webpack_require__(204);
+	var _dateFieldMixin = __webpack_require__(205);
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepicker = __webpack_require__(205);
+	var _datepicker = __webpack_require__(206);
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
-	var _datepickerTimePanel = __webpack_require__(241);
+	var _datepickerTimePanel = __webpack_require__(242);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
@@ -38570,7 +38639,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {//! moment.js
-	//! version : 2.13.0
+	//! version : 2.14.1
 	//! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 	//! license : MIT
 	//! momentjs.com
@@ -38595,6 +38664,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    function isArray(input) {
 	        return input instanceof Array || Object.prototype.toString.call(input) === '[object Array]';
+	    }
+	
+	    function isObject(input) {
+	        return Object.prototype.toString.call(input) === '[object Object]';
+	    }
+	
+	    function isObjectEmpty(obj) {
+	        var k;
+	        for (k in obj) {
+	            // even if its not own property I'd still call it non-empty
+	            return false;
+	        }
+	        return true;
 	    }
 	
 	    function isDate(input) {
@@ -38792,7 +38874,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    function absFloor (number) {
 	        if (number < 0) {
-	            return Math.ceil(number);
+	            // -0 -> 0
+	            return Math.ceil(number) || 0;
 	        } else {
 	            return Math.floor(number);
 	        }
@@ -38865,10 +38948,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return input instanceof Function || Object.prototype.toString.call(input) === '[object Function]';
 	    }
 	
-	    function isObject(input) {
-	        return Object.prototype.toString.call(input) === '[object Object]';
-	    }
-	
 	    function locale_set__set (config) {
 	        var prop, i;
 	        for (i in config) {
@@ -38900,6 +38979,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	                }
 	            }
 	        }
+	        for (prop in parentConfig) {
+	            if (hasOwnProp(parentConfig, prop) &&
+	                    !hasOwnProp(childConfig, prop) &&
+	                    isObject(parentConfig[prop])) {
+	                // make sure changes to properties don't modify parent config
+	                res[prop] = extend({}, res[prop]);
+	            }
+	        }
 	        return res;
 	    }
 	
@@ -38925,161 +39012,83 @@ return /******/ (function(modules) { // webpackBootstrap
 	        };
 	    }
 	
-	    // internal storage for locale config files
-	    var locales = {};
-	    var globalLocale;
+	    var defaultCalendar = {
+	        sameDay : '[Today at] LT',
+	        nextDay : '[Tomorrow at] LT',
+	        nextWeek : 'dddd [at] LT',
+	        lastDay : '[Yesterday at] LT',
+	        lastWeek : '[Last] dddd [at] LT',
+	        sameElse : 'L'
+	    };
 	
-	    function normalizeLocale(key) {
-	        return key ? key.toLowerCase().replace('_', '-') : key;
+	    function locale_calendar__calendar (key, mom, now) {
+	        var output = this._calendar[key] || this._calendar['sameElse'];
+	        return isFunction(output) ? output.call(mom, now) : output;
 	    }
 	
-	    // pick the locale from the array
-	    // try ['en-au', 'en-gb'] as 'en-au', 'en-gb', 'en', as in move through the list trying each
-	    // substring from most specific to least, but move to the next array item if it's a more specific variant than the current root
-	    function chooseLocale(names) {
-	        var i = 0, j, next, locale, split;
+	    var defaultLongDateFormat = {
+	        LTS  : 'h:mm:ss A',
+	        LT   : 'h:mm A',
+	        L    : 'MM/DD/YYYY',
+	        LL   : 'MMMM D, YYYY',
+	        LLL  : 'MMMM D, YYYY h:mm A',
+	        LLLL : 'dddd, MMMM D, YYYY h:mm A'
+	    };
 	
-	        while (i < names.length) {
-	            split = normalizeLocale(names[i]).split('-');
-	            j = split.length;
-	            next = normalizeLocale(names[i + 1]);
-	            next = next ? next.split('-') : null;
-	            while (j > 0) {
-	                locale = loadLocale(split.slice(0, j).join('-'));
-	                if (locale) {
-	                    return locale;
-	                }
-	                if (next && next.length >= j && compareArrays(split, next, true) >= j - 1) {
-	                    //the next array item is better than a shallower substring of this one
-	                    break;
-	                }
-	                j--;
-	            }
-	            i++;
+	    function longDateFormat (key) {
+	        var format = this._longDateFormat[key],
+	            formatUpper = this._longDateFormat[key.toUpperCase()];
+	
+	        if (format || !formatUpper) {
+	            return format;
 	        }
-	        return null;
+	
+	        this._longDateFormat[key] = formatUpper.replace(/MMMM|MM|DD|dddd/g, function (val) {
+	            return val.slice(1);
+	        });
+	
+	        return this._longDateFormat[key];
 	    }
 	
-	    function loadLocale(name) {
-	        var oldLocale = null;
-	        // TODO: Find a better way to register and load all the locales in Node
-	        if (!locales[name] && (typeof module !== 'undefined') &&
-	                module && module.exports) {
-	            try {
-	                oldLocale = globalLocale._abbr;
-	                __webpack_require__(66)("./" + name);
-	                // because defineLocale currently also sets the global locale, we
-	                // want to undo that for lazy loaded locales
-	                locale_locales__getSetGlobalLocale(oldLocale);
-	            } catch (e) { }
-	        }
-	        return locales[name];
+	    var defaultInvalidDate = 'Invalid date';
+	
+	    function invalidDate () {
+	        return this._invalidDate;
 	    }
 	
-	    // This function will load locale and then set the global locale.  If
-	    // no arguments are passed in, it will simply return the current global
-	    // locale key.
-	    function locale_locales__getSetGlobalLocale (key, values) {
-	        var data;
-	        if (key) {
-	            if (isUndefined(values)) {
-	                data = locale_locales__getLocale(key);
-	            }
-	            else {
-	                data = defineLocale(key, values);
-	            }
+	    var defaultOrdinal = '%d';
+	    var defaultOrdinalParse = /\d{1,2}/;
 	
-	            if (data) {
-	                // moment.duration._locale = moment._locale = data;
-	                globalLocale = data;
-	            }
-	        }
-	
-	        return globalLocale._abbr;
+	    function ordinal (number) {
+	        return this._ordinal.replace('%d', number);
 	    }
 	
-	    function defineLocale (name, config) {
-	        if (config !== null) {
-	            config.abbr = name;
-	            if (locales[name] != null) {
-	                deprecateSimple('defineLocaleOverride',
-	                        'use moment.updateLocale(localeName, config) to change ' +
-	                        'an existing locale. moment.defineLocale(localeName, ' +
-	                        'config) should only be used for creating a new locale');
-	                config = mergeConfigs(locales[name]._config, config);
-	            } else if (config.parentLocale != null) {
-	                if (locales[config.parentLocale] != null) {
-	                    config = mergeConfigs(locales[config.parentLocale]._config, config);
-	                } else {
-	                    // treat as if there is no base config
-	                    deprecateSimple('parentLocaleUndefined',
-	                            'specified parentLocale is not defined yet');
-	                }
-	            }
-	            locales[name] = new Locale(config);
+	    var defaultRelativeTime = {
+	        future : 'in %s',
+	        past   : '%s ago',
+	        s  : 'a few seconds',
+	        m  : 'a minute',
+	        mm : '%d minutes',
+	        h  : 'an hour',
+	        hh : '%d hours',
+	        d  : 'a day',
+	        dd : '%d days',
+	        M  : 'a month',
+	        MM : '%d months',
+	        y  : 'a year',
+	        yy : '%d years'
+	    };
 	
-	            // backwards compat for now: also set the locale
-	            locale_locales__getSetGlobalLocale(name);
-	
-	            return locales[name];
-	        } else {
-	            // useful for testing
-	            delete locales[name];
-	            return null;
-	        }
+	    function relative__relativeTime (number, withoutSuffix, string, isFuture) {
+	        var output = this._relativeTime[string];
+	        return (isFunction(output)) ?
+	            output(number, withoutSuffix, string, isFuture) :
+	            output.replace(/%d/i, number);
 	    }
 	
-	    function updateLocale(name, config) {
-	        if (config != null) {
-	            var locale;
-	            if (locales[name] != null) {
-	                config = mergeConfigs(locales[name]._config, config);
-	            }
-	            locale = new Locale(config);
-	            locale.parentLocale = locales[name];
-	            locales[name] = locale;
-	
-	            // backwards compat for now: also set the locale
-	            locale_locales__getSetGlobalLocale(name);
-	        } else {
-	            // pass null for config to unupdate, useful for tests
-	            if (locales[name] != null) {
-	                if (locales[name].parentLocale != null) {
-	                    locales[name] = locales[name].parentLocale;
-	                } else if (locales[name] != null) {
-	                    delete locales[name];
-	                }
-	            }
-	        }
-	        return locales[name];
-	    }
-	
-	    // returns locale data
-	    function locale_locales__getLocale (key) {
-	        var locale;
-	
-	        if (key && key._locale && key._locale._abbr) {
-	            key = key._locale._abbr;
-	        }
-	
-	        if (!key) {
-	            return globalLocale;
-	        }
-	
-	        if (!isArray(key)) {
-	            //short-circuit everything else
-	            locale = loadLocale(key);
-	            if (locale) {
-	                return locale;
-	            }
-	            key = [key];
-	        }
-	
-	        return chooseLocale(key);
-	    }
-	
-	    function locale_locales__listLocales() {
-	        return keys(locales);
+	    function pastFuture (diff, output) {
+	        var format = this._relativeTime[diff > 0 ? 'future' : 'past'];
+	        return isFunction(format) ? format(output) : format.replace(/%s/i, output);
 	    }
 	
 	    var aliases = {};
@@ -39110,6 +39119,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return normalizedInput;
 	    }
 	
+	    var priorities = {};
+	
+	    function addUnitPriority(unit, priority) {
+	        priorities[unit] = priority;
+	    }
+	
+	    function getPrioritizedUnits(unitsObj) {
+	        var units = [];
+	        for (var u in unitsObj) {
+	            units.push({unit: u, priority: priorities[u]});
+	        }
+	        units.sort(function (a, b) {
+	            return a.priority - b.priority;
+	        });
+	        return units;
+	    }
+	
 	    function makeGetSet (unit, keepTime) {
 	        return function (value) {
 	            if (value != null) {
@@ -39135,11 +39161,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    // MOMENTS
 	
-	    function getSet (units, value) {
-	        var unit;
+	    function stringGet (units) {
+	        units = normalizeUnits(units);
+	        if (isFunction(this[units])) {
+	            return this[units]();
+	        }
+	        return this;
+	    }
+	
+	
+	    function stringSet (units, value) {
 	        if (typeof units === 'object') {
-	            for (unit in units) {
-	                this.set(unit, units[unit]);
+	            units = normalizeObjectUnits(units);
+	            var prioritized = getPrioritizedUnits(units);
+	            for (var i = 0; i < prioritized.length; i++) {
+	                this[prioritized[i].unit](units[prioritized[i].unit]);
 	            }
 	        } else {
 	            units = normalizeUnits(units);
@@ -39379,6 +39415,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    addUnitAlias('month', 'M');
 	
+	    // PRIORITY
+	
+	    addUnitPriority('month', 8);
+	
 	    // PARSING
 	
 	    addRegexToken('M',    match1to2);
@@ -39410,7 +39450,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var defaultLocaleMonths = 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_');
 	    function localeMonths (m, format) {
 	        return isArray(this._months) ? this._months[m.month()] :
-	            this._months[MONTHS_IN_FORMAT.test(format) ? 'format' : 'standalone'][m.month()];
+	            this._months[(this._months.isFormat || MONTHS_IN_FORMAT).test(format) ? 'format' : 'standalone'][m.month()];
 	    }
 	
 	    var defaultLocaleMonthsShort = 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_');
@@ -39551,6 +39591,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	                return this._monthsShortRegex;
 	            }
 	        } else {
+	            if (!hasOwnProp(this, '_monthsShortRegex')) {
+	                this._monthsShortRegex = defaultMonthsShortRegex;
+	            }
 	            return this._monthsShortStrictRegex && isStrict ?
 	                this._monthsShortStrictRegex : this._monthsShortRegex;
 	        }
@@ -39568,6 +39611,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	                return this._monthsRegex;
 	            }
 	        } else {
+	            if (!hasOwnProp(this, '_monthsRegex')) {
+	                this._monthsRegex = defaultMonthsRegex;
+	            }
 	            return this._monthsStrictRegex && isStrict ?
 	                this._monthsStrictRegex : this._monthsRegex;
 	        }
@@ -39596,6 +39642,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        for (i = 0; i < 12; i++) {
 	            shortPieces[i] = regexEscape(shortPieces[i]);
 	            longPieces[i] = regexEscape(longPieces[i]);
+	        }
+	        for (i = 0; i < 24; i++) {
 	            mixedPieces[i] = regexEscape(mixedPieces[i]);
 	        }
 	
@@ -39603,6 +39651,873 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this._monthsShortRegex = this._monthsRegex;
 	        this._monthsStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
 	        this._monthsShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
+	    }
+	
+	    // FORMATTING
+	
+	    addFormatToken('Y', 0, 0, function () {
+	        var y = this.year();
+	        return y <= 9999 ? '' + y : '+' + y;
+	    });
+	
+	    addFormatToken(0, ['YY', 2], 0, function () {
+	        return this.year() % 100;
+	    });
+	
+	    addFormatToken(0, ['YYYY',   4],       0, 'year');
+	    addFormatToken(0, ['YYYYY',  5],       0, 'year');
+	    addFormatToken(0, ['YYYYYY', 6, true], 0, 'year');
+	
+	    // ALIASES
+	
+	    addUnitAlias('year', 'y');
+	
+	    // PRIORITIES
+	
+	    addUnitPriority('year', 1);
+	
+	    // PARSING
+	
+	    addRegexToken('Y',      matchSigned);
+	    addRegexToken('YY',     match1to2, match2);
+	    addRegexToken('YYYY',   match1to4, match4);
+	    addRegexToken('YYYYY',  match1to6, match6);
+	    addRegexToken('YYYYYY', match1to6, match6);
+	
+	    addParseToken(['YYYYY', 'YYYYYY'], YEAR);
+	    addParseToken('YYYY', function (input, array) {
+	        array[YEAR] = input.length === 2 ? utils_hooks__hooks.parseTwoDigitYear(input) : toInt(input);
+	    });
+	    addParseToken('YY', function (input, array) {
+	        array[YEAR] = utils_hooks__hooks.parseTwoDigitYear(input);
+	    });
+	    addParseToken('Y', function (input, array) {
+	        array[YEAR] = parseInt(input, 10);
+	    });
+	
+	    // HELPERS
+	
+	    function daysInYear(year) {
+	        return isLeapYear(year) ? 366 : 365;
+	    }
+	
+	    function isLeapYear(year) {
+	        return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+	    }
+	
+	    // HOOKS
+	
+	    utils_hooks__hooks.parseTwoDigitYear = function (input) {
+	        return toInt(input) + (toInt(input) > 68 ? 1900 : 2000);
+	    };
+	
+	    // MOMENTS
+	
+	    var getSetYear = makeGetSet('FullYear', true);
+	
+	    function getIsLeapYear () {
+	        return isLeapYear(this.year());
+	    }
+	
+	    function createDate (y, m, d, h, M, s, ms) {
+	        //can't just apply() to create a date:
+	        //http://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
+	        var date = new Date(y, m, d, h, M, s, ms);
+	
+	        //the date constructor remaps years 0-99 to 1900-1999
+	        if (y < 100 && y >= 0 && isFinite(date.getFullYear())) {
+	            date.setFullYear(y);
+	        }
+	        return date;
+	    }
+	
+	    function createUTCDate (y) {
+	        var date = new Date(Date.UTC.apply(null, arguments));
+	
+	        //the Date.UTC function remaps years 0-99 to 1900-1999
+	        if (y < 100 && y >= 0 && isFinite(date.getUTCFullYear())) {
+	            date.setUTCFullYear(y);
+	        }
+	        return date;
+	    }
+	
+	    // start-of-first-week - start-of-year
+	    function firstWeekOffset(year, dow, doy) {
+	        var // first-week day -- which january is always in the first week (4 for iso, 1 for other)
+	            fwd = 7 + dow - doy,
+	            // first-week day local weekday -- which local weekday is fwd
+	            fwdlw = (7 + createUTCDate(year, 0, fwd).getUTCDay() - dow) % 7;
+	
+	        return -fwdlw + fwd - 1;
+	    }
+	
+	    //http://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
+	    function dayOfYearFromWeeks(year, week, weekday, dow, doy) {
+	        var localWeekday = (7 + weekday - dow) % 7,
+	            weekOffset = firstWeekOffset(year, dow, doy),
+	            dayOfYear = 1 + 7 * (week - 1) + localWeekday + weekOffset,
+	            resYear, resDayOfYear;
+	
+	        if (dayOfYear <= 0) {
+	            resYear = year - 1;
+	            resDayOfYear = daysInYear(resYear) + dayOfYear;
+	        } else if (dayOfYear > daysInYear(year)) {
+	            resYear = year + 1;
+	            resDayOfYear = dayOfYear - daysInYear(year);
+	        } else {
+	            resYear = year;
+	            resDayOfYear = dayOfYear;
+	        }
+	
+	        return {
+	            year: resYear,
+	            dayOfYear: resDayOfYear
+	        };
+	    }
+	
+	    function weekOfYear(mom, dow, doy) {
+	        var weekOffset = firstWeekOffset(mom.year(), dow, doy),
+	            week = Math.floor((mom.dayOfYear() - weekOffset - 1) / 7) + 1,
+	            resWeek, resYear;
+	
+	        if (week < 1) {
+	            resYear = mom.year() - 1;
+	            resWeek = week + weeksInYear(resYear, dow, doy);
+	        } else if (week > weeksInYear(mom.year(), dow, doy)) {
+	            resWeek = week - weeksInYear(mom.year(), dow, doy);
+	            resYear = mom.year() + 1;
+	        } else {
+	            resYear = mom.year();
+	            resWeek = week;
+	        }
+	
+	        return {
+	            week: resWeek,
+	            year: resYear
+	        };
+	    }
+	
+	    function weeksInYear(year, dow, doy) {
+	        var weekOffset = firstWeekOffset(year, dow, doy),
+	            weekOffsetNext = firstWeekOffset(year + 1, dow, doy);
+	        return (daysInYear(year) - weekOffset + weekOffsetNext) / 7;
+	    }
+	
+	    // FORMATTING
+	
+	    addFormatToken('w', ['ww', 2], 'wo', 'week');
+	    addFormatToken('W', ['WW', 2], 'Wo', 'isoWeek');
+	
+	    // ALIASES
+	
+	    addUnitAlias('week', 'w');
+	    addUnitAlias('isoWeek', 'W');
+	
+	    // PRIORITIES
+	
+	    addUnitPriority('week', 5);
+	    addUnitPriority('isoWeek', 5);
+	
+	    // PARSING
+	
+	    addRegexToken('w',  match1to2);
+	    addRegexToken('ww', match1to2, match2);
+	    addRegexToken('W',  match1to2);
+	    addRegexToken('WW', match1to2, match2);
+	
+	    addWeekParseToken(['w', 'ww', 'W', 'WW'], function (input, week, config, token) {
+	        week[token.substr(0, 1)] = toInt(input);
+	    });
+	
+	    // HELPERS
+	
+	    // LOCALES
+	
+	    function localeWeek (mom) {
+	        return weekOfYear(mom, this._week.dow, this._week.doy).week;
+	    }
+	
+	    var defaultLocaleWeek = {
+	        dow : 0, // Sunday is the first day of the week.
+	        doy : 6  // The week that contains Jan 1st is the first week of the year.
+	    };
+	
+	    function localeFirstDayOfWeek () {
+	        return this._week.dow;
+	    }
+	
+	    function localeFirstDayOfYear () {
+	        return this._week.doy;
+	    }
+	
+	    // MOMENTS
+	
+	    function getSetWeek (input) {
+	        var week = this.localeData().week(this);
+	        return input == null ? week : this.add((input - week) * 7, 'd');
+	    }
+	
+	    function getSetISOWeek (input) {
+	        var week = weekOfYear(this, 1, 4).week;
+	        return input == null ? week : this.add((input - week) * 7, 'd');
+	    }
+	
+	    // FORMATTING
+	
+	    addFormatToken('d', 0, 'do', 'day');
+	
+	    addFormatToken('dd', 0, 0, function (format) {
+	        return this.localeData().weekdaysMin(this, format);
+	    });
+	
+	    addFormatToken('ddd', 0, 0, function (format) {
+	        return this.localeData().weekdaysShort(this, format);
+	    });
+	
+	    addFormatToken('dddd', 0, 0, function (format) {
+	        return this.localeData().weekdays(this, format);
+	    });
+	
+	    addFormatToken('e', 0, 0, 'weekday');
+	    addFormatToken('E', 0, 0, 'isoWeekday');
+	
+	    // ALIASES
+	
+	    addUnitAlias('day', 'd');
+	    addUnitAlias('weekday', 'e');
+	    addUnitAlias('isoWeekday', 'E');
+	
+	    // PRIORITY
+	    addUnitPriority('day', 11);
+	    addUnitPriority('weekday', 11);
+	    addUnitPriority('isoWeekday', 11);
+	
+	    // PARSING
+	
+	    addRegexToken('d',    match1to2);
+	    addRegexToken('e',    match1to2);
+	    addRegexToken('E',    match1to2);
+	    addRegexToken('dd',   function (isStrict, locale) {
+	        return locale.weekdaysMinRegex(isStrict);
+	    });
+	    addRegexToken('ddd',   function (isStrict, locale) {
+	        return locale.weekdaysShortRegex(isStrict);
+	    });
+	    addRegexToken('dddd',   function (isStrict, locale) {
+	        return locale.weekdaysRegex(isStrict);
+	    });
+	
+	    addWeekParseToken(['dd', 'ddd', 'dddd'], function (input, week, config, token) {
+	        var weekday = config._locale.weekdaysParse(input, token, config._strict);
+	        // if we didn't get a weekday name, mark the date as invalid
+	        if (weekday != null) {
+	            week.d = weekday;
+	        } else {
+	            getParsingFlags(config).invalidWeekday = input;
+	        }
+	    });
+	
+	    addWeekParseToken(['d', 'e', 'E'], function (input, week, config, token) {
+	        week[token] = toInt(input);
+	    });
+	
+	    // HELPERS
+	
+	    function parseWeekday(input, locale) {
+	        if (typeof input !== 'string') {
+	            return input;
+	        }
+	
+	        if (!isNaN(input)) {
+	            return parseInt(input, 10);
+	        }
+	
+	        input = locale.weekdaysParse(input);
+	        if (typeof input === 'number') {
+	            return input;
+	        }
+	
+	        return null;
+	    }
+	
+	    function parseIsoWeekday(input, locale) {
+	        if (typeof input === 'string') {
+	            return locale.weekdaysParse(input) % 7 || 7;
+	        }
+	        return isNaN(input) ? null : input;
+	    }
+	
+	    // LOCALES
+	
+	    var defaultLocaleWeekdays = 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_');
+	    function localeWeekdays (m, format) {
+	        return isArray(this._weekdays) ? this._weekdays[m.day()] :
+	            this._weekdays[this._weekdays.isFormat.test(format) ? 'format' : 'standalone'][m.day()];
+	    }
+	
+	    var defaultLocaleWeekdaysShort = 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_');
+	    function localeWeekdaysShort (m) {
+	        return this._weekdaysShort[m.day()];
+	    }
+	
+	    var defaultLocaleWeekdaysMin = 'Su_Mo_Tu_We_Th_Fr_Sa'.split('_');
+	    function localeWeekdaysMin (m) {
+	        return this._weekdaysMin[m.day()];
+	    }
+	
+	    function day_of_week__handleStrictParse(weekdayName, format, strict) {
+	        var i, ii, mom, llc = weekdayName.toLocaleLowerCase();
+	        if (!this._weekdaysParse) {
+	            this._weekdaysParse = [];
+	            this._shortWeekdaysParse = [];
+	            this._minWeekdaysParse = [];
+	
+	            for (i = 0; i < 7; ++i) {
+	                mom = create_utc__createUTC([2000, 1]).day(i);
+	                this._minWeekdaysParse[i] = this.weekdaysMin(mom, '').toLocaleLowerCase();
+	                this._shortWeekdaysParse[i] = this.weekdaysShort(mom, '').toLocaleLowerCase();
+	                this._weekdaysParse[i] = this.weekdays(mom, '').toLocaleLowerCase();
+	            }
+	        }
+	
+	        if (strict) {
+	            if (format === 'dddd') {
+	                ii = indexOf.call(this._weekdaysParse, llc);
+	                return ii !== -1 ? ii : null;
+	            } else if (format === 'ddd') {
+	                ii = indexOf.call(this._shortWeekdaysParse, llc);
+	                return ii !== -1 ? ii : null;
+	            } else {
+	                ii = indexOf.call(this._minWeekdaysParse, llc);
+	                return ii !== -1 ? ii : null;
+	            }
+	        } else {
+	            if (format === 'dddd') {
+	                ii = indexOf.call(this._weekdaysParse, llc);
+	                if (ii !== -1) {
+	                    return ii;
+	                }
+	                ii = indexOf.call(this._shortWeekdaysParse, llc);
+	                if (ii !== -1) {
+	                    return ii;
+	                }
+	                ii = indexOf.call(this._minWeekdaysParse, llc);
+	                return ii !== -1 ? ii : null;
+	            } else if (format === 'ddd') {
+	                ii = indexOf.call(this._shortWeekdaysParse, llc);
+	                if (ii !== -1) {
+	                    return ii;
+	                }
+	                ii = indexOf.call(this._weekdaysParse, llc);
+	                if (ii !== -1) {
+	                    return ii;
+	                }
+	                ii = indexOf.call(this._minWeekdaysParse, llc);
+	                return ii !== -1 ? ii : null;
+	            } else {
+	                ii = indexOf.call(this._minWeekdaysParse, llc);
+	                if (ii !== -1) {
+	                    return ii;
+	                }
+	                ii = indexOf.call(this._weekdaysParse, llc);
+	                if (ii !== -1) {
+	                    return ii;
+	                }
+	                ii = indexOf.call(this._shortWeekdaysParse, llc);
+	                return ii !== -1 ? ii : null;
+	            }
+	        }
+	    }
+	
+	    function localeWeekdaysParse (weekdayName, format, strict) {
+	        var i, mom, regex;
+	
+	        if (this._weekdaysParseExact) {
+	            return day_of_week__handleStrictParse.call(this, weekdayName, format, strict);
+	        }
+	
+	        if (!this._weekdaysParse) {
+	            this._weekdaysParse = [];
+	            this._minWeekdaysParse = [];
+	            this._shortWeekdaysParse = [];
+	            this._fullWeekdaysParse = [];
+	        }
+	
+	        for (i = 0; i < 7; i++) {
+	            // make the regex if we don't have it already
+	
+	            mom = create_utc__createUTC([2000, 1]).day(i);
+	            if (strict && !this._fullWeekdaysParse[i]) {
+	                this._fullWeekdaysParse[i] = new RegExp('^' + this.weekdays(mom, '').replace('.', '\.?') + '$', 'i');
+	                this._shortWeekdaysParse[i] = new RegExp('^' + this.weekdaysShort(mom, '').replace('.', '\.?') + '$', 'i');
+	                this._minWeekdaysParse[i] = new RegExp('^' + this.weekdaysMin(mom, '').replace('.', '\.?') + '$', 'i');
+	            }
+	            if (!this._weekdaysParse[i]) {
+	                regex = '^' + this.weekdays(mom, '') + '|^' + this.weekdaysShort(mom, '') + '|^' + this.weekdaysMin(mom, '');
+	                this._weekdaysParse[i] = new RegExp(regex.replace('.', ''), 'i');
+	            }
+	            // test the regex
+	            if (strict && format === 'dddd' && this._fullWeekdaysParse[i].test(weekdayName)) {
+	                return i;
+	            } else if (strict && format === 'ddd' && this._shortWeekdaysParse[i].test(weekdayName)) {
+	                return i;
+	            } else if (strict && format === 'dd' && this._minWeekdaysParse[i].test(weekdayName)) {
+	                return i;
+	            } else if (!strict && this._weekdaysParse[i].test(weekdayName)) {
+	                return i;
+	            }
+	        }
+	    }
+	
+	    // MOMENTS
+	
+	    function getSetDayOfWeek (input) {
+	        if (!this.isValid()) {
+	            return input != null ? this : NaN;
+	        }
+	        var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
+	        if (input != null) {
+	            input = parseWeekday(input, this.localeData());
+	            return this.add(input - day, 'd');
+	        } else {
+	            return day;
+	        }
+	    }
+	
+	    function getSetLocaleDayOfWeek (input) {
+	        if (!this.isValid()) {
+	            return input != null ? this : NaN;
+	        }
+	        var weekday = (this.day() + 7 - this.localeData()._week.dow) % 7;
+	        return input == null ? weekday : this.add(input - weekday, 'd');
+	    }
+	
+	    function getSetISODayOfWeek (input) {
+	        if (!this.isValid()) {
+	            return input != null ? this : NaN;
+	        }
+	
+	        // behaves the same as moment#day except
+	        // as a getter, returns 7 instead of 0 (1-7 range instead of 0-6)
+	        // as a setter, sunday should belong to the previous week.
+	
+	        if (input != null) {
+	            var weekday = parseIsoWeekday(input, this.localeData());
+	            return this.day(this.day() % 7 ? weekday : weekday - 7);
+	        } else {
+	            return this.day() || 7;
+	        }
+	    }
+	
+	    var defaultWeekdaysRegex = matchWord;
+	    function weekdaysRegex (isStrict) {
+	        if (this._weekdaysParseExact) {
+	            if (!hasOwnProp(this, '_weekdaysRegex')) {
+	                computeWeekdaysParse.call(this);
+	            }
+	            if (isStrict) {
+	                return this._weekdaysStrictRegex;
+	            } else {
+	                return this._weekdaysRegex;
+	            }
+	        } else {
+	            if (!hasOwnProp(this, '_weekdaysRegex')) {
+	                this._weekdaysRegex = defaultWeekdaysRegex;
+	            }
+	            return this._weekdaysStrictRegex && isStrict ?
+	                this._weekdaysStrictRegex : this._weekdaysRegex;
+	        }
+	    }
+	
+	    var defaultWeekdaysShortRegex = matchWord;
+	    function weekdaysShortRegex (isStrict) {
+	        if (this._weekdaysParseExact) {
+	            if (!hasOwnProp(this, '_weekdaysRegex')) {
+	                computeWeekdaysParse.call(this);
+	            }
+	            if (isStrict) {
+	                return this._weekdaysShortStrictRegex;
+	            } else {
+	                return this._weekdaysShortRegex;
+	            }
+	        } else {
+	            if (!hasOwnProp(this, '_weekdaysShortRegex')) {
+	                this._weekdaysShortRegex = defaultWeekdaysShortRegex;
+	            }
+	            return this._weekdaysShortStrictRegex && isStrict ?
+	                this._weekdaysShortStrictRegex : this._weekdaysShortRegex;
+	        }
+	    }
+	
+	    var defaultWeekdaysMinRegex = matchWord;
+	    function weekdaysMinRegex (isStrict) {
+	        if (this._weekdaysParseExact) {
+	            if (!hasOwnProp(this, '_weekdaysRegex')) {
+	                computeWeekdaysParse.call(this);
+	            }
+	            if (isStrict) {
+	                return this._weekdaysMinStrictRegex;
+	            } else {
+	                return this._weekdaysMinRegex;
+	            }
+	        } else {
+	            if (!hasOwnProp(this, '_weekdaysMinRegex')) {
+	                this._weekdaysMinRegex = defaultWeekdaysMinRegex;
+	            }
+	            return this._weekdaysMinStrictRegex && isStrict ?
+	                this._weekdaysMinStrictRegex : this._weekdaysMinRegex;
+	        }
+	    }
+	
+	
+	    function computeWeekdaysParse () {
+	        function cmpLenRev(a, b) {
+	            return b.length - a.length;
+	        }
+	
+	        var minPieces = [], shortPieces = [], longPieces = [], mixedPieces = [],
+	            i, mom, minp, shortp, longp;
+	        for (i = 0; i < 7; i++) {
+	            // make the regex if we don't have it already
+	            mom = create_utc__createUTC([2000, 1]).day(i);
+	            minp = this.weekdaysMin(mom, '');
+	            shortp = this.weekdaysShort(mom, '');
+	            longp = this.weekdays(mom, '');
+	            minPieces.push(minp);
+	            shortPieces.push(shortp);
+	            longPieces.push(longp);
+	            mixedPieces.push(minp);
+	            mixedPieces.push(shortp);
+	            mixedPieces.push(longp);
+	        }
+	        // Sorting makes sure if one weekday (or abbr) is a prefix of another it
+	        // will match the longer piece.
+	        minPieces.sort(cmpLenRev);
+	        shortPieces.sort(cmpLenRev);
+	        longPieces.sort(cmpLenRev);
+	        mixedPieces.sort(cmpLenRev);
+	        for (i = 0; i < 7; i++) {
+	            shortPieces[i] = regexEscape(shortPieces[i]);
+	            longPieces[i] = regexEscape(longPieces[i]);
+	            mixedPieces[i] = regexEscape(mixedPieces[i]);
+	        }
+	
+	        this._weekdaysRegex = new RegExp('^(' + mixedPieces.join('|') + ')', 'i');
+	        this._weekdaysShortRegex = this._weekdaysRegex;
+	        this._weekdaysMinRegex = this._weekdaysRegex;
+	
+	        this._weekdaysStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
+	        this._weekdaysShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
+	        this._weekdaysMinStrictRegex = new RegExp('^(' + minPieces.join('|') + ')', 'i');
+	    }
+	
+	    // FORMATTING
+	
+	    function hFormat() {
+	        return this.hours() % 12 || 12;
+	    }
+	
+	    function kFormat() {
+	        return this.hours() || 24;
+	    }
+	
+	    addFormatToken('H', ['HH', 2], 0, 'hour');
+	    addFormatToken('h', ['hh', 2], 0, hFormat);
+	    addFormatToken('k', ['kk', 2], 0, kFormat);
+	
+	    addFormatToken('hmm', 0, 0, function () {
+	        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2);
+	    });
+	
+	    addFormatToken('hmmss', 0, 0, function () {
+	        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
+	            zeroFill(this.seconds(), 2);
+	    });
+	
+	    addFormatToken('Hmm', 0, 0, function () {
+	        return '' + this.hours() + zeroFill(this.minutes(), 2);
+	    });
+	
+	    addFormatToken('Hmmss', 0, 0, function () {
+	        return '' + this.hours() + zeroFill(this.minutes(), 2) +
+	            zeroFill(this.seconds(), 2);
+	    });
+	
+	    function meridiem (token, lowercase) {
+	        addFormatToken(token, 0, 0, function () {
+	            return this.localeData().meridiem(this.hours(), this.minutes(), lowercase);
+	        });
+	    }
+	
+	    meridiem('a', true);
+	    meridiem('A', false);
+	
+	    // ALIASES
+	
+	    addUnitAlias('hour', 'h');
+	
+	    // PRIORITY
+	    addUnitPriority('hour', 13);
+	
+	    // PARSING
+	
+	    function matchMeridiem (isStrict, locale) {
+	        return locale._meridiemParse;
+	    }
+	
+	    addRegexToken('a',  matchMeridiem);
+	    addRegexToken('A',  matchMeridiem);
+	    addRegexToken('H',  match1to2);
+	    addRegexToken('h',  match1to2);
+	    addRegexToken('HH', match1to2, match2);
+	    addRegexToken('hh', match1to2, match2);
+	
+	    addRegexToken('hmm', match3to4);
+	    addRegexToken('hmmss', match5to6);
+	    addRegexToken('Hmm', match3to4);
+	    addRegexToken('Hmmss', match5to6);
+	
+	    addParseToken(['H', 'HH'], HOUR);
+	    addParseToken(['a', 'A'], function (input, array, config) {
+	        config._isPm = config._locale.isPM(input);
+	        config._meridiem = input;
+	    });
+	    addParseToken(['h', 'hh'], function (input, array, config) {
+	        array[HOUR] = toInt(input);
+	        getParsingFlags(config).bigHour = true;
+	    });
+	    addParseToken('hmm', function (input, array, config) {
+	        var pos = input.length - 2;
+	        array[HOUR] = toInt(input.substr(0, pos));
+	        array[MINUTE] = toInt(input.substr(pos));
+	        getParsingFlags(config).bigHour = true;
+	    });
+	    addParseToken('hmmss', function (input, array, config) {
+	        var pos1 = input.length - 4;
+	        var pos2 = input.length - 2;
+	        array[HOUR] = toInt(input.substr(0, pos1));
+	        array[MINUTE] = toInt(input.substr(pos1, 2));
+	        array[SECOND] = toInt(input.substr(pos2));
+	        getParsingFlags(config).bigHour = true;
+	    });
+	    addParseToken('Hmm', function (input, array, config) {
+	        var pos = input.length - 2;
+	        array[HOUR] = toInt(input.substr(0, pos));
+	        array[MINUTE] = toInt(input.substr(pos));
+	    });
+	    addParseToken('Hmmss', function (input, array, config) {
+	        var pos1 = input.length - 4;
+	        var pos2 = input.length - 2;
+	        array[HOUR] = toInt(input.substr(0, pos1));
+	        array[MINUTE] = toInt(input.substr(pos1, 2));
+	        array[SECOND] = toInt(input.substr(pos2));
+	    });
+	
+	    // LOCALES
+	
+	    function localeIsPM (input) {
+	        // IE8 Quirks Mode & IE7 Standards Mode do not allow accessing strings like arrays
+	        // Using charAt should be more compatible.
+	        return ((input + '').toLowerCase().charAt(0) === 'p');
+	    }
+	
+	    var defaultLocaleMeridiemParse = /[ap]\.?m?\.?/i;
+	    function localeMeridiem (hours, minutes, isLower) {
+	        if (hours > 11) {
+	            return isLower ? 'pm' : 'PM';
+	        } else {
+	            return isLower ? 'am' : 'AM';
+	        }
+	    }
+	
+	
+	    // MOMENTS
+	
+	    // Setting the hour should keep the time, because the user explicitly
+	    // specified which hour he wants. So trying to maintain the same hour (in
+	    // a new timezone) makes sense. Adding/subtracting hours does not follow
+	    // this rule.
+	    var getSetHour = makeGetSet('Hours', true);
+	
+	    var baseConfig = {
+	        calendar: defaultCalendar,
+	        longDateFormat: defaultLongDateFormat,
+	        invalidDate: defaultInvalidDate,
+	        ordinal: defaultOrdinal,
+	        ordinalParse: defaultOrdinalParse,
+	        relativeTime: defaultRelativeTime,
+	
+	        months: defaultLocaleMonths,
+	        monthsShort: defaultLocaleMonthsShort,
+	
+	        week: defaultLocaleWeek,
+	
+	        weekdays: defaultLocaleWeekdays,
+	        weekdaysMin: defaultLocaleWeekdaysMin,
+	        weekdaysShort: defaultLocaleWeekdaysShort,
+	
+	        meridiemParse: defaultLocaleMeridiemParse
+	    };
+	
+	    // internal storage for locale config files
+	    var locales = {};
+	    var globalLocale;
+	
+	    function normalizeLocale(key) {
+	        return key ? key.toLowerCase().replace('_', '-') : key;
+	    }
+	
+	    // pick the locale from the array
+	    // try ['en-au', 'en-gb'] as 'en-au', 'en-gb', 'en', as in move through the list trying each
+	    // substring from most specific to least, but move to the next array item if it's a more specific variant than the current root
+	    function chooseLocale(names) {
+	        var i = 0, j, next, locale, split;
+	
+	        while (i < names.length) {
+	            split = normalizeLocale(names[i]).split('-');
+	            j = split.length;
+	            next = normalizeLocale(names[i + 1]);
+	            next = next ? next.split('-') : null;
+	            while (j > 0) {
+	                locale = loadLocale(split.slice(0, j).join('-'));
+	                if (locale) {
+	                    return locale;
+	                }
+	                if (next && next.length >= j && compareArrays(split, next, true) >= j - 1) {
+	                    //the next array item is better than a shallower substring of this one
+	                    break;
+	                }
+	                j--;
+	            }
+	            i++;
+	        }
+	        return null;
+	    }
+	
+	    function loadLocale(name) {
+	        var oldLocale = null;
+	        // TODO: Find a better way to register and load all the locales in Node
+	        if (!locales[name] && (typeof module !== 'undefined') &&
+	                module && module.exports) {
+	            try {
+	                oldLocale = globalLocale._abbr;
+	                __webpack_require__(66)("./" + name);
+	                // because defineLocale currently also sets the global locale, we
+	                // want to undo that for lazy loaded locales
+	                locale_locales__getSetGlobalLocale(oldLocale);
+	            } catch (e) { }
+	        }
+	        return locales[name];
+	    }
+	
+	    // This function will load locale and then set the global locale.  If
+	    // no arguments are passed in, it will simply return the current global
+	    // locale key.
+	    function locale_locales__getSetGlobalLocale (key, values) {
+	        var data;
+	        if (key) {
+	            if (isUndefined(values)) {
+	                data = locale_locales__getLocale(key);
+	            }
+	            else {
+	                data = defineLocale(key, values);
+	            }
+	
+	            if (data) {
+	                // moment.duration._locale = moment._locale = data;
+	                globalLocale = data;
+	            }
+	        }
+	
+	        return globalLocale._abbr;
+	    }
+	
+	    function defineLocale (name, config) {
+	        if (config !== null) {
+	            var parentConfig = baseConfig;
+	            config.abbr = name;
+	            if (locales[name] != null) {
+	                deprecateSimple('defineLocaleOverride',
+	                        'use moment.updateLocale(localeName, config) to change ' +
+	                        'an existing locale. moment.defineLocale(localeName, ' +
+	                        'config) should only be used for creating a new locale ' +
+	                        'See http://momentjs.com/guides/#/warnings/define-locale/ for more info.');
+	                parentConfig = locales[name]._config;
+	            } else if (config.parentLocale != null) {
+	                if (locales[config.parentLocale] != null) {
+	                    parentConfig = locales[config.parentLocale]._config;
+	                } else {
+	                    // treat as if there is no base config
+	                    deprecateSimple('parentLocaleUndefined',
+	                            'specified parentLocale is not defined yet. See http://momentjs.com/guides/#/warnings/parent-locale/');
+	                }
+	            }
+	            locales[name] = new Locale(mergeConfigs(parentConfig, config));
+	
+	            // backwards compat for now: also set the locale
+	            locale_locales__getSetGlobalLocale(name);
+	
+	            return locales[name];
+	        } else {
+	            // useful for testing
+	            delete locales[name];
+	            return null;
+	        }
+	    }
+	
+	    function updateLocale(name, config) {
+	        if (config != null) {
+	            var locale, parentConfig = baseConfig;
+	            // MERGE
+	            if (locales[name] != null) {
+	                parentConfig = locales[name]._config;
+	            }
+	            config = mergeConfigs(parentConfig, config);
+	            locale = new Locale(config);
+	            locale.parentLocale = locales[name];
+	            locales[name] = locale;
+	
+	            // backwards compat for now: also set the locale
+	            locale_locales__getSetGlobalLocale(name);
+	        } else {
+	            // pass null for config to unupdate, useful for tests
+	            if (locales[name] != null) {
+	                if (locales[name].parentLocale != null) {
+	                    locales[name] = locales[name].parentLocale;
+	                } else if (locales[name] != null) {
+	                    delete locales[name];
+	                }
+	            }
+	        }
+	        return locales[name];
+	    }
+	
+	    // returns locale data
+	    function locale_locales__getLocale (key) {
+	        var locale;
+	
+	        if (key && key._locale && key._locale._abbr) {
+	            key = key._locale._abbr;
+	        }
+	
+	        if (!key) {
+	            return globalLocale;
+	        }
+	
+	        if (!isArray(key)) {
+	            //short-circuit everything else
+	            locale = loadLocale(key);
+	            if (locale) {
+	                return locale;
+	            }
+	            key = [key];
+	        }
+	
+	        return chooseLocale(key);
+	    }
+	
+	    function locale_locales__listLocales() {
+	        return keys(locales);
 	    }
 	
 	    function checkOverflow (m) {
@@ -39745,157 +40660,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        'moment construction falls back to js Date. This is ' +
 	        'discouraged and will be removed in upcoming major ' +
 	        'release. Please refer to ' +
-	        'https://github.com/moment/moment/issues/1407 for more info.',
+	        'http://momentjs.com/guides/#/warnings/js-date/ for more info.',
 	        function (config) {
 	            config._d = new Date(config._i + (config._useUTC ? ' UTC' : ''));
 	        }
 	    );
-	
-	    function createDate (y, m, d, h, M, s, ms) {
-	        //can't just apply() to create a date:
-	        //http://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
-	        var date = new Date(y, m, d, h, M, s, ms);
-	
-	        //the date constructor remaps years 0-99 to 1900-1999
-	        if (y < 100 && y >= 0 && isFinite(date.getFullYear())) {
-	            date.setFullYear(y);
-	        }
-	        return date;
-	    }
-	
-	    function createUTCDate (y) {
-	        var date = new Date(Date.UTC.apply(null, arguments));
-	
-	        //the Date.UTC function remaps years 0-99 to 1900-1999
-	        if (y < 100 && y >= 0 && isFinite(date.getUTCFullYear())) {
-	            date.setUTCFullYear(y);
-	        }
-	        return date;
-	    }
-	
-	    // FORMATTING
-	
-	    addFormatToken('Y', 0, 0, function () {
-	        var y = this.year();
-	        return y <= 9999 ? '' + y : '+' + y;
-	    });
-	
-	    addFormatToken(0, ['YY', 2], 0, function () {
-	        return this.year() % 100;
-	    });
-	
-	    addFormatToken(0, ['YYYY',   4],       0, 'year');
-	    addFormatToken(0, ['YYYYY',  5],       0, 'year');
-	    addFormatToken(0, ['YYYYYY', 6, true], 0, 'year');
-	
-	    // ALIASES
-	
-	    addUnitAlias('year', 'y');
-	
-	    // PARSING
-	
-	    addRegexToken('Y',      matchSigned);
-	    addRegexToken('YY',     match1to2, match2);
-	    addRegexToken('YYYY',   match1to4, match4);
-	    addRegexToken('YYYYY',  match1to6, match6);
-	    addRegexToken('YYYYYY', match1to6, match6);
-	
-	    addParseToken(['YYYYY', 'YYYYYY'], YEAR);
-	    addParseToken('YYYY', function (input, array) {
-	        array[YEAR] = input.length === 2 ? utils_hooks__hooks.parseTwoDigitYear(input) : toInt(input);
-	    });
-	    addParseToken('YY', function (input, array) {
-	        array[YEAR] = utils_hooks__hooks.parseTwoDigitYear(input);
-	    });
-	    addParseToken('Y', function (input, array) {
-	        array[YEAR] = parseInt(input, 10);
-	    });
-	
-	    // HELPERS
-	
-	    function daysInYear(year) {
-	        return isLeapYear(year) ? 366 : 365;
-	    }
-	
-	    function isLeapYear(year) {
-	        return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
-	    }
-	
-	    // HOOKS
-	
-	    utils_hooks__hooks.parseTwoDigitYear = function (input) {
-	        return toInt(input) + (toInt(input) > 68 ? 1900 : 2000);
-	    };
-	
-	    // MOMENTS
-	
-	    var getSetYear = makeGetSet('FullYear', true);
-	
-	    function getIsLeapYear () {
-	        return isLeapYear(this.year());
-	    }
-	
-	    // start-of-first-week - start-of-year
-	    function firstWeekOffset(year, dow, doy) {
-	        var // first-week day -- which january is always in the first week (4 for iso, 1 for other)
-	            fwd = 7 + dow - doy,
-	            // first-week day local weekday -- which local weekday is fwd
-	            fwdlw = (7 + createUTCDate(year, 0, fwd).getUTCDay() - dow) % 7;
-	
-	        return -fwdlw + fwd - 1;
-	    }
-	
-	    //http://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
-	    function dayOfYearFromWeeks(year, week, weekday, dow, doy) {
-	        var localWeekday = (7 + weekday - dow) % 7,
-	            weekOffset = firstWeekOffset(year, dow, doy),
-	            dayOfYear = 1 + 7 * (week - 1) + localWeekday + weekOffset,
-	            resYear, resDayOfYear;
-	
-	        if (dayOfYear <= 0) {
-	            resYear = year - 1;
-	            resDayOfYear = daysInYear(resYear) + dayOfYear;
-	        } else if (dayOfYear > daysInYear(year)) {
-	            resYear = year + 1;
-	            resDayOfYear = dayOfYear - daysInYear(year);
-	        } else {
-	            resYear = year;
-	            resDayOfYear = dayOfYear;
-	        }
-	
-	        return {
-	            year: resYear,
-	            dayOfYear: resDayOfYear
-	        };
-	    }
-	
-	    function weekOfYear(mom, dow, doy) {
-	        var weekOffset = firstWeekOffset(mom.year(), dow, doy),
-	            week = Math.floor((mom.dayOfYear() - weekOffset - 1) / 7) + 1,
-	            resWeek, resYear;
-	
-	        if (week < 1) {
-	            resYear = mom.year() - 1;
-	            resWeek = week + weeksInYear(resYear, dow, doy);
-	        } else if (week > weeksInYear(mom.year(), dow, doy)) {
-	            resWeek = week - weeksInYear(mom.year(), dow, doy);
-	            resYear = mom.year() + 1;
-	        } else {
-	            resYear = mom.year();
-	            resWeek = week;
-	        }
-	
-	        return {
-	            week: resWeek,
-	            year: resYear
-	        };
-	    }
-	
-	    function weeksInYear(year, dow, doy) {
-	        var weekOffset = firstWeekOffset(year, dow, doy),
-	            weekOffsetNext = firstWeekOffset(year + 1, dow, doy);
-	        return (daysInYear(year) - weekOffset + weekOffsetNext) / 7;
-	    }
 	
 	    // Pick the first defined of two or three arguments.
 	    function defaults(a, b, c) {
@@ -40093,9 +40862,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	
 	        // clear _12h flag if hour is <= 12
-	        if (getParsingFlags(config).bigHour === true &&
-	                config._a[HOUR] <= 12 &&
-	                config._a[HOUR] > 0) {
+	        if (config._a[HOUR] <= 12 &&
+	            getParsingFlags(config).bigHour === true &&
+	            config._a[HOUR] > 0) {
 	            getParsingFlags(config).bigHour = undefined;
 	        }
 	
@@ -40221,11 +40990,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return new Moment(checkOverflow(input));
 	        } else if (isArray(format)) {
 	            configFromStringAndArray(config);
-	        } else if (format) {
-	            configFromStringAndFormat(config);
 	        } else if (isDate(input)) {
 	            config._d = input;
-	        } else {
+	        } else if (format) {
+	            configFromStringAndFormat(config);
+	        }  else {
 	            configFromInput(config);
 	        }
 	
@@ -40266,6 +41035,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	            strict = locale;
 	            locale = undefined;
 	        }
+	
+	        if ((isObject(input) && isObjectEmpty(input)) ||
+	                (isArray(input) && input.length === 0)) {
+	            input = undefined;
+	        }
 	        // object construction must be done this way.
 	        // https://github.com/moment/moment/issues/1423
 	        c._isAMomentObject = true;
@@ -40283,19 +41057,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    var prototypeMin = deprecate(
-	         'moment().min is deprecated, use moment.max instead. https://github.com/moment/moment/issues/1548',
-	         function () {
-	             var other = local__createLocal.apply(null, arguments);
-	             if (this.isValid() && other.isValid()) {
-	                 return other < this ? this : other;
-	             } else {
-	                 return valid__createInvalid();
-	             }
-	         }
-	     );
+	        'moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/',
+	        function () {
+	            var other = local__createLocal.apply(null, arguments);
+	            if (this.isValid() && other.isValid()) {
+	                return other < this ? this : other;
+	            } else {
+	                return valid__createInvalid();
+	            }
+	        }
+	    );
 	
 	    var prototypeMax = deprecate(
-	        'moment().max is deprecated, use moment.min instead. https://github.com/moment/moment/issues/1548',
+	        'moment().max is deprecated, use moment.min instead. http://momentjs.com/guides/#/warnings/min-max/',
 	        function () {
 	            var other = local__createLocal.apply(null, arguments);
 	            if (this.isValid() && other.isValid()) {
@@ -40714,7 +41488,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            var dur, tmp;
 	            //invert the arguments, but complain about it
 	            if (period !== null && !isNaN(+period)) {
-	                deprecateSimple(name, 'moment().' + name  + '(period, number) is deprecated. Please use moment().' + name + '(number, period).');
+	                deprecateSimple(name, 'moment().' + name  + '(period, number) is deprecated. Please use moment().' + name + '(number, period). ' +
+	                'See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info.');
 	                tmp = val; val = period; period = tmp;
 	            }
 	
@@ -40754,20 +41529,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var add_subtract__add      = createAdder(1, 'add');
 	    var add_subtract__subtract = createAdder(-1, 'subtract');
 	
-	    function moment_calendar__calendar (time, formats) {
-	        // We want to compare the start of today, vs this.
-	        // Getting start-of-today depends on whether we're local/utc/offset or not.
-	        var now = time || local__createLocal(),
-	            sod = cloneWithOffset(now, this).startOf('day'),
-	            diff = this.diff(sod, 'days', true),
-	            format = diff < -6 ? 'sameElse' :
+	    function getCalendarFormat(myMoment, now) {
+	        var diff = myMoment.diff(now, 'days', true);
+	        return diff < -6 ? 'sameElse' :
 	                diff < -1 ? 'lastWeek' :
 	                diff < 0 ? 'lastDay' :
 	                diff < 1 ? 'sameDay' :
 	                diff < 2 ? 'nextDay' :
 	                diff < 7 ? 'nextWeek' : 'sameElse';
+	    }
 	
-	        var output = formats && (isFunction(formats[format]) ? formats[format]() : formats[format]);
+	    function moment_calendar__calendar (time, formats) {
+	        // We want to compare the start of today, vs this.
+	        // Getting start-of-today depends on whether we're local/utc/offset or not.
+	        var now = time || local__createLocal(),
+	            sod = cloneWithOffset(now, this).startOf('day'),
+	            format = utils_hooks__hooks.calendarFormat(this, sod) || 'sameElse';
+	
+	        var output = formats && (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
 	
 	        return this.format(output || this.localeData().calendar(format, this, local__createLocal(now)));
 	    }
@@ -40984,27 +41763,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // the following switch intentionally omits break keywords
 	        // to utilize falling through the cases.
 	        switch (units) {
-	        case 'year':
-	            this.month(0);
-	            /* falls through */
-	        case 'quarter':
-	        case 'month':
-	            this.date(1);
-	            /* falls through */
-	        case 'week':
-	        case 'isoWeek':
-	        case 'day':
-	        case 'date':
-	            this.hours(0);
-	            /* falls through */
-	        case 'hour':
-	            this.minutes(0);
-	            /* falls through */
-	        case 'minute':
-	            this.seconds(0);
-	            /* falls through */
-	        case 'second':
-	            this.milliseconds(0);
+	            case 'year':
+	                this.month(0);
+	                /* falls through */
+	            case 'quarter':
+	            case 'month':
+	                this.date(1);
+	                /* falls through */
+	            case 'week':
+	            case 'isoWeek':
+	            case 'day':
+	            case 'date':
+	                this.hours(0);
+	                /* falls through */
+	            case 'hour':
+	                this.minutes(0);
+	                /* falls through */
+	            case 'minute':
+	                this.seconds(0);
+	                /* falls through */
+	            case 'second':
+	                this.milliseconds(0);
 	        }
 	
 	        // weeks are a special case
@@ -41046,7 +41825,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    function toDate () {
-	        return this._offset ? new Date(this.valueOf()) : this._d;
+	        return new Date(this.valueOf());
 	    }
 	
 	    function toArray () {
@@ -41117,6 +41896,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    addUnitAlias('weekYear', 'gg');
 	    addUnitAlias('isoWeekYear', 'GG');
+	
+	    // PRIORITY
+	
+	    addUnitPriority('weekYear', 1);
+	    addUnitPriority('isoWeekYear', 1);
+	
 	
 	    // PARSING
 	
@@ -41193,6 +41978,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    addUnitAlias('quarter', 'Q');
 	
+	    // PRIORITY
+	
+	    addUnitPriority('quarter', 7);
+	
 	    // PARSING
 	
 	    addRegexToken('Q', match1);
@@ -41208,65 +41997,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    // FORMATTING
 	
-	    addFormatToken('w', ['ww', 2], 'wo', 'week');
-	    addFormatToken('W', ['WW', 2], 'Wo', 'isoWeek');
-	
-	    // ALIASES
-	
-	    addUnitAlias('week', 'w');
-	    addUnitAlias('isoWeek', 'W');
-	
-	    // PARSING
-	
-	    addRegexToken('w',  match1to2);
-	    addRegexToken('ww', match1to2, match2);
-	    addRegexToken('W',  match1to2);
-	    addRegexToken('WW', match1to2, match2);
-	
-	    addWeekParseToken(['w', 'ww', 'W', 'WW'], function (input, week, config, token) {
-	        week[token.substr(0, 1)] = toInt(input);
-	    });
-	
-	    // HELPERS
-	
-	    // LOCALES
-	
-	    function localeWeek (mom) {
-	        return weekOfYear(mom, this._week.dow, this._week.doy).week;
-	    }
-	
-	    var defaultLocaleWeek = {
-	        dow : 0, // Sunday is the first day of the week.
-	        doy : 6  // The week that contains Jan 1st is the first week of the year.
-	    };
-	
-	    function localeFirstDayOfWeek () {
-	        return this._week.dow;
-	    }
-	
-	    function localeFirstDayOfYear () {
-	        return this._week.doy;
-	    }
-	
-	    // MOMENTS
-	
-	    function getSetWeek (input) {
-	        var week = this.localeData().week(this);
-	        return input == null ? week : this.add((input - week) * 7, 'd');
-	    }
-	
-	    function getSetISOWeek (input) {
-	        var week = weekOfYear(this, 1, 4).week;
-	        return input == null ? week : this.add((input - week) * 7, 'd');
-	    }
-	
-	    // FORMATTING
-	
 	    addFormatToken('D', ['DD', 2], 'Do', 'date');
 	
 	    // ALIASES
 	
 	    addUnitAlias('date', 'D');
+	
+	    // PRIOROITY
+	    addUnitPriority('date', 9);
 	
 	    // PARSING
 	
@@ -41287,332 +42025,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    // FORMATTING
 	
-	    addFormatToken('d', 0, 'do', 'day');
-	
-	    addFormatToken('dd', 0, 0, function (format) {
-	        return this.localeData().weekdaysMin(this, format);
-	    });
-	
-	    addFormatToken('ddd', 0, 0, function (format) {
-	        return this.localeData().weekdaysShort(this, format);
-	    });
-	
-	    addFormatToken('dddd', 0, 0, function (format) {
-	        return this.localeData().weekdays(this, format);
-	    });
-	
-	    addFormatToken('e', 0, 0, 'weekday');
-	    addFormatToken('E', 0, 0, 'isoWeekday');
-	
-	    // ALIASES
-	
-	    addUnitAlias('day', 'd');
-	    addUnitAlias('weekday', 'e');
-	    addUnitAlias('isoWeekday', 'E');
-	
-	    // PARSING
-	
-	    addRegexToken('d',    match1to2);
-	    addRegexToken('e',    match1to2);
-	    addRegexToken('E',    match1to2);
-	    addRegexToken('dd',   function (isStrict, locale) {
-	        return locale.weekdaysMinRegex(isStrict);
-	    });
-	    addRegexToken('ddd',   function (isStrict, locale) {
-	        return locale.weekdaysShortRegex(isStrict);
-	    });
-	    addRegexToken('dddd',   function (isStrict, locale) {
-	        return locale.weekdaysRegex(isStrict);
-	    });
-	
-	    addWeekParseToken(['dd', 'ddd', 'dddd'], function (input, week, config, token) {
-	        var weekday = config._locale.weekdaysParse(input, token, config._strict);
-	        // if we didn't get a weekday name, mark the date as invalid
-	        if (weekday != null) {
-	            week.d = weekday;
-	        } else {
-	            getParsingFlags(config).invalidWeekday = input;
-	        }
-	    });
-	
-	    addWeekParseToken(['d', 'e', 'E'], function (input, week, config, token) {
-	        week[token] = toInt(input);
-	    });
-	
-	    // HELPERS
-	
-	    function parseWeekday(input, locale) {
-	        if (typeof input !== 'string') {
-	            return input;
-	        }
-	
-	        if (!isNaN(input)) {
-	            return parseInt(input, 10);
-	        }
-	
-	        input = locale.weekdaysParse(input);
-	        if (typeof input === 'number') {
-	            return input;
-	        }
-	
-	        return null;
-	    }
-	
-	    // LOCALES
-	
-	    var defaultLocaleWeekdays = 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_');
-	    function localeWeekdays (m, format) {
-	        return isArray(this._weekdays) ? this._weekdays[m.day()] :
-	            this._weekdays[this._weekdays.isFormat.test(format) ? 'format' : 'standalone'][m.day()];
-	    }
-	
-	    var defaultLocaleWeekdaysShort = 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_');
-	    function localeWeekdaysShort (m) {
-	        return this._weekdaysShort[m.day()];
-	    }
-	
-	    var defaultLocaleWeekdaysMin = 'Su_Mo_Tu_We_Th_Fr_Sa'.split('_');
-	    function localeWeekdaysMin (m) {
-	        return this._weekdaysMin[m.day()];
-	    }
-	
-	    function day_of_week__handleStrictParse(weekdayName, format, strict) {
-	        var i, ii, mom, llc = weekdayName.toLocaleLowerCase();
-	        if (!this._weekdaysParse) {
-	            this._weekdaysParse = [];
-	            this._shortWeekdaysParse = [];
-	            this._minWeekdaysParse = [];
-	
-	            for (i = 0; i < 7; ++i) {
-	                mom = create_utc__createUTC([2000, 1]).day(i);
-	                this._minWeekdaysParse[i] = this.weekdaysMin(mom, '').toLocaleLowerCase();
-	                this._shortWeekdaysParse[i] = this.weekdaysShort(mom, '').toLocaleLowerCase();
-	                this._weekdaysParse[i] = this.weekdays(mom, '').toLocaleLowerCase();
-	            }
-	        }
-	
-	        if (strict) {
-	            if (format === 'dddd') {
-	                ii = indexOf.call(this._weekdaysParse, llc);
-	                return ii !== -1 ? ii : null;
-	            } else if (format === 'ddd') {
-	                ii = indexOf.call(this._shortWeekdaysParse, llc);
-	                return ii !== -1 ? ii : null;
-	            } else {
-	                ii = indexOf.call(this._minWeekdaysParse, llc);
-	                return ii !== -1 ? ii : null;
-	            }
-	        } else {
-	            if (format === 'dddd') {
-	                ii = indexOf.call(this._weekdaysParse, llc);
-	                if (ii !== -1) {
-	                    return ii;
-	                }
-	                ii = indexOf.call(this._shortWeekdaysParse, llc);
-	                if (ii !== -1) {
-	                    return ii;
-	                }
-	                ii = indexOf.call(this._minWeekdaysParse, llc);
-	                return ii !== -1 ? ii : null;
-	            } else if (format === 'ddd') {
-	                ii = indexOf.call(this._shortWeekdaysParse, llc);
-	                if (ii !== -1) {
-	                    return ii;
-	                }
-	                ii = indexOf.call(this._weekdaysParse, llc);
-	                if (ii !== -1) {
-	                    return ii;
-	                }
-	                ii = indexOf.call(this._minWeekdaysParse, llc);
-	                return ii !== -1 ? ii : null;
-	            } else {
-	                ii = indexOf.call(this._minWeekdaysParse, llc);
-	                if (ii !== -1) {
-	                    return ii;
-	                }
-	                ii = indexOf.call(this._weekdaysParse, llc);
-	                if (ii !== -1) {
-	                    return ii;
-	                }
-	                ii = indexOf.call(this._shortWeekdaysParse, llc);
-	                return ii !== -1 ? ii : null;
-	            }
-	        }
-	    }
-	
-	    function localeWeekdaysParse (weekdayName, format, strict) {
-	        var i, mom, regex;
-	
-	        if (this._weekdaysParseExact) {
-	            return day_of_week__handleStrictParse.call(this, weekdayName, format, strict);
-	        }
-	
-	        if (!this._weekdaysParse) {
-	            this._weekdaysParse = [];
-	            this._minWeekdaysParse = [];
-	            this._shortWeekdaysParse = [];
-	            this._fullWeekdaysParse = [];
-	        }
-	
-	        for (i = 0; i < 7; i++) {
-	            // make the regex if we don't have it already
-	
-	            mom = create_utc__createUTC([2000, 1]).day(i);
-	            if (strict && !this._fullWeekdaysParse[i]) {
-	                this._fullWeekdaysParse[i] = new RegExp('^' + this.weekdays(mom, '').replace('.', '\.?') + '$', 'i');
-	                this._shortWeekdaysParse[i] = new RegExp('^' + this.weekdaysShort(mom, '').replace('.', '\.?') + '$', 'i');
-	                this._minWeekdaysParse[i] = new RegExp('^' + this.weekdaysMin(mom, '').replace('.', '\.?') + '$', 'i');
-	            }
-	            if (!this._weekdaysParse[i]) {
-	                regex = '^' + this.weekdays(mom, '') + '|^' + this.weekdaysShort(mom, '') + '|^' + this.weekdaysMin(mom, '');
-	                this._weekdaysParse[i] = new RegExp(regex.replace('.', ''), 'i');
-	            }
-	            // test the regex
-	            if (strict && format === 'dddd' && this._fullWeekdaysParse[i].test(weekdayName)) {
-	                return i;
-	            } else if (strict && format === 'ddd' && this._shortWeekdaysParse[i].test(weekdayName)) {
-	                return i;
-	            } else if (strict && format === 'dd' && this._minWeekdaysParse[i].test(weekdayName)) {
-	                return i;
-	            } else if (!strict && this._weekdaysParse[i].test(weekdayName)) {
-	                return i;
-	            }
-	        }
-	    }
-	
-	    // MOMENTS
-	
-	    function getSetDayOfWeek (input) {
-	        if (!this.isValid()) {
-	            return input != null ? this : NaN;
-	        }
-	        var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
-	        if (input != null) {
-	            input = parseWeekday(input, this.localeData());
-	            return this.add(input - day, 'd');
-	        } else {
-	            return day;
-	        }
-	    }
-	
-	    function getSetLocaleDayOfWeek (input) {
-	        if (!this.isValid()) {
-	            return input != null ? this : NaN;
-	        }
-	        var weekday = (this.day() + 7 - this.localeData()._week.dow) % 7;
-	        return input == null ? weekday : this.add(input - weekday, 'd');
-	    }
-	
-	    function getSetISODayOfWeek (input) {
-	        if (!this.isValid()) {
-	            return input != null ? this : NaN;
-	        }
-	        // behaves the same as moment#day except
-	        // as a getter, returns 7 instead of 0 (1-7 range instead of 0-6)
-	        // as a setter, sunday should belong to the previous week.
-	        return input == null ? this.day() || 7 : this.day(this.day() % 7 ? input : input - 7);
-	    }
-	
-	    var defaultWeekdaysRegex = matchWord;
-	    function weekdaysRegex (isStrict) {
-	        if (this._weekdaysParseExact) {
-	            if (!hasOwnProp(this, '_weekdaysRegex')) {
-	                computeWeekdaysParse.call(this);
-	            }
-	            if (isStrict) {
-	                return this._weekdaysStrictRegex;
-	            } else {
-	                return this._weekdaysRegex;
-	            }
-	        } else {
-	            return this._weekdaysStrictRegex && isStrict ?
-	                this._weekdaysStrictRegex : this._weekdaysRegex;
-	        }
-	    }
-	
-	    var defaultWeekdaysShortRegex = matchWord;
-	    function weekdaysShortRegex (isStrict) {
-	        if (this._weekdaysParseExact) {
-	            if (!hasOwnProp(this, '_weekdaysRegex')) {
-	                computeWeekdaysParse.call(this);
-	            }
-	            if (isStrict) {
-	                return this._weekdaysShortStrictRegex;
-	            } else {
-	                return this._weekdaysShortRegex;
-	            }
-	        } else {
-	            return this._weekdaysShortStrictRegex && isStrict ?
-	                this._weekdaysShortStrictRegex : this._weekdaysShortRegex;
-	        }
-	    }
-	
-	    var defaultWeekdaysMinRegex = matchWord;
-	    function weekdaysMinRegex (isStrict) {
-	        if (this._weekdaysParseExact) {
-	            if (!hasOwnProp(this, '_weekdaysRegex')) {
-	                computeWeekdaysParse.call(this);
-	            }
-	            if (isStrict) {
-	                return this._weekdaysMinStrictRegex;
-	            } else {
-	                return this._weekdaysMinRegex;
-	            }
-	        } else {
-	            return this._weekdaysMinStrictRegex && isStrict ?
-	                this._weekdaysMinStrictRegex : this._weekdaysMinRegex;
-	        }
-	    }
-	
-	
-	    function computeWeekdaysParse () {
-	        function cmpLenRev(a, b) {
-	            return b.length - a.length;
-	        }
-	
-	        var minPieces = [], shortPieces = [], longPieces = [], mixedPieces = [],
-	            i, mom, minp, shortp, longp;
-	        for (i = 0; i < 7; i++) {
-	            // make the regex if we don't have it already
-	            mom = create_utc__createUTC([2000, 1]).day(i);
-	            minp = this.weekdaysMin(mom, '');
-	            shortp = this.weekdaysShort(mom, '');
-	            longp = this.weekdays(mom, '');
-	            minPieces.push(minp);
-	            shortPieces.push(shortp);
-	            longPieces.push(longp);
-	            mixedPieces.push(minp);
-	            mixedPieces.push(shortp);
-	            mixedPieces.push(longp);
-	        }
-	        // Sorting makes sure if one weekday (or abbr) is a prefix of another it
-	        // will match the longer piece.
-	        minPieces.sort(cmpLenRev);
-	        shortPieces.sort(cmpLenRev);
-	        longPieces.sort(cmpLenRev);
-	        mixedPieces.sort(cmpLenRev);
-	        for (i = 0; i < 7; i++) {
-	            shortPieces[i] = regexEscape(shortPieces[i]);
-	            longPieces[i] = regexEscape(longPieces[i]);
-	            mixedPieces[i] = regexEscape(mixedPieces[i]);
-	        }
-	
-	        this._weekdaysRegex = new RegExp('^(' + mixedPieces.join('|') + ')', 'i');
-	        this._weekdaysShortRegex = this._weekdaysRegex;
-	        this._weekdaysMinRegex = this._weekdaysRegex;
-	
-	        this._weekdaysStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
-	        this._weekdaysShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
-	        this._weekdaysMinStrictRegex = new RegExp('^(' + minPieces.join('|') + ')', 'i');
-	    }
-	
-	    // FORMATTING
-	
 	    addFormatToken('DDD', ['DDDD', 3], 'DDDo', 'dayOfYear');
 	
 	    // ALIASES
 	
 	    addUnitAlias('dayOfYear', 'DDD');
+	
+	    // PRIORITY
+	    addUnitPriority('dayOfYear', 4);
 	
 	    // PARSING
 	
@@ -41633,136 +42053,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    // FORMATTING
 	
-	    function hFormat() {
-	        return this.hours() % 12 || 12;
-	    }
-	
-	    function kFormat() {
-	        return this.hours() || 24;
-	    }
-	
-	    addFormatToken('H', ['HH', 2], 0, 'hour');
-	    addFormatToken('h', ['hh', 2], 0, hFormat);
-	    addFormatToken('k', ['kk', 2], 0, kFormat);
-	
-	    addFormatToken('hmm', 0, 0, function () {
-	        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2);
-	    });
-	
-	    addFormatToken('hmmss', 0, 0, function () {
-	        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
-	            zeroFill(this.seconds(), 2);
-	    });
-	
-	    addFormatToken('Hmm', 0, 0, function () {
-	        return '' + this.hours() + zeroFill(this.minutes(), 2);
-	    });
-	
-	    addFormatToken('Hmmss', 0, 0, function () {
-	        return '' + this.hours() + zeroFill(this.minutes(), 2) +
-	            zeroFill(this.seconds(), 2);
-	    });
-	
-	    function meridiem (token, lowercase) {
-	        addFormatToken(token, 0, 0, function () {
-	            return this.localeData().meridiem(this.hours(), this.minutes(), lowercase);
-	        });
-	    }
-	
-	    meridiem('a', true);
-	    meridiem('A', false);
-	
-	    // ALIASES
-	
-	    addUnitAlias('hour', 'h');
-	
-	    // PARSING
-	
-	    function matchMeridiem (isStrict, locale) {
-	        return locale._meridiemParse;
-	    }
-	
-	    addRegexToken('a',  matchMeridiem);
-	    addRegexToken('A',  matchMeridiem);
-	    addRegexToken('H',  match1to2);
-	    addRegexToken('h',  match1to2);
-	    addRegexToken('HH', match1to2, match2);
-	    addRegexToken('hh', match1to2, match2);
-	
-	    addRegexToken('hmm', match3to4);
-	    addRegexToken('hmmss', match5to6);
-	    addRegexToken('Hmm', match3to4);
-	    addRegexToken('Hmmss', match5to6);
-	
-	    addParseToken(['H', 'HH'], HOUR);
-	    addParseToken(['a', 'A'], function (input, array, config) {
-	        config._isPm = config._locale.isPM(input);
-	        config._meridiem = input;
-	    });
-	    addParseToken(['h', 'hh'], function (input, array, config) {
-	        array[HOUR] = toInt(input);
-	        getParsingFlags(config).bigHour = true;
-	    });
-	    addParseToken('hmm', function (input, array, config) {
-	        var pos = input.length - 2;
-	        array[HOUR] = toInt(input.substr(0, pos));
-	        array[MINUTE] = toInt(input.substr(pos));
-	        getParsingFlags(config).bigHour = true;
-	    });
-	    addParseToken('hmmss', function (input, array, config) {
-	        var pos1 = input.length - 4;
-	        var pos2 = input.length - 2;
-	        array[HOUR] = toInt(input.substr(0, pos1));
-	        array[MINUTE] = toInt(input.substr(pos1, 2));
-	        array[SECOND] = toInt(input.substr(pos2));
-	        getParsingFlags(config).bigHour = true;
-	    });
-	    addParseToken('Hmm', function (input, array, config) {
-	        var pos = input.length - 2;
-	        array[HOUR] = toInt(input.substr(0, pos));
-	        array[MINUTE] = toInt(input.substr(pos));
-	    });
-	    addParseToken('Hmmss', function (input, array, config) {
-	        var pos1 = input.length - 4;
-	        var pos2 = input.length - 2;
-	        array[HOUR] = toInt(input.substr(0, pos1));
-	        array[MINUTE] = toInt(input.substr(pos1, 2));
-	        array[SECOND] = toInt(input.substr(pos2));
-	    });
-	
-	    // LOCALES
-	
-	    function localeIsPM (input) {
-	        // IE8 Quirks Mode & IE7 Standards Mode do not allow accessing strings like arrays
-	        // Using charAt should be more compatible.
-	        return ((input + '').toLowerCase().charAt(0) === 'p');
-	    }
-	
-	    var defaultLocaleMeridiemParse = /[ap]\.?m?\.?/i;
-	    function localeMeridiem (hours, minutes, isLower) {
-	        if (hours > 11) {
-	            return isLower ? 'pm' : 'PM';
-	        } else {
-	            return isLower ? 'am' : 'AM';
-	        }
-	    }
-	
-	
-	    // MOMENTS
-	
-	    // Setting the hour should keep the time, because the user explicitly
-	    // specified which hour he wants. So trying to maintain the same hour (in
-	    // a new timezone) makes sense. Adding/subtracting hours does not follow
-	    // this rule.
-	    var getSetHour = makeGetSet('Hours', true);
-	
-	    // FORMATTING
-	
 	    addFormatToken('m', ['mm', 2], 0, 'minute');
 	
 	    // ALIASES
 	
 	    addUnitAlias('minute', 'm');
+	
+	    // PRIORITY
+	
+	    addUnitPriority('minute', 14);
 	
 	    // PARSING
 	
@@ -41781,6 +42080,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // ALIASES
 	
 	    addUnitAlias('second', 's');
+	
+	    // PRIORITY
+	
+	    addUnitPriority('second', 15);
 	
 	    // PARSING
 	
@@ -41826,6 +42129,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // ALIASES
 	
 	    addUnitAlias('millisecond', 'ms');
+	
+	    // PRIORITY
+	
+	    addUnitPriority('millisecond', 16);
 	
 	    // PARSING
 	
@@ -41876,7 +42183,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    momentPrototype__proto.fromNow           = fromNow;
 	    momentPrototype__proto.to                = to;
 	    momentPrototype__proto.toNow             = toNow;
-	    momentPrototype__proto.get               = getSet;
+	    momentPrototype__proto.get               = stringGet;
 	    momentPrototype__proto.invalidAt         = invalidAt;
 	    momentPrototype__proto.isAfter           = isAfter;
 	    momentPrototype__proto.isBefore          = isBefore;
@@ -41891,7 +42198,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    momentPrototype__proto.max               = prototypeMax;
 	    momentPrototype__proto.min               = prototypeMin;
 	    momentPrototype__proto.parsingFlags      = parsingFlags;
-	    momentPrototype__proto.set               = getSet;
+	    momentPrototype__proto.set               = stringSet;
 	    momentPrototype__proto.startOf           = startOf;
 	    momentPrototype__proto.subtract          = add_subtract__subtract;
 	    momentPrototype__proto.toArray           = toArray;
@@ -41951,7 +42258,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    momentPrototype__proto.parseZone            = setOffsetToParsedOffset;
 	    momentPrototype__proto.hasAlignedHourOffset = hasAlignedHourOffset;
 	    momentPrototype__proto.isDST                = isDaylightSavingTime;
-	    momentPrototype__proto.isDSTShifted         = isDaylightSavingTimeShifted;
 	    momentPrototype__proto.isLocal              = isLocal;
 	    momentPrototype__proto.isUtcOffset          = isUtcOffset;
 	    momentPrototype__proto.isUtc                = isUtc;
@@ -41965,7 +42271,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    momentPrototype__proto.dates  = deprecate('dates accessor is deprecated. Use date instead.', getSetDayOfMonth);
 	    momentPrototype__proto.months = deprecate('months accessor is deprecated. Use month instead', getSetMonth);
 	    momentPrototype__proto.years  = deprecate('years accessor is deprecated. Use year instead', getSetYear);
-	    momentPrototype__proto.zone   = deprecate('moment().zone is deprecated, use moment().utcOffset instead. https://github.com/moment/moment/issues/1779', getSetZone);
+	    momentPrototype__proto.zone   = deprecate('moment().zone is deprecated, use moment().utcOffset instead. http://momentjs.com/guides/#/warnings/zone/', getSetZone);
+	    momentPrototype__proto.isDSTShifted = deprecate('isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information', isDaylightSavingTimeShifted);
 	
 	    var momentPrototype = momentPrototype__proto;
 	
@@ -41977,143 +42284,46 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return local__createLocal.apply(null, arguments).parseZone();
 	    }
 	
-	    var defaultCalendar = {
-	        sameDay : '[Today at] LT',
-	        nextDay : '[Tomorrow at] LT',
-	        nextWeek : 'dddd [at] LT',
-	        lastDay : '[Yesterday at] LT',
-	        lastWeek : '[Last] dddd [at] LT',
-	        sameElse : 'L'
-	    };
-	
-	    function locale_calendar__calendar (key, mom, now) {
-	        var output = this._calendar[key];
-	        return isFunction(output) ? output.call(mom, now) : output;
-	    }
-	
-	    var defaultLongDateFormat = {
-	        LTS  : 'h:mm:ss A',
-	        LT   : 'h:mm A',
-	        L    : 'MM/DD/YYYY',
-	        LL   : 'MMMM D, YYYY',
-	        LLL  : 'MMMM D, YYYY h:mm A',
-	        LLLL : 'dddd, MMMM D, YYYY h:mm A'
-	    };
-	
-	    function longDateFormat (key) {
-	        var format = this._longDateFormat[key],
-	            formatUpper = this._longDateFormat[key.toUpperCase()];
-	
-	        if (format || !formatUpper) {
-	            return format;
-	        }
-	
-	        this._longDateFormat[key] = formatUpper.replace(/MMMM|MM|DD|dddd/g, function (val) {
-	            return val.slice(1);
-	        });
-	
-	        return this._longDateFormat[key];
-	    }
-	
-	    var defaultInvalidDate = 'Invalid date';
-	
-	    function invalidDate () {
-	        return this._invalidDate;
-	    }
-	
-	    var defaultOrdinal = '%d';
-	    var defaultOrdinalParse = /\d{1,2}/;
-	
-	    function ordinal (number) {
-	        return this._ordinal.replace('%d', number);
-	    }
-	
 	    function preParsePostFormat (string) {
 	        return string;
 	    }
 	
-	    var defaultRelativeTime = {
-	        future : 'in %s',
-	        past   : '%s ago',
-	        s  : 'a few seconds',
-	        m  : 'a minute',
-	        mm : '%d minutes',
-	        h  : 'an hour',
-	        hh : '%d hours',
-	        d  : 'a day',
-	        dd : '%d days',
-	        M  : 'a month',
-	        MM : '%d months',
-	        y  : 'a year',
-	        yy : '%d years'
-	    };
-	
-	    function relative__relativeTime (number, withoutSuffix, string, isFuture) {
-	        var output = this._relativeTime[string];
-	        return (isFunction(output)) ?
-	            output(number, withoutSuffix, string, isFuture) :
-	            output.replace(/%d/i, number);
-	    }
-	
-	    function pastFuture (diff, output) {
-	        var format = this._relativeTime[diff > 0 ? 'future' : 'past'];
-	        return isFunction(format) ? format(output) : format.replace(/%s/i, output);
-	    }
-	
 	    var prototype__proto = Locale.prototype;
 	
-	    prototype__proto._calendar       = defaultCalendar;
 	    prototype__proto.calendar        = locale_calendar__calendar;
-	    prototype__proto._longDateFormat = defaultLongDateFormat;
 	    prototype__proto.longDateFormat  = longDateFormat;
-	    prototype__proto._invalidDate    = defaultInvalidDate;
 	    prototype__proto.invalidDate     = invalidDate;
-	    prototype__proto._ordinal        = defaultOrdinal;
 	    prototype__proto.ordinal         = ordinal;
-	    prototype__proto._ordinalParse   = defaultOrdinalParse;
 	    prototype__proto.preparse        = preParsePostFormat;
 	    prototype__proto.postformat      = preParsePostFormat;
-	    prototype__proto._relativeTime   = defaultRelativeTime;
 	    prototype__proto.relativeTime    = relative__relativeTime;
 	    prototype__proto.pastFuture      = pastFuture;
 	    prototype__proto.set             = locale_set__set;
 	
 	    // Month
 	    prototype__proto.months            =        localeMonths;
-	    prototype__proto._months           = defaultLocaleMonths;
 	    prototype__proto.monthsShort       =        localeMonthsShort;
-	    prototype__proto._monthsShort      = defaultLocaleMonthsShort;
 	    prototype__proto.monthsParse       =        localeMonthsParse;
-	    prototype__proto._monthsRegex      = defaultMonthsRegex;
 	    prototype__proto.monthsRegex       = monthsRegex;
-	    prototype__proto._monthsShortRegex = defaultMonthsShortRegex;
 	    prototype__proto.monthsShortRegex  = monthsShortRegex;
 	
 	    // Week
 	    prototype__proto.week = localeWeek;
-	    prototype__proto._week = defaultLocaleWeek;
 	    prototype__proto.firstDayOfYear = localeFirstDayOfYear;
 	    prototype__proto.firstDayOfWeek = localeFirstDayOfWeek;
 	
 	    // Day of Week
 	    prototype__proto.weekdays       =        localeWeekdays;
-	    prototype__proto._weekdays      = defaultLocaleWeekdays;
 	    prototype__proto.weekdaysMin    =        localeWeekdaysMin;
-	    prototype__proto._weekdaysMin   = defaultLocaleWeekdaysMin;
 	    prototype__proto.weekdaysShort  =        localeWeekdaysShort;
-	    prototype__proto._weekdaysShort = defaultLocaleWeekdaysShort;
 	    prototype__proto.weekdaysParse  =        localeWeekdaysParse;
 	
-	    prototype__proto._weekdaysRegex      = defaultWeekdaysRegex;
 	    prototype__proto.weekdaysRegex       =        weekdaysRegex;
-	    prototype__proto._weekdaysShortRegex = defaultWeekdaysShortRegex;
 	    prototype__proto.weekdaysShortRegex  =        weekdaysShortRegex;
-	    prototype__proto._weekdaysMinRegex   = defaultWeekdaysMinRegex;
 	    prototype__proto.weekdaysMinRegex    =        weekdaysMinRegex;
 	
 	    // Hours
 	    prototype__proto.isPM = localeIsPM;
-	    prototype__proto._meridiemParse = defaultLocaleMeridiemParse;
 	    prototype__proto.meridiem = localeMeridiem;
 	
 	    function lists__get (format, index, field, setter) {
@@ -42442,6 +42652,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return substituteTimeAgo.apply(null, a);
 	    }
 	
+	    // This function allows you to set the rounding function for relative time strings
+	    function duration_humanize__getSetRelativeTimeRounding (roundingFunction) {
+	        if (roundingFunction === undefined) {
+	            return round;
+	        }
+	        if (typeof(roundingFunction) === 'function') {
+	            round = roundingFunction;
+	            return true;
+	        }
+	        return false;
+	    }
+	
 	    // This function allows you to set a threshold for relative time strings
 	    function duration_humanize__getSetRelativeTimeThreshold (threshold, limit) {
 	        if (thresholds[threshold] === undefined) {
@@ -42574,7 +42796,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // Side effect imports
 	
 	
-	    utils_hooks__hooks.version = '2.13.0';
+	    utils_hooks__hooks.version = '2.14.1';
 	
 	    setHookCallback(local__createLocal);
 	
@@ -42601,7 +42823,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    utils_hooks__hooks.locales               = locale_locales__listLocales;
 	    utils_hooks__hooks.weekdaysShort         = lists__listWeekdaysShort;
 	    utils_hooks__hooks.normalizeUnits        = normalizeUnits;
+	    utils_hooks__hooks.relativeTimeRounding = duration_humanize__getSetRelativeTimeRounding;
 	    utils_hooks__hooks.relativeTimeThreshold = duration_humanize__getSetRelativeTimeThreshold;
+	    utils_hooks__hooks.calendarFormat        = getCalendarFormat;
 	    utils_hooks__hooks.prototype             = momentPrototype;
 	
 	    var _moment = utils_hooks__hooks;
@@ -42671,151 +42895,153 @@ return /******/ (function(modules) { // webpackBootstrap
 		"./eo": 93,
 		"./eo.js": 93,
 		"./es": 94,
+		"./es-do": 95,
+		"./es-do.js": 95,
 		"./es.js": 94,
-		"./et": 95,
-		"./et.js": 95,
-		"./eu": 96,
-		"./eu.js": 96,
-		"./fa": 97,
-		"./fa.js": 97,
-		"./fi": 98,
-		"./fi.js": 98,
-		"./fo": 99,
-		"./fo.js": 99,
-		"./fr": 100,
-		"./fr-ca": 101,
-		"./fr-ca.js": 101,
-		"./fr-ch": 102,
-		"./fr-ch.js": 102,
-		"./fr.js": 100,
-		"./fy": 103,
-		"./fy.js": 103,
-		"./gd": 104,
-		"./gd.js": 104,
-		"./gl": 105,
-		"./gl.js": 105,
-		"./he": 106,
-		"./he.js": 106,
-		"./hi": 107,
-		"./hi.js": 107,
-		"./hr": 108,
-		"./hr.js": 108,
-		"./hu": 109,
-		"./hu.js": 109,
-		"./hy-am": 110,
-		"./hy-am.js": 110,
-		"./id": 111,
-		"./id.js": 111,
-		"./is": 112,
-		"./is.js": 112,
-		"./it": 113,
-		"./it.js": 113,
-		"./ja": 114,
-		"./ja.js": 114,
-		"./jv": 115,
-		"./jv.js": 115,
-		"./ka": 116,
-		"./ka.js": 116,
-		"./kk": 117,
-		"./kk.js": 117,
-		"./km": 118,
-		"./km.js": 118,
-		"./ko": 119,
-		"./ko.js": 119,
-		"./ky": 120,
-		"./ky.js": 120,
-		"./lb": 121,
-		"./lb.js": 121,
-		"./lo": 122,
-		"./lo.js": 122,
-		"./lt": 123,
-		"./lt.js": 123,
-		"./lv": 124,
-		"./lv.js": 124,
-		"./me": 125,
-		"./me.js": 125,
-		"./mk": 126,
-		"./mk.js": 126,
-		"./ml": 127,
-		"./ml.js": 127,
-		"./mr": 128,
-		"./mr.js": 128,
-		"./ms": 129,
-		"./ms-my": 130,
-		"./ms-my.js": 130,
-		"./ms.js": 129,
-		"./my": 131,
-		"./my.js": 131,
-		"./nb": 132,
-		"./nb.js": 132,
-		"./ne": 133,
-		"./ne.js": 133,
-		"./nl": 134,
-		"./nl.js": 134,
-		"./nn": 135,
-		"./nn.js": 135,
-		"./pa-in": 136,
-		"./pa-in.js": 136,
-		"./pl": 137,
-		"./pl.js": 137,
-		"./pt": 138,
-		"./pt-br": 139,
-		"./pt-br.js": 139,
-		"./pt.js": 138,
-		"./ro": 140,
-		"./ro.js": 140,
-		"./ru": 141,
-		"./ru.js": 141,
-		"./se": 142,
-		"./se.js": 142,
-		"./si": 143,
-		"./si.js": 143,
-		"./sk": 144,
-		"./sk.js": 144,
-		"./sl": 145,
-		"./sl.js": 145,
-		"./sq": 146,
-		"./sq.js": 146,
-		"./sr": 147,
-		"./sr-cyrl": 148,
-		"./sr-cyrl.js": 148,
-		"./sr.js": 147,
-		"./ss": 149,
-		"./ss.js": 149,
-		"./sv": 150,
-		"./sv.js": 150,
-		"./sw": 151,
-		"./sw.js": 151,
-		"./ta": 152,
-		"./ta.js": 152,
-		"./te": 153,
-		"./te.js": 153,
-		"./th": 154,
-		"./th.js": 154,
-		"./tl-ph": 155,
-		"./tl-ph.js": 155,
-		"./tlh": 156,
-		"./tlh.js": 156,
-		"./tr": 157,
-		"./tr.js": 157,
-		"./tzl": 158,
-		"./tzl.js": 158,
-		"./tzm": 159,
-		"./tzm-latn": 160,
-		"./tzm-latn.js": 160,
-		"./tzm.js": 159,
-		"./uk": 161,
-		"./uk.js": 161,
-		"./uz": 162,
-		"./uz.js": 162,
-		"./vi": 163,
-		"./vi.js": 163,
-		"./x-pseudo": 164,
-		"./x-pseudo.js": 164,
-		"./zh-cn": 165,
-		"./zh-cn.js": 165,
-		"./zh-tw": 166,
-		"./zh-tw.js": 166
+		"./et": 96,
+		"./et.js": 96,
+		"./eu": 97,
+		"./eu.js": 97,
+		"./fa": 98,
+		"./fa.js": 98,
+		"./fi": 99,
+		"./fi.js": 99,
+		"./fo": 100,
+		"./fo.js": 100,
+		"./fr": 101,
+		"./fr-ca": 102,
+		"./fr-ca.js": 102,
+		"./fr-ch": 103,
+		"./fr-ch.js": 103,
+		"./fr.js": 101,
+		"./fy": 104,
+		"./fy.js": 104,
+		"./gd": 105,
+		"./gd.js": 105,
+		"./gl": 106,
+		"./gl.js": 106,
+		"./he": 107,
+		"./he.js": 107,
+		"./hi": 108,
+		"./hi.js": 108,
+		"./hr": 109,
+		"./hr.js": 109,
+		"./hu": 110,
+		"./hu.js": 110,
+		"./hy-am": 111,
+		"./hy-am.js": 111,
+		"./id": 112,
+		"./id.js": 112,
+		"./is": 113,
+		"./is.js": 113,
+		"./it": 114,
+		"./it.js": 114,
+		"./ja": 115,
+		"./ja.js": 115,
+		"./jv": 116,
+		"./jv.js": 116,
+		"./ka": 117,
+		"./ka.js": 117,
+		"./kk": 118,
+		"./kk.js": 118,
+		"./km": 119,
+		"./km.js": 119,
+		"./ko": 120,
+		"./ko.js": 120,
+		"./ky": 121,
+		"./ky.js": 121,
+		"./lb": 122,
+		"./lb.js": 122,
+		"./lo": 123,
+		"./lo.js": 123,
+		"./lt": 124,
+		"./lt.js": 124,
+		"./lv": 125,
+		"./lv.js": 125,
+		"./me": 126,
+		"./me.js": 126,
+		"./mk": 127,
+		"./mk.js": 127,
+		"./ml": 128,
+		"./ml.js": 128,
+		"./mr": 129,
+		"./mr.js": 129,
+		"./ms": 130,
+		"./ms-my": 131,
+		"./ms-my.js": 131,
+		"./ms.js": 130,
+		"./my": 132,
+		"./my.js": 132,
+		"./nb": 133,
+		"./nb.js": 133,
+		"./ne": 134,
+		"./ne.js": 134,
+		"./nl": 135,
+		"./nl.js": 135,
+		"./nn": 136,
+		"./nn.js": 136,
+		"./pa-in": 137,
+		"./pa-in.js": 137,
+		"./pl": 138,
+		"./pl.js": 138,
+		"./pt": 139,
+		"./pt-br": 140,
+		"./pt-br.js": 140,
+		"./pt.js": 139,
+		"./ro": 141,
+		"./ro.js": 141,
+		"./ru": 142,
+		"./ru.js": 142,
+		"./se": 143,
+		"./se.js": 143,
+		"./si": 144,
+		"./si.js": 144,
+		"./sk": 145,
+		"./sk.js": 145,
+		"./sl": 146,
+		"./sl.js": 146,
+		"./sq": 147,
+		"./sq.js": 147,
+		"./sr": 148,
+		"./sr-cyrl": 149,
+		"./sr-cyrl.js": 149,
+		"./sr.js": 148,
+		"./ss": 150,
+		"./ss.js": 150,
+		"./sv": 151,
+		"./sv.js": 151,
+		"./sw": 152,
+		"./sw.js": 152,
+		"./ta": 153,
+		"./ta.js": 153,
+		"./te": 154,
+		"./te.js": 154,
+		"./th": 155,
+		"./th.js": 155,
+		"./tl-ph": 156,
+		"./tl-ph.js": 156,
+		"./tlh": 157,
+		"./tlh.js": 157,
+		"./tr": 158,
+		"./tr.js": 158,
+		"./tzl": 159,
+		"./tzl.js": 159,
+		"./tzm": 160,
+		"./tzm-latn": 161,
+		"./tzm-latn.js": 161,
+		"./tzm.js": 160,
+		"./uk": 162,
+		"./uk.js": 162,
+		"./uz": 163,
+		"./uz.js": 163,
+		"./vi": 164,
+		"./vi.js": 164,
+		"./x-pseudo": 165,
+		"./x-pseudo.js": 165,
+		"./zh-cn": 166,
+		"./zh-cn.js": 166,
+		"./zh-tw": 167,
+		"./zh-tw.js": 167
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -42836,19 +43062,19 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : afrikaans (af)
+	//! locale : Afrikaans [af]
 	//! author : Werner Mollentze : https://github.com/wernerm
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
 	
 	    var af = moment.defineLocale('af', {
 	        months : 'Januarie_Februarie_Maart_April_Mei_Junie_Julie_Augustus_September_Oktober_November_Desember'.split('_'),
-	        monthsShort : 'Jan_Feb_Mar_Apr_Mei_Jun_Jul_Aug_Sep_Okt_Nov_Des'.split('_'),
+	        monthsShort : 'Jan_Feb_Mrt_Apr_Mei_Jun_Jul_Aug_Sep_Okt_Nov_Des'.split('_'),
 	        weekdays : 'Sondag_Maandag_Dinsdag_Woensdag_Donderdag_Vrydag_Saterdag'.split('_'),
 	        weekdaysShort : 'Son_Maa_Din_Woe_Don_Vry_Sat'.split('_'),
 	        weekdaysMin : 'So_Ma_Di_Wo_Do_Vr_Sa'.split('_'),
@@ -42913,14 +43139,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! Locale: Arabic (ar)
-	//! Author: Abdel Said: https://github.com/abdelsaid
-	//! Changes in months, weekdays: Ahmed Elkhatib
+	//! locale : Arabic [ar]
+	//! author : Abdel Said: https://github.com/abdelsaid
+	//! changes in months, weekdays: Ahmed Elkhatib
 	//! Native plural forms: forabi https://github.com/forabi
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43054,13 +43280,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Moroccan Arabic (ar-ma)
+	//! locale : Arabic (Morocco) [ar-ma]
 	//! author : ElFadili Yassine : https://github.com/ElFadiliY
 	//! author : Abdel Said : https://github.com/abdelsaid
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43118,12 +43344,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Arabic Saudi Arabia (ar-sa)
+	//! locale : Arabic (Saudi Arabia) [ar-sa]
 	//! author : Suhail Alkowaileet : https://github.com/xsoh
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43226,11 +43452,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale  : Tunisian Arabic (ar-tn)
+	//! locale  :  Arabic (Tunisia) [ar-tn]
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43288,12 +43514,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : azerbaijani (az)
+	//! locale : Azerbaijani [az]
 	//! author : topchiyev : https://github.com/topchiyev
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43397,14 +43623,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : belarusian (be)
+	//! locale : Belarusian [be]
 	//! author : Dmitry Demidov : https://github.com/demidov91
 	//! author: Praleska: http://praleska.pro/
 	//! Author : Menelion Elensúle : https://github.com/Oire
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43462,15 +43688,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	            },
 	            lastWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                case 3:
-	                case 5:
-	                case 6:
-	                    return '[У мінулую] dddd [ў] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                    return '[У мінулы] dddd [ў] LT';
+	                    case 0:
+	                    case 3:
+	                    case 5:
+	                    case 6:
+	                        return '[У мінулую] dddd [ў] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                        return '[У мінулы] dddd [ў] LT';
 	                }
 	            },
 	            sameElse: 'L'
@@ -43508,16 +43734,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse: /\d{1,2}-(і|ы|га)/,
 	        ordinal: function (number, period) {
 	            switch (period) {
-	            case 'M':
-	            case 'd':
-	            case 'DDD':
-	            case 'w':
-	            case 'W':
-	                return (number % 10 === 2 || number % 10 === 3) && (number % 100 !== 12 && number % 100 !== 13) ? number + '-і' : number + '-ы';
-	            case 'D':
-	                return number + '-га';
-	            default:
-	                return number;
+	                case 'M':
+	                case 'd':
+	                case 'DDD':
+	                case 'w':
+	                case 'W':
+	                    return (number % 10 === 2 || number % 10 === 3) && (number % 100 !== 12 && number % 100 !== 13) ? number + '-і' : number + '-ы';
+	                case 'D':
+	                    return number + '-га';
+	                default:
+	                    return number;
 	            }
 	        },
 	        week : {
@@ -43535,12 +43761,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : bulgarian (bg)
+	//! locale : Bulgarian [bg]
 	//! author : Krasen Borisov : https://github.com/kraz
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43566,15 +43792,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	            lastDay : '[Вчера в] LT',
 	            lastWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                case 3:
-	                case 6:
-	                    return '[В изминалата] dddd [в] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[В изминалия] dddd [в] LT';
+	                    case 0:
+	                    case 3:
+	                    case 6:
+	                        return '[В изминалата] dddd [в] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[В изминалия] dddd [в] LT';
 	                }
 	            },
 	            sameElse : 'L'
@@ -43629,12 +43855,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Bengali (bn)
+	//! locale : Bengali [bn]
 	//! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43752,12 +43978,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : tibetan (bo)
+	//! locale : Tibetan [bo]
 	//! author : Thupten N. Chakrishar : https://github.com/vajradog
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43875,12 +44101,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : breton (br)
+	//! locale : Breton [br]
 	//! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -43895,14 +44121,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    function specialMutationForYears(number) {
 	        switch (lastNumber(number)) {
-	        case 1:
-	        case 3:
-	        case 4:
-	        case 5:
-	        case 9:
-	            return number + ' bloaz';
-	        default:
-	            return number + ' vloaz';
+	            case 1:
+	            case 3:
+	            case 4:
+	            case 5:
+	            case 9:
+	                return number + ' bloaz';
+	            default:
+	                return number + ' vloaz';
 	        }
 	    }
 	    function lastNumber(number) {
@@ -43987,13 +44213,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : bosnian (bs)
+	//! locale : Bosnian [bs]
 	//! author : Nedim Cholich : https://github.com/frontyard
 	//! based on (hr) translation by Bojan Marković
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44001,53 +44227,53 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 'm':
-	            return withoutSuffix ? 'jedna minuta' : 'jedne minute';
-	        case 'mm':
-	            if (number === 1) {
-	                result += 'minuta';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'minute';
-	            } else {
-	                result += 'minuta';
-	            }
-	            return result;
-	        case 'h':
-	            return withoutSuffix ? 'jedan sat' : 'jednog sata';
-	        case 'hh':
-	            if (number === 1) {
-	                result += 'sat';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'sata';
-	            } else {
-	                result += 'sati';
-	            }
-	            return result;
-	        case 'dd':
-	            if (number === 1) {
-	                result += 'dan';
-	            } else {
-	                result += 'dana';
-	            }
-	            return result;
-	        case 'MM':
-	            if (number === 1) {
-	                result += 'mjesec';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'mjeseca';
-	            } else {
-	                result += 'mjeseci';
-	            }
-	            return result;
-	        case 'yy':
-	            if (number === 1) {
-	                result += 'godina';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'godine';
-	            } else {
-	                result += 'godina';
-	            }
-	            return result;
+	            case 'm':
+	                return withoutSuffix ? 'jedna minuta' : 'jedne minute';
+	            case 'mm':
+	                if (number === 1) {
+	                    result += 'minuta';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'minute';
+	                } else {
+	                    result += 'minuta';
+	                }
+	                return result;
+	            case 'h':
+	                return withoutSuffix ? 'jedan sat' : 'jednog sata';
+	            case 'hh':
+	                if (number === 1) {
+	                    result += 'sat';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'sata';
+	                } else {
+	                    result += 'sati';
+	                }
+	                return result;
+	            case 'dd':
+	                if (number === 1) {
+	                    result += 'dan';
+	                } else {
+	                    result += 'dana';
+	                }
+	                return result;
+	            case 'MM':
+	                if (number === 1) {
+	                    result += 'mjesec';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'mjeseca';
+	                } else {
+	                    result += 'mjeseci';
+	                }
+	                return result;
+	            case 'yy':
+	                if (number === 1) {
+	                    result += 'godina';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'godine';
+	                } else {
+	                    result += 'godina';
+	                }
+	                return result;
 	        }
 	    }
 	
@@ -44072,32 +44298,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextDay  : '[sutra u] LT',
 	            nextWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[u] [nedjelju] [u] LT';
-	                case 3:
-	                    return '[u] [srijedu] [u] LT';
-	                case 6:
-	                    return '[u] [subotu] [u] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[u] dddd [u] LT';
+	                    case 0:
+	                        return '[u] [nedjelju] [u] LT';
+	                    case 3:
+	                        return '[u] [srijedu] [u] LT';
+	                    case 6:
+	                        return '[u] [subotu] [u] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[u] dddd [u] LT';
 	                }
 	            },
 	            lastDay  : '[jučer u] LT',
 	            lastWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                case 3:
-	                    return '[prošlu] dddd [u] LT';
-	                case 6:
-	                    return '[prošle] [subote] [u] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[prošli] dddd [u] LT';
+	                    case 0:
+	                    case 3:
+	                        return '[prošlu] dddd [u] LT';
+	                    case 6:
+	                        return '[prošle] [subote] [u] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[prošli] dddd [u] LT';
 	                }
 	            },
 	            sameElse : 'L'
@@ -44134,12 +44360,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : catalan (ca)
+	//! locale : Catalan [ca]
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44219,12 +44445,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : czech (cs)
+	//! locale : Czech [cs]
 	//! author : petrbela : https://github.com/petrbela
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44237,53 +44463,53 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key, isFuture) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 's':  // a few seconds / in a few seconds / a few seconds ago
-	            return (withoutSuffix || isFuture) ? 'pár sekund' : 'pár sekundami';
-	        case 'm':  // a minute / in a minute / a minute ago
-	            return withoutSuffix ? 'minuta' : (isFuture ? 'minutu' : 'minutou');
-	        case 'mm': // 9 minutes / in 9 minutes / 9 minutes ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'minuty' : 'minut');
-	            } else {
-	                return result + 'minutami';
-	            }
-	            break;
-	        case 'h':  // an hour / in an hour / an hour ago
-	            return withoutSuffix ? 'hodina' : (isFuture ? 'hodinu' : 'hodinou');
-	        case 'hh': // 9 hours / in 9 hours / 9 hours ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'hodiny' : 'hodin');
-	            } else {
-	                return result + 'hodinami';
-	            }
-	            break;
-	        case 'd':  // a day / in a day / a day ago
-	            return (withoutSuffix || isFuture) ? 'den' : 'dnem';
-	        case 'dd': // 9 days / in 9 days / 9 days ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'dny' : 'dní');
-	            } else {
-	                return result + 'dny';
-	            }
-	            break;
-	        case 'M':  // a month / in a month / a month ago
-	            return (withoutSuffix || isFuture) ? 'měsíc' : 'měsícem';
-	        case 'MM': // 9 months / in 9 months / 9 months ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'měsíce' : 'měsíců');
-	            } else {
-	                return result + 'měsíci';
-	            }
-	            break;
-	        case 'y':  // a year / in a year / a year ago
-	            return (withoutSuffix || isFuture) ? 'rok' : 'rokem';
-	        case 'yy': // 9 years / in 9 years / 9 years ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'roky' : 'let');
-	            } else {
-	                return result + 'lety';
-	            }
-	            break;
+	            case 's':  // a few seconds / in a few seconds / a few seconds ago
+	                return (withoutSuffix || isFuture) ? 'pár sekund' : 'pár sekundami';
+	            case 'm':  // a minute / in a minute / a minute ago
+	                return withoutSuffix ? 'minuta' : (isFuture ? 'minutu' : 'minutou');
+	            case 'mm': // 9 minutes / in 9 minutes / 9 minutes ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'minuty' : 'minut');
+	                } else {
+	                    return result + 'minutami';
+	                }
+	                break;
+	            case 'h':  // an hour / in an hour / an hour ago
+	                return withoutSuffix ? 'hodina' : (isFuture ? 'hodinu' : 'hodinou');
+	            case 'hh': // 9 hours / in 9 hours / 9 hours ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'hodiny' : 'hodin');
+	                } else {
+	                    return result + 'hodinami';
+	                }
+	                break;
+	            case 'd':  // a day / in a day / a day ago
+	                return (withoutSuffix || isFuture) ? 'den' : 'dnem';
+	            case 'dd': // 9 days / in 9 days / 9 days ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'dny' : 'dní');
+	                } else {
+	                    return result + 'dny';
+	                }
+	                break;
+	            case 'M':  // a month / in a month / a month ago
+	                return (withoutSuffix || isFuture) ? 'měsíc' : 'měsícem';
+	            case 'MM': // 9 months / in 9 months / 9 months ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'měsíce' : 'měsíců');
+	                } else {
+	                    return result + 'měsíci';
+	                }
+	                break;
+	            case 'y':  // a year / in a year / a year ago
+	                return (withoutSuffix || isFuture) ? 'rok' : 'rokem';
+	            case 'yy': // 9 years / in 9 years / 9 years ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'roky' : 'let');
+	                } else {
+	                    return result + 'lety';
+	                }
+	                break;
 	        }
 	    }
 	
@@ -44321,43 +44547,44 @@ return /******/ (function(modules) { // webpackBootstrap
 	            L : 'DD.MM.YYYY',
 	            LL : 'D. MMMM YYYY',
 	            LLL : 'D. MMMM YYYY H:mm',
-	            LLLL : 'dddd D. MMMM YYYY H:mm'
+	            LLLL : 'dddd D. MMMM YYYY H:mm',
+	            l : 'D. M. YYYY'
 	        },
 	        calendar : {
 	            sameDay: '[dnes v] LT',
 	            nextDay: '[zítra v] LT',
 	            nextWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[v neděli v] LT';
-	                case 1:
-	                case 2:
-	                    return '[v] dddd [v] LT';
-	                case 3:
-	                    return '[ve středu v] LT';
-	                case 4:
-	                    return '[ve čtvrtek v] LT';
-	                case 5:
-	                    return '[v pátek v] LT';
-	                case 6:
-	                    return '[v sobotu v] LT';
+	                    case 0:
+	                        return '[v neděli v] LT';
+	                    case 1:
+	                    case 2:
+	                        return '[v] dddd [v] LT';
+	                    case 3:
+	                        return '[ve středu v] LT';
+	                    case 4:
+	                        return '[ve čtvrtek v] LT';
+	                    case 5:
+	                        return '[v pátek v] LT';
+	                    case 6:
+	                        return '[v sobotu v] LT';
 	                }
 	            },
 	            lastDay: '[včera v] LT',
 	            lastWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[minulou neděli v] LT';
-	                case 1:
-	                case 2:
-	                    return '[minulé] dddd [v] LT';
-	                case 3:
-	                    return '[minulou středu v] LT';
-	                case 4:
-	                case 5:
-	                    return '[minulý] dddd [v] LT';
-	                case 6:
-	                    return '[minulou sobotu v] LT';
+	                    case 0:
+	                        return '[minulou neděli v] LT';
+	                    case 1:
+	                    case 2:
+	                        return '[minulé] dddd [v] LT';
+	                    case 3:
+	                        return '[minulou středu v] LT';
+	                    case 4:
+	                    case 5:
+	                        return '[minulý] dddd [v] LT';
+	                    case 6:
+	                        return '[minulou sobotu v] LT';
 	                }
 	            },
 	            sameElse: 'L'
@@ -44394,12 +44621,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : chuvash (cv)
+	//! locale : Chuvash [cv]
 	//! author : Anatoly Mironov : https://github.com/mirontoli
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44461,12 +44688,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Welsh (cy)
+	//! locale : Welsh [cy]
 	//! author : Robert Allen
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44545,12 +44772,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : danish (da)
+	//! locale : Danish [da]
 	//! author : Ulrik Nielsen : https://github.com/mrbase
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44609,14 +44836,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : german (de)
+	//! locale : German [de]
 	//! author : lluchs : https://github.com/lluchs
 	//! author: Menelion Elensúle: https://github.com/Oire
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44691,7 +44918,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : austrian german (de-at)
+	//! locale : German (Austria) [de-at]
 	//! author : lluchs : https://github.com/lluchs
 	//! author: Menelion Elensúle: https://github.com/Oire
 	//! author : Martin Groller : https://github.com/MadMG
@@ -44699,7 +44926,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44774,12 +45001,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : dhivehi (dv)
+	//! locale : Maldivian [dv]
 	//! author : Jawish Hameed : https://github.com/jawish
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44877,12 +45104,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : modern greek (el)
+	//! locale : Greek [el]
 	//! author : Aggelos Karalias : https://github.com/mehiel
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -44979,11 +45206,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : australian english (en-au)
+	//! locale : English (Australia) [en-au]
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45049,12 +45276,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : canadian english (en-ca)
+	//! locale : English (Canada) [en-ca]
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45116,12 +45343,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : great britain english (en-gb)
+	//! locale : English (United Kingdom) [en-gb]
 	//! author : Chris Gedrim : https://github.com/chrisgedrim
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45187,12 +45414,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Irish english (en-ie)
+	//! locale : English (Ireland) [en-ie]
 	//! author : Chris Cartlidge : https://github.com/chriscartlidge
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45258,11 +45485,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : New Zealand english (en-nz)
+	//! locale : English (New Zealand) [en-nz]
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45328,14 +45555,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : esperanto (eo)
+	//! locale : Esperanto [eo]
 	//! author : Colin Dean : https://github.com/colindean
 	//! komento: Mi estas malcerta se mi korekte traktis akuzativojn en tiu traduko.
 	//!          Se ne, bonvolu korekti kaj avizi min por ke mi povas lerni!
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45405,12 +45632,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : spanish (es)
+	//! locale : Spanish [es]
 	//! author : Julio Napurí : https://github.com/julionc
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45490,13 +45717,97 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : estonian (et)
+	//! locale : Spanish (Dominican Republic) [es-do]
+	
+	;(function (global, factory) {
+	    true ? factory(__webpack_require__(65)) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
+	   factory(global.moment)
+	}(this, function (moment) { 'use strict';
+	
+	
+	    var monthsShortDot = 'ene._feb._mar._abr._may._jun._jul._ago._sep._oct._nov._dic.'.split('_'),
+	        monthsShort = 'ene_feb_mar_abr_may_jun_jul_ago_sep_oct_nov_dic'.split('_');
+	
+	    var es_do = moment.defineLocale('es-do', {
+	        months : 'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split('_'),
+	        monthsShort : function (m, format) {
+	            if (/-MMM-/.test(format)) {
+	                return monthsShort[m.month()];
+	            } else {
+	                return monthsShortDot[m.month()];
+	            }
+	        },
+	        monthsParseExact : true,
+	        weekdays : 'domingo_lunes_martes_miércoles_jueves_viernes_sábado'.split('_'),
+	        weekdaysShort : 'dom._lun._mar._mié._jue._vie._sáb.'.split('_'),
+	        weekdaysMin : 'do_lu_ma_mi_ju_vi_sá'.split('_'),
+	        weekdaysParseExact : true,
+	        longDateFormat : {
+	            LT : 'h:mm A',
+	            LTS : 'h:mm:ss A',
+	            L : 'DD/MM/YYYY',
+	            LL : 'D [de] MMMM [de] YYYY',
+	            LLL : 'D [de] MMMM [de] YYYY h:mm A',
+	            LLLL : 'dddd, D [de] MMMM [de] YYYY h:mm A'
+	        },
+	        calendar : {
+	            sameDay : function () {
+	                return '[hoy a la' + ((this.hours() !== 1) ? 's' : '') + '] LT';
+	            },
+	            nextDay : function () {
+	                return '[mañana a la' + ((this.hours() !== 1) ? 's' : '') + '] LT';
+	            },
+	            nextWeek : function () {
+	                return 'dddd [a la' + ((this.hours() !== 1) ? 's' : '') + '] LT';
+	            },
+	            lastDay : function () {
+	                return '[ayer a la' + ((this.hours() !== 1) ? 's' : '') + '] LT';
+	            },
+	            lastWeek : function () {
+	                return '[el] dddd [pasado a la' + ((this.hours() !== 1) ? 's' : '') + '] LT';
+	            },
+	            sameElse : 'L'
+	        },
+	        relativeTime : {
+	            future : 'en %s',
+	            past : 'hace %s',
+	            s : 'unos segundos',
+	            m : 'un minuto',
+	            mm : '%d minutos',
+	            h : 'una hora',
+	            hh : '%d horas',
+	            d : 'un día',
+	            dd : '%d días',
+	            M : 'un mes',
+	            MM : '%d meses',
+	            y : 'un año',
+	            yy : '%d años'
+	        },
+	        ordinalParse : /\d{1,2}º/,
+	        ordinal : '%dº',
+	        week : {
+	            dow : 1, // Monday is the first day of the week.
+	            doy : 4  // The week that contains Jan 4th is the first week of the year.
+	        }
+	    });
+	
+	    return es_do;
+	
+	}));
+
+/***/ },
+/* 96 */
+/***/ function(module, exports, __webpack_require__) {
+
+	//! moment.js locale configuration
+	//! locale : Estonian [et]
 	//! author : Henry Kehlmann : https://github.com/madhenry
 	//! improvements : Illimar Tambek : https://github.com/ragulka
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45570,16 +45881,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 96 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : euskara (eu)
+	//! locale : Basque [eu]
 	//! author : Eneko Illarramendi : https://github.com/eillarra
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45640,16 +45951,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 97 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Persian (fa)
+	//! locale : Persian [fa]
 	//! author : Ebrahim Byagowi : https://github.com/ebraminio
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45750,16 +46061,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 98 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : finnish (fi)
+	//! locale : Finnish [fi]
 	//! author : Tarmo Aidantausta : https://github.com/bleadof
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45772,33 +46083,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key, isFuture) {
 	        var result = '';
 	        switch (key) {
-	        case 's':
-	            return isFuture ? 'muutaman sekunnin' : 'muutama sekunti';
-	        case 'm':
-	            return isFuture ? 'minuutin' : 'minuutti';
-	        case 'mm':
-	            result = isFuture ? 'minuutin' : 'minuuttia';
-	            break;
-	        case 'h':
-	            return isFuture ? 'tunnin' : 'tunti';
-	        case 'hh':
-	            result = isFuture ? 'tunnin' : 'tuntia';
-	            break;
-	        case 'd':
-	            return isFuture ? 'päivän' : 'päivä';
-	        case 'dd':
-	            result = isFuture ? 'päivän' : 'päivää';
-	            break;
-	        case 'M':
-	            return isFuture ? 'kuukauden' : 'kuukausi';
-	        case 'MM':
-	            result = isFuture ? 'kuukauden' : 'kuukautta';
-	            break;
-	        case 'y':
-	            return isFuture ? 'vuoden' : 'vuosi';
-	        case 'yy':
-	            result = isFuture ? 'vuoden' : 'vuotta';
-	            break;
+	            case 's':
+	                return isFuture ? 'muutaman sekunnin' : 'muutama sekunti';
+	            case 'm':
+	                return isFuture ? 'minuutin' : 'minuutti';
+	            case 'mm':
+	                result = isFuture ? 'minuutin' : 'minuuttia';
+	                break;
+	            case 'h':
+	                return isFuture ? 'tunnin' : 'tunti';
+	            case 'hh':
+	                result = isFuture ? 'tunnin' : 'tuntia';
+	                break;
+	            case 'd':
+	                return isFuture ? 'päivän' : 'päivä';
+	            case 'dd':
+	                result = isFuture ? 'päivän' : 'päivää';
+	                break;
+	            case 'M':
+	                return isFuture ? 'kuukauden' : 'kuukausi';
+	            case 'MM':
+	                result = isFuture ? 'kuukauden' : 'kuukautta';
+	                break;
+	            case 'y':
+	                return isFuture ? 'vuoden' : 'vuosi';
+	            case 'yy':
+	                result = isFuture ? 'vuoden' : 'vuotta';
+	                break;
 	        }
 	        result = verbalNumber(number, isFuture) + ' ' + result;
 	        return result;
@@ -45861,16 +46172,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 99 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : faroese (fo)
+	//! locale : Faroese [fo]
 	//! author : Ragnar Johannesen : https://github.com/ragnar123
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45925,16 +46236,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 100 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : french (fr)
+	//! locale : French [fr]
 	//! author : John Fischer : https://github.com/jfroffice
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -45993,16 +46304,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 101 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : canadian french (fr-ca)
+	//! locale : French (Canada) [fr-ca]
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46057,16 +46368,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 102 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : swiss french (fr)
+	//! locale : French (Switzerland) [fr-ch]
 	//! author : Gaspard Bucher : https://github.com/gaspard
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46125,16 +46436,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 103 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : frisian (fy)
+	//! locale : Frisian [fy]
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46202,16 +46513,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 104 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : great britain scottish gealic (gd)
+	//! locale : Scottish Gaelic [gd]
 	//! author : Jon Ashdown : https://github.com/jonashdown
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46282,16 +46593,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 105 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : galician (gl)
+	//! locale : Galician [gl]
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46363,18 +46674,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 106 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Hebrew (he)
+	//! locale : Hebrew [he]
 	//! author : Tomer Cohen : https://github.com/tomer
 	//! author : Moshe Simantov : https://github.com/DevelopmentIL
 	//! author : Tal Ater : https://github.com/TalAter
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46466,16 +46777,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 107 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : hindi (hi)
+	//! locale : Hindi [hi]
 	//! author : Mayank Singhal : https://github.com/mayanksinghal
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46594,16 +46905,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 108 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : hrvatski (hr)
+	//! locale : Croatian [hr]
 	//! author : Bojan Marković : https://github.com/bmarkovic
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46611,53 +46922,53 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 'm':
-	            return withoutSuffix ? 'jedna minuta' : 'jedne minute';
-	        case 'mm':
-	            if (number === 1) {
-	                result += 'minuta';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'minute';
-	            } else {
-	                result += 'minuta';
-	            }
-	            return result;
-	        case 'h':
-	            return withoutSuffix ? 'jedan sat' : 'jednog sata';
-	        case 'hh':
-	            if (number === 1) {
-	                result += 'sat';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'sata';
-	            } else {
-	                result += 'sati';
-	            }
-	            return result;
-	        case 'dd':
-	            if (number === 1) {
-	                result += 'dan';
-	            } else {
-	                result += 'dana';
-	            }
-	            return result;
-	        case 'MM':
-	            if (number === 1) {
-	                result += 'mjesec';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'mjeseca';
-	            } else {
-	                result += 'mjeseci';
-	            }
-	            return result;
-	        case 'yy':
-	            if (number === 1) {
-	                result += 'godina';
-	            } else if (number === 2 || number === 3 || number === 4) {
-	                result += 'godine';
-	            } else {
-	                result += 'godina';
-	            }
-	            return result;
+	            case 'm':
+	                return withoutSuffix ? 'jedna minuta' : 'jedne minute';
+	            case 'mm':
+	                if (number === 1) {
+	                    result += 'minuta';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'minute';
+	                } else {
+	                    result += 'minuta';
+	                }
+	                return result;
+	            case 'h':
+	                return withoutSuffix ? 'jedan sat' : 'jednog sata';
+	            case 'hh':
+	                if (number === 1) {
+	                    result += 'sat';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'sata';
+	                } else {
+	                    result += 'sati';
+	                }
+	                return result;
+	            case 'dd':
+	                if (number === 1) {
+	                    result += 'dan';
+	                } else {
+	                    result += 'dana';
+	                }
+	                return result;
+	            case 'MM':
+	                if (number === 1) {
+	                    result += 'mjesec';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'mjeseca';
+	                } else {
+	                    result += 'mjeseci';
+	                }
+	                return result;
+	            case 'yy':
+	                if (number === 1) {
+	                    result += 'godina';
+	                } else if (number === 2 || number === 3 || number === 4) {
+	                    result += 'godine';
+	                } else {
+	                    result += 'godina';
+	                }
+	                return result;
 	        }
 	    }
 	
@@ -46685,32 +46996,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextDay  : '[sutra u] LT',
 	            nextWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[u] [nedjelju] [u] LT';
-	                case 3:
-	                    return '[u] [srijedu] [u] LT';
-	                case 6:
-	                    return '[u] [subotu] [u] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[u] dddd [u] LT';
+	                    case 0:
+	                        return '[u] [nedjelju] [u] LT';
+	                    case 3:
+	                        return '[u] [srijedu] [u] LT';
+	                    case 6:
+	                        return '[u] [subotu] [u] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[u] dddd [u] LT';
 	                }
 	            },
 	            lastDay  : '[jučer u] LT',
 	            lastWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                case 3:
-	                    return '[prošlu] dddd [u] LT';
-	                case 6:
-	                    return '[prošle] [subote] [u] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[prošli] dddd [u] LT';
+	                    case 0:
+	                    case 3:
+	                        return '[prošlu] dddd [u] LT';
+	                    case 6:
+	                        return '[prošle] [subote] [u] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[prošli] dddd [u] LT';
 	                }
 	            },
 	            sameElse : 'L'
@@ -46743,16 +47054,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 109 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : hungarian (hu)
+	//! locale : Hungarian [hu]
 	//! author : Adam Brunner : https://github.com/adambrunner
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46762,28 +47073,28 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var num = number,
 	            suffix;
 	        switch (key) {
-	        case 's':
-	            return (isFuture || withoutSuffix) ? 'néhány másodperc' : 'néhány másodperce';
-	        case 'm':
-	            return 'egy' + (isFuture || withoutSuffix ? ' perc' : ' perce');
-	        case 'mm':
-	            return num + (isFuture || withoutSuffix ? ' perc' : ' perce');
-	        case 'h':
-	            return 'egy' + (isFuture || withoutSuffix ? ' óra' : ' órája');
-	        case 'hh':
-	            return num + (isFuture || withoutSuffix ? ' óra' : ' órája');
-	        case 'd':
-	            return 'egy' + (isFuture || withoutSuffix ? ' nap' : ' napja');
-	        case 'dd':
-	            return num + (isFuture || withoutSuffix ? ' nap' : ' napja');
-	        case 'M':
-	            return 'egy' + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
-	        case 'MM':
-	            return num + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
-	        case 'y':
-	            return 'egy' + (isFuture || withoutSuffix ? ' év' : ' éve');
-	        case 'yy':
-	            return num + (isFuture || withoutSuffix ? ' év' : ' éve');
+	            case 's':
+	                return (isFuture || withoutSuffix) ? 'néhány másodperc' : 'néhány másodperce';
+	            case 'm':
+	                return 'egy' + (isFuture || withoutSuffix ? ' perc' : ' perce');
+	            case 'mm':
+	                return num + (isFuture || withoutSuffix ? ' perc' : ' perce');
+	            case 'h':
+	                return 'egy' + (isFuture || withoutSuffix ? ' óra' : ' órája');
+	            case 'hh':
+	                return num + (isFuture || withoutSuffix ? ' óra' : ' órája');
+	            case 'd':
+	                return 'egy' + (isFuture || withoutSuffix ? ' nap' : ' napja');
+	            case 'dd':
+	                return num + (isFuture || withoutSuffix ? ' nap' : ' napja');
+	            case 'M':
+	                return 'egy' + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
+	            case 'MM':
+	                return num + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
+	            case 'y':
+	                return 'egy' + (isFuture || withoutSuffix ? ' év' : ' éve');
+	            case 'yy':
+	                return num + (isFuture || withoutSuffix ? ' év' : ' éve');
 	        }
 	        return '';
 	    }
@@ -46856,16 +47167,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 110 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Armenian (hy-am)
+	//! locale : Armenian [hy-am]
 	//! author : Armendarabyan : https://github.com/armendarabyan
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -46932,16 +47243,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse: /\d{1,2}|\d{1,2}-(ին|րդ)/,
 	        ordinal: function (number, period) {
 	            switch (period) {
-	            case 'DDD':
-	            case 'w':
-	            case 'W':
-	            case 'DDDo':
-	                if (number === 1) {
-	                    return number + '-ին';
-	                }
-	                return number + '-րդ';
-	            default:
-	                return number;
+	                case 'DDD':
+	                case 'w':
+	                case 'W':
+	                case 'DDDo':
+	                    if (number === 1) {
+	                        return number + '-ին';
+	                    }
+	                    return number + '-րդ';
+	                default:
+	                    return number;
 	            }
 	        },
 	        week : {
@@ -46955,17 +47266,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 111 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Bahasa Indonesia (id)
+	//! locale : Indonesian [id]
 	//! author : Mohammad Satrio Utomo : https://github.com/tyok
 	//! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47042,16 +47353,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 112 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : icelandic (is)
+	//! locale : Icelandic [is]
 	//! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47067,59 +47378,59 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key, isFuture) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 's':
-	            return withoutSuffix || isFuture ? 'nokkrar sekúndur' : 'nokkrum sekúndum';
-	        case 'm':
-	            return withoutSuffix ? 'mínúta' : 'mínútu';
-	        case 'mm':
-	            if (plural(number)) {
-	                return result + (withoutSuffix || isFuture ? 'mínútur' : 'mínútum');
-	            } else if (withoutSuffix) {
-	                return result + 'mínúta';
-	            }
-	            return result + 'mínútu';
-	        case 'hh':
-	            if (plural(number)) {
-	                return result + (withoutSuffix || isFuture ? 'klukkustundir' : 'klukkustundum');
-	            }
-	            return result + 'klukkustund';
-	        case 'd':
-	            if (withoutSuffix) {
-	                return 'dagur';
-	            }
-	            return isFuture ? 'dag' : 'degi';
-	        case 'dd':
-	            if (plural(number)) {
-	                if (withoutSuffix) {
-	                    return result + 'dagar';
+	            case 's':
+	                return withoutSuffix || isFuture ? 'nokkrar sekúndur' : 'nokkrum sekúndum';
+	            case 'm':
+	                return withoutSuffix ? 'mínúta' : 'mínútu';
+	            case 'mm':
+	                if (plural(number)) {
+	                    return result + (withoutSuffix || isFuture ? 'mínútur' : 'mínútum');
+	                } else if (withoutSuffix) {
+	                    return result + 'mínúta';
 	                }
-	                return result + (isFuture ? 'daga' : 'dögum');
-	            } else if (withoutSuffix) {
-	                return result + 'dagur';
-	            }
-	            return result + (isFuture ? 'dag' : 'degi');
-	        case 'M':
-	            if (withoutSuffix) {
-	                return 'mánuður';
-	            }
-	            return isFuture ? 'mánuð' : 'mánuði';
-	        case 'MM':
-	            if (plural(number)) {
-	                if (withoutSuffix) {
-	                    return result + 'mánuðir';
+	                return result + 'mínútu';
+	            case 'hh':
+	                if (plural(number)) {
+	                    return result + (withoutSuffix || isFuture ? 'klukkustundir' : 'klukkustundum');
 	                }
-	                return result + (isFuture ? 'mánuði' : 'mánuðum');
-	            } else if (withoutSuffix) {
-	                return result + 'mánuður';
-	            }
-	            return result + (isFuture ? 'mánuð' : 'mánuði');
-	        case 'y':
-	            return withoutSuffix || isFuture ? 'ár' : 'ári';
-	        case 'yy':
-	            if (plural(number)) {
-	                return result + (withoutSuffix || isFuture ? 'ár' : 'árum');
-	            }
-	            return result + (withoutSuffix || isFuture ? 'ár' : 'ári');
+	                return result + 'klukkustund';
+	            case 'd':
+	                if (withoutSuffix) {
+	                    return 'dagur';
+	                }
+	                return isFuture ? 'dag' : 'degi';
+	            case 'dd':
+	                if (plural(number)) {
+	                    if (withoutSuffix) {
+	                        return result + 'dagar';
+	                    }
+	                    return result + (isFuture ? 'daga' : 'dögum');
+	                } else if (withoutSuffix) {
+	                    return result + 'dagur';
+	                }
+	                return result + (isFuture ? 'dag' : 'degi');
+	            case 'M':
+	                if (withoutSuffix) {
+	                    return 'mánuður';
+	                }
+	                return isFuture ? 'mánuð' : 'mánuði';
+	            case 'MM':
+	                if (plural(number)) {
+	                    if (withoutSuffix) {
+	                        return result + 'mánuðir';
+	                    }
+	                    return result + (isFuture ? 'mánuði' : 'mánuðum');
+	                } else if (withoutSuffix) {
+	                    return result + 'mánuður';
+	                }
+	                return result + (isFuture ? 'mánuð' : 'mánuði');
+	            case 'y':
+	                return withoutSuffix || isFuture ? 'ár' : 'ári';
+	            case 'yy':
+	                if (plural(number)) {
+	                    return result + (withoutSuffix || isFuture ? 'ár' : 'árum');
+	                }
+	                return result + (withoutSuffix || isFuture ? 'ár' : 'ári');
 	        }
 	    }
 	
@@ -47173,17 +47484,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 113 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : italian (it)
+	//! locale : Italian [it]
 	//! author : Lorenzo : https://github.com/aliem
 	//! author: Mattia Larentis: https://github.com/nostalgiaz
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47247,16 +47558,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 114 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : japanese (ja)
+	//! locale : Japanese [ja]
 	//! author : LI Long : https://github.com/baryon
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47297,12 +47608,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse : /\d{1,2}日/,
 	        ordinal : function (number, period) {
 	            switch (period) {
-	            case 'd':
-	            case 'D':
-	            case 'DDD':
-	                return number + '日';
-	            default:
-	                return number;
+	                case 'd':
+	                case 'D':
+	                case 'DDD':
+	                    return number + '日';
+	                default:
+	                    return number;
 	            }
 	        },
 	        relativeTime : {
@@ -47327,17 +47638,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 115 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Boso Jowo (jv)
+	//! locale : Japanese [jv]
 	//! author : Rony Lantip : https://github.com/lantip
 	//! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47414,16 +47725,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 116 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Georgian (ka)
+	//! locale : Georgian [ka]
 	//! author : Irakli Janiashvili : https://github.com/irakli-janiashvili
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47507,16 +47818,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 117 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : kazakh (kk)
+	//! locale : Kazakh [kk]
 	//! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47598,16 +47909,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 118 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : khmer (km)
+	//! locale : Cambodian [km]
 	//! author : Kruy Vanna : https://github.com/kruyvanna
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47660,11 +47971,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 119 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : korean (ko)
+	//! locale : Korean [ko]
 	//!
 	//! authors
 	//!
@@ -47673,7 +47984,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47732,16 +48043,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 120 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : kyrgyz (ky)
+	//! locale : Kyrgyz [ky]
 	//! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47824,16 +48135,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 121 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Luxembourgish (lb)
+	//! locale : Luxembourgish [lb]
 	//! author : mweimerskirch : https://github.com/mweimerskirch, David Raison : https://github.com/kwisatz
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -47964,16 +48275,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 122 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : lao (lo)
+	//! locale : Lao [lo]
 	//! author : Ryan Hart : https://github.com/ryanhart2
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48038,16 +48349,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 123 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Lithuanian (lt)
+	//! locale : Lithuanian [lt]
 	//! author : Mindaugas Mozūras : https://github.com/mmozuras
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48097,7 +48408,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var lt = moment.defineLocale('lt', {
 	        months : {
 	            format: 'sausio_vasario_kovo_balandžio_gegužės_birželio_liepos_rugpjūčio_rugsėjo_spalio_lapkričio_gruodžio'.split('_'),
-	            standalone: 'sausis_vasaris_kovas_balandis_gegužė_birželis_liepa_rugpjūtis_rugsėjis_spalis_lapkritis_gruodis'.split('_')
+	            standalone: 'sausis_vasaris_kovas_balandis_gegužė_birželis_liepa_rugpjūtis_rugsėjis_spalis_lapkritis_gruodis'.split('_'),
+	            isFormat: /D[oD]?(\[[^\[\]]*\]|\s+)+MMMM?|MMMM?(\[[^\[\]]*\]|\s+)+D[oD]?/
 	        },
 	        monthsShort : 'sau_vas_kov_bal_geg_bir_lie_rgp_rgs_spa_lap_grd'.split('_'),
 	        weekdays : {
@@ -48158,17 +48470,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 124 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : latvian (lv)
+	//! locale : Latvian [lv]
 	//! author : Kristaps Karlsons : https://github.com/skakri
 	//! author : Jānis Elmeris : https://github.com/JanisE
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48191,11 +48503,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function format(forms, number, withoutSuffix) {
 	        if (withoutSuffix) {
 	            // E.g. "21 minūte", "3 minūtes".
-	            return number % 10 === 1 && number !== 11 ? forms[2] : forms[3];
+	            return number % 10 === 1 && number % 100 !== 11 ? forms[2] : forms[3];
 	        } else {
 	            // E.g. "21 minūtes" as in "pēc 21 minūtes".
 	            // E.g. "3 minūtēm" as in "pēc 3 minūtēm".
-	            return number % 10 === 1 && number !== 11 ? forms[0] : forms[1];
+	            return number % 10 === 1 && number % 100 !== 11 ? forms[0] : forms[1];
 	        }
 	    }
 	    function relativeTimeWithPlural(number, withoutSuffix, key) {
@@ -48259,16 +48571,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 125 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Montenegrin (me)
+	//! locale : Montenegrin [me]
 	//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48318,17 +48630,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	            nextWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[u] [nedjelju] [u] LT';
-	                case 3:
-	                    return '[u] [srijedu] [u] LT';
-	                case 6:
-	                    return '[u] [subotu] [u] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[u] dddd [u] LT';
+	                    case 0:
+	                        return '[u] [nedjelju] [u] LT';
+	                    case 3:
+	                        return '[u] [srijedu] [u] LT';
+	                    case 6:
+	                        return '[u] [subotu] [u] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[u] dddd [u] LT';
 	                }
 	            },
 	            lastDay  : '[juče u] LT',
@@ -48374,16 +48686,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 126 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : macedonian (mk)
+	//! locale : Macedonian [mk]
 	//! author : Borislav Mickov : https://github.com/B0k0
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48409,15 +48721,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	            lastDay : '[Вчера во] LT',
 	            lastWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                case 3:
-	                case 6:
-	                    return '[Изминатата] dddd [во] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[Изминатиот] dddd [во] LT';
+	                    case 0:
+	                    case 3:
+	                    case 6:
+	                        return '[Изминатата] dddd [во] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[Изминатиот] dddd [во] LT';
 	                }
 	            },
 	            sameElse : 'L'
@@ -48468,16 +48780,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 127 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : malayalam (ml)
+	//! locale : Malayalam [ml]
 	//! author : Floyd Pink : https://github.com/floydpink
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48553,17 +48865,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 128 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Marathi (mr)
+	//! locale : Marathi [mr]
 	//! author : Harshad Kale : https://github.com/kalehv
 	//! author : Vivek Athalye : https://github.com/vnathalye
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48716,16 +49028,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 129 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Bahasa Malaysia (ms-MY)
+	//! locale : Malay [ms]
 	//! author : Weldan Jamili : https://github.com/weldan
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48802,16 +49114,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 130 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Bahasa Malaysia (ms-MY)
+	//! locale : Malay [ms-my]
+	//! note : DEPRECATED, the correct one is [ms]
 	//! author : Weldan Jamili : https://github.com/weldan
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48888,16 +49201,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 131 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Burmese (my)
+	//! locale : Burmese [my]
 	//! author : Squar team, mysquar.com
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -48985,17 +49298,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 132 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : norwegian bokmål (nb)
+	//! locale : Norwegian Bokmål [nb]
 	//! authors : Espen Hovlandsdal : https://github.com/rexxars
 	//!           Sigurd Gartmann : https://github.com/sigurdga
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49052,16 +49365,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 133 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : nepali/nepalese
+	//! locale : Nepalese [ne]
 	//! author : suvash : https://github.com/suvash
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49179,16 +49492,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 134 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : dutch (nl)
+	//! locale : Dutch [nl]
 	//! author : Joris Röling : https://github.com/jjupiter
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49256,16 +49569,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 135 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : norwegian nynorsk (nn)
+	//! locale : Nynorsk [nn]
 	//! author : https://github.com/mechuwind
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49320,16 +49633,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 136 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : punjabi india (pa-in)
+	//! locale : Punjabi (India) [pa-in]
 	//! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49448,16 +49761,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 137 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : polish (pl)
+	//! locale : Polish [pl]
 	//! author : Rafal Hirsz : https://github.com/evoL
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49470,18 +49783,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 'm':
-	            return withoutSuffix ? 'minuta' : 'minutę';
-	        case 'mm':
-	            return result + (plural(number) ? 'minuty' : 'minut');
-	        case 'h':
-	            return withoutSuffix  ? 'godzina'  : 'godzinę';
-	        case 'hh':
-	            return result + (plural(number) ? 'godziny' : 'godzin');
-	        case 'MM':
-	            return result + (plural(number) ? 'miesiące' : 'miesięcy');
-	        case 'yy':
-	            return result + (plural(number) ? 'lata' : 'lat');
+	            case 'm':
+	                return withoutSuffix ? 'minuta' : 'minutę';
+	            case 'mm':
+	                return result + (plural(number) ? 'minuty' : 'minut');
+	            case 'h':
+	                return withoutSuffix  ? 'godzina'  : 'godzinę';
+	            case 'hh':
+	                return result + (plural(number) ? 'godziny' : 'godzin');
+	            case 'MM':
+	                return result + (plural(number) ? 'miesiące' : 'miesięcy');
+	            case 'yy':
+	                return result + (plural(number) ? 'lata' : 'lat');
 	        }
 	    }
 	
@@ -49517,14 +49830,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	            lastDay: '[Wczoraj o] LT',
 	            lastWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[W zeszłą niedzielę o] LT';
-	                case 3:
-	                    return '[W zeszłą środę o] LT';
-	                case 6:
-	                    return '[W zeszłą sobotę o] LT';
-	                default:
-	                    return '[W zeszły] dddd [o] LT';
+	                    case 0:
+	                        return '[W zeszłą niedzielę o] LT';
+	                    case 3:
+	                        return '[W zeszłą środę o] LT';
+	                    case 6:
+	                        return '[W zeszłą sobotę o] LT';
+	                    default:
+	                        return '[W zeszły] dddd [o] LT';
 	                }
 	            },
 	            sameElse: 'L'
@@ -49557,16 +49870,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 138 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : portuguese (pt)
+	//! locale : Portuguese [pt]
 	//! author : Jefferson : https://github.com/jalex79
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49626,16 +49939,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 139 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : brazilian portuguese (pt-br)
+	//! locale : Portuguese (Brazil) [pt-br]
 	//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49691,17 +50004,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 140 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : romanian (ro)
+	//! locale : Romanian [ro]
 	//! author : Vlad Gurdiga : https://github.com/gurdiga
 	//! author : Valentin Agachi : https://github.com/avaly
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49770,18 +50083,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 141 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : russian (ru)
+	//! locale : Russian [ru]
 	//! author : Viktorminator : https://github.com/Viktorminator
 	//! Author : Menelion Elensúle : https://github.com/Oire
 	//! author : Коренберг Марк : https://github.com/socketpair
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -49830,10 +50143,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	        monthsParse : monthsParse,
 	        longMonthsParse : monthsParse,
 	        shortMonthsParse : monthsParse,
-	        monthsRegex: /^(сентябр[яь]|октябр[яь]|декабр[яь]|феврал[яь]|январ[яь]|апрел[яь]|августа?|ноябр[яь]|сент\.|февр\.|нояб\.|июнь|янв.|июль|дек.|авг.|апр.|марта|мар[.т]|окт.|июн[яь]|июл[яь]|ма[яй])/i,
-	        monthsShortRegex: /^(сентябр[яь]|октябр[яь]|декабр[яь]|феврал[яь]|январ[яь]|апрел[яь]|августа?|ноябр[яь]|сент\.|февр\.|нояб\.|июнь|янв.|июль|дек.|авг.|апр.|марта|мар[.т]|окт.|июн[яь]|июл[яь]|ма[яй])/i,
-	        monthsStrictRegex: /^(сентябр[яь]|октябр[яь]|декабр[яь]|феврал[яь]|январ[яь]|апрел[яь]|августа?|ноябр[яь]|марта?|июн[яь]|июл[яь]|ма[яй])/i,
-	        monthsShortStrictRegex: /^(нояб\.|февр\.|сент\.|июль|янв\.|июн[яь]|мар[.т]|авг\.|апр\.|окт\.|дек\.|ма[яй])/i,
+	
+	        // полные названия с падежами, по три буквы, для некоторых, по 4 буквы, сокращения с точкой и без точки
+	        monthsRegex: /^(январ[ья]|янв\.?|феврал[ья]|февр?\.?|марта?|мар\.?|апрел[ья]|апр\.?|ма[йя]|июн[ья]|июн\.?|июл[ья]|июл\.?|августа?|авг\.?|сентябр[ья]|сент?\.?|октябр[ья]|окт\.?|ноябр[ья]|нояб?\.?|декабр[ья]|дек\.?)/i,
+	
+	        // копия предыдущего
+	        monthsShortRegex: /^(январ[ья]|янв\.?|феврал[ья]|февр?\.?|марта?|мар\.?|апрел[ья]|апр\.?|ма[йя]|июн[ья]|июн\.?|июл[ья]|июл\.?|августа?|авг\.?|сентябр[ья]|сент?\.?|октябр[ья]|окт\.?|ноябр[ья]|нояб?\.?|декабр[ья]|дек\.?)/i,
+	
+	        // полные названия с падежами
+	        monthsStrictRegex: /^(январ[яь]|феврал[яь]|марта?|апрел[яь]|ма[яй]|июн[яь]|июл[яь]|августа?|сентябр[яь]|октябр[яь]|ноябр[яь]|декабр[яь])/i,
+	
+	        // Выражение, которое соотвествует только сокращённым формам
+	        monthsShortStrictRegex: /^(янв\.|февр?\.|мар[т.]|апр\.|ма[яй]|июн[ья.]|июл[ья.]|авг\.|сент?\.|окт\.|нояб?\.|дек\.)/i,
 	        longDateFormat : {
 	            LT : 'HH:mm',
 	            LTS : 'HH:mm:ss',
@@ -49849,16 +50170,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextWeek: function (now) {
 	                if (now.week() !== this.week()) {
 	                    switch (this.day()) {
-	                    case 0:
-	                        return '[В следующее] dddd [в] LT';
-	                    case 1:
-	                    case 2:
-	                    case 4:
-	                        return '[В следующий] dddd [в] LT';
-	                    case 3:
-	                    case 5:
-	                    case 6:
-	                        return '[В следующую] dddd [в] LT';
+	                        case 0:
+	                            return '[В следующее] dddd [в] LT';
+	                        case 1:
+	                        case 2:
+	                        case 4:
+	                            return '[В следующий] dddd [в] LT';
+	                        case 3:
+	                        case 5:
+	                        case 6:
+	                            return '[В следующую] dddd [в] LT';
 	                    }
 	                } else {
 	                    if (this.day() === 2) {
@@ -49871,16 +50192,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	            lastWeek: function (now) {
 	                if (now.week() !== this.week()) {
 	                    switch (this.day()) {
-	                    case 0:
-	                        return '[В прошлое] dddd [в] LT';
-	                    case 1:
-	                    case 2:
-	                    case 4:
-	                        return '[В прошлый] dddd [в] LT';
-	                    case 3:
-	                    case 5:
-	                    case 6:
-	                        return '[В прошлую] dddd [в] LT';
+	                        case 0:
+	                            return '[В прошлое] dddd [в] LT';
+	                        case 1:
+	                        case 2:
+	                        case 4:
+	                            return '[В прошлый] dddd [в] LT';
+	                        case 3:
+	                        case 5:
+	                        case 6:
+	                            return '[В прошлую] dddd [в] LT';
 	                    }
 	                } else {
 	                    if (this.day() === 2) {
@@ -49925,17 +50246,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse: /\d{1,2}-(й|го|я)/,
 	        ordinal: function (number, period) {
 	            switch (period) {
-	            case 'M':
-	            case 'd':
-	            case 'DDD':
-	                return number + '-й';
-	            case 'D':
-	                return number + '-го';
-	            case 'w':
-	            case 'W':
-	                return number + '-я';
-	            default:
-	                return number;
+	                case 'M':
+	                case 'd':
+	                case 'DDD':
+	                    return number + '-й';
+	                case 'D':
+	                    return number + '-го';
+	                case 'w':
+	                case 'W':
+	                    return number + '-я';
+	                default:
+	                    return number;
 	            }
 	        },
 	        week : {
@@ -49949,16 +50270,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 142 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Northern Sami (se)
+	//! locale : Northern Sami [se]
 	//! authors : Bård Rolstad Henriksen : https://github.com/karamell
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50014,16 +50335,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 143 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Sinhalese (si)
+	//! locale : Sinhalese [si]
 	//! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50089,17 +50410,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 144 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : slovak (sk)
+	//! locale : Slovak [sk]
 	//! author : Martin Minka : https://github.com/k2s
 	//! based on work of petrbela : https://github.com/petrbela
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50112,53 +50433,53 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translate(number, withoutSuffix, key, isFuture) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 's':  // a few seconds / in a few seconds / a few seconds ago
-	            return (withoutSuffix || isFuture) ? 'pár sekúnd' : 'pár sekundami';
-	        case 'm':  // a minute / in a minute / a minute ago
-	            return withoutSuffix ? 'minúta' : (isFuture ? 'minútu' : 'minútou');
-	        case 'mm': // 9 minutes / in 9 minutes / 9 minutes ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'minúty' : 'minút');
-	            } else {
-	                return result + 'minútami';
-	            }
-	            break;
-	        case 'h':  // an hour / in an hour / an hour ago
-	            return withoutSuffix ? 'hodina' : (isFuture ? 'hodinu' : 'hodinou');
-	        case 'hh': // 9 hours / in 9 hours / 9 hours ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'hodiny' : 'hodín');
-	            } else {
-	                return result + 'hodinami';
-	            }
-	            break;
-	        case 'd':  // a day / in a day / a day ago
-	            return (withoutSuffix || isFuture) ? 'deň' : 'dňom';
-	        case 'dd': // 9 days / in 9 days / 9 days ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'dni' : 'dní');
-	            } else {
-	                return result + 'dňami';
-	            }
-	            break;
-	        case 'M':  // a month / in a month / a month ago
-	            return (withoutSuffix || isFuture) ? 'mesiac' : 'mesiacom';
-	        case 'MM': // 9 months / in 9 months / 9 months ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'mesiace' : 'mesiacov');
-	            } else {
-	                return result + 'mesiacmi';
-	            }
-	            break;
-	        case 'y':  // a year / in a year / a year ago
-	            return (withoutSuffix || isFuture) ? 'rok' : 'rokom';
-	        case 'yy': // 9 years / in 9 years / 9 years ago
-	            if (withoutSuffix || isFuture) {
-	                return result + (plural(number) ? 'roky' : 'rokov');
-	            } else {
-	                return result + 'rokmi';
-	            }
-	            break;
+	            case 's':  // a few seconds / in a few seconds / a few seconds ago
+	                return (withoutSuffix || isFuture) ? 'pár sekúnd' : 'pár sekundami';
+	            case 'm':  // a minute / in a minute / a minute ago
+	                return withoutSuffix ? 'minúta' : (isFuture ? 'minútu' : 'minútou');
+	            case 'mm': // 9 minutes / in 9 minutes / 9 minutes ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'minúty' : 'minút');
+	                } else {
+	                    return result + 'minútami';
+	                }
+	                break;
+	            case 'h':  // an hour / in an hour / an hour ago
+	                return withoutSuffix ? 'hodina' : (isFuture ? 'hodinu' : 'hodinou');
+	            case 'hh': // 9 hours / in 9 hours / 9 hours ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'hodiny' : 'hodín');
+	                } else {
+	                    return result + 'hodinami';
+	                }
+	                break;
+	            case 'd':  // a day / in a day / a day ago
+	                return (withoutSuffix || isFuture) ? 'deň' : 'dňom';
+	            case 'dd': // 9 days / in 9 days / 9 days ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'dni' : 'dní');
+	                } else {
+	                    return result + 'dňami';
+	                }
+	                break;
+	            case 'M':  // a month / in a month / a month ago
+	                return (withoutSuffix || isFuture) ? 'mesiac' : 'mesiacom';
+	            case 'MM': // 9 months / in 9 months / 9 months ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'mesiace' : 'mesiacov');
+	                } else {
+	                    return result + 'mesiacmi';
+	                }
+	                break;
+	            case 'y':  // a year / in a year / a year ago
+	                return (withoutSuffix || isFuture) ? 'rok' : 'rokom';
+	            case 'yy': // 9 years / in 9 years / 9 years ago
+	                if (withoutSuffix || isFuture) {
+	                    return result + (plural(number) ? 'roky' : 'rokov');
+	                } else {
+	                    return result + 'rokmi';
+	                }
+	                break;
 	        }
 	    }
 	
@@ -50181,36 +50502,36 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextDay: '[zajtra o] LT',
 	            nextWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[v nedeľu o] LT';
-	                case 1:
-	                case 2:
-	                    return '[v] dddd [o] LT';
-	                case 3:
-	                    return '[v stredu o] LT';
-	                case 4:
-	                    return '[vo štvrtok o] LT';
-	                case 5:
-	                    return '[v piatok o] LT';
-	                case 6:
-	                    return '[v sobotu o] LT';
+	                    case 0:
+	                        return '[v nedeľu o] LT';
+	                    case 1:
+	                    case 2:
+	                        return '[v] dddd [o] LT';
+	                    case 3:
+	                        return '[v stredu o] LT';
+	                    case 4:
+	                        return '[vo štvrtok o] LT';
+	                    case 5:
+	                        return '[v piatok o] LT';
+	                    case 6:
+	                        return '[v sobotu o] LT';
 	                }
 	            },
 	            lastDay: '[včera o] LT',
 	            lastWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[minulú nedeľu o] LT';
-	                case 1:
-	                case 2:
-	                    return '[minulý] dddd [o] LT';
-	                case 3:
-	                    return '[minulú stredu o] LT';
-	                case 4:
-	                case 5:
-	                    return '[minulý] dddd [o] LT';
-	                case 6:
-	                    return '[minulú sobotu o] LT';
+	                    case 0:
+	                        return '[minulú nedeľu o] LT';
+	                    case 1:
+	                    case 2:
+	                        return '[minulý] dddd [o] LT';
+	                    case 3:
+	                        return '[minulú stredu o] LT';
+	                    case 4:
+	                    case 5:
+	                        return '[minulý] dddd [o] LT';
+	                    case 6:
+	                        return '[minulú sobotu o] LT';
 	                }
 	            },
 	            sameElse: 'L'
@@ -50243,16 +50564,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 145 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : slovenian (sl)
+	//! locale : Slovenian [sl]
 	//! author : Robert Sedovšek : https://github.com/sedovsek
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50260,71 +50581,71 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function processRelativeTime(number, withoutSuffix, key, isFuture) {
 	        var result = number + ' ';
 	        switch (key) {
-	        case 's':
-	            return withoutSuffix || isFuture ? 'nekaj sekund' : 'nekaj sekundami';
-	        case 'm':
-	            return withoutSuffix ? 'ena minuta' : 'eno minuto';
-	        case 'mm':
-	            if (number === 1) {
-	                result += withoutSuffix ? 'minuta' : 'minuto';
-	            } else if (number === 2) {
-	                result += withoutSuffix || isFuture ? 'minuti' : 'minutama';
-	            } else if (number < 5) {
-	                result += withoutSuffix || isFuture ? 'minute' : 'minutami';
-	            } else {
-	                result += withoutSuffix || isFuture ? 'minut' : 'minutami';
-	            }
-	            return result;
-	        case 'h':
-	            return withoutSuffix ? 'ena ura' : 'eno uro';
-	        case 'hh':
-	            if (number === 1) {
-	                result += withoutSuffix ? 'ura' : 'uro';
-	            } else if (number === 2) {
-	                result += withoutSuffix || isFuture ? 'uri' : 'urama';
-	            } else if (number < 5) {
-	                result += withoutSuffix || isFuture ? 'ure' : 'urami';
-	            } else {
-	                result += withoutSuffix || isFuture ? 'ur' : 'urami';
-	            }
-	            return result;
-	        case 'd':
-	            return withoutSuffix || isFuture ? 'en dan' : 'enim dnem';
-	        case 'dd':
-	            if (number === 1) {
-	                result += withoutSuffix || isFuture ? 'dan' : 'dnem';
-	            } else if (number === 2) {
-	                result += withoutSuffix || isFuture ? 'dni' : 'dnevoma';
-	            } else {
-	                result += withoutSuffix || isFuture ? 'dni' : 'dnevi';
-	            }
-	            return result;
-	        case 'M':
-	            return withoutSuffix || isFuture ? 'en mesec' : 'enim mesecem';
-	        case 'MM':
-	            if (number === 1) {
-	                result += withoutSuffix || isFuture ? 'mesec' : 'mesecem';
-	            } else if (number === 2) {
-	                result += withoutSuffix || isFuture ? 'meseca' : 'mesecema';
-	            } else if (number < 5) {
-	                result += withoutSuffix || isFuture ? 'mesece' : 'meseci';
-	            } else {
-	                result += withoutSuffix || isFuture ? 'mesecev' : 'meseci';
-	            }
-	            return result;
-	        case 'y':
-	            return withoutSuffix || isFuture ? 'eno leto' : 'enim letom';
-	        case 'yy':
-	            if (number === 1) {
-	                result += withoutSuffix || isFuture ? 'leto' : 'letom';
-	            } else if (number === 2) {
-	                result += withoutSuffix || isFuture ? 'leti' : 'letoma';
-	            } else if (number < 5) {
-	                result += withoutSuffix || isFuture ? 'leta' : 'leti';
-	            } else {
-	                result += withoutSuffix || isFuture ? 'let' : 'leti';
-	            }
-	            return result;
+	            case 's':
+	                return withoutSuffix || isFuture ? 'nekaj sekund' : 'nekaj sekundami';
+	            case 'm':
+	                return withoutSuffix ? 'ena minuta' : 'eno minuto';
+	            case 'mm':
+	                if (number === 1) {
+	                    result += withoutSuffix ? 'minuta' : 'minuto';
+	                } else if (number === 2) {
+	                    result += withoutSuffix || isFuture ? 'minuti' : 'minutama';
+	                } else if (number < 5) {
+	                    result += withoutSuffix || isFuture ? 'minute' : 'minutami';
+	                } else {
+	                    result += withoutSuffix || isFuture ? 'minut' : 'minutami';
+	                }
+	                return result;
+	            case 'h':
+	                return withoutSuffix ? 'ena ura' : 'eno uro';
+	            case 'hh':
+	                if (number === 1) {
+	                    result += withoutSuffix ? 'ura' : 'uro';
+	                } else if (number === 2) {
+	                    result += withoutSuffix || isFuture ? 'uri' : 'urama';
+	                } else if (number < 5) {
+	                    result += withoutSuffix || isFuture ? 'ure' : 'urami';
+	                } else {
+	                    result += withoutSuffix || isFuture ? 'ur' : 'urami';
+	                }
+	                return result;
+	            case 'd':
+	                return withoutSuffix || isFuture ? 'en dan' : 'enim dnem';
+	            case 'dd':
+	                if (number === 1) {
+	                    result += withoutSuffix || isFuture ? 'dan' : 'dnem';
+	                } else if (number === 2) {
+	                    result += withoutSuffix || isFuture ? 'dni' : 'dnevoma';
+	                } else {
+	                    result += withoutSuffix || isFuture ? 'dni' : 'dnevi';
+	                }
+	                return result;
+	            case 'M':
+	                return withoutSuffix || isFuture ? 'en mesec' : 'enim mesecem';
+	            case 'MM':
+	                if (number === 1) {
+	                    result += withoutSuffix || isFuture ? 'mesec' : 'mesecem';
+	                } else if (number === 2) {
+	                    result += withoutSuffix || isFuture ? 'meseca' : 'mesecema';
+	                } else if (number < 5) {
+	                    result += withoutSuffix || isFuture ? 'mesece' : 'meseci';
+	                } else {
+	                    result += withoutSuffix || isFuture ? 'mesecev' : 'meseci';
+	                }
+	                return result;
+	            case 'y':
+	                return withoutSuffix || isFuture ? 'eno leto' : 'enim letom';
+	            case 'yy':
+	                if (number === 1) {
+	                    result += withoutSuffix || isFuture ? 'leto' : 'letom';
+	                } else if (number === 2) {
+	                    result += withoutSuffix || isFuture ? 'leti' : 'letoma';
+	                } else if (number < 5) {
+	                    result += withoutSuffix || isFuture ? 'leta' : 'leti';
+	                } else {
+	                    result += withoutSuffix || isFuture ? 'let' : 'leti';
+	                }
+	                return result;
 	        }
 	    }
 	
@@ -50350,33 +50671,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	            nextWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[v] [nedeljo] [ob] LT';
-	                case 3:
-	                    return '[v] [sredo] [ob] LT';
-	                case 6:
-	                    return '[v] [soboto] [ob] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[v] dddd [ob] LT';
+	                    case 0:
+	                        return '[v] [nedeljo] [ob] LT';
+	                    case 3:
+	                        return '[v] [sredo] [ob] LT';
+	                    case 6:
+	                        return '[v] [soboto] [ob] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[v] dddd [ob] LT';
 	                }
 	            },
 	            lastDay  : '[včeraj ob] LT',
 	            lastWeek : function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[prejšnjo] [nedeljo] [ob] LT';
-	                case 3:
-	                    return '[prejšnjo] [sredo] [ob] LT';
-	                case 6:
-	                    return '[prejšnjo] [soboto] [ob] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[prejšnji] dddd [ob] LT';
+	                    case 0:
+	                        return '[prejšnjo] [nedeljo] [ob] LT';
+	                    case 3:
+	                        return '[prejšnjo] [sredo] [ob] LT';
+	                    case 6:
+	                        return '[prejšnjo] [soboto] [ob] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[prejšnji] dddd [ob] LT';
 	                }
 	            },
 	            sameElse : 'L'
@@ -50409,18 +50730,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 146 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Albanian (sq)
+	//! locale : Albanian [sq]
 	//! author : Flakërim Ismani : https://github.com/flakerimi
 	//! author: Menelion Elensúle: https://github.com/Oire (tests)
 	//! author : Oerd Cukalla : https://github.com/oerd (fixes)
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50483,16 +50804,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 147 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Serbian-latin (sr)
+	//! locale : Serbian [sr]
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50541,17 +50862,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextDay: '[sutra u] LT',
 	            nextWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[u] [nedelju] [u] LT';
-	                case 3:
-	                    return '[u] [sredu] [u] LT';
-	                case 6:
-	                    return '[u] [subotu] [u] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[u] dddd [u] LT';
+	                    case 0:
+	                        return '[u] [nedelju] [u] LT';
+	                    case 3:
+	                        return '[u] [sredu] [u] LT';
+	                    case 6:
+	                        return '[u] [subotu] [u] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[u] dddd [u] LT';
 	                }
 	            },
 	            lastDay  : '[juče u] LT',
@@ -50597,16 +50918,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 148 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Serbian-cyrillic (sr-cyrl)
+	//! locale : Serbian Cyrillic [sr-cyrl]
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50655,17 +50976,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextDay: '[сутра у] LT',
 	            nextWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                    return '[у] [недељу] [у] LT';
-	                case 3:
-	                    return '[у] [среду] [у] LT';
-	                case 6:
-	                    return '[у] [суботу] [у] LT';
-	                case 1:
-	                case 2:
-	                case 4:
-	                case 5:
-	                    return '[у] dddd [у] LT';
+	                    case 0:
+	                        return '[у] [недељу] [у] LT';
+	                    case 3:
+	                        return '[у] [среду] [у] LT';
+	                    case 6:
+	                        return '[у] [суботу] [у] LT';
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                    case 5:
+	                        return '[у] dddd [у] LT';
 	                }
 	            },
 	            lastDay  : '[јуче у] LT',
@@ -50711,16 +51032,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 149 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : siSwati (ss)
+	//! locale : Swazi [ss]
 	//! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50804,16 +51125,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 150 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : swedish (sv)
+	//! locale : Swedish [sv]
 	//! author : Jens Alm : https://github.com/ulmus
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50877,16 +51198,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 151 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : swahili (sw)
+	//! locale : Swahili [sw]
 	//! author : Fahad Kassim : https://github.com/fadsel
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -50940,16 +51261,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 152 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : tamil (ta)
+	//! locale : Tamil [ta]
 	//! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51073,16 +51394,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 153 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : telugu (te)
+	//! locale : Telugu [te]
 	//! author : Krishna Chaitanya Thota : https://github.com/kcthota
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51166,23 +51487,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 154 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : thai (th)
+	//! locale : Thai [th]
 	//! author : Kridsada Thanabulpong : https://github.com/sirn
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
 	
 	    var th = moment.defineLocale('th', {
 	        months : 'มกราคม_กุมภาพันธ์_มีนาคม_เมษายน_พฤษภาคม_มิถุนายน_กรกฎาคม_สิงหาคม_กันยายน_ตุลาคม_พฤศจิกายน_ธันวาคม'.split('_'),
-	        monthsShort : 'มกรา_กุมภา_มีนา_เมษา_พฤษภา_มิถุนา_กรกฎา_สิงหา_กันยา_ตุลา_พฤศจิกา_ธันวา'.split('_'),
+	        monthsShort : 'ม.ค._ก.พ._มี.ค._เม.ย._พ.ค._มิ.ย._ก.ค._ส.ค._ก.ย._ต.ค._พ.ย._ธ.ค.'.split('_'),
 	        monthsParseExact: true,
 	        weekdays : 'อาทิตย์_จันทร์_อังคาร_พุธ_พฤหัสบดี_ศุกร์_เสาร์'.split('_'),
 	        weekdaysShort : 'อาทิตย์_จันทร์_อังคาร_พุธ_พฤหัส_ศุกร์_เสาร์'.split('_'), // yes, three characters difference
@@ -51237,16 +51558,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 155 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Tagalog/Filipino (tl-ph)
+	//! locale : Tagalog (Philippines) [tl-ph]
 	//! author : Dan Hagman
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51303,16 +51624,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 156 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Klingon (tlh)
+	//! locale : Klingon [tlh]
 	//! author : Dominika Kruk : https://github.com/amaranthrose
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51322,24 +51643,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	    function translateFuture(output) {
 	        var time = output;
 	        time = (output.indexOf('jaj') !== -1) ?
-	    	time.slice(0, -3) + 'leS' :
-	    	(output.indexOf('jar') !== -1) ?
-	    	time.slice(0, -3) + 'waQ' :
-	    	(output.indexOf('DIS') !== -1) ?
-	    	time.slice(0, -3) + 'nem' :
-	    	time + ' pIq';
+	        time.slice(0, -3) + 'leS' :
+	        (output.indexOf('jar') !== -1) ?
+	        time.slice(0, -3) + 'waQ' :
+	        (output.indexOf('DIS') !== -1) ?
+	        time.slice(0, -3) + 'nem' :
+	        time + ' pIq';
 	        return time;
 	    }
 	
 	    function translatePast(output) {
 	        var time = output;
 	        time = (output.indexOf('jaj') !== -1) ?
-	    	time.slice(0, -3) + 'Hu’' :
-	    	(output.indexOf('jar') !== -1) ?
-	    	time.slice(0, -3) + 'wen' :
-	    	(output.indexOf('DIS') !== -1) ?
-	    	time.slice(0, -3) + 'ben' :
-	    	time + ' ret';
+	        time.slice(0, -3) + 'Hu’' :
+	        (output.indexOf('jar') !== -1) ?
+	        time.slice(0, -3) + 'wen' :
+	        (output.indexOf('DIS') !== -1) ?
+	        time.slice(0, -3) + 'ben' :
+	        time + ' ret';
 	        return time;
 	    }
 	
@@ -51361,9 +51682,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    function numberAsNoun(number) {
 	        var hundred = Math.floor((number % 1000) / 100),
-	    	ten = Math.floor((number % 100) / 10),
-	    	one = number % 10,
-	    	word = '';
+	        ten = Math.floor((number % 100) / 10),
+	        one = number % 10,
+	        word = '';
 	        if (hundred > 0) {
 	            word += numbersNouns[hundred] + 'vatlh';
 	        }
@@ -51427,17 +51748,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 157 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : turkish (tr)
+	//! locale : Turkish [tr]
 	//! authors : Erhan Gundogan : https://github.com/erhangundogan,
 	//!           Burak Yiğit Kaya: https://github.com/BYK
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51521,16 +51842,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 158 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : talossan (tzl)
+	//! locale : Talossan [tzl]
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v with the help of Iustì Canun
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51616,16 +51937,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 159 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Morocco Central Atlas Tamaziɣt (tzm)
+	//! locale : Central Atlas Tamazight [tzm]
 	//! author : Abdel Said : https://github.com/abdelsaid
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51678,16 +51999,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 160 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : Morocco Central Atlas Tamaziɣt in Latin (tzm-latn)
+	//! locale : Central Atlas Tamazight Latin [tzm-latn]
 	//! author : Abdel Said : https://github.com/abdelsaid
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51740,17 +52061,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 161 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : ukrainian (uk)
+	//! locale : Ukrainian [uk]
 	//! author : zemlanin : https://github.com/zemlanin
 	//! Author : Menelion Elensúle : https://github.com/Oire
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51820,15 +52141,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	            nextWeek: processHoursFunction('[У] dddd ['),
 	            lastWeek: function () {
 	                switch (this.day()) {
-	                case 0:
-	                case 3:
-	                case 5:
-	                case 6:
-	                    return processHoursFunction('[Минулої] dddd [').call(this);
-	                case 1:
-	                case 2:
-	                case 4:
-	                    return processHoursFunction('[Минулого] dddd [').call(this);
+	                    case 0:
+	                    case 3:
+	                    case 5:
+	                    case 6:
+	                        return processHoursFunction('[Минулої] dddd [').call(this);
+	                    case 1:
+	                    case 2:
+	                    case 4:
+	                        return processHoursFunction('[Минулого] dddd [').call(this);
 	                }
 	            },
 	            sameElse: 'L'
@@ -51867,16 +52188,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse: /\d{1,2}-(й|го)/,
 	        ordinal: function (number, period) {
 	            switch (period) {
-	            case 'M':
-	            case 'd':
-	            case 'DDD':
-	            case 'w':
-	            case 'W':
-	                return number + '-й';
-	            case 'D':
-	                return number + '-го';
-	            default:
-	                return number;
+	                case 'M':
+	                case 'd':
+	                case 'DDD':
+	                case 'w':
+	                case 'W':
+	                    return number + '-й';
+	                case 'D':
+	                    return number + '-го';
+	                default:
+	                    return number;
 	            }
 	        },
 	        week : {
@@ -51890,16 +52211,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 162 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : uzbek (uz)
+	//! locale : Uzbek [uz]
 	//! author : Sardor Muminov : https://github.com/muminoff
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -51952,16 +52273,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 163 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : vietnamese (vi)
+	//! locale : Vietnamese [vi]
 	//! author : Bang Nguyen : https://github.com/bangnk
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -52035,16 +52356,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 164 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : pseudo (x-pseudo)
+	//! locale : Pseudo [x-pseudo]
 	//! author : Andrew Hood : https://github.com/andrewhood125
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -52107,17 +52428,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : chinese (zh-cn)
+	//! locale : Chinese (China) [zh-cn]
 	//! author : suupic : https://github.com/suupic
 	//! author : Zeno Zeng : https://github.com/zenozeng
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -52198,17 +52519,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse: /\d{1,2}(日|月|周)/,
 	        ordinal : function (number, period) {
 	            switch (period) {
-	            case 'd':
-	            case 'D':
-	            case 'DDD':
-	                return number + '日';
-	            case 'M':
-	                return number + '月';
-	            case 'w':
-	            case 'W':
-	                return number + '周';
-	            default:
-	                return number;
+	                case 'd':
+	                case 'D':
+	                case 'DDD':
+	                    return number + '日';
+	                case 'M':
+	                    return number + '月';
+	                case 'w':
+	                case 'W':
+	                    return number + '周';
+	                default:
+	                    return number;
 	            }
 	        },
 	        relativeTime : {
@@ -52238,16 +52559,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 166 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
-	//! locale : traditional chinese (zh-tw)
+	//! locale : Chinese (Taiwan) [zh-tw]
 	//! author : Ben : https://github.com/ben-lin
+	//! author : Chris Lam : https://github.com/hehachris
 	
 	;(function (global, factory) {
 	    true ? factory(__webpack_require__(65)) :
-	   typeof define === 'function' && define.amd ? define(['moment'], factory) :
+	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, function (moment) { 'use strict';
 	
@@ -52270,12 +52592,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	            lll : 'YYYY年MMMD日Ah點mm分',
 	            llll : 'YYYY年MMMD日ddddAh點mm分'
 	        },
-	        meridiemParse: /早上|上午|中午|下午|晚上/,
+	        meridiemParse: /凌晨|早上|上午|中午|下午|晚上/,
 	        meridiemHour : function (hour, meridiem) {
 	            if (hour === 12) {
 	                hour = 0;
 	            }
-	            if (meridiem === '早上' || meridiem === '上午') {
+	            if (meridiem === '凌晨' || meridiem === '早上' || meridiem === '上午') {
 	                return hour;
 	            } else if (meridiem === '中午') {
 	                return hour >= 11 ? hour : hour + 12;
@@ -52285,7 +52607,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        },
 	        meridiem : function (hour, minute, isLower) {
 	            var hm = hour * 100 + minute;
-	            if (hm < 900) {
+	            if (hm < 600) {
+	                return '凌晨';
+	            } else if (hm < 900) {
 	                return '早上';
 	            } else if (hm < 1130) {
 	                return '上午';
@@ -52308,33 +52632,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	        ordinalParse: /\d{1,2}(日|月|週)/,
 	        ordinal : function (number, period) {
 	            switch (period) {
-	            case 'd' :
-	            case 'D' :
-	            case 'DDD' :
-	                return number + '日';
-	            case 'M' :
-	                return number + '月';
-	            case 'w' :
-	            case 'W' :
-	                return number + '週';
-	            default :
-	                return number;
+	                case 'd' :
+	                case 'D' :
+	                case 'DDD' :
+	                    return number + '日';
+	                case 'M' :
+	                    return number + '月';
+	                case 'w' :
+	                case 'W' :
+	                    return number + '週';
+	                default :
+	                    return number;
 	            }
 	        },
 	        relativeTime : {
 	            future : '%s內',
 	            past : '%s前',
 	            s : '幾秒',
-	            m : '1分鐘',
-	            mm : '%d分鐘',
-	            h : '1小時',
-	            hh : '%d小時',
-	            d : '1天',
-	            dd : '%d天',
-	            M : '1個月',
-	            MM : '%d個月',
-	            y : '1年',
-	            yy : '%d年'
+	            m : '1 分鐘',
+	            mm : '%d 分鐘',
+	            h : '1 小時',
+	            hh : '%d 小時',
+	            d : '1 天',
+	            dd : '%d 天',
+	            M : '1 個月',
+	            MM : '%d 個月',
+	            y : '1 年',
+	            yy : '%d 年'
 	        }
 	    });
 	
@@ -52343,7 +52667,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}));
 
 /***/ },
-/* 167 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -52356,11 +52680,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	'use strict';
 	
 	module.exports = {
-	  MSDate: __webpack_require__(168)
+	  MSDate: __webpack_require__(169)
 	};
 
 /***/ },
-/* 168 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -52372,7 +52696,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 */
 	'use strict';
 	
-	var _typeof2 = __webpack_require__(169);
+	var _typeof2 = __webpack_require__(170);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -52441,18 +52765,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = MSDate;
 
 /***/ },
-/* 169 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	exports.__esModule = true;
 	
-	var _iterator = __webpack_require__(170);
+	var _iterator = __webpack_require__(171);
 	
 	var _iterator2 = _interopRequireDefault(_iterator);
 	
-	var _symbol = __webpack_require__(190);
+	var _symbol = __webpack_require__(191);
 	
 	var _symbol2 = _interopRequireDefault(_symbol);
 	
@@ -52467,28 +52791,28 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 170 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(171), __esModule: true };
-
-/***/ },
 /* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(172);
-	__webpack_require__(185);
-	module.exports = __webpack_require__(189).f('iterator');
+	module.exports = { "default": __webpack_require__(172), __esModule: true };
 
 /***/ },
 /* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
+	__webpack_require__(173);
+	__webpack_require__(186);
+	module.exports = __webpack_require__(190).f('iterator');
+
+/***/ },
+/* 173 */
+/***/ function(module, exports, __webpack_require__) {
+
 	'use strict';
-	var $at  = __webpack_require__(173)(true);
+	var $at  = __webpack_require__(174)(true);
 	
 	// 21.1.3.27 String.prototype[@@iterator]()
-	__webpack_require__(174)(String, 'String', function(iterated){
+	__webpack_require__(175)(String, 'String', function(iterated){
 	  this._t = String(iterated); // target
 	  this._i = 0;                // next index
 	// 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -52503,7 +52827,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var toInteger = __webpack_require__(48)
@@ -52525,20 +52849,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var LIBRARY        = __webpack_require__(175)
+	var LIBRARY        = __webpack_require__(176)
 	  , $export        = __webpack_require__(23)
-	  , redefine       = __webpack_require__(176)
+	  , redefine       = __webpack_require__(177)
 	  , hide           = __webpack_require__(28)
 	  , has            = __webpack_require__(41)
-	  , Iterators      = __webpack_require__(177)
-	  , $iterCreate    = __webpack_require__(178)
-	  , setToStringTag = __webpack_require__(182)
-	  , getPrototypeOf = __webpack_require__(184)
-	  , ITERATOR       = __webpack_require__(183)('iterator')
+	  , Iterators      = __webpack_require__(178)
+	  , $iterCreate    = __webpack_require__(179)
+	  , setToStringTag = __webpack_require__(183)
+	  , getPrototypeOf = __webpack_require__(185)
+	  , ITERATOR       = __webpack_require__(184)('iterator')
 	  , BUGGY          = !([].keys && 'next' in [].keys()) // Safari has buggy iterators w/o `next`
 	  , FF_ITERATOR    = '@@iterator'
 	  , KEYS           = 'keys'
@@ -52600,35 +52924,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 175 */
+/* 176 */
 /***/ function(module, exports) {
 
 	module.exports = true;
 
 /***/ },
-/* 176 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(28);
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports) {
 
 	module.exports = {};
 
 /***/ },
-/* 178 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var create         = __webpack_require__(179)
+	var create         = __webpack_require__(180)
 	  , descriptor     = __webpack_require__(37)
-	  , setToStringTag = __webpack_require__(182)
+	  , setToStringTag = __webpack_require__(183)
 	  , IteratorPrototype = {};
 	
 	// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-	__webpack_require__(28)(IteratorPrototype, __webpack_require__(183)('iterator'), function(){ return this; });
+	__webpack_require__(28)(IteratorPrototype, __webpack_require__(184)('iterator'), function(){ return this; });
 	
 	module.exports = function(Constructor, NAME, next){
 	  Constructor.prototype = create(IteratorPrototype, {next: descriptor(1, next)});
@@ -52636,12 +52960,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 179 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 	var anObject    = __webpack_require__(30)
-	  , dPs         = __webpack_require__(180)
+	  , dPs         = __webpack_require__(181)
 	  , enumBugKeys = __webpack_require__(53)
 	  , IE_PROTO    = __webpack_require__(50)('IE_PROTO')
 	  , Empty       = function(){ /* empty */ }
@@ -52655,7 +52979,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    , gt     = '>'
 	    , iframeDocument;
 	  iframe.style.display = 'none';
-	  __webpack_require__(181).appendChild(iframe);
+	  __webpack_require__(182).appendChild(iframe);
 	  iframe.src = 'javascript:'; // eslint-disable-line no-script-url
 	  // createDict = iframe.contentWindow.Object;
 	  // html.removeChild(iframe);
@@ -52681,7 +53005,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 180 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var dP       = __webpack_require__(29)
@@ -52699,25 +53023,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 181 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(24).document && document.documentElement;
 
 /***/ },
-/* 182 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var def = __webpack_require__(29).f
 	  , has = __webpack_require__(41)
-	  , TAG = __webpack_require__(183)('toStringTag');
+	  , TAG = __webpack_require__(184)('toStringTag');
 	
 	module.exports = function(it, tag, stat){
 	  if(it && !has(it = stat ? it : it.prototype, TAG))def(it, TAG, {configurable: true, value: tag});
 	};
 
 /***/ },
-/* 183 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var store      = __webpack_require__(51)('wks')
@@ -52733,7 +53057,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	$exports.store = store;
 
 /***/ },
-/* 184 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
@@ -52751,14 +53075,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 185 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(186);
+	__webpack_require__(187);
 	var global        = __webpack_require__(24)
 	  , hide          = __webpack_require__(28)
-	  , Iterators     = __webpack_require__(177)
-	  , TO_STRING_TAG = __webpack_require__(183)('toStringTag');
+	  , Iterators     = __webpack_require__(178)
+	  , TO_STRING_TAG = __webpack_require__(184)('toStringTag');
 	
 	for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList', 'CSSRuleList'], i = 0; i < 5; i++){
 	  var NAME       = collections[i]
@@ -52769,20 +53093,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 186 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var addToUnscopables = __webpack_require__(187)
-	  , step             = __webpack_require__(188)
-	  , Iterators        = __webpack_require__(177)
+	var addToUnscopables = __webpack_require__(188)
+	  , step             = __webpack_require__(189)
+	  , Iterators        = __webpack_require__(178)
 	  , toIObject        = __webpack_require__(42);
 	
 	// 22.1.3.4 Array.prototype.entries()
 	// 22.1.3.13 Array.prototype.keys()
 	// 22.1.3.29 Array.prototype.values()
 	// 22.1.3.30 Array.prototype[@@iterator]()
-	module.exports = __webpack_require__(174)(Array, 'Array', function(iterated, kind){
+	module.exports = __webpack_require__(175)(Array, 'Array', function(iterated, kind){
 	  this._t = toIObject(iterated); // target
 	  this._i = 0;                   // next index
 	  this._k = kind;                // kind
@@ -52808,13 +53132,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	addToUnscopables('entries');
 
 /***/ },
-/* 187 */
+/* 188 */
 /***/ function(module, exports) {
 
 	module.exports = function(){ /* empty */ };
 
 /***/ },
-/* 188 */
+/* 189 */
 /***/ function(module, exports) {
 
 	module.exports = function(done, value){
@@ -52822,29 +53146,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 189 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports.f = __webpack_require__(183);
-
-/***/ },
 /* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(191), __esModule: true };
+	exports.f = __webpack_require__(184);
 
 /***/ },
 /* 191 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(192);
-	__webpack_require__(201);
-	__webpack_require__(202);
-	__webpack_require__(203);
-	module.exports = __webpack_require__(25).Symbol;
+	module.exports = { "default": __webpack_require__(192), __esModule: true };
 
 /***/ },
 /* 192 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(193);
+	__webpack_require__(202);
+	__webpack_require__(203);
+	__webpack_require__(204);
+	module.exports = __webpack_require__(25).Symbol;
+
+/***/ },
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -52853,25 +53177,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	  , has            = __webpack_require__(41)
 	  , DESCRIPTORS    = __webpack_require__(33)
 	  , $export        = __webpack_require__(23)
-	  , redefine       = __webpack_require__(176)
-	  , META           = __webpack_require__(193).KEY
+	  , redefine       = __webpack_require__(177)
+	  , META           = __webpack_require__(194).KEY
 	  , $fails         = __webpack_require__(34)
 	  , shared         = __webpack_require__(51)
-	  , setToStringTag = __webpack_require__(182)
+	  , setToStringTag = __webpack_require__(183)
 	  , uid            = __webpack_require__(52)
-	  , wks            = __webpack_require__(183)
-	  , wksExt         = __webpack_require__(189)
-	  , wksDefine      = __webpack_require__(194)
-	  , keyOf          = __webpack_require__(195)
-	  , enumKeys       = __webpack_require__(196)
-	  , isArray        = __webpack_require__(197)
+	  , wks            = __webpack_require__(184)
+	  , wksExt         = __webpack_require__(190)
+	  , wksDefine      = __webpack_require__(195)
+	  , keyOf          = __webpack_require__(196)
+	  , enumKeys       = __webpack_require__(197)
+	  , isArray        = __webpack_require__(198)
 	  , anObject       = __webpack_require__(30)
 	  , toIObject      = __webpack_require__(42)
 	  , toPrimitive    = __webpack_require__(36)
 	  , createDesc     = __webpack_require__(37)
-	  , _create        = __webpack_require__(179)
-	  , gOPNExt        = __webpack_require__(198)
-	  , $GOPD          = __webpack_require__(200)
+	  , _create        = __webpack_require__(180)
+	  , gOPNExt        = __webpack_require__(199)
+	  , $GOPD          = __webpack_require__(201)
 	  , $DP            = __webpack_require__(29)
 	  , $keys          = __webpack_require__(39)
 	  , gOPD           = $GOPD.f
@@ -52996,11 +53320,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  $GOPD.f = $getOwnPropertyDescriptor;
 	  $DP.f   = $defineProperty;
-	  __webpack_require__(199).f = gOPNExt.f = $getOwnPropertyNames;
+	  __webpack_require__(200).f = gOPNExt.f = $getOwnPropertyNames;
 	  __webpack_require__(55).f  = $propertyIsEnumerable;
 	  __webpack_require__(54).f = $getOwnPropertySymbols;
 	
-	  if(DESCRIPTORS && !__webpack_require__(175)){
+	  if(DESCRIPTORS && !__webpack_require__(176)){
 	    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
 	  }
 	
@@ -53084,7 +53408,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	setToStringTag(global.JSON, 'JSON', true);
 
 /***/ },
-/* 193 */
+/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var META     = __webpack_require__(52)('meta')
@@ -53142,13 +53466,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 194 */
+/* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var global         = __webpack_require__(24)
 	  , core           = __webpack_require__(25)
-	  , LIBRARY        = __webpack_require__(175)
-	  , wksExt         = __webpack_require__(189)
+	  , LIBRARY        = __webpack_require__(176)
+	  , wksExt         = __webpack_require__(190)
 	  , defineProperty = __webpack_require__(29).f;
 	module.exports = function(name){
 	  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -53156,7 +53480,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 195 */
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var getKeys   = __webpack_require__(39)
@@ -53171,7 +53495,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 196 */
+/* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// all enumerable object keys, includes symbols
@@ -53191,7 +53515,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 197 */
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.2.2 IsArray(argument)
@@ -53201,12 +53525,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 198 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 	var toIObject = __webpack_require__(42)
-	  , gOPN      = __webpack_require__(199).f
+	  , gOPN      = __webpack_require__(200).f
 	  , toString  = {}.toString;
 	
 	var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -53226,7 +53550,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 199 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
@@ -53238,7 +53562,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 200 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var pIE            = __webpack_require__(55)
@@ -53259,25 +53583,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 201 */
+/* 202 */
 /***/ function(module, exports) {
 
 
 
 /***/ },
-/* 202 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(194)('asyncIterator');
-
-/***/ },
 /* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(194)('observable');
+	__webpack_require__(195)('asyncIterator');
 
 /***/ },
 /* 204 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(195)('observable');
+
+/***/ },
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {/**
@@ -53340,17 +53664,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ },
-/* 205 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(206)
-	__vue_script__ = __webpack_require__(208)
+	__webpack_require__(207)
+	__vue_script__ = __webpack_require__(209)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(240)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(241)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -53360,7 +53684,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker.vue"
+	  var id = "_v-65d10f77/datepicker.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53369,13 +53693,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 206 */
+/* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(207);
+	var content = __webpack_require__(208);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -53384,8 +53708,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d1fdbe6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d1fdbe6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-65d10f77&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-65d10f77&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53395,7 +53719,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 207 */
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -53403,13 +53727,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker .ms-day-panel[_v-4d1fdbe6] {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel[_v-4d1fdbe6] {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel[_v-4d1fdbe6] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker.vue","sourcesContent":[".ms-datepicker .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker .ms-day-panel[_v-65d10f77] {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel[_v-65d10f77] {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel[_v-65d10f77] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker.vue","sourcesContent":[".ms-datepicker .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 208 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -53418,15 +53742,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _datepickerDayPanel = __webpack_require__(209);
+	var _datepickerDayPanel = __webpack_require__(210);
 	
 	var _datepickerDayPanel2 = _interopRequireDefault(_datepickerDayPanel);
 	
-	var _datepickerMonthPanel = __webpack_require__(220);
+	var _datepickerMonthPanel = __webpack_require__(221);
 	
 	var _datepickerMonthPanel2 = _interopRequireDefault(_datepickerMonthPanel);
 	
-	var _datepickerYearPanel = __webpack_require__(230);
+	var _datepickerYearPanel = __webpack_require__(231);
 	
 	var _datepickerYearPanel2 = _interopRequireDefault(_datepickerYearPanel);
 	
@@ -53468,17 +53792,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 209 */
+/* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(210)
-	__vue_script__ = __webpack_require__(212)
+	__webpack_require__(211)
+	__vue_script__ = __webpack_require__(213)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-day-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(219)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-day-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(220)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -53488,7 +53812,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-day-panel.vue"
+	  var id = "_v-aa859e86/datepicker-day-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53497,13 +53821,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 210 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(211);
+	var content = __webpack_require__(212);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -53512,8 +53836,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6b026fd3&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6b026fd3&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-aa859e86&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-aa859e86&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53523,7 +53847,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 211 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -53531,13 +53855,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-day-panel[_v-6b026fd3] {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button[_v-6b026fd3] {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th[_v-6b026fd3] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-day-panel.vue","sourcesContent":[".ms-datepicker-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-day-panel[_v-aa859e86] {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button[_v-aa859e86] {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th[_v-aa859e86] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-day-panel.vue","sourcesContent":[".ms-datepicker-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 212 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -53546,11 +53870,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerDay = __webpack_require__(214);
+	var _datepickerDay = __webpack_require__(215);
 	
 	var _datepickerDay2 = _interopRequireDefault(_datepickerDay);
 	
@@ -53646,7 +53970,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 213 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -53662,7 +53986,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(169);
+	var _typeof2 = __webpack_require__(170);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -53758,17 +54082,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 214 */
+/* 215 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(215)
-	__vue_script__ = __webpack_require__(217)
+	__webpack_require__(216)
+	__vue_script__ = __webpack_require__(218)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-day.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(218)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-day.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(219)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -53778,7 +54102,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-day.vue"
+	  var id = "_v-a3867e74/datepicker-day.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -53787,13 +54111,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 215 */
+/* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(216);
+	var content = __webpack_require__(217);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -53802,8 +54126,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5ecc885c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5ecc885c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a3867e74&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a3867e74&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-day.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -53813,7 +54137,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 216 */
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -53821,13 +54145,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-today[_v-5ecc885c] {\n  color: #00b3ee;\n}\n.other-mouth[_v-5ecc885c] {\n  color: #777;\n}\n.ms-select-day[_v-5ecc885c] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-5ecc885c] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.other-mouth {\n  color: #777;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-today[_v-a3867e74] {\n  color: #00b3ee;\n}\n.other-mouth[_v-a3867e74] {\n  color: #777;\n}\n.ms-select-day[_v-a3867e74] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-a3867e74] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.other-mouth {\n  color: #777;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 217 */
+/* 218 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -53836,11 +54160,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _index = __webpack_require__(167);
+	var _index = __webpack_require__(168);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -53973,29 +54297,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 218 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-5ecc885c=\"\">\n    <span _v-5ecc885c=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
-
-/***/ },
 /* 219 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-day-panel\" _v-6b026fd3=\"\">\n    <table _v-6b026fd3=\"\">\n        <thead _v-6b026fd3=\"\">\n            <tr _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-6b026fd3=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-6b026fd3=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-6b026fd3=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-6b026fd3=\"\">\n                <td _v-6b026fd3=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-6b026fd3=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-6b026fd3=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-a3867e74=\"\">\n    <span _v-a3867e74=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
 /* 220 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-day-panel\" _v-aa859e86=\"\">\n    <table _v-aa859e86=\"\">\n        <thead _v-aa859e86=\"\">\n            <tr _v-aa859e86=\"\">\n                <th _v-aa859e86=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-aa859e86=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-aa859e86=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-aa859e86=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-aa859e86=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-aa859e86=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-aa859e86=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-aa859e86=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-aa859e86=\"\">\n                <th _v-aa859e86=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-aa859e86=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-aa859e86=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-aa859e86=\"\">\n                <td _v-aa859e86=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-aa859e86=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-aa859e86=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+
+/***/ },
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(221)
-	__vue_script__ = __webpack_require__(223)
+	__webpack_require__(222)
+	__vue_script__ = __webpack_require__(224)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-month-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(229)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-month-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(230)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54005,7 +54329,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-month-panel.vue"
+	  var id = "_v-5f9d0621/datepicker-month-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54014,13 +54338,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 221 */
+/* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(222);
+	var content = __webpack_require__(223);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54029,8 +54353,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-238ed7b7&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-238ed7b7&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5f9d0621&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5f9d0621&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54040,7 +54364,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 222 */
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54048,13 +54372,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-month-panel[_v-238ed7b7] {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button[_v-238ed7b7] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-month-panel.vue","sourcesContent":[".ms-datepicker-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-month-panel[_v-5f9d0621] {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button[_v-5f9d0621] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-month-panel.vue","sourcesContent":[".ms-datepicker-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-month-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 223 */
+/* 224 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -54067,11 +54391,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _datepickerMonth = __webpack_require__(224);
+	var _datepickerMonth = __webpack_require__(225);
 	
 	var _datepickerMonth2 = _interopRequireDefault(_datepickerMonth);
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -54124,17 +54448,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 224 */
+/* 225 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(225)
-	__vue_script__ = __webpack_require__(227)
+	__webpack_require__(226)
+	__vue_script__ = __webpack_require__(228)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-month.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(228)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-month.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(229)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54144,7 +54468,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-month.vue"
+	  var id = "_v-2771712a/datepicker-month.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54153,13 +54477,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 225 */
+/* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(226);
+	var content = __webpack_require__(227);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54168,8 +54492,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-19a4a980&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-19a4a980&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2771712a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2771712a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-month.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54179,7 +54503,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 226 */
+/* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54187,13 +54511,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".is-current-month[_v-19a4a980] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-month.vue","sourcesContent":[".is-current-month {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".is-current-month[_v-2771712a] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-month.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-month.vue","sourcesContent":[".is-current-month {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 227 */
+/* 228 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -54235,29 +54559,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 228 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-19a4a980=\"\">\n    <span _v-19a4a980=\"\">{{monthItem}}</span>\n</button>\n";
-
-/***/ },
 /* 229 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-month-panel\" _v-238ed7b7=\"\">\n    <table _v-238ed7b7=\"\">\n        <thead _v-238ed7b7=\"\">\n            <tr _v-238ed7b7=\"\">\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-238ed7b7=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-238ed7b7=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-238ed7b7=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-238ed7b7=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-238ed7b7=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-2771712a=\"\">\n    <span _v-2771712a=\"\">{{monthItem}}</span>\n</button>\n";
 
 /***/ },
 /* 230 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-month-panel\" _v-5f9d0621=\"\">\n    <table _v-5f9d0621=\"\">\n        <thead _v-5f9d0621=\"\">\n            <tr _v-5f9d0621=\"\">\n                <td _v-5f9d0621=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-5f9d0621=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-5f9d0621=\"\"></span>\n                    </button>\n                </td>\n                <td _v-5f9d0621=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-5f9d0621=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-5f9d0621=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-5f9d0621=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-5f9d0621=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-5f9d0621=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-5f9d0621=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-5f9d0621=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-5f9d0621=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+
+/***/ },
+/* 231 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(231)
-	__vue_script__ = __webpack_require__(233)
+	__webpack_require__(232)
+	__vue_script__ = __webpack_require__(234)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-year-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(239)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-year-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(240)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54267,7 +54591,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-year-panel.vue"
+	  var id = "_v-b626078c/datepicker-year-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54276,13 +54600,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 231 */
+/* 232 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(232);
+	var content = __webpack_require__(233);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54291,8 +54615,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2560c038&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2560c038&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b626078c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b626078c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54302,7 +54626,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 232 */
+/* 233 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54310,13 +54634,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-year-panel[_v-2560c038] {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button[_v-2560c038] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-year-panel.vue","sourcesContent":[".ms-datepicker-year-panel {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-year-panel[_v-b626078c] {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button[_v-b626078c] {\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb","file":"datepicker-year-panel.vue","sourcesContent":[".ms-datepicker-year-panel {\n  display: inline-block;\n}\n.ms-datepicker-year-panel button {\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 233 */
+/* 234 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -54325,11 +54649,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerYear = __webpack_require__(234);
+	var _datepickerYear = __webpack_require__(235);
 	
 	var _datepickerYear2 = _interopRequireDefault(_datepickerYear);
 	
@@ -54398,17 +54722,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 234 */
+/* 235 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(235)
-	__vue_script__ = __webpack_require__(237)
+	__webpack_require__(236)
+	__vue_script__ = __webpack_require__(238)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-year.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(238)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-year.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(239)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54418,7 +54742,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-year.vue"
+	  var id = "_v-4d162e03/datepicker-year.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54427,13 +54751,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 235 */
+/* 236 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(236);
+	var content = __webpack_require__(237);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54442,8 +54766,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a3014da6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-a3014da6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d162e03&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d162e03&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-year.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54453,7 +54777,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 236 */
+/* 237 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54461,13 +54785,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".is-current-year[_v-a3014da6] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-year.vue","sourcesContent":[".is-current-year {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".is-current-year[_v-4d162e03] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-year.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB","file":"datepicker-year.vue","sourcesContent":[".is-current-year {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 237 */
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -54517,35 +54841,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 238 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-a3014da6=\"\">\n    <span _v-a3014da6=\"\">{{yearItem}}</span>\n</button>\n";
-
-/***/ },
 /* 239 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-year-panel\" _v-2560c038=\"\">\n    <table _v-2560c038=\"\">\n        <thead _v-2560c038=\"\">\n            <tr _v-2560c038=\"\">\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-2560c038=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-2560c038=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-2560c038=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-2560c038=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-2560c038=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-4d162e03=\"\">\n    <span _v-4d162e03=\"\">{{yearItem}}</span>\n</button>\n";
 
 /***/ },
 /* 240 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker\" _v-4d1fdbe6=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType =='day')\" _v-4d1fdbe6=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-4d1fdbe6=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType == 'month')\" _v-4d1fdbe6=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType == 'year')\" _v-4d1fdbe6=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-year-panel\" _v-b626078c=\"\">\n    <table _v-b626078c=\"\">\n        <thead _v-b626078c=\"\">\n            <tr _v-b626078c=\"\">\n                <th _v-b626078c=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-b626078c=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-b626078c=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-b626078c=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-b626078c=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-b626078c=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-b626078c=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-b626078c=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-b626078c=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-b626078c=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-b626078c=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-b626078c=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 241 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker\" _v-65d10f77=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType =='day')\" _v-65d10f77=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-65d10f77=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType == 'month')\" _v-65d10f77=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-65d10f77=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType == 'year')\" _v-65d10f77=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-65d10f77=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+
+/***/ },
+/* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(242)
-	__vue_script__ = __webpack_require__(244)
+	__webpack_require__(243)
+	__vue_script__ = __webpack_require__(245)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-time-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(260)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-time-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(261)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54555,7 +54879,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-time-panel.vue"
+	  var id = "_v-7b4a5a6c/datepicker-time-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54564,13 +54888,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 242 */
+/* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(243);
+	var content = __webpack_require__(244);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54579,8 +54903,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0abd7674&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7b4a5a6c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7b4a5a6c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-time-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54590,7 +54914,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 243 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54598,13 +54922,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-time-panel[_v-0abd7674] {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell[_v-0abd7674] {\n  display: table-cell;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-time-panel.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,oBAAoB;CACrB","file":"datepicker-time-panel.vue","sourcesContent":[".ms-time-panel {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell {\n  display: table-cell;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-time-panel[_v-7b4a5a6c] {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell[_v-7b4a5a6c] {\n  display: table-cell;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-time-panel.vue"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;CAChB;AACD;EACE,oBAAoB;CACrB","file":"datepicker-time-panel.vue","sourcesContent":[".ms-time-panel {\n  margin-left: auto;\n  margin-right: auto;\n  display: table;\n}\n.ms-time-panel .ms-time-cell {\n  display: table-cell;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 244 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -54613,15 +54937,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _datepickerHour = __webpack_require__(245);
+	var _datepickerHour = __webpack_require__(246);
 	
 	var _datepickerHour2 = _interopRequireDefault(_datepickerHour);
 	
-	var _datepickerMinute = __webpack_require__(250);
+	var _datepickerMinute = __webpack_require__(251);
 	
 	var _datepickerMinute2 = _interopRequireDefault(_datepickerMinute);
 	
-	var _datepickerSecond = __webpack_require__(255);
+	var _datepickerSecond = __webpack_require__(256);
 	
 	var _datepickerSecond2 = _interopRequireDefault(_datepickerSecond);
 	
@@ -54705,17 +55029,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 245 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(246)
-	__vue_script__ = __webpack_require__(248)
+	__webpack_require__(247)
+	__vue_script__ = __webpack_require__(249)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-hour.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(249)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-hour.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(250)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54725,7 +55049,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-hour.vue"
+	  var id = "_v-cb7d1fac/datepicker-hour.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54734,13 +55058,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 246 */
+/* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(247);
+	var content = __webpack_require__(248);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54749,8 +55073,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-08aac958&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-cb7d1fac&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-cb7d1fac&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-hour.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54760,7 +55084,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 247 */
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54774,7 +55098,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 248 */
+/* 249 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -54820,23 +55144,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 249 */
+/* 250 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-08aac958=\"\">\n    <div class=\"form-group\" _v-08aac958=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-08aac958=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-08aac958=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-08aac958=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-cb7d1fac=\"\">\n    <div class=\"form-group\" _v-cb7d1fac=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-cb7d1fac=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-cb7d1fac=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-cb7d1fac=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
 
 /***/ },
-/* 250 */
+/* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(251)
-	__vue_script__ = __webpack_require__(253)
+	__webpack_require__(252)
+	__vue_script__ = __webpack_require__(254)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-minute.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(254)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-minute.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(255)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54846,7 +55170,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-minute.vue"
+	  var id = "_v-cd2e564c/datepicker-minute.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54855,13 +55179,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 251 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(252);
+	var content = __webpack_require__(253);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54870,8 +55194,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4533dd84&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-cd2e564c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-cd2e564c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-minute.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -54881,7 +55205,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 252 */
+/* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -54895,7 +55219,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 253 */
+/* 254 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -54941,23 +55265,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 254 */
+/* 255 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-4533dd84=\"\">\n    <div class=\"form-group\" _v-4533dd84=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-4533dd84=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-4533dd84=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-4533dd84=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-cd2e564c=\"\">\n    <div class=\"form-group\" _v-cd2e564c=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-cd2e564c=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-cd2e564c=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-cd2e564c=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
 
 /***/ },
-/* 255 */
+/* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(256)
-	__vue_script__ = __webpack_require__(258)
+	__webpack_require__(257)
+	__vue_script__ = __webpack_require__(259)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-second.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(259)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-second.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(260)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -54967,7 +55291,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-second.vue"
+	  var id = "_v-43b2433a/datepicker-second.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -54976,13 +55300,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 256 */
+/* 257 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(257);
+	var content = __webpack_require__(258);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -54991,8 +55315,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-21056838&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-43b2433a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-43b2433a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-second.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55002,7 +55326,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 257 */
+/* 258 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -55016,7 +55340,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 258 */
+/* 259 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -55062,35 +55386,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 259 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-21056838=\"\">\n    <div class=\"form-group\" _v-21056838=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-21056838=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-21056838=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-21056838=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
-
-/***/ },
 /* 260 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-time-panel\" _v-0abd7674=\"\">\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-0abd7674=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-0abd7674=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-0abd7674=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-43b2433a=\"\">\n    <div class=\"form-group\" _v-43b2433a=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-43b2433a=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-43b2433a=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-43b2433a=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
 
 /***/ },
 /* 261 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-field\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-2d0813fa=\"\">\n            </datepicker>\n            <datepicker-time-panel v-if=\"showTime\" :date.sync=\"dateTime\" _v-2d0813fa=\"\"></datepicker-time-panel>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-time-panel\" _v-7b4a5a6c=\"\">\n    <div class=\"ms-time-cell\" _v-7b4a5a6c=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-7b4a5a6c=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-7b4a5a6c=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-7b4a5a6c=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-7b4a5a6c=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-7b4a5a6c=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-7b4a5a6c=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
 
 /***/ },
 /* 262 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-field\" _v-0ec1f68a=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-0ec1f68a=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-0ec1f68a=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-0ec1f68a=\"\">\n            </datepicker>\n            <datepicker-time-panel v-if=\"showTime\" :date.sync=\"dateTime\" _v-0ec1f68a=\"\"></datepicker-time-panel>\n            <div _v-0ec1f68a=\"\">\n                <span _v-0ec1f68a=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-0ec1f68a=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-0ec1f68a=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-0ec1f68a=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-0ec1f68a=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-0ec1f68a=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-0ec1f68a=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-0ec1f68a=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-0ec1f68a=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+
+/***/ },
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(263)
-	__vue_script__ = __webpack_require__(265)
+	__webpack_require__(264)
+	__vue_script__ = __webpack_require__(266)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/date-range-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(276)
+	  console.warn("[vue-loader] src\\form\\field\\date-range-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(277)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -55100,7 +55424,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./date-range-field.vue"
+	  var id = "_v-cb96e00c/date-range-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55109,13 +55433,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 263 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(264);
+	var content = __webpack_require__(265);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -55124,8 +55448,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b52a4d2c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-b52a4d2c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-cb96e00c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-cb96e00c&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-field.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55135,7 +55459,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 264 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -55143,13 +55467,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-date-range-field .ms-calendar[_v-b52a4d2c] {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker[_v-b52a4d2c] {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button[_v-b52a4d2c] {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box[_v-b52a4d2c] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table[_v-b52a4d2c] {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr[_v-b52a4d2c] {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td[_v-b52a4d2c] {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous[_v-b52a4d2c] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button[_v-b52a4d2c] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next[_v-b52a4d2c] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button[_v-b52a4d2c] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right[_v-b52a4d2c] {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up[_v-b52a4d2c] {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down[_v-b52a4d2c] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EACnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,oBAAoB;EACpB,oBAAoB;CACrB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-field.vue","sourcesContent":[".ms-date-range-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-date-range-field .ms-calendar[_v-cb96e00c] {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker[_v-cb96e00c] {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button[_v-cb96e00c] {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box[_v-cb96e00c] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table[_v-cb96e00c] {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr[_v-cb96e00c] {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td[_v-cb96e00c] {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous[_v-cb96e00c] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button[_v-cb96e00c] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next[_v-cb96e00c] {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button[_v-cb96e00c] {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right[_v-cb96e00c] {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up[_v-cb96e00c] {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down[_v-cb96e00c] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EACnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,eAAe;CAChB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,oBAAoB;EACpB,oBAAoB;CACrB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,oBAAoB;CACrB;AACD;EACE,oBAAoB;EACpB,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-field.vue","sourcesContent":[".ms-date-range-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-field .ms-picker button {\n  outline: none;\n}\n.ms-date-range-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table {\n  display: table;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr {\n  display: table-row;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td {\n  display: table-cell;\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next {\n  vertical-align: top;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button {\n  box-sizing: initial;\n  height: 100%;\n}\n.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 265 */
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_, $) {"use strict";
@@ -55158,7 +55482,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(169);
+	var _typeof2 = __webpack_require__(170);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -55174,19 +55498,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _date = __webpack_require__(168);
+	var _date = __webpack_require__(169);
 	
 	var _date2 = _interopRequireDefault(_date);
 	
-	var _dateFieldMixin = __webpack_require__(204);
+	var _dateFieldMixin = __webpack_require__(205);
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepickerRange = __webpack_require__(266);
+	var _datepickerRange = __webpack_require__(267);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
-	var _datepickerTimePanel = __webpack_require__(241);
+	var _datepickerTimePanel = __webpack_require__(242);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
@@ -55426,17 +55750,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18), __webpack_require__(10)))
 
 /***/ },
-/* 266 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(267)
-	__vue_script__ = __webpack_require__(269)
+	__webpack_require__(268)
+	__vue_script__ = __webpack_require__(270)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-range.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(275)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-range.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(276)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -55446,7 +55770,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-range.vue"
+	  var id = "_v-481de167/datepicker-range.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55455,13 +55779,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 267 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(268);
+	var content = __webpack_require__(269);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -55470,8 +55794,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-13da1b7d&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-13da1b7d&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-481de167&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-481de167&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55481,7 +55805,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 268 */
+/* 269 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -55489,13 +55813,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-range[_v-13da1b7d] {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today[_v-13da1b7d] {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth[_v-13da1b7d] {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day[_v-13da1b7d] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button[_v-13da1b7d] {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th[_v-13da1b7d] {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center[_v-13da1b7d] {\n  text-align: center;\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,YAAY;CACb","file":"datepicker-range.vue","sourcesContent":[".ms-datepicker-range {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center {\n  text-align: center;\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-range[_v-481de167] {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today[_v-481de167] {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth[_v-481de167] {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day[_v-481de167] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button[_v-481de167] {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th[_v-481de167] {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center[_v-481de167] {\n  text-align: center;\n  width: 100%;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,eAAe;CAChB;AACD;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,cAAc;CACf;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,YAAY;CACb","file":"datepicker-range.vue","sourcesContent":[".ms-datepicker-range {\n  display: inline-block;\n}\n.ms-datepicker-range tbody tr td button.ms-today {\n  color: #00b3ee;\n}\n.ms-datepicker-range tbody tr td button.other-mouth {\n  color: #777;\n}\n.ms-datepicker-range tbody tr td button.select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.ms-datepicker-range button {\n  outline: none;\n}\n.ms-datepicker-range .ms-weekday-line th {\n  text-align: center;\n}\n.ms-datepicker-range .ms-center {\n  text-align: center;\n  width: 100%;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 269 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -55504,7 +55828,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(169);
+	var _typeof2 = __webpack_require__(170);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -55520,11 +55844,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _vue2 = _interopRequireDefault(_vue);
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerRangeDay = __webpack_require__(270);
+	var _datepickerRangeDay = __webpack_require__(271);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
@@ -55644,17 +55968,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 270 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(271)
-	__vue_script__ = __webpack_require__(273)
+	__webpack_require__(272)
+	__vue_script__ = __webpack_require__(274)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-range-day.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(274)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-range-day.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(275)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -55664,7 +55988,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-range-day.vue"
+	  var id = "_v-18ef1ab6/datepicker-range-day.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55673,13 +55997,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 271 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(272);
+	var content = __webpack_require__(273);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -55688,8 +56012,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d974c68&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4d974c68&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-18ef1ab6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-18ef1ab6&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55699,7 +56023,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 272 */
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -55707,13 +56031,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-today[_v-4d974c68] {\n  color: #00b3ee;\n}\n.ms-select-day[_v-4d974c68] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-4d974c68] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-range-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-today[_v-18ef1ab6] {\n  color: #00b3ee;\n}\n.ms-select-day[_v-18ef1ab6] {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled[_v-18ef1ab6] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day.vue"],"names":[],"mappings":"AAAA;EACE,eAAe;CAChB;AACD;EACE,YAAY;EACZ,0BAA0B;EAC1B,sBAAsB;CACvB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"datepicker-range-day.vue","sourcesContent":[".ms-today {\n  color: #00b3ee;\n}\n.ms-select-day {\n  color: #fff;\n  background-color: #31b0d5;\n  border-color: #269abc;\n}\n.is-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 273 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -55722,7 +56046,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -55822,35 +56146,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 274 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-4d974c68=\"\">\n    <span _v-4d974c68=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
-
-/***/ },
 /* 275 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-18ef1ab6=\"\">\n    <span _v-18ef1ab6=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
 /* 276 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-field\" _v-b52a4d2c=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-b52a4d2c=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-b52a4d2c=\"\">\n            <div class=\"ms-datepicker-table\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-b52a4d2c=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-b52a4d2c=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td\" _v-b52a4d2c=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-b52a4d2c=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-b52a4d2c=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-b52a4d2c=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-b52a4d2c=\"\">\n                    <span _v-b52a4d2c=\"\">\n                        <!--<button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\">{{todayText}}</button>-->\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-b52a4d2c=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-b52a4d2c=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-b52a4d2c=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-b52a4d2c=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-b52a4d2c=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-b52a4d2c=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range\" _v-481de167=\"\">\n    <table _v-481de167=\"\">\n        <thead _v-481de167=\"\">\n            <tr _v-481de167=\"\">\n                <th colspan=\"7\" _v-481de167=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-481de167=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-481de167=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-481de167=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-481de167=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-481de167=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-481de167=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-481de167=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 277 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-field\" _v-cb96e00c=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-cb96e00c=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-cb96e00c=\"\">\n            <div class=\"ms-datepicker-table\" _v-cb96e00c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-cb96e00c=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-cb96e00c=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-cb96e00c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-cb96e00c=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-cb96e00c=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-cb96e00c=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-cb96e00c=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-cb96e00c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-cb96e00c=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-cb96e00c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-cb96e00c=\"\">\n                    <div class=\"ms-datepicker-td\" _v-cb96e00c=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-cb96e00c=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-cb96e00c=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-cb96e00c=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-cb96e00c=\"\">\n                    <span _v-cb96e00c=\"\">\n                        <!--<button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\">{{todayText}}</button>-->\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-cb96e00c=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-cb96e00c=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-cb96e00c=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-cb96e00c=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-cb96e00c=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-cb96e00c=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-cb96e00c=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+
+/***/ },
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(278)
-	__vue_script__ = __webpack_require__(280)
+	__webpack_require__(279)
+	__vue_script__ = __webpack_require__(281)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/date-range-single-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(291)
+	  console.warn("[vue-loader] src\\form\\field\\date-range-single-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(292)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -55860,7 +56184,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./date-range-single-field.vue"
+	  var id = "_v-57e0c4e5/date-range-single-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -55869,13 +56193,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(279);
+	var content = __webpack_require__(280);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -55884,8 +56208,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0c39fd75&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0c39fd75&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-57e0c4e5&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-57e0c4e5&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./date-range-single-field.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -55895,7 +56219,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 279 */
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -55903,13 +56227,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-date-range-single-field .ms-calendar[_v-0c39fd75] {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker[_v-0c39fd75] {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box[_v-0c39fd75] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right[_v-0c39fd75] {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up[_v-0c39fd75] {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down[_v-0c39fd75] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-single-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-single-field.vue","sourcesContent":[".ms-date-range-single-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-date-range-single-field .ms-calendar[_v-57e0c4e5] {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker[_v-57e0c4e5] {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box[_v-57e0c4e5] {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right[_v-57e0c4e5] {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up[_v-57e0c4e5] {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down[_v-57e0c4e5] {\n  top: 34px;\n}\n", "", {"version":3,"sources":["/./src/form/field/date-range-single-field.vue"],"names":[],"mappings":"AAAA;EACE,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,sBAAsB;EACtB,aAAa;EACb,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;EAEnB,gDAAgD;EAChD,aAAa;CACd;AACD;EACE,aAAa;CACd;AACD;EACE,YAAY;CACb;AACD;EACE,UAAU;CACX","file":"date-range-single-field.vue","sourcesContent":[".ms-date-range-single-field .ms-calendar {\n  cursor: pointer;\n}\n.ms-date-range-single-field .ms-picker {\n  position: relative;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box {\n  position: absolute;\n  display: inline-block;\n  padding: 9px;\n  background-color: #f5f5f5;\n  border: 1px solid #e3e3e3;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);\n  z-index: 200;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right {\n  float: right;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-up {\n  bottom: 0px;\n}\n.ms-date-range-single-field .ms-picker .ms-picker-box-down {\n  top: 34px;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 280 */
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_, $) {"use strict";
@@ -55926,7 +56250,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _vue2 = _interopRequireDefault(_vue);
 	
-	var _index = __webpack_require__(167);
+	var _index = __webpack_require__(168);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -55934,11 +56258,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _moment2 = _interopRequireDefault(_moment);
 	
-	var _dateFieldMixin = __webpack_require__(204);
+	var _dateFieldMixin = __webpack_require__(205);
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepickerRangeSingle = __webpack_require__(281);
+	var _datepickerRangeSingle = __webpack_require__(282);
 	
 	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
 	
@@ -56117,17 +56441,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18), __webpack_require__(10)))
 
 /***/ },
-/* 281 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(282)
-	__vue_script__ = __webpack_require__(284)
+	__webpack_require__(283)
+	__vue_script__ = __webpack_require__(285)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-range-single.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(290)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-range-single.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(291)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -56137,7 +56461,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-range-single.vue"
+	  var id = "_v-6c58cdc4/datepicker-range-single.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56146,13 +56470,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 282 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(283);
+	var content = __webpack_require__(284);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -56161,8 +56485,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f7c80b70&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f7c80b70&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6c58cdc4&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6c58cdc4&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-single.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56172,7 +56496,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 283 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -56180,13 +56504,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-range-single .ms-day-panel[_v-f7c80b70] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel[_v-f7c80b70] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel[_v-f7c80b70] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-single.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker-range-single.vue","sourcesContent":[".ms-datepicker-range-single .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-range-single .ms-day-panel[_v-6c58cdc4] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel[_v-6c58cdc4] {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel[_v-6c58cdc4] {\n  display: inline-block;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-single.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;CACvB","file":"datepicker-range-single.vue","sourcesContent":[".ms-datepicker-range-single .ms-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-month-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-single .ms-year-panel {\n  display: inline-block;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 284 */
+/* 285 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56195,19 +56519,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _datepickerRangeDayPanel = __webpack_require__(285);
+	var _datepickerRangeDayPanel = __webpack_require__(286);
 	
 	var _datepickerRangeDayPanel2 = _interopRequireDefault(_datepickerRangeDayPanel);
 	
-	var _datepickerMonthPanel = __webpack_require__(220);
+	var _datepickerMonthPanel = __webpack_require__(221);
 	
 	var _datepickerMonthPanel2 = _interopRequireDefault(_datepickerMonthPanel);
 	
-	var _datepickerYearPanel = __webpack_require__(230);
+	var _datepickerYearPanel = __webpack_require__(231);
 	
 	var _datepickerYearPanel2 = _interopRequireDefault(_datepickerYearPanel);
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -56251,17 +56575,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 285 */
+/* 286 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(286)
-	__vue_script__ = __webpack_require__(288)
+	__webpack_require__(287)
+	__vue_script__ = __webpack_require__(289)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-range-day-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(289)
+	  console.warn("[vue-loader] src\\picker\\date\\datepicker-range-day-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(290)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -56271,7 +56595,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-range-day-panel.vue"
+	  var id = "_v-6a6056ad/datepicker-range-day-panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56280,13 +56604,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 286 */
+/* 287 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(287);
+	var content = __webpack_require__(288);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -56295,8 +56619,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-57436d43&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-57436d43&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6a6056ad&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-6a6056ad&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./datepicker-range-day-panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56306,7 +56630,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 287 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -56314,13 +56638,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-datepicker-range-day-panel[_v-57436d43] {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button[_v-57436d43] {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th[_v-57436d43] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-range-day-panel.vue","sourcesContent":[".ms-datepicker-range-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-datepicker-range-day-panel[_v-6a6056ad] {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button[_v-6a6056ad] {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th[_v-6a6056ad] {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./src/picker/date/datepicker-range-day-panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB","file":"datepicker-range-day-panel.vue","sourcesContent":[".ms-datepicker-range-day-panel {\n  display: inline-block;\n}\n.ms-datepicker-range-day-panel button {\n  width: 100%;\n}\n.ms-datepicker-range-day-panel .ms-weekday-line th {\n  text-align: center;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 288 */
+/* 289 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -56329,7 +56653,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _typeof2 = __webpack_require__(169);
+	var _typeof2 = __webpack_require__(170);
 	
 	var _typeof3 = _interopRequireDefault(_typeof2);
 	
@@ -56337,11 +56661,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _datepickerRangeDay = __webpack_require__(270);
+	var _datepickerRangeDay = __webpack_require__(271);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
-	var _datepickerMixin = __webpack_require__(213);
+	var _datepickerMixin = __webpack_require__(214);
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
@@ -56481,35 +56805,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 289 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-day-panel\" _v-57436d43=\"\">\n    <table _v-57436d43=\"\">\n        <thead _v-57436d43=\"\">\n            <tr _v-57436d43=\"\">\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-57436d43=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-57436d43=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-57436d43=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-57436d43=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-57436d43=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-57436d43=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-57436d43=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
-
-/***/ },
 /* 290 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-single\" _v-f7c80b70=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-f7c80b70=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-f7c80b70=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-f7c80b70=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-f7c80b70=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-day-panel\" _v-6a6056ad=\"\">\n    <table _v-6a6056ad=\"\">\n        <thead _v-6a6056ad=\"\">\n            <tr _v-6a6056ad=\"\">\n                <th _v-6a6056ad=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-6a6056ad=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-6a6056ad=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-6a6056ad=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-6a6056ad=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-6a6056ad=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-6a6056ad=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-6a6056ad=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-6a6056ad=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-6a6056ad=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-6a6056ad=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-6a6056ad=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-6a6056ad=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-6a6056ad=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 291 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-single-field\" _v-0c39fd75=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-0c39fd75=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-0c39fd75=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-0c39fd75=\"\">\n            </datepicker-range-single>\n            <div _v-0c39fd75=\"\">\n                <span _v-0c39fd75=\"\">\n                    <!--<button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\">{{todayText}}</button>-->\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-0c39fd75=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-0c39fd75=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-0c39fd75=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-0c39fd75=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-0c39fd75=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-0c39fd75=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-single\" _v-6c58cdc4=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-6c58cdc4=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-6c58cdc4=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-6c58cdc4=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-6c58cdc4=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-6c58cdc4=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-6c58cdc4=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
 
 /***/ },
 /* 292 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-single-field\" _v-57e0c4e5=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-57e0c4e5=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-57e0c4e5=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-57e0c4e5=\"\">\n            </datepicker-range-single>\n            <div _v-57e0c4e5=\"\">\n                <span _v-57e0c4e5=\"\">\n                    <!--<button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\">{{todayText}}</button>-->\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-57e0c4e5=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-57e0c4e5=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-57e0c4e5=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-57e0c4e5=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-57e0c4e5=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-57e0c4e5=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-57e0c4e5=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+
+/***/ },
+/* 293 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(293)
-	__vue_script__ = __webpack_require__(295)
+	__webpack_require__(294)
+	__vue_script__ = __webpack_require__(296)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/form/field/ueditor-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(296)
+	  console.warn("[vue-loader] src\\form\\field\\ueditor-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(297)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -56519,7 +56843,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./ueditor-field.vue"
+	  var id = "_v-39baa9f0/ueditor-field.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56528,13 +56852,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 293 */
+/* 294 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(294);
+	var content = __webpack_require__(295);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -56554,7 +56878,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 294 */
+/* 295 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -56568,7 +56892,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 295 */
+/* 296 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -56625,23 +56949,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 296 */
+/* 297 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<textarea id=\"{{id}}\"></textarea>\n";
 
 /***/ },
-/* 297 */
+/* 298 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(298)
-	__vue_script__ = __webpack_require__(300)
+	__webpack_require__(299)
+	__vue_script__ = __webpack_require__(301)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/tree/tree-list.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(301)
+	  console.warn("[vue-loader] src\\tree\\tree-list.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(302)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -56651,7 +56975,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./tree-list.vue"
+	  var id = "_v-4908c44a/tree-list.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56660,13 +56984,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 298 */
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(299);
+	var content = __webpack_require__(300);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -56675,8 +56999,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5e866fe6&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-5e866fe6&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4908c44a&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-4908c44a&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./tree-list.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56686,7 +57010,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 299 */
+/* 300 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -56694,13 +57018,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "ul.ms-tree-list[_v-5e866fe6] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li[_v-5e866fe6] {\n  position: relative;\n}\nul.ms-tree-list > li > a[_v-5e866fe6] {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a[_v-5e866fe6]:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open[_v-5e866fe6] {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i[_v-5e866fe6] {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu[_v-5e866fe6] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li[_v-5e866fe6] {\n  position: relative;\n}\nul.ms-tree-menu > li > a[_v-5e866fe6] {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a[_v-5e866fe6]:hover {\n  color: white;\n}\n", "", {"version":3,"sources":["/./src/tree/tree-list.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;CACX;AACD;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;EACZ,oBAAoB;CACrB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,aAAa;CACd","file":"tree-list.vue","sourcesContent":["ul.ms-tree-list {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li {\n  position: relative;\n}\nul.ms-tree-list > li > a {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li {\n  position: relative;\n}\nul.ms-tree-menu > li > a {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a:hover {\n  color: white;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "ul.ms-tree-list[_v-4908c44a] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li[_v-4908c44a] {\n  position: relative;\n}\nul.ms-tree-list > li > a[_v-4908c44a] {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a[_v-4908c44a]:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open[_v-4908c44a] {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i[_v-4908c44a] {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu[_v-4908c44a] {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li[_v-4908c44a] {\n  position: relative;\n}\nul.ms-tree-menu > li > a[_v-4908c44a] {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a[_v-4908c44a]:hover {\n  color: white;\n}\n", "", {"version":3,"sources":["/./src/tree/tree-list.vue"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,YAAY;EACZ,oBAAoB;EACpB,2BAA2B;CAC5B;AACD;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;CACX;AACD;EACE,aAAa;EACb,sBAAsB;EACtB,aAAa;EACb,YAAY;EACZ,oBAAoB;CACrB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,mCAAmC;EACnC,sBAAsB;EACtB,gBAAgB;CACjB;AACD;EACE,aAAa;CACd","file":"tree-list.vue","sourcesContent":["ul.ms-tree-list {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n}\nul.ms-tree-list > li {\n  position: relative;\n}\nul.ms-tree-list > li > a {\n  position: relative;\n  color: #b8c7ce;\n  width: 100%;\n  display: block;\n  line-height: 40px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-list > li > a:hover {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a.ms-open {\n  color: #fff;\n  background: #1e282c;\n  border-left-color: #3c8dbc;\n}\nul.ms-tree-list > li > a > i {\n  position: absolute;\n  right: 10px;\n  top: 12px;\n}\nul.ms-tree-menu {\n  color: white;\n  list-style-type: none;\n  padding: 0px;\n  margin: 0px;\n  background: #2C3B41;\n}\nul.ms-tree-menu > li {\n  position: relative;\n}\nul.ms-tree-menu > li > a {\n  position: relative;\n  color: #555d5e;\n  width: 100%;\n  display: block;\n  line-height: 30px;\n  padding: 0px 10px;\n  border-left: 3px solid transparent;\n  text-decoration: none;\n  cursor: pointer;\n}\nul.ms-tree-menu > li > a:hover {\n  color: white;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 300 */
+/* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -56777,23 +57101,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 301 */
+/* 302 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-5e866fe6=\"\">\n    <li v-for=\"(index,item) in items\" _v-5e866fe6=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-5e866fe6=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-5e866fe6=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-5e866fe6=\"\"></tree-list>\n    </li>\n\n</ul>\n";
+	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-4908c44a=\"\">\n    <li v-for=\"(index,item) in items\" _v-4908c44a=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-4908c44a=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-4908c44a=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-4908c44a=\"\"></tree-list>\n    </li>\n\n</ul>\n";
 
 /***/ },
-/* 302 */
+/* 303 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(303)
-	__vue_script__ = __webpack_require__(305)
+	__webpack_require__(304)
+	__vue_script__ = __webpack_require__(306)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/tree/panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(306)
+	  console.warn("[vue-loader] src\\tree\\panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(307)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -56803,7 +57127,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./panel.vue"
+	  var id = "_v-f8fe383e/panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56812,13 +57136,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 303 */
+/* 304 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(304);
+	var content = __webpack_require__(305);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -56827,8 +57151,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-94097db8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-94097db8&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f8fe383e&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f8fe383e&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56838,7 +57162,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 304 */
+/* 305 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -56846,13 +57170,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "ul[_v-94097db8] {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel[_v-94097db8] {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox[_v-94097db8] {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label[_v-94097db8] {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox][_v-94097db8] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/tree/panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,WAAW;EACX,kBAAkB;EAClB,sBAAsB;CACvB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,0BAA0B;EAC1B,6BAA6B;EAC7B,2BAA2B;CAC5B;AACD;EACE,gBAAgB;EAChB,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;CACxB","file":"panel.vue","sourcesContent":["ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "ul[_v-f8fe383e] {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel[_v-f8fe383e] {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox[_v-f8fe383e] {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label[_v-f8fe383e] {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox][_v-f8fe383e] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/tree/panel.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,WAAW;EACX,kBAAkB;EAClB,sBAAsB;CACvB;AACD;EACE,kBAAkB;CACnB;AACD;EACE,0BAA0B;EAC1B,6BAA6B;EAC7B,2BAA2B;CAC5B;AACD;EACE,gBAAgB;EAChB,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;CACxB","file":"panel.vue","sourcesContent":["ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  line-height: 22px;\n  word-wrap: break-word;\n}\nul.tree-panel {\n  margin-left: 18px;\n}\nul li div.ms-tree-panel-checkbox {\n  margin-top: 0px!important;\n  margin-bottom: 0px!important;\n  padding-top: 0px!important;\n}\nul li div label {\n  cursor: pointer;\n  vertical-align: middle;\n}\nul li div label input[type=checkbox] {\n  width: 16px;\n  height: 16px;\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 305 */
+/* 306 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -56912,23 +57236,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 306 */
+/* 307 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" :value=\"item[id]\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
+	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-f8fe383e=\"\">\n    <li v-for=\"(index,item) in store\" _v-f8fe383e=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-f8fe383e=\"\">\n            <label _v-f8fe383e=\"\">\n                <input type=\"checkbox\" v-model=\"value\" :value=\"item[id]\" v-if=\"showCheckbox\" _v-f8fe383e=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-f8fe383e=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
 
 /***/ },
-/* 307 */
+/* 308 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(308)
-	__vue_script__ = __webpack_require__(310)
+	__webpack_require__(309)
+	__vue_script__ = __webpack_require__(311)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(344)
+	  console.warn("[vue-loader] src\\grid\\panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(345)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -56938,7 +57262,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./panel.vue"
+	  var id = "_v-d5c0ecee/panel.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -56947,13 +57271,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 308 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(309);
+	var content = __webpack_require__(310);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -56962,8 +57286,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-70cc3268&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-70cc3268&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-d5c0ecee&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-d5c0ecee&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./panel.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -56973,7 +57297,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 309 */
+/* 310 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -56981,13 +57305,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".grid-panel[_v-70cc3268] {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show[_v-70cc3268] {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered[_v-70cc3268] {\n  border: 0px;\n}\n.grid-panel .grid-header .table[_v-70cc3268] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th[_v-70cc3268] {\n  min-height: 47px;\n  border-bottom: 0px;\n  vertical-align: middle;\n}\n.grid-panel .grid-header-line[_v-70cc3268] {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box[_v-70cc3268] {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading[_v-70cc3268] {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body[_v-70cc3268] {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table[_v-70cc3268] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr[_v-70cc3268] {\n  min-height: 47px;\n}\n.grid-panel .grid-body-box .grid-body .table tr td[_v-70cc3268] {\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/grid/panel.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,mBAAmB;CACpB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,uBAAuB;CACxB;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,UAAU;EACV,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,uBAAuB;CACxB","file":"panel.vue","sourcesContent":[".grid-panel {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered {\n  border: 0px;\n}\n.grid-panel .grid-header .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th {\n  min-height: 47px;\n  border-bottom: 0px;\n  vertical-align: middle;\n}\n.grid-panel .grid-header-line {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr {\n  min-height: 47px;\n}\n.grid-panel .grid-body-box .grid-body .table tr td {\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".grid-panel[_v-d5c0ecee] {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show[_v-d5c0ecee] {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered[_v-d5c0ecee] {\n  border: 0px;\n}\n.grid-panel .grid-header .table[_v-d5c0ecee] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th[_v-d5c0ecee] {\n  min-height: 47px;\n  border-bottom: 0px;\n  vertical-align: middle;\n}\n.grid-panel .grid-header-line[_v-d5c0ecee] {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box[_v-d5c0ecee] {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading[_v-d5c0ecee] {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body[_v-d5c0ecee] {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table[_v-d5c0ecee] {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr[_v-d5c0ecee] {\n  min-height: 47px;\n}\n.grid-panel .grid-body-box .grid-body .table tr td[_v-d5c0ecee] {\n  vertical-align: middle;\n}\n", "", {"version":3,"sources":["/./src/grid/panel.vue"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,mBAAmB;CACpB;AACD;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,uBAAuB;CACxB;AACD;EACE,8BAA8B;CAC/B;AACD;EACE,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,UAAU;EACV,WAAW;CACZ;AACD;EACE,mBAAmB;EACnB,iBAAiB;CAClB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,uBAAuB;CACxB","file":"panel.vue","sourcesContent":[".grid-panel {\n  width: 100%;\n  position: relative;\n}\n.grid-panel .grid-header.scroll-show {\n  padding-right: 14px;\n}\n.grid-panel .grid-header .table-bordered {\n  border: 0px;\n}\n.grid-panel .grid-header .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-header .table thead tr th {\n  min-height: 47px;\n  border-bottom: 0px;\n  vertical-align: middle;\n}\n.grid-panel .grid-header-line {\n  border-bottom: 2px solid #ddd;\n}\n.grid-panel .grid-body-box {\n  position: relative;\n}\n.grid-panel .grid-body-box .ms-grid-loading {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n}\n.grid-panel .grid-body-box .grid-body {\n  position: relative;\n  overflow-y: auto;\n}\n.grid-panel .grid-body-box .grid-body .table {\n  margin-bottom: 0px;\n}\n.grid-panel .grid-body-box .grid-body .table tr {\n  min-height: 47px;\n}\n.grid-panel .grid-body-box .grid-body .table tr td {\n  vertical-align: middle;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 310 */
+/* 311 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -57008,27 +57332,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _header = __webpack_require__(311);
+	var _header = __webpack_require__(312);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _paging = __webpack_require__(317);
+	var _paging = __webpack_require__(318);
 	
 	var _paging2 = _interopRequireDefault(_paging);
 	
-	var _text = __webpack_require__(322);
+	var _text = __webpack_require__(323);
 	
 	var _text2 = _interopRequireDefault(_text);
 	
-	var _link = __webpack_require__(328);
+	var _link = __webpack_require__(329);
 	
 	var _link2 = _interopRequireDefault(_link);
 	
-	var _action = __webpack_require__(333);
+	var _action = __webpack_require__(334);
 	
 	var _action2 = _interopRequireDefault(_action);
 	
-	var _index = __webpack_require__(343);
+	var _index = __webpack_require__(344);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -57213,17 +57537,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 311 */
+/* 312 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(312)
-	__vue_script__ = __webpack_require__(314)
+	__webpack_require__(313)
+	__vue_script__ = __webpack_require__(315)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/header/header.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(316)
+	  console.warn("[vue-loader] src\\grid\\header\\header.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(317)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -57233,7 +57557,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./header.vue"
+	  var id = "_v-44b9e941/header.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57242,13 +57566,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 312 */
+/* 313 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(313);
+	var content = __webpack_require__(314);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -57268,7 +57592,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 313 */
+/* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -57282,7 +57606,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 314 */
+/* 315 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -57291,7 +57615,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(315);
+	var _GridMixin = __webpack_require__(316);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
@@ -57334,7 +57658,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 315 */
+/* 316 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -57423,23 +57747,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 316 */
+/* 317 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<th v-show=\"hidden\" :style=\"[columnWidthStyle]\" >\n    <div>{{{ renderer }}}</div>\n</th>\n";
 
 /***/ },
-/* 317 */
+/* 318 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(318)
-	__vue_script__ = __webpack_require__(320)
+	__webpack_require__(319)
+	__vue_script__ = __webpack_require__(321)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/toolbar/paging.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(321)
+	  console.warn("[vue-loader] src\\toolbar\\paging.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(322)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -57449,7 +57773,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./paging.vue"
+	  var id = "_v-f8d464b0/paging.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57458,13 +57782,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 318 */
+/* 319 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(319);
+	var content = __webpack_require__(320);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -57473,8 +57797,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-d9da531e&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-d9da531e&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f8d464b0&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-f8d464b0&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./paging.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -57484,7 +57808,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 319 */
+/* 320 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -57492,13 +57816,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-paging[_v-d9da531e] {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon[_v-d9da531e] {\n  cursor: pointer;\n}\n.ms-paging .tbspacer[_v-d9da531e] {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator[_v-d9da531e] {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num[_v-d9da531e] {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left[_v-d9da531e] {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right[_v-d9da531e] {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled[_v-d9da531e] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/toolbar/paging.vue"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;CACnB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,+BAA+B;EAC/B,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,cAAc;CACf;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,oBAAoB;CACrB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"paging.vue","sourcesContent":[".ms-paging {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon {\n  cursor: pointer;\n}\n.ms-paging .tbspacer {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-paging[_v-f8d464b0] {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon[_v-f8d464b0] {\n  cursor: pointer;\n}\n.ms-paging .tbspacer[_v-f8d464b0] {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator[_v-f8d464b0] {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num[_v-f8d464b0] {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left[_v-f8d464b0] {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right[_v-f8d464b0] {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled[_v-f8d464b0] {\n  opacity: 0.3;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/toolbar/paging.vue"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;CACnB;AACD;EACE,gBAAgB;CACjB;AACD;EACE,WAAW;EACX,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,+BAA+B;EAC/B,uBAAuB;CACxB;AACD;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,cAAc;CACf;AACD;EACE,sBAAsB;CACvB;AACD;EACE,sBAAsB;EACtB,aAAa;EACb,oBAAoB;CACrB;AACD;EACE,aAAa;EACb,qBAAqB;CACtB","file":"paging.vue","sourcesContent":[".ms-paging {\n  border: 1px #ddd solid;\n  line-height: 34px;\n}\n.ms-paging .glyphicon {\n  cursor: pointer;\n}\n.ms-paging .tbspacer {\n  width: 5px;\n  display: inline-block;\n}\n.ms-paging .tbseparator {\n  display: inline-block;\n  height: 18px;\n  border-left: 1px #989898 solid;\n  vertical-align: middle;\n}\n.ms-paging .ms-paging-num {\n  width: 40px;\n  height: 30px;\n  vertical-align: middle;\n  line-height: 30px;\n  font-size: 14px;\n  padding-left: 5px;\n  outline: none;\n}\n.ms-paging .ms-paging-left {\n  display: inline-block;\n}\n.ms-paging .ms-paging-right {\n  display: inline-block;\n  float: right;\n  padding-right: 10px;\n}\n.ms-paging .ms-paging-disabled {\n  opacity: 0.3;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 320 */
+/* 321 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -57636,23 +57960,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 321 */
+/* 322 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-paging\" _v-d9da531e=\"\">\n    <div class=\"ms-paging-left\" _v-d9da531e=\"\">\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span _v-d9da531e=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-d9da531e=\"\">\n        <span _v-d9da531e=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-d9da531e=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-d9da531e=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-paging\" _v-f8d464b0=\"\">\n    <div class=\"ms-paging-left\" _v-f8d464b0=\"\">\n        <span class=\"tbspacer\" _v-f8d464b0=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbspacer\" _v-f8d464b0=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbspacer\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbseparator\" _v-f8d464b0=\"\"></span>\n        <span _v-f8d464b0=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-f8d464b0=\"\">\n        <span _v-f8d464b0=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbspacer\" _v-f8d464b0=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbspacer\" _v-f8d464b0=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbspacer\" _v-f8d464b0=\"\"></span>\n        <span class=\"tbseparator\" _v-f8d464b0=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-f8d464b0=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-f8d464b0=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
 
 /***/ },
-/* 322 */
+/* 323 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(323)
-	__vue_script__ = __webpack_require__(325)
+	__webpack_require__(324)
+	__vue_script__ = __webpack_require__(326)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/text.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(327)
+	  console.warn("[vue-loader] src\\grid\\column\\text.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(328)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -57662,7 +57986,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./text.vue"
+	  var id = "_v-1af25790/text.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57671,13 +57995,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 323 */
+/* 324 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(324);
+	var content = __webpack_require__(325);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -57697,7 +58021,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 324 */
+/* 325 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -57711,7 +58035,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 325 */
+/* 326 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -57720,11 +58044,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(315);
+	var _GridMixin = __webpack_require__(316);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
-	var _GridColumnMixin = __webpack_require__(326);
+	var _GridColumnMixin = __webpack_require__(327);
 	
 	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
 	
@@ -57739,7 +58063,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 326 */
+/* 327 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -57806,23 +58130,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 327 */
+/* 328 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\" @click=\"click()\">\n    <div>{{{ renderer }}}</div>\n</td>\n";
 
 /***/ },
-/* 328 */
+/* 329 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(329)
-	__vue_script__ = __webpack_require__(331)
+	__webpack_require__(330)
+	__vue_script__ = __webpack_require__(332)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/link.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(332)
+	  console.warn("[vue-loader] src\\grid\\column\\link.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(333)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -57832,7 +58156,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./link.vue"
+	  var id = "_v-75871085/link.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57841,13 +58165,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 329 */
+/* 330 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(330);
+	var content = __webpack_require__(331);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -57867,7 +58191,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 330 */
+/* 331 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -57881,7 +58205,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 331 */
+/* 332 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -57890,11 +58214,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(315);
+	var _GridMixin = __webpack_require__(316);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
-	var _GridColumnMixin = __webpack_require__(326);
+	var _GridColumnMixin = __webpack_require__(327);
 	
 	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
 	
@@ -57923,23 +58247,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 332 */
+/* 333 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>\n        <a v-if=\"href\" href=\"{{href}}\">{{{ renderer }}}</a>\n        <a v-else v-link=\"link\">{{{ renderer }}}</a>\n    </div>\n</td>\n";
 
 /***/ },
-/* 333 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(334)
-	__vue_script__ = __webpack_require__(336)
+	__webpack_require__(335)
+	__vue_script__ = __webpack_require__(337)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/action.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(342)
+	  console.warn("[vue-loader] src\\grid\\column\\action.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(343)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -57949,7 +58273,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./action.vue"
+	  var id = "_v-a9d11ffe/action.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -57958,13 +58282,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 334 */
+/* 335 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(335);
+	var content = __webpack_require__(336);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -57984,7 +58308,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 335 */
+/* 336 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -57998,7 +58322,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 336 */
+/* 337 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -58007,15 +58331,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(315);
+	var _GridMixin = __webpack_require__(316);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
-	var _GridColumnMixin = __webpack_require__(326);
+	var _GridColumnMixin = __webpack_require__(327);
 	
 	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
 	
-	var _item = __webpack_require__(337);
+	var _item = __webpack_require__(338);
 	
 	var _item2 = _interopRequireDefault(_item);
 	
@@ -58035,17 +58359,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 337 */
+/* 338 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(338)
-	__vue_script__ = __webpack_require__(340)
+	__webpack_require__(339)
+	__vue_script__ = __webpack_require__(341)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/grid/column/action/item.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(341)
+	  console.warn("[vue-loader] src\\grid\\column\\action\\item.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(342)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -58055,7 +58379,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./item.vue"
+	  var id = "_v-0a5ee684/item.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58064,13 +58388,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 338 */
+/* 339 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(339);
+	var content = __webpack_require__(340);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -58079,8 +58403,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-173590fb&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue", function() {
-				var newContent = require("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-173590fb&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue");
+			module.hot.accept("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0a5ee684&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue", function() {
+				var newContent = require("!!./../../../../node_modules/css-loader/index.js?sourceMap!./../../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0a5ee684&scoped=true!./../../../../node_modules/less-loader/index.js!./../../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./item.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58090,7 +58414,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 339 */
+/* 340 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58098,13 +58422,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-grid-action-item[_v-173590fb] {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box[_v-173590fb] {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip[_v-173590fb] {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled[_v-173590fb] {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/grid/column/action/item.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,gBAAgB;EAChB,qCAAqC;EACrC,mBAAmB;EACnB,aAAa;EACb,oBAAoB;EACpB,WAAW;EACX,aAAa;CACd;AACD;EACE,aAAa;EACb,gBAAgB;EAChB,qBAAqB;CACtB","file":"item.vue","sourcesContent":[".ms-grid-action-item {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-grid-action-item[_v-0a5ee684] {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box[_v-0a5ee684] {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip[_v-0a5ee684] {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled[_v-0a5ee684] {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n", "", {"version":3,"sources":["/./src/grid/column/action/item.vue"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,YAAY;EACZ,gBAAgB;CACjB;AACD;EACE,mBAAmB;CACpB;AACD;EACE,gBAAgB;EAChB,qCAAqC;EACrC,mBAAmB;EACnB,aAAa;EACb,oBAAoB;EACpB,WAAW;EACX,aAAa;CACd;AACD;EACE,aAAa;EACb,gBAAgB;EAChB,qBAAqB;CACtB","file":"item.vue","sourcesContent":[".ms-grid-action-item {\n  display: inline-block;\n  margin: 3px;\n  cursor: pointer;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box {\n  position: relative;\n}\n.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip {\n  position: fixed;\n  border: 1px rgba(0, 0, 0, 0.3) solid;\n  border-radius: 4px;\n  padding: 5px;\n  background: #868686;\n  z-index: 1;\n  color: white;\n}\n.ms-grid-action-item .ms-grid-action-item-disabled {\n  opacity: 0.3;\n  cursor: default;\n  pointer-events: none;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 340 */
+/* 341 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -58213,19 +58537,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 341 */
+/* 342 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"!hidden\" class=\"ms-grid-action-item\" _v-173590fb=\"\">\n    <div role=\"button\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" @mouseover=\"showTooltip($event)\" @mouseout=\"hideTooltip()\" _v-173590fb=\"\">\n        {{item.text}}\n    </div>\n    <div class=\"ms-grid-action-item-tooltip-box\" v-if=\"tooltipShowCompute\" _v-173590fb=\"\">\n        <div class=\"ms-grid-action-item-tooltip\" :style=\"[tooltipPosition]\" _v-173590fb=\"\">\n                {{item.tooltip}}\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"!hidden\" class=\"ms-grid-action-item\" _v-0a5ee684=\"\">\n    <div role=\"button\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" @mouseover=\"showTooltip($event)\" @mouseout=\"hideTooltip()\" _v-0a5ee684=\"\">\n        {{item.text}}\n    </div>\n    <div class=\"ms-grid-action-item-tooltip-box\" v-if=\"tooltipShowCompute\" _v-0a5ee684=\"\">\n        <div class=\"ms-grid-action-item-tooltip\" :style=\"[tooltipPosition]\" _v-0a5ee684=\"\">\n                {{item.tooltip}}\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 342 */
+/* 343 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>\n        <action-item v-for=\"(index,item) in setting.items\"\n                     :item=\"item\"\n                     :store.sync=\"store\"\n                     :record.sync=\"record\">\n        </action-item>\n    </div>\n</td>\n";
 
 /***/ },
-/* 343 */
+/* 344 */
 /***/ function(module, exports) {
 
 	/**
@@ -58243,23 +58567,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 344 */
+/* 345 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"grid-panel\" _v-70cc3268=\"\">\n    <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-70cc3268=\"\">\n        <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n            <thead _v-70cc3268=\"\">\n                <tr _v-70cc3268=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-70cc3268=\"\"></div>\n    <div class=\"grid-body-box\" _v-70cc3268=\"\">\n        <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight,minHeight]\" _v-70cc3268=\"\">\n            <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n                <tbody _v-70cc3268=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-70cc3268=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store.sync=\"store\" :record.sync=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></td>\n                </tr>\n                </tbody>\n            </table>\n            <div v-if=\"isEmpty\" _v-70cc3268=\"\">{{{emptyText}}}</div>\n        </div>\n        <div class=\"ms-grid-loading\" v-if=\"isLoading\" :style=\"[loadingBackground]\" _v-70cc3268=\"\"></div>\n    </div>\n    <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-70cc3268=\"\">\n        <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-70cc3268=\"\">\n        </component>\n    </div>\n</div>\n";
+	module.exports = "\n<div class=\"grid-panel\" _v-d5c0ecee=\"\">\n    <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-d5c0ecee=\"\">\n        <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-d5c0ecee=\"\">\n            <thead _v-d5c0ecee=\"\">\n                <tr _v-d5c0ecee=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-d5c0ecee=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-d5c0ecee=\"\"></div>\n    <div class=\"grid-body-box\" _v-d5c0ecee=\"\">\n        <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight,minHeight]\" _v-d5c0ecee=\"\">\n            <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-d5c0ecee=\"\">\n                <tbody _v-d5c0ecee=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-d5c0ecee=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store.sync=\"store\" :record.sync=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-d5c0ecee=\"\"></td>\n                </tr>\n                </tbody>\n            </table>\n            <div v-if=\"isEmpty\" _v-d5c0ecee=\"\">{{{emptyText}}}</div>\n        </div>\n        <div class=\"ms-grid-loading\" v-if=\"isLoading\" :style=\"[loadingBackground]\" _v-d5c0ecee=\"\"></div>\n    </div>\n    <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-d5c0ecee=\"\">\n        <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-d5c0ecee=\"\">\n        </component>\n    </div>\n</div>\n";
 
 /***/ },
-/* 345 */
+/* 346 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(346)
-	__vue_script__ = __webpack_require__(348)
+	__webpack_require__(347)
+	__vue_script__ = __webpack_require__(349)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/window/MessageBox/alert.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(350)
+	  console.warn("[vue-loader] src\\window\\MessageBox\\alert.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(351)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -58269,7 +58593,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./alert.vue"
+	  var id = "_v-78adadc5/alert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58278,13 +58602,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 346 */
+/* 347 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(347);
+	var content = __webpack_require__(348);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -58293,8 +58617,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2eaa1baf&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2eaa1baf&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-78adadc5&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-78adadc5&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./alert.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58304,7 +58628,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 347 */
+/* 348 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58312,13 +58636,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-alert .modal-footer[_v-2eaa1baf] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/alert.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"alert.vue","sourcesContent":[".ms-alert .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-alert .modal-footer[_v-78adadc5] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/alert.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"alert.vue","sourcesContent":[".ms-alert .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 348 */
+/* 349 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -58327,7 +58651,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _MessageBoxMixin = __webpack_require__(349);
+	var _MessageBoxMixin = __webpack_require__(350);
 	
 	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
 	
@@ -58363,7 +58687,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 349 */
+/* 350 */
 /***/ function(module, exports) {
 
 	/**
@@ -58428,23 +58752,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 350 */
+/* 351 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-alert\" _v-2eaa1baf=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-2eaa1baf=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-2eaa1baf=\"\">\n            <div class=\"modal-content\" _v-2eaa1baf=\"\">\n\n                <div class=\"modal-header\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-2eaa1baf=\"\"><span aria-hidden=\"true\" _v-2eaa1baf=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-2eaa1baf=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-2eaa1baf=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-2eaa1baf=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-2eaa1baf=\"\"></div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-alert\" _v-78adadc5=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-78adadc5=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-78adadc5=\"\">\n            <div class=\"modal-content\" _v-78adadc5=\"\">\n\n                <div class=\"modal-header\" _v-78adadc5=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-78adadc5=\"\"><span aria-hidden=\"true\" _v-78adadc5=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-78adadc5=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-78adadc5=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-78adadc5=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-78adadc5=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-78adadc5=\"\"></div>\n</div>\n";
 
 /***/ },
-/* 351 */
+/* 352 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(352)
-	__vue_script__ = __webpack_require__(354)
+	__webpack_require__(353)
+	__vue_script__ = __webpack_require__(355)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/window/MessageBox/confirm.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(355)
+	  console.warn("[vue-loader] src\\window\\MessageBox\\confirm.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(356)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -58454,7 +58778,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./confirm.vue"
+	  var id = "_v-e001ee2e/confirm.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58463,13 +58787,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 352 */
+/* 353 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(353);
+	var content = __webpack_require__(354);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -58478,8 +58802,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-8ed0b75a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-8ed0b75a&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-e001ee2e&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-e001ee2e&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./confirm.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58489,7 +58813,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 353 */
+/* 354 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58497,13 +58821,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-confirm .modal-footer[_v-8ed0b75a] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/confirm.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"confirm.vue","sourcesContent":[".ms-confirm .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-confirm .modal-footer[_v-e001ee2e] {\n  text-align: center!important;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/confirm.vue"],"names":[],"mappings":"AAAA;EACE,6BAA6B;CAC9B","file":"confirm.vue","sourcesContent":[".ms-confirm .modal-footer {\n  text-align: center!important;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 354 */
+/* 355 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -58512,7 +58836,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _MessageBoxMixin = __webpack_require__(349);
+	var _MessageBoxMixin = __webpack_require__(350);
 	
 	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
 	
@@ -58557,23 +58881,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 355 */
+/* 356 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-8ed0b75a=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-8ed0b75a=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-8ed0b75a=\"\">\n            <div class=\"modal-content\" _v-8ed0b75a=\"\">\n\n                <div class=\"modal-header\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-8ed0b75a=\"\"><span aria-hidden=\"true\" _v-8ed0b75a=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-8ed0b75a=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-8ed0b75a=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-8ed0b75a=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-8ed0b75a=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-8ed0b75a=\"\"></div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-e001ee2e=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-e001ee2e=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-e001ee2e=\"\">\n            <div class=\"modal-content\" _v-e001ee2e=\"\">\n\n                <div class=\"modal-header\" _v-e001ee2e=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-e001ee2e=\"\"><span aria-hidden=\"true\" _v-e001ee2e=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-e001ee2e=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-e001ee2e=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-e001ee2e=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-e001ee2e=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-e001ee2e=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-e001ee2e=\"\"></div>\n</div>\n";
 
 /***/ },
-/* 356 */
+/* 357 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(357)
-	__vue_script__ = __webpack_require__(359)
+	__webpack_require__(358)
+	__vue_script__ = __webpack_require__(360)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/window/MessageBox/progress.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(360)
+	  console.warn("[vue-loader] src\\window\\MessageBox\\progress.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(361)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -58583,7 +58907,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./progress.vue"
+	  var id = "_v-2045b8d4/progress.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58592,13 +58916,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 357 */
+/* 358 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(358);
+	var content = __webpack_require__(359);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -58607,8 +58931,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0ac08aaa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./progress.vue", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-0ac08aaa&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./progress.vue");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2045b8d4&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./progress.vue", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?sourceMap!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-2045b8d4&scoped=true!./../../../node_modules/less-loader/index.js!./../../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./progress.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58618,7 +58942,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 358 */
+/* 359 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58626,13 +58950,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-progress .ms-progress-box[_v-0ac08aaa] {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n}\n.ms-progress .ms-progress-box .ms-progress-inner[_v-0ac08aaa] {\n  width: 50%;\n  margin-left: auto;\n  margin-right: auto;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/progress.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;CACb;AACD;EACE,WAAW;EACX,kBAAkB;EAClB,mBAAmB;CACpB","file":"progress.vue","sourcesContent":[".ms-progress .ms-progress-box {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n}\n.ms-progress .ms-progress-box .ms-progress-inner {\n  width: 50%;\n  margin-left: auto;\n  margin-right: auto;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-progress .ms-progress-box[_v-2045b8d4] {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n}\n.ms-progress .ms-progress-box .ms-progress-inner[_v-2045b8d4] {\n  width: 50%;\n  margin-left: auto;\n  margin-right: auto;\n}\n", "", {"version":3,"sources":["/./src/window/MessageBox/progress.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;CACb;AACD;EACE,WAAW;EACX,kBAAkB;EAClB,mBAAmB;CACpB","file":"progress.vue","sourcesContent":[".ms-progress .ms-progress-box {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n}\n.ms-progress .ms-progress-box .ms-progress-inner {\n  width: 50%;\n  margin-left: auto;\n  margin-right: auto;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 359 */
+/* 360 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -58641,7 +58965,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _MessageBoxMixin = __webpack_require__(349);
+	var _MessageBoxMixin = __webpack_require__(350);
 	
 	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
 	
@@ -58670,23 +58994,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 360 */
+/* 361 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-progress\" _v-0ac08aaa=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-0ac08aaa=\"\">\n        <div class=\"ms-progress-box\" _v-0ac08aaa=\"\">\n            <div class=\"progress ms-progress-inner\" _v-0ac08aaa=\"\">\n                <div class=\"progress-bar progress-bar-striped active\" role=\"progressbar\" :aria-valuenow=\"value\" aria-valuemin=\"0\" aria-valuemax=\"100\" :style=\"style\" _v-0ac08aaa=\"\"><span class=\"sr-only\" _v-0ac08aaa=\"\">{{value}}% Complete</span></div>\n            </div>\n        </div>\n    </div>\n    <div v-if=\"backdrop\" class=\"modal-backdrop fade in\" _v-0ac08aaa=\"\"></div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-progress\" _v-2045b8d4=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-2045b8d4=\"\">\n        <div class=\"ms-progress-box\" _v-2045b8d4=\"\">\n            <div class=\"progress ms-progress-inner\" _v-2045b8d4=\"\">\n                <div class=\"progress-bar progress-bar-striped active\" role=\"progressbar\" :aria-valuenow=\"value\" aria-valuemin=\"0\" aria-valuemax=\"100\" :style=\"style\" _v-2045b8d4=\"\"><span class=\"sr-only\" _v-2045b8d4=\"\">{{value}}% Complete</span></div>\n            </div>\n        </div>\n    </div>\n    <div v-if=\"backdrop\" class=\"modal-backdrop fade in\" _v-2045b8d4=\"\"></div>\n</div>\n";
 
 /***/ },
-/* 361 */
+/* 362 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(362)
-	__vue_script__ = __webpack_require__(364)
+	__webpack_require__(363)
+	__vue_script__ = __webpack_require__(365)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/window/modal.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(365)
+	  console.warn("[vue-loader] src\\window\\modal.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(366)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -58696,7 +59020,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./modal.vue"
+	  var id = "_v-2dd00d1c/modal.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58705,13 +59029,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 362 */
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(363);
+	var content = __webpack_require__(364);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -58731,7 +59055,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 363 */
+/* 364 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58745,7 +59069,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 364 */
+/* 365 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -58778,23 +59102,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 365 */
+/* 366 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" >\n        <slot></slot>\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\"></div>\n</div>\n";
 
 /***/ },
-/* 366 */
+/* 367 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(367)
-	__vue_script__ = __webpack_require__(369)
+	__webpack_require__(368)
+	__vue_script__ = __webpack_require__(370)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/player/video.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(375)
+	  console.warn("[vue-loader] src\\player\\video.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(376)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -58804,7 +59128,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./video.vue"
+	  var id = "_v-7ccfd4ca/video.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -58813,13 +59137,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 367 */
+/* 368 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(368);
+	var content = __webpack_require__(369);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -58828,8 +59152,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-af7d4544&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-af7d4544&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7ccfd4ca&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/vue-loader/lib/style-rewriter.js?id=_v-7ccfd4ca&scoped=true!./../../node_modules/less-loader/index.js!./../../node_modules/vue-loader/lib/selector.js?type=style&index=0!./video.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -58839,7 +59163,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 368 */
+/* 369 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58847,13 +59171,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".ms-video[_v-af7d4544] {\n  position: relative;\n}\n", "", {"version":3,"sources":["/./src/player/video.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;CACpB","file":"video.vue","sourcesContent":[".ms-video {\n  position: relative;\n}\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, ".ms-video[_v-7ccfd4ca] {\n  position: relative;\n}\n", "", {"version":3,"sources":["/./src/player/video.vue"],"names":[],"mappings":"AAAA;EACE,mBAAmB;CACpB","file":"video.vue","sourcesContent":[".ms-video {\n  position: relative;\n}\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
-/* 369 */
+/* 370 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -58866,15 +59190,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _assign2 = _interopRequireDefault(_assign);
 	
-	var _index = __webpack_require__(343);
+	var _index = __webpack_require__(344);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	__webpack_require__(370);
+	__webpack_require__(371);
 	
-	__webpack_require__(373);
+	__webpack_require__(374);
 	
-	var _video = __webpack_require__(374);
+	var _video = __webpack_require__(375);
 	
 	var _video2 = _interopRequireDefault(_video);
 	
@@ -58911,6 +59235,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	            type: Number
 	        }
 	    },
+	    data: function data() {
+	        return {
+	            "player": null
+	        };
+	    },
+	
 	    computed: {
 	        "sizeStyle": function sizeStyle() {
 	            var me = this;
@@ -58932,8 +59262,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	        'src': {
 	            handler: function handler(newValue, oldValue) {
 	                var me = this;
-	                me.initialize();
+	                me.player.src(newValue);
 	            }
+	        },
+	        "preload": function preload(newValue, oldValue) {
+	            var me = this;
+	            me.player.poster(newValue);
 	        }
 	    },
 	    ready: function ready() {
@@ -58944,20 +59278,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	    methods: {
 	        "initialize": function initialize() {
 	            var me = this;
-	            (0, _video2.default)(me.$els.videoEl, me.options, function () {});
+	            me.player = (0, _video2.default)(me.$els.videoEl, me.options, function () {});
 	        }
 	    },
 	    components: {}
 	};
 
 /***/ },
-/* 370 */
+/* 371 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(371);
+	var content = __webpack_require__(372);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {});
@@ -58977,7 +59311,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 371 */
+/* 372 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -58985,19 +59319,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\n.video-js .vjs-big-play-button:before, .video-js .vjs-control:before {\n  text-align: center; }\n\n@font-face {\n  font-family: VideoJS;\n  src: url(" + __webpack_require__(372) + "?#iefix) format(\"eot\"); }\n\n@font-face {\n  font-family: VideoJS;\n  src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAA54AAoAAAAAFmgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAAA9AAAAD4AAABWUZFeBWNtYXAAAAE0AAAAOgAAAUriMBC2Z2x5ZgAAAXAAAAouAAAPUFvx6AdoZWFkAAALoAAAACsAAAA2DIPpX2hoZWEAAAvMAAAAGAAAACQOogcgaG10eAAAC+QAAAAPAAAAfNkAAABsb2NhAAAL9AAAAEAAAABAMMg06m1heHAAAAw0AAAAHwAAACABMAB5bmFtZQAADFQAAAElAAACCtXH9aBwb3N0AAANfAAAAPwAAAGBZkSN43icY2BkZ2CcwMDKwMFSyPKMgYHhF4RmjmEIZzzHwMDEwMrMgBUEpLmmMDh8ZPwoxw7iLmSHCDOCCADvEAo+AAB4nGNgYGBmgGAZBkYGEHAB8hjBfBYGDSDNBqQZGZgYGD7K/f8PUvCREUTzM0DVAwEjG8OIBwCPdwbVAAB4nI1Xe1CU1xX/zv1eLItLln0JwrIfC7sJGET2hRJ2N1GUoBJE8AESQEEhmBHjaB7UuBMTO4GMaSu7aY3RNlOdRPNqO2pqRmuTaSZtR6JJILUZk00a/4imjpmiecB303O/XUgMJOPufvd+99xzzz33nN855y4HHH7EfrGfIxwHRiANvF/sH71I9BzHszmpW+rGOQOXxXE6YhI4PoMT8zkT4cDFuf1cwMrZJI5cglM0HKVv0MaUFDgIFfg9mJJCG+kbKn1JkqBOVaFOkuhLpARq8fu0Nnc9/zdvfY9PxXW4PdH0C6N+PCejhorxFjAqRjgFRXSINEARbBGsoxcFK7IJmr4OycFJnInL59zIXwxui80fkGRbEHyosMWaATJKUfCskmwJQsAWANkmnIGOhlf514h7U8HNIv3owoHB0WMt0Eb3sx0guLi5pq/8Ny1q6969fKR9X9GBV6dPv6dp04K99SOwtmyPl47ApRa6n4ZpP1yjr5fn7MmYP/vXLUJs715UguklHBaHOZHZmG1N9FAIW2mf0MqWCIdo/8RZ1yGfxKUldDcGIbFA7ICO+vqOMSPTh/ZrSqgHi/bB/O8E8Mnzp+M+acxfpsTShBwej26TiGxBn7m4eEIO+Rueu6Hj+IFBnh88cAEUEQ//nVLx5C7kf+yIR47QEe+eMlhz9SqsGbe3hh2R03NGzoY6O42Kz8l7fB6fAk6LYnTyFo/FYyT6GGyNx2Jx2sdH4rA1Fo/HyCXaFyOp8dhYBCfJb2NIn1ImE6CYNGmgSTb52DawJR6jfXEmDU4xyTEmpgHHOIStoxfjSGdkbsK2w2jbdMQG4sgAstEONgURYCwGHhEhhscioQaAhhCf7McifEQc0l6+mxj9nI+gmSdiQ0Zbm7gZnIO7GSMEXG6UDAVocxAV8GcEXCKg1a02RcTtwANWRGIAyElor6n/+ZU2yOB3+T77Hb1MLqhn4KHVnQBjJnqe9QZSon6Kc5DxAD2vMdPL/BXSmQGwspa67z9wLUjdi9TN7QC7lyyBr9rpt7uXVC1CMpyjKRoXnGPHTuiaPLsNdc2dbAFQLAooPkXEh33FodHl4XpC6sPCIa0ftUIhHSYXVSu5iME+DIXsbZJ51BeidCgajcai43jU9nVzoSn2dPqcFvSoxSzJzgRKAx47WMRxOrIj3Wf0+hndxhJTiOkSEqxar3b3RKM9hY64oxBA64ieURLvCfpkDb8siBdUJ1bgT+urJ5PGfewQrmm5R5+0HmfyIPySD7OYkT0WxRePah8oEiyjlxIP74thVoRTURpmL6QhGuWS+QDjdANXjIM8SQa/1w128ODx0Qp4aLMNg9+JL3joUn8AMxW+aLNiuKjarn4uyyTdXjOzZTsh21uwldUvJoYza+zELALfu3p1L8/3krtyZ0Ag058J3hxHghvbGZn0dHZy6Mim/7Blre4lpHd1c28yVqRViO153F2oIWoXCIKbL4Z0cM1iaQn9mI5KuV2SzEvWXJDMNtkANpMdQoDDhIdD4A/YrP6Aye9ysxyE+uOEAcTDorgvVZJjcua043PnZ/PmdDqcbibZlXOOT8uSo7Kof0YUn9GL+Jo17ficymxiTofC6znUso0DhAxs1Fo+kF+d36vLmgZ8mk5cdGv2mwYj5k3Dm9m3LhJ1aVRNm6HrTbLgYAoWXDhDd/u4PGy5CT+xGMdiaBovewUCF/1BiWNljI9MLn7jeScpg+WyH6mfU62eVDql7hsrmvx1ezp/YldE2LhjbkiDnAn8tGy/MW3IXRMYJduvq9HpmIcKuFt+JCtgdGEGKAcF6UacVwIYbVPGfw/+YuNBS4cx/CUHcnyfc+wRDMtTr72mMSBjT/yn/GKSdeDWQUCH6Xoqq5R10RE60gV6erUL0iCti16d0hZjxut4QI/rEpgSh6WjnJXdBXRg1GKCucGJPtFqM27aD1tOqqKonsQ2KsFSSmEpmvRlsR+TcD9OFwrqXxIclL4sJTnGMSuG8KpkZvKdeVIOKDyWSyPLV16/p1QMPbP8NihwUzr47bdnXtwtjdCvqqpO0H+pOvIl3Pzv46e5CT/tQjklXCXXym1AaWY7bzHLkuDMc7ldKCvgxzLn8wYkJLBhEDyK7MT8bTbwbkxbfp+3mKAGsmTBpabSIEECzMIcQlzOPAMKsxMs7uhsnxPLuofPDTc1hkuq6MX9j16YU7CqegcYHbmWYuvAP6tCS97tgWf7dlQvnl25YPavXLVZvrzQPeHCpZmzzEUVq/xzu5sChnSTPTW7oOYmh69z4zL/gk3b+O6hoa733uviP82vnFcbqWlc9tDmZa23LVzaV1yXURi+JX+28NeBuj3+O8IrQ080Vm1eWB4OKjPmrJu7c1udWynvKF6/vs479lSW9+5gZkn+dKfellNGDPllzeULustz+A0bPvhgw7lkvEUwn/N4Ty7U7nhGsEpFkOfy+kutbOh1JQxhVDJumoW11hnkPThznh6FFlhfT+ra1x9sF56kx5YuDzVY9PQYAYA7iblw4frQ4TPCk2MK/xGU3rlmze62trHz6lsko+v+So/do74PT8KVkpJfOErKcv8znrMGsHTNxoEkWy1mYgDB6XBbPaWsuiS6CryGaL6zCjaXBgvtkuyXBua1wOKnh+k7L9AvPnYWffxK18FcJbuosGf3/Jo7amY+CE1vppzY+UTrva0FXc1i55pKQ/YjVL187N5fCn1kW5uot/1hi+DiZ+5atnJR9E+prvydJ9ZZ5mwOpU5gM4KYysMBQ71UzPuMTl9QQOyUo5nwioeYCPjFklrbK6s6X+ypUZ6rum9+CZYzWRiBJfSP0xzzSmrg7f86g0DKVj/wwFzieD9rRfPGFbeKMl05pn5j9/rsQJJ2iEgRrpohlyBo3f4QK7Kl+EcAYZgAoNVmZWXK704YAa3FwBxgSGUOs5htvGRz4Sgj3yFkSJFBuv/sxu5yk998T8WDJzvv/2RX19HtTUW1S+wpKRKRjJ6zzz/1/OPdFdWGlAKbvzS4PHOtURikg9AGz0LbIB85S/cPOpoXvuue8/iV2H1vPTy3ddvOeZ37HGmO3OmSzVzR+NS53+84dHlFhXPLqtzSO+5ruHM2vXtBdxP87LOzKAD359j/INYIbyPabIi3Cq6Wa+SaGe78diIzu7qcblcAa6/fJRvNopXFJnO+U9KKM5bqH5LM0iQSVmpPCPDu7ZT4Aoubz3709EBTyrTDjyx8MQXgUH1nqm7TWng4TzE4i4AsKskBITXfSyC4Fkl5MxnJDiKSIDSJAsGvd1y+/eNDp2e+A+5d8HeiiunrTkT6TqWLIs+/QRoWr98s0qj8uuzLuS22Ytufg3rdTaHn1m46sfgGKHXt0MGnLaRHdnwN37tvHcWKo2V6lnPxL4UvUQcRdOzmZSQs8X5CH5OxXMXpkATuDz8Et0SH4uyCRR+TjmBDP1GvsVrWEGVzEj33YVQ9jAtIKpqsl/s/0xrocwAAeJxjYGRgYADig3cEzsTz23xl4GZnAIHLRucNkWl2BrA4BwMTiAIAF4IITwB4nGNgZGBgZwCChWASxGZkQAXyABOUANh4nGNnYGBgHyAMADa8ANoAAAAAAAAOAFAAZgCyAMYA5gEeAUgBdAGcAfICLgKOAroDCgOOA7AD6gQ4BHwEuAToBQwFogXoBjYGbAbaB3IHqHicY2BkYGCQZ8hlYGcAASYg5gJCBob/YD4DABbVAaoAeJxdkE1qg0AYhl8Tk9AIoVDaVSmzahcF87PMARLIMoFAl0ZHY1BHdBJIT9AT9AQ9RQ9Qeqy+yteNMzDzfM+88w0K4BY/cNAMB6N2bUaPPBLukybCLvleeAAPj8JD+hfhMV7hC3u4wxs7OO4NzQSZcI/8Ltwnfwi75E/hAR7wJTyk/xYeY49fYQ/PztM+jbTZ7LY6OWdBJdX/pqs6NYWa+zMxa13oKrA6Uoerqi/JwtpYxZXJ1coUVmeZUWVlTjq0/tHacjmdxuL90OR8O0UEDYMNdtiSEpz5XQGqzlm30kzUdAYFFOb8R7NOZk0q2lwAyz1i7oAr1xoXvrOgtYhZx8wY5KRV269JZ5yGpmzPTjQhvY9je6vEElPOuJP3mWKnP5M3V+YAAAB4nG2P2XLCMAxFfYFspGUp3Te+IB9lHJF4cOzUS2n/voaEGR6qB+lKo+WITdhga/a/bRnDBFPMkCBFhhwF5ihxg1sssMQKa9xhg3s84BFPeMYLXvGGd3zgE9tZr/hveXKVkFYoSnoeHJXfRoWOqi54mo9ameNFdrK+dLSyaVf7oJQTlkhXpD3Z5XXhR/rUfQVuKXO91Jps4cLOS6/I5YL3XhodRRsVWZe4NnZOhWnSAWgxhMoEr6SmzZieF43Mk7ZOBdeCVGrp9Eu+54J2xhySplfB5XHwQLXUmT9KH6+kPnQ7ZYuIEzNyfs1DLU1VU4SWZ6LkXGHsD1ZKbMw=) format(\"woff\"), url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAAKAIAAAwAgT1MvMlGRXgUAAAEoAAAAVmNtYXDiMBC2AAAB/AAAAUpnbHlmW/HoBwAAA4gAAA9QaGVhZAyD6V8AAADQAAAANmhoZWEOogcgAAAArAAAACRobXR42QAAAAAAAYAAAAB8bG9jYTDINOoAAANIAAAAQG1heHABMAB5AAABCAAAACBuYW1l1cf1oAAAEtgAAAIKcG9zdGZEjeMAABTkAAABgQABAAAHAAAAAKEHAAAAAAAHAAABAAAAAAAAAAAAAAAAAAAAHwABAAAAAQAAwdxheF8PPPUACwcAAAAAANMyzzEAAAAA0zLPMQAAAAAHAAcAAAAACAACAAAAAAAAAAEAAAAfAG0ABwAAAAAAAgAAAAoACgAAAP8AAAAAAAAAAQcAAZAABQAIBHEE5gAAAPoEcQTmAAADXABXAc4AAAIABQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUGZFZABA8QHxHgcAAAAAoQcAAAAAAAABAAAAAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAAAAAMAAAADAAAAHAABAAAAAABEAAMAAQAAABwABAAoAAAABgAEAAEAAgAA8R7//wAAAADxAf//AAAPAAABAAAAAAAAAAABBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAFAAZgCyAMYA5gEeAUgBdAGcAfICLgKOAroDCgOOA7AD6gQ4BHwEuAToBQwFogXoBjYGbAbaB3IHqAABAAAAAAWLBYsAAgAAAREBAlUDNgWL++oCCwAAAwAAAAAGawZrAAIADgAaAAAJAhMEAAMSAAUkABMCAAEmACc2ADcWABcGAALrAcD+QJX+w/5aCAgBpgE9AT0BpggI/lr+w/3+rgYGAVL9/QFSBgb+rgIwAVABUAGbCP5a/sP+w/5aCAgBpgE9AT0BpvrIBgFS/f0BUgYG/q79/f6uAAAAAgAAAAAFQAWLAAMABwAAASERKQERIREBwAEr/tUCVQErAXUEFvvqBBYAAAAEAAAAAAYgBiAABgATACQAJwAAAS4BJxUXNjcGBxc+ATUmACcVFhIBBwEhESEBEQEGBxU+ATcXNwEHFwTQAWVVuAO7AidxJSgF/t/lpc77t18BYf6fASsBdQE+TF1OijuZX/1gnJwDgGSeK6W4GBhqW3FGnFT0AWM4mjT+9AHrX/6f/kD+iwH2/sI7HZoSRDGYXwSWnJwAAAEAAAAABKsF1gAFAAABESEBEQECCwEqAXb+igRg/kD+iwSq/osAAAACAAAAAAVmBdYABgAMAAABLgEnET4BAREhAREBBWUBZVRUZfwRASsBdf6LA4Bkniv9piueAUT+QP6LBKr+iwAAAwAAAAAGIAYPAAUADAAaAAATESEBEQEFLgEnET4BAxUWEhcGAgcVNgA3JgDgASsBdf6LAsUBZVVVZbqlzgMDzqXlASEFBf7fBGD+QP6LBKr+i+Bkniv9piueAvOaNP70tbX+9DSaOAFi9fUBYgAAAAQAAAAABYsFiwAFAAsAEQAXAAABIxEhNSMDMzUzNSEBIxUhESMDFTMVMxECC5YBduCWluD+igOA4AF2luDglgLr/oqWAgrglvyAlgF2AqCW4AF2AAQAAAAABYsFiwAFAAsAEQAXAAABMxUzESETIxUhESMBMzUzNSETNSMRITUBdeCW/org4AF2lgHAluD+ipaWAXYCVeABdgHAlgF2++rglgHA4P6KlgAAAAACAAAAAAXWBdYADwATAAABIQ4BBxEeARchPgE3ES4BAyERIQVA/IA/VQEBVT8DgD9VAQFVP/yAA4AF1QFVP/yAP1UBAVU/A4A/VfvsA4AAAAYAAAAABmsGawAHAAwAEwAbACAAKAAACQEmJw4BBwElLgEnAQUhATYSNyYFAQYCBxYXIQUeARcBMwEWFz4BNwECvgFkTlSH8GEBEgOONemh/u4C5f3QAXpcaAEB/BP+3VxoAQEOAjD95DXpoQESeP7dTlSH8GH+7gPwAmgSAQFYUP4nd6X2Pv4nS/1zZAEBk01NAfhk/v+TTUhLpfY+Adn+CBIBAVhQAdkAAAAFAAAAAAZrBdYADwATABcAGwAfAAABIQ4BBxEeARchPgE3ES4BASEVIQEhNSEFITUhNSE1IQXV+1ZAVAICVEAEqkBUAgJU+xYBKv7WAur9FgLqAcD+1gEq/RYC6gXVAVU//IA/VQEBVT8DgD9V/ayV/tWVlZWWlQADAAAAAAYgBdYADwAnAD8AAAEhDgEHER4BFyE+ATcRLgEBIzUjFTM1MxUUBgcjLgEnET4BNzMeARUFIzUjFTM1MxUOAQcjLgE1ETQ2NzMeARcFi/vqP1QCAlQ/BBY/VAICVP1rcJWVcCog4CAqAQEqIOAgKgILcJWVcAEqIOAgKiog4CAqAQXVAVU//IA/VQEBVT8DgD9V/fcl4CVKICoBASogASogKgEBKiBKJeAlSiAqAQEqIAEqICoBASogAAAGAAAAAAYgBPYAAwAHAAsADwATABcAABMzNSMRMzUjETM1IwEhNSERITUhERUhNeCVlZWVlZUBKwQV++sEFfvrBBUDNZb+QJUBwJX+QJb+QJUCVZWVAAAAAQAAAAAGIAZsAC4AAAEiBgcBNjQnAR4BMz4BNy4BJw4BBxQXAS4BIw4BBx4BFzI2NwEGBx4BFz4BNy4BBUArSh797AcHAg8eTixffwICf19ffwIH/fEeTixffwICf18sTh4CFAUBA3tcXHsDA3sCTx8bATcZNhkBNB0gAn9fX38CAn9fGxn+zRwgAn9fX38CIBz+yhcaXHsCAntcXXsAAAIAAAAABlkGawBDAE8AAAE2NCc3PgEnAy4BDwEmLwEuASchDgEPAQYHJyYGBwMGFh8BBhQXBw4BFxMeAT8BFh8BHgEXIT4BPwE2NxcWNjcTNiYnBS4BJz4BNx4BFw4BBasFBZ4KBgeWBxkNujpEHAMUD/7WDxQCHEU5ug0aB5UHBQudBQWdCwUHlQcaDbo5RRwCFA8BKg8UAhxFOboNGgeVBwUL/ThvlAIClG9vlAIClAM3JEokewkaDQEDDAkFSy0cxg4RAQERDsYcLUsFCQz+/QwbCXskSiR7CRoN/v0MCQVLLRzGDhEBAREOxhwtSwUJDAEDDBsJQQKUb2+UAgKUb2+UAAAAAAEAAAAABmsGawALAAATEgAFJAATAgAlBACVCAGmAT0BPQGmCAj+Wv7D/sP+WgOA/sP+WggIAaYBPQE9AaYICP5aAAAAAgAAAAAGawZrAAsAFwAAAQQAAxIABSQAEwIAASYAJzYANxYAFwYAA4D+w/5aCAgBpgE9AT0BpggI/lr+w/3+rgYGAVL9/QFSBgb+rgZrCP5a/sP+w/5aCAgBpgE9AT0BpvrIBgFS/f0BUgYG/q79/f6uAAADAAAAAAZrBmsACwAXACMAAAEEAAMSAAUkABMCAAEmACc2ADcWABcGAAMOAQcuASc+ATceAQOA/sP+WggIAaYBPQE9AaYICP5a/sP9/q4GBgFS/f0BUgYG/q4dAn9fX38CAn9fX38Gawj+Wv7D/sP+WggIAaYBPQE9Aab6yAYBUv39AVIGBv6u/f3+rgJPX38CAn9fX38CAn8AAAAEAAAAAAYgBiAADwAbACUAKQAAASEOAQcRHgEXIT4BNxEuAQEjNSMVIxEzFTM1OwEhHgEXEQ4BByE3MzUjBYv76j9UAgJUPwQWP1QCAlT9a3CVcHCVcJYBKiAqAQEqIP7WcJWVBiACVD/76j9UAgJUPwQWP1T8gpWVAcC7uwEqIP7WICoBcOAAAgAAAAAGawZrAAsAFwAAAQQAAxIABSQAEwIAEwcJAScJATcJARcBA4D+w/5aCAgBpgE9AT0BpggI/lo4af70/vRpAQv+9WkBDAEMaf71BmsI/lr+w/7D/loICAGmAT0BPQGm/BFpAQv+9WkBDAEMaf71AQtp/vQAAQAAAAAF1ga2ABYAAAERCQERHgEXDgEHLgEnIxYAFzYANyYAA4D+iwF1vv0FBf2+vv0FlQYBUf7+AVEGBv6vBYsBKv6L/osBKgT9v779BQX9vv7+rwYGAVH+/gFRAAAAAQAAAAAFPwcAABQAAAERIyIGHQEhAyMRIREjETM1NDYzMgU/nVY8ASUn/v7O///QrZMG9P74SEi9/tj9CQL3ASjaus0AAAAABAAAAAAGjgcAADAARQBgAGwAAAEUHgMVFAcGBCMiJicmNTQ2NzYlLgE1NDcGIyImNTQ2Nz4BMyEHIx4BFRQOAycyNjc2NTQuAiMiBgcGFRQeAxMyPgI1NC4BLwEmLwImIyIOAxUUHgIBMxUjFSM1IzUzNTMDH0BbWkAwSP7qn4TlOSVZSoMBESAfFS4WlMtIP03TcAGiioNKTDFFRjGSJlAaNSI/akAqURkvFCs9WTY6a1s3Dg8THgocJU4QIDVob1M2RnF9A2vV1WnU1GkD5CRFQ1CATlpTenNTYDxHUYouUhIqQCkkMQTBlFKaNkJAWD+MWkhzRztAPiEbOWY6hn1SJyE7ZS5nZ1I0/JcaNF4+GTAkGCMLFx04Ag4kOF07Rms7HQNsbNvbbNkAAwAAAAAGgAZsAAMADgAqAAABESERARYGKwEiJjQ2MhYBESERNCYjIgYHBhURIRIQLwEhFSM+AzMyFgHd/rYBXwFnVAJSZGemZASP/rdRVj9VFQv+twIBAQFJAhQqR2c/q9AEj/whA98BMkliYpNhYfzd/cgCEml3RTMeM/3XAY8B8DAwkCAwOB/jAAABAAAAAAaUBgAAMQAAAQYHFhUUAg4BBCMgJxYzMjcuAScWMzI3LgE9ARYXLgE1NDcWBBcmNTQ2MzIXNjcGBzYGlENfAUyb1v7SrP7x4SMr4bBpph8hHCsqcJNETkJOLHkBW8YIvYaMYG1gJWldBWhiRQ4cgv797rdtkQSKAn1hBQsXsXUEJgMsjlNYS5WzCiYkhr1mFTlzPwoAAAABAAAAAAWABwAAIgAAARcOAQcGLgM1ESM1PgQ3PgE7AREhFSERFB4CNzYFMFAXsFlorXBOIahIckQwFAUBBwT0AU3+sg0gQzBOAc/tIz4BAjhceHg6AiDXGlddb1ctBQf+WPz9+h40NR4BAgABAAAAAAaABoAASgAAARQCBCMiJzY/AR4BMzI+ATU0LgEjIg4DFRQWFxY/ATY3NicmNTQ2MzIWFRQGIyImNz4CNTQmIyIGFRQXAwYXJgI1NBIkIAQSBoDO/p/Rb2s7EzYUaj15vmh34o5ptn9bK1BNHggIBgIGETPRqZepiWs9Sg4IJRc2Mj5WGWMRBM7+zgFhAaIBYc4DgNH+n84gXUfTJzmJ8JZyyH46YH2GQ2ieIAwgHxgGFxQ9WpfZpIOq7lc9I3VZHzJCclVJMf5eRmtbAXzp0QFhzs7+nwAABwAAAAAHAATPAA4AFwAqAD0AUABaAF0AAAERNh4CBw4BBwYmIycmNxY2NzYmBxEUBRY2Nz4BNy4BJyMGHwEeARcOARcWNjc+ATcuAScjBh8BHgEXFAYXFjY3PgE3LgEnIwYfAR4BFw4BBTM/ARUzESMGAyUVJwMchM2UWwgNq4JHrQgBAapUaAoJcWMBfiIhDiMrAQJLMB0BBAokNAIBPmMiIQ4iLAECSzAeAQUKJDQBP2MiIQ4iLAECSzAeAQUKJDQBAT75g+5B4arNLNIBJ44ByQL9BQ9mvYCKwA8FBQMDwwJVTGdzBf6VB8IHNR08lld9uT4LCRA/qGNxvUwHNR08lld9uT4LCRA/qGNxvUwHNR08lld9uT4LCRA/qGNxvVJkAWUDDEf+tYP5AQAAAAEAAAAABiAGtgAbAAABBAADER4BFzMRITU2ADcWABcVIREzPgE3EQIAA4D+4v6FBwJ/X+D+1QYBJ97eAScG/tXgX38CB/6FBrUH/oX+4v32X38CAlWV3gEnBgb+2d6V/asCf18CCgEeAXsAAAAAEADGAAEAAAAAAAEABwAAAAEAAAAAAAIABwAHAAEAAAAAAAMABwAOAAEAAAAAAAQABwAVAAEAAAAAAAUACwAcAAEAAAAAAAYABwAnAAEAAAAAAAoAKwAuAAEAAAAAAAsAEwBZAAMAAQQJAAEADgBsAAMAAQQJAAIADgB6AAMAAQQJAAMADgCIAAMAAQQJAAQADgCWAAMAAQQJAAUAFgCkAAMAAQQJAAYADgC6AAMAAQQJAAoAVgDIAAMAAQQJAAsAJgEeVmlkZW9KU1JlZ3VsYXJWaWRlb0pTVmlkZW9KU1ZlcnNpb24gMS4wVmlkZW9KU0dlbmVyYXRlZCBieSBzdmcydHRmIGZyb20gRm9udGVsbG8gcHJvamVjdC5odHRwOi8vZm9udGVsbG8uY29tAFYAaQBkAGUAbwBKAFMAUgBlAGcAdQBsAGEAcgBWAGkAZABlAG8ASgBTAFYAaQBkAGUAbwBKAFMAVgBlAHIAcwBpAG8AbgAgADEALgAwAFYAaQBkAGUAbwBKAFMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABzAHYAZwAyAHQAdABmACAAZgByAG8AbQAgAEYAbwBuAHQAZQBsAGwAbwAgAHAAcgBvAGoAZQBjAHQALgBoAHQAdABwADoALwAvAGYAbwBuAHQAZQBsAGwAbwAuAGMAbwBtAAAAAgAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAABAgEDAQQBBQEGAQcBCAEJAQoBCwEMAQ0BDgEPARABEQESARMBFAEVARYBFwEYARkBGgEbARwBHQEeAR8EcGxheQtwbGF5LWNpcmNsZQVwYXVzZQt2b2x1bWUtbXV0ZQp2b2x1bWUtbG93CnZvbHVtZS1taWQLdm9sdW1lLWhpZ2gQZnVsbHNjcmVlbi1lbnRlcg9mdWxsc2NyZWVuLWV4aXQGc3F1YXJlB3NwaW5uZXIJc3VidGl0bGVzCGNhcHRpb25zCGNoYXB0ZXJzBXNoYXJlA2NvZwZjaXJjbGUOY2lyY2xlLW91dGxpbmUTY2lyY2xlLWlubmVyLWNpcmNsZQJoZAZjYW5jZWwGcmVwbGF5CGZhY2Vib29rBWdwbHVzCGxpbmtlZGluB3R3aXR0ZXIGdHVtYmxyCXBpbnRlcmVzdBFhdWRpby1kZXNjcmlwdGlvbgVhdWRpbwAAAAAA) format(\"truetype\");\n  font-weight: normal;\n  font-style: normal; }\n\n.vjs-icon-play, .video-js .vjs-big-play-button, .video-js .vjs-play-control {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-play:before, .video-js .vjs-big-play-button:before, .video-js .vjs-play-control:before {\n    content: \"\\F101\"; }\n\n.vjs-icon-play-circle {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-play-circle:before {\n    content: \"\\F102\"; }\n\n.vjs-icon-pause, .video-js .vjs-play-control.vjs-playing {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-pause:before, .video-js .vjs-play-control.vjs-playing:before {\n    content: \"\\F103\"; }\n\n.vjs-icon-volume-mute, .video-js .vjs-mute-control.vjs-vol-0,\n.video-js .vjs-volume-menu-button.vjs-vol-0 {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-mute:before, .video-js .vjs-mute-control.vjs-vol-0:before,\n  .video-js .vjs-volume-menu-button.vjs-vol-0:before {\n    content: \"\\F104\"; }\n\n.vjs-icon-volume-low, .video-js .vjs-mute-control.vjs-vol-1,\n.video-js .vjs-volume-menu-button.vjs-vol-1 {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-low:before, .video-js .vjs-mute-control.vjs-vol-1:before,\n  .video-js .vjs-volume-menu-button.vjs-vol-1:before {\n    content: \"\\F105\"; }\n\n.vjs-icon-volume-mid, .video-js .vjs-mute-control.vjs-vol-2,\n.video-js .vjs-volume-menu-button.vjs-vol-2 {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-mid:before, .video-js .vjs-mute-control.vjs-vol-2:before,\n  .video-js .vjs-volume-menu-button.vjs-vol-2:before {\n    content: \"\\F106\"; }\n\n.vjs-icon-volume-high, .video-js .vjs-mute-control,\n.video-js .vjs-volume-menu-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-high:before, .video-js .vjs-mute-control:before,\n  .video-js .vjs-volume-menu-button:before {\n    content: \"\\F107\"; }\n\n.vjs-icon-fullscreen-enter, .video-js .vjs-fullscreen-control {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-fullscreen-enter:before, .video-js .vjs-fullscreen-control:before {\n    content: \"\\F108\"; }\n\n.vjs-icon-fullscreen-exit, .video-js.vjs-fullscreen .vjs-fullscreen-control {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-fullscreen-exit:before, .video-js.vjs-fullscreen .vjs-fullscreen-control:before {\n    content: \"\\F109\"; }\n\n.vjs-icon-square {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-square:before {\n    content: \"\\F10A\"; }\n\n.vjs-icon-spinner {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-spinner:before {\n    content: \"\\F10B\"; }\n\n.vjs-icon-subtitles, .video-js .vjs-subtitles-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-subtitles:before, .video-js .vjs-subtitles-button:before {\n    content: \"\\F10C\"; }\n\n.vjs-icon-captions, .video-js .vjs-captions-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-captions:before, .video-js .vjs-captions-button:before {\n    content: \"\\F10D\"; }\n\n.vjs-icon-chapters, .video-js .vjs-chapters-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-chapters:before, .video-js .vjs-chapters-button:before {\n    content: \"\\F10E\"; }\n\n.vjs-icon-share {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-share:before {\n    content: \"\\F10F\"; }\n\n.vjs-icon-cog {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-cog:before {\n    content: \"\\F110\"; }\n\n.vjs-icon-circle, .video-js .vjs-mouse-display, .video-js .vjs-play-progress, .video-js .vjs-volume-level {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-circle:before, .video-js .vjs-mouse-display:before, .video-js .vjs-play-progress:before, .video-js .vjs-volume-level:before {\n    content: \"\\F111\"; }\n\n.vjs-icon-circle-outline {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-circle-outline:before {\n    content: \"\\F112\"; }\n\n.vjs-icon-circle-inner-circle {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-circle-inner-circle:before {\n    content: \"\\F113\"; }\n\n.vjs-icon-hd {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-hd:before {\n    content: \"\\F114\"; }\n\n.vjs-icon-cancel, .video-js .vjs-control.vjs-close-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-cancel:before, .video-js .vjs-control.vjs-close-button:before {\n    content: \"\\F115\"; }\n\n.vjs-icon-replay {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-replay:before {\n    content: \"\\F116\"; }\n\n.vjs-icon-facebook {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-facebook:before {\n    content: \"\\F117\"; }\n\n.vjs-icon-gplus {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-gplus:before {\n    content: \"\\F118\"; }\n\n.vjs-icon-linkedin {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-linkedin:before {\n    content: \"\\F119\"; }\n\n.vjs-icon-twitter {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-twitter:before {\n    content: \"\\F11A\"; }\n\n.vjs-icon-tumblr {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-tumblr:before {\n    content: \"\\F11B\"; }\n\n.vjs-icon-pinterest {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-pinterest:before {\n    content: \"\\F11C\"; }\n\n.vjs-icon-audio-description, .video-js .vjs-descriptions-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-audio-description:before, .video-js .vjs-descriptions-button:before {\n    content: \"\\F11D\"; }\n\n.vjs-icon-audio, .video-js .vjs-audio-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-audio:before, .video-js .vjs-audio-button:before {\n    content: \"\\F11E\"; }\n\n.video-js {\n  display: block;\n  vertical-align: top;\n  box-sizing: border-box;\n  color: #fff;\n  background-color: #000;\n  position: relative;\n  padding: 0;\n  font-size: 10px;\n  line-height: 1;\n  font-weight: normal;\n  font-style: normal;\n  font-family: Arial, Helvetica, sans-serif;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none; }\n  .video-js:-moz-full-screen {\n    position: absolute; }\n  .video-js:-webkit-full-screen {\n    width: 100% !important;\n    height: 100% !important; }\n\n.video-js *,\n.video-js *:before,\n.video-js *:after {\n  box-sizing: inherit; }\n\n.video-js ul {\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n  list-style-position: outside;\n  margin-left: 0;\n  margin-right: 0;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.video-js.vjs-fluid,\n.video-js.vjs-16-9,\n.video-js.vjs-4-3 {\n  width: 100%;\n  max-width: 100%;\n  height: 0; }\n\n.video-js.vjs-16-9 {\n  padding-top: 56.25%; }\n\n.video-js.vjs-4-3 {\n  padding-top: 75%; }\n\n.video-js.vjs-fill {\n  width: 100%;\n  height: 100%; }\n\n.video-js .vjs-tech {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\nbody.vjs-full-window {\n  padding: 0;\n  margin: 0;\n  height: 100%;\n  overflow-y: auto; }\n\n.vjs-full-window .video-js.vjs-fullscreen {\n  position: fixed;\n  overflow: hidden;\n  z-index: 1000;\n  left: 0;\n  top: 0;\n  bottom: 0;\n  right: 0; }\n\n.video-js.vjs-fullscreen {\n  width: 100% !important;\n  height: 100% !important;\n  padding-top: 0 !important; }\n\n.video-js.vjs-fullscreen.vjs-user-inactive {\n  cursor: none; }\n\n.vjs-hidden {\n  display: none !important; }\n\n.vjs-disabled {\n  opacity: 0.5;\n  cursor: default; }\n\n.video-js .vjs-offscreen {\n  height: 1px;\n  left: -9999px;\n  position: absolute;\n  top: 0;\n  width: 1px; }\n\n.vjs-lock-showing {\n  display: block !important;\n  opacity: 1;\n  visibility: visible; }\n\n.vjs-no-js {\n  padding: 20px;\n  color: #fff;\n  background-color: #000;\n  font-size: 18px;\n  font-family: Arial, Helvetica, sans-serif;\n  text-align: center;\n  width: 300px;\n  height: 150px;\n  margin: 0px auto; }\n\n.vjs-no-js a,\n.vjs-no-js a:visited {\n  color: #66A8CC; }\n\n.video-js .vjs-big-play-button {\n  font-size: 3em;\n  line-height: 1.5em;\n  height: 1.5em;\n  width: 3em;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  padding: 0;\n  cursor: pointer;\n  opacity: 1;\n  border: 0.06666em solid #fff;\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.7);\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  transition: all 0.4s; }\n\n.vjs-big-play-centered .vjs-big-play-button {\n  top: 50%;\n  left: 50%;\n  margin-top: -0.75em;\n  margin-left: -1.5em; }\n\n.video-js:hover .vjs-big-play-button,\n.video-js .vjs-big-play-button:focus {\n  outline: 0;\n  border-color: #fff;\n  background-color: #73859f;\n  background-color: rgba(115, 133, 159, 0.5);\n  -webkit-transition: all 0s;\n  -moz-transition: all 0s;\n  -o-transition: all 0s;\n  transition: all 0s; }\n\n.vjs-controls-disabled .vjs-big-play-button,\n.vjs-has-started .vjs-big-play-button,\n.vjs-using-native-controls .vjs-big-play-button,\n.vjs-error .vjs-big-play-button {\n  display: none; }\n\n.video-js button {\n  background: none;\n  border: none;\n  color: inherit;\n  display: inline-block;\n  overflow: visible;\n  font-size: inherit;\n  line-height: inherit;\n  text-transform: none;\n  text-decoration: none;\n  transition: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\n\n.video-js .vjs-control.vjs-close-button {\n  cursor: pointer;\n  height: 3em;\n  position: absolute;\n  right: 0;\n  top: 0.5em;\n  z-index: 2; }\n\n.vjs-menu-button {\n  cursor: pointer; }\n\n.vjs-menu-button.vjs-disabled {\n  cursor: default; }\n\n.vjs-workinghover .vjs-menu-button.vjs-disabled:hover .vjs-menu {\n  display: none; }\n\n.vjs-menu .vjs-menu-content {\n  display: block;\n  padding: 0;\n  margin: 0;\n  overflow: auto; }\n\n.vjs-scrubbing .vjs-menu-button:hover .vjs-menu {\n  display: none; }\n\n.vjs-menu li {\n  list-style: none;\n  margin: 0;\n  padding: 0.2em 0;\n  line-height: 1.4em;\n  font-size: 1.2em;\n  text-align: center;\n  text-transform: lowercase; }\n\n.vjs-menu li:focus,\n.vjs-menu li:hover {\n  outline: 0;\n  background-color: #73859f;\n  background-color: rgba(115, 133, 159, 0.5); }\n\n.vjs-menu li.vjs-selected,\n.vjs-menu li.vjs-selected:focus,\n.vjs-menu li.vjs-selected:hover {\n  background-color: #fff;\n  color: #2B333F; }\n\n.vjs-menu li.vjs-menu-title {\n  text-align: center;\n  text-transform: uppercase;\n  font-size: 1em;\n  line-height: 2em;\n  padding: 0;\n  margin: 0 0 0.3em 0;\n  font-weight: bold;\n  cursor: default; }\n\n.vjs-menu-button-popup .vjs-menu {\n  display: none;\n  position: absolute;\n  bottom: 0;\n  width: 10em;\n  left: -3em;\n  height: 0em;\n  margin-bottom: 1.5em;\n  border-top-color: rgba(43, 51, 63, 0.7); }\n\n.vjs-menu-button-popup .vjs-menu .vjs-menu-content {\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.7);\n  position: absolute;\n  width: 100%;\n  bottom: 1.5em;\n  max-height: 15em; }\n\n.vjs-workinghover .vjs-menu-button-popup:hover .vjs-menu,\n.vjs-menu-button-popup .vjs-menu.vjs-lock-showing {\n  display: block; }\n\n.video-js .vjs-menu-button-inline {\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  transition: all 0.4s;\n  overflow: hidden; }\n\n.video-js .vjs-menu-button-inline:before {\n  width: 2.222222222em; }\n\n.video-js .vjs-menu-button-inline:hover,\n.video-js .vjs-menu-button-inline:focus,\n.video-js .vjs-menu-button-inline.vjs-slider-active,\n.video-js.vjs-no-flex .vjs-menu-button-inline {\n  width: 12em; }\n\n.video-js .vjs-menu-button-inline.vjs-slider-active {\n  -webkit-transition: none;\n  -moz-transition: none;\n  -o-transition: none;\n  transition: none; }\n\n.vjs-menu-button-inline .vjs-menu {\n  opacity: 0;\n  height: 100%;\n  width: auto;\n  position: absolute;\n  left: 4em;\n  top: 0;\n  padding: 0;\n  margin: 0;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  transition: all 0.4s; }\n\n.vjs-menu-button-inline:hover .vjs-menu,\n.vjs-menu-button-inline:focus .vjs-menu,\n.vjs-menu-button-inline.vjs-slider-active .vjs-menu {\n  display: block;\n  opacity: 1; }\n\n.vjs-no-flex .vjs-menu-button-inline .vjs-menu {\n  display: block;\n  opacity: 1;\n  position: relative;\n  width: auto; }\n\n.vjs-no-flex .vjs-menu-button-inline:hover .vjs-menu,\n.vjs-no-flex .vjs-menu-button-inline:focus .vjs-menu,\n.vjs-no-flex .vjs-menu-button-inline.vjs-slider-active .vjs-menu {\n  width: auto; }\n\n.vjs-menu-button-inline .vjs-menu-content {\n  width: auto;\n  height: 100%;\n  margin: 0;\n  overflow: hidden; }\n\n.video-js .vjs-control-bar {\n  display: none;\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  height: 3.0em;\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.7); }\n\n.vjs-has-started .vjs-control-bar {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  visibility: visible;\n  opacity: 1;\n  -webkit-transition: visibility 0.1s, opacity 0.1s;\n  -moz-transition: visibility 0.1s, opacity 0.1s;\n  -o-transition: visibility 0.1s, opacity 0.1s;\n  transition: visibility 0.1s, opacity 0.1s; }\n\n.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {\n  visibility: visible;\n  opacity: 0;\n  -webkit-transition: visibility 1s, opacity 1s;\n  -moz-transition: visibility 1s, opacity 1s;\n  -o-transition: visibility 1s, opacity 1s;\n  transition: visibility 1s, opacity 1s; }\n  @media \\0screen {\n    .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {\n      visibility: hidden; } }\n\n.vjs-controls-disabled .vjs-control-bar,\n.vjs-using-native-controls .vjs-control-bar,\n.vjs-error .vjs-control-bar {\n  display: none !important; }\n\n.vjs-audio.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {\n  opacity: 1;\n  visibility: visible; }\n\n@media \\0screen {\n  .vjs-user-inactive.vjs-playing .vjs-control-bar :before {\n    content: \"\"; } }\n\n.vjs-has-started.vjs-no-flex .vjs-control-bar {\n  display: table; }\n\n.video-js .vjs-control {\n  outline: none;\n  position: relative;\n  text-align: center;\n  margin: 0;\n  padding: 0;\n  height: 100%;\n  width: 4em;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n  .video-js .vjs-control:before {\n    font-size: 1.8em;\n    line-height: 1.67; }\n\n.video-js .vjs-control:focus:before,\n.video-js .vjs-control:hover:before,\n.video-js .vjs-control:focus {\n  text-shadow: 0em 0em 1em white; }\n\n.video-js .vjs-control-text {\n  border: 0;\n  clip: rect(0 0 0 0);\n  height: 1px;\n  margin: -1px;\n  overflow: hidden;\n  padding: 0;\n  position: absolute;\n  width: 1px; }\n\n.vjs-no-flex .vjs-control {\n  display: table-cell;\n  vertical-align: middle; }\n\n.video-js .vjs-custom-control-spacer {\n  display: none; }\n\n.video-js .vjs-progress-control {\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center;\n  min-width: 4em; }\n\n.vjs-live .vjs-progress-control {\n  display: none; }\n\n.video-js .vjs-progress-holder {\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto;\n  -webkit-transition: all 0.2s;\n  -moz-transition: all 0.2s;\n  -o-transition: all 0.2s;\n  transition: all 0.2s;\n  height: 0.3em; }\n\n.video-js .vjs-progress-control:hover .vjs-progress-holder {\n  font-size: 1.666666666666666666em; }\n\n/* If we let the font size grow as much as everything else, the current time tooltip ends up\n ginormous. If you'd like to enable the current time tooltip all the time, this should be disabled\n to avoid a weird hitch when you roll off the hover. */\n.video-js .vjs-progress-control:hover .vjs-time-tooltip,\n.video-js .vjs-progress-control:hover .vjs-mouse-display:after,\n.video-js .vjs-progress-control:hover .vjs-play-progress:after {\n  font-family: Arial, Helvetica, sans-serif;\n  visibility: visible;\n  font-size: 0.6em; }\n\n.video-js .vjs-progress-holder .vjs-play-progress,\n.video-js .vjs-progress-holder .vjs-load-progress,\n.video-js .vjs-progress-holder .vjs-tooltip-progress-bar,\n.video-js .vjs-progress-holder .vjs-load-progress div {\n  position: absolute;\n  display: block;\n  height: 0.3em;\n  margin: 0;\n  padding: 0;\n  width: 0;\n  left: 0;\n  top: 0; }\n\n.video-js .vjs-mouse-display:before {\n  display: none; }\n\n.video-js .vjs-play-progress {\n  background-color: #fff; }\n  .video-js .vjs-play-progress:before {\n    position: absolute;\n    top: -0.333333333333333em;\n    right: -0.5em;\n    font-size: 0.9em; }\n\n.video-js .vjs-time-tooltip,\n.video-js .vjs-mouse-display:after,\n.video-js .vjs-play-progress:after {\n  visibility: hidden;\n  pointer-events: none;\n  position: absolute;\n  top: -3.4em;\n  right: -1.9em;\n  font-size: 0.9em;\n  color: #000;\n  content: attr(data-current-time);\n  padding: 6px 8px 8px 8px;\n  background-color: #fff;\n  background-color: rgba(255, 255, 255, 0.8);\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em; }\n\n.video-js .vjs-time-tooltip,\n.video-js .vjs-play-progress:before,\n.video-js .vjs-play-progress:after {\n  z-index: 1; }\n\n.video-js .vjs-progress-control .vjs-keep-tooltips-inside:after {\n  display: none; }\n\n.video-js .vjs-load-progress {\n  background: #bfc7d3;\n  background: rgba(115, 133, 159, 0.5); }\n\n.video-js .vjs-load-progress div {\n  background: white;\n  background: rgba(115, 133, 159, 0.75); }\n\n.video-js.vjs-no-flex .vjs-progress-control {\n  width: auto; }\n\n.video-js .vjs-time-tooltip {\n  display: inline-block;\n  height: 2.4em;\n  position: relative;\n  float: right;\n  right: -1.9em; }\n\n.vjs-tooltip-progress-bar {\n  visibility: hidden; }\n\n.video-js .vjs-progress-control .vjs-mouse-display {\n  display: none;\n  position: absolute;\n  width: 1px;\n  height: 100%;\n  background-color: #000;\n  z-index: 1; }\n\n.vjs-no-flex .vjs-progress-control .vjs-mouse-display {\n  z-index: 0; }\n\n.video-js .vjs-progress-control:hover .vjs-mouse-display {\n  display: block; }\n\n.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display,\n.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display:after {\n  visibility: hidden;\n  opacity: 0;\n  -webkit-transition: visibility 1s, opacity 1s;\n  -moz-transition: visibility 1s, opacity 1s;\n  -o-transition: visibility 1s, opacity 1s;\n  transition: visibility 1s, opacity 1s; }\n\n.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display,\n.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display:after {\n  display: none; }\n\n.vjs-mouse-display .vjs-time-tooltip,\n.video-js .vjs-progress-control .vjs-mouse-display:after {\n  color: #fff;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.8); }\n\n.video-js .vjs-slider {\n  outline: 0;\n  position: relative;\n  cursor: pointer;\n  padding: 0;\n  margin: 0 0.45em 0 0.45em;\n  background-color: #73859f;\n  background-color: rgba(115, 133, 159, 0.5); }\n\n.video-js .vjs-slider:focus {\n  text-shadow: 0em 0em 1em white;\n  -webkit-box-shadow: 0 0 1em #fff;\n  -moz-box-shadow: 0 0 1em #fff;\n  box-shadow: 0 0 1em #fff; }\n\n.video-js .vjs-mute-control,\n.video-js .vjs-volume-menu-button {\n  cursor: pointer;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n\n.video-js .vjs-volume-control {\n  width: 5em;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center; }\n\n.video-js .vjs-volume-bar {\n  margin: 1.35em 0.45em; }\n\n.vjs-volume-bar.vjs-slider-horizontal {\n  width: 5em;\n  height: 0.3em; }\n\n.vjs-volume-bar.vjs-slider-vertical {\n  width: 0.3em;\n  height: 5em;\n  margin: 1.35em auto; }\n\n.video-js .vjs-volume-level {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  background-color: #fff; }\n  .video-js .vjs-volume-level:before {\n    position: absolute;\n    font-size: 0.9em; }\n\n.vjs-slider-vertical .vjs-volume-level {\n  width: 0.3em; }\n  .vjs-slider-vertical .vjs-volume-level:before {\n    top: -0.5em;\n    left: -0.3em; }\n\n.vjs-slider-horizontal .vjs-volume-level {\n  height: 0.3em; }\n  .vjs-slider-horizontal .vjs-volume-level:before {\n    top: -0.3em;\n    right: -0.5em; }\n\n.vjs-volume-bar.vjs-slider-vertical .vjs-volume-level {\n  height: 100%; }\n\n.vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {\n  width: 100%; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button .vjs-menu {\n  display: block;\n  width: 0;\n  height: 0;\n  border-top-color: transparent; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button-vertical .vjs-menu {\n  left: 0.5em;\n  height: 8em; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button-horizontal .vjs-menu {\n  left: -2em; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button .vjs-menu-content {\n  height: 0;\n  width: 0;\n  overflow-x: hidden;\n  overflow-y: hidden; }\n\n.vjs-volume-menu-button-vertical:hover .vjs-menu-content,\n.vjs-volume-menu-button-vertical:focus .vjs-menu-content,\n.vjs-volume-menu-button-vertical.vjs-slider-active .vjs-menu-content,\n.vjs-volume-menu-button-vertical .vjs-lock-showing .vjs-menu-content {\n  height: 8em;\n  width: 2.9em; }\n\n.vjs-volume-menu-button-horizontal:hover .vjs-menu-content,\n.vjs-volume-menu-button-horizontal:focus .vjs-menu-content,\n.vjs-volume-menu-button-horizontal .vjs-slider-active .vjs-menu-content,\n.vjs-volume-menu-button-horizontal .vjs-lock-showing .vjs-menu-content {\n  height: 2.9em;\n  width: 8em; }\n\n.vjs-volume-menu-button.vjs-menu-button-inline .vjs-menu-content {\n  background-color: transparent !important; }\n\n.vjs-poster {\n  display: inline-block;\n  vertical-align: middle;\n  background-repeat: no-repeat;\n  background-position: 50% 50%;\n  background-size: contain;\n  background-color: #000000;\n  cursor: pointer;\n  margin: 0;\n  padding: 0;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  height: 100%; }\n\n.vjs-poster img {\n  display: block;\n  vertical-align: middle;\n  margin: 0 auto;\n  max-height: 100%;\n  padding: 0;\n  width: 100%; }\n\n.vjs-has-started .vjs-poster {\n  display: none; }\n\n.vjs-audio.vjs-has-started .vjs-poster {\n  display: block; }\n\n.vjs-controls-disabled .vjs-poster {\n  display: none; }\n\n.vjs-using-native-controls .vjs-poster {\n  display: none; }\n\n.video-js .vjs-live-control {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: flex-start;\n  -webkit-align-items: flex-start;\n  -ms-flex-align: flex-start;\n  align-items: flex-start;\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto;\n  font-size: 1em;\n  line-height: 3em; }\n\n.vjs-no-flex .vjs-live-control {\n  display: table-cell;\n  width: auto;\n  text-align: left; }\n\n.video-js .vjs-time-control {\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none;\n  font-size: 1em;\n  line-height: 3em;\n  min-width: 2em;\n  width: auto;\n  padding-left: 1em;\n  padding-right: 1em; }\n\n.vjs-live .vjs-time-control {\n  display: none; }\n\n.video-js .vjs-current-time,\n.vjs-no-flex .vjs-current-time {\n  display: none; }\n\n.video-js .vjs-duration,\n.vjs-no-flex .vjs-duration {\n  display: none; }\n\n.vjs-time-divider {\n  display: none;\n  line-height: 3em; }\n\n.vjs-live .vjs-time-divider {\n  display: none; }\n\n.video-js .vjs-play-control {\n  cursor: pointer;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n\n.vjs-text-track-display {\n  position: absolute;\n  bottom: 3em;\n  left: 0;\n  right: 0;\n  top: 0;\n  pointer-events: none; }\n\n.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {\n  bottom: 1em; }\n\n.video-js .vjs-text-track {\n  font-size: 1.4em;\n  text-align: center;\n  margin-bottom: 0.1em;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.5); }\n\n.vjs-subtitles {\n  color: #fff; }\n\n.vjs-captions {\n  color: #fc6; }\n\n.vjs-tt-cue {\n  display: block; }\n\nvideo::-webkit-media-text-track-display {\n  -moz-transform: translateY(-3em);\n  -ms-transform: translateY(-3em);\n  -o-transform: translateY(-3em);\n  -webkit-transform: translateY(-3em);\n  transform: translateY(-3em); }\n\n.video-js.vjs-user-inactive.vjs-playing video::-webkit-media-text-track-display {\n  -moz-transform: translateY(-1.5em);\n  -ms-transform: translateY(-1.5em);\n  -o-transform: translateY(-1.5em);\n  -webkit-transform: translateY(-1.5em);\n  transform: translateY(-1.5em); }\n\n.video-js .vjs-fullscreen-control {\n  cursor: pointer;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n\n.vjs-playback-rate .vjs-playback-rate-value {\n  font-size: 1.5em;\n  line-height: 2;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center; }\n\n.vjs-playback-rate .vjs-menu {\n  width: 4em;\n  left: 0em; }\n\n.vjs-error .vjs-error-display .vjs-modal-dialog-content {\n  font-size: 1.4em;\n  text-align: center; }\n\n.vjs-error .vjs-error-display:before {\n  color: #fff;\n  content: 'X';\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 4em;\n  left: 0;\n  line-height: 1;\n  margin-top: -0.5em;\n  position: absolute;\n  text-shadow: 0.05em 0.05em 0.1em #000;\n  text-align: center;\n  top: 50%;\n  vertical-align: middle;\n  width: 100%; }\n\n.vjs-loading-spinner {\n  display: none;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin: -25px 0 0 -25px;\n  opacity: 0.85;\n  text-align: left;\n  border: 6px solid rgba(43, 51, 63, 0.7);\n  box-sizing: border-box;\n  background-clip: padding-box;\n  width: 50px;\n  height: 50px;\n  border-radius: 25px; }\n\n.vjs-seeking .vjs-loading-spinner,\n.vjs-waiting .vjs-loading-spinner {\n  display: block; }\n\n.vjs-loading-spinner:before,\n.vjs-loading-spinner:after {\n  content: \"\";\n  position: absolute;\n  margin: -6px;\n  box-sizing: inherit;\n  width: inherit;\n  height: inherit;\n  border-radius: inherit;\n  opacity: 1;\n  border: inherit;\n  border-color: transparent;\n  border-top-color: white; }\n\n.vjs-seeking .vjs-loading-spinner:before,\n.vjs-seeking .vjs-loading-spinner:after,\n.vjs-waiting .vjs-loading-spinner:before,\n.vjs-waiting .vjs-loading-spinner:after {\n  -webkit-animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite;\n  animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite; }\n\n.vjs-seeking .vjs-loading-spinner:before,\n.vjs-waiting .vjs-loading-spinner:before {\n  border-top-color: white; }\n\n.vjs-seeking .vjs-loading-spinner:after,\n.vjs-waiting .vjs-loading-spinner:after {\n  border-top-color: white;\n  -webkit-animation-delay: 0.44s;\n  animation-delay: 0.44s; }\n\n@keyframes vjs-spinner-spin {\n  100% {\n    transform: rotate(360deg); } }\n\n@-webkit-keyframes vjs-spinner-spin {\n  100% {\n    -webkit-transform: rotate(360deg); } }\n\n@keyframes vjs-spinner-fade {\n  0% {\n    border-top-color: #73859f; }\n  20% {\n    border-top-color: #73859f; }\n  35% {\n    border-top-color: white; }\n  60% {\n    border-top-color: #73859f; }\n  100% {\n    border-top-color: #73859f; } }\n\n@-webkit-keyframes vjs-spinner-fade {\n  0% {\n    border-top-color: #73859f; }\n  20% {\n    border-top-color: #73859f; }\n  35% {\n    border-top-color: white; }\n  60% {\n    border-top-color: #73859f; }\n  100% {\n    border-top-color: #73859f; } }\n\n.vjs-chapters-button .vjs-menu ul {\n  width: 24em; }\n\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-custom-control-spacer {\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto; }\n\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen).vjs-no-flex .vjs-custom-control-spacer {\n  width: auto; }\n\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-remaining-time,\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-playback-rate, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-progress-control,\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-menu-button,\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-captions-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-subtitles-button {\n  display: none; }\n\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-remaining-time,\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-playback-rate,\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-menu-button,\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-captions-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subtitles-button {\n  display: none; }\n\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-remaining-time,\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-playback-rate,\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-control,\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-captions-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-subtitles-button {\n  display: none; }\n\n.vjs-caption-settings {\n  position: relative;\n  top: 1em;\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.75);\n  color: #fff;\n  margin: 0 auto;\n  padding: 0.5em;\n  height: 15em;\n  font-size: 12px;\n  width: 40em; }\n\n.vjs-caption-settings .vjs-tracksettings {\n  top: 0;\n  bottom: 2em;\n  left: 0;\n  right: 0;\n  position: absolute;\n  overflow: auto; }\n\n.vjs-caption-settings .vjs-tracksettings-colors,\n.vjs-caption-settings .vjs-tracksettings-font {\n  float: left; }\n\n.vjs-caption-settings .vjs-tracksettings-colors:after,\n.vjs-caption-settings .vjs-tracksettings-font:after,\n.vjs-caption-settings .vjs-tracksettings-controls:after {\n  clear: both; }\n\n.vjs-caption-settings .vjs-tracksettings-controls {\n  position: absolute;\n  bottom: 1em;\n  right: 1em; }\n\n.vjs-caption-settings .vjs-tracksetting {\n  margin: 5px;\n  padding: 3px;\n  min-height: 40px; }\n\n.vjs-caption-settings .vjs-tracksetting label {\n  display: block;\n  width: 100px;\n  margin-bottom: 5px; }\n\n.vjs-caption-settings .vjs-tracksetting span {\n  display: inline;\n  margin-left: 5px; }\n\n.vjs-caption-settings .vjs-tracksetting > div {\n  margin-bottom: 5px;\n  min-height: 20px; }\n\n.vjs-caption-settings .vjs-tracksetting > div:last-child {\n  margin-bottom: 0;\n  padding-bottom: 0;\n  min-height: 0; }\n\n.vjs-caption-settings label > input {\n  margin-right: 10px; }\n\n.vjs-caption-settings input[type=\"button\"] {\n  width: 40px;\n  height: 40px; }\n\n.video-js .vjs-modal-dialog {\n  background: rgba(0, 0, 0, 0.8);\n  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));\n  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)); }\n\n.vjs-modal-dialog .vjs-modal-dialog-content {\n  font-size: 1.2em;\n  line-height: 1.5;\n  padding: 20px 24px;\n  z-index: 1; }\n", ""]);
+	exports.push([module.id, ".video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\n.video-js .vjs-big-play-button:before, .video-js .vjs-control:before {\n  text-align: center; }\n\n@font-face {\n  font-family: VideoJS;\n  src: url(" + __webpack_require__(373) + "?#iefix) format(\"eot\"); }\n\n@font-face {\n  font-family: VideoJS;\n  src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAA54AAoAAAAAFmgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAAA9AAAAD4AAABWUZFeBWNtYXAAAAE0AAAAOgAAAUriMBC2Z2x5ZgAAAXAAAAouAAAPUFvx6AdoZWFkAAALoAAAACsAAAA2DIPpX2hoZWEAAAvMAAAAGAAAACQOogcgaG10eAAAC+QAAAAPAAAAfNkAAABsb2NhAAAL9AAAAEAAAABAMMg06m1heHAAAAw0AAAAHwAAACABMAB5bmFtZQAADFQAAAElAAACCtXH9aBwb3N0AAANfAAAAPwAAAGBZkSN43icY2BkZ2CcwMDKwMFSyPKMgYHhF4RmjmEIZzzHwMDEwMrMgBUEpLmmMDh8ZPwoxw7iLmSHCDOCCADvEAo+AAB4nGNgYGBmgGAZBkYGEHAB8hjBfBYGDSDNBqQZGZgYGD7K/f8PUvCREUTzM0DVAwEjG8OIBwCPdwbVAAB4nI1Xe1CU1xX/zv1eLItLln0JwrIfC7sJGET2hRJ2N1GUoBJE8AESQEEhmBHjaB7UuBMTO4GMaSu7aY3RNlOdRPNqO2pqRmuTaSZtR6JJILUZk00a/4imjpmiecB303O/XUgMJOPufvd+99xzzz33nN855y4HHH7EfrGfIxwHRiANvF/sH71I9BzHszmpW+rGOQOXxXE6YhI4PoMT8zkT4cDFuf1cwMrZJI5cglM0HKVv0MaUFDgIFfg9mJJCG+kbKn1JkqBOVaFOkuhLpARq8fu0Nnc9/zdvfY9PxXW4PdH0C6N+PCejhorxFjAqRjgFRXSINEARbBGsoxcFK7IJmr4OycFJnInL59zIXwxui80fkGRbEHyosMWaATJKUfCskmwJQsAWANkmnIGOhlf514h7U8HNIv3owoHB0WMt0Eb3sx0guLi5pq/8Ny1q6969fKR9X9GBV6dPv6dp04K99SOwtmyPl47ApRa6n4ZpP1yjr5fn7MmYP/vXLUJs715UguklHBaHOZHZmG1N9FAIW2mf0MqWCIdo/8RZ1yGfxKUldDcGIbFA7ICO+vqOMSPTh/ZrSqgHi/bB/O8E8Mnzp+M+acxfpsTShBwej26TiGxBn7m4eEIO+Rueu6Hj+IFBnh88cAEUEQ//nVLx5C7kf+yIR47QEe+eMlhz9SqsGbe3hh2R03NGzoY6O42Kz8l7fB6fAk6LYnTyFo/FYyT6GGyNx2Jx2sdH4rA1Fo/HyCXaFyOp8dhYBCfJb2NIn1ImE6CYNGmgSTb52DawJR6jfXEmDU4xyTEmpgHHOIStoxfjSGdkbsK2w2jbdMQG4sgAstEONgURYCwGHhEhhscioQaAhhCf7McifEQc0l6+mxj9nI+gmSdiQ0Zbm7gZnIO7GSMEXG6UDAVocxAV8GcEXCKg1a02RcTtwANWRGIAyElor6n/+ZU2yOB3+T77Hb1MLqhn4KHVnQBjJnqe9QZSon6Kc5DxAD2vMdPL/BXSmQGwspa67z9wLUjdi9TN7QC7lyyBr9rpt7uXVC1CMpyjKRoXnGPHTuiaPLsNdc2dbAFQLAooPkXEh33FodHl4XpC6sPCIa0ftUIhHSYXVSu5iME+DIXsbZJ51BeidCgajcai43jU9nVzoSn2dPqcFvSoxSzJzgRKAx47WMRxOrIj3Wf0+hndxhJTiOkSEqxar3b3RKM9hY64oxBA64ieURLvCfpkDb8siBdUJ1bgT+urJ5PGfewQrmm5R5+0HmfyIPySD7OYkT0WxRePah8oEiyjlxIP74thVoRTURpmL6QhGuWS+QDjdANXjIM8SQa/1w128ODx0Qp4aLMNg9+JL3joUn8AMxW+aLNiuKjarn4uyyTdXjOzZTsh21uwldUvJoYza+zELALfu3p1L8/3krtyZ0Ag058J3hxHghvbGZn0dHZy6Mim/7Blre4lpHd1c28yVqRViO153F2oIWoXCIKbL4Z0cM1iaQn9mI5KuV2SzEvWXJDMNtkANpMdQoDDhIdD4A/YrP6Aye9ysxyE+uOEAcTDorgvVZJjcua043PnZ/PmdDqcbibZlXOOT8uSo7Kof0YUn9GL+Jo17ficymxiTofC6znUso0DhAxs1Fo+kF+d36vLmgZ8mk5cdGv2mwYj5k3Dm9m3LhJ1aVRNm6HrTbLgYAoWXDhDd/u4PGy5CT+xGMdiaBovewUCF/1BiWNljI9MLn7jeScpg+WyH6mfU62eVDql7hsrmvx1ezp/YldE2LhjbkiDnAn8tGy/MW3IXRMYJduvq9HpmIcKuFt+JCtgdGEGKAcF6UacVwIYbVPGfw/+YuNBS4cx/CUHcnyfc+wRDMtTr72mMSBjT/yn/GKSdeDWQUCH6Xoqq5R10RE60gV6erUL0iCti16d0hZjxut4QI/rEpgSh6WjnJXdBXRg1GKCucGJPtFqM27aD1tOqqKonsQ2KsFSSmEpmvRlsR+TcD9OFwrqXxIclL4sJTnGMSuG8KpkZvKdeVIOKDyWSyPLV16/p1QMPbP8NihwUzr47bdnXtwtjdCvqqpO0H+pOvIl3Pzv46e5CT/tQjklXCXXym1AaWY7bzHLkuDMc7ldKCvgxzLn8wYkJLBhEDyK7MT8bTbwbkxbfp+3mKAGsmTBpabSIEECzMIcQlzOPAMKsxMs7uhsnxPLuofPDTc1hkuq6MX9j16YU7CqegcYHbmWYuvAP6tCS97tgWf7dlQvnl25YPavXLVZvrzQPeHCpZmzzEUVq/xzu5sChnSTPTW7oOYmh69z4zL/gk3b+O6hoa733uviP82vnFcbqWlc9tDmZa23LVzaV1yXURi+JX+28NeBuj3+O8IrQ080Vm1eWB4OKjPmrJu7c1udWynvKF6/vs479lSW9+5gZkn+dKfellNGDPllzeULustz+A0bPvhgw7lkvEUwn/N4Ty7U7nhGsEpFkOfy+kutbOh1JQxhVDJumoW11hnkPThznh6FFlhfT+ra1x9sF56kx5YuDzVY9PQYAYA7iblw4frQ4TPCk2MK/xGU3rlmze62trHz6lsko+v+So/do74PT8KVkpJfOErKcv8znrMGsHTNxoEkWy1mYgDB6XBbPaWsuiS6CryGaL6zCjaXBgvtkuyXBua1wOKnh+k7L9AvPnYWffxK18FcJbuosGf3/Jo7amY+CE1vppzY+UTrva0FXc1i55pKQ/YjVL187N5fCn1kW5uot/1hi+DiZ+5atnJR9E+prvydJ9ZZ5mwOpU5gM4KYysMBQ71UzPuMTl9QQOyUo5nwioeYCPjFklrbK6s6X+ypUZ6rum9+CZYzWRiBJfSP0xzzSmrg7f86g0DKVj/wwFzieD9rRfPGFbeKMl05pn5j9/rsQJJ2iEgRrpohlyBo3f4QK7Kl+EcAYZgAoNVmZWXK704YAa3FwBxgSGUOs5htvGRz4Sgj3yFkSJFBuv/sxu5yk998T8WDJzvv/2RX19HtTUW1S+wpKRKRjJ6zzz/1/OPdFdWGlAKbvzS4PHOtURikg9AGz0LbIB85S/cPOpoXvuue8/iV2H1vPTy3ddvOeZ37HGmO3OmSzVzR+NS53+84dHlFhXPLqtzSO+5ruHM2vXtBdxP87LOzKAD359j/INYIbyPabIi3Cq6Wa+SaGe78diIzu7qcblcAa6/fJRvNopXFJnO+U9KKM5bqH5LM0iQSVmpPCPDu7ZT4Aoubz3709EBTyrTDjyx8MQXgUH1nqm7TWng4TzE4i4AsKskBITXfSyC4Fkl5MxnJDiKSIDSJAsGvd1y+/eNDp2e+A+5d8HeiiunrTkT6TqWLIs+/QRoWr98s0qj8uuzLuS22Ytufg3rdTaHn1m46sfgGKHXt0MGnLaRHdnwN37tvHcWKo2V6lnPxL4UvUQcRdOzmZSQs8X5CH5OxXMXpkATuDz8Et0SH4uyCRR+TjmBDP1GvsVrWEGVzEj33YVQ9jAtIKpqsl/s/0xrocwAAeJxjYGRgYADig3cEzsTz23xl4GZnAIHLRucNkWl2BrA4BwMTiAIAF4IITwB4nGNgZGBgZwCChWASxGZkQAXyABOUANh4nGNnYGBgHyAMADa8ANoAAAAAAAAOAFAAZgCyAMYA5gEeAUgBdAGcAfICLgKOAroDCgOOA7AD6gQ4BHwEuAToBQwFogXoBjYGbAbaB3IHqHicY2BkYGCQZ8hlYGcAASYg5gJCBob/YD4DABbVAaoAeJxdkE1qg0AYhl8Tk9AIoVDaVSmzahcF87PMARLIMoFAl0ZHY1BHdBJIT9AT9AQ9RQ9Qeqy+yteNMzDzfM+88w0K4BY/cNAMB6N2bUaPPBLukybCLvleeAAPj8JD+hfhMV7hC3u4wxs7OO4NzQSZcI/8Ltwnfwi75E/hAR7wJTyk/xYeY49fYQ/PztM+jbTZ7LY6OWdBJdX/pqs6NYWa+zMxa13oKrA6Uoerqi/JwtpYxZXJ1coUVmeZUWVlTjq0/tHacjmdxuL90OR8O0UEDYMNdtiSEpz5XQGqzlm30kzUdAYFFOb8R7NOZk0q2lwAyz1i7oAr1xoXvrOgtYhZx8wY5KRV269JZ5yGpmzPTjQhvY9je6vEElPOuJP3mWKnP5M3V+YAAAB4nG2P2XLCMAxFfYFspGUp3Te+IB9lHJF4cOzUS2n/voaEGR6qB+lKo+WITdhga/a/bRnDBFPMkCBFhhwF5ihxg1sssMQKa9xhg3s84BFPeMYLXvGGd3zgE9tZr/hveXKVkFYoSnoeHJXfRoWOqi54mo9ameNFdrK+dLSyaVf7oJQTlkhXpD3Z5XXhR/rUfQVuKXO91Jps4cLOS6/I5YL3XhodRRsVWZe4NnZOhWnSAWgxhMoEr6SmzZieF43Mk7ZOBdeCVGrp9Eu+54J2xhySplfB5XHwQLXUmT9KH6+kPnQ7ZYuIEzNyfs1DLU1VU4SWZ6LkXGHsD1ZKbMw=) format(\"woff\"), url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAAKAIAAAwAgT1MvMlGRXgUAAAEoAAAAVmNtYXDiMBC2AAAB/AAAAUpnbHlmW/HoBwAAA4gAAA9QaGVhZAyD6V8AAADQAAAANmhoZWEOogcgAAAArAAAACRobXR42QAAAAAAAYAAAAB8bG9jYTDINOoAAANIAAAAQG1heHABMAB5AAABCAAAACBuYW1l1cf1oAAAEtgAAAIKcG9zdGZEjeMAABTkAAABgQABAAAHAAAAAKEHAAAAAAAHAAABAAAAAAAAAAAAAAAAAAAAHwABAAAAAQAAwdxheF8PPPUACwcAAAAAANMyzzEAAAAA0zLPMQAAAAAHAAcAAAAACAACAAAAAAAAAAEAAAAfAG0ABwAAAAAAAgAAAAoACgAAAP8AAAAAAAAAAQcAAZAABQAIBHEE5gAAAPoEcQTmAAADXABXAc4AAAIABQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUGZFZABA8QHxHgcAAAAAoQcAAAAAAAABAAAAAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAAAAAMAAAADAAAAHAABAAAAAABEAAMAAQAAABwABAAoAAAABgAEAAEAAgAA8R7//wAAAADxAf//AAAPAAABAAAAAAAAAAABBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAFAAZgCyAMYA5gEeAUgBdAGcAfICLgKOAroDCgOOA7AD6gQ4BHwEuAToBQwFogXoBjYGbAbaB3IHqAABAAAAAAWLBYsAAgAAAREBAlUDNgWL++oCCwAAAwAAAAAGawZrAAIADgAaAAAJAhMEAAMSAAUkABMCAAEmACc2ADcWABcGAALrAcD+QJX+w/5aCAgBpgE9AT0BpggI/lr+w/3+rgYGAVL9/QFSBgb+rgIwAVABUAGbCP5a/sP+w/5aCAgBpgE9AT0BpvrIBgFS/f0BUgYG/q79/f6uAAAAAgAAAAAFQAWLAAMABwAAASERKQERIREBwAEr/tUCVQErAXUEFvvqBBYAAAAEAAAAAAYgBiAABgATACQAJwAAAS4BJxUXNjcGBxc+ATUmACcVFhIBBwEhESEBEQEGBxU+ATcXNwEHFwTQAWVVuAO7AidxJSgF/t/lpc77t18BYf6fASsBdQE+TF1OijuZX/1gnJwDgGSeK6W4GBhqW3FGnFT0AWM4mjT+9AHrX/6f/kD+iwH2/sI7HZoSRDGYXwSWnJwAAAEAAAAABKsF1gAFAAABESEBEQECCwEqAXb+igRg/kD+iwSq/osAAAACAAAAAAVmBdYABgAMAAABLgEnET4BAREhAREBBWUBZVRUZfwRASsBdf6LA4Bkniv9piueAUT+QP6LBKr+iwAAAwAAAAAGIAYPAAUADAAaAAATESEBEQEFLgEnET4BAxUWEhcGAgcVNgA3JgDgASsBdf6LAsUBZVVVZbqlzgMDzqXlASEFBf7fBGD+QP6LBKr+i+Bkniv9piueAvOaNP70tbX+9DSaOAFi9fUBYgAAAAQAAAAABYsFiwAFAAsAEQAXAAABIxEhNSMDMzUzNSEBIxUhESMDFTMVMxECC5YBduCWluD+igOA4AF2luDglgLr/oqWAgrglvyAlgF2AqCW4AF2AAQAAAAABYsFiwAFAAsAEQAXAAABMxUzESETIxUhESMBMzUzNSETNSMRITUBdeCW/org4AF2lgHAluD+ipaWAXYCVeABdgHAlgF2++rglgHA4P6KlgAAAAACAAAAAAXWBdYADwATAAABIQ4BBxEeARchPgE3ES4BAyERIQVA/IA/VQEBVT8DgD9VAQFVP/yAA4AF1QFVP/yAP1UBAVU/A4A/VfvsA4AAAAYAAAAABmsGawAHAAwAEwAbACAAKAAACQEmJw4BBwElLgEnAQUhATYSNyYFAQYCBxYXIQUeARcBMwEWFz4BNwECvgFkTlSH8GEBEgOONemh/u4C5f3QAXpcaAEB/BP+3VxoAQEOAjD95DXpoQESeP7dTlSH8GH+7gPwAmgSAQFYUP4nd6X2Pv4nS/1zZAEBk01NAfhk/v+TTUhLpfY+Adn+CBIBAVhQAdkAAAAFAAAAAAZrBdYADwATABcAGwAfAAABIQ4BBxEeARchPgE3ES4BASEVIQEhNSEFITUhNSE1IQXV+1ZAVAICVEAEqkBUAgJU+xYBKv7WAur9FgLqAcD+1gEq/RYC6gXVAVU//IA/VQEBVT8DgD9V/ayV/tWVlZWWlQADAAAAAAYgBdYADwAnAD8AAAEhDgEHER4BFyE+ATcRLgEBIzUjFTM1MxUUBgcjLgEnET4BNzMeARUFIzUjFTM1MxUOAQcjLgE1ETQ2NzMeARcFi/vqP1QCAlQ/BBY/VAICVP1rcJWVcCog4CAqAQEqIOAgKgILcJWVcAEqIOAgKiog4CAqAQXVAVU//IA/VQEBVT8DgD9V/fcl4CVKICoBASogASogKgEBKiBKJeAlSiAqAQEqIAEqICoBASogAAAGAAAAAAYgBPYAAwAHAAsADwATABcAABMzNSMRMzUjETM1IwEhNSERITUhERUhNeCVlZWVlZUBKwQV++sEFfvrBBUDNZb+QJUBwJX+QJb+QJUCVZWVAAAAAQAAAAAGIAZsAC4AAAEiBgcBNjQnAR4BMz4BNy4BJw4BBxQXAS4BIw4BBx4BFzI2NwEGBx4BFz4BNy4BBUArSh797AcHAg8eTixffwICf19ffwIH/fEeTixffwICf18sTh4CFAUBA3tcXHsDA3sCTx8bATcZNhkBNB0gAn9fX38CAn9fGxn+zRwgAn9fX38CIBz+yhcaXHsCAntcXXsAAAIAAAAABlkGawBDAE8AAAE2NCc3PgEnAy4BDwEmLwEuASchDgEPAQYHJyYGBwMGFh8BBhQXBw4BFxMeAT8BFh8BHgEXIT4BPwE2NxcWNjcTNiYnBS4BJz4BNx4BFw4BBasFBZ4KBgeWBxkNujpEHAMUD/7WDxQCHEU5ug0aB5UHBQudBQWdCwUHlQcaDbo5RRwCFA8BKg8UAhxFOboNGgeVBwUL/ThvlAIClG9vlAIClAM3JEokewkaDQEDDAkFSy0cxg4RAQERDsYcLUsFCQz+/QwbCXskSiR7CRoN/v0MCQVLLRzGDhEBAREOxhwtSwUJDAEDDBsJQQKUb2+UAgKUb2+UAAAAAAEAAAAABmsGawALAAATEgAFJAATAgAlBACVCAGmAT0BPQGmCAj+Wv7D/sP+WgOA/sP+WggIAaYBPQE9AaYICP5aAAAAAgAAAAAGawZrAAsAFwAAAQQAAxIABSQAEwIAASYAJzYANxYAFwYAA4D+w/5aCAgBpgE9AT0BpggI/lr+w/3+rgYGAVL9/QFSBgb+rgZrCP5a/sP+w/5aCAgBpgE9AT0BpvrIBgFS/f0BUgYG/q79/f6uAAADAAAAAAZrBmsACwAXACMAAAEEAAMSAAUkABMCAAEmACc2ADcWABcGAAMOAQcuASc+ATceAQOA/sP+WggIAaYBPQE9AaYICP5a/sP9/q4GBgFS/f0BUgYG/q4dAn9fX38CAn9fX38Gawj+Wv7D/sP+WggIAaYBPQE9Aab6yAYBUv39AVIGBv6u/f3+rgJPX38CAn9fX38CAn8AAAAEAAAAAAYgBiAADwAbACUAKQAAASEOAQcRHgEXIT4BNxEuAQEjNSMVIxEzFTM1OwEhHgEXEQ4BByE3MzUjBYv76j9UAgJUPwQWP1QCAlT9a3CVcHCVcJYBKiAqAQEqIP7WcJWVBiACVD/76j9UAgJUPwQWP1T8gpWVAcC7uwEqIP7WICoBcOAAAgAAAAAGawZrAAsAFwAAAQQAAxIABSQAEwIAEwcJAScJATcJARcBA4D+w/5aCAgBpgE9AT0BpggI/lo4af70/vRpAQv+9WkBDAEMaf71BmsI/lr+w/7D/loICAGmAT0BPQGm/BFpAQv+9WkBDAEMaf71AQtp/vQAAQAAAAAF1ga2ABYAAAERCQERHgEXDgEHLgEnIxYAFzYANyYAA4D+iwF1vv0FBf2+vv0FlQYBUf7+AVEGBv6vBYsBKv6L/osBKgT9v779BQX9vv7+rwYGAVH+/gFRAAAAAQAAAAAFPwcAABQAAAERIyIGHQEhAyMRIREjETM1NDYzMgU/nVY8ASUn/v7O///QrZMG9P74SEi9/tj9CQL3ASjaus0AAAAABAAAAAAGjgcAADAARQBgAGwAAAEUHgMVFAcGBCMiJicmNTQ2NzYlLgE1NDcGIyImNTQ2Nz4BMyEHIx4BFRQOAycyNjc2NTQuAiMiBgcGFRQeAxMyPgI1NC4BLwEmLwImIyIOAxUUHgIBMxUjFSM1IzUzNTMDH0BbWkAwSP7qn4TlOSVZSoMBESAfFS4WlMtIP03TcAGiioNKTDFFRjGSJlAaNSI/akAqURkvFCs9WTY6a1s3Dg8THgocJU4QIDVob1M2RnF9A2vV1WnU1GkD5CRFQ1CATlpTenNTYDxHUYouUhIqQCkkMQTBlFKaNkJAWD+MWkhzRztAPiEbOWY6hn1SJyE7ZS5nZ1I0/JcaNF4+GTAkGCMLFx04Ag4kOF07Rms7HQNsbNvbbNkAAwAAAAAGgAZsAAMADgAqAAABESERARYGKwEiJjQ2MhYBESERNCYjIgYHBhURIRIQLwEhFSM+AzMyFgHd/rYBXwFnVAJSZGemZASP/rdRVj9VFQv+twIBAQFJAhQqR2c/q9AEj/whA98BMkliYpNhYfzd/cgCEml3RTMeM/3XAY8B8DAwkCAwOB/jAAABAAAAAAaUBgAAMQAAAQYHFhUUAg4BBCMgJxYzMjcuAScWMzI3LgE9ARYXLgE1NDcWBBcmNTQ2MzIXNjcGBzYGlENfAUyb1v7SrP7x4SMr4bBpph8hHCsqcJNETkJOLHkBW8YIvYaMYG1gJWldBWhiRQ4cgv797rdtkQSKAn1hBQsXsXUEJgMsjlNYS5WzCiYkhr1mFTlzPwoAAAABAAAAAAWABwAAIgAAARcOAQcGLgM1ESM1PgQ3PgE7AREhFSERFB4CNzYFMFAXsFlorXBOIahIckQwFAUBBwT0AU3+sg0gQzBOAc/tIz4BAjhceHg6AiDXGlddb1ctBQf+WPz9+h40NR4BAgABAAAAAAaABoAASgAAARQCBCMiJzY/AR4BMzI+ATU0LgEjIg4DFRQWFxY/ATY3NicmNTQ2MzIWFRQGIyImNz4CNTQmIyIGFRQXAwYXJgI1NBIkIAQSBoDO/p/Rb2s7EzYUaj15vmh34o5ptn9bK1BNHggIBgIGETPRqZepiWs9Sg4IJRc2Mj5WGWMRBM7+zgFhAaIBYc4DgNH+n84gXUfTJzmJ8JZyyH46YH2GQ2ieIAwgHxgGFxQ9WpfZpIOq7lc9I3VZHzJCclVJMf5eRmtbAXzp0QFhzs7+nwAABwAAAAAHAATPAA4AFwAqAD0AUABaAF0AAAERNh4CBw4BBwYmIycmNxY2NzYmBxEUBRY2Nz4BNy4BJyMGHwEeARcOARcWNjc+ATcuAScjBh8BHgEXFAYXFjY3PgE3LgEnIwYfAR4BFw4BBTM/ARUzESMGAyUVJwMchM2UWwgNq4JHrQgBAapUaAoJcWMBfiIhDiMrAQJLMB0BBAokNAIBPmMiIQ4iLAECSzAeAQUKJDQBP2MiIQ4iLAECSzAeAQUKJDQBAT75g+5B4arNLNIBJ44ByQL9BQ9mvYCKwA8FBQMDwwJVTGdzBf6VB8IHNR08lld9uT4LCRA/qGNxvUwHNR08lld9uT4LCRA/qGNxvUwHNR08lld9uT4LCRA/qGNxvVJkAWUDDEf+tYP5AQAAAAEAAAAABiAGtgAbAAABBAADER4BFzMRITU2ADcWABcVIREzPgE3EQIAA4D+4v6FBwJ/X+D+1QYBJ97eAScG/tXgX38CB/6FBrUH/oX+4v32X38CAlWV3gEnBgb+2d6V/asCf18CCgEeAXsAAAAAEADGAAEAAAAAAAEABwAAAAEAAAAAAAIABwAHAAEAAAAAAAMABwAOAAEAAAAAAAQABwAVAAEAAAAAAAUACwAcAAEAAAAAAAYABwAnAAEAAAAAAAoAKwAuAAEAAAAAAAsAEwBZAAMAAQQJAAEADgBsAAMAAQQJAAIADgB6AAMAAQQJAAMADgCIAAMAAQQJAAQADgCWAAMAAQQJAAUAFgCkAAMAAQQJAAYADgC6AAMAAQQJAAoAVgDIAAMAAQQJAAsAJgEeVmlkZW9KU1JlZ3VsYXJWaWRlb0pTVmlkZW9KU1ZlcnNpb24gMS4wVmlkZW9KU0dlbmVyYXRlZCBieSBzdmcydHRmIGZyb20gRm9udGVsbG8gcHJvamVjdC5odHRwOi8vZm9udGVsbG8uY29tAFYAaQBkAGUAbwBKAFMAUgBlAGcAdQBsAGEAcgBWAGkAZABlAG8ASgBTAFYAaQBkAGUAbwBKAFMAVgBlAHIAcwBpAG8AbgAgADEALgAwAFYAaQBkAGUAbwBKAFMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABzAHYAZwAyAHQAdABmACAAZgByAG8AbQAgAEYAbwBuAHQAZQBsAGwAbwAgAHAAcgBvAGoAZQBjAHQALgBoAHQAdABwADoALwAvAGYAbwBuAHQAZQBsAGwAbwAuAGMAbwBtAAAAAgAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAABAgEDAQQBBQEGAQcBCAEJAQoBCwEMAQ0BDgEPARABEQESARMBFAEVARYBFwEYARkBGgEbARwBHQEeAR8EcGxheQtwbGF5LWNpcmNsZQVwYXVzZQt2b2x1bWUtbXV0ZQp2b2x1bWUtbG93CnZvbHVtZS1taWQLdm9sdW1lLWhpZ2gQZnVsbHNjcmVlbi1lbnRlcg9mdWxsc2NyZWVuLWV4aXQGc3F1YXJlB3NwaW5uZXIJc3VidGl0bGVzCGNhcHRpb25zCGNoYXB0ZXJzBXNoYXJlA2NvZwZjaXJjbGUOY2lyY2xlLW91dGxpbmUTY2lyY2xlLWlubmVyLWNpcmNsZQJoZAZjYW5jZWwGcmVwbGF5CGZhY2Vib29rBWdwbHVzCGxpbmtlZGluB3R3aXR0ZXIGdHVtYmxyCXBpbnRlcmVzdBFhdWRpby1kZXNjcmlwdGlvbgVhdWRpbwAAAAAA) format(\"truetype\");\n  font-weight: normal;\n  font-style: normal; }\n\n.vjs-icon-play, .video-js .vjs-big-play-button, .video-js .vjs-play-control {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-play:before, .video-js .vjs-big-play-button:before, .video-js .vjs-play-control:before {\n    content: \"\\F101\"; }\n\n.vjs-icon-play-circle {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-play-circle:before {\n    content: \"\\F102\"; }\n\n.vjs-icon-pause, .video-js .vjs-play-control.vjs-playing {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-pause:before, .video-js .vjs-play-control.vjs-playing:before {\n    content: \"\\F103\"; }\n\n.vjs-icon-volume-mute, .video-js .vjs-mute-control.vjs-vol-0,\n.video-js .vjs-volume-menu-button.vjs-vol-0 {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-mute:before, .video-js .vjs-mute-control.vjs-vol-0:before,\n  .video-js .vjs-volume-menu-button.vjs-vol-0:before {\n    content: \"\\F104\"; }\n\n.vjs-icon-volume-low, .video-js .vjs-mute-control.vjs-vol-1,\n.video-js .vjs-volume-menu-button.vjs-vol-1 {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-low:before, .video-js .vjs-mute-control.vjs-vol-1:before,\n  .video-js .vjs-volume-menu-button.vjs-vol-1:before {\n    content: \"\\F105\"; }\n\n.vjs-icon-volume-mid, .video-js .vjs-mute-control.vjs-vol-2,\n.video-js .vjs-volume-menu-button.vjs-vol-2 {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-mid:before, .video-js .vjs-mute-control.vjs-vol-2:before,\n  .video-js .vjs-volume-menu-button.vjs-vol-2:before {\n    content: \"\\F106\"; }\n\n.vjs-icon-volume-high, .video-js .vjs-mute-control,\n.video-js .vjs-volume-menu-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-volume-high:before, .video-js .vjs-mute-control:before,\n  .video-js .vjs-volume-menu-button:before {\n    content: \"\\F107\"; }\n\n.vjs-icon-fullscreen-enter, .video-js .vjs-fullscreen-control {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-fullscreen-enter:before, .video-js .vjs-fullscreen-control:before {\n    content: \"\\F108\"; }\n\n.vjs-icon-fullscreen-exit, .video-js.vjs-fullscreen .vjs-fullscreen-control {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-fullscreen-exit:before, .video-js.vjs-fullscreen .vjs-fullscreen-control:before {\n    content: \"\\F109\"; }\n\n.vjs-icon-square {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-square:before {\n    content: \"\\F10A\"; }\n\n.vjs-icon-spinner {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-spinner:before {\n    content: \"\\F10B\"; }\n\n.vjs-icon-subtitles, .video-js .vjs-subtitles-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-subtitles:before, .video-js .vjs-subtitles-button:before {\n    content: \"\\F10C\"; }\n\n.vjs-icon-captions, .video-js .vjs-captions-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-captions:before, .video-js .vjs-captions-button:before {\n    content: \"\\F10D\"; }\n\n.vjs-icon-chapters, .video-js .vjs-chapters-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-chapters:before, .video-js .vjs-chapters-button:before {\n    content: \"\\F10E\"; }\n\n.vjs-icon-share {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-share:before {\n    content: \"\\F10F\"; }\n\n.vjs-icon-cog {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-cog:before {\n    content: \"\\F110\"; }\n\n.vjs-icon-circle, .video-js .vjs-mouse-display, .video-js .vjs-play-progress, .video-js .vjs-volume-level {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-circle:before, .video-js .vjs-mouse-display:before, .video-js .vjs-play-progress:before, .video-js .vjs-volume-level:before {\n    content: \"\\F111\"; }\n\n.vjs-icon-circle-outline {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-circle-outline:before {\n    content: \"\\F112\"; }\n\n.vjs-icon-circle-inner-circle {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-circle-inner-circle:before {\n    content: \"\\F113\"; }\n\n.vjs-icon-hd {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-hd:before {\n    content: \"\\F114\"; }\n\n.vjs-icon-cancel, .video-js .vjs-control.vjs-close-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-cancel:before, .video-js .vjs-control.vjs-close-button:before {\n    content: \"\\F115\"; }\n\n.vjs-icon-replay {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-replay:before {\n    content: \"\\F116\"; }\n\n.vjs-icon-facebook {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-facebook:before {\n    content: \"\\F117\"; }\n\n.vjs-icon-gplus {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-gplus:before {\n    content: \"\\F118\"; }\n\n.vjs-icon-linkedin {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-linkedin:before {\n    content: \"\\F119\"; }\n\n.vjs-icon-twitter {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-twitter:before {\n    content: \"\\F11A\"; }\n\n.vjs-icon-tumblr {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-tumblr:before {\n    content: \"\\F11B\"; }\n\n.vjs-icon-pinterest {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-pinterest:before {\n    content: \"\\F11C\"; }\n\n.vjs-icon-audio-description, .video-js .vjs-descriptions-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-audio-description:before, .video-js .vjs-descriptions-button:before {\n    content: \"\\F11D\"; }\n\n.vjs-icon-audio, .video-js .vjs-audio-button {\n  font-family: VideoJS;\n  font-weight: normal;\n  font-style: normal; }\n  .vjs-icon-audio:before, .video-js .vjs-audio-button:before {\n    content: \"\\F11E\"; }\n\n.video-js {\n  display: block;\n  vertical-align: top;\n  box-sizing: border-box;\n  color: #fff;\n  background-color: #000;\n  position: relative;\n  padding: 0;\n  font-size: 10px;\n  line-height: 1;\n  font-weight: normal;\n  font-style: normal;\n  font-family: Arial, Helvetica, sans-serif;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none; }\n  .video-js:-moz-full-screen {\n    position: absolute; }\n  .video-js:-webkit-full-screen {\n    width: 100% !important;\n    height: 100% !important; }\n\n.video-js *,\n.video-js *:before,\n.video-js *:after {\n  box-sizing: inherit; }\n\n.video-js ul {\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n  list-style-position: outside;\n  margin-left: 0;\n  margin-right: 0;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.video-js.vjs-fluid,\n.video-js.vjs-16-9,\n.video-js.vjs-4-3 {\n  width: 100%;\n  max-width: 100%;\n  height: 0; }\n\n.video-js.vjs-16-9 {\n  padding-top: 56.25%; }\n\n.video-js.vjs-4-3 {\n  padding-top: 75%; }\n\n.video-js.vjs-fill {\n  width: 100%;\n  height: 100%; }\n\n.video-js .vjs-tech {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%; }\n\nbody.vjs-full-window {\n  padding: 0;\n  margin: 0;\n  height: 100%;\n  overflow-y: auto; }\n\n.vjs-full-window .video-js.vjs-fullscreen {\n  position: fixed;\n  overflow: hidden;\n  z-index: 1000;\n  left: 0;\n  top: 0;\n  bottom: 0;\n  right: 0; }\n\n.video-js.vjs-fullscreen {\n  width: 100% !important;\n  height: 100% !important;\n  padding-top: 0 !important; }\n\n.video-js.vjs-fullscreen.vjs-user-inactive {\n  cursor: none; }\n\n.vjs-hidden {\n  display: none !important; }\n\n.vjs-disabled {\n  opacity: 0.5;\n  cursor: default; }\n\n.video-js .vjs-offscreen {\n  height: 1px;\n  left: -9999px;\n  position: absolute;\n  top: 0;\n  width: 1px; }\n\n.vjs-lock-showing {\n  display: block !important;\n  opacity: 1;\n  visibility: visible; }\n\n.vjs-no-js {\n  padding: 20px;\n  color: #fff;\n  background-color: #000;\n  font-size: 18px;\n  font-family: Arial, Helvetica, sans-serif;\n  text-align: center;\n  width: 300px;\n  height: 150px;\n  margin: 0px auto; }\n\n.vjs-no-js a,\n.vjs-no-js a:visited {\n  color: #66A8CC; }\n\n.video-js .vjs-big-play-button {\n  font-size: 3em;\n  line-height: 1.5em;\n  height: 1.5em;\n  width: 3em;\n  display: block;\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  padding: 0;\n  cursor: pointer;\n  opacity: 1;\n  border: 0.06666em solid #fff;\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.7);\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  transition: all 0.4s; }\n\n.vjs-big-play-centered .vjs-big-play-button {\n  top: 50%;\n  left: 50%;\n  margin-top: -0.75em;\n  margin-left: -1.5em; }\n\n.video-js:hover .vjs-big-play-button,\n.video-js .vjs-big-play-button:focus {\n  outline: 0;\n  border-color: #fff;\n  background-color: #73859f;\n  background-color: rgba(115, 133, 159, 0.5);\n  -webkit-transition: all 0s;\n  -moz-transition: all 0s;\n  -o-transition: all 0s;\n  transition: all 0s; }\n\n.vjs-controls-disabled .vjs-big-play-button,\n.vjs-has-started .vjs-big-play-button,\n.vjs-using-native-controls .vjs-big-play-button,\n.vjs-error .vjs-big-play-button {\n  display: none; }\n\n.video-js button {\n  background: none;\n  border: none;\n  color: inherit;\n  display: inline-block;\n  overflow: visible;\n  font-size: inherit;\n  line-height: inherit;\n  text-transform: none;\n  text-decoration: none;\n  transition: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\n\n.video-js .vjs-control.vjs-close-button {\n  cursor: pointer;\n  height: 3em;\n  position: absolute;\n  right: 0;\n  top: 0.5em;\n  z-index: 2; }\n\n.vjs-menu-button {\n  cursor: pointer; }\n\n.vjs-menu-button.vjs-disabled {\n  cursor: default; }\n\n.vjs-workinghover .vjs-menu-button.vjs-disabled:hover .vjs-menu {\n  display: none; }\n\n.vjs-menu .vjs-menu-content {\n  display: block;\n  padding: 0;\n  margin: 0;\n  overflow: auto; }\n\n.vjs-scrubbing .vjs-menu-button:hover .vjs-menu {\n  display: none; }\n\n.vjs-menu li {\n  list-style: none;\n  margin: 0;\n  padding: 0.2em 0;\n  line-height: 1.4em;\n  font-size: 1.2em;\n  text-align: center;\n  text-transform: lowercase; }\n\n.vjs-menu li:focus,\n.vjs-menu li:hover {\n  outline: 0;\n  background-color: #73859f;\n  background-color: rgba(115, 133, 159, 0.5); }\n\n.vjs-menu li.vjs-selected,\n.vjs-menu li.vjs-selected:focus,\n.vjs-menu li.vjs-selected:hover {\n  background-color: #fff;\n  color: #2B333F; }\n\n.vjs-menu li.vjs-menu-title {\n  text-align: center;\n  text-transform: uppercase;\n  font-size: 1em;\n  line-height: 2em;\n  padding: 0;\n  margin: 0 0 0.3em 0;\n  font-weight: bold;\n  cursor: default; }\n\n.vjs-menu-button-popup .vjs-menu {\n  display: none;\n  position: absolute;\n  bottom: 0;\n  width: 10em;\n  left: -3em;\n  height: 0em;\n  margin-bottom: 1.5em;\n  border-top-color: rgba(43, 51, 63, 0.7); }\n\n.vjs-menu-button-popup .vjs-menu .vjs-menu-content {\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.7);\n  position: absolute;\n  width: 100%;\n  bottom: 1.5em;\n  max-height: 15em; }\n\n.vjs-workinghover .vjs-menu-button-popup:hover .vjs-menu,\n.vjs-menu-button-popup .vjs-menu.vjs-lock-showing {\n  display: block; }\n\n.video-js .vjs-menu-button-inline {\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  transition: all 0.4s;\n  overflow: hidden; }\n\n.video-js .vjs-menu-button-inline:before {\n  width: 2.222222222em; }\n\n.video-js .vjs-menu-button-inline:hover,\n.video-js .vjs-menu-button-inline:focus,\n.video-js .vjs-menu-button-inline.vjs-slider-active,\n.video-js.vjs-no-flex .vjs-menu-button-inline {\n  width: 12em; }\n\n.video-js .vjs-menu-button-inline.vjs-slider-active {\n  -webkit-transition: none;\n  -moz-transition: none;\n  -o-transition: none;\n  transition: none; }\n\n.vjs-menu-button-inline .vjs-menu {\n  opacity: 0;\n  height: 100%;\n  width: auto;\n  position: absolute;\n  left: 4em;\n  top: 0;\n  padding: 0;\n  margin: 0;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  transition: all 0.4s; }\n\n.vjs-menu-button-inline:hover .vjs-menu,\n.vjs-menu-button-inline:focus .vjs-menu,\n.vjs-menu-button-inline.vjs-slider-active .vjs-menu {\n  display: block;\n  opacity: 1; }\n\n.vjs-no-flex .vjs-menu-button-inline .vjs-menu {\n  display: block;\n  opacity: 1;\n  position: relative;\n  width: auto; }\n\n.vjs-no-flex .vjs-menu-button-inline:hover .vjs-menu,\n.vjs-no-flex .vjs-menu-button-inline:focus .vjs-menu,\n.vjs-no-flex .vjs-menu-button-inline.vjs-slider-active .vjs-menu {\n  width: auto; }\n\n.vjs-menu-button-inline .vjs-menu-content {\n  width: auto;\n  height: 100%;\n  margin: 0;\n  overflow: hidden; }\n\n.video-js .vjs-control-bar {\n  display: none;\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  height: 3.0em;\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.7); }\n\n.vjs-has-started .vjs-control-bar {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  visibility: visible;\n  opacity: 1;\n  -webkit-transition: visibility 0.1s, opacity 0.1s;\n  -moz-transition: visibility 0.1s, opacity 0.1s;\n  -o-transition: visibility 0.1s, opacity 0.1s;\n  transition: visibility 0.1s, opacity 0.1s; }\n\n.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {\n  visibility: visible;\n  opacity: 0;\n  -webkit-transition: visibility 1s, opacity 1s;\n  -moz-transition: visibility 1s, opacity 1s;\n  -o-transition: visibility 1s, opacity 1s;\n  transition: visibility 1s, opacity 1s; }\n  @media \\0screen {\n    .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {\n      visibility: hidden; } }\n\n.vjs-controls-disabled .vjs-control-bar,\n.vjs-using-native-controls .vjs-control-bar,\n.vjs-error .vjs-control-bar {\n  display: none !important; }\n\n.vjs-audio.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {\n  opacity: 1;\n  visibility: visible; }\n\n@media \\0screen {\n  .vjs-user-inactive.vjs-playing .vjs-control-bar :before {\n    content: \"\"; } }\n\n.vjs-has-started.vjs-no-flex .vjs-control-bar {\n  display: table; }\n\n.video-js .vjs-control {\n  outline: none;\n  position: relative;\n  text-align: center;\n  margin: 0;\n  padding: 0;\n  height: 100%;\n  width: 4em;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n  .video-js .vjs-control:before {\n    font-size: 1.8em;\n    line-height: 1.67; }\n\n.video-js .vjs-control:focus:before,\n.video-js .vjs-control:hover:before,\n.video-js .vjs-control:focus {\n  text-shadow: 0em 0em 1em white; }\n\n.video-js .vjs-control-text {\n  border: 0;\n  clip: rect(0 0 0 0);\n  height: 1px;\n  margin: -1px;\n  overflow: hidden;\n  padding: 0;\n  position: absolute;\n  width: 1px; }\n\n.vjs-no-flex .vjs-control {\n  display: table-cell;\n  vertical-align: middle; }\n\n.video-js .vjs-custom-control-spacer {\n  display: none; }\n\n.video-js .vjs-progress-control {\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center;\n  min-width: 4em; }\n\n.vjs-live .vjs-progress-control {\n  display: none; }\n\n.video-js .vjs-progress-holder {\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto;\n  -webkit-transition: all 0.2s;\n  -moz-transition: all 0.2s;\n  -o-transition: all 0.2s;\n  transition: all 0.2s;\n  height: 0.3em; }\n\n.video-js .vjs-progress-control:hover .vjs-progress-holder {\n  font-size: 1.666666666666666666em; }\n\n/* If we let the font size grow as much as everything else, the current time tooltip ends up\n ginormous. If you'd like to enable the current time tooltip all the time, this should be disabled\n to avoid a weird hitch when you roll off the hover. */\n.video-js .vjs-progress-control:hover .vjs-time-tooltip,\n.video-js .vjs-progress-control:hover .vjs-mouse-display:after,\n.video-js .vjs-progress-control:hover .vjs-play-progress:after {\n  font-family: Arial, Helvetica, sans-serif;\n  visibility: visible;\n  font-size: 0.6em; }\n\n.video-js .vjs-progress-holder .vjs-play-progress,\n.video-js .vjs-progress-holder .vjs-load-progress,\n.video-js .vjs-progress-holder .vjs-tooltip-progress-bar,\n.video-js .vjs-progress-holder .vjs-load-progress div {\n  position: absolute;\n  display: block;\n  height: 0.3em;\n  margin: 0;\n  padding: 0;\n  width: 0;\n  left: 0;\n  top: 0; }\n\n.video-js .vjs-mouse-display:before {\n  display: none; }\n\n.video-js .vjs-play-progress {\n  background-color: #fff; }\n  .video-js .vjs-play-progress:before {\n    position: absolute;\n    top: -0.333333333333333em;\n    right: -0.5em;\n    font-size: 0.9em; }\n\n.video-js .vjs-time-tooltip,\n.video-js .vjs-mouse-display:after,\n.video-js .vjs-play-progress:after {\n  visibility: hidden;\n  pointer-events: none;\n  position: absolute;\n  top: -3.4em;\n  right: -1.9em;\n  font-size: 0.9em;\n  color: #000;\n  content: attr(data-current-time);\n  padding: 6px 8px 8px 8px;\n  background-color: #fff;\n  background-color: rgba(255, 255, 255, 0.8);\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em; }\n\n.video-js .vjs-time-tooltip,\n.video-js .vjs-play-progress:before,\n.video-js .vjs-play-progress:after {\n  z-index: 1; }\n\n.video-js .vjs-progress-control .vjs-keep-tooltips-inside:after {\n  display: none; }\n\n.video-js .vjs-load-progress {\n  background: #bfc7d3;\n  background: rgba(115, 133, 159, 0.5); }\n\n.video-js .vjs-load-progress div {\n  background: white;\n  background: rgba(115, 133, 159, 0.75); }\n\n.video-js.vjs-no-flex .vjs-progress-control {\n  width: auto; }\n\n.video-js .vjs-time-tooltip {\n  display: inline-block;\n  height: 2.4em;\n  position: relative;\n  float: right;\n  right: -1.9em; }\n\n.vjs-tooltip-progress-bar {\n  visibility: hidden; }\n\n.video-js .vjs-progress-control .vjs-mouse-display {\n  display: none;\n  position: absolute;\n  width: 1px;\n  height: 100%;\n  background-color: #000;\n  z-index: 1; }\n\n.vjs-no-flex .vjs-progress-control .vjs-mouse-display {\n  z-index: 0; }\n\n.video-js .vjs-progress-control:hover .vjs-mouse-display {\n  display: block; }\n\n.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display,\n.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display:after {\n  visibility: hidden;\n  opacity: 0;\n  -webkit-transition: visibility 1s, opacity 1s;\n  -moz-transition: visibility 1s, opacity 1s;\n  -o-transition: visibility 1s, opacity 1s;\n  transition: visibility 1s, opacity 1s; }\n\n.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display,\n.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display:after {\n  display: none; }\n\n.vjs-mouse-display .vjs-time-tooltip,\n.video-js .vjs-progress-control .vjs-mouse-display:after {\n  color: #fff;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.8); }\n\n.video-js .vjs-slider {\n  outline: 0;\n  position: relative;\n  cursor: pointer;\n  padding: 0;\n  margin: 0 0.45em 0 0.45em;\n  background-color: #73859f;\n  background-color: rgba(115, 133, 159, 0.5); }\n\n.video-js .vjs-slider:focus {\n  text-shadow: 0em 0em 1em white;\n  -webkit-box-shadow: 0 0 1em #fff;\n  -moz-box-shadow: 0 0 1em #fff;\n  box-shadow: 0 0 1em #fff; }\n\n.video-js .vjs-mute-control,\n.video-js .vjs-volume-menu-button {\n  cursor: pointer;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n\n.video-js .vjs-volume-control {\n  width: 5em;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center; }\n\n.video-js .vjs-volume-bar {\n  margin: 1.35em 0.45em; }\n\n.vjs-volume-bar.vjs-slider-horizontal {\n  width: 5em;\n  height: 0.3em; }\n\n.vjs-volume-bar.vjs-slider-vertical {\n  width: 0.3em;\n  height: 5em;\n  margin: 1.35em auto; }\n\n.video-js .vjs-volume-level {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  background-color: #fff; }\n  .video-js .vjs-volume-level:before {\n    position: absolute;\n    font-size: 0.9em; }\n\n.vjs-slider-vertical .vjs-volume-level {\n  width: 0.3em; }\n  .vjs-slider-vertical .vjs-volume-level:before {\n    top: -0.5em;\n    left: -0.3em; }\n\n.vjs-slider-horizontal .vjs-volume-level {\n  height: 0.3em; }\n  .vjs-slider-horizontal .vjs-volume-level:before {\n    top: -0.3em;\n    right: -0.5em; }\n\n.vjs-volume-bar.vjs-slider-vertical .vjs-volume-level {\n  height: 100%; }\n\n.vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {\n  width: 100%; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button .vjs-menu {\n  display: block;\n  width: 0;\n  height: 0;\n  border-top-color: transparent; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button-vertical .vjs-menu {\n  left: 0.5em;\n  height: 8em; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button-horizontal .vjs-menu {\n  left: -2em; }\n\n.vjs-menu-button-popup.vjs-volume-menu-button .vjs-menu-content {\n  height: 0;\n  width: 0;\n  overflow-x: hidden;\n  overflow-y: hidden; }\n\n.vjs-volume-menu-button-vertical:hover .vjs-menu-content,\n.vjs-volume-menu-button-vertical:focus .vjs-menu-content,\n.vjs-volume-menu-button-vertical.vjs-slider-active .vjs-menu-content,\n.vjs-volume-menu-button-vertical .vjs-lock-showing .vjs-menu-content {\n  height: 8em;\n  width: 2.9em; }\n\n.vjs-volume-menu-button-horizontal:hover .vjs-menu-content,\n.vjs-volume-menu-button-horizontal:focus .vjs-menu-content,\n.vjs-volume-menu-button-horizontal .vjs-slider-active .vjs-menu-content,\n.vjs-volume-menu-button-horizontal .vjs-lock-showing .vjs-menu-content {\n  height: 2.9em;\n  width: 8em; }\n\n.vjs-volume-menu-button.vjs-menu-button-inline .vjs-menu-content {\n  background-color: transparent !important; }\n\n.vjs-poster {\n  display: inline-block;\n  vertical-align: middle;\n  background-repeat: no-repeat;\n  background-position: 50% 50%;\n  background-size: contain;\n  background-color: #000000;\n  cursor: pointer;\n  margin: 0;\n  padding: 0;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  height: 100%; }\n\n.vjs-poster img {\n  display: block;\n  vertical-align: middle;\n  margin: 0 auto;\n  max-height: 100%;\n  padding: 0;\n  width: 100%; }\n\n.vjs-has-started .vjs-poster {\n  display: none; }\n\n.vjs-audio.vjs-has-started .vjs-poster {\n  display: block; }\n\n.vjs-controls-disabled .vjs-poster {\n  display: none; }\n\n.vjs-using-native-controls .vjs-poster {\n  display: none; }\n\n.video-js .vjs-live-control {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: flex-start;\n  -webkit-align-items: flex-start;\n  -ms-flex-align: flex-start;\n  align-items: flex-start;\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto;\n  font-size: 1em;\n  line-height: 3em; }\n\n.vjs-no-flex .vjs-live-control {\n  display: table-cell;\n  width: auto;\n  text-align: left; }\n\n.video-js .vjs-time-control {\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none;\n  font-size: 1em;\n  line-height: 3em;\n  min-width: 2em;\n  width: auto;\n  padding-left: 1em;\n  padding-right: 1em; }\n\n.vjs-live .vjs-time-control {\n  display: none; }\n\n.video-js .vjs-current-time,\n.vjs-no-flex .vjs-current-time {\n  display: none; }\n\n.video-js .vjs-duration,\n.vjs-no-flex .vjs-duration {\n  display: none; }\n\n.vjs-time-divider {\n  display: none;\n  line-height: 3em; }\n\n.vjs-live .vjs-time-divider {\n  display: none; }\n\n.video-js .vjs-play-control {\n  cursor: pointer;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n\n.vjs-text-track-display {\n  position: absolute;\n  bottom: 3em;\n  left: 0;\n  right: 0;\n  top: 0;\n  pointer-events: none; }\n\n.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {\n  bottom: 1em; }\n\n.video-js .vjs-text-track {\n  font-size: 1.4em;\n  text-align: center;\n  margin-bottom: 0.1em;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.5); }\n\n.vjs-subtitles {\n  color: #fff; }\n\n.vjs-captions {\n  color: #fc6; }\n\n.vjs-tt-cue {\n  display: block; }\n\nvideo::-webkit-media-text-track-display {\n  -moz-transform: translateY(-3em);\n  -ms-transform: translateY(-3em);\n  -o-transform: translateY(-3em);\n  -webkit-transform: translateY(-3em);\n  transform: translateY(-3em); }\n\n.video-js.vjs-user-inactive.vjs-playing video::-webkit-media-text-track-display {\n  -moz-transform: translateY(-1.5em);\n  -ms-transform: translateY(-1.5em);\n  -o-transform: translateY(-1.5em);\n  -webkit-transform: translateY(-1.5em);\n  transform: translateY(-1.5em); }\n\n.video-js .vjs-fullscreen-control {\n  cursor: pointer;\n  -webkit-box-flex: none;\n  -moz-box-flex: none;\n  -webkit-flex: none;\n  -ms-flex: none;\n  flex: none; }\n\n.vjs-playback-rate .vjs-playback-rate-value {\n  font-size: 1.5em;\n  line-height: 2;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center; }\n\n.vjs-playback-rate .vjs-menu {\n  width: 4em;\n  left: 0em; }\n\n.vjs-error .vjs-error-display .vjs-modal-dialog-content {\n  font-size: 1.4em;\n  text-align: center; }\n\n.vjs-error .vjs-error-display:before {\n  color: #fff;\n  content: 'X';\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 4em;\n  left: 0;\n  line-height: 1;\n  margin-top: -0.5em;\n  position: absolute;\n  text-shadow: 0.05em 0.05em 0.1em #000;\n  text-align: center;\n  top: 50%;\n  vertical-align: middle;\n  width: 100%; }\n\n.vjs-loading-spinner {\n  display: none;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin: -25px 0 0 -25px;\n  opacity: 0.85;\n  text-align: left;\n  border: 6px solid rgba(43, 51, 63, 0.7);\n  box-sizing: border-box;\n  background-clip: padding-box;\n  width: 50px;\n  height: 50px;\n  border-radius: 25px; }\n\n.vjs-seeking .vjs-loading-spinner,\n.vjs-waiting .vjs-loading-spinner {\n  display: block; }\n\n.vjs-loading-spinner:before,\n.vjs-loading-spinner:after {\n  content: \"\";\n  position: absolute;\n  margin: -6px;\n  box-sizing: inherit;\n  width: inherit;\n  height: inherit;\n  border-radius: inherit;\n  opacity: 1;\n  border: inherit;\n  border-color: transparent;\n  border-top-color: white; }\n\n.vjs-seeking .vjs-loading-spinner:before,\n.vjs-seeking .vjs-loading-spinner:after,\n.vjs-waiting .vjs-loading-spinner:before,\n.vjs-waiting .vjs-loading-spinner:after {\n  -webkit-animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite;\n  animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite; }\n\n.vjs-seeking .vjs-loading-spinner:before,\n.vjs-waiting .vjs-loading-spinner:before {\n  border-top-color: white; }\n\n.vjs-seeking .vjs-loading-spinner:after,\n.vjs-waiting .vjs-loading-spinner:after {\n  border-top-color: white;\n  -webkit-animation-delay: 0.44s;\n  animation-delay: 0.44s; }\n\n@keyframes vjs-spinner-spin {\n  100% {\n    transform: rotate(360deg); } }\n\n@-webkit-keyframes vjs-spinner-spin {\n  100% {\n    -webkit-transform: rotate(360deg); } }\n\n@keyframes vjs-spinner-fade {\n  0% {\n    border-top-color: #73859f; }\n  20% {\n    border-top-color: #73859f; }\n  35% {\n    border-top-color: white; }\n  60% {\n    border-top-color: #73859f; }\n  100% {\n    border-top-color: #73859f; } }\n\n@-webkit-keyframes vjs-spinner-fade {\n  0% {\n    border-top-color: #73859f; }\n  20% {\n    border-top-color: #73859f; }\n  35% {\n    border-top-color: white; }\n  60% {\n    border-top-color: #73859f; }\n  100% {\n    border-top-color: #73859f; } }\n\n.vjs-chapters-button .vjs-menu ul {\n  width: 24em; }\n\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-custom-control-spacer {\n  -webkit-box-flex: auto;\n  -moz-box-flex: auto;\n  -webkit-flex: auto;\n  -ms-flex: auto;\n  flex: auto; }\n\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen).vjs-no-flex .vjs-custom-control-spacer {\n  width: auto; }\n\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-remaining-time,\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-playback-rate, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-progress-control,\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-menu-button,\n.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-captions-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-subtitles-button {\n  display: none; }\n\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-remaining-time,\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-playback-rate,\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-menu-button,\n.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-captions-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subtitles-button {\n  display: none; }\n\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-remaining-time,\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-playback-rate,\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-control,\n.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-captions-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-subtitles-button {\n  display: none; }\n\n.vjs-caption-settings {\n  position: relative;\n  top: 1em;\n  background-color: #2B333F;\n  background-color: rgba(43, 51, 63, 0.75);\n  color: #fff;\n  margin: 0 auto;\n  padding: 0.5em;\n  height: 15em;\n  font-size: 12px;\n  width: 40em; }\n\n.vjs-caption-settings .vjs-tracksettings {\n  top: 0;\n  bottom: 2em;\n  left: 0;\n  right: 0;\n  position: absolute;\n  overflow: auto; }\n\n.vjs-caption-settings .vjs-tracksettings-colors,\n.vjs-caption-settings .vjs-tracksettings-font {\n  float: left; }\n\n.vjs-caption-settings .vjs-tracksettings-colors:after,\n.vjs-caption-settings .vjs-tracksettings-font:after,\n.vjs-caption-settings .vjs-tracksettings-controls:after {\n  clear: both; }\n\n.vjs-caption-settings .vjs-tracksettings-controls {\n  position: absolute;\n  bottom: 1em;\n  right: 1em; }\n\n.vjs-caption-settings .vjs-tracksetting {\n  margin: 5px;\n  padding: 3px;\n  min-height: 40px; }\n\n.vjs-caption-settings .vjs-tracksetting label {\n  display: block;\n  width: 100px;\n  margin-bottom: 5px; }\n\n.vjs-caption-settings .vjs-tracksetting span {\n  display: inline;\n  margin-left: 5px; }\n\n.vjs-caption-settings .vjs-tracksetting > div {\n  margin-bottom: 5px;\n  min-height: 20px; }\n\n.vjs-caption-settings .vjs-tracksetting > div:last-child {\n  margin-bottom: 0;\n  padding-bottom: 0;\n  min-height: 0; }\n\n.vjs-caption-settings label > input {\n  margin-right: 10px; }\n\n.vjs-caption-settings input[type=\"button\"] {\n  width: 40px;\n  height: 40px; }\n\n.video-js .vjs-modal-dialog {\n  background: rgba(0, 0, 0, 0.8);\n  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));\n  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)); }\n\n.vjs-modal-dialog .vjs-modal-dialog-content {\n  font-size: 1.2em;\n  line-height: 1.5;\n  padding: 20px 24px;\n  z-index: 1; }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 372 */
+/* 373 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "00103e881a36640a08f869ff6888f0fd.eot";
 
 /***/ },
-/* 373 */
+/* 374 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -61603,12 +61937,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 374 */
+/* 375 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;var require;/* WEBPACK VAR INJECTION */(function(global) {/**
 	 * @license
-	 * Video.js 5.10.2 <http://videojs.com/>
+	 * Video.js 5.10.4 <http://videojs.com/>
 	 * Copyright Brightcove, Inc. <https://www.brightcove.com/>
 	 * Available under Apache License Version 2.0
 	 * <https://github.com/videojs/video.js/blob/master/LICENSE>
@@ -78749,6 +79083,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.off(this.el_, 'loadstart', _Tech.prototype.firstLoadStartListener_);
 	      this.off(this.el_, 'loadstart', _Tech.prototype.successiveLoadStartListener_);
 	      this.sourceHandler_.dispose();
+	      this.sourceHandler_ = null;
 	    }
 	  };
 	};
@@ -83323,7 +83658,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @type {String}
 	 */
-	videojs.VERSION = '5.10.2';
+	videojs.VERSION = '5.10.4';
 	
 	/**
 	 * The global options object. These are the settings that take effect
@@ -85895,23 +86230,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 375 */
+/* 376 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-video\" :style=\"[sizeStyle]\" _v-af7d4544=\"\">\n    <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-af7d4544=\"\">\n        <source :src=\"src\" :type=\"type\" _v-af7d4544=\"\">\n        <p class=\"vjs-no-js\" _v-af7d4544=\"\">\n            To view this video please enable JavaScript, and consider upgrading to a web browser that\n            <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\" _v-af7d4544=\"\">supports HTML5 video</a>\n        </p>\n    </video>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n    <div class=\"ms-video\" :style=\"[sizeStyle]\" _v-7ccfd4ca=\"\">\n<!--        <video v-el:video-el class=\"video-js\" controls :preload=\"preload\"  style=\"width: 100%;height: 100%\"\n               :poster=\"poster\" :dataSetup=\"options\" :src=\"src\">\n            <source :src=\"src\" :type=\"type\">\n            <p class=\"vjs-no-js\">\n                To view this video please enable JavaScript, and consider upgrading to a web browser that\n                <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\">supports HTML5 video</a>\n            </p>\n        </video>-->\n        <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-7ccfd4ca=\"\">\n\n        </video>\n    </div>\n";
 
 /***/ },
-/* 376 */
+/* 377 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(377)
-	__vue_script__ = __webpack_require__(379)
+	__webpack_require__(378)
+	__vue_script__ = __webpack_require__(380)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/toolbar/pagination.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(380)
+	  console.warn("[vue-loader] src\\toolbar\\pagination.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(381)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -85921,7 +86256,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./pagination.vue"
+	  var id = "_v-37c5d4b6/pagination.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -85930,13 +86265,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 377 */
+/* 378 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(378);
+	var content = __webpack_require__(379);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -85956,7 +86291,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 378 */
+/* 379 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -85970,7 +86305,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 379 */
+/* 380 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -86123,23 +86458,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 380 */
+/* 381 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"row\">\n    <div class=\"col-xs-4 set-middle\">\n        显示 {{showObj.startlist}} 到 {{showObj.endlist}} 共 {{listCount}} 条\n        <select v-model=\"limitNum\">\n            <option v-for=\"limit in limitArr\">{{limit}}</option>\n        </select>\n    </div>\n    <div class=\"col-xs-8\">\n        <div class=\"dataTables_paginate paging_bootstrap pagination trade-page\">\n            <ul>\n                <li class=\"prev\" :class=\"{'disabled':currentPage == 1}\" @click=\"pagePrev\" v-if=\"currentPage != 0\">\n                    <a>\n                        ← <span class=\"hidden-480\">Previous</span>\n                    </a>\n                </li>\n                <li v-for=\"n in pageObj.leftpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <!--1...567-->\n                <li v-show=\"frontshow\">\n                    <a>...</a>\n                </li>\n                <li v-for=\"n in pageObj.middlepage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <li v-show=\"allpage > 10\"><a>...</a></li>\n                <li v-for=\"n in pageObj.rightpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <li class=\"next\" :class=\"{'disabled':currentPage == allpage}\" @click=\"pageNext\"\n                    v-if=\"currentPage != 0\">\n                    <a>\n                        <span class=\"hidden-480\">Next</span> →\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 381 */
+/* 382 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(382)
-	__vue_script__ = __webpack_require__(384)
+	__webpack_require__(383)
+	__vue_script__ = __webpack_require__(385)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/popup-picker/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(433)
+	  console.warn("[vue-loader] src\\picker-popup\\popup-picker\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(434)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -86149,7 +86484,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-395e0589/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -86158,13 +86493,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 382 */
+/* 383 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(383);
+	var content = __webpack_require__(384);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -86184,7 +86519,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 383 */
+/* 384 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -86198,7 +86533,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 384 */
+/* 385 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -86207,35 +86542,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _index = __webpack_require__(385);
+	var _index = __webpack_require__(386);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(408);
+	var _index3 = __webpack_require__(409);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(418);
+	var _index5 = __webpack_require__(419);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _index7 = __webpack_require__(393);
+	var _index7 = __webpack_require__(394);
 	
 	var _index8 = _interopRequireDefault(_index7);
 	
-	var _index9 = __webpack_require__(398);
+	var _index9 = __webpack_require__(399);
 	
 	var _index10 = _interopRequireDefault(_index9);
 	
-	var _array2String = __webpack_require__(430);
+	var _array2String = __webpack_require__(431);
 	
 	var _array2String2 = _interopRequireDefault(_array2String);
 	
-	var _value2name = __webpack_require__(431);
+	var _value2name = __webpack_require__(432);
 	
 	var _value2name2 = _interopRequireDefault(_value2name);
 	
-	var _mixin_uuid = __webpack_require__(432);
+	var _mixin_uuid = __webpack_require__(433);
 	
 	var _mixin_uuid2 = _interopRequireDefault(_mixin_uuid);
 	
@@ -86297,17 +86632,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 385 */
+/* 386 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(386)
-	__vue_script__ = __webpack_require__(389)
+	__webpack_require__(387)
+	__vue_script__ = __webpack_require__(390)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/picker/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(407)
+	  console.warn("[vue-loader] src\\picker-popup\\picker\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(408)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -86317,7 +86652,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-28b138f0/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -86326,13 +86661,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 386 */
+/* 387 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(387);
+	var content = __webpack_require__(388);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -86352,12 +86687,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 387 */
+/* 388 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
 	// imports
-	exports.i(__webpack_require__(388), "");
+	exports.i(__webpack_require__(389), "");
 	
 	// module
 	exports.push([module.id, "\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"index.vue","sourceRoot":"webpack://"}]);
@@ -86366,7 +86701,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 388 */
+/* 389 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -86380,7 +86715,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 389 */
+/* 390 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -86389,19 +86724,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _scroller = __webpack_require__(390);
+	var _scroller = __webpack_require__(391);
 	
 	var _scroller2 = _interopRequireDefault(_scroller);
 	
-	var _index = __webpack_require__(393);
+	var _index = __webpack_require__(394);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(398);
+	var _index3 = __webpack_require__(399);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _chain = __webpack_require__(401);
+	var _chain = __webpack_require__(402);
 	
 	var _chain2 = _interopRequireDefault(_chain);
 	
@@ -86574,16 +86909,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 390 */
+/* 391 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _animate = __webpack_require__(391);
+	var _animate = __webpack_require__(392);
 	
 	var _animate2 = _interopRequireDefault(_animate);
 	
-	var _util = __webpack_require__(392);
+	var _util = __webpack_require__(393);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -86905,21 +87240,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      // Otherwise figure out whether we are switching into dragging mode now.
 	    } else {
-	        var minimumTrackingForScroll = 0;
-	        var minimumTrackingForDrag = 5;
+	      var minimumTrackingForScroll = 0;
+	      var minimumTrackingForDrag = 5;
 	
-	        var distanceY = Math.abs(currentTouchTop - self.__initialTouchTop);
+	      var distanceY = Math.abs(currentTouchTop - self.__initialTouchTop);
 	
-	        self.__enableScrollY = distanceY >= minimumTrackingForScroll;
+	      self.__enableScrollY = distanceY >= minimumTrackingForScroll;
 	
-	        positions.push(self.__scrollTop, timeStamp);
+	      positions.push(self.__scrollTop, timeStamp);
 	
-	        self.__isDragging = self.__enableScrollY && distanceY >= minimumTrackingForDrag;
+	      self.__isDragging = self.__enableScrollY && distanceY >= minimumTrackingForDrag;
 	
-	        if (self.__isDragging) {
-	          self.__interruptedAnimation = false;
-	        }
+	      if (self.__isDragging) {
+	        self.__interruptedAnimation = false;
 	      }
+	    }
 	
 	    // Update last touch positions and time stamp for next event
 	    self.__lastTouchTop = currentTouchTop;
@@ -87116,7 +87451,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = Scroller;
 
 /***/ },
-/* 391 */
+/* 392 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -87232,7 +87567,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 392 */
+/* 393 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -87267,17 +87602,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 393 */
+/* 394 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(394)
-	__vue_script__ = __webpack_require__(396)
+	__webpack_require__(395)
+	__vue_script__ = __webpack_require__(397)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/flexbox/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(397)
+	  console.warn("[vue-loader] src\\picker-popup\\flexbox\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(398)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -87287,7 +87622,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-0a1234d4/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -87296,13 +87631,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 394 */
+/* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(395);
+	var content = __webpack_require__(396);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -87322,7 +87657,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 395 */
+/* 396 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -87336,7 +87671,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 396 */
+/* 397 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -87358,22 +87693,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 397 */
+/* 398 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"vux-flexbox\" :class=\"{'flex-col': orient == 'vertical', 'flex-row': orient == 'horizontal'}\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
-/* 398 */
+/* 399 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(399)
+	__vue_script__ = __webpack_require__(400)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/flexbox-item/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(400)
+	  console.warn("[vue-loader] src\\picker-popup\\flexbox-item\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(401)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -87383,7 +87718,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-15ae26c8/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -87392,7 +87727,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 399 */
+/* 400 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -87444,13 +87779,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 400 */
+/* 401 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"vux-flexbox-item\" :style=\"style\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
-/* 401 */
+/* 402 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -87459,11 +87794,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(402);
+	var _classCallCheck2 = __webpack_require__(403);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(403);
+	var _createClass2 = __webpack_require__(404);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
@@ -87520,7 +87855,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 402 */
+/* 403 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -87534,14 +87869,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 403 */
+/* 404 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	exports.__esModule = true;
 	
-	var _defineProperty = __webpack_require__(404);
+	var _defineProperty = __webpack_require__(405);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -87566,23 +87901,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	}();
 
 /***/ },
-/* 404 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(405), __esModule: true };
-
-/***/ },
 /* 405 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(406);
+	module.exports = { "default": __webpack_require__(406), __esModule: true };
+
+/***/ },
+/* 406 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(407);
 	var $Object = __webpack_require__(25).Object;
 	module.exports = function defineProperty(it, key, desc){
 	  return $Object.defineProperty(it, key, desc);
 	};
 
 /***/ },
-/* 406 */
+/* 407 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export = __webpack_require__(23);
@@ -87590,23 +87925,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	$export($export.S + $export.F * !__webpack_require__(33), 'Object', {defineProperty: __webpack_require__(29).f});
 
 /***/ },
-/* 407 */
+/* 408 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"vux-picker\">\n  <flexbox :gutter=\"0\">\n    <flexbox-item v-for=\"(index, one) in data\" style=\"margin-left:0;\">\n      <div class=\"vux-picker-item\" :id=\"'vux-picker-' + uuid + '-' + index\"></div>\n    </flexbox-item>\n  </flexbox>\n</div>\n";
 
 /***/ },
-/* 408 */
+/* 409 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(409)
-	__vue_script__ = __webpack_require__(412)
+	__webpack_require__(410)
+	__vue_script__ = __webpack_require__(413)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/cell/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(417)
+	  console.warn("[vue-loader] src\\picker-popup\\cell\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(418)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -87616,7 +87951,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-d28a9348/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -87625,13 +87960,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 409 */
+/* 410 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(410);
+	var content = __webpack_require__(411);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -87651,12 +87986,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 410 */
+/* 411 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
 	// imports
-	exports.i(__webpack_require__(411), "");
+	exports.i(__webpack_require__(412), "");
 	
 	// module
 	exports.push([module.id, ".vux-center-v,\n.vux-center-h,\n.vux-center {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.vux-center-v,\n.vux-center {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n              -ms-grid-row-align: center;\n          align-items: center;\n}\n.vux-center-h,\n.vux-center {\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n.vux-tap-active {\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n}\n.vux-tap-active:active {\n  background-color: #ECECEC;\n}\n.weui_cell_bd p {\n  margin: 0px;\n}\n", "", {"version":3,"sources":["/./src/picker-popup/cell/index.vue"],"names":[],"mappings":"AACA;;;EAGE,qBAAc;EAAd,qBAAc;EAAd,cAAc;CACf;AACD;;EAEE,0BAAoB;MAApB,uBAAoB;cAApB,2BAAoB;UAApB,oBAAoB;CACrB;AACD;;EAEE,yBAAwB;MAAxB,sBAAwB;UAAxB,wBAAwB;CACzB;AACD;EACE,8CAA8C;CAC/C;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,YAAY;CACb","file":"index.vue","sourcesContent":["@import '../styles/weui.0.4.2.min.css';\n.vux-center-v,\n.vux-center-h,\n.vux-center {\n  display: flex;\n}\n.vux-center-v,\n.vux-center {\n  align-items: center;\n}\n.vux-center-h,\n.vux-center {\n  justify-content: center;\n}\n.vux-tap-active {\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n}\n.vux-tap-active:active {\n  background-color: #ECECEC;\n}\n.weui_cell_bd p {\n  margin: 0px;\n}\n"],"sourceRoot":"webpack://"}]);
@@ -87665,7 +88000,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 411 */
+/* 412 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -87679,7 +88014,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 412 */
+/* 413 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -87688,7 +88023,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _index = __webpack_require__(413);
+	var _index = __webpack_require__(414);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -87721,12 +88056,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 413 */
+/* 414 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(414)
-	__vue_template__ = __webpack_require__(416)
+	__webpack_require__(415)
+	__vue_template__ = __webpack_require__(417)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -87736,7 +88071,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-14787527/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -87745,13 +88080,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 414 */
+/* 415 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(415);
+	var content = __webpack_require__(416);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -87771,7 +88106,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 415 */
+/* 416 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -87785,29 +88120,29 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 416 */
+/* 417 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<span class=\"label_desc\"><slot></slot></span>\n";
 
 /***/ },
-/* 417 */
+/* 418 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"weui_cell\" :class=\"{'vux-tap-active': isLink || !!link}\">\n  <div class=\"weui_cell_hd\">\n    <slot name=\"icon\"></slot>\n  </div>\n  <div class=\"weui_cell_bd\" :class=\"{'weui_cell_primary':primary==='title'}\">\n    <p>\n      {{title}}\n      <slot name=\"after-title\"></slot>\n    </p>\n    <inline-desc>{{inlineDesc}}</inline-desc>\n  </div>\n  <div class=\"weui_cell_ft\" :class=\"{'weui_cell_primary':primary==='content', 'with_arrow': isLink || !!link}\">\n    {{value}}\n    <slot name=\"value\"></slot>\n  </div>\n</div>\n";
 
 /***/ },
-/* 418 */
+/* 419 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(419)
-	__vue_script__ = __webpack_require__(421)
+	__webpack_require__(420)
+	__vue_script__ = __webpack_require__(422)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/popup/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(429)
+	  console.warn("[vue-loader] src\\picker-popup\\popup\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(430)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -87817,7 +88152,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-96244a64/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -87826,13 +88161,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 419 */
+/* 420 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(420);
+	var content = __webpack_require__(421);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -87852,7 +88187,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 420 */
+/* 421 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -87866,7 +88201,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 421 */
+/* 422 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -87875,7 +88210,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _popup = __webpack_require__(422);
+	var _popup = __webpack_require__(423);
 	
 	var _popup2 = _interopRequireDefault(_popup);
 	
@@ -87931,7 +88266,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 422 */
+/* 423 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -87939,8 +88274,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	var Eventor = __webpack_require__(423);
-	var Tap = __webpack_require__(428);
+	var Eventor = __webpack_require__(424);
+	var Tap = __webpack_require__(429);
 	var PickerDialog = function PickerDialog(option) {
 	  this.params = {};
 	  if (Object.prototype.toString.call(option) === '[object Object]') {
@@ -88023,12 +88358,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = PickerDialog;
 
 /***/ },
-/* 423 */
+/* 424 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _keys = __webpack_require__(424);
+	var _keys = __webpack_require__(425);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
@@ -88247,34 +88582,34 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = Events;
 
 /***/ },
-/* 424 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(425), __esModule: true };
-
-/***/ },
 /* 425 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(426);
-	module.exports = __webpack_require__(25).Object.keys;
+	module.exports = { "default": __webpack_require__(426), __esModule: true };
 
 /***/ },
 /* 426 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(427);
+	module.exports = __webpack_require__(25).Object.keys;
+
+/***/ },
+/* 427 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
 	var toObject = __webpack_require__(56)
 	  , $keys    = __webpack_require__(39);
 	
-	__webpack_require__(427)('keys', function(){
+	__webpack_require__(428)('keys', function(){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 427 */
+/* 428 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
@@ -88289,7 +88624,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 428 */
+/* 429 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -88349,13 +88684,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = Event;
 
 /***/ },
-/* 429 */
+/* 430 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div v-show=\"show\" transition=\"popup\" :style=\"{height:height}\" class=\"vux-popup\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
-/* 430 */
+/* 431 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -88369,7 +88704,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 431 */
+/* 432 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {'use strict';
@@ -88391,7 +88726,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ },
-/* 432 */
+/* 433 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -88406,23 +88741,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 433 */
+/* 434 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<cell :title=\"title\" primary=\"content\" is-link :inline-desc=\"inlineDesc\" @click=\"onClick\">\n  <span class=\"vux-popup-picker-value\" slot=\"value\" v-if=\"!showName\">{{value | array2string}}</span>\n  <span class=\"vux-popup-picker-value\" slot=\"value\" v-else>{{value | value2name data}}</span>\n</cell>\n<popup :show.sync=\"show\" class=\"vux-popup-picker\" :id=\"'vux-popup-picker-'+uuid\">\n  <div class=\"vux-container\">\n    <div class=\"vux-header\">\n      <flexbox>\n        <flexbox-item style=\"text-align:left;padding-left:15px;line-height:44px;\" @click=\"onHide(false)\">取消</flexbox-item>\n        <flexbox-item style=\"text-align:right;padding-right:15px;line-height:44px;\" @click=\"onHide(true)\">完成</flexbox-item>\n      </flexbox>\n    </div>\n    <picker :data=\"data\" :value.sync=\"value\" :columns=\"columns\" :container=\"'#vux-popup-picker-'+uuid\"></picker>\n  </div>\n</popup>\n";
 
 /***/ },
-/* 434 */
+/* 435 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(435)
-	__vue_script__ = __webpack_require__(437)
+	__webpack_require__(436)
+	__vue_script__ = __webpack_require__(438)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/group/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(438)
+	  console.warn("[vue-loader] src\\picker-popup\\group\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(439)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -88432,7 +88767,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-434d74e1/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -88441,13 +88776,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 435 */
+/* 436 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(436);
+	var content = __webpack_require__(437);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -88467,7 +88802,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 436 */
+/* 437 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -88481,7 +88816,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 437 */
+/* 438 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -88498,23 +88833,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 438 */
+/* 439 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div>\n  <div class=\"weui_cells_title\" v-if=\"title\" :style=\"{color:titleColor}\" v-html=\"title\"></div>\n  <div class=\"weui_cells\" :class=\"{'no_group_title':!title}\">\n    <slot></slot>\n  </div>\n</div>\n";
 
 /***/ },
-/* 439 */
+/* 440 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(440)
-	__vue_script__ = __webpack_require__(442)
+	__webpack_require__(441)
+	__vue_script__ = __webpack_require__(443)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker-popup/datetime/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(447)
+	  console.warn("[vue-loader] src\\picker-popup\\datetime\\index.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(448)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -88524,7 +88859,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "./index.vue"
+	  var id = "_v-66500735/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -88533,13 +88868,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 440 */
+/* 441 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(441);
+	var content = __webpack_require__(442);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -88559,7 +88894,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 441 */
+/* 442 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -88573,7 +88908,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 442 */
+/* 443 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -88582,19 +88917,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _datetimepicker = __webpack_require__(443);
+	var _datetimepicker = __webpack_require__(444);
 	
 	var _datetimepicker2 = _interopRequireDefault(_datetimepicker);
 	
-	var _index = __webpack_require__(434);
+	var _index = __webpack_require__(435);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(413);
+	var _index3 = __webpack_require__(414);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _base = __webpack_require__(446);
+	var _base = __webpack_require__(447);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -88714,7 +89049,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 443 */
+/* 444 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -88723,11 +89058,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _scroller = __webpack_require__(390);
+	var _scroller = __webpack_require__(391);
 	
 	var _scroller2 = _interopRequireDefault(_scroller);
 	
-	var _util = __webpack_require__(444);
+	var _util = __webpack_require__(445);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -89059,7 +89394,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.default = DatetimePicker;
 
 /***/ },
-/* 444 */
+/* 445 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89078,7 +89413,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.toElement = toElement;
 	exports.removeElement = removeElement;
 	
-	var _format = __webpack_require__(445);
+	var _format = __webpack_require__(446);
 	
 	var _format2 = _interopRequireDefault(_format);
 	
@@ -89159,7 +89494,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 445 */
+/* 446 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -89199,7 +89534,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 446 */
+/* 447 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89208,7 +89543,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	
-	var _mixin_uuid = __webpack_require__(432);
+	var _mixin_uuid = __webpack_require__(433);
 	
 	var _mixin_uuid2 = _interopRequireDefault(_mixin_uuid);
 	
@@ -89259,7 +89594,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 447 */
+/* 448 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<a class=\"weui_cell\" href=\"javascript:\">\n  <div class=\"weui_cell_bd weui_cell_primary\">\n    <p>{{title}}</p>\n    <inline-desc v-if=\"inlineDesc\">{{inlineDesc}}</inline-desc>\n  </div>\n  <div class=\"weui_cell_ft with_arrow vux-datetime-value\">{{value}}</div>\n</a>\n";
