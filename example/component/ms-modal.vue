@@ -6,7 +6,7 @@ Date: 16/5/8
 Time: 13:47-->
 <template>
     <div>
-        <button @click="showModal()">显示</button>
+        <button @click="showModal()" class="btn btn-default">显示</button>
         <ms-modal :is-show.sync="show">
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
