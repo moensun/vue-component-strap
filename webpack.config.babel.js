@@ -1,11 +1,18 @@
 "use strict";
-import path from 'path';
+/*import path from 'path';
 import webpack from 'webpack';
 import colors from 'colors';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import TransferWebpackPlugin from 'transfer-webpack-plugin';
-import Clean from 'clean-webpack-plugin';
+import Clean from 'clean-webpack-plugin';*/
+
+var path = require('path');
+var webpack = require('webpack');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var TransferWebpackPlugin = require('transfer-webpack-plugin');
+var Clean = require('clean-webpack-plugin');
 
 let config = {
     resolve:{

@@ -4,7 +4,8 @@
   "description": "vue-strap",
   "main": "dist/main.js",
   "scripts": {
-    "start": "webpack --watch --progress",
+    "start": "webpack-dev-server --port 9000 --content-base html --watch --progress",
+    "html":"webpack --progress",
     "src": "webpack --config webpack-src.config.babel.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
