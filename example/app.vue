@@ -38,6 +38,9 @@ Time: 12:11-->
                             <a v-link="{name:'ms-date-range-single-field'}">ms-date-range-single-field</a>
                         </li>
                         <li class="list-group-item">
+                            <a v-link="{name:'ms-image-select-preview-field'}">ms-image-select-preview-field</a>
+                        </li>
+                        <li class="list-group-item">
                             <a v-link="{name:'ms-time'}">ms-time</a>
                         </li>
                         <li class="list-group-item">

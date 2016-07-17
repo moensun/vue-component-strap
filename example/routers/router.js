@@ -43,6 +43,10 @@ module.exports = {
         name:'ms-date-range-single-field',
         component:require("../component/ms-date-range-single-field.vue")
     },
+    "ms-image-select-preview-field":{
+        name:'ms-image-select-preview-field',
+        component:require("../component/ms-image-select-preview.vue")
+    },
     "ms-time":{
         name:'ms-time',
         component:require("../component/ms-time.vue")
