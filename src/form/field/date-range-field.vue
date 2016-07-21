@@ -325,7 +325,7 @@ Time: 14:26-->
                 border: 1px solid #e3e3e3;
                 border-radius: 4px;
                 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-                z-index: 200;
+                z-index: 1000;
                 .ms-datepicker-table{
                     display: table;
                     .ms-datepicker-tr{

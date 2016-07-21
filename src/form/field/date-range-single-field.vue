@@ -225,7 +225,7 @@ Time: 17:08-->
             border-radius: 4px;
             -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
             box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-            z-index: 200;
+            z-index: 1000;
 
             .ms-span-right{
                 float: right;
