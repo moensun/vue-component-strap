@@ -10,17 +10,17 @@ Time: 13:52-->
             <thead>
                 <tr>
                     <th>
-                        <button class="btn btn-sm btn-default" @click="previousMouth()">
+                        <button type="button" class="btn btn-sm btn-default" @click="previousMouth()">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </button>
                     </th>
                     <th colspan="5">
-                        <button class="btn btn-sm btn-default" @click="showMonthView()">
+                        <button type="button" class="btn btn-sm btn-default" @click="showMonthView()">
                             {{currentMonthText}}&nbsp;{{currentYear}}
                         </button>
                     </th>
                     <th>
-                        <button class="btn btn-sm btn-default" @click="nextMouth()">
+                        <button type="button" class="btn btn-sm btn-default" @click="nextMouth()">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </button>
                     </th>

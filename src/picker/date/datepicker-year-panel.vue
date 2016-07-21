@@ -10,17 +10,17 @@ Time: 15:45-->
             <thead>
                 <tr>
                     <th>
-                        <button class="btn btn-sm btn-default" @click="previousYearScope()">
+                        <button type="button" class="btn btn-sm btn-default" @click="previousYearScope()">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </button>
                     </th>
                     <th colspan="3">
-                        <button class="btn btn-sm btn-default" disabled>
+                        <button type="button" class="btn btn-sm btn-default" disabled>
                             {{yearScope.start}}-{{yearScope.end}}
                         </button>
                     </th>
                     <th>
-                        <button class="btn btn-sm btn-default" @click="nextYearScope()">
+                        <button type="button" class="btn btn-sm btn-default" @click="nextYearScope()">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </button>
                     </th>

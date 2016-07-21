@@ -10,15 +10,15 @@ Time: 13:02-->
             <thead>
                 <tr>
                     <td>
-                        <button class="btn btn-sm btn-default" @click="previousYear()">
+                        <button type="button" class="btn btn-sm btn-default" @click="previousYear()">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </button>
                     </td>
                     <td>
-                        <button class="btn btn-sm btn-default" @click="showYearView()">{{currentYear}}</button>
+                        <button type="button" class="btn btn-sm btn-default" @click="showYearView()">{{currentYear}}</button>
                     </td>
                     <td>
-                        <button class="btn btn-sm btn-default" @click="nextYear()">
+                        <button type="button" class="btn btn-sm btn-default" @click="nextYear()">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </button>
                     </td>
