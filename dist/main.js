@@ -38418,6 +38418,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    ready: function ready() {
 	        var me = this;
+	        me.initComponent();
 	        me.clickOn();
 	        me.$on('datepicker-inner-dom', function () {
 	            me.isInnerElement = true;
@@ -38443,7 +38444,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        "selectedDates": {
 	            handler: function handler(newValue, oldValue) {
 	                var me = this;
-	                debugger;
 	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
 	                    if (me.multiple) {
 	                        me.value = _index2.default.MSDate.dateArrayToStringArray(newValue, me.dateTimeFormat);

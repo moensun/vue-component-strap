@@ -119,6 +119,7 @@ Time: 15:54-->
         },
         ready(){
             let me = this;
+            me.initComponent();
             me.clickOn();
             me.$on('datepicker-inner-dom',function () {
                 me.isInnerElement = true;
@@ -143,7 +144,6 @@ Time: 15:54-->
             "selectedDates":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    debugger;
                     if(newValue && JSON.stringify(newValue) != JSON.stringify(oldValue)){
                         if(me.multiple){
                             me.value = MSUtil.MSDate.dateArrayToStringArray(newValue,me.dateTimeFormat);
