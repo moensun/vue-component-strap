@@ -51,7 +51,9 @@ Time: 00:03-->
         destroyed:function () {
             let me = this;
             if(me.editor){
-                me.editor.destroy();
+                me.editor.ready(function () {
+                    me.editor.destroy();
+                });
             }
         },
         components:{

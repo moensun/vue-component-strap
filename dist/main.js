@@ -56567,7 +56567,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56625,7 +56625,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    destroyed: function destroyed() {
 	        var me = this;
 	        if (me.editor) {
-	            me.editor.destroy();
+	            me.editor.ready(function () {
+	                me.editor.destroy();
+	            });
 	        }
 	    },
 	    components: {}
