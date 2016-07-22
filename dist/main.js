@@ -56567,7 +56567,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56624,7 +56624,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    destroyed: function destroyed() {
 	        var me = this;
-	        me.editor.destroy();
+	        if (me.editor) {
+	            me.editor.destroy();
+	        }
 	    },
 	    components: {}
 	};
