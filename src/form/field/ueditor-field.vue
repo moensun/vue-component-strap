@@ -8,12 +8,14 @@ Time: 00:03-->
     <textarea id="{{id}}"></textarea>
 </template>
 <script>
+    import _ from "lodash";
     export default{
         props:{
             "id":{
                 type:String,
                 default:function () {
-                    return "container";
+                   // return "container";
+                    return _.uniqueId("container-");
                 }
             },
             "value":{
@@ -50,10 +52,14 @@ Time: 00:03-->
         },
         destroyed:function () {
             let me = this;
-            if(me.editor){
-                me.editor.ready(function () {
-                    me.editor.destroy();
-                });
+/*            if(me.editor){
+             me.editor.ready(function () {
+             me.editor.destroy();
+             });
+             }*/
+            let editor = UE.getEditor(me.id);
+            if(editor){
+                editor.destroy();
             }
         },
         components:{

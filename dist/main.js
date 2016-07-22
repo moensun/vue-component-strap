@@ -56567,26 +56567,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
 /* 295 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
+	
+	var _lodash = __webpack_require__(18);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
 	exports.default = {
 	    props: {
 	        "id": {
 	            type: String,
 	            default: function _default() {
-	                return "container";
+	                return _lodash2.default.uniqueId("container-");
 	            }
 	        },
 	        "value": {
@@ -56624,10 +56631,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    destroyed: function destroyed() {
 	        var me = this;
-	        if (me.editor) {
-	            me.editor.ready(function () {
-	                me.editor.destroy();
-	            });
+	
+	        var editor = UE.getEditor(me.id);
+	        if (editor) {
+	            editor.destroy();
 	        }
 	    },
 	    components: {}
