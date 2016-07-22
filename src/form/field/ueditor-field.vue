@@ -14,9 +14,12 @@ Time: 00:03-->
             "id":{
                 type:String,
                 default:function () {
-                   // return "container";
+                    // return "container";
                     return _.uniqueId("container-");
                 }
+            },
+            "height":{
+                type:Number
             },
             "value":{
                 twoWay:true,
@@ -28,13 +31,18 @@ Time: 00:03-->
         },
         data(){
             return{
-                "editor":null
+                "editor":null,
+                "editorReady":false
             }
         },
         ready(){
             let me = this;
             me.editor = UE.getEditor(me.id);
             me.editor.ready(function () {
+                me.editorReady = true;
+                if(me.height){
+                    me.editor.setHeight(me.height);
+                }
                 me.editor.addListener('contentChange',function () {
                     me.value = me.editor.getContent();
                 });
@@ -52,13 +60,9 @@ Time: 00:03-->
         },
         destroyed:function () {
             let me = this;
-/*            if(me.editor){
-             me.editor.ready(function () {
-             me.editor.destroy();
-             });
-             }*/
+
             let editor = UE.getEditor(me.id);
-            if(editor){
+            if( editor && me.editorReady ){
                 editor.destroy();
             }
         },

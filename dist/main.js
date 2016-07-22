@@ -56567,7 +56567,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"ueditor-field.vue","sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56596,6 +56596,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	                return _lodash2.default.uniqueId("container-");
 	            }
 	        },
+	        "height": {
+	            type: Number
+	        },
 	        "value": {
 	            twoWay: true,
 	            type: String,
@@ -56606,13 +56609,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    data: function data() {
 	        return {
-	            "editor": null
+	            "editor": null,
+	            "editorReady": false
 	        };
 	    },
 	    ready: function ready() {
 	        var me = this;
 	        me.editor = UE.getEditor(me.id);
 	        me.editor.ready(function () {
+	            me.editorReady = true;
+	            if (me.height) {
+	                me.editor.setHeight(me.height);
+	            }
 	            me.editor.addListener('contentChange', function () {
 	                me.value = me.editor.getContent();
 	            });
@@ -56633,7 +56641,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var me = this;
 	
 	        var editor = UE.getEditor(me.id);
-	        if (editor) {
+	        if (editor && me.editorReady) {
 	            editor.destroy();
 	        }
 	    },
