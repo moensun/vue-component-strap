@@ -201,7 +201,7 @@
                 return flexCount;
             },
             "surplusWidth":function () {
-                debugger;
+
                 let me = this;
                // me.clientWidth = me.$el.clientWidth;
                 let widthCount = 0;
