@@ -11,6 +11,8 @@ Time: 22:15-->
         <button class="btn btn-default btn-sm" @click="showPaging()">显示分页</button>
         <button class="btn btn-default btn-sm" @click="showLoading()">显示加载</button>
         <button class="btn btn-default btn-sm" @click="hideLoading()">隐藏加载</button>
+        <button class="btn btn-default btn-sm" @click="widthOut()">宽度超出</button>
+        <button class="btn btn-default btn-sm" @click="restWidth()">宽度恢复</button>
     </div>
     <div>
         <div>
@@ -195,13 +197,14 @@ Time: 22:15-->
                         type:'text-column',
                         text:'名称',
                         dataIndex:'name',
+                        align:'center',
                         flex:2
                     },
                     {
                         type:'link-column',
                         text:'名称',
                         dataIndex:'name',
-                        flex:2,
+                        flex:1,
                         href:function (val,record,index) {
                             return "http://www.baidu.com";
                         }
@@ -210,7 +213,7 @@ Time: 22:15-->
                         type:'link-column',
                         text:'名称',
                         dataIndex:'name',
-                        flex:2,
+                        flex:1,
                         link:function (val,record,index) {
                             return {"name":'main'};
                         }
@@ -265,6 +268,144 @@ Time: 22:15-->
             },
             "hideLoading":function () {
                 this.isLoading = false;
+            },
+            "widthOut":function () {
+                this.columns = [
+                    {
+                        type:'text-column',
+                        text:'文本',
+                        dataIndex:'text',
+                        width:400,
+                        listeners:{
+                            click:function (val,record) {
+                                alert(val);
+                            }
+                        }
+                    },
+                    {
+                        type:'text-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        align:'center',
+                        width:400,
+                    },
+                    {
+                        type:'link-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        width:400,
+                        href:function (val,record,index) {
+                            return "http://www.baidu.com";
+                        }
+                    },
+                    {
+                        type:'link-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        width:400,
+                        link:function (val,record,index) {
+                            return {"name":'main'};
+                        }
+                    },
+                    {
+                        type:'action-column',
+                        text:'',
+                        dataIndex:'id',
+                        width:100,
+                        items:[
+                            {
+                                "cls":"glyphicon glyphicon-pencil",
+                                "tooltip":"编辑",
+                                handler:function (record) {
+                                    alert(record);
+                                },
+                                isDisabled:function (record) {
+                                    if(record.id==4){
+                                        return true;
+                                    }
+                                }
+                            },
+                            {
+                                "cls":"btn btn-link btn-sm",
+                                "text":"测试",
+                                "hidden":function (record) {
+                                    if(record.id==5){
+                                        return true;
+                                    }
+                                }
+                            }
+                            ]
+                    }
+                ];
+            },
+            "restWidth":function () {
+                this.columns = [
+                    {
+                        type:'text-column',
+                        text:'文本',
+                        dataIndex:'text',
+                        flex:1,
+                        listeners:{
+                            click:function (val,record) {
+                                alert(val);
+                            }
+                        }
+                    },
+                    {
+                        type:'text-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        align:'center',
+                        flex:2
+                    },
+                    {
+                        type:'link-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        flex:1,
+                        href:function (val,record,index) {
+                            return "http://www.baidu.com";
+                        }
+                    },
+                    {
+                        type:'link-column',
+                        text:'名称',
+                        dataIndex:'name',
+                        flex:1,
+                        link:function (val,record,index) {
+                            return {"name":'main'};
+                        }
+                    },
+                    {
+                        type:'action-column',
+                        text:'',
+                        dataIndex:'id',
+                        width:100,
+                        items:[
+                            {
+                                "cls":"glyphicon glyphicon-pencil",
+                                "tooltip":"编辑",
+                                handler:function (record) {
+                                    alert(record);
+                                },
+                                isDisabled:function (record) {
+                                    if(record.id==4){
+                                        return true;
+                                    }
+                                }
+                            },
+                            {
+                                "cls":"btn btn-link btn-sm",
+                                "text":"测试",
+                                "hidden":function (record) {
+                                    if(record.id==5){
+                                        return true;
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ];
             }
         },
         components:{

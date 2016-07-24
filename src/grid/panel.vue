@@ -1,49 +1,53 @@
 <template>
     <div class="grid-panel">
-        <div v-el:grid-header class="grid-header table-responsive"
-             :style="[headerLineStyle]">
-            <table class="table" :class="{'table-bordered':showRowLines}">
-                <thead>
-                    <tr>
-                        <th v-for="(colIndex,column) in columns"
-                            is="grid-header"
-                            :flex-count="flexCount"
-                            :surplus-width="surplusWidth"
-                            :setting="column"
-                        ></th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-        <div v-el:grid-header-line class="grid-header-line"></div>
-        <div class="grid-body-box">
-            <div v-el:grid-body class="grid-body table-responsive" :style="[bodyHeight,minHeight]">
-                <table class="table table-striped" :class="{'table-bordered':showRowLines}">
-                    <tbody>
-                    <tr v-for="(rowIndex,record) in store">
-                        <td v-for="(colIndex,column) in columns"
-                            :is="(column.type?column.type:'text-column' )"
-                            :store.sync="store"
-                            :record.sync="record"
-                            :flex-count="flexCount"
-                            :surplus-width="surplusWidth"
-                            :setting="column"
-                        ></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <div v-if="isEmpty">{{{emptyText}}}</div>
+        <div class="grid-panel-out-box">
+            <div :style="[panelInnerBox]">
+                <div v-el:grid-header class="grid-header table-responsive"
+                     :style="[headerLineStyle]">
+                    <table class="table" :class="{'table-bordered':showRowLines}">
+                        <thead>
+                        <tr>
+                            <th v-for="(colIndex,column) in columns"
+                                is="grid-header"
+                                :flex-count="flexCount"
+                                :surplus-width="surplusWidth"
+                                :setting="column"
+                            ></th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div v-el:grid-header-line class="grid-header-line"></div>
+                <div class="grid-body-box">
+                    <div v-el:grid-body class="grid-body table-responsive" :style="[bodyHeight,minHeight]">
+                        <table class="table table-striped" :class="{'table-bordered':showRowLines}">
+                            <tbody>
+                            <tr v-for="(rowIndex,record) in store">
+                                <td v-for="(colIndex,column) in columns"
+                                    :is="(column.type?column.type:'text-column' )"
+                                    :store.sync="store"
+                                    :record.sync="record"
+                                    :flex-count="flexCount"
+                                    :surplus-width="surplusWidth"
+                                    :setting="column"
+                                ></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div v-if="isEmpty">{{{emptyText}}}</div>
+                    </div>
+                    <div class="ms-grid-loading" v-if="isLoading" :style="[loadingBackground]"></div>
+                </div>
+                <div v-el:grid-footer class="grid-footer">
+                    <component v-if="paging" :is="(paging.theme?paging.theme:'paging')"
+                               :page-text="paging.pageText"
+                               :show-text="paging.showText"
+                               :current-page.sync="currentPage"
+                               :limit.sync="limit"
+                               :total.sync="total" >
+                    </component>
+                </div>
             </div>
-            <div class="ms-grid-loading" v-if="isLoading" :style="[loadingBackground]"></div>
-        </div>
-        <div v-el:grid-footer class="grid-footer">
-            <component v-if="paging" :is="(paging.theme?paging.theme:'paging')"
-                       :page-text="paging.pageText"
-                       :show-text="paging.showText"
-                       :current-page.sync="currentPage"
-                       :limit.sync="limit"
-                       :total.sync="total" >
-            </component>
         </div>
     </div>
 </template>
@@ -151,6 +155,27 @@
                     return true;
                 }
             },
+            "panelInnerBox":function () {
+                let me = this;
+                let widthCount = 0;
+                _.forEach(me.columns,function (column) {
+                    if(column.width && !column.flex){
+                        widthCount += column.width;
+                    }
+                });
+                let minFlexWithCount = 20 * me.flexCount;
+                if(widthCount+minFlexWithCount > me.$el.clientWidth){
+                    me.clientWidth = widthCount+minFlexWithCount;
+                    return {
+                        "width":me.clientWidth+'px'
+                    };
+                }else {
+                    me.clientWidth = me.$el.clientWidth;
+                    return {
+                        "width":'100%'
+                    }
+                }
+            },
             "headerLineStyle":function (){
                 let me = this;
                 let headerStyle = {};
@@ -158,9 +183,9 @@
                     headerStyle = {"borderTop":"1px solid #ddd"};
                 }
                 if(me.isBodyScrollShow){
-                    headerStyle = Object.assign(headerStyle,{"paddingRight":"14px"});
+                   // headerStyle = Object.assign(headerStyle,{"paddingRight":"14px"});
                     if(me.showRowLines){
-                        headerStyle = Object.assign(headerStyle,{"borderRight":"1px solid #ddd"});
+                       // headerStyle = Object.assign(headerStyle,{"borderRight":"1px solid #ddd"});
                     }
                 }
                 return headerStyle;
@@ -176,8 +201,9 @@
                 return flexCount;
             },
             "surplusWidth":function () {
+                debugger;
                 let me = this;
-                me.clientWidth = me.$el.clientWidth;
+               // me.clientWidth = me.$el.clientWidth;
                 let widthCount = 0;
                 _.forEach(me.columns,function (column) {
                     if(column.width && !column.flex){
@@ -244,9 +270,18 @@
     .grid-panel{
         width: 100%;
         position: relative;
+        .grid-panel-out-box{
+            width: 100%;
+            overflow-x: auto;
+        }
         .grid-header{
+            &.table-responsive{
+                @media screen and (max-width: 767px){
+                    margin-bottom: 0px;
+                }
+            }
             &.scroll-show{
-                 padding-right: 14px;
+                 /*padding-right: 14px;*/
              }
             .table-bordered{border: 0px;}
             .table{

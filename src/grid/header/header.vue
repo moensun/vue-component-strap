@@ -5,7 +5,7 @@ User: Bane.Shi
 Date: 16/4/9
 Time: 10:12-->
 <template>
-    <th v-show="hidden" :style="[columnWidthStyle]" >
+    <th v-show="hidden" :style="[columnWidthStyle,style]" >
         <div>{{{ renderer }}}</div>
     </th>
 </template>
@@ -40,6 +40,14 @@ Time: 10:12-->
 
         },
         computed:{
+            "style":function () {
+                let me = this;
+                let style = {};
+                if(me.setting.align){
+                    style = Object.assign(style,{"textAlign":me.setting.align});
+                }
+                return style;
+            },
             "renderer":function () {
                 let me = this;
                 return me.setting.text;
