@@ -15,9 +15,23 @@ Time: 14:51-->
                 type:String,
                 default:function () {
                     // return "container";
-                    return _.uniqueId("container-");
+                    return _.uniqueId("kinder-editor-");
                 }
             },
+            "value":{
+                twoWay:true,
+                type:String,
+                default:function () {
+                    return "";
+                }
+            },
+            "options":{
+                type:Object,
+                default:function () {
+                    return {};
+                }
+            }
+
         },
         data(){
             return{
@@ -29,8 +43,22 @@ Time: 14:51-->
             let me = this;
 
             KindEditor.ready(function(K) {
-                me.editor = K.create('#'+me.id);
+                me.editor = K.create('#'+me.id,Object.assign({
+                    afterChange:function(){
+                        me.value = this.html();
+                    }
+                },me.options));
             });
+        },
+        watch:{
+            "value":{
+                handler:function (newValue,oldValue) {
+                    let me = this;
+                    if(newValue != me.editor.html()){
+                        me.editor.html(newValue);
+                    }
+                }
+            }
         },
         components:{
         }

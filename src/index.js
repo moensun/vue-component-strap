@@ -11,6 +11,7 @@ import msDateField from "./form/field/date-field.vue";
 import msDateRangeField from "./form/field/date-range-field.vue";
 import msDateRangeSingleField from "./form/field/date-range-single-field.vue";
 import msUeditorField from "./form/field/ueditor-field.vue";
+import msKindEditorField from "./form/field/kindeditor-field.vue";
 import msImageSelectPreviewField from "./form/field/image-select-preview-field.vue";
 
 /*datepicker*/
@@ -50,6 +51,7 @@ const MoenSunStrap = {
 	msDateRangeField,
 	msDateRangeSingleField,
 	msUeditorField,
+	msKindEditorField,
 	msImageSelectPreviewField,
 	msTreeList,
 	treeView,
