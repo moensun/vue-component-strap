@@ -25,7 +25,7 @@ webpackJsonp([0],[
 	
 	var _router2 = _interopRequireDefault(_router);
 	
-	var _app = __webpack_require__(492);
+	var _app = __webpack_require__(514);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
@@ -12930,47 +12930,55 @@ webpackJsonp([0],[
 	    },
 	    "ms-alert": {
 	        name: "ms-alert",
-	        component: __webpack_require__(448)
+	        component: __webpack_require__(462)
 	    },
 	    "ms-confirm": {
 	        name: "ms-confirm",
-	        component: __webpack_require__(452)
+	        component: __webpack_require__(466)
+	    },
+	    "ms-progress": {
+	        name: "ms-progress",
+	        component: __webpack_require__(470)
 	    },
 	    "ms-datepicker": {
 	        name: "ms-datepicker",
-	        component: __webpack_require__(456)
+	        component: __webpack_require__(474)
 	    },
 	    "ms-date-field": {
 	        name: 'ms-date-field',
-	        component: __webpack_require__(460)
+	        component: __webpack_require__(478)
 	    },
 	    "ms-date-range-field": {
 	        name: 'ms-date-range-field',
-	        component: __webpack_require__(464)
+	        component: __webpack_require__(482)
 	    },
 	    "ms-date-range-single-field": {
 	        name: 'ms-date-range-single-field',
-	        component: __webpack_require__(468)
+	        component: __webpack_require__(486)
+	    },
+	    "ms-image-select-preview-field": {
+	        name: 'ms-image-select-preview-field',
+	        component: __webpack_require__(490)
 	    },
 	    "ms-time": {
 	        name: 'ms-time',
-	        component: __webpack_require__(472)
+	        component: __webpack_require__(494)
 	    },
 	    "ms-grid-panel": {
 	        name: 'ms-grid-panel',
-	        component: __webpack_require__(477)
+	        component: __webpack_require__(499)
 	    },
 	    "ms-video": {
 	        name: 'ms-video',
-	        component: __webpack_require__(481)
+	        component: __webpack_require__(503)
 	    },
 	    "ms-pagination": {
 	        name: 'ms-pagination',
-	        component: __webpack_require__(485)
+	        component: __webpack_require__(507)
 	    },
 	    "ms-picker-popup": {
 	        name: 'ms-picker-popup',
-	        component: __webpack_require__(489)
+	        component: __webpack_require__(511)
 	    },
 	    '*': {
 	        component: __webpack_require__(16)
@@ -13029,7 +13037,7 @@ webpackJsonp([0],[
 /* 19 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div>ss</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div>这里是第一页</div>\n";
 
 /***/ },
 /* 20 */
@@ -13042,7 +13050,7 @@ webpackJsonp([0],[
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-modal.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(447)
+	__vue_template__ = __webpack_require__(461)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -13088,6 +13096,9 @@ webpackJsonp([0],[
 	    methods: {
 	        "showModal": function showModal() {
 	            this.show = true;
+	        },
+	        "close": function close() {
+	            this.show = false;
 	        }
 	    },
 	    components: {
@@ -13111,7 +13122,7 @@ webpackJsonp([0],[
 	
 	var _dateField2 = _interopRequireDefault(_dateField);
 	
-	var _dateRangeField = __webpack_require__(260);
+	var _dateRangeField = __webpack_require__(280);
 	
 	var _dateRangeField2 = _interopRequireDefault(_dateRangeField);
 	
@@ -13123,11 +13134,19 @@ webpackJsonp([0],[
 	
 	var _ueditorField2 = _interopRequireDefault(_ueditorField);
 	
+	var _kindeditorField = __webpack_require__(314);
+	
+	var _kindeditorField2 = _interopRequireDefault(_kindeditorField);
+	
+	var _imageSelectPreviewField = __webpack_require__(318);
+	
+	var _imageSelectPreviewField2 = _interopRequireDefault(_imageSelectPreviewField);
+	
 	var _datepicker = __webpack_require__(223);
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
-	var _datepickerRange = __webpack_require__(264);
+	var _datepickerRange = __webpack_require__(284);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
@@ -13135,11 +13154,11 @@ webpackJsonp([0],[
 	
 	var _datepickerRangeSingle2 = _interopRequireDefault(_datepickerRangeSingle);
 	
-	var _datepickerTimePanel = __webpack_require__(274);
+	var _datepickerTimePanel = __webpack_require__(259);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
-	var _treeList = __webpack_require__(314);
+	var _treeList = __webpack_require__(324);
 	
 	var _treeList2 = _interopRequireDefault(_treeList);
 	
@@ -13147,43 +13166,47 @@ webpackJsonp([0],[
 	
 	var _treeView2 = _interopRequireDefault(_treeView);
 	
-	var _panel = __webpack_require__(319);
+	var _panel = __webpack_require__(329);
 	
 	var _panel2 = _interopRequireDefault(_panel);
 	
-	var _panel3 = __webpack_require__(324);
+	var _panel3 = __webpack_require__(334);
 	
 	var _panel4 = _interopRequireDefault(_panel3);
 	
-	var _alert = __webpack_require__(358);
+	var _alert = __webpack_require__(367);
 	
 	var _alert2 = _interopRequireDefault(_alert);
 	
-	var _confirm = __webpack_require__(364);
+	var _confirm = __webpack_require__(373);
 	
 	var _confirm2 = _interopRequireDefault(_confirm);
 	
-	var _modal = __webpack_require__(369);
+	var _progress = __webpack_require__(378);
+	
+	var _progress2 = _interopRequireDefault(_progress);
+	
+	var _modal = __webpack_require__(383);
 	
 	var _modal2 = _interopRequireDefault(_modal);
 	
-	var _video = __webpack_require__(373);
+	var _video = __webpack_require__(387);
 	
 	var _video2 = _interopRequireDefault(_video);
 	
-	var _pagination = __webpack_require__(383);
+	var _pagination = __webpack_require__(397);
 	
 	var _pagination2 = _interopRequireDefault(_pagination);
 	
-	var _index = __webpack_require__(387);
+	var _index = __webpack_require__(401);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(435);
+	var _index3 = __webpack_require__(449);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(439);
+	var _index5 = __webpack_require__(453);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
@@ -13191,14 +13214,6 @@ webpackJsonp([0],[
 	
 	//import "./export";
 	
-	/*datepicker*/
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 2016/3/31
-	 * Time: 22:02
-	 */
 	var MoenSunStrap = {
 		msDatepicker: _datepicker2.default,
 		msDatepickerRange: _datepickerRange2.default,
@@ -13209,12 +13224,15 @@ webpackJsonp([0],[
 		msDateRangeField: _dateRangeField2.default,
 		msDateRangeSingleField: _dateRangeSingleField2.default,
 		msUeditorField: _ueditorField2.default,
+		msKindEditorField: _kindeditorField2.default,
+		msImageSelectPreviewField: _imageSelectPreviewField2.default,
 		msTreeList: _treeList2.default,
 		treeView: _treeView2.default,
 		msTreePanel: _panel2.default,
 		msGridPanel: _panel4.default,
 		msAlert: _alert2.default,
 		msConfirm: _confirm2.default,
+		msProgress: _progress2.default,
 		msModal: _modal2.default,
 		msVideo: _video2.default,
 		msPagination: _pagination2.default,
@@ -13223,6 +13241,16 @@ webpackJsonp([0],[
 		dateTime: _index6.default
 	};
 	//pickerpopup
+	
+	
+	/*datepicker*/
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 2016/3/31
+	 * Time: 22:02
+	 */
 	
 	
 	module.exports = MoenSunStrap;
@@ -14243,13 +14271,13 @@ webpackJsonp([0],[
 /* 75 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-tree-view\" _v-706212d8=\"\">\n    <button @click=\"test\" type=\"button\" _v-706212d8=\"\">ceshi </button>\n    <ul _v-706212d8=\"\">\n        <li v-for=\"(index,record) in data\" v-show=\"show(record)\" @click.prevent=\"selectValue(index,record,$event)\" :class=\"{'active':( record == selectRecord )}\" _v-706212d8=\"\">\n            {{{record.spaceHtml}}}\n            <i v-if=\"isLeaf(record)\" class=\"ms-tree-space\" _v-706212d8=\"\"></i>\n            <i v-else=\"\" class=\"glyphicon ms-tree-grid-action\" :class=\"{'glyphicon-plus':!record.expanded,'glyphicon-minus':record.expanded }\" @click.stop=\"toggle(index,record)\" _v-706212d8=\"\"></i>\n            {{record[displayField]}}\n        </li>\n    </ul>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-tree-view\" _v-83e6a580=\"\">\n    <button @click=\"test\" type=\"button\" _v-83e6a580=\"\">ceshi </button>\n    <ul _v-83e6a580=\"\">\n        <li v-for=\"(index,record) in data\" v-show=\"show(record)\" @click.prevent=\"selectValue(index,record,$event)\" :class=\"{'active':( record == selectRecord )}\" _v-83e6a580=\"\">\n            {{{record.spaceHtml}}}\n            <i v-if=\"isLeaf(record)\" class=\"ms-tree-space\" _v-83e6a580=\"\"></i>\n            <i v-else=\"\" class=\"glyphicon ms-tree-grid-action\" :class=\"{'glyphicon-plus':!record.expanded,'glyphicon-minus':record.expanded }\" @click.stop=\"toggle(index,record)\" _v-83e6a580=\"\"></i>\n            {{record[displayField]}}\n        </li>\n    </ul>\n</div>\n";
 
 /***/ },
 /* 76 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<section class=\"ms-tree-combox\" _v-0d82582c=\"\">\n    <div class=\"input-group\" tabindex=\"1\" _v-0d82582c=\"\">\n        <input type=\"hidden\" v-model=\"value\" _v-0d82582c=\"\">\n        <input v-el:tree-combox-text=\"\" type=\"text\" class=\"form-control ms-combox-text\" placeholder=\"{{placeholder}}\" @blur=\"hide\" v-model=\"text\" readonly=\"\" _v-0d82582c=\"\">\n        <div class=\"input-group-addon ms-combox-icon\" _v-0d82582c=\"\"><i class=\"glyphicon glyphicon-triangle-bottom\" @click.prevent=\"toggleDropdown($event)\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-0d82582c=\"\"></i></div>\n    </div>\n    <div v-show=\"listShow\" class=\"ms-tree-list\" :style=\"[listBoxStyle]\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-0d82582c=\"\">\n        <div class=\"ms-tree-list-inner\" :style=\"{ width:listWidth}\" _v-0d82582c=\"\">\n            <tree-view :box-show.sync=\"listShow\" :data=\"data\" :value.sync=\"value\" :text.sync=\"text\" :select-type=\"selectType\" :value-field=\"valueField\" :display-field=\"displayField\" v-ref:tree-view=\"\" _v-0d82582c=\"\"></tree-view>\n        </div>\n    </div>\n</section>\n";
+	module.exports = "\n\n\n\n\n\n\n<section class=\"ms-tree-combox\" _v-b13dc2d4=\"\">\n    <div class=\"input-group\" tabindex=\"1\" _v-b13dc2d4=\"\">\n        <input type=\"hidden\" v-model=\"value\" _v-b13dc2d4=\"\">\n        <input v-el:tree-combox-text=\"\" type=\"text\" class=\"form-control ms-combox-text\" placeholder=\"{{placeholder}}\" @blur=\"hide\" v-model=\"text\" readonly=\"\" _v-b13dc2d4=\"\">\n        <div class=\"input-group-addon ms-combox-icon\" _v-b13dc2d4=\"\"><i class=\"glyphicon glyphicon-triangle-bottom\" @click.prevent=\"toggleDropdown($event)\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-b13dc2d4=\"\"></i></div>\n    </div>\n    <div v-show=\"listShow\" class=\"ms-tree-list\" :style=\"[listBoxStyle]\" @mouseout.prevent=\"enableBlur\" @mouseover.prevent=\"disableBlur\" _v-b13dc2d4=\"\">\n        <div class=\"ms-tree-list-inner\" :style=\"{ width:listWidth}\" _v-b13dc2d4=\"\">\n            <tree-view :box-show.sync=\"listShow\" :data=\"data\" :value.sync=\"value\" :text.sync=\"text\" :select-type=\"selectType\" :value-field=\"valueField\" :display-field=\"displayField\" v-ref:tree-view=\"\" _v-b13dc2d4=\"\"></tree-view>\n        </div>\n    </div>\n</section>\n";
 
 /***/ },
 /* 77 */
@@ -14262,7 +14290,7 @@ webpackJsonp([0],[
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/form/field/date-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(259)
+	__vue_template__ = __webpack_require__(279)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -14325,6 +14353,10 @@ webpackJsonp([0],[
 	
 	var _datepicker2 = _interopRequireDefault(_datepicker);
 	
+	var _datepickerTimePanel = __webpack_require__(259);
+	
+	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	exports.default = {
@@ -14354,9 +14386,12 @@ webpackJsonp([0],[
 	            twoWay: true
 	        },
 	        "dateFormat": {
-	            type: String,
+	            type: String
+	        },
+	        "withTime": {
+	            type: Boolean,
 	            default: function _default() {
-	                return "YYYY-MM-DD";
+	                return false;
 	            }
 	        },
 	        "isDisabled": {
@@ -14373,17 +14408,39 @@ webpackJsonp([0],[
 	        var me = this;
 	        return {
 	            "calendarShow": false,
-	            "selectedDates": []
+	            "selectedDates": [],
+	            "isInnerElement": false,
+	            "dateTime": null
 	        };
+	    },
+	
+	    computed: {
+	        "showDate": function showDate() {
+	            var me = this;
+	            return me.value;
+	        },
+	        "showTime": function showTime() {
+	            return !this.multiple && this.withTime;
+	        },
+	        "dateTimeFormat": function dateTimeFormat() {
+	            var me = this;
+	            if (me.dateFormat) {
+	                return me.dateFormat;
+	            } else {
+	                if (me.withTime && !me.multiple) {
+	                    return "YYYY-MM-DD HH:mm:ss";
+	                } else {
+	                    return "YYYY-MM-DD";
+	                }
+	            }
+	        }
 	    },
 	    ready: function ready() {
 	        var me = this;
-	        me.eventNamespace = _lodash2.default.uniqueId(".date_field_click_");
-	        $(document).on('click' + me.eventNamespace, function (e) {
-	            var el = me.$el;
-	            if (!el.contains(e.target)) {
-	                me.calendarShow = false;
-	            }
+	        me.initComponent();
+	        me.clickOn();
+	        me.$on('datepicker-inner-dom', function () {
+	            me.isInnerElement = true;
 	        });
 	    },
 	
@@ -14408,25 +14465,49 @@ webpackJsonp([0],[
 	                var me = this;
 	                if (newValue && (0, _stringify2.default)(newValue) != (0, _stringify2.default)(oldValue)) {
 	                    if (me.multiple) {
-	                        me.value = _index2.default.MSDate.dateArrayToStringArray(newValue, me.dateFormat);
+	                        me.value = _index2.default.MSDate.dateArrayToStringArray(newValue, me.dateTimeFormat);
 	                    } else {
 	                        if (newValue[0]) {
-	                            me.value = (0, _moment2.default)(newValue[0]).format(me.dateFormat);
+	                            if (me.dateTime) {
+	                                newValue[0].setHours(me.dateTime.getHours());
+	                                newValue[0].setMinutes(me.dateTime.getMinutes());
+	                                newValue[0].setSeconds(me.dateTime.getSeconds());
+	                            }
+	                            me.value = (0, _moment2.default)(newValue[0]).format(me.dateTimeFormat);
 	                        } else {
 	                            me.value = "";
 	                        }
 	                    }
 	                }
 	            }
-	        }
-	    },
-	    computed: {
-	        "showDate": function showDate() {
-	            var me = this;
-	            return me.value;
+	        },
+	        "dateTime": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (me.selectedDates && me.selectedDates.length > 0) {
+	                    var dates = _lodash2.default.cloneDeep(me.selectedDates);
+	                    dates[0] = newValue;
+	                    me.selectedDates = dates;
+	                }
+	            }
 	        }
 	    },
 	    methods: {
+	        "clickOn": function clickOn() {
+	            var me = this;
+	            me.eventNamespace = _lodash2.default.uniqueId(".date_field_click_");
+	            $(document).on('click' + me.eventNamespace, function (e) {
+	                var el = me.$el;
+	                if (!el.contains(e.target) && !me.isInnerElement) {
+	                    me.calendarShow = false;
+	                }
+	                me.isInnerElement = false;
+	            });
+	        },
+	        "clickOff": function clickOff() {
+	            var me = this;
+	            $(document).off('click' + me.eventNamespace);
+	        },
 	        "initComponent": function initComponent() {
 	            var me = this;
 	            if (me.readonly === "true") {
@@ -14474,14 +14555,20 @@ webpackJsonp([0],[
 	            var me = this;
 	            if (me.multiple) {
 	                me.value = [];
-	                me.value.push((0, _moment2.default)(new Date()).format(me.dateFormat));
+	                me.value.push((0, _moment2.default)(new Date()).format(me.dateTimeFormat));
 	            } else {
-	                me.value = (0, _moment2.default)(new Date()).format(me.dateFormat);
+	                me.value = (0, _moment2.default)(new Date()).format(me.dateTimeFormat);
 	            }
 	        }
 	    },
+	    beforeDestroy: function beforeDestroy() {
+	        var me = this;
+	        me.clickOff();
+	    },
+	
 	    components: {
-	        datepicker: _datepicker2.default
+	        datepicker: _datepicker2.default,
+	        datepickerTimePanel: _datepickerTimePanel2.default
 	    }
 	};
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
@@ -29358,8 +29445,8 @@ webpackJsonp([0],[
 	    },
 	    data: function data() {
 	        return {
-	            "currentMonth": {},
-	            "currentYear": {},
+	            "currentMonth": new Date().getMonth(),
+	            "currentYear": new Date().getFullYear(),
 	            "viewType": "day"
 	        };
 	    },
@@ -29438,10 +29525,16 @@ webpackJsonp([0],[
 	            }
 	        },
 	        "currentMonth": {
-	            twoWay: true
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getMonth();
+	            }
 	        },
 	        "currentYear": {
-	            twoWay: true
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getFullYear();
+	            }
 	        },
 	        "selectedDates": {
 	            twoWay: true
@@ -29469,9 +29562,8 @@ webpackJsonp([0],[
 	    computed: {
 	        "dayArr": function dayArr() {
 	            var me = this;
-	            me.currentYear = me.currentDate.getFullYear();
-	            me.currentMonth = me.currentDate.getMonth();
-	            me.panelStartDay = new Date(me.currentDate.getFullYear(), me.currentDate.getMonth(), 1);
+	
+	            me.panelStartDay = new Date(me.currentYear, me.currentMonth, 1);
 	            var weekDay = me.panelStartDay.getDay();
 	            me.panelStartDay.setDate(me.panelStartDay.getDate() - weekDay);
 	            var days = me.getDates(me.panelStartDay, 42);
@@ -29489,12 +29581,16 @@ webpackJsonp([0],[
 	            var date = _.cloneDeep(me.currentDate);
 	            date.setMonth(date.getMonth() - 1);
 	            me.currentDate = date;
+	            me.currentYear = me.currentDate.getFullYear();
+	            me.currentMonth = me.currentDate.getMonth();
 	        },
 	        "nextMouth": function nextMouth() {
 	            var me = this;
 	            var date = _.cloneDeep(me.currentDate);
 	            date.setMonth(date.getMonth() + 1);
 	            me.currentDate = date;
+	            me.currentYear = me.currentDate.getFullYear();
+	            me.currentMonth = me.currentDate.getMonth();
 	        },
 	        "showMonthView": function showMonthView() {
 	            var me = this;
@@ -29681,7 +29777,10 @@ webpackJsonp([0],[
 	    props: {
 	        "currentDate": {
 	            type: Date,
-	            twoWay: true
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date();
+	            }
 	        },
 	        "dayItem": {},
 	        "startDay": {
@@ -29692,7 +29791,12 @@ webpackJsonp([0],[
 	            type: Date,
 	            twoWay: true
 	        },
-	        "currentMonth": {},
+	        "currentMonth": {
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getYear();
+	            }
+	        },
 	        "selectedDates": {
 	            type: Array,
 	            twoWay: true,
@@ -29785,6 +29889,8 @@ webpackJsonp([0],[
 	            if (typeof me.dayItemClick == 'function') {
 	                me.dayItemClick();
 	            }
+	
+	            me.$dispatch("datepicker-inner-dom");
 	        }
 	    },
 	    components: {}
@@ -29795,13 +29901,13 @@ webpackJsonp([0],[
 /* 236 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-5ecc885c=\"\">\n    <span _v-5ecc885c=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'other-mouth':!isCurrentMonth,'is-disabled':itemDisabled}\" @click=\"selectDay()\" _v-48319d08=\"\">\n    <span _v-48319d08=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
 /* 237 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-day-panel\" _v-6b026fd3=\"\">\n    <table _v-6b026fd3=\"\">\n        <thead _v-6b026fd3=\"\">\n            <tr _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-6b026fd3=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-6b026fd3=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-6b026fd3=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-6b026fd3=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-6b026fd3=\"\">\n                <th _v-6b026fd3=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-6b026fd3=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-6b026fd3=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-6b026fd3=\"\">\n                <td _v-6b026fd3=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-6b026fd3=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-6b026fd3=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-day-panel\" _v-7bf8537f=\"\">\n    <table _v-7bf8537f=\"\">\n        <thead _v-7bf8537f=\"\">\n            <tr _v-7bf8537f=\"\">\n                <th _v-7bf8537f=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-7bf8537f=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-7bf8537f=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"6\" _v-7bf8537f=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-7bf8537f=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-7bf8537f=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-7bf8537f=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-7bf8537f=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-7bf8537f=\"\">\n                <th _v-7bf8537f=\"\"></th>\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-7bf8537f=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-7bf8537f=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-7bf8537f=\"\">\n                <td _v-7bf8537f=\"\"></td>\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-7bf8537f=\"\">\n                    <datepicker-day :day-item=\"dayCell\" :current-date.sync=\"currentDate\" :selected-dates.sync=\"selectedDates\" :current-month.sync=\"currentMonth\" :multiple=\"multiple\" :day-item-click=\"dayItemClick\" _v-7bf8537f=\"\">\n                    </datepicker-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 238 */
@@ -29991,13 +30097,13 @@ webpackJsonp([0],[
 /* 246 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-19a4a980=\"\">\n    <span _v-19a4a980=\"\">{{monthItem}}</span>\n</button>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"selectMouth()\" :class=\"{'is-current-month':isCurrentMonth}\" _v-17a044ec=\"\">\n    <span _v-17a044ec=\"\">{{monthItem}}</span>\n</button>\n";
 
 /***/ },
 /* 247 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-month-panel\" _v-238ed7b7=\"\">\n    <table _v-238ed7b7=\"\">\n        <thead _v-238ed7b7=\"\">\n            <tr _v-238ed7b7=\"\">\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-238ed7b7=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-238ed7b7=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-238ed7b7=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-238ed7b7=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-238ed7b7=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-238ed7b7=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-238ed7b7=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-238ed7b7=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-month-panel\" _v-62caff3a=\"\">\n    <table _v-62caff3a=\"\">\n        <thead _v-62caff3a=\"\">\n            <tr _v-62caff3a=\"\">\n                <td _v-62caff3a=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"previousYear()\" _v-62caff3a=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-62caff3a=\"\"></span>\n                    </button>\n                </td>\n                <td _v-62caff3a=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"showYearView()\" _v-62caff3a=\"\">{{currentYear}}</button>\n                </td>\n                <td _v-62caff3a=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"nextYear()\" _v-62caff3a=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-62caff3a=\"\"></span>\n                    </button>\n                </td>\n            </tr>\n        </thead>\n        <tbody _v-62caff3a=\"\">\n            <tr v-for=\"(monthRowIndex,monthRow) in monthArr\" _v-62caff3a=\"\">\n                <td v-for=\"(monthCellIndex,monthCell) in monthRow\" _v-62caff3a=\"\">\n                    <datepicker-month :month-item=\"monthCell\" :row-index=\"monthRowIndex\" :cell-index=\"monthCellIndex\" :current-month.sync=\"currentMonth\" :view-type.sync=\"viewType\" _v-62caff3a=\"\">\n                    </datepicker-month>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 248 */
@@ -30078,6 +30184,9 @@ webpackJsonp([0],[
 	            }
 	        };
 	    },
+	    ready: function ready() {
+	        var me = this;
+	    },
 	
 	    computed: {
 	        "yearArr": function yearArr() {
@@ -30152,13 +30261,20 @@ webpackJsonp([0],[
 /***/ },
 /* 254 */,
 /* 255 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
+	
+	var _vue = __webpack_require__(10);
+	
+	var _vue2 = _interopRequireDefault(_vue);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
 	exports.default = {
 	    name: 'datepickerYear',
 	    props: {
@@ -30187,6 +30303,7 @@ webpackJsonp([0],[
 	            var me = this;
 	            me.currentYear = me.yearItem;
 	            me.viewType = "day";
+	            me.$dispatch("datepicker-inner-dom");
 	        }
 	    },
 	    components: {}
@@ -30196,33 +30313,440 @@ webpackJsonp([0],[
 /* 256 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-a3014da6=\"\">\n    <span _v-a3014da6=\"\">{{yearItem}}</span>\n</button>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" :class=\"{'is-current-year':isCurrentYear}\" @click=\"selectYear()\" _v-1c864bfe=\"\">\n    <span _v-1c864bfe=\"\">{{yearItem}}</span>\n</button>\n";
 
 /***/ },
 /* 257 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-year-panel\" _v-2560c038=\"\">\n    <table _v-2560c038=\"\">\n        <thead _v-2560c038=\"\">\n            <tr _v-2560c038=\"\">\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" disabled=\"\" _v-2560c038=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-2560c038=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-2560c038=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-2560c038=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-2560c038=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-2560c038=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-2560c038=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-2560c038=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-year-panel\" _v-09d39c90=\"\">\n    <table _v-09d39c90=\"\">\n        <thead _v-09d39c90=\"\">\n            <tr _v-09d39c90=\"\">\n                <th _v-09d39c90=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"previousYearScope()\" _v-09d39c90=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-09d39c90=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"3\" _v-09d39c90=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" disabled=\"\" _v-09d39c90=\"\">\n                        {{yearScope.start}}-{{yearScope.end}}\n                    </button>\n                </th>\n                <th _v-09d39c90=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"nextYearScope()\" _v-09d39c90=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-09d39c90=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n        </thead>\n        <tbody _v-09d39c90=\"\">\n            <tr v-for=\"(yearRowIndex,yearRow) in yearArr\" _v-09d39c90=\"\">\n                <td v-for=\"(yearCellIndex,yearCell) in  yearRow\" _v-09d39c90=\"\">\n                    <datepicker-year :year-item=\"yearCell\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-09d39c90=\"\">\n                    </datepicker-year>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 258 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker\" _v-4d1fdbe6=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType =='day')\" _v-4d1fdbe6=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-4d1fdbe6=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType == 'month')\" _v-4d1fdbe6=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType == 'year')\" _v-4d1fdbe6=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-4d1fdbe6=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker\" _v-f0db468e=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType =='day')\" _v-f0db468e=\"\">\n        <datepicker-day-panel :multiple=\"multiple\" :day-item-click=\"dayItemClick\" :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-f0db468e=\"\">\n        </datepicker-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType == 'month')\" _v-f0db468e=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f0db468e=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType == 'year')\" _v-f0db468e=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f0db468e=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
 
 /***/ },
 /* 259 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-field\" _v-2d0813fa=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2d0813fa=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2d0813fa=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-2d0813fa=\"\">\n            </datepicker>\n            <div _v-2d0813fa=\"\">\n                <span _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-2d0813fa=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2d0813fa=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-2d0813fa=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2d0813fa=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2d0813fa=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-2d0813fa=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-2d0813fa=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-2d0813fa=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
-
-/***/ },
-/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(261)
-	__vue_script__ = __webpack_require__(263)
+	__webpack_require__(260)
+	__vue_script__ = __webpack_require__(262)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-time-panel.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(278)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-time-panel.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 260 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 261 */,
+/* 262 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _datepickerHour = __webpack_require__(263);
+	
+	var _datepickerHour2 = _interopRequireDefault(_datepickerHour);
+	
+	var _datepickerMinute = __webpack_require__(268);
+	
+	var _datepickerMinute2 = _interopRequireDefault(_datepickerMinute);
+	
+	var _datepickerSecond = __webpack_require__(273);
+	
+	var _datepickerSecond2 = _interopRequireDefault(_datepickerSecond);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "title": {
+	            type: String
+	        },
+	        "date": {
+	            type: Date,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date();
+	            }
+	        },
+	        "hourText": {
+	            type: String
+	        },
+	        "minuteText": {
+	            type: Number
+	        },
+	        "secondText": {
+	            type: String
+	        }
+	    },
+	    data: function data() {
+	        return {
+	            "hour": null,
+	            "minute": null,
+	            "second": null
+	        };
+	    },
+	
+	    watch: {
+	        "date": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue) {
+	                    me.hour = newValue.getHours();
+	                    me.minute = newValue.getMinutes();
+	                    me.second = newValue.getSeconds();
+	                } else {
+	                    me.date = new Date();
+	                }
+	            },
+	            immediate: true
+	        },
+	        "hour": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                var date = _.cloneDeep(me.date);
+	                date.setHours(newValue);
+	                me.date = date;
+	            }
+	        },
+	        "minute": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                var date = _.cloneDeep(me.date);
+	                date.setMinutes(newValue);
+	                me.date = date;
+	            }
+	        },
+	        "second": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                var date = _.cloneDeep(me.date);
+	                date.setSeconds(newValue);
+	                me.date = date;
+	            }
+	        }
+	    },
+	    components: {
+	        datepickerHour: _datepickerHour2.default,
+	        datepickerMinute: _datepickerMinute2.default,
+	        datepickerSecond: _datepickerSecond2.default
+	    }
+	};
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
+
+/***/ },
+/* 263 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(264)
+	__vue_script__ = __webpack_require__(266)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-hour.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(267)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-hour.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 264 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 265 */,
+/* 266 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "hour": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getHours();
+	            }
+	        },
+	        "hourText": {
+	            type: String,
+	            default: function _default() {
+	                return "时";
+	            }
+	        }
+	    },
+	    computed: {
+	        "hours": function hours() {
+	            var hours = new Array(24);
+	            for (var i = 0; i < 24; i++) {
+	                hours[i] = i;
+	            }
+	            return hours;
+	        }
+	    },
+	    filters: {
+	        "hourFormat": function hourFormat(hour) {
+	            if (parseInt(hour) < 10) {
+	                return '0' + hour;
+	            } else {
+	                return hour;
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 267 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-3ee81c28=\"\">\n    <div class=\"form-group\" _v-3ee81c28=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-3ee81c28=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-3ee81c28=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-3ee81c28=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
+
+/***/ },
+/* 268 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(269)
+	__vue_script__ = __webpack_require__(271)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-minute.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(272)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-minute.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 269 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 270 */,
+/* 271 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "minute": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getMinutes();
+	            }
+	        },
+	        "minuteText": {
+	            type: String,
+	            default: function _default() {
+	                return "分";
+	            }
+	        }
+	    },
+	    computed: {
+	        "minutes": function minutes() {
+	            var minutes = new Array(60);
+	            for (var i = 0; i < 60; i++) {
+	                minutes[i] = i;
+	            }
+	            return minutes;
+	        }
+	    },
+	    filters: {
+	        "minuteFormat": function minuteFormat(hour) {
+	            if (parseInt(hour) < 10) {
+	                return '0' + hour;
+	            } else {
+	                return hour;
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 272 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-a1d70d50=\"\">\n    <div class=\"form-group\" _v-a1d70d50=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-a1d70d50=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-a1d70d50=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-a1d70d50=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
+
+/***/ },
+/* 273 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(274)
+	__vue_script__ = __webpack_require__(276)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/picker/date/datepicker-second.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(277)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./datepicker-second.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 274 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 275 */,
+/* 276 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = {
+	    props: {
+	        "second": {
+	            type: Number,
+	            twoWay: true,
+	            default: function _default() {
+	                return new Date().getSeconds();
+	            }
+	        },
+	        "secondText": {
+	            type: String,
+	            default: function _default() {
+	                return "秒";
+	            }
+	        }
+	    },
+	    computed: {
+	        "seconds": function seconds() {
+	            var seconds = new Array(60);
+	            for (var i = 0; i < 60; i++) {
+	                seconds[i] = i;
+	            }
+	            return seconds;
+	        }
+	    },
+	    filters: {
+	        "secondFormat": function secondFormat(hour) {
+	            if (parseInt(hour) < 10) {
+	                return '0' + hour;
+	            } else {
+	                return hour;
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 277 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-595de7b8=\"\">\n    <div class=\"form-group\" _v-595de7b8=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-595de7b8=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-595de7b8=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-595de7b8=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
+
+/***/ },
+/* 278 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-time-panel\" _v-18840848=\"\">\n    <div class=\"ms-time-cell\" _v-18840848=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-18840848=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-18840848=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-18840848=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-18840848=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-18840848=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-18840848=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
+
+/***/ },
+/* 279 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-field\" _v-095bc3ce=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-095bc3ce=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-095bc3ce=\"\">\n            <datepicker :multiple=\"multiple\" :is-disabled=\"isDisabled\" :day-item-click=\"dayItemClick\" :selected-dates.sync=\"selectedDates\" _v-095bc3ce=\"\">\n            </datepicker>\n            <datepicker-time-panel v-if=\"showTime\" :date.sync=\"dateTime\" _v-095bc3ce=\"\"></datepicker-time-panel>\n            <div _v-095bc3ce=\"\">\n                <span _v-095bc3ce=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-095bc3ce=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-095bc3ce=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-095bc3ce=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-095bc3ce=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-095bc3ce=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"showDate\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-095bc3ce=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-095bc3ce=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-095bc3ce=\"\"></span>\n        </div>\n    </div>\n\n</div>\n";
+
+/***/ },
+/* 280 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(281)
+	__vue_script__ = __webpack_require__(283)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
@@ -30246,14 +30770,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 261 */
+/* 281 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 262 */,
-/* 263 */
+/* 282 */,
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_, $) {"use strict";
@@ -30286,11 +30810,11 @@ webpackJsonp([0],[
 	
 	var _dateFieldMixin2 = _interopRequireDefault(_dateFieldMixin);
 	
-	var _datepickerRange = __webpack_require__(264);
+	var _datepickerRange = __webpack_require__(284);
 	
 	var _datepickerRange2 = _interopRequireDefault(_datepickerRange);
 	
-	var _datepickerTimePanel = __webpack_require__(274);
+	var _datepickerTimePanel = __webpack_require__(259);
 	
 	var _datepickerTimePanel2 = _interopRequireDefault(_datepickerTimePanel);
 	
@@ -30530,17 +31054,17 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36), __webpack_require__(12)))
 
 /***/ },
-/* 264 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(265)
-	__vue_script__ = __webpack_require__(267)
+	__webpack_require__(285)
+	__vue_script__ = __webpack_require__(287)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(273)
+	__vue_template__ = __webpack_require__(293)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -30559,14 +31083,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 265 */
+/* 285 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 266 */,
-/* 267 */
+/* 286 */,
+/* 287 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30595,7 +31119,7 @@ webpackJsonp([0],[
 	
 	var _datepickerMixin2 = _interopRequireDefault(_datepickerMixin);
 	
-	var _datepickerRangeDay = __webpack_require__(268);
+	var _datepickerRangeDay = __webpack_require__(288);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
@@ -30715,17 +31239,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 268 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(269)
-	__vue_script__ = __webpack_require__(271)
+	__webpack_require__(289)
+	__vue_script__ = __webpack_require__(291)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker/date/datepicker-range-day.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(272)
+	__vue_template__ = __webpack_require__(292)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -30744,14 +31268,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 269 */
+/* 289 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 270 */,
-/* 271 */
+/* 290 */,
+/* 291 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -30860,429 +31384,22 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
 
 /***/ },
-/* 272 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-4d974c68=\"\">\n    <span _v-4d974c68=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
-
-/***/ },
-/* 273 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range\" _v-13da1b7d=\"\">\n    <table _v-13da1b7d=\"\">\n        <thead _v-13da1b7d=\"\">\n            <tr _v-13da1b7d=\"\">\n                <th colspan=\"7\" _v-13da1b7d=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-13da1b7d=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-13da1b7d=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-13da1b7d=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-13da1b7d=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-13da1b7d=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-13da1b7d=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-13da1b7d=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
-
-/***/ },
-/* 274 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(275)
-	__vue_script__ = __webpack_require__(277)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-time-panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(293)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-time-panel.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 275 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 276 */,
-/* 277 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _datepickerHour = __webpack_require__(278);
-	
-	var _datepickerHour2 = _interopRequireDefault(_datepickerHour);
-	
-	var _datepickerMinute = __webpack_require__(283);
-	
-	var _datepickerMinute2 = _interopRequireDefault(_datepickerMinute);
-	
-	var _datepickerSecond = __webpack_require__(288);
-	
-	var _datepickerSecond2 = _interopRequireDefault(_datepickerSecond);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.default = {
-	    props: {
-	        "title": {
-	            type: String
-	        },
-	        "date": {
-	            type: Date,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date();
-	            }
-	        },
-	        "hourText": {
-	            type: String
-	        },
-	        "minuteText": {
-	            type: Number
-	        },
-	        "secondText": {
-	            type: String
-	        }
-	    },
-	    data: function data() {
-	        return {
-	            "hour": null,
-	            "minute": null,
-	            "second": null
-	        };
-	    },
-	
-	    watch: {
-	        "date": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                if (newValue) {
-	                    me.hour = newValue.getHours();
-	                    me.minute = newValue.getMinutes();
-	                    me.second = newValue.getSeconds();
-	                } else {
-	                    me.date = new Date();
-	                }
-	            },
-	            immediate: true
-	        },
-	        "hour": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                var date = _.cloneDeep(me.date);
-	                date.setHours(newValue);
-	                me.date = date;
-	            }
-	        },
-	        "minute": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                var date = _.cloneDeep(me.date);
-	                date.setMinutes(newValue);
-	                me.date = date;
-	            }
-	        },
-	        "second": {
-	            handler: function handler(newValue, oldValue) {
-	                var me = this;
-	                var date = _.cloneDeep(me.date);
-	                date.setSeconds(newValue);
-	                me.date = date;
-	            }
-	        }
-	    },
-	    components: {
-	        datepickerHour: _datepickerHour2.default,
-	        datepickerMinute: _datepickerMinute2.default,
-	        datepickerSecond: _datepickerSecond2.default
-	    }
-	};
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
-
-/***/ },
-/* 278 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(279)
-	__vue_script__ = __webpack_require__(281)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-hour.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(282)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-hour.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 279 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 280 */,
-/* 281 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "hour": {
-	            type: Number,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getHours();
-	            }
-	        },
-	        "hourText": {
-	            type: String,
-	            default: function _default() {
-	                return "时";
-	            }
-	        }
-	    },
-	    computed: {
-	        "hours": function hours() {
-	            var hours = new Array(24);
-	            for (var i = 0; i < 24; i++) {
-	                hours[i] = i;
-	            }
-	            return hours;
-	        }
-	    },
-	    filters: {
-	        "hourFormat": function hourFormat(hour) {
-	            if (parseInt(hour) < 10) {
-	                return '0' + hour;
-	            } else {
-	                return hour;
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 282 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-08aac958=\"\">\n    <div class=\"form-group\" _v-08aac958=\"\">\n        <select class=\"form-control\" v-model=\"hour\" _v-08aac958=\"\">\n            <option v-for=\"(index,item) in hours\" track-by=\"$index\" :value=\"item\" _v-08aac958=\"\">\n                {{item | hourFormat}}\n            </option>\n        </select>\n        <label _v-08aac958=\"\">{{hourText}}</label>\n    </div>\n</div>\n";
-
-/***/ },
-/* 283 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(284)
-	__vue_script__ = __webpack_require__(286)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-minute.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(287)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-minute.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 284 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 285 */,
-/* 286 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "minute": {
-	            type: Number,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getMinutes();
-	            }
-	        },
-	        "minuteText": {
-	            type: String,
-	            default: function _default() {
-	                return "分";
-	            }
-	        }
-	    },
-	    computed: {
-	        "minutes": function minutes() {
-	            var minutes = new Array(60);
-	            for (var i = 0; i < 60; i++) {
-	                minutes[i] = i;
-	            }
-	            return minutes;
-	        }
-	    },
-	    filters: {
-	        "minuteFormat": function minuteFormat(hour) {
-	            if (parseInt(hour) < 10) {
-	                return '0' + hour;
-	            } else {
-	                return hour;
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
-/* 287 */
-/***/ function(module, exports) {
-
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-4533dd84=\"\">\n    <div class=\"form-group\" _v-4533dd84=\"\">\n        <select class=\"form-control\" v-model=\"minute\" _v-4533dd84=\"\">\n            <option v-for=\"(index,item) in minutes\" track-by=\"$index\" :value=\"item\" _v-4533dd84=\"\">\n                {{item | minuteFormat}}\n            </option>\n        </select>\n        <label _v-4533dd84=\"\">{{minuteText}}</label>\n    </div>\n</div>\n";
-
-/***/ },
-/* 288 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __vue_script__, __vue_template__
-	__webpack_require__(289)
-	__vue_script__ = __webpack_require__(291)
-	if (__vue_script__ &&
-	    __vue_script__.__esModule &&
-	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src/picker/date/datepicker-second.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(292)
-	module.exports = __vue_script__ || {}
-	if (module.exports.__esModule) module.exports = module.exports.default
-	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
-	}
-	if (false) {(function () {  module.hot.accept()
-	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  var id = "./datepicker-second.vue"
-	  if (!module.hot.data) {
-	    hotAPI.createRecord(id, module.exports)
-	  } else {
-	    hotAPI.update(id, module.exports, __vue_template__)
-	  }
-	})()}
-
-/***/ },
-/* 289 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 290 */,
-/* 291 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	exports.default = {
-	    props: {
-	        "second": {
-	            type: Number,
-	            twoWay: true,
-	            default: function _default() {
-	                return new Date().getSeconds();
-	            }
-	        },
-	        "secondText": {
-	            type: String,
-	            default: function _default() {
-	                return "秒";
-	            }
-	        }
-	    },
-	    computed: {
-	        "seconds": function seconds() {
-	            var seconds = new Array(60);
-	            for (var i = 0; i < 60; i++) {
-	                seconds[i] = i;
-	            }
-	            return seconds;
-	        }
-	    },
-	    filters: {
-	        "secondFormat": function secondFormat(hour) {
-	            if (parseInt(hour) < 10) {
-	                return '0' + hour;
-	            } else {
-	                return hour;
-	            }
-	        }
-	    },
-	    components: {}
-	};
-
-/***/ },
 /* 292 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"form-inline\" _v-21056838=\"\">\n    <div class=\"form-group\" _v-21056838=\"\">\n        <select class=\"form-control\" v-model=\"second\" _v-21056838=\"\">\n            <option v-for=\"(index,item) in seconds\" track-by=\"$index\" :value=\"item\" _v-21056838=\"\">\n                {{item | secondFormat}}\n            </option>\n        </select>\n        <label _v-21056838=\"\">{{secondText}}</label>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<button type=\"button\" class=\"btn btn-sm btn-default\" v-show=\"isCurrentMonth\" :class=\"{'ms-today':(isToday &amp;&amp; !isSelected),'ms-select-day':isSelected,'is-disabled':itemDisabled}\" @click=\"selectDay()\" @contextmenu.prevent=\"cancelDay()\" _v-2bab8510=\"\">\n    <span _v-2bab8510=\"\">{{dayItem | dayFormat}}</span>\n</button>\n";
 
 /***/ },
 /* 293 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-time-panel\" _v-0abd7674=\"\">\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        {{title}}\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-hour :hour.sync=\"hour\" :hour-text=\"hourText\" _v-0abd7674=\"\">\n        </datepicker-hour>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-minute :minute.sync=\"minute\" :minute-text=\"minuteText\" _v-0abd7674=\"\">\n        </datepicker-minute>\n    </div>\n    <div class=\"ms-time-cell\" _v-0abd7674=\"\">\n        <datepicker-second :second.sync=\"second\" :second-text=\"secondText\" _v-0abd7674=\"\">\n        </datepicker-second>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range\" _v-384cb529=\"\">\n    <table _v-384cb529=\"\">\n        <thead _v-384cb529=\"\">\n            <tr _v-384cb529=\"\">\n                <th colspan=\"7\" _v-384cb529=\"\">\n                    <button class=\"btn btn-sm btn-default ms-center\" @click=\"selectCurrentMonth()\" _v-384cb529=\"\">\n                        {{currentMouthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-384cb529=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-384cb529=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-384cb529=\"\">\n            <tr v-for=\"(rowIndex,row) in dayArr\" _v-384cb529=\"\">\n                <td v-for=\"(cellIndex,cell) in row\" _v-384cb529=\"\">\n                    <datepicker-range-day :day-item=\"cell\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :current-month=\"currentMonth\" :is-disabled=\"isDisabled\" :selected-dates.sync=\"selectedDates\" _v-384cb529=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 294 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-field\" _v-b52a4d2c=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-b52a4d2c=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-b52a4d2c=\"\">\n            <div class=\"ms-datepicker-table\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-b52a4d2c=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-b52a4d2c=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-b52a4d2c=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-b52a4d2c=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-b52a4d2c=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-b52a4d2c=\"\">\n                <div class=\"ms-datepicker-tr\" _v-b52a4d2c=\"\">\n                    <div class=\"ms-datepicker-td\" _v-b52a4d2c=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-b52a4d2c=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-b52a4d2c=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-b52a4d2c=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-b52a4d2c=\"\">\n                    <span _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-b52a4d2c=\"\">{{todayText}}</button>\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-b52a4d2c=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-b52a4d2c=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-b52a4d2c=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-b52a4d2c=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-b52a4d2c=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-b52a4d2c=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-b52a4d2c=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-field\" _v-2eaf4b84=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-2eaf4b84=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-2eaf4b84=\"\">\n            <div class=\"ms-datepicker-table\" _v-2eaf4b84=\"\">\n                <div class=\"ms-datepicker-tr\" _v-2eaf4b84=\"\">\n                    <div class=\"ms-datepicker-td ms-btn-previous\" _v-2eaf4b84=\"\">\n                        <button class=\"btn btn-default\" @click=\"previous()\" _v-2eaf4b84=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-left\" _v-2eaf4b84=\"\"></span>\n                        </button>\n                    </div>\n                    <div class=\"ms-datepicker-td\" v-for=\"(monthIndex,month) in showMonths\" _v-2eaf4b84=\"\">\n                        <datepicker-range :current-date=\"month\" :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" _v-2eaf4b84=\"\">\n                        </datepicker-range>\n                    </div>\n                    <div class=\"ms-datepicker-td ms-btn-next\" _v-2eaf4b84=\"\">\n                        <button class=\"btn btn-default\" @click=\"next()\" _v-2eaf4b84=\"\">\n                            <span class=\"glyphicon glyphicon-chevron-right\" _v-2eaf4b84=\"\"></span>\n                        </button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"ms-datepicker-table\" style=\"width: 100%\" v-if=\"withTime\" _v-2eaf4b84=\"\">\n                <div class=\"ms-datepicker-tr\" _v-2eaf4b84=\"\">\n                    <div class=\"ms-datepicker-td\" _v-2eaf4b84=\"\">\n                        <datepicker-time-panel :title=\"startTimeText\" :date.sync=\"startDayObj\" _v-2eaf4b84=\"\"></datepicker-time-panel>\n                    </div>\n                    <div class=\"ms-datepicker-td\" _v-2eaf4b84=\"\">\n                        <datepicker-time-panel :title=\"endTimeText\" :date.sync=\"endDayObj\" _v-2eaf4b84=\"\"></datepicker-time-panel>\n                    </div>\n\n                </div>\n            </div>\n            <div _v-2eaf4b84=\"\">\n                    <span _v-2eaf4b84=\"\">\n                        <!--<button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\">{{todayText}}</button>-->\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-2eaf4b84=\"\">{{cleanText}}</button>\n                    </span>\n                    <span class=\"ms-span-right\" _v-2eaf4b84=\"\">\n                        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-2eaf4b84=\"\">{{closeText}}</button>\n                    </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-2eaf4b84=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-2eaf4b84=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-2eaf4b84=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-2eaf4b84=\"\"></span>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 295 */
@@ -31683,7 +31800,7 @@ webpackJsonp([0],[
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _datepickerRangeDay = __webpack_require__(268);
+	var _datepickerRangeDay = __webpack_require__(288);
 	
 	var _datepickerRangeDay2 = _interopRequireDefault(_datepickerRangeDay);
 	
@@ -31830,19 +31947,19 @@ webpackJsonp([0],[
 /* 307 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-day-panel\" _v-57436d43=\"\">\n    <table _v-57436d43=\"\">\n        <thead _v-57436d43=\"\">\n            <tr _v-57436d43=\"\">\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-57436d43=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-57436d43=\"\">\n                    <button class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-57436d43=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-57436d43=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-57436d43=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-57436d43=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-57436d43=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-57436d43=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-57436d43=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-57436d43=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-day-panel\" _v-649a4022=\"\">\n    <table _v-649a4022=\"\">\n        <thead _v-649a4022=\"\">\n            <tr _v-649a4022=\"\">\n                <th _v-649a4022=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"previousMouth()\" _v-649a4022=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-left\" _v-649a4022=\"\"></span>\n                    </button>\n                </th>\n                <th colspan=\"5\" _v-649a4022=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"showMonthView()\" _v-649a4022=\"\">\n                        {{currentMonthText}}&nbsp;{{currentYear}}\n                    </button>\n                </th>\n                <th _v-649a4022=\"\">\n                    <button type=\"button\" class=\"btn btn-sm btn-default\" @click=\"nextMouth()\" _v-649a4022=\"\">\n                        <span class=\"glyphicon glyphicon-chevron-right\" _v-649a4022=\"\"></span>\n                    </button>\n                </th>\n            </tr>\n            <tr class=\"ms-weekday-line\" _v-649a4022=\"\">\n                <th v-for=\"(weekDayIndex,weekDay) in weekDays\" _v-649a4022=\"\">{{weekDay}}</th>\n            </tr>\n        </thead>\n        <tbody _v-649a4022=\"\">\n            <tr v-for=\"(dayRowIndex,dayRow) in dayArr\" _v-649a4022=\"\">\n                <td v-for=\"(dayCellIndex,dayCell) in dayRow\" _v-649a4022=\"\">\n                    <datepicker-range-day :day-item=\"dayCell\" :current-month.sync=\"currentMonth\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :is-disabled=\"isDisabled\" _v-649a4022=\"\">\n                    </datepicker-range-day>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</div>\n";
 
 /***/ },
 /* 308 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-single\" _v-f7c80b70=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-f7c80b70=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-f7c80b70=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-f7c80b70=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-f7c80b70=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-f7c80b70=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-datepicker-range-single\" _v-3a85671c=\"\">\n    <div class=\"ms-day-panel\" v-show=\"(viewType=='day')\" _v-3a85671c=\"\">\n        <datepicker-range-day-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :start-day.sync=\"startDay\" :end-day.sync=\"endDay\" :selected-dates.sync=\"selectedDates\" :view-type.sync=\"viewType\" :is-disabled=\"isDisabled\" _v-3a85671c=\"\">\n        </datepicker-range-day-panel>\n    </div>\n    <div class=\"ms-month-panel\" v-show=\"(viewType=='month')\" _v-3a85671c=\"\">\n        <datepicker-month-panel :current-month.sync=\"currentMonth\" :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-3a85671c=\"\">\n        </datepicker-month-panel>\n    </div>\n    <div class=\"ms-year-panel\" v-show=\"(viewType=='year')\" _v-3a85671c=\"\">\n        <datepicker-year-panel :current-year.sync=\"currentYear\" :view-type.sync=\"viewType\" _v-3a85671c=\"\">\n        </datepicker-year-panel>\n    </div>\n</div>\n";
 
 /***/ },
 /* 309 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-single-field\" _v-0c39fd75=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-0c39fd75=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-0c39fd75=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-0c39fd75=\"\">\n            </datepicker-range-single>\n            <div _v-0c39fd75=\"\">\n                <span _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\" _v-0c39fd75=\"\">{{todayText}}</button>\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-0c39fd75=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-0c39fd75=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-0c39fd75=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-0c39fd75=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-0c39fd75=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-0c39fd75=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-0c39fd75=\"\"></span>\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-date-range-single-field\" _v-9174b3be=\"\">\n    <div class=\"ms-picker\" v-show=\"calendarShow\" _v-9174b3be=\"\">\n        <div v-el:date-picker=\"\" class=\"ms-picker-box ms-picker-box-down\" _v-9174b3be=\"\">\n            <datepicker-range-single :start-day.sync=\"startDayObj\" :end-day.sync=\"endDayObj\" :selected-dates.sync=\"selectedDatesObj\" :is-disabled=\"isDisabled\" :date-format=\"dateFormat\" _v-9174b3be=\"\">\n            </datepicker-range-single>\n            <div _v-9174b3be=\"\">\n                <span _v-9174b3be=\"\">\n                    <!--<button type=\"button\" class=\"btn btn-info btn-sm\" @click=\"onToday()\">{{todayText}}</button>-->\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClean()\" _v-9174b3be=\"\">{{cleanText}}</button>\n                </span>\n                <span class=\"ms-span-right\" _v-9174b3be=\"\">\n                    <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClose()\" _v-9174b3be=\"\">{{closeText}}</button>\n                </span>\n            </div>\n        </div>\n    </div>\n    <div class=\"input-group\" _v-9174b3be=\"\">\n        <input v-el:date-field=\"\" type=\"text\" class=\"form-control\" v-model=\"dateRange\" placeholder=\"{{placeholder}}\" @click=\"showCalendarInput($event)\" _v-9174b3be=\"\">\n        <div class=\"input-group-addon ms-calendar\" @click=\"showCalendar($event)\" _v-9174b3be=\"\">\n            <span class=\"glyphicon glyphicon-calendar\" _v-9174b3be=\"\"></span>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
 /* 310 */
@@ -31881,20 +31998,30 @@ webpackJsonp([0],[
 
 /***/ },
 /* 312 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
+	
+	var _lodash = __webpack_require__(36);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
 	exports.default = {
 	    props: {
 	        "id": {
 	            type: String,
 	            default: function _default() {
-	                return "container";
+	                return _lodash2.default.uniqueId("container-");
 	            }
+	        },
+	        "height": {
+	            type: Number
 	        },
 	        "value": {
 	            twoWay: true,
@@ -31906,13 +32033,18 @@ webpackJsonp([0],[
 	    },
 	    data: function data() {
 	        return {
-	            "editor": null
+	            "editor": null,
+	            "editorReady": false
 	        };
 	    },
 	    ready: function ready() {
 	        var me = this;
 	        me.editor = UE.getEditor(me.id);
 	        me.editor.ready(function () {
+	            me.editorReady = true;
+	            if (me.height) {
+	                me.editor.setHeight(me.height);
+	            }
 	            me.editor.addListener('contentChange', function () {
 	                me.value = me.editor.getContent();
 	            });
@@ -31931,7 +32063,11 @@ webpackJsonp([0],[
 	    },
 	    destroyed: function destroyed() {
 	        var me = this;
-	        me.editor.destroy();
+	
+	        var editor = UE.getEditor(me.id);
+	        if (editor && me.editorReady) {
+	            editor.destroy();
+	        }
 	    },
 	    components: {}
 	};
@@ -31948,12 +32084,259 @@ webpackJsonp([0],[
 
 	var __vue_script__, __vue_template__
 	__webpack_require__(315)
-	__vue_script__ = __webpack_require__(317)
+	__vue_script__ = __webpack_require__(316)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/form/field/kindeditor-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(317)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./kindeditor-field.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 315 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 316 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _assign = __webpack_require__(38);
+	
+	var _assign2 = _interopRequireDefault(_assign);
+	
+	var _lodash = __webpack_require__(36);
+	
+	var _lodash2 = _interopRequireDefault(_lodash);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "id": {
+	            type: String,
+	            default: function _default() {
+	                return _lodash2.default.uniqueId("kinder-editor-");
+	            }
+	        },
+	        "value": {
+	            twoWay: true,
+	            type: String,
+	            default: function _default() {
+	                return "";
+	            }
+	        },
+	        "options": {
+	            type: Object,
+	            default: function _default() {
+	                return {};
+	            }
+	        }
+	
+	    },
+	    data: function data() {
+	        return {
+	            "editor": null,
+	            "editorReady": false
+	        };
+	    },
+	    ready: function ready() {
+	        var me = this;
+	
+	        KindEditor.ready(function (K) {
+	            me.editor = K.create('#' + me.id, (0, _assign2.default)({
+	                afterChange: function afterChange() {
+	                    me.value = this.html();
+	                }
+	            }, me.options));
+	        });
+	    },
+	
+	    watch: {
+	        "value": {
+	            handler: function handler(newValue, oldValue) {
+	                var me = this;
+	                if (newValue != me.editor.html()) {
+	                    me.editor.html(newValue);
+	                }
+	            }
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 317 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<textarea id=\"{{id}}\"></textarea>\n";
+
+/***/ },
+/* 318 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(319)
+	__vue_script__ = __webpack_require__(321)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/form/field/image-select-preview-field.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(323)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./image-select-preview-field.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 319 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 320 */,
+/* 321 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(322);
+	
+	var _index2 = _interopRequireDefault(_index);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    props: {
+	        "browseText": {
+	            default: function _default() {
+	                return "浏览";
+	            }
+	        },
+	        "cleanText": {
+	            default: function _default() {
+	                return "清除";
+	            }
+	        },
+	        "image": {
+	            type: String,
+	            twoWay: true,
+	            default: function _default() {
+	                return "";
+	            }
+	        }
+	    },
+	    data: function data() {
+	        return {};
+	    },
+	
+	    computed: {
+	        "imageUrl": function imageUrl() {
+	            var me = this;
+	            return me.image ? me.image : _index2.default.noImage;
+	        }
+	    },
+	    methods: {
+	        "errorImage": function errorImage() {
+	            return _index2.default.noImage;
+	        },
+	        "onSelectFile": function onSelectFile(e) {
+	            var me = this;
+	            var files = e.target.files;
+	            var reader = new FileReader();
+	            if (files && files.length > 0) {
+	                reader.readAsDataURL(files[0]);
+	                reader.onload = function (e) {
+	                    me.image = e.target.result;
+	                };
+	            }
+	            e.target.value = "";
+	        },
+	        "onClearImage": function onClearImage() {
+	            var me = this;
+	            me.image = "";
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 322 */
+/***/ function(module, exports) {
+
+	/**
+	 * Created by Bane.Shi.
+	 * Copyright MoenSun
+	 * User: Bane.Shi
+	 * Date: 16/4/28
+	 * Time: 09:48
+	 */
+	'use strict';
+	
+	module.exports = {
+	  "loading64": "data:image/gif;base64,R0lGODlhQAA6AKIGAAEBAQICAgMDAwUFBQgICAAAAP///wAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTgwM0IzQjBFMkQwMTFFNDhCRTVBMDNFMzQwNzU5Q0MiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTgwM0IzQjFFMkQwMTFFNDhCRTVBMDNFMzQwNzU5Q0MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ODAzQjNBRUUyRDAxMUU0OEJFNUEwM0UzNDA3NTlDQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1ODAzQjNBRkUyRDAxMUU0OEJFNUEwM0UzNDA3NTlDQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV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",
+	  "videoDefault": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphZTY1MDM0NC02ZWMzLTRmNDAtOGYxZS0xYjBkZWI4NzQ1N2QiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkUwNEY1OTYxNjVDMTFFNjg5M0JFNzRDNDAzQjE2RjMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkUwNEY1OTUxNjVDMTFFNjg5M0JFNzRDNDAzQjE2RjMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDphMTljMzc0ZS0wMjIyLTQ2MmEtOTg1ZC1lNGJkYjM1ZmJkMjYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6YWU2NTAzNDQtNmVjMy00ZjQwLThmMWUtMWIwZGViODc0NTdk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",
+	  "noImage": "data:image/png;base64,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"
+	
+	};
+
+/***/ },
+/* 323 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-image-select-preview\">\n    <div class=\"col-md-10\">\n        <div class=\"thumbnail\">\n            <img :src=\"imageUrl\" @error=\"errorImage()\">\n        </div>\n    </div>\n    <div class=\"col-md-2\">\n        <label class=\"btn btn-default btn-sm\">\n            {{browseText}}\n            <input type=\"file\" @change=\"onSelectFile($event)\" style=\"display: none;\" />\n        </label>\n        <button type=\"button\" class=\"btn btn-danger btn-sm\" @click=\"onClearImage()\">{{cleanText}}</button>\n    </div>\n</div>\n";
+
+/***/ },
+/* 324 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(325)
+	__vue_script__ = __webpack_require__(327)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/tree/tree-list.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(318)
+	__vue_template__ = __webpack_require__(328)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -31972,14 +32355,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 315 */
+/* 325 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 316 */,
-/* 317 */
+/* 326 */,
+/* 327 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32056,23 +32439,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 318 */
+/* 328 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-5e866fe6=\"\">\n    <li v-for=\"(index,item) in items\" _v-5e866fe6=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-5e866fe6=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-5e866fe6=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-5e866fe6=\"\"></tree-list>\n    </li>\n\n</ul>\n";
+	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'ms-tree-list':(level===1) ,'ms-tree-menu':!(level===1) }\" _v-720b028e=\"\">\n    <li v-for=\"(index,item) in items\" _v-720b028e=\"\">\n        <a :class=\"{'ms-open':item[expanded]}\" v-link=\"item[router]\" @click=\"toggle(index,item)\" _v-720b028e=\"\">\n            {{item[text]}}\n            <i v-if=\"item[children]\" class=\"glyphicon\" :class=\"{'glyphicon-menu-right':!item[expanded] ,'glyphicon-menu-down':item[expanded] }\" _v-720b028e=\"\"></i>\n        </a>\n        <tree-list :items=\"item[children]\" v-if=\"item[children]\" v-show=\"item[expanded]\" level=\"2\" _v-720b028e=\"\"></tree-list>\n    </li>\n\n</ul>\n";
 
 /***/ },
-/* 319 */
+/* 329 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(320)
-	__vue_script__ = __webpack_require__(322)
+	__webpack_require__(330)
+	__vue_script__ = __webpack_require__(332)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/tree/panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(323)
+	__vue_template__ = __webpack_require__(333)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -32091,14 +32474,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 320 */
+/* 330 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 321 */,
-/* 322 */
+/* 331 */,
+/* 332 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32158,23 +32541,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 323 */
+/* 333 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-94097db8=\"\">\n    <li v-for=\"(index,item) in store\" _v-94097db8=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-94097db8=\"\">\n            <label _v-94097db8=\"\">\n                <input type=\"checkbox\" v-model=\"value\" value=\"{{item[id]}}\" v-if=\"showCheckbox\" _v-94097db8=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-94097db8=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
+	module.exports = "\n\n\n\n\n\n\n<ul :class=\"{'tree-panel-first-level':(level=='1'),'tree-panel':(level!='1')}\" _v-6a972dd0=\"\">\n    <li v-for=\"(index,item) in store\" _v-6a972dd0=\"\">\n        <div class=\"checkbox ms-tree-panel-checkbox\" _v-6a972dd0=\"\">\n            <label _v-6a972dd0=\"\">\n                <input type=\"checkbox\" v-model=\"value\" :value=\"item[id]\" v-if=\"showCheckbox\" _v-6a972dd0=\"\">\n                {{item[text]}}\n            </label>\n        </div>\n        <tree-panel :store=\"item.children\" v-if=\"item.children\" :id=\"id\" :text=\"text\" :value.sync=\"value\" level=\"2\" :sel-type=\"selType\" _v-6a972dd0=\"\">\n        </tree-panel>\n    </li>\n</ul>\n";
 
 /***/ },
-/* 324 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(325)
-	__vue_script__ = __webpack_require__(327)
+	__webpack_require__(335)
+	__vue_script__ = __webpack_require__(337)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/grid/panel.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(357)
+	__vue_template__ = __webpack_require__(366)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -32193,14 +32576,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 325 */
+/* 335 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 326 */,
-/* 327 */
+/* 336 */,
+/* 337 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -32208,10 +32591,6 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-	
-	var _assign = __webpack_require__(38);
-	
-	var _assign2 = _interopRequireDefault(_assign);
 	
 	var _vue = __webpack_require__(10);
 	
@@ -32221,27 +32600,27 @@ webpackJsonp([0],[
 	
 	var _lodash2 = _interopRequireDefault(_lodash);
 	
-	var _header = __webpack_require__(328);
+	var _header = __webpack_require__(338);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _paging = __webpack_require__(333);
+	var _paging = __webpack_require__(343);
 	
 	var _paging2 = _interopRequireDefault(_paging);
 	
-	var _text = __webpack_require__(338);
+	var _text = __webpack_require__(348);
 	
 	var _text2 = _interopRequireDefault(_text);
 	
-	var _link = __webpack_require__(343);
+	var _link = __webpack_require__(353);
 	
 	var _link2 = _interopRequireDefault(_link);
 	
-	var _action = __webpack_require__(347);
+	var _action = __webpack_require__(357);
 	
 	var _action2 = _interopRequireDefault(_action);
 	
-	var _index = __webpack_require__(356);
+	var _index = __webpack_require__(322);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -32343,6 +32722,27 @@ webpackJsonp([0],[
 	                return true;
 	            }
 	        },
+	        "panelInnerBox": function panelInnerBox() {
+	            var me = this;
+	            var widthCount = 0;
+	            _lodash2.default.forEach(me.columns, function (column) {
+	                if (column.width && !column.flex) {
+	                    widthCount += column.width;
+	                }
+	            });
+	            var minFlexWithCount = 20 * me.flexCount;
+	            if (widthCount + minFlexWithCount > me.$el.clientWidth) {
+	                me.clientWidth = widthCount + minFlexWithCount;
+	                return {
+	                    "width": me.clientWidth + 'px'
+	                };
+	            } else {
+	                me.clientWidth = me.$el.clientWidth;
+	                return {
+	                    "width": '100%'
+	                };
+	            }
+	        },
 	        "headerLineStyle": function headerLineStyle() {
 	            var me = this;
 	            var headerStyle = {};
@@ -32350,10 +32750,7 @@ webpackJsonp([0],[
 	                headerStyle = { "borderTop": "1px solid #ddd" };
 	            }
 	            if (me.isBodyScrollShow) {
-	                headerStyle = (0, _assign2.default)(headerStyle, { "paddingRight": "14px" });
-	                if (me.showRowLines) {
-	                    headerStyle = (0, _assign2.default)(headerStyle, { "borderRight": "1px solid #ddd" });
-	                }
+	                if (me.showRowLines) {}
 	            }
 	            return headerStyle;
 	        },
@@ -32368,8 +32765,9 @@ webpackJsonp([0],[
 	            return flexCount;
 	        },
 	        "surplusWidth": function surplusWidth() {
+	
 	            var me = this;
-	            me.clientWidth = me.$el.clientWidth;
+	
 	            var widthCount = 0;
 	            _lodash2.default.forEach(me.columns, function (column) {
 	                if (column.width && !column.flex) {
@@ -32426,17 +32824,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 328 */
+/* 338 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(329)
-	__vue_script__ = __webpack_require__(330)
+	__webpack_require__(339)
+	__vue_script__ = __webpack_require__(340)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/grid/header/header.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(332)
+	__vue_template__ = __webpack_require__(342)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -32455,13 +32853,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 329 */
+/* 339 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 330 */
+/* 340 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -32470,7 +32868,11 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(331);
+	var _assign = __webpack_require__(38);
+	
+	var _assign2 = _interopRequireDefault(_assign);
+	
+	var _GridMixin = __webpack_require__(341);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
@@ -32503,6 +32905,14 @@ webpackJsonp([0],[
 	    },
 	
 	    computed: {
+	        "style": function style() {
+	            var me = this;
+	            var style = {};
+	            if (me.setting.align) {
+	                style = (0, _assign2.default)(style, { "textAlign": me.setting.align });
+	            }
+	            return style;
+	        },
 	        "renderer": function renderer() {
 	            var me = this;
 	            return me.setting.text;
@@ -32513,7 +32923,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 331 */
+/* 341 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -32602,23 +33012,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 332 */
+/* 342 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<th v-show=\"hidden\" :style=\"[columnWidthStyle]\" >\n    <div>{{{ renderer }}}</div>\n</th>\n";
+	module.exports = "\n\n\n\n\n\n\n<th v-show=\"hidden\" :style=\"[columnWidthStyle,style]\" >\n    <div>{{{ renderer }}}</div>\n</th>\n";
 
 /***/ },
-/* 333 */
+/* 343 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(334)
-	__vue_script__ = __webpack_require__(336)
+	__webpack_require__(344)
+	__vue_script__ = __webpack_require__(346)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/toolbar/paging.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(337)
+	__vue_template__ = __webpack_require__(347)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -32637,14 +33047,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 334 */
+/* 344 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 335 */,
-/* 336 */
+/* 345 */,
+/* 346 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32782,23 +33192,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 337 */
+/* 347 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-paging\" _v-d9da531e=\"\">\n    <div class=\"ms-paging-left\" _v-d9da531e=\"\">\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span _v-d9da531e=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-d9da531e=\"\">\n        <span _v-d9da531e=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-d9da531e=\"\"></span>\n        <span class=\"tbspacer\" _v-d9da531e=\"\"></span>\n        <span class=\"tbseparator\" _v-d9da531e=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-d9da531e=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-d9da531e=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-paging\" _v-ed5ee5c6=\"\">\n    <div class=\"ms-paging-left\" _v-ed5ee5c6=\"\">\n        <span class=\"tbspacer\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-backward\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"firstPage()\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbspacer\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-left\" :class=\"{'ms-paging-disabled':isFirstPage}\" @click=\"previousPage()\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbspacer\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbseparator\" _v-ed5ee5c6=\"\"></span>\n        <span _v-ed5ee5c6=\"\">{{pageText}}</span>\n        <input type=\"text\" class=\"ms-paging-num\" v-model=\"showNum\" number=\"\" _v-ed5ee5c6=\"\">\n        <span _v-ed5ee5c6=\"\">of&nbsp;{{pageCount}}</span>\n        <span class=\"tbseparator\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbspacer\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"glyphicon glyphicon-chevron-right\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"nextPage()\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbspacer\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"glyphicon glyphicon-step-forward\" :class=\"{'ms-paging-disabled':isLastPage}\" @click=\"lastPage()\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbspacer\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"tbseparator\" _v-ed5ee5c6=\"\"></span>\n        <span class=\"glyphicon glyphicon-refresh\" @click=\"refresh()\" _v-ed5ee5c6=\"\"></span>\n    </div>\n    <div class=\"ms-paging-right\" _v-ed5ee5c6=\"\">\n        {{showText}} {{startRow}}-{{endRow}} of {{total}}\n    </div>\n</div>\n";
 
 /***/ },
-/* 338 */
+/* 348 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(339)
-	__vue_script__ = __webpack_require__(340)
+	__webpack_require__(349)
+	__vue_script__ = __webpack_require__(350)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/grid/column/text.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(342)
+	__vue_template__ = __webpack_require__(352)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -32817,13 +33227,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 339 */
+/* 349 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 340 */
+/* 350 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -32832,11 +33242,11 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(331);
+	var _GridMixin = __webpack_require__(341);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
-	var _GridColumnMixin = __webpack_require__(341);
+	var _GridColumnMixin = __webpack_require__(351);
 	
 	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
 	
@@ -32851,7 +33261,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 341 */
+/* 351 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -32918,23 +33328,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 342 */
+/* 352 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\" @click=\"click()\">\n    <div>{{{ renderer }}}</div>\n</td>\n";
 
 /***/ },
-/* 343 */
+/* 353 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(344)
-	__vue_script__ = __webpack_require__(345)
+	__webpack_require__(354)
+	__vue_script__ = __webpack_require__(355)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/grid/column/link.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(346)
+	__vue_template__ = __webpack_require__(356)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -32953,13 +33363,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 344 */
+/* 354 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 345 */
+/* 355 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -32968,11 +33378,11 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(331);
+	var _GridMixin = __webpack_require__(341);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
-	var _GridColumnMixin = __webpack_require__(341);
+	var _GridColumnMixin = __webpack_require__(351);
 	
 	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
 	
@@ -33001,23 +33411,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 346 */
+/* 356 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>\n        <a v-if=\"href\" href=\"{{href}}\">{{{ renderer }}}</a>\n        <a v-else v-link=\"link\">{{{ renderer }}}</a>\n    </div>\n</td>\n";
 
 /***/ },
-/* 347 */
+/* 357 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(348)
-	__vue_script__ = __webpack_require__(349)
+	__webpack_require__(358)
+	__vue_script__ = __webpack_require__(359)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/grid/column/action.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(355)
+	__vue_template__ = __webpack_require__(365)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -33036,13 +33446,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 348 */
+/* 358 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 349 */
+/* 359 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -33051,15 +33461,15 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _GridMixin = __webpack_require__(331);
+	var _GridMixin = __webpack_require__(341);
 	
 	var _GridMixin2 = _interopRequireDefault(_GridMixin);
 	
-	var _GridColumnMixin = __webpack_require__(341);
+	var _GridColumnMixin = __webpack_require__(351);
 	
 	var _GridColumnMixin2 = _interopRequireDefault(_GridColumnMixin);
 	
-	var _item = __webpack_require__(350);
+	var _item = __webpack_require__(360);
 	
 	var _item2 = _interopRequireDefault(_item);
 	
@@ -33079,17 +33489,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 350 */
+/* 360 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(351)
-	__vue_script__ = __webpack_require__(353)
+	__webpack_require__(361)
+	__vue_script__ = __webpack_require__(363)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/grid/column/action/item.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(354)
+	__vue_template__ = __webpack_require__(364)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -33108,14 +33518,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 351 */
+/* 361 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 352 */,
-/* 353 */
+/* 362 */,
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -33224,53 +33634,35 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 354 */
+/* 364 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"!hidden\" class=\"ms-grid-action-item\" _v-173590fb=\"\">\n    <div role=\"button\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" @mouseover=\"showTooltip($event)\" @mouseout=\"hideTooltip()\" _v-173590fb=\"\">\n        {{item.text}}\n    </div>\n    <div class=\"ms-grid-action-item-tooltip-box\" v-if=\"tooltipShowCompute\" _v-173590fb=\"\">\n        <div class=\"ms-grid-action-item-tooltip\" :style=\"[tooltipPosition]\" _v-173590fb=\"\">\n                {{item.tooltip}}\n        </div>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"!hidden\" class=\"ms-grid-action-item\" _v-2d5c9bcf=\"\">\n    <div role=\"button\" :class=\"[cls,{'ms-grid-action-item-disabled':actionDisabled}]\" @click=\"handler()\" @mouseover=\"showTooltip($event)\" @mouseout=\"hideTooltip()\" _v-2d5c9bcf=\"\">\n        {{item.text}}\n    </div>\n    <div class=\"ms-grid-action-item-tooltip-box\" v-if=\"tooltipShowCompute\" _v-2d5c9bcf=\"\">\n        <div class=\"ms-grid-action-item-tooltip\" :style=\"[tooltipPosition]\" _v-2d5c9bcf=\"\">\n                {{item.tooltip}}\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 355 */
+/* 365 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<td v-show=\"hidden\" :style=\"[style,columnWidthStyle]\">\n    <div>\n        <action-item v-for=\"(index,item) in setting.items\"\n                     :item=\"item\"\n                     :store.sync=\"store\"\n                     :record.sync=\"record\">\n        </action-item>\n    </div>\n</td>\n";
 
 /***/ },
-/* 356 */
+/* 366 */
 /***/ function(module, exports) {
 
-	/**
-	 * Created by Bane.Shi.
-	 * Copyright MoenSun
-	 * User: Bane.Shi
-	 * Date: 16/4/28
-	 * Time: 09:48
-	 */
-	'use strict';
-	
-	module.exports = {
-	  "loading64": "data:image/gif;base64,R0lGODlhQAA6AKIGAAEBAQICAgMDAwUFBQgICAAAAP///wAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTgwM0IzQjBFMkQwMTFFNDhCRTVBMDNFMzQwNzU5Q0MiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTgwM0IzQjFFMkQwMTFFNDhCRTVBMDNFMzQwNzU5Q0MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ODAzQjNBRUUyRDAxMUU0OEJFNUEwM0UzNDA3NTlDQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1ODAzQjNBRkUyRDAxMUU0OEJFNUEwM0UzNDA3NTlDQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV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",
-	  "videoDefault": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphZTY1MDM0NC02ZWMzLTRmNDAtOGYxZS0xYjBkZWI4NzQ1N2QiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkUwNEY1OTYxNjVDMTFFNjg5M0JFNzRDNDAzQjE2RjMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkUwNEY1OTUxNjVDMTFFNjg5M0JFNzRDNDAzQjE2RjMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDphMTljMzc0ZS0wMjIyLTQ2MmEtOTg1ZC1lNGJkYjM1ZmJkMjYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6YWU2NTAzNDQtNmVjMy00ZjQwLThmMWUtMWIwZGViODc0NTdk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"
-	};
+	module.exports = "\n<div class=\"grid-panel\" _v-7c35d378=\"\">\n    <div class=\"grid-panel-out-box\" _v-7c35d378=\"\">\n        <div :style=\"[panelInnerBox]\" _v-7c35d378=\"\">\n            <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-7c35d378=\"\">\n                <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-7c35d378=\"\">\n                    <thead _v-7c35d378=\"\">\n                    <tr _v-7c35d378=\"\">\n                        <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-7c35d378=\"\"></th>\n                    </tr>\n                    </thead>\n                </table>\n            </div>\n            <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-7c35d378=\"\"></div>\n            <div class=\"grid-body-box\" _v-7c35d378=\"\">\n                <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight,minHeight]\" _v-7c35d378=\"\">\n                    <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-7c35d378=\"\">\n                        <tbody _v-7c35d378=\"\">\n                        <tr v-for=\"(rowIndex,record) in store\" _v-7c35d378=\"\">\n                            <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store.sync=\"store\" :record.sync=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-7c35d378=\"\"></td>\n                        </tr>\n                        </tbody>\n                    </table>\n                    <div v-if=\"isEmpty\" _v-7c35d378=\"\">{{{emptyText}}}</div>\n                </div>\n                <div class=\"ms-grid-loading\" v-if=\"isLoading\" :style=\"[loadingBackground]\" _v-7c35d378=\"\"></div>\n            </div>\n            <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-7c35d378=\"\">\n                <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-7c35d378=\"\">\n                </component>\n            </div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 357 */
-/***/ function(module, exports) {
-
-	module.exports = "\n<div class=\"grid-panel\" _v-70cc3268=\"\">\n    <div v-el:grid-header=\"\" class=\"grid-header table-responsive\" :style=\"[headerLineStyle]\" _v-70cc3268=\"\">\n        <table class=\"table\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n            <thead _v-70cc3268=\"\">\n                <tr _v-70cc3268=\"\">\n                    <th v-for=\"(colIndex,column) in columns\" is=\"grid-header\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></th>\n                </tr>\n            </thead>\n        </table>\n    </div>\n    <div v-el:grid-header-line=\"\" class=\"grid-header-line\" _v-70cc3268=\"\"></div>\n    <div class=\"grid-body-box\" _v-70cc3268=\"\">\n        <div v-el:grid-body=\"\" class=\"grid-body table-responsive\" :style=\"[bodyHeight,minHeight]\" _v-70cc3268=\"\">\n            <table class=\"table table-striped\" :class=\"{'table-bordered':showRowLines}\" _v-70cc3268=\"\">\n                <tbody _v-70cc3268=\"\">\n                <tr v-for=\"(rowIndex,record) in store\" _v-70cc3268=\"\">\n                    <td v-for=\"(colIndex,column) in columns\" :is=\"(column.type?column.type:'text-column' )\" :store.sync=\"store\" :record.sync=\"record\" :flex-count=\"flexCount\" :surplus-width=\"surplusWidth\" :setting=\"column\" _v-70cc3268=\"\"></td>\n                </tr>\n                </tbody>\n            </table>\n            <div v-if=\"isEmpty\" _v-70cc3268=\"\">{{{emptyText}}}</div>\n        </div>\n        <div class=\"ms-grid-loading\" v-if=\"isLoading\" :style=\"[loadingBackground]\" _v-70cc3268=\"\"></div>\n    </div>\n    <div v-el:grid-footer=\"\" class=\"grid-footer\" _v-70cc3268=\"\">\n        <component v-if=\"paging\" :is=\"(paging.theme?paging.theme:'paging')\" :page-text=\"paging.pageText\" :show-text=\"paging.showText\" :current-page.sync=\"currentPage\" :limit.sync=\"limit\" :total.sync=\"total\" _v-70cc3268=\"\">\n        </component>\n    </div>\n</div>\n";
-
-/***/ },
-/* 358 */
+/* 367 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(359)
-	__vue_script__ = __webpack_require__(361)
+	__webpack_require__(368)
+	__vue_script__ = __webpack_require__(370)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/window/MessageBox/alert.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(363)
+	__vue_template__ = __webpack_require__(372)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -33289,14 +33681,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 359 */
+/* 368 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 360 */,
-/* 361 */
+/* 369 */,
+/* 370 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -33305,7 +33697,7 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _MessageBoxMixin = __webpack_require__(362);
+	var _MessageBoxMixin = __webpack_require__(371);
 	
 	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
 	
@@ -33315,6 +33707,14 @@ webpackJsonp([0],[
 	    name: "alert",
 	    mixins: [_MessageBoxMixin2.default],
 	    props: {},
+	    computed: {
+	        "modelShow": function modelShow() {
+	            return this.progress || this.isShow;
+	        },
+	        "dialogShow": function dialogShow() {
+	            return !this.progress && this.isShow;
+	        }
+	    },
 	    watch: {
 	        "isShow": function isShow(newValue, oldValue) {
 	            var me = this;
@@ -33333,7 +33733,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 362 */
+/* 371 */
 /***/ function(module, exports) {
 
 	/**
@@ -33398,23 +33798,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 363 */
+/* 372 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-alert\" _v-2eaa1baf=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-2eaa1baf=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-2eaa1baf=\"\">\n            <div class=\"modal-content\" _v-2eaa1baf=\"\">\n\n                <div class=\"modal-header\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-2eaa1baf=\"\"><span aria-hidden=\"true\" _v-2eaa1baf=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-2eaa1baf=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-2eaa1baf=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-2eaa1baf=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-2eaa1baf=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-2eaa1baf=\"\"></div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-alert\" _v-44d12683=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-44d12683=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-44d12683=\"\">\n            <div class=\"modal-content\" _v-44d12683=\"\">\n\n                <div class=\"modal-header\" _v-44d12683=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-44d12683=\"\"><span aria-hidden=\"true\" _v-44d12683=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-44d12683=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-44d12683=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-44d12683=\"\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\" _v-44d12683=\"\">{{sureText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-44d12683=\"\"></div>\n</div>\n";
 
 /***/ },
-/* 364 */
+/* 373 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(365)
-	__vue_script__ = __webpack_require__(367)
+	__webpack_require__(374)
+	__vue_script__ = __webpack_require__(376)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/window/MessageBox/confirm.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(368)
+	__vue_template__ = __webpack_require__(377)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -33433,14 +33833,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 365 */
+/* 374 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 366 */,
-/* 367 */
+/* 375 */,
+/* 376 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -33449,7 +33849,7 @@ webpackJsonp([0],[
 	    value: true
 	});
 	
-	var _MessageBoxMixin = __webpack_require__(362);
+	var _MessageBoxMixin = __webpack_require__(371);
 	
 	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
 	
@@ -33494,23 +33894,103 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 368 */
+/* 377 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-8ed0b75a=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-8ed0b75a=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-8ed0b75a=\"\">\n            <div class=\"modal-content\" _v-8ed0b75a=\"\">\n\n                <div class=\"modal-header\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-8ed0b75a=\"\"><span aria-hidden=\"true\" _v-8ed0b75a=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-8ed0b75a=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-8ed0b75a=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-8ed0b75a=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-8ed0b75a=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-8ed0b75a=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-8ed0b75a=\"\"></div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-confirm\" _v-3db16bb2=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-3db16bb2=\"\">\n        <div class=\"modal-dialog modal-sm\" _v-3db16bb2=\"\">\n            <div class=\"modal-content\" _v-3db16bb2=\"\">\n\n                <div class=\"modal-header\" _v-3db16bb2=\"\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\" _v-3db16bb2=\"\"><span aria-hidden=\"true\" _v-3db16bb2=\"\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\" _v-3db16bb2=\"\">{{title}}</h4>\n                </div>\n                <div class=\"modal-body\" _v-3db16bb2=\"\">\n                    {{{message}}}\n                </div>\n                <div class=\"modal-footer\" _v-3db16bb2=\"\">\n                    <button type=\"button\" class=\"btn btn-success\" data-dismiss=\"modal\" @click=\"sure()\" _v-3db16bb2=\"\">{{sureText}}</button>\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" @click=\"cancel()\" _v-3db16bb2=\"\">{{cancelText}}</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\" _v-3db16bb2=\"\"></div>\n</div>\n";
 
 /***/ },
-/* 369 */
+/* 378 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(370)
-	__vue_script__ = __webpack_require__(371)
+	__webpack_require__(379)
+	__vue_script__ = __webpack_require__(381)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] src/window/MessageBox/progress.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(382)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./progress.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 379 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 380 */,
+/* 381 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _MessageBoxMixin = __webpack_require__(371);
+	
+	var _MessageBoxMixin2 = _interopRequireDefault(_MessageBoxMixin);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = {
+	    name: 'progress',
+	    mixins: [_MessageBoxMixin2.default],
+	    props: {
+	        "value": {
+	            type: Number,
+	            default: function _default() {
+	                return 100;
+	            }
+	        }
+	    },
+	    computed: {
+	        "style": function style() {
+	            var me = this;
+	            return {
+	                "width": me.value + "%"
+	            };
+	        }
+	    },
+	    components: {}
+	};
+
+/***/ },
+/* 382 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\" class=\"ms-progress\" _v-17b4c154=\"\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" _v-17b4c154=\"\">\n        <div class=\"ms-progress-box\" _v-17b4c154=\"\">\n            <div class=\"progress ms-progress-inner\" _v-17b4c154=\"\">\n                <div class=\"progress-bar progress-bar-striped active\" role=\"progressbar\" :aria-valuenow=\"value\" aria-valuemin=\"0\" aria-valuemax=\"100\" :style=\"style\" _v-17b4c154=\"\"><span class=\"sr-only\" _v-17b4c154=\"\">{{value}}% Complete</span></div>\n            </div>\n        </div>\n    </div>\n    <div v-if=\"backdrop\" class=\"modal-backdrop fade in\" _v-17b4c154=\"\"></div>\n</div>\n";
+
+/***/ },
+/* 383 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(384)
+	__vue_script__ = __webpack_require__(385)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/window/modal.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(372)
+	__vue_template__ = __webpack_require__(386)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -33529,13 +34009,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 370 */
+/* 384 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 371 */
+/* 385 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33568,23 +34048,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 372 */
+/* 386 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div v-if=\"isShow\">\n    <div class=\"modal fade bs-example-modal-sm in\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" style=\"display: block; padding-right: 15px;\" >\n        <slot></slot>\n    </div>\n    <div v-if=\"(backdrop === 'true')\" class=\"modal-backdrop fade in\"></div>\n</div>\n";
 
 /***/ },
-/* 373 */
+/* 387 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(374)
-	__vue_script__ = __webpack_require__(376)
+	__webpack_require__(388)
+	__vue_script__ = __webpack_require__(390)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/player/video.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(382)
+	__vue_template__ = __webpack_require__(396)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -33603,14 +34083,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 374 */
+/* 388 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 375 */,
-/* 376 */
+/* 389 */,
+/* 390 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -33623,15 +34103,15 @@ webpackJsonp([0],[
 	
 	var _assign2 = _interopRequireDefault(_assign);
 	
-	var _index = __webpack_require__(356);
+	var _index = __webpack_require__(322);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	__webpack_require__(377);
+	__webpack_require__(391);
 	
-	__webpack_require__(380);
+	__webpack_require__(394);
 	
-	var _video = __webpack_require__(381);
+	var _video = __webpack_require__(395);
 	
 	var _video2 = _interopRequireDefault(_video);
 	
@@ -33668,6 +34148,12 @@ webpackJsonp([0],[
 	            type: Number
 	        }
 	    },
+	    data: function data() {
+	        return {
+	            "player": null
+	        };
+	    },
+	
 	    computed: {
 	        "sizeStyle": function sizeStyle() {
 	            var me = this;
@@ -33689,8 +34175,12 @@ webpackJsonp([0],[
 	        'src': {
 	            handler: function handler(newValue, oldValue) {
 	                var me = this;
-	                me.initialize();
+	                me.player.src(newValue);
 	            }
+	        },
+	        "preload": function preload(newValue, oldValue) {
+	            var me = this;
+	            me.player.poster(newValue);
 	        }
 	    },
 	    ready: function ready() {
@@ -33701,22 +34191,22 @@ webpackJsonp([0],[
 	    methods: {
 	        "initialize": function initialize() {
 	            var me = this;
-	            (0, _video2.default)(me.$els.videoEl, me.options, function () {});
+	            me.player = (0, _video2.default)(me.$els.videoEl, me.options, function () {});
 	        }
 	    },
 	    components: {}
 	};
 
 /***/ },
-/* 377 */
+/* 391 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 378 */,
-/* 379 */,
-/* 380 */
+/* 392 */,
+/* 393 */,
+/* 394 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -36322,7 +36812,7 @@ webpackJsonp([0],[
 
 
 /***/ },
-/* 381 */
+/* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;var require;/* WEBPACK VAR INJECTION */(function(global) {/**
@@ -60614,23 +61104,23 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 382 */
+/* 396 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div class=\"ms-video\" :style=\"[sizeStyle]\" _v-af7d4544=\"\">\n    <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-af7d4544=\"\">\n        <source :src=\"src\" :type=\"type\" _v-af7d4544=\"\">\n        <p class=\"vjs-no-js\" _v-af7d4544=\"\">\n            To view this video please enable JavaScript, and consider upgrading to a web browser that\n            <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\" _v-af7d4544=\"\">supports HTML5 video</a>\n        </p>\n    </video>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n    <div class=\"ms-video\" :style=\"[sizeStyle]\" _v-b4d661ec=\"\">\n<!--        <video v-el:video-el class=\"video-js\" controls :preload=\"preload\"  style=\"width: 100%;height: 100%\"\n               :poster=\"poster\" :dataSetup=\"options\" :src=\"src\">\n            <source :src=\"src\" :type=\"type\">\n            <p class=\"vjs-no-js\">\n                To view this video please enable JavaScript, and consider upgrading to a web browser that\n                <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\">supports HTML5 video</a>\n            </p>\n        </video>-->\n        <video v-el:video-el=\"\" class=\"video-js\" controls=\"\" :preload=\"preload\" style=\"width: 100%;height: 100%\" :poster=\"poster\" :datasetup=\"options\" :src=\"src\" _v-b4d661ec=\"\">\n\n        </video>\n    </div>\n";
 
 /***/ },
-/* 383 */
+/* 397 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(384)
-	__vue_script__ = __webpack_require__(385)
+	__webpack_require__(398)
+	__vue_script__ = __webpack_require__(399)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/toolbar/pagination.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(386)
+	__vue_template__ = __webpack_require__(400)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -60649,13 +61139,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 384 */
+/* 398 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 385 */
+/* 399 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -60808,23 +61298,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 386 */
+/* 400 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"row\">\n    <div class=\"col-xs-4 set-middle\">\n        显示 {{showObj.startlist}} 到 {{showObj.endlist}} 共 {{listCount}} 条\n        <select v-model=\"limitNum\">\n            <option v-for=\"limit in limitArr\">{{limit}}</option>\n        </select>\n    </div>\n    <div class=\"col-xs-8\">\n        <div class=\"dataTables_paginate paging_bootstrap pagination trade-page\">\n            <ul>\n                <li class=\"prev\" :class=\"{'disabled':currentPage == 1}\" @click=\"pagePrev\" v-if=\"currentPage != 0\">\n                    <a>\n                        ← <span class=\"hidden-480\">Previous</span>\n                    </a>\n                </li>\n                <li v-for=\"n in pageObj.leftpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <!--1...567-->\n                <li v-show=\"frontshow\">\n                    <a>...</a>\n                </li>\n                <li v-for=\"n in pageObj.middlepage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <li v-show=\"allpage > 10\"><a>...</a></li>\n                <li v-for=\"n in pageObj.rightpage\" @click=\"changePg(n)\" :class=\"{'active':n == currentPage}\">\n                    <a>{{n}}</a>\n                </li>\n                <li class=\"next\" :class=\"{'disabled':currentPage == allpage}\" @click=\"pageNext\"\n                    v-if=\"currentPage != 0\">\n                    <a>\n                        <span class=\"hidden-480\">Next</span> →\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 387 */
+/* 401 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(388)
-	__vue_script__ = __webpack_require__(389)
+	__webpack_require__(402)
+	__vue_script__ = __webpack_require__(403)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/popup-picker/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(434)
+	__vue_template__ = __webpack_require__(448)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -60843,13 +61333,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 388 */
+/* 402 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 389 */
+/* 403 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -60858,35 +61348,35 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _index = __webpack_require__(390);
+	var _index = __webpack_require__(404);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(411);
+	var _index3 = __webpack_require__(425);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(420);
+	var _index5 = __webpack_require__(434);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _index7 = __webpack_require__(397);
+	var _index7 = __webpack_require__(411);
 	
 	var _index8 = _interopRequireDefault(_index7);
 	
-	var _index9 = __webpack_require__(401);
+	var _index9 = __webpack_require__(415);
 	
 	var _index10 = _interopRequireDefault(_index9);
 	
-	var _array2String = __webpack_require__(431);
+	var _array2String = __webpack_require__(445);
 	
 	var _array2String2 = _interopRequireDefault(_array2String);
 	
-	var _value2name = __webpack_require__(432);
+	var _value2name = __webpack_require__(446);
 	
 	var _value2name2 = _interopRequireDefault(_value2name);
 	
-	var _mixin_uuid = __webpack_require__(433);
+	var _mixin_uuid = __webpack_require__(447);
 	
 	var _mixin_uuid2 = _interopRequireDefault(_mixin_uuid);
 	
@@ -60948,17 +61438,17 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 390 */
+/* 404 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(391)
-	__vue_script__ = __webpack_require__(393)
+	__webpack_require__(405)
+	__vue_script__ = __webpack_require__(407)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/picker/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(410)
+	__vue_template__ = __webpack_require__(424)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -60977,14 +61467,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 391 */
+/* 405 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 392 */,
-/* 393 */
+/* 406 */,
+/* 407 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -60993,19 +61483,19 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _scroller = __webpack_require__(394);
+	var _scroller = __webpack_require__(408);
 	
 	var _scroller2 = _interopRequireDefault(_scroller);
 	
-	var _index = __webpack_require__(397);
+	var _index = __webpack_require__(411);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(401);
+	var _index3 = __webpack_require__(415);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _chain = __webpack_require__(404);
+	var _chain = __webpack_require__(418);
 	
 	var _chain2 = _interopRequireDefault(_chain);
 	
@@ -61178,16 +61668,16 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 394 */
+/* 408 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _animate = __webpack_require__(395);
+	var _animate = __webpack_require__(409);
 	
 	var _animate2 = _interopRequireDefault(_animate);
 	
-	var _util = __webpack_require__(396);
+	var _util = __webpack_require__(410);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -61720,7 +62210,7 @@ webpackJsonp([0],[
 	module.exports = Scroller;
 
 /***/ },
-/* 395 */
+/* 409 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -61836,7 +62326,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 396 */
+/* 410 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -61871,17 +62361,17 @@ webpackJsonp([0],[
 	}
 
 /***/ },
-/* 397 */
+/* 411 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(398)
-	__vue_script__ = __webpack_require__(399)
+	__webpack_require__(412)
+	__vue_script__ = __webpack_require__(413)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/flexbox/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(400)
+	__vue_template__ = __webpack_require__(414)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -61900,13 +62390,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 398 */
+/* 412 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 399 */
+/* 413 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -61928,22 +62418,22 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 400 */
+/* 414 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"vux-flexbox\" :class=\"{'flex-col': orient == 'vertical', 'flex-row': orient == 'horizontal'}\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
-/* 401 */
+/* 415 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(402)
+	__vue_script__ = __webpack_require__(416)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/flexbox-item/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(403)
+	__vue_template__ = __webpack_require__(417)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -61962,7 +62452,7 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 402 */
+/* 416 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -62014,13 +62504,13 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 403 */
+/* 417 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"vux-flexbox-item\" :style=\"style\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
-/* 404 */
+/* 418 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {"use strict";
@@ -62029,11 +62519,11 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(405);
+	var _classCallCheck2 = __webpack_require__(419);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(406);
+	var _createClass2 = __webpack_require__(420);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
@@ -62090,7 +62580,7 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
 
 /***/ },
-/* 405 */
+/* 419 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -62104,14 +62594,14 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 406 */
+/* 420 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	exports.__esModule = true;
 	
-	var _defineProperty = __webpack_require__(407);
+	var _defineProperty = __webpack_require__(421);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -62136,23 +62626,23 @@ webpackJsonp([0],[
 	}();
 
 /***/ },
-/* 407 */
+/* 421 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(408), __esModule: true };
+	module.exports = { "default": __webpack_require__(422), __esModule: true };
 
 /***/ },
-/* 408 */
+/* 422 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(409);
+	__webpack_require__(423);
 	var $Object = __webpack_require__(43).Object;
 	module.exports = function defineProperty(it, key, desc){
 	  return $Object.defineProperty(it, key, desc);
 	};
 
 /***/ },
-/* 409 */
+/* 423 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var $export = __webpack_require__(41);
@@ -62160,23 +62650,23 @@ webpackJsonp([0],[
 	$export($export.S + $export.F * !__webpack_require__(51), 'Object', {defineProperty: __webpack_require__(47).f});
 
 /***/ },
-/* 410 */
+/* 424 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"vux-picker\">\n  <flexbox :gutter=\"0\">\n    <flexbox-item v-for=\"(index, one) in data\" style=\"margin-left:0;\">\n      <div class=\"vux-picker-item\" :id=\"'vux-picker-' + uuid + '-' + index\"></div>\n    </flexbox-item>\n  </flexbox>\n</div>\n";
 
 /***/ },
-/* 411 */
+/* 425 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(412)
-	__vue_script__ = __webpack_require__(415)
+	__webpack_require__(426)
+	__vue_script__ = __webpack_require__(429)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/cell/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(419)
+	__vue_template__ = __webpack_require__(433)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -62195,15 +62685,15 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 412 */
+/* 426 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 413 */,
-/* 414 */,
-/* 415 */
+/* 427 */,
+/* 428 */,
+/* 429 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -62212,7 +62702,7 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _index = __webpack_require__(416);
+	var _index = __webpack_require__(430);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
@@ -62245,12 +62735,12 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 416 */
+/* 430 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(417)
-	__vue_template__ = __webpack_require__(418)
+	__webpack_require__(431)
+	__vue_template__ = __webpack_require__(432)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -62269,35 +62759,35 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 417 */
+/* 431 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 418 */
+/* 432 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<span class=\"label_desc\"><slot></slot></span>\n";
 
 /***/ },
-/* 419 */
+/* 433 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"weui_cell\" :class=\"{'vux-tap-active': isLink || !!link}\">\n  <div class=\"weui_cell_hd\">\n    <slot name=\"icon\"></slot>\n  </div>\n  <div class=\"weui_cell_bd\" :class=\"{'weui_cell_primary':primary==='title'}\">\n    <p>\n      {{title}}\n      <slot name=\"after-title\"></slot>\n    </p>\n    <inline-desc>{{inlineDesc}}</inline-desc>\n  </div>\n  <div class=\"weui_cell_ft\" :class=\"{'weui_cell_primary':primary==='content', 'with_arrow': isLink || !!link}\">\n    {{value}}\n    <slot name=\"value\"></slot>\n  </div>\n</div>\n";
 
 /***/ },
-/* 420 */
+/* 434 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(421)
-	__vue_script__ = __webpack_require__(422)
+	__webpack_require__(435)
+	__vue_script__ = __webpack_require__(436)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/popup/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(430)
+	__vue_template__ = __webpack_require__(444)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -62316,13 +62806,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 421 */
+/* 435 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 422 */
+/* 436 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -62331,7 +62821,7 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _popup = __webpack_require__(423);
+	var _popup = __webpack_require__(437);
 	
 	var _popup2 = _interopRequireDefault(_popup);
 	
@@ -62387,7 +62877,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 423 */
+/* 437 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -62395,8 +62885,8 @@ webpackJsonp([0],[
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	var Eventor = __webpack_require__(424);
-	var Tap = __webpack_require__(429);
+	var Eventor = __webpack_require__(438);
+	var Tap = __webpack_require__(443);
 	var PickerDialog = function PickerDialog(option) {
 	  this.params = {};
 	  if (Object.prototype.toString.call(option) === '[object Object]') {
@@ -62479,12 +62969,12 @@ webpackJsonp([0],[
 	exports.default = PickerDialog;
 
 /***/ },
-/* 424 */
+/* 438 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _keys = __webpack_require__(425);
+	var _keys = __webpack_require__(439);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
@@ -62703,34 +63193,34 @@ webpackJsonp([0],[
 	module.exports = Events;
 
 /***/ },
-/* 425 */
+/* 439 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(426), __esModule: true };
+	module.exports = { "default": __webpack_require__(440), __esModule: true };
 
 /***/ },
-/* 426 */
+/* 440 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(427);
+	__webpack_require__(441);
 	module.exports = __webpack_require__(43).Object.keys;
 
 /***/ },
-/* 427 */
+/* 441 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
 	var toObject = __webpack_require__(74)
 	  , $keys    = __webpack_require__(57);
 	
-	__webpack_require__(428)('keys', function(){
+	__webpack_require__(442)('keys', function(){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 428 */
+/* 442 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
@@ -62745,7 +63235,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 429 */
+/* 443 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -62805,13 +63295,13 @@ webpackJsonp([0],[
 	module.exports = Event;
 
 /***/ },
-/* 430 */
+/* 444 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div v-show=\"show\" transition=\"popup\" :style=\"{height:height}\" class=\"vux-popup\">\n  <slot></slot>\n</div>\n";
 
 /***/ },
-/* 431 */
+/* 445 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -62825,7 +63315,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 432 */
+/* 446 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(_) {'use strict';
@@ -62847,7 +63337,7 @@ webpackJsonp([0],[
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36)))
 
 /***/ },
-/* 433 */
+/* 447 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -62862,23 +63352,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 434 */
+/* 448 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<cell :title=\"title\" primary=\"content\" is-link :inline-desc=\"inlineDesc\" @click=\"onClick\">\n  <span class=\"vux-popup-picker-value\" slot=\"value\" v-if=\"!showName\">{{value | array2string}}</span>\n  <span class=\"vux-popup-picker-value\" slot=\"value\" v-else>{{value | value2name data}}</span>\n</cell>\n<popup :show.sync=\"show\" class=\"vux-popup-picker\" :id=\"'vux-popup-picker-'+uuid\">\n  <div class=\"vux-container\">\n    <div class=\"vux-header\">\n      <flexbox>\n        <flexbox-item style=\"text-align:left;padding-left:15px;line-height:44px;\" @click=\"onHide(false)\">取消</flexbox-item>\n        <flexbox-item style=\"text-align:right;padding-right:15px;line-height:44px;\" @click=\"onHide(true)\">完成</flexbox-item>\n      </flexbox>\n    </div>\n    <picker :data=\"data\" :value.sync=\"value\" :columns=\"columns\" :container=\"'#vux-popup-picker-'+uuid\"></picker>\n  </div>\n</popup>\n";
 
 /***/ },
-/* 435 */
+/* 449 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(436)
-	__vue_script__ = __webpack_require__(437)
+	__webpack_require__(450)
+	__vue_script__ = __webpack_require__(451)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/group/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(438)
+	__vue_template__ = __webpack_require__(452)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -62897,13 +63387,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 436 */
+/* 450 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 437 */
+/* 451 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -62920,23 +63410,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 438 */
+/* 452 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div>\n  <div class=\"weui_cells_title\" v-if=\"title\" :style=\"{color:titleColor}\" v-html=\"title\"></div>\n  <div class=\"weui_cells\" :class=\"{'no_group_title':!title}\">\n    <slot></slot>\n  </div>\n</div>\n";
 
 /***/ },
-/* 439 */
+/* 453 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(440)
-	__vue_script__ = __webpack_require__(441)
+	__webpack_require__(454)
+	__vue_script__ = __webpack_require__(455)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] src/picker-popup/datetime/index.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(446)
+	__vue_template__ = __webpack_require__(460)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -62955,13 +63445,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 440 */
+/* 454 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 441 */
+/* 455 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -62970,19 +63460,19 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _datetimepicker = __webpack_require__(442);
+	var _datetimepicker = __webpack_require__(456);
 	
 	var _datetimepicker2 = _interopRequireDefault(_datetimepicker);
 	
-	var _index = __webpack_require__(435);
+	var _index = __webpack_require__(449);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(416);
+	var _index3 = __webpack_require__(430);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _base = __webpack_require__(445);
+	var _base = __webpack_require__(459);
 	
 	var _base2 = _interopRequireDefault(_base);
 	
@@ -63102,7 +63592,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 442 */
+/* 456 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63111,11 +63601,11 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _scroller = __webpack_require__(394);
+	var _scroller = __webpack_require__(408);
 	
 	var _scroller2 = _interopRequireDefault(_scroller);
 	
-	var _util = __webpack_require__(443);
+	var _util = __webpack_require__(457);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -63447,7 +63937,7 @@ webpackJsonp([0],[
 	exports.default = DatetimePicker;
 
 /***/ },
-/* 443 */
+/* 457 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63466,7 +63956,7 @@ webpackJsonp([0],[
 	exports.toElement = toElement;
 	exports.removeElement = removeElement;
 	
-	var _format = __webpack_require__(444);
+	var _format = __webpack_require__(458);
 	
 	var _format2 = _interopRequireDefault(_format);
 	
@@ -63547,7 +64037,7 @@ webpackJsonp([0],[
 	}
 
 /***/ },
-/* 444 */
+/* 458 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -63587,7 +64077,7 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 445 */
+/* 459 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -63596,7 +64086,7 @@ webpackJsonp([0],[
 	  value: true
 	});
 	
-	var _mixin_uuid = __webpack_require__(433);
+	var _mixin_uuid = __webpack_require__(447);
 	
 	var _mixin_uuid2 = _interopRequireDefault(_mixin_uuid);
 	
@@ -63647,29 +64137,29 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 446 */
+/* 460 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<a class=\"weui_cell\" href=\"javascript:\">\n  <div class=\"weui_cell_bd weui_cell_primary\">\n    <p>{{title}}</p>\n    <inline-desc v-if=\"inlineDesc\">{{inlineDesc}}</inline-desc>\n  </div>\n  <div class=\"weui_cell_ft with_arrow vux-datetime-value\">{{value}}</div>\n</a>\n";
 
 /***/ },
-/* 447 */
+/* 461 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div>\n    <button @click=\"showModal()\">显示</button>\n    <ms-modal :is-show.sync=\"show\">\n        <div class=\"modal-dialog modal-sm\">\n            <div class=\"modal-content\">\n\n                <div class=\"modal-header\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" ><span aria-hidden=\"true\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\"></h4>\n                </div>\n                <div class=\"modal-body\">\n\n                </div>\n                <div class=\"modal-footer\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"sure()\">确定</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </ms-modal>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div>\n    <button @click=\"showModal()\" class=\"btn btn-default\">显示</button>\n    <ms-modal :is-show.sync=\"show\">\n        <div class=\"modal-dialog modal-sm\">\n            <div class=\"modal-content\">\n\n                <div class=\"modal-header\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\" @click=\"close()\"><span aria-hidden=\"true\">×</span></button>\n                    <h4 class=\"modal-title\" id=\"mySmallModalLabel\"></h4>\n                </div>\n                <div class=\"modal-body\">\n\n                </div>\n                <div class=\"modal-footer\">\n                    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" @click=\"close()\">确定</button>\n                </div>\n            </div><!-- /.modal-content -->\n        </div><!-- /.modal-dialog -->\n    </ms-modal>\n</div>\n";
 
 /***/ },
-/* 448 */
+/* 462 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(449)
-	__vue_script__ = __webpack_require__(450)
+	__webpack_require__(463)
+	__vue_script__ = __webpack_require__(464)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-alert.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(451)
+	__vue_template__ = __webpack_require__(465)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -63688,13 +64178,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 449 */
+/* 463 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 450 */
+/* 464 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -63709,7 +64199,9 @@ webpackJsonp([0],[
 	    data: function data() {
 	        return {
 	            "alertConfig": {
+	                "useProgress": false,
 	                "show": false,
+	                "progress": false,
 	                "message": "",
 	                "title": ""
 	            }
@@ -63736,23 +64228,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 451 */
+/* 465 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div>\n    <div class=\"panel panel-default\">\n        <div class=\"panel-heading\">ms-alert</div>\n        <div class=\"panel-body\">\n            <div>\n                <button @click=\"alert1()\" class=\"btn btn-default btn-sm\">alert1</button>\n                <button @click=\"alert2()\" class=\"btn btn-default btn-sm\">alert2</button>\n            </div>\n\n\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\">参数说明</div>\n                <div class=\"panel-body\">\n                    <div class=\"table-responsive\">\n                        <table class=\"table table-bordered\">\n                            <thead>\n                            <tr>\n                                <th>参数</th>\n                                <th>类型</th>\n                                <th>释义</th>\n                                <th>是否双向绑定</th>\n                                <th>默认值</th>\n                                <th>补充说明</th>\n                            </tr>\n                            </thead>\n                            <tbody>\n                            <tr>\n                                <td>isShow</td>\n                                <td>Boolean</td>\n                                <td>是否显示</td>\n                                <td>是</td>\n                                <td>false</td>\n                                <td></td>\n                            </tr>\n                            <tr>\n                                <td>message</td>\n                                <td>String</td>\n                                <td>信息文本</td>\n                                <td>是</td>\n                                <td></td>\n                                <td></td>\n                            </tr>\n                            <tr>\n                                <td>title</td>\n                                <td>String</td>\n                                <td>标题</td>\n                                <td>是</td>\n                                <td></td>\n                                <td></td>\n                            </tr>\n                            </tbody>\n                        </table>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\">代码示例</div>\n                <div class=\"panel-body\">\n                    <pre>\n\nexport default{\n    data(){\n        return {\n            \"alertConfig\":{\n                \"show\":false,\n                \"message\":\"\",\n                \"title\":\"\"\n            }\n        }\n    },\n    methods:{\n        \"alert1\":function () {\n            let me = this;\n            me.alertConfig.title = \"Alert\";\n            me.alertConfig.show = true;\n            me.alertConfig.message = \"ALERT1\";\n        },\n        \"alert2\":function () {\n            let me = this;\n            // me.alertConfig.title = \"Alert\";\n            me.alertConfig.show = true;\n            me.alertConfig.message = \"ALERT2\";\n        }\n    },\n    components:{\n        msAlert\n    }\n}\n                    </pre>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <ms-alert :is-show.sync=\"alertConfig.show\"\n                  :message.sync=\"alertConfig.message\"\n                  :title.sync=\"alertConfig.title\">\n        </ms-alert>\n\n    </div>\n</div>\n";
 
 /***/ },
-/* 452 */
+/* 466 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(453)
-	__vue_script__ = __webpack_require__(454)
+	__webpack_require__(467)
+	__vue_script__ = __webpack_require__(468)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-confirm.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(455)
+	__vue_template__ = __webpack_require__(469)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -63771,13 +64263,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 453 */
+/* 467 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 454 */
+/* 468 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -63819,23 +64311,96 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 455 */
+/* 469 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n   <div>\n       <div class=\"panel panel-default\">\n           <div class=\"panel-heading\">ms-confirm</div>\n           <div class=\"panel-body\">\n               <div>\n                   <button @click=\"showConfirm()\" class=\"btn btn-default btn-sm\">确认</button>\n               </div>\n               <div class=\"panel panel-default\">\n                   <div class=\"panel-heading\">参数说明</div>\n                   <div class=\"panel-body\">\n                       <div class=\"table-responsive\">\n                           <table class=\"table table-bordered\">\n                               <thead>\n                               <tr>\n                                   <th>参数</th>\n                                   <th>类型</th>\n                                   <th>释义</th>\n                                   <th>是否双向绑定</th>\n                                   <th>默认值</th>\n                                   <th>补充说明</th>\n                               </tr>\n                               </thead>\n                               <tbody>\n                               <tr>\n                                   <td>isShow</td>\n                                   <td>Boolean</td>\n                                   <td>是否显示</td>\n                                   <td>是</td>\n                                   <td>false</td>\n                                   <td></td>\n                               </tr>\n                               <tr>\n                                   <td>message</td>\n                                   <td>String</td>\n                                   <td>信息文本</td>\n                                   <td>是</td>\n                                   <td></td>\n                                   <td></td>\n                               </tr>\n                               <tr>\n                                   <td>title</td>\n                                   <td>String</td>\n                                   <td>标题</td>\n                                   <td>是</td>\n                                   <td></td>\n                                   <td></td>\n                               </tr>\n                               <tr>\n                                   <td>action</td>\n                                   <td>Function</td>\n                                   <td>回调函数</td>\n                                   <td>是</td>\n                                   <td></td>\n                                   <td></td>\n                               </tr>\n                               </tbody>\n                           </table>\n                       </div>\n                   </div>\n               </div>\n               <div class=\"panel panel-default\">\n                   <div class=\"panel-heading\">代码示例</div>\n                   <div class=\"panel-body\">\n                       <pre>\nexport default{\n       data(){\n           return {\n               \"confirmConfig\":{\n                   \"show\":false,\n                   \"message\":\"\",\n                   \"title\":\"\",\n                   \"action\":null\n               }\n           }\n       },\n       methods:{\n           \"showConfirm\":function () {\n               let me = this;\n               me.confirmConfig.show = true;\n               me.confirmConfig.title = \"确定\";\n               me.confirmConfig.message = \"确定执行该操作么?\";\n               me.confirmConfig.action = function (res) {\n                   if(res === 'yes'){\n                       alert(\"执行了\");\n                   }\n               }\n           }\n       },\n       components:{\n           msConfirm\n       }\n   }\n                       </pre>\n                   </div>\n               </div>\n           </div>\n       </div>\n       <div>\n           <ms-confirm :is-show.sync=\"confirmConfig.show\"\n                       :title.sync=\"confirmConfig.title\"\n                       :message.sync=\"confirmConfig.message\"\n                       :action.sync=\"confirmConfig.action\">\n           </ms-confirm>\n       </div>\n   </div>\n";
 
 /***/ },
-/* 456 */
+/* 470 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(457)
-	__vue_script__ = __webpack_require__(458)
+	__webpack_require__(471)
+	__vue_script__ = __webpack_require__(472)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-progress.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(473)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./ms-progress.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 471 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 472 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    data: function data() {
+	        return {
+	            "progress": {
+	                "show": false
+	            }
+	        };
+	    },
+	
+	    methods: {
+	        "showProgress": function showProgress() {
+	            var me = this;
+	            me.progress.show = true;
+	        }
+	    },
+	    components: {
+	        msProgress: _index.msProgress
+	    }
+	};
+
+/***/ },
+/* 473 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div>\n    <div class=\"panel panel-default\">\n        <div class=\"panel-heading\">ms-progress</div>\n        <div class=\"panel-body\">\n            <div>\n                <button @click=\"showProgress()\">弹出</button>\n            </div>\n        </div>\n    </div>\n    <div>\n        <ms-progress :is-show.sync=\"progress.show\"></ms-progress>\n    </div>\n</div>\n";
+
+/***/ },
+/* 474 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(475)
+	__vue_script__ = __webpack_require__(476)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-datepicker.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(459)
+	__vue_template__ = __webpack_require__(477)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -63854,13 +64419,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 457 */
+/* 475 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 458 */
+/* 476 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -63884,23 +64449,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 459 */
+/* 477 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-datepicker :selected-dates.sync=\"selectedDates\"></ms-datepicker>\n    </div>\n</div>\n";
 
 /***/ },
-/* 460 */
+/* 478 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(461)
-	__vue_script__ = __webpack_require__(462)
+	__webpack_require__(479)
+	__vue_script__ = __webpack_require__(480)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-date-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(463)
+	__vue_template__ = __webpack_require__(481)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -63919,13 +64484,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 461 */
+/* 479 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 462 */
+/* 480 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -63940,6 +64505,7 @@ webpackJsonp([0],[
 	    data: function data() {
 	        return {
 	            "value1": "",
+	            "value3": "",
 	            "value2": []
 	        };
 	    },
@@ -63951,23 +64517,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 463 */
+/* 481 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div>\n    <div>{{value1}}</div>\n    <div>\n        <ms-date-field :value.sync=\"value1\"></ms-date-field>\n    </div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in value2\" track-by=\"$index\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-date-field :multiple=true :is-focus=true :value.sync=\"value2\"></ms-date-field>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div>\n    <div>{{value1}}</div>\n    <div>\n        <ms-date-field :value.sync=\"value1\"></ms-date-field>\n    </div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in value2\" track-by=\"$index\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-date-field :multiple=true :is-focus=true :value.sync=\"value2\"></ms-date-field>\n    </div>\n    <div>\n        <ms-date-field :multiple=false :is-focus=true :value.sync=\"value3\" :with-time=true></ms-date-field>\n    </div>\n</div>\n";
 
 /***/ },
-/* 464 */
+/* 482 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(465)
-	__vue_script__ = __webpack_require__(466)
+	__webpack_require__(483)
+	__vue_script__ = __webpack_require__(484)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-date-range-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(467)
+	__vue_template__ = __webpack_require__(485)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -63986,13 +64552,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 465 */
+/* 483 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 466 */
+/* 484 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -64024,23 +64590,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 467 */
+/* 485 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div>\n    <div>\n        <ms-datepicker-range></ms-datepicker-range>\n    </div>\n    <div>\n        <div style=\"max-height: 100px;overflow-y: auto\">\n            <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n        </div>\n    </div>\n    <div>\n        <ms-date-range-field :selected-dates.sync=\"selectedDates\"\n                             :start-date.sync=\"startDate\"\n                             :end-date.sync=\"endDate\" :with-time=true \n                             :is-focus=true\n                             :is-disabled=\"isDisabled\">\n        </ms-date-range-field>\n    </div>\n    <div>\n        <table class=\"table table-bordered\">\n            <thead>\n                <tr>\n                    <th>参数</th>\n                    <th>类型</th>\n                    <th>释义</th>\n                    <th>是否双向绑定</th>\n                    <th>默认值</th>\n                    <th>补充说明</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>startDay</td>\n                    <td>String</td>\n                    <td>开始时间</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>startDay 和 endDay 需要同时设置</td>\n                </tr>\n                <tr>\n                    <td>endDay</td>\n                    <td>String</td>\n                    <td>结束时间</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>startDay 和 endDay 需要同时设置</td>\n                </tr>\n                <tr>\n                    <td>selectedDates</td>\n                    <td>Array</td>\n                    <td>选中日期</td>\n                    <td>是</td>\n                    <td>无</td>\n                    <td>数组型的字符串日期</td>\n                </tr>\n                <tr>\n                    <td>dateFormat</td>\n                    <td>String</td>\n                    <td>日期格式</td>\n                    <td>否</td>\n                    <td>YYYY-MM-DD</td>\n                    <td>遵循moment的时间格式化</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n";
 
 /***/ },
-/* 468 */
+/* 486 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(469)
-	__vue_script__ = __webpack_require__(470)
+	__webpack_require__(487)
+	__vue_script__ = __webpack_require__(488)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-date-range-single-field.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(471)
+	__vue_template__ = __webpack_require__(489)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64059,13 +64625,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 469 */
+/* 487 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 470 */
+/* 488 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -64095,23 +64661,82 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 471 */
+/* 489 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div>\n    <ms-datepicker-range-single></ms-datepicker-range-single>\n</div>\n<div>\n    <div style=\"max-height: 100px;overflow-y: auto\">\n        <div v-for=\"(dateIndex,date) in selectedDates\">{{date}}</div>\n    </div>\n</div>\n<div>\n    <ms-date-range-single-field :selected-dates.sync=\"selectedDates\" \n                                :is-focus=true \n                                :is-disabled=\"isDisabled\">\n    </ms-date-range-single-field>\n</div>\n";
 
 /***/ },
-/* 472 */
+/* 490 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(473)
-	__vue_script__ = __webpack_require__(475)
+	__webpack_require__(491)
+	__vue_script__ = __webpack_require__(492)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] example/component/ms-image-select-preview.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(493)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  var id = "./ms-image-select-preview.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 491 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 492 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _index = __webpack_require__(23);
+	
+	exports.default = {
+	    components: {
+	        msImageSelectPreviewField: _index.msImageSelectPreviewField
+	    }
+	};
+
+/***/ },
+/* 493 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n\n\n\n\n\n<div>\n    <ms-image-select-preview-field></ms-image-select-preview-field>\n</div>\n";
+
+/***/ },
+/* 494 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(495)
+	__vue_script__ = __webpack_require__(497)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-time.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(476)
+	__vue_template__ = __webpack_require__(498)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64130,14 +64755,14 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 473 */
+/* 495 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 474 */,
-/* 475 */
+/* 496 */,
+/* 497 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -64155,23 +64780,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 476 */
+/* 498 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div _v-a2905d72=\"\">\n    <ms-datepicker-time _v-a2905d72=\"\"></ms-datepicker-time>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div _v-e9e8fdca=\"\">\n    <ms-datepicker-time _v-e9e8fdca=\"\"></ms-datepicker-time>\n</div>\n";
 
 /***/ },
-/* 477 */
+/* 499 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(478)
-	__vue_script__ = __webpack_require__(479)
+	__webpack_require__(500)
+	__vue_script__ = __webpack_require__(501)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-grid.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(480)
+	__vue_template__ = __webpack_require__(502)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64190,13 +64815,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 478 */
+/* 500 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 479 */
+/* 501 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -64225,12 +64850,13 @@ webpackJsonp([0],[
 	                type: 'text-column',
 	                text: '名称',
 	                dataIndex: 'name',
+	                align: 'center',
 	                flex: 2
 	            }, {
 	                type: 'link-column',
 	                text: '名称',
 	                dataIndex: 'name',
-	                flex: 2,
+	                flex: 1,
 	                href: function href(val, record, index) {
 	                    return "http://www.baidu.com";
 	                }
@@ -64238,7 +64864,7 @@ webpackJsonp([0],[
 	                type: 'link-column',
 	                text: '名称',
 	                dataIndex: 'name',
-	                flex: 2,
+	                flex: 1,
 	                link: function link(val, record, index) {
 	                    return { "name": 'main' };
 	                }
@@ -64289,6 +64915,126 @@ webpackJsonp([0],[
 	        },
 	        "hideLoading": function hideLoading() {
 	            this.isLoading = false;
+	        },
+	        "widthOut": function widthOut() {
+	            this.columns = [{
+	                type: 'text-column',
+	                text: '文本',
+	                dataIndex: 'text',
+	                width: 400,
+	                listeners: {
+	                    click: function click(val, record) {
+	                        alert(val);
+	                    }
+	                }
+	            }, {
+	                type: 'text-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                align: 'center',
+	                width: 400
+	            }, {
+	                type: 'link-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                width: 400,
+	                href: function href(val, record, index) {
+	                    return "http://www.baidu.com";
+	                }
+	            }, {
+	                type: 'link-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                width: 400,
+	                link: function link(val, record, index) {
+	                    return { "name": 'main' };
+	                }
+	            }, {
+	                type: 'action-column',
+	                text: '',
+	                dataIndex: 'id',
+	                width: 100,
+	                items: [{
+	                    "cls": "glyphicon glyphicon-pencil",
+	                    "tooltip": "编辑",
+	                    handler: function handler(record) {
+	                        alert(record);
+	                    },
+	                    isDisabled: function isDisabled(record) {
+	                        if (record.id == 4) {
+	                            return true;
+	                        }
+	                    }
+	                }, {
+	                    "cls": "btn btn-link btn-sm",
+	                    "text": "测试",
+	                    "hidden": function hidden(record) {
+	                        if (record.id == 5) {
+	                            return true;
+	                        }
+	                    }
+	                }]
+	            }];
+	        },
+	        "restWidth": function restWidth() {
+	            this.columns = [{
+	                type: 'text-column',
+	                text: '文本',
+	                dataIndex: 'text',
+	                flex: 1,
+	                listeners: {
+	                    click: function click(val, record) {
+	                        alert(val);
+	                    }
+	                }
+	            }, {
+	                type: 'text-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                align: 'center',
+	                flex: 2
+	            }, {
+	                type: 'link-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                flex: 1,
+	                href: function href(val, record, index) {
+	                    return "http://www.baidu.com";
+	                }
+	            }, {
+	                type: 'link-column',
+	                text: '名称',
+	                dataIndex: 'name',
+	                flex: 1,
+	                link: function link(val, record, index) {
+	                    return { "name": 'main' };
+	                }
+	            }, {
+	                type: 'action-column',
+	                text: '',
+	                dataIndex: 'id',
+	                width: 100,
+	                items: [{
+	                    "cls": "glyphicon glyphicon-pencil",
+	                    "tooltip": "编辑",
+	                    handler: function handler(record) {
+	                        alert(record);
+	                    },
+	                    isDisabled: function isDisabled(record) {
+	                        if (record.id == 4) {
+	                            return true;
+	                        }
+	                    }
+	                }, {
+	                    "cls": "btn btn-link btn-sm",
+	                    "text": "测试",
+	                    "hidden": function hidden(record) {
+	                        if (record.id == 5) {
+	                            return true;
+	                        }
+	                    }
+	                }]
+	            }];
 	        }
 	    },
 	    components: {
@@ -64297,23 +65043,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 480 */
+/* 502 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<div>\n    <button class=\"btn btn-default btn-sm\" @click=\"setHeight()\">设置表格高度</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"cancelHeight()\">取消表格高度</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"showPaging()\">显示分页</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"showLoading()\">显示加载</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"hideLoading()\">隐藏加载</button>\n</div>\n<div>\n    <div>\n        <ms-grid-panel :store=\"store\"\n                       :columns=\"columns\"\n                       :height=\"height\"\n                       :row-lines=true\n                       :paging=\"paging\"\n                       :is-loading.sync=\"isLoading\"></ms-grid-panel>\n    </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n    <div class=\"panel-heading\">参数说明</div>\n    <div class=\"panel-body\">\n        <table class=\"table table-bordered\">\n            <thead>\n            <tr>\n                <th>参数</th>\n                <th>类型</th>\n                <th>释义</th>\n                <th>是否双向绑定</th>\n                <th>默认值</th>\n                <th>补充说明</th>\n            </tr>\n            </thead>\n            <tbody>\n            <tr>\n                <td>height</td>\n                <td>Number</td>\n                <td>整个列表面版的高度</td>\n                <td>否</td>\n                <td>无</td>\n                <td>如果设置的面板高度,就会去自动计算出中间列表的高度,超出会显示滚动条</td>\n            </tr>\n            <tr>\n                <td>store</td>\n                <td>Array</td>\n                <td>数据</td>\n                <td>否</td>\n                <td>无</td>\n                <td>返回的数据列表</td>\n            </tr>\n            <tr>\n                <td>columns</td>\n                <td>Array</td>\n                <td>列配置</td>\n                <td>否</td>\n                <td>无</td>\n                <td>是对每一列的配置</td>\n            </tr>\n            <tr>\n                <td>currentPage</td>\n                <td>Number</td>\n                <td>当前页码</td>\n                <td>是</td>\n                <td>0</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>limit</td>\n                <td>Number</td>\n                <td>每页显示条数</td>\n                <td>是</td>\n                <td>20</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>total</td>\n                <td>Number</td>\n                <td>数据总条数</td>\n                <td>是</td>\n                <td>0</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>emptyText</td>\n                <td>String</td>\n                <td>空数据文本</td>\n                <td>否</td>\n                <td></td>\n                <td>当数据为空的时候显示的文本</td>\n            </tr>\n            <tr>\n                <td>paging</td>\n                <td>Object</td>\n                <td>分页控件配置</td>\n                <td>否</td>\n                <td></td>\n                <td>\n                    <p>theme:分页控件模板,当前没有其他可用</p>\n                    <p>pageText: </p>\n                    <p>showText: </p>\n                </td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"panel panel-default\">\n    <div class=\"panel-heading\">代码示例</div>\n    <div class=\"panel-body\">\n        <pre>\n            \"columns\":[\n                {\n                    type:'text-column',\n                    text:'文本',\n                    dataIndex:'text',\n                    flex:1,\n                    listeners:{\n                        click:function (val,record) {\n                            alert(val);\n                        }\n                    }\n                },\n                {\n                    type:'text-column',\n                    text:'名称',\n                    dataIndex:'name',\n                    flex:2\n                },\n                {\n                    type:'action-column',\n                    text:'',\n                    dataIndex:'id',\n                    width:100,\n                    items:[\n                        {\n                            \"cls\":\"glyphicon glyphicon-pencil\",\n                            handler:function (record) {\n                                alert(record);\n                            },\n                            isDisabled:function (record) {\n                                if(record.id==4){\n                                    return true;\n                                }\n                            }\n                        }\n                    ]\n                }\n            ]\n        </pre>\n    </div>\n</div>\n";
+	module.exports = "\n\n\n\n\n\n\n<div>\n    <button class=\"btn btn-default btn-sm\" @click=\"setHeight()\">设置表格高度</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"cancelHeight()\">取消表格高度</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"showPaging()\">显示分页</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"showLoading()\">显示加载</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"hideLoading()\">隐藏加载</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"widthOut()\">宽度超出</button>\n    <button class=\"btn btn-default btn-sm\" @click=\"restWidth()\">宽度恢复</button>\n</div>\n<div>\n    <div>\n        <ms-grid-panel :store=\"store\"\n                       :columns=\"columns\"\n                       :height=\"height\"\n                       :row-lines=true\n                       :paging=\"paging\"\n                       :is-loading.sync=\"isLoading\"></ms-grid-panel>\n    </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n    <div class=\"panel-heading\">参数说明</div>\n    <div class=\"panel-body\">\n        <table class=\"table table-bordered\">\n            <thead>\n            <tr>\n                <th>参数</th>\n                <th>类型</th>\n                <th>释义</th>\n                <th>是否双向绑定</th>\n                <th>默认值</th>\n                <th>补充说明</th>\n            </tr>\n            </thead>\n            <tbody>\n            <tr>\n                <td>height</td>\n                <td>Number</td>\n                <td>整个列表面版的高度</td>\n                <td>否</td>\n                <td>无</td>\n                <td>如果设置的面板高度,就会去自动计算出中间列表的高度,超出会显示滚动条</td>\n            </tr>\n            <tr>\n                <td>store</td>\n                <td>Array</td>\n                <td>数据</td>\n                <td>否</td>\n                <td>无</td>\n                <td>返回的数据列表</td>\n            </tr>\n            <tr>\n                <td>columns</td>\n                <td>Array</td>\n                <td>列配置</td>\n                <td>否</td>\n                <td>无</td>\n                <td>是对每一列的配置</td>\n            </tr>\n            <tr>\n                <td>currentPage</td>\n                <td>Number</td>\n                <td>当前页码</td>\n                <td>是</td>\n                <td>0</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>limit</td>\n                <td>Number</td>\n                <td>每页显示条数</td>\n                <td>是</td>\n                <td>20</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>total</td>\n                <td>Number</td>\n                <td>数据总条数</td>\n                <td>是</td>\n                <td>0</td>\n                <td></td>\n            </tr>\n            <tr>\n                <td>emptyText</td>\n                <td>String</td>\n                <td>空数据文本</td>\n                <td>否</td>\n                <td></td>\n                <td>当数据为空的时候显示的文本</td>\n            </tr>\n            <tr>\n                <td>paging</td>\n                <td>Object</td>\n                <td>分页控件配置</td>\n                <td>否</td>\n                <td></td>\n                <td>\n                    <p>theme:分页控件模板,当前没有其他可用</p>\n                    <p>pageText: </p>\n                    <p>showText: </p>\n                </td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n<div class=\"panel panel-default\">\n    <div class=\"panel-heading\">代码示例</div>\n    <div class=\"panel-body\">\n        <pre>\n            \"columns\":[\n                {\n                    type:'text-column',\n                    text:'文本',\n                    dataIndex:'text',\n                    flex:1,\n                    listeners:{\n                        click:function (val,record) {\n                            alert(val);\n                        }\n                    }\n                },\n                {\n                    type:'text-column',\n                    text:'名称',\n                    dataIndex:'name',\n                    flex:2\n                },\n                {\n                    type:'action-column',\n                    text:'',\n                    dataIndex:'id',\n                    width:100,\n                    items:[\n                        {\n                            \"cls\":\"glyphicon glyphicon-pencil\",\n                            handler:function (record) {\n                                alert(record);\n                            },\n                            isDisabled:function (record) {\n                                if(record.id==4){\n                                    return true;\n                                }\n                            }\n                        }\n                    ]\n                }\n            ]\n        </pre>\n    </div>\n</div>\n";
 
 /***/ },
-/* 481 */
+/* 503 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(482)
-	__vue_script__ = __webpack_require__(483)
+	__webpack_require__(504)
+	__vue_script__ = __webpack_require__(505)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-video.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(484)
+	__vue_template__ = __webpack_require__(506)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64332,13 +65078,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 482 */
+/* 504 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 483 */
+/* 505 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -64373,23 +65119,23 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 484 */
+/* 506 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div>\n    <ms-video :poster=\"poster\" :src=\"src\" :height=300></ms-video>\n\n    <button type=\"button\" @click=\"set()\">设置视频</button>\n    <button type=\"button\" @click=\"set2()\">设置视频</button>\n</div>\n";
 
 /***/ },
-/* 485 */
+/* 507 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(486)
-	__vue_script__ = __webpack_require__(487)
+	__webpack_require__(508)
+	__vue_script__ = __webpack_require__(509)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-pagination.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(488)
+	__vue_template__ = __webpack_require__(510)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64408,13 +65154,13 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 486 */
+/* 508 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 487 */
+/* 509 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -64445,22 +65191,22 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 488 */
+/* 510 */
 /***/ function(module, exports) {
 
 	module.exports = "\n\n\n\n\n\n\n<div class=\"add-m\">\n    <ms-pagination :current-page.sync=\"currentPage\" :list-count=\"listcount\" :limit-arr=\"limitArr\"></ms-pagination>\n</div>\n<div>\n    <table class=\"table table-bordered\">\n        <thead>\n        <tr>\n            <th>参数</th>\n            <th>类型</th>\n            <th>释义</th>\n            <th>是否双向绑定</th>\n            <th>默认值</th>\n            <th>补充说明</th>\n        </tr>\n        </thead>\n        <tbody>\n        <tr>\n            <td>currentPage</td>\n            <td>Number</td>\n            <td>当前页数</td>\n            <td>是</td>\n            <td>0</td>\n            <td>获取当前页数</td>\n        </tr>\n        <tr>\n            <td>listCount</td>\n            <td>Number</td>\n            <td>总条数</td>\n            <td>否</td>\n            <td>0</td>\n            <td>获取数据总条数</td>\n        </tr>\n        <tr>\n            <td>limitArr</td>\n            <td>Array</td>\n            <td>自定义一页展示条数</td>\n            <td>否</td>\n            <td>[5,10,15]</td>\n            <td>下拉框选项,可自定义可选择的限制数</td>\n        </tr>\n        </tbody>\n    </table>\n    <p class=\"red\">\n        调取接口建议做法,在外部watch:currentpage :)\n    </p>\n</div>\n";
 
 /***/ },
-/* 489 */
+/* 511 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__vue_script__ = __webpack_require__(490)
+	__vue_script__ = __webpack_require__(512)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] example/component/ms-picker-popup.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(491)
+	__vue_template__ = __webpack_require__(513)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64479,7 +65225,7 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 490 */
+/* 512 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -64556,18 +65302,18 @@ webpackJsonp([0],[
 	};
 
 /***/ },
-/* 491 */
+/* 513 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<group title=\"选择性别\">\n    <picker-popup :title=\"title1\" :data=\"list1\" :value.sync=\"value1\"></picker-popup>\n</group>\n<small>data:<br>[['男','女']]</small>\n\n<group title=\"选择班级\">\n    <picker-popup :title=\"title2\" :data=\"list2\" :value.sync=\"value2\"></picker-popup>\n</group>\n<small>data:<br>[<br>\n    ['初一','初二','初三],<br>\n    ['一班','二班','三班','四班','五班','六班']<br>\n    ]</small>\n\n<group title=\"选择省市\">\n    <picker-popup :title=\"title3\" :data=\"list3\" :value.sync=\"value3\" :columns=\"2\" show-name></picker-popup>\n</group>\n<small>data:[{<br>\n    name:'江苏',<br>\n    value:'jiangsu',<br>\n    parent:0<br>\n    },<br>\n    {<br>\n    name:'山东',<br>\n    value:'shandong',<br>\n    parent:0<br>\n    },<br>\n    {<br>\n    name:'广东',<br>\n    value:'guangdong',<br>\n    parent:0<br>\n    },<br>\n    {<br>\n    name:'苏州',<br>\n    value:'suzhou',<br>\n    parent:'jiangsu'<br>\n    },<br>\n    {<br>\n    name:'南京',<br>\n    value:'nanjing',<br>\n    parent:'jiangsu',<br>\n    },<br>\n    {<br>\n    name:'青岛',<br>\n    value:'qingdao',<br>\n    parent:'shandong'<br>\n    },<br>\n    {<br>\n    name:'烟台',<br>\n    value:'yantai',<br>\n    parent:'shandong'<br>\n    },<br>\n    {<br>\n    name:'广州',<br>\n    value:'guangzhou',<br>\n    parent:'guangdong'<br>\n    },<br>\n    {<br>\n    name:'深圳',<br>\n    value:'shenzheng',<br>\n    parent:'guangdong'<br>\n    }]<br></small>\n\n<group title=\"选择日期\">\n    <date-time :value.sync=\"datavalue\" @on-change=\"change\" title=\"选择日期\"></date-time>\n</group>\n\n<div>\n    <h2>pickerPopup</h2>\n    <table class=\"table table-bordered\">\n        <thead>\n        <tr>\n            <th>参数</th>\n            <th>类型</th>\n            <th>释义</th>\n            <th>是否双向绑定</th>\n            <th>默认值</th>\n            <th>补充说明</th>\n        </tr>\n        </thead>\n        <tr>\n            <td>title</td>\n            <td>String</td>\n            <td>选项名称</td>\n            <td>否</td>\n            <td>无</td>\n            <td></td>\n        </tr>\n        <tr>\n            <td>data</td>\n            <td><b>Array</b></td>\n            <td>待选项</td>\n            <td>否</td>\n            <td>[]</td>\n            <td>详见demo 可实现联动</td>\n        </tr>\n        <tr>\n            <td>value</td>\n            <td><b>Array</b></td>\n            <td>默认值/选中值</td>\n            <td>是</td>\n            <td>[]</td>\n            <td></td>\n        </tr>\n        <tr>\n            <td>columns</td>\n            <td>Number</td>\n            <td>[Object]形式时需要设置</td>\n            <td>否</td>\n            <td>0</td>\n            <td></td>\n        </tr>\n    </table>\n\n</div>\n";
 
 /***/ },
-/* 492 */
+/* 514 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(493)
-	__vue_template__ = __webpack_require__(494)
+	__webpack_require__(515)
+	__vue_template__ = __webpack_require__(516)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -64586,16 +65332,16 @@ webpackJsonp([0],[
 	})()}
 
 /***/ },
-/* 493 */
+/* 515 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 494 */
+/* 516 */
 /***/ function(module, exports) {
 
-	module.exports = "\n\n\n\n\n\n\n<section>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-8\">\n                <router-view></router-view>\n            </div>\n            <div class=\"col-md-4 add-m\">\n                <ul class=\"list-group\">\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-modal'}\">ms-modal</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-alert'}\">ms-alert</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-confirm'}\">ms-confirm</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-datepicker'}\">ms-datepicker</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-field'}\">ms-date-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-field'}\">ms-date-range-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-single-field'}\">ms-date-range-single-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-time'}\">ms-time</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-grid-panel'}\">ms-grid-panel</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-video'}\">ms-video</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-pagination'}\">ms-pagination</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-picker-popup'}\">ms-picker-popup</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>\n";
+	module.exports = "\n\n\n\n\n\n\n<section>\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-8\">\n                <router-view></router-view>\n            </div>\n            <div class=\"col-md-4 add-m\">\n                <ul class=\"list-group\">\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-modal'}\">ms-modal</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-alert'}\">ms-alert</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-confirm'}\">ms-confirm</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-progress'}\">ms-progress</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-datepicker'}\">ms-datepicker</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-field'}\">ms-date-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-field'}\">ms-date-range-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-date-range-single-field'}\">ms-date-range-single-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-image-select-preview-field'}\">ms-image-select-preview-field</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-time'}\">ms-time</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-grid-panel'}\">ms-grid-panel</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-video'}\">ms-video</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-pagination'}\">ms-pagination</a>\n                    </li>\n                    <li class=\"list-group-item\">\n                        <a v-link=\"{name:'ms-picker-popup'}\">ms-picker-popup</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>\n";
 
 /***/ }
 ]);

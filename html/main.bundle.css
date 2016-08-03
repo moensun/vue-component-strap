@@ -68,55 +68,58 @@
 
 
 
-ms-tree-combox,ms-date-field,ms-ueditor-field{display: block;border-radius: 4px;}.ms-tree-combox .ms-combox-text[_v-0d82582c] {
+
+
+
+ms-tree-combox,ms-date-field,ms-ueditor-field{display: block;border-radius: 4px;}.ms-tree-combox .ms-combox-text[_v-b13dc2d4] {
   border-right: 0px;
   border-top-left-radius: 4px!important;
   border-bottom-left-radius: 4px!important;
 }
-.ms-tree-combox .ms-combox-text[readonly][_v-0d82582c] {
+.ms-tree-combox .ms-combox-text[readonly][_v-b13dc2d4] {
   background: white;
 }
-.ms-tree-combox .ms-combox-icon[_v-0d82582c] {
+.ms-tree-combox .ms-combox-icon[_v-b13dc2d4] {
   background: white;
   border-left: 0px;
 }
-.ms-tree-combox .ms-combox-icon i[_v-0d82582c] {
+.ms-tree-combox .ms-combox-icon i[_v-b13dc2d4] {
   cursor: pointer;
 }
-.ms-tree-combox .ms-tree-list[_v-0d82582c] {
+.ms-tree-combox .ms-tree-list[_v-b13dc2d4] {
   position: absolute;
   z-index: 100;
   box-sizing: border-box;
 }
-.ms-tree-combox .ms-tree-list .ms-tree-list-inner[_v-0d82582c] {
+.ms-tree-combox .ms-tree-list .ms-tree-list-inner[_v-b13dc2d4] {
   background: white;
   max-height: 300px;
   overflow-y: auto;
   overflow-x: hidden;
   border: 1px #C7C7C7 solid;
 }
-.ms-tree-view ul[_v-706212d8] {
+.ms-tree-view ul[_v-83e6a580] {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-.ms-tree-view ul li[_v-706212d8] {
+.ms-tree-view ul li[_v-83e6a580] {
   line-height: 22px;
   cursor: pointer;
 }
-.ms-tree-view ul li[_v-706212d8]:hover {
+.ms-tree-view ul li[_v-83e6a580]:hover {
   background: rgba(136, 200, 255, 0.5);
 }
-.ms-tree-view ul li.active[_v-706212d8] {
+.ms-tree-view ul li.active[_v-83e6a580] {
   background: rgba(136, 200, 255, 0.5);
 }
-.ms-date-field .ms-calendar[_v-2d0813fa] {
+.ms-date-field .ms-calendar[_v-095bc3ce] {
   cursor: pointer;
 }
-.ms-date-field .ms-picker[_v-2d0813fa] {
+.ms-date-field .ms-picker[_v-095bc3ce] {
   position: relative;
 }
-.ms-date-field .ms-picker .ms-picker-box[_v-2d0813fa] {
+.ms-date-field .ms-picker .ms-picker-box[_v-095bc3ce] {
   position: absolute;
   display: inline-block;
   padding: 9px;
@@ -124,175 +127,90 @@ ms-tree-combox,ms-date-field,ms-ueditor-field{display: block;border-radius: 4px;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  z-index: 200;
+  z-index: 1000;
 }
-.ms-date-field .ms-picker .ms-picker-box .ms-span-right[_v-2d0813fa] {
+.ms-date-field .ms-picker .ms-picker-box .ms-span-right[_v-095bc3ce] {
   float: right;
 }
-.ms-date-field .ms-picker .ms-picker-box-up[_v-2d0813fa] {
+.ms-date-field .ms-picker .ms-picker-box-up[_v-095bc3ce] {
   bottom: 0px;
 }
-.ms-date-field .ms-picker .ms-picker-box-down[_v-2d0813fa] {
+.ms-date-field .ms-picker .ms-picker-box-down[_v-095bc3ce] {
   top: 34px;
 }
-.ms-datepicker .ms-day-panel[_v-4d1fdbe6] {
+.ms-datepicker .ms-day-panel[_v-f0db468e] {
   display: inline-block;
 }
-.ms-datepicker .ms-month-panel[_v-4d1fdbe6] {
+.ms-datepicker .ms-month-panel[_v-f0db468e] {
   display: inline-block;
 }
-.ms-datepicker .ms-year-panel[_v-4d1fdbe6] {
+.ms-datepicker .ms-year-panel[_v-f0db468e] {
   display: inline-block;
 }
-.ms-datepicker-day-panel[_v-6b026fd3] {
+.ms-datepicker-day-panel[_v-7bf8537f] {
   display: inline-block;
 }
-.ms-datepicker-day-panel button[_v-6b026fd3] {
+.ms-datepicker-day-panel button[_v-7bf8537f] {
   width: 100%;
 }
-.ms-datepicker-day-panel .ms-weekday-line th[_v-6b026fd3] {
+.ms-datepicker-day-panel .ms-weekday-line th[_v-7bf8537f] {
   text-align: center;
 }
-.ms-today[_v-5ecc885c] {
+.ms-today[_v-48319d08] {
   color: #00b3ee;
 }
-.other-mouth[_v-5ecc885c] {
+.other-mouth[_v-48319d08] {
   color: #777;
 }
-.ms-select-day[_v-5ecc885c] {
+.ms-select-day[_v-48319d08] {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
-.is-disabled[_v-5ecc885c] {
+.is-disabled[_v-48319d08] {
   opacity: 0.3;
   pointer-events: none;
 }
-.ms-datepicker-month-panel[_v-238ed7b7] {
+.ms-datepicker-month-panel[_v-62caff3a] {
   display: inline-block;
 }
-.ms-datepicker-month-panel button[_v-238ed7b7] {
+.ms-datepicker-month-panel button[_v-62caff3a] {
   width: 100%;
 }
-.is-current-month[_v-19a4a980] {
+.is-current-month[_v-17a044ec] {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
-.ms-datepicker-year-panel[_v-2560c038] {
+.ms-datepicker-year-panel[_v-09d39c90] {
   display: inline-block;
 }
-.ms-datepicker-year-panel button[_v-2560c038] {
+.ms-datepicker-year-panel button[_v-09d39c90] {
   width: 100%;
 }
-.is-current-year[_v-a3014da6] {
+.is-current-year[_v-1c864bfe] {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
 }
-.ms-date-range-field .ms-calendar[_v-b52a4d2c] {
-  cursor: pointer;
-}
-.ms-date-range-field .ms-picker[_v-b52a4d2c] {
-  position: relative;
-}
-.ms-date-range-field .ms-picker button[_v-b52a4d2c] {
-  outline: none;
-}
-.ms-date-range-field .ms-picker .ms-picker-box[_v-b52a4d2c] {
-  position: absolute;
-  display: inline-block;
-  padding: 9px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  z-index: 200;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table[_v-b52a4d2c] {
-  display: table;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr[_v-b52a4d2c] {
-  display: table-row;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td[_v-b52a4d2c] {
-  display: table-cell;
-  vertical-align: top;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous[_v-b52a4d2c] {
-  vertical-align: top;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button[_v-b52a4d2c] {
-  box-sizing: initial;
-  height: 100%;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next[_v-b52a4d2c] {
-  vertical-align: top;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button[_v-b52a4d2c] {
-  box-sizing: initial;
-  height: 100%;
-}
-.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right[_v-b52a4d2c] {
-  float: right;
-}
-.ms-date-range-field .ms-picker .ms-picker-box-up[_v-b52a4d2c] {
-  bottom: 0px;
-}
-.ms-date-range-field .ms-picker .ms-picker-box-down[_v-b52a4d2c] {
-  top: 34px;
-}
-.ms-datepicker-range[_v-13da1b7d] {
-  display: inline-block;
-}
-.ms-datepicker-range tbody tr td button.ms-today[_v-13da1b7d] {
-  color: #00b3ee;
-}
-.ms-datepicker-range tbody tr td button.other-mouth[_v-13da1b7d] {
-  color: #777;
-}
-.ms-datepicker-range tbody tr td button.select-day[_v-13da1b7d] {
-  color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
-}
-.ms-datepicker-range button[_v-13da1b7d] {
-  outline: none;
-}
-.ms-datepicker-range .ms-weekday-line th[_v-13da1b7d] {
-  text-align: center;
-}
-.ms-datepicker-range .ms-center[_v-13da1b7d] {
-  text-align: center;
-  width: 100%;
-}
-.ms-today[_v-4d974c68] {
-  color: #00b3ee;
-}
-.ms-select-day[_v-4d974c68] {
-  color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
-}
-.is-disabled[_v-4d974c68] {
-  opacity: 0.3;
-  pointer-events: none;
-}
-.ms-time-panel[_v-0abd7674] {
+.ms-time-panel[_v-18840848] {
   margin-left: auto;
   margin-right: auto;
   display: table;
 }
-.ms-time-panel .ms-time-cell[_v-0abd7674] {
+.ms-time-panel .ms-time-cell[_v-18840848] {
   display: table-cell;
 }
-.ms-date-range-single-field .ms-calendar[_v-0c39fd75] {
+.ms-date-range-field .ms-calendar[_v-2eaf4b84] {
   cursor: pointer;
 }
-.ms-date-range-single-field .ms-picker[_v-0c39fd75] {
+.ms-date-range-field .ms-picker[_v-2eaf4b84] {
   position: relative;
 }
-.ms-date-range-single-field .ms-picker .ms-picker-box[_v-0c39fd75] {
+.ms-date-range-field .ms-picker button[_v-2eaf4b84] {
+  outline: none;
+}
+.ms-date-range-field .ms-picker .ms-picker-box[_v-2eaf4b84] {
   position: absolute;
   display: inline-block;
   padding: 9px;
@@ -300,33 +218,118 @@ ms-tree-combox,ms-date-field,ms-ueditor-field{display: block;border-radius: 4px;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  z-index: 200;
+  z-index: 1000;
 }
-.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right[_v-0c39fd75] {
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table[_v-2eaf4b84] {
+  display: table;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr[_v-2eaf4b84] {
+  display: table-row;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td[_v-2eaf4b84] {
+  display: table-cell;
+  vertical-align: top;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous[_v-2eaf4b84] {
+  vertical-align: top;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-previous button[_v-2eaf4b84] {
+  box-sizing: initial;
+  height: 100%;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next[_v-2eaf4b84] {
+  vertical-align: top;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-datepicker-table .ms-datepicker-tr .ms-datepicker-td.ms-btn-next button[_v-2eaf4b84] {
+  box-sizing: initial;
+  height: 100%;
+}
+.ms-date-range-field .ms-picker .ms-picker-box .ms-span-right[_v-2eaf4b84] {
   float: right;
 }
-.ms-date-range-single-field .ms-picker .ms-picker-box-up[_v-0c39fd75] {
+.ms-date-range-field .ms-picker .ms-picker-box-up[_v-2eaf4b84] {
   bottom: 0px;
 }
-.ms-date-range-single-field .ms-picker .ms-picker-box-down[_v-0c39fd75] {
+.ms-date-range-field .ms-picker .ms-picker-box-down[_v-2eaf4b84] {
   top: 34px;
 }
-.ms-datepicker-range-single .ms-day-panel[_v-f7c80b70] {
+.ms-datepicker-range[_v-384cb529] {
   display: inline-block;
 }
-.ms-datepicker-range-single .ms-month-panel[_v-f7c80b70] {
-  display: inline-block;
+.ms-datepicker-range tbody tr td button.ms-today[_v-384cb529] {
+  color: #00b3ee;
 }
-.ms-datepicker-range-single .ms-year-panel[_v-f7c80b70] {
-  display: inline-block;
+.ms-datepicker-range tbody tr td button.other-mouth[_v-384cb529] {
+  color: #777;
 }
-.ms-datepicker-range-day-panel[_v-57436d43] {
-  display: inline-block;
+.ms-datepicker-range tbody tr td button.select-day[_v-384cb529] {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
 }
-.ms-datepicker-range-day-panel button[_v-57436d43] {
+.ms-datepicker-range button[_v-384cb529] {
+  outline: none;
+}
+.ms-datepicker-range .ms-weekday-line th[_v-384cb529] {
+  text-align: center;
+}
+.ms-datepicker-range .ms-center[_v-384cb529] {
+  text-align: center;
   width: 100%;
 }
-.ms-datepicker-range-day-panel .ms-weekday-line th[_v-57436d43] {
+.ms-today[_v-2bab8510] {
+  color: #00b3ee;
+}
+.ms-select-day[_v-2bab8510] {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.is-disabled[_v-2bab8510] {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.ms-date-range-single-field .ms-calendar[_v-9174b3be] {
+  cursor: pointer;
+}
+.ms-date-range-single-field .ms-picker[_v-9174b3be] {
+  position: relative;
+}
+.ms-date-range-single-field .ms-picker .ms-picker-box[_v-9174b3be] {
+  position: absolute;
+  display: inline-block;
+  padding: 9px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+}
+.ms-date-range-single-field .ms-picker .ms-picker-box .ms-span-right[_v-9174b3be] {
+  float: right;
+}
+.ms-date-range-single-field .ms-picker .ms-picker-box-up[_v-9174b3be] {
+  bottom: 0px;
+}
+.ms-date-range-single-field .ms-picker .ms-picker-box-down[_v-9174b3be] {
+  top: 34px;
+}
+.ms-datepicker-range-single .ms-day-panel[_v-3a85671c] {
+  display: inline-block;
+}
+.ms-datepicker-range-single .ms-month-panel[_v-3a85671c] {
+  display: inline-block;
+}
+.ms-datepicker-range-single .ms-year-panel[_v-3a85671c] {
+  display: inline-block;
+}
+.ms-datepicker-range-day-panel[_v-649a4022] {
+  display: inline-block;
+}
+.ms-datepicker-range-day-panel button[_v-649a4022] {
+  width: 100%;
+}
+.ms-datepicker-range-day-panel .ms-weekday-line th[_v-649a4022] {
   text-align: center;
 }
 
@@ -390,16 +393,107 @@ ms-tree-combox,ms-date-field,ms-ueditor-field{display: block;border-radius: 4px;
 
 
 
-ul.ms-tree-list[_v-5e866fe6] {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ms-image-select-preview {
+  height: auto!important;
+}
+.ms-image-select-preview .thumbnail {
+  display: inline-block;
+}
+.ms-image-select-preview .thumbnail img {
+  max-width: 100%;
+}
+ul.ms-tree-list[_v-720b028e] {
   color: white;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-ul.ms-tree-list > li[_v-5e866fe6] {
+ul.ms-tree-list > li[_v-720b028e] {
   position: relative;
 }
-ul.ms-tree-list > li > a[_v-5e866fe6] {
+ul.ms-tree-list > li > a[_v-720b028e] {
   position: relative;
   color: #b8c7ce;
   width: 100%;
@@ -410,32 +504,32 @@ ul.ms-tree-list > li > a[_v-5e866fe6] {
   text-decoration: none;
   cursor: pointer;
 }
-ul.ms-tree-list > li > a[_v-5e866fe6]:hover {
+ul.ms-tree-list > li > a[_v-720b028e]:hover {
   color: #fff;
   background: #1e282c;
   border-left-color: #3c8dbc;
 }
-ul.ms-tree-list > li > a.ms-open[_v-5e866fe6] {
+ul.ms-tree-list > li > a.ms-open[_v-720b028e] {
   color: #fff;
   background: #1e282c;
   border-left-color: #3c8dbc;
 }
-ul.ms-tree-list > li > a > i[_v-5e866fe6] {
+ul.ms-tree-list > li > a > i[_v-720b028e] {
   position: absolute;
   right: 10px;
   top: 12px;
 }
-ul.ms-tree-menu[_v-5e866fe6] {
+ul.ms-tree-menu[_v-720b028e] {
   color: white;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   background: #2C3B41;
 }
-ul.ms-tree-menu > li[_v-5e866fe6] {
+ul.ms-tree-menu > li[_v-720b028e] {
   position: relative;
 }
-ul.ms-tree-menu > li > a[_v-5e866fe6] {
+ul.ms-tree-menu > li > a[_v-720b028e] {
   position: relative;
   color: #555d5e;
   width: 100%;
@@ -446,75 +540,84 @@ ul.ms-tree-menu > li > a[_v-5e866fe6] {
   text-decoration: none;
   cursor: pointer;
 }
-ul.ms-tree-menu > li > a[_v-5e866fe6]:hover {
+ul.ms-tree-menu > li > a[_v-720b028e]:hover {
   color: white;
 }
-ul[_v-94097db8] {
+ul[_v-6a972dd0] {
   list-style-type: none;
   margin: 0;
   padding: 0;
   line-height: 22px;
   word-wrap: break-word;
 }
-ul.tree-panel[_v-94097db8] {
+ul.tree-panel[_v-6a972dd0] {
   margin-left: 18px;
 }
-ul li div.ms-tree-panel-checkbox[_v-94097db8] {
+ul li div.ms-tree-panel-checkbox[_v-6a972dd0] {
   margin-top: 0px!important;
   margin-bottom: 0px!important;
   padding-top: 0px!important;
 }
-ul li div label[_v-94097db8] {
+ul li div label[_v-6a972dd0] {
   cursor: pointer;
   vertical-align: middle;
 }
-ul li div label input[type=checkbox][_v-94097db8] {
+ul li div label input[type=checkbox][_v-6a972dd0] {
   width: 16px;
   height: 16px;
   vertical-align: middle;
 }
-.grid-panel[_v-70cc3268] {
+.grid-panel[_v-7c35d378] {
   width: 100%;
   position: relative;
 }
-.grid-panel .grid-header.scroll-show[_v-70cc3268] {
-  padding-right: 14px;
+.grid-panel .grid-panel-out-box[_v-7c35d378] {
+  width: 100%;
+  overflow-x: auto;
 }
-.grid-panel .grid-header .table-bordered[_v-70cc3268] {
+@media screen and (max-width: 767px) {
+  .grid-panel .grid-header.table-responsive[_v-7c35d378] {
+    margin-bottom: 0px;
+  }
+}
+.grid-panel .grid-header.scroll-show[_v-7c35d378] {
+  /*padding-right: 14px;*/
+}
+.grid-panel .grid-header .table-bordered[_v-7c35d378] {
   border: 0px;
 }
-.grid-panel .grid-header .table[_v-70cc3268] {
+.grid-panel .grid-header .table[_v-7c35d378] {
   margin-bottom: 0px;
 }
-.grid-panel .grid-header .table thead tr th[_v-70cc3268] {
+.grid-panel .grid-header .table thead tr th[_v-7c35d378] {
   min-height: 47px;
   border-bottom: 0px;
   vertical-align: middle;
 }
-.grid-panel .grid-header-line[_v-70cc3268] {
+.grid-panel .grid-header-line[_v-7c35d378] {
   border-bottom: 2px solid #ddd;
 }
-.grid-panel .grid-body-box[_v-70cc3268] {
+.grid-panel .grid-body-box[_v-7c35d378] {
   position: relative;
 }
-.grid-panel .grid-body-box .ms-grid-loading[_v-70cc3268] {
+.grid-panel .grid-body-box .ms-grid-loading[_v-7c35d378] {
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
 }
-.grid-panel .grid-body-box .grid-body[_v-70cc3268] {
+.grid-panel .grid-body-box .grid-body[_v-7c35d378] {
   position: relative;
   overflow-y: auto;
 }
-.grid-panel .grid-body-box .grid-body .table[_v-70cc3268] {
+.grid-panel .grid-body-box .grid-body .table[_v-7c35d378] {
   margin-bottom: 0px;
 }
-.grid-panel .grid-body-box .grid-body .table tr[_v-70cc3268] {
+.grid-panel .grid-body-box .grid-body .table tr[_v-7c35d378] {
   min-height: 47px;
 }
-.grid-panel .grid-body-box .grid-body .table tr td[_v-70cc3268] {
+.grid-panel .grid-body-box .grid-body .table tr td[_v-7c35d378] {
   vertical-align: middle;
 }
 
@@ -573,24 +676,32 @@ ul li div label input[type=checkbox][_v-94097db8] {
 
 
 
-.ms-paging[_v-d9da531e] {
+
+
+
+
+
+
+
+
+.ms-paging[_v-ed5ee5c6] {
   border: 1px #ddd solid;
   line-height: 34px;
 }
-.ms-paging .glyphicon[_v-d9da531e] {
+.ms-paging .glyphicon[_v-ed5ee5c6] {
   cursor: pointer;
 }
-.ms-paging .tbspacer[_v-d9da531e] {
+.ms-paging .tbspacer[_v-ed5ee5c6] {
   width: 5px;
   display: inline-block;
 }
-.ms-paging .tbseparator[_v-d9da531e] {
+.ms-paging .tbseparator[_v-ed5ee5c6] {
   display: inline-block;
   height: 18px;
   border-left: 1px #989898 solid;
   vertical-align: middle;
 }
-.ms-paging .ms-paging-num[_v-d9da531e] {
+.ms-paging .ms-paging-num[_v-ed5ee5c6] {
   width: 40px;
   height: 30px;
   vertical-align: middle;
@@ -599,15 +710,15 @@ ul li div label input[type=checkbox][_v-94097db8] {
   padding-left: 5px;
   outline: none;
 }
-.ms-paging .ms-paging-left[_v-d9da531e] {
+.ms-paging .ms-paging-left[_v-ed5ee5c6] {
   display: inline-block;
 }
-.ms-paging .ms-paging-right[_v-d9da531e] {
+.ms-paging .ms-paging-right[_v-ed5ee5c6] {
   display: inline-block;
   float: right;
   padding-right: 10px;
 }
-.ms-paging .ms-paging-disabled[_v-d9da531e] {
+.ms-paging .ms-paging-disabled[_v-ed5ee5c6] {
   opacity: 0.3;
   pointer-events: none;
 }
@@ -717,15 +828,15 @@ ul li div label input[type=checkbox][_v-94097db8] {
 
 
 
-.ms-grid-action-item[_v-173590fb] {
+.ms-grid-action-item[_v-2d5c9bcf] {
   display: inline-block;
   margin: 3px;
   cursor: pointer;
 }
-.ms-grid-action-item .ms-grid-action-item-tooltip-box[_v-173590fb] {
+.ms-grid-action-item .ms-grid-action-item-tooltip-box[_v-2d5c9bcf] {
   position: relative;
 }
-.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip[_v-173590fb] {
+.ms-grid-action-item .ms-grid-action-item-tooltip-box .ms-grid-action-item-tooltip[_v-2d5c9bcf] {
   position: fixed;
   border: 1px rgba(0, 0, 0, 0.3) solid;
   border-radius: 4px;
@@ -734,16 +845,26 @@ ul li div label input[type=checkbox][_v-94097db8] {
   z-index: 1;
   color: white;
 }
-.ms-grid-action-item .ms-grid-action-item-disabled[_v-173590fb] {
+.ms-grid-action-item .ms-grid-action-item-disabled[_v-2d5c9bcf] {
   opacity: 0.3;
   cursor: default;
   pointer-events: none;
 }
-.ms-alert .modal-footer[_v-2eaa1baf] {
+.ms-alert .modal-footer[_v-44d12683] {
   text-align: center!important;
 }
-.ms-confirm .modal-footer[_v-8ed0b75a] {
+.ms-confirm .modal-footer[_v-3db16bb2] {
   text-align: center!important;
+}
+.ms-progress .ms-progress-box[_v-17b4c154] {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.ms-progress .ms-progress-box .ms-progress-inner[_v-17b4c154] {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -787,7 +908,7 @@ ul li div label input[type=checkbox][_v-94097db8] {
 
 
 
-.ms-video[_v-af7d4544] {
+.ms-video[_v-b4d661ec] {
   position: relative;
 }
 .video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {
@@ -3910,8 +4031,226 @@ a.weui_cell:hover,a.weui_cell:focus{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .add-m{margin-top:20px;}
 .red{color:red}
+
+
+
+
+
+
 
 
 
