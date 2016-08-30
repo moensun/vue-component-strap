@@ -59244,9 +59244,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        "poster": {
 	            type: String
 	        },
-	        "src": {
-	            type: String
-	        },
+	        "src": {},
 	        "type": {
 	            type: String
 	        },
@@ -59291,7 +59289,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            handler: function handler(newValue, oldValue) {
 	                var me = this;
 	                me.player.src(newValue);
-	            }
+	            },
+	            deep: true
 	        },
 	        "preload": function preload(newValue, oldValue) {
 	            var me = this;
@@ -59307,6 +59306,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        "initialize": function initialize() {
 	            var me = this;
 	            me.player = (0, _video2.default)(me.$els.videoEl, me.options, function () {});
+	            me.player.src(me.src);
 	        }
 	    },
 	    components: {}

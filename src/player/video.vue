@@ -35,10 +35,10 @@ Time: 17:47-->
                 }
             },
             "poster":{
-
+                type:String
             },
             "src":{
-                type:String
+
             },
             "type":{
                 type:String
