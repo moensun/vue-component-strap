@@ -35,7 +35,7 @@ Time: 17:47-->
                 }
             },
             "poster":{
-                type:String
+
             },
             "src":{
                 type:String
@@ -83,7 +83,8 @@ Time: 17:47-->
                 handler:function (newValue,oldValue) {
                     let me = this;
                     me.player.src(newValue);
-                }
+                },
+                deep:true
             },
             "preload":function (newValue,oldValue) {
                 let me = this;
@@ -100,6 +101,7 @@ Time: 17:47-->
                 me.player = videojs(me.$els.videoEl, me.options, function() {
                     // This is functionally the same as the previous example.
                 });
+                me.player.src(me.src);
             }
         },
         components:{
