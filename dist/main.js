@@ -56906,21 +56906,44 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 	        },
 	        "image": {
-	            type: String,
 	            twoWay: true,
 	            default: function _default() {
 	                return "";
 	            }
+	        },
+	        "type": {
+	            type: String,
+	            default: function _default() {
+	                return "base64";
+	            }
 	        }
 	    },
 	    data: function data() {
-	        return {};
+	        return {
+	            "imageUrl": null
+	        };
 	    },
 	
-	    computed: {
-	        "imageUrl": function imageUrl() {
-	            var me = this;
-	            return me.image ? me.image : _index2.default.noImage;
+	    watch: {
+	        "image": {
+	            handler: function handler(newVal, oldVal) {
+	                var me = this;
+	                if (newVal) {
+	                    if (typeof newVal == 'string') {
+	                        me.imageUrl = newVal;
+	                    } else {
+	                        var reader = new FileReader();
+	                        reader.readAsDataURL(newVal);
+	                        reader.onload = function (e) {
+	                            me.imageUrl = e.target.result;
+	                        };
+	                    }
+	                } else {
+	                    me.imageUrl = _index2.default.noImage;
+	                }
+	            },
+	            deep: true,
+	            immediate: true
 	        }
 	    },
 	    methods: {
@@ -56930,12 +56953,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	        "onSelectFile": function onSelectFile(e) {
 	            var me = this;
 	            var files = e.target.files;
-	            var reader = new FileReader();
+	
 	            if (files && files.length > 0) {
-	                reader.readAsDataURL(files[0]);
-	                reader.onload = function (e) {
-	                    me.image = e.target.result;
-	                };
+	                if (me.type == 'base64') {
+	                    var reader = new FileReader();
+	                    reader.readAsDataURL(files[0]);
+	                    reader.onload = function (e) {
+	                        me.image = e.target.result;
+	                    };
+	                } else {
+	                    me.image = files[0];
+	                }
 	            }
 	            e.target.value = "";
 	        },
