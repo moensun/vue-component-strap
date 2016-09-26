@@ -44,6 +44,7 @@ Time: 14:51-->
 
             KindEditor.ready(function(K) {
                 me.editor = K.create('#'+me.id,Object.assign({
+                    uploadJson:'mslaravel-kindeditor',
                     afterChange:function(){
                         me.value = this.html();
                     }
