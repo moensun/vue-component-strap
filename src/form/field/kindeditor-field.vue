@@ -25,6 +25,12 @@ Time: 14:51-->
                     return "";
                 }
             },
+            "width": {
+                type:String,
+                default: function() {
+                    return "100%";
+                }
+            },
             "options":{
                 type:Object,
                 default:function () {
@@ -55,6 +61,7 @@ Time: 14:51-->
 
             KindEditor.ready(function(K) {
                 me.editor = K.create('#'+me.id,Object.assign({
+                    width: me.width,
                     uploadJson: me.uploadJson,
                     afterChange:function(){
                         me.value = this.html();
