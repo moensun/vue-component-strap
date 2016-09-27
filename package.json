@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --port 9000 --content-base html --watch --progress",
     "html":"webpack --progress",
-    "src": "webpack --config webpack-src.config.babel.js --progress",
+    "build": "webpack --config webpack-src.config.babel.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

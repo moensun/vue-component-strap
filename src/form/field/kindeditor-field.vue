@@ -30,8 +30,19 @@ Time: 14:51-->
                 default:function () {
                     return {};
                 }
+            },
+            "uploadJson": {
+                type: String,
+                default: function () {
+                    return "./kindeditor/upload_json";
+                }
+            },
+            "fileManagerJson": {
+                type: String,
+                default: function () {
+                    return "./kindeditor/file_manager_json";
+                }
             }
-
         },
         data(){
             return{
@@ -44,7 +55,7 @@ Time: 14:51-->
 
             KindEditor.ready(function(K) {
                 me.editor = K.create('#'+me.id,Object.assign({
-                    uploadJson:'mslaravel-kindeditor',
+                    uploadJson: me.uploadJson,
                     afterChange:function(){
                         me.value = this.html();
                     }

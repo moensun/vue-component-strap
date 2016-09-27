@@ -168,7 +168,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		msDateRangeField: _dateRangeField2.default,
 		msDateRangeSingleField: _dateRangeSingleField2.default,
 		msUeditorField: _ueditorField2.default,
-		msKindEditorField: _kindeditorField2.default,
+		msKindeditorField: _kindeditorField2.default,
 		msImageSelectPreviewField: _imageSelectPreviewField2.default,
 		msTreeList: _treeList2.default,
 		treeView: _treeView2.default,
@@ -56723,7 +56723,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"kindeditor-field.vue","sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"kindeditor-field.vue","sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -56768,8 +56768,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	            default: function _default() {
 	                return {};
 	            }
+	        },
+	        "uploadJson": {
+	            type: String,
+	            default: function _default() {
+	                return "./kindeditor/upload_json";
+	            }
+	        },
+	        "fileManagerJson": {
+	            type: String,
+	            default: function _default() {
+	                return "./kindeditor/file_manager_json";
+	            }
 	        }
-	
 	    },
 	    data: function data() {
 	        return {
@@ -56782,6 +56793,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	        KindEditor.ready(function (K) {
 	            me.editor = K.create('#' + me.id, (0, _assign2.default)({
+	                uploadJson: me.uploadJson,
 	                afterChange: function afterChange() {
 	                    me.value = this.html();
 	                }
