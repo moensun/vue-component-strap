@@ -141,6 +141,7 @@ Time: 14:26-->
         },
         ready(){
             let me = this;
+            debugger;
             if(me.startDay){
                 let month1 = new Date(me.dateAdapter(me.startDay));
                 let month2 = _.cloneDeep(month1);
@@ -172,6 +173,7 @@ Time: 14:26-->
         watch:{
             "startDate":{
                 handler:function (newValue,oldValue) {
+                debugger;
                     let me = this;
                     if(newValue && newValue!=oldValue){
                         me.startDayObj = new Date(me.dateAdapter(newValue));
@@ -184,6 +186,7 @@ Time: 14:26-->
             },
             "endDate":{
                 handler:function (newValue,oldValue) {
+                debugger;
                     let me = this;
                     if(newValue && newValue!=oldValue){
                         me.endDayObj = new Date(me.dateAdapter(newValue));
@@ -196,6 +199,7 @@ Time: 14:26-->
             },
             "startDayObj":{
                 handler:function (newValue,oldValue) {
+                debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         me.startDate = moment(newValue).format(me.dateFormat);
@@ -206,6 +210,7 @@ Time: 14:26-->
             },
             "endDayObj":{
                 handler:function (newValue,oldValue) {
+                debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         me.endDate = moment(newValue).format(me.dateFormat);
@@ -215,11 +220,12 @@ Time: 14:26-->
             },
             "selectedDatesObj":{
                 handler:function (newValue,oldValue) {
-                   // debugger;
+                    debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];
                         _.forEach(newValue,function (date) {
+                        debugger;
                             dates.push(moment(date).format(me.dateItemsFormat));
                         });
                         me.selectedDates = dates;
@@ -228,6 +234,7 @@ Time: 14:26-->
             },
             "selectedDates":{
                 handler:function (newValue,oldValue) {
+                debugger;
                     let me = this;
                     if(newValue && JSON.stringify(newValue)!=JSON.stringify(oldValue)){
                         let dates = [];

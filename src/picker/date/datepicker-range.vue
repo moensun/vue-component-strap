@@ -103,14 +103,18 @@ Time: 14:41-->
             "startDay":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    me.setSelectedDates();
+                    if(!me.selectedDates || me.selectedDates.length==0){
+                        me.setSelectedDates();
+                    }
                 },
                 //immediate:true
             },
             "endDay":{
                 handler:function (newValue,oldValue) {
                     let me = this;
-                    me.setSelectedDates();
+                    if(!me.selectedDates || me.selectedDates.length==0){
+                        me.setSelectedDates();
+                    }
                 },
                 //immediate:true
             }
@@ -127,11 +131,13 @@ Time: 14:41-->
                 me.endDay = endDay;
             },
             "setSelectedDates":function () {
+            debugger;
                 let me = this;
-                if(typeof me.startDay != 'object'){
+
+                if(!(me.startDay instanceof Date)){
                     me.startDay = new Date(me.startDay);
                 }
-                if(typeof me.endDay != 'object'){
+                if(!(me.endDay instanceof Date)){
                     me.endDay = new Date(me.endDay);
                 }
                 if(me.startDay && me.endDay){
@@ -139,14 +145,6 @@ Time: 14:41-->
                     let startDay =  new Date(me.startDay.getFullYear(),me.startDay.getMonth(),me.startDay.getDate());
                     let endDay = new Date(me.endDay.getFullYear(),me.endDay.getMonth(),me.endDay.getDate());
                     while (true){
-/*                        if( startDay.getFullYear()<= endDay.getFullYear()
-                                || startDay.getMonth()<=endDay.getMonth()
-                                || startDay.getDate()<=endDay.getDate()  ){
-                            dates.push(_.cloneDeep(startDay));
-                            startDay.setDate(startDay.getDate()+1);
-                        }else {
-                            break;
-                        }*/
                         if(startDay <= endDay ){
                             if(typeof me.isDisabled == 'function'){
                                 if(!me.isDisabled(startDay)){
@@ -162,6 +160,7 @@ Time: 14:41-->
                     }
                     me.selectedDates = dates;
                 }
+
 
             }
 

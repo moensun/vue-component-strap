@@ -92,6 +92,7 @@ Time: 17:11-->
                         me.startDay = me.dayItem;
                     }
                 }
+                me.selectedDates = [];
                 //me.setSelectedDates();
             },
             "cancelDay":function () {

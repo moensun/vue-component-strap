@@ -12,9 +12,12 @@ Time: 14:32-->
     <div>
         <ms-datepicker-range
                 :selected-dates.sync="selectedDates1"
-                :start-date.sync="startDate"
-                :end-date.sync="endDate">
+                :start-date.sync="startDate1"
+                :end-date.sync="endDate1">
         </ms-datepicker-range>
+        <div><button @click="setDates">赋值</button>
+            <button @click="setDates1">赋值</button>
+        </div>
         <div>{{selectedDates1}}</div>
     </div>
     <div>
@@ -95,8 +98,29 @@ Time: 14:32-->
                     }
                 },
                 "selectedDates1":[
-                    '2016-11-12'
-                ]
+                ],
+                "startDate1":"2016-11-1 12:06:07",
+                "endDate1":"2016-11-30 12:06:30",
+            }
+        },
+        methods:{
+            setDates:function() {
+                let me = this;
+                me.selectedDates1 = [
+                    "2016-11-12",
+                    "2016-11-16"
+                ];
+                me.startDate1 = "2016-11-1";
+                me.endDate1 = "2016-11-20";
+            },
+            setDates1: function() {
+                            let me = this;
+                me.selectedDates = [
+                    "2016-11-12",
+                    "2016-11-16"
+                ];
+                me.startDate = "2016-11-1";
+                me.endDate = "2016-11-20";
             }
         },
         components:{
