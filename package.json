@@ -1,6 +1,6 @@
 {
   "name": "moensun-vue-component-strap",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "vue-strap",
   "main": "dist/main.js",
   "scripts": {

@@ -131,7 +131,6 @@ Time: 14:41-->
                 me.endDay = endDay;
             },
             "setSelectedDates":function () {
-            debugger;
                 let me = this;
 
                 if(!(me.startDay instanceof Date)){
