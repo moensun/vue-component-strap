@@ -44,6 +44,9 @@ Time: 17:11-->
                 let me = this;
                 let result = false;
                 _.forEach(me.selectedDates,function (selectedDate) {
+                    if(!(selectedDate instanceof Date)){
+                        selectedDate = new Date(selectedDate);
+                    }
                     if(selectedDate.getFullYear()== me.dayItem.getFullYear()
                             && selectedDate.getMonth()==me.dayItem.getMonth()
                             && selectedDate.getDate()==me.dayItem.getDate()  ){

@@ -10,6 +10,14 @@ Time: 14:32-->
         <ms-datepicker-range></ms-datepicker-range>
     </div>
     <div>
+        <ms-datepicker-range
+                :selected-dates.sync="selectedDates1"
+                :start-date.sync="startDate"
+                :end-date.sync="endDate">
+        </ms-datepicker-range>
+        <div>{{selectedDates1}}</div>
+    </div>
+    <div>
         <div style="max-height: 100px;overflow-y: auto">
             <div v-for="(dateIndex,date) in selectedDates">{{date}}</div>
         </div>
@@ -78,14 +86,17 @@ Time: 14:32-->
     export default{
         data(){
             return {
-                "startDate":"2016-5-6 12:06:07",
-                "endDate":"2016-5-10 12:06:30",
+                "startDate":"2016-11-1 12:06:07",
+                "endDate":"2016-11-30 12:06:30",
                 "selectedDates":[],
                 "isDisabled":function (day) {
                     if(day.getDay() == 3){
                         return true;
                     }
-                }
+                },
+                "selectedDates1":[
+                    '2016-11-12'
+                ]
             }
         },
         components:{
